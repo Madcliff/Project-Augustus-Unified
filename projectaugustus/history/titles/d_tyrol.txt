@@ -1,0 +1,13 @@
+1066.1.1={
+    de_jure_liege = k_germany
+}
+1220.1.1 = {
+	liege = e_hre
+	holder = 212382
+}
+1241.1.1 = {
+	holder = 212382
+}
+1253.7.22 = {
+	holder = 0
+}

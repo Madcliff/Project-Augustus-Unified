@@ -1,0 +1,10 @@
+845.1.1 = {
+	holder = 159137
+        set_global_flag = magyars
+}
+867.1.1 = {
+        set_global_flag = magyar_migration
+} 
+895.1.1 = {
+	holder = 0
+}

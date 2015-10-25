@@ -1,0 +1,54 @@
+#CODE;ENGLISH;;;;;;;;;x 
+RCLK_TO_SELECT;§GRight-click to Select§!;;;;;;;;;x 
+vassal_sacrifice_decision;Sacrifice;;;;;;;;;x 
+vassal_sacrifice_decision_named;Sacrifice [Root.GetTitledFirstName];;;;;;;;;x 
+break_up_with_lover_named;Break up with [Root.GetTitledFirstName];;;;;;;;;x 
+seduce_decision_named;Seduce [Root.GetTitledFirstName];;;;;;;;;x 
+decision_spy_on_named;Spy On [Root.GetTitledFirstName];;;;;;;;;x 
+decision_break_free_named;Free [Root.GetTitledFirstName] from Captivity;;;;;;;;;x 
+invite_to_party_named;Invite [Root.GetTitledFirstName] to Carousing;;;;;;;;;x 
+duel_decision_named;Duel [Root.GetTitledFirstName];;;;;;;;;x 
+legitimize_bastard;Legitimize;;;;;;;;;x 
+legitimize_bastard_named;Legitimize [Root.GetTitledFirstName];;;;;;;;;x 
+convince_to_straighten_up_named;Convince [Root.GetTitledFirstName] to Straighten up;;;;;;;;;x 
+send_child_into_hiding;Send into Hiding;;;;;;;;;x 
+send_child_into_hiding_named;Send [Root.GetFirstName] into Hiding;;;;;;;;;x 
+take_child_out_of_hiding;Take out of Hiding;;;;;;;;;x 
+take_child_out_of_hiding_named;Take [Root.GetFirstName] out of Hiding;;;;;;;;;x 
+send_spouse_into_hiding;Send into Hiding;;;;;;;;;x 
+send_spouse_into_hiding_named;Send [Root.GetFirstName] into Hiding;;;;;;;;;x 
+take_spouse_out_of_hiding;Take out of Hiding;;;;;;;;;x 
+take_spouse_out_of_hiding_named;Take [Root.GetFirstName] out of Hiding;;;;;;;;;x 
+EVENT_SPAWNED;Event Spawned;;;;;;;;;x 
+known_sodomite_pagan;Effeminate Man Lover;;;;;;;;;x 
+comfort_of_lover;Comforted by Lover;;;;;;;;;x 
+desc_comfort_of_lover;[GetFirstName] has found solace from [GetPossPronoun] tempestuous marriage in the arms of a lover.;;;;;;;;;x 
+thrill_of_lover;Thrill of Illicit Love;;;;;;;;;x 
+opinion_dishonorable_duel;Dishonorable Duel;;;;;;;;;x 
+dishonorable_duel_tooltip;This is considered dishonorable and people might be upset about this act.;;;;;;;;;x 
+desc_thrill_of_lover;[GetFirstName] has found escape from a tempestuous marriage by [GetPossPronoun] thrilling affair with a lover.;;;;;;;;;x 
+CIW_GOTOLOCATION_DEL;Zoom to the character's location on the map.;;;;;;;;;x 
+CIW_GOTOCHARREL_DEL;Explore other characters' opinions of this character.;;;;;;;;;x 
+#alert_available_targetted_decision_instant;§YSpecial Actions Possible§!;;;;;;;;;x 
+#alert_available_targetted_decision_delayed;The following special actions are available:\n$LIST$;;;;;;;;;x 
+CAN_CALL_VASSALS_TO_WAR;All of our Vassals;;;;;;;;;x 
+IS_NOT_A_FOE_OF;Is NOT a Foe of ;;;;;;;;;x 
+IS_A_FOE_OF;Is a Foe of ;;;;;;;;;x 
+nick_the_scholar;the Scholar;;;;;;;;;x 
+nick_the_strange;the Strange;;;;;;;;;x 
+nick_the_black;the Black;;;;;;;;;x 
+WayOfLifeDLC;Way of Life;;;;;;;;;x 
+IberianUnitPackDLC;Iberian Unit Pack;;;;;;;;;x 
+IberianPortraitsDLC;Iberian Portraits;;;;;;;;;x 
+tut_0a_7b;Note that you can also right click the portrait of characters to open a diplomacy menu with that character.;;;;;;;;;x 
+tut_4a_4;To get started, right click your half-brother, Earl Malmure of Atholl. You will find him at the bottom left of the family tab, under the header 'siblings'. (The portrait you see here is just an example, not the actual Earl.);;;;;;;;;x 
+tut_4a_5;To the left, we see a list of possible diplomatic actions. To the right you will be able to adjust the diplomatic choices and see what effect they will net once you have decided. Click next to continue.;;;;;;;;;x 
+tut_6a_12;Now it is time to actually declare war. So click on Søroyar again. Right click the portrait to open the diplomacy menu.;;;;;;;;;x 
+tut_4c_9;Consider carefully who would be the best choice for you, and keep in mind that dynasty and her rank will matter for your prestige gain or loss when entering the marriage. When you have made your choice, right-click her portrait to continue.;;;;;;;;;x 
+#EVTDESC107009;When you have found a good character to marry, right-click on their portrait to open the Diplomacy View. Here you may ask the Liege of your intended wife about the possibility of arranging a marriage. The Diplomacy View is the main way to interact with other characters. Go ahead and arrange the marriage!;;;;;;;;;x 
+#EVTDESC107310;You are now ready to make Peace. To do this, click on the War icon in the bottom right of the screen. You can also right-click the portrait of the character you are fighting and open their Diplomatic View.;;;;;;;;;x 
+#EVTDESC107300;You now have a Claim and it's time to let slip the dogs of War! Click on Canarias province and right-click the Ruler Portrait in the County View. Select 'Declare War' in the Diplomacy View and the 'Claim Canarias' Casus Belli. Send the War Declaration.;;;;;;;;;x 
+ca_culture_moors_2;Moorish Cavalry Barracks;;;;;;;;;x 
+ca_culture_moors_3;Moorish Cavalry Barracks;;;;;;;;;x 
+ca_culture_moors_4;Moorish Cavalry Barracks;;;;;;;;;x 
+TRIBAL_TAX_MODIFIER;Tribal Tax;;;;;;;;;x 

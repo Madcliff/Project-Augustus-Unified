@@ -1,0 +1,525 @@
+#######################################
+#
+# Catholic Heresy Events
+#
+# Event ID ID SHH.101 - SHH.199 reserved
+#
+#######################################
+
+# Written by Hansol "LumberKing" Lee
+
+namespace = SHH
+
+### Hussite Wars
+
+# Papal Schism Continues
+character_event = {
+	id = SHH.101
+	desc = OK
+
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		year = 1400
+		has_global_flag = papal_schism
+	}
+
+	mean_time_to_happen = {
+		months = 48
+	}
+
+	option = {
+		name = OK
+		religion_authority = -70
+		set_global_flag = reform_desire
+	}
+}
+
+# Rise of the Chalice People
+narrative_event = {
+	id = SHH.102
+	title = EVTNAMESHH.102
+	desc = EVTDESCSHH.102
+	major = yes
+
+	days = 7
+	random = 3
+	
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+	
+	trigger = {
+		has_global_flag = reform_desire
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	immediate = {
+		set_global_flag = chalice_people
+		
+		e_hre = {
+			holder_scope = {
+				create_random_priest = {
+					random_traits = yes
+					culture = bohemian
+					religion = hussite
+					trait = mastermind_theologian
+					trait = heresiarch
+					set_character_flag = jan_hus
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTASHH.102
+		trigger = {
+			religion = catholic
+		}
+		religion = hussite
+	}
+	option = {
+		name = EVTOPTBSHH.102
+		trigger = {
+			religion = catholic
+		}
+		piety = 100
+	}
+	option = {
+		name = EVTOPTCSHH.102
+		trigger = {
+			religion = lollard
+			NOT = { culture = english }
+			NOT = { culture = saxon }
+		}
+		religion = hussite
+	}
+	option = {
+		name = EVTOPDSHH.102
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = hussite }
+		}
+	}
+	option = {
+		name = EVTOPESHH.102
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# Reforming the Papacy
+narrative_event = {
+	id = SHH.103
+	title = EVTNAMESHH.103
+	desc = EVTDESCSHH.103
+	major = yes
+
+	days = 7
+	random = 3
+	
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+	
+	trigger = {
+		has_global_flag = chalice_people
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	immediate = {
+		set_global_flag = chalice_people
+		
+		random_courtier = {
+			has_character_flag = jan_hus
+			imprison = PREV
+		}
+	}
+	
+	option = {
+		name = EVTOPTASHH.103
+		trigger = {
+			has_landed_title = e_hre
+		}
+		random_courtier = {
+			has_character_flag = jan_hus
+			reverse_imprison = PREV
+		}
+		religion_authority = -100
+	}
+	option = {
+		name = EVTOPTBSHH.103
+		trigger = {
+			has_landed_title = e_hre
+		}
+		random_courtier = {
+			has_character_flag = jan_hus
+			death = { death_reason = death_execution killer = ROOT } 
+		}
+		any_claim = {
+			has_claim = k_papal_state 
+			remove_claim = k_papal_state
+		}
+		religion_authority = 50
+		narrative_event = { id = SHH.104 }
+	}
+	option = {
+		name = EVTOPTCSHH.103
+		trigger = {
+			religion = catholic
+			NOT = { has_landed_title = e_hre }
+		}
+		religion = hussite
+	}
+	option = {
+		name = EVTOPDSHH.103
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = hussite }
+		}
+	}
+	option = {
+		name = EVTOPESHH.103
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# Hussite Wars
+narrative_event = {
+	id = SHH.104
+	title = EVTNAMESHH.104
+	desc = EVTDESCSHH.104
+	picture = GFX_evt_bishop
+	border = GFX_event_narrative_frame_religion
+	
+	major = yes
+	
+	only_independent = yes
+	only_playable = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		months = 180
+		modifier = {
+			factor = 0.25
+			OR = {
+				c_praha = {
+					holder_scope = {
+						same_realm = ROOT
+					}
+				}
+				c_domazlice = {
+					holder_scope = {
+						same_realm = ROOT
+					}
+				}
+				c_schwaben = {
+					holder_scope = {
+						same_realm = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_flag = hussite_war
+		
+		random_realm_province = {
+			limit = {
+				kingdom = {
+					OR = {
+						has_holder = no
+						holder_scope = {
+							character = ROOT
+						}
+					}
+					num_title_realm_provs = {
+						who = ROOT
+						num = 6
+					}
+				}
+			}
+			ROOT = {
+				create_character = {
+					dynasty = random
+					religion = hussite
+					culture = ROOT
+					female = no
+					age = 30
+					health = 6.5
+					fertility = 0.6
+					trait = brilliant_strategist
+					trait = heresiarch
+					trait = quick
+					trait = fair
+					trait = chaste
+					trait = zealous
+					trait = diligent
+					trait = gregarious
+					attributes = {
+						learning = 17
+						diplomacy = 13
+						martial = 21
+						stewardship = 7
+						intrigue = 5
+					}
+				}
+				
+				new_character = {
+					set_character_flag = hussite_leader
+					create_title = {
+						tier = DUKE
+						landless = yes
+						temporary = yes
+						culture = ROOT
+						name = HUSSITE_LEADER
+						holder = THIS
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 30
+						trait = brilliant_strategist
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.075
+							attrition = 0.5
+							cannot_inherit = yes
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 27
+						trait = brilliant_strategist
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.075
+							attrition = 0.5
+							cannot_inherit = yes
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 25
+						trait = skilled_tactician
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.075
+							attrition = 0.5
+							cannot_inherit = yes
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 23
+						trait = skilled_tactician
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.075
+							attrition = 0.5
+							cannot_inherit = yes
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 27
+						trait = skilled_tactician
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.075
+							attrition = 0.5
+							cannot_inherit = yes
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 24
+						trait = skilled_tactician
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.075
+							attrition = 0.5
+							cannot_inherit = yes
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 32
+						trait = brilliant_strategist
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.15
+							attrition = 0.0
+							cannot_inherit = yes
+							disband_on_peace = yes
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 25
+						trait = skilled_tactician
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.15
+							attrition = 0.0
+							cannot_inherit = yes
+							disband_on_peace = yes
+						}
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						religion = THIS
+						culture = THIS
+						female = no
+						age = 28
+						trait = skilled_tactician
+					}
+					new_character = {
+						spawn_unit = {
+							province = PREVPREVPREV
+							home = PREVPREVPREV
+							owner = PREV
+							leader = THIS
+							match_character = PREVPREV
+							match_mult = 0.15
+							attrition = 0.0
+							cannot_inherit = yes
+							disband_on_peace = yes
+						}
+					}
+					war = {
+						target = ROOT
+						casus_belli = hussite_rising
+						thirdparty_title = PREVPREV
+						tier = KING
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTASHH.104"
+		trigger = {
+			religion = catholic
+		}
+	}
+	
+	option = {
+		name = "EVTOPTBSHH.104"
+		trigger = {
+			religion = hussite
+		}
+	}
+	option = {
+		name = "EVTOPTCSHH.104"
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = hussite }
+		}
+	}
+	option = {
+		name = "EVTOPTDSHH.104"
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}

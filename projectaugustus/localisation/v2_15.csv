@@ -1,0 +1,69 @@
+#CODE;ENGLISH;;;;;;;;;x 
+#FILTER_SAME_REL;My Religion;;;;;;;;;x 
+#FILTER_SAME_REL_GROUP;My Religion Group;;;;;;;;;x 
+#FILTER_NOT_SAME_REL;Not My Religion;;;;;;;;;x 
+#FILTER_NOT_SAME_REL_GROUP;Not My Religion Group;;;;;;;;;x 
+#FILTER_ANY_REL;Any Religion;;;;;;;;;x 
+#FILTER_SAME_CUL;My Culture;;;;;;;;;x 
+#FILTER_SAME_CUL_GROUP;My Culture Group;;;;;;;;;x 
+#FILTER_NOT_SAME_CUL;Not My Culture;;;;;;;;;x 
+#FILTER_ANY_CUL;Any Culture;;;;;;;;;x 
+#FILTER_NOT_SAME_CUL_GROUP;Not My Culture Group;;;;;;;;;x 
+temple_baron_jewish;Rabbi;;;;;;;;;x 
+temple_baron_samaritan;Rabbi;;;;;;;;;x 
+temple_baron_karaite;Rabbi;;;;;;;;;x 
+RETTYPE_CUL_NUBIAN;Nubian Archers;;;;;;;;;x 
+ca_culture_nubian_1;Nubian Warrior Barracks;;;;;;;;;x 
+ca_culture_nubian_2;Nubian Warrior Barracks;;;;;;;;;x 
+ca_culture_nubian_3;Nubian Warrior Barracks;;;;;;;;;x 
+ca_culture_nubian_4;Nubian Warrior Barracks;;;;;;;;;x 
+ca_culture_nubian_1_desc;These barracks are where the ancient Nubian warrior traditions are nurtured and developed. Nubia has since ancient times been respected for its masterful archers, and other elite units of infantry are trained and drilled to support this potent weapon of the Nubian rulers.;;;;;;;;;x 
+#NOT_VARIABLE;§Y$VAR$§! is less than §Y$VALUE$§!;;;;;;;;;x 
+#VARIABLE;§Y$VAR$§! is at least §Y$VALUE$§!;;;;;;;;;x 
+#SET_VARIABLE;Set §Y$VAR$§! to §Y$VALUE$§!;;;;;;;;;x 
+#CHANGE_VARIABLE;Change §Y$VAR$§! with §Y$VALUE$§!;;;;;;;;;x 
+#SUBTRACT_VARIABLE;Subtract §Y$VALUE$§! from §Y$VAR$§!;;;;;;;;;x 
+#MULTIPLY_VARIABLE;Multiply §Y$VAR$§! with §Y$VALUE$§!;;;;;;;;;x 
+#DIVIDE_VARIABLE;Divide §Y$VAR$§! with §Y$VALUE$§!;;;;;;;;;x 
+#TRIGGER_DYNASTY_HEAD;Head of Dynasty;;;;;;;;;x 
+#NUM_OF_MAX_SETTLEMENTS_AT_LEAST;Max holdings at least §Y$VAL$§!;;;;;;;;;x 
+#NUM_OF_MAX_SETTLEMENTS_LESS_THAN;Max holdings less than §Y$VAL$§!;;;;;;;;;x 
+#NUM_OF_EMPTY_HOLDINGS_AT_LEAST;Empty holdings at least §Y$VAL$§!;;;;;;;;;x 
+#NUM_OF_EMPTY_HOLDINGS_LESS_THAN;Empty holdings less than §Y$VAL$§!;;;;;;;;;x 
+#DONT_BORDERS_MAJOR_RIVER;Does NOT border major river;;;;;;;;;x 
+#BORDERS_MAJOR_RIVER;Borders major river;;;;;;;;;x 
+#SET_GRAPHICAL_CULTURE;Set graphical culture to §Y$NAME$§!;;;;;;;;;x 
+#IS_VARIABLE_EQUAL;§Y$VAR$§! is equal to §Y$VALUE$§!;;;;;;;;;x 
+#NOT_IS_VARIABLE_EQUAL;§Y$VAR$§! is NOT equal to §Y$VALUE$§!;;;;;;;;;x 
+#NOT_IS_LOOTING;Is NOT looting;;;;;;;;;x 
+#IS_LOOTING;Is looting;;;;;;;;;x 
+#NOT_IS_LOOTING_IN;Is NOT looting in §Y$PROVINCE$§!;;;;;;;;;x 
+#IS_LOOTING_IN;Is looting in §Y$PROVINCE$§!;;;;;;;;;x 
+#MODIFIER_DEMESNE_SIZE;Demesne Size;;;;;;;;;x 
+#MODIFIER_LOCAL_MOVEMENT_SPEED;Local Movement Speed;;;;;;;;;x 
+#NOT_IS_ALLIED_WITH;Is NOT allied with §Y$NAME$§!;;;;;;;;;x 
+#IS_ALLIED_WITH;Is allied with §Y$NAME$§!;;;;;;;;;x 
+#ANY_ALLIED_CHARACTER_STARTS;Any Allied Character;;;;;;;;;x 
+#LOSES_NICKNAME;Will no longer be known as;;;;;;;;;x 
+#LOSTNICKNAME_SETUP;Nickname Lost;;;;;;;;;x 
+#LOSTNICKNAME_LOG;§Y$CHARACTERNAME$§! is no longer known as $NICKNAME$.;;;;;;;;;x 
+#LIEGE_ENDED_WAR_PARTICIPATION_SETUP;Liege ended war participation;;;;;;;;;x 
+#LIEGE_ENDED_WAR_PARTICIPATION_LOG;§Y$VASSAL$§! is no longer a participant in §YThe $WAR$§! as $PRONOUN$ liege §Y$LIEGE$§! joined the war as §Y$SIDE$§!.;;;;;;;;;x 
+#LIEGE_ENDED_WAR_SETUP;Liege ended the war;;;;;;;;;x 
+#LIEGE_ENDED_WAR_LOG;§YThe $WAR$§! has ended as §Y$LIEGE$§! joined the war as §Y$SIDE$§!.;;;;;;;;;x 
+#INTERACTION_CANNOT_JOIN_VASSAL_WAR;We cannot join our vassals' wars (except for Crusades/Jihads and for supporting their claims outside your realm);;;;;;;;;x 
+temple_baron_slavic_pagan;Shaman;;;;;;;;;x 
+temple_baron_slavic_pagan_reformed;Shaman;;;;;;;;;x 
+temple_baron_baltic_pagan;Shaman;;;;;;;;;x 
+temple_baron_baltic_pagan_reformed;Shaman;;;;;;;;;x 
+temple_baron_aztec;Shaman;;;;;;;;;x 
+temple_baron_aztec_reformed;Shaman;;;;;;;;;x 
+temple_baron_mazdaki;Vahram;;;;;;;;;x 
+temple_baron_manichean;Vahram;;;;;;;;;x 
+coa_plain_pagan;Plain;;;;;;;;;x 
+coa_plain_indian;Plain;;;;;;;;;x 
+#pagan_subjugation_desc;Pagans are allowed to subjugate other pagan rulers once in their lifetime. (With the 'Become $KING$' ambition, there is no such time limit against targets within the kingdom.) Free men are always willing to follow the mightiest ruler...;;;;;;;;;x 
+temple_baron_hellenic_pagan;Priest;;;;;;;;;x 
+temple_baron_female_hellenic_pagan;Priestess;;;;;;;;;x 
+#ct_barracks_1_desc;This is where the adult men of the city muster to join the militia in times of war.;;;;;;;;;x 
+#ca_training_grounds_1_desc;Training grounds is where the castle levies can practise and ready themselves for the inevitability of war.;;;;;;;;;x 

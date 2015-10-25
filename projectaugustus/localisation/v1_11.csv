@@ -1,0 +1,59 @@
+#CODE;ENGLISH;;;;;;;;;x 
+MENU_BAR_GAME_CONVERT;Export Game;;;;;;;;;x 
+MENU_BAR_GAME_CONVERT_DEL;Export game to EU4;;;;;;;;;x 
+BARBER_TOOLTIP;Go to the Barber;;;;;;;;;x 
+RENAME_TITLE_TOOLTIP;Rename Title;;;;;;;;;x 
+CUSTOMIZE_HOUSE_TOOLTIP;Customize House;;;;;;;;;x 
+CUSTOMIZE_HOUSE_TOOLTIP_DISABLED;You can't customize this dynasty as you have to be top liege of all its members.;;;;;;;;;x 
+c_lappland_adj_lappish;Sápmi;;;;;;;;;x 
+RENAME;Rename;;;;;;;;;x 
+NAME;Name;;;;;;;;;x 
+ADJECTIVE;Adjective;;;;;;;;;x 
+POSSIBLE_PLOT_POWER;Possible Plot Power;;;;;;;;;x 
+AUTO_INVITE_PLOTTERS;Auto invite plotters;;;;;;;;;x 
+AUTO_STOP_PLOTS;Auto stop plots;;;;;;;;;x 
+AUTO_STOPPED_PLOT_SETUP;Plot Uncovered;;;;;;;;;x 
+AUTO_STOPPED_PLOT_LOG;§Y$PLOTTER$§!$PLOTTERJOB$ seeks to §Y$PLOTNAME$§!.;;;;;;;;;x 
+AUTO_STOPPED_PLOT_LETTER;I have discovered a plot where $PLOTTER$ seeks to $PLOTNAME$. I have dispatched an emissary to have him cease this at once.\n\nYour humble spymaster,\n$SPYMASTER$;;;;;;;;;x 
+AUTO_STOP_PLOT_START_SETUP;Spymaster sends messengers;;;;;;;;;x 
+AUTO_STOP_PLOT_START_LOG;$SPYMASTER$ sent out messenger to stop plotters;;;;;;;;;x 
+AUTO_STOP_PLOT_START_LETTER;I have sent out emissaries to all known plotters to cease immediately.\n\nYour humble spymaster,\n$SPYMASTER$;;;;;;;;;x 
+siege_leader;Siege Leader;;;;;;;;;x 
+siege_leader_desc;This character is skilled at leading sieges.;;;;;;;;;x 
+SIEGE;Siege;;;;;;;;;x 
+ADD_IP;Add IP;;;;;;;;;x 
+REMOVE_IP;Remove IP;;;;;;;;;x 
+PENDING_PLOT_REQUEST;Waiting for answer.;;;;;;;;;x 
+ACCEPTED_PLOT_REQUEST;Is backing plot.;;;;;;;;;x 
+LOADING_TIP_52;You can make selection choose fleets exclusively using the ALT key.;;;;;;;;;x 
+EXIT;Exit;;;;;;;;;x 
+CUT;Cut!;;;;;;;;;x 
+#CONFIRMEXPORTTITLE;Export CK2 Game to EU4;;;;;;;;;x 
+#CONFIRMEXPORTTEXT;The game will be exported with the name $NAME$. This might take a couple of minutes.;;;;;;;;;x 
+#CONFIRMEXPORTTEXT_WARNING;The game will be exported with the name $NAME$.\n\n THIS NAME IS ALREADY IN USE!\nAre you sure you want to continue?;;;;;;;;;x 
+STYLE;Style;;;;;;;;;x 
+CAN_PERSUADE_TO_JOIN_PLOT;Might be persuaded with a bag of gold...;;;;;;;;;x 
+city_job_chancellor_arabic;Grand Vizier;;;;;;;;;x 
+city_job_chancellor_iranian;Grand Vizier;;;;;;;;;x 
+city_job_chancellor_turkish;Grand Vizier;;;;;;;;;x 
+city_job_chancellor_west_african;Grand Vizier;;;;;;;;;x 
+city_job_spiritual_christian;Court Chaplain;;;;;;;;;x 
+city_job_spiritual_orthodox;Ecclesiarch;;;;;;;;;x 
+city_job_spiritual_muslim;Court Imam;;;;;;;;;x 
+city_job_spiritual_shiite;Court Mullah;;;;;;;;;x 
+city_job_spiritual_pagan_group;Chief Diviner;;;;;;;;;x 
+city_job_spiritual_pagan;Diviner;;;;;;;;;x 
+city_job_spiritual_baltic_pagan;Diviner;;;;;;;;;x 
+city_job_spiritual_baltic_pagan_reformed;Diviner;;;;;;;;;x 
+city_job_spiritual_finnish_pagan;Diviner;;;;;;;;;x 
+city_job_spiritual_finnish_pagan_reformed;Diviner;;;;;;;;;x 
+city_job_spiritual_norse_pagan_reformed;Seer;;;;;;;;;x 
+city_job_spiritual_norse_pagan;Seer;;;;;;;;;x 
+city_job_spiritual_female_norse_pagan_reformed;Seeress;;;;;;;;;x 
+city_job_spiritual_female_norse_pagan;Seeress;;;;;;;;;x 
+city_job_spiritual_slavic_pagan;Diviner;;;;;;;;;x 
+city_job_spiritual_slavic_pagan_reformed;Diviner;;;;;;;;;x 
+city_job_spiritual_tengri_pagan;Diviner;;;;;;;;;x 
+city_job_spiritual_tengri_pagan_reformed;Diviner;;;;;;;;;x 
+EU4ConverterDLC;EUIV Converter;;;;;;;;;x 
+CustomizationPackDLC;Customization Pack;;;;;;;;;x 

@@ -1,0 +1,71 @@
+#CODE;ENGLISH;;;;;;;;;x 
+EVTDESC_RoI_10011;My [GetFromRelation] [From.GetFirstName], [From.Reincarnation.GetTitledFirstName] reborn, is acting more like [From.GetPossPronoun] previous incarnation every day! [From.GetFirstName] is definitely expressing another of [From.Reincarnation.GetFirstName]'s personality traits...;;;;;;;;;x 
+form_the_hre;Form the Holy Roman Empire;;;;;;;;;x 
+form_the_hre_desc;With a realm to rival that of Charlemagne, I could be recognized as his true successor and, invoking Translatio Imperii, have [Root.RelHead.GetBestName] crown me Emperor of a new Roman Empire in the west!;;;;;;;;;x 
+buddhist_DESC;Buddhism was founded by the Buddha, Siddhartha Gautama, in Northeast India in the 5th century BC. The religion flourished in India for more than 1500 years, building huge libraries and monastery complexes, until Muslim invasions and the growing power of the Brahmin caste drove Buddhism out of the subcontinent. In the game, Buddhists get a significant bonus to Learning, meaning that they will research technologies faster.;;;;;;;;;x 
+jain_DESC;Jainism is a religion of incredible antiquity, stemming from the ascetic Sramana tradition of India, in opposition to the priestly Brahmins and the caste system. The guiding principle of Jainism is Ahimsa - non-violence - which is more radically interpreted than in any other religion. In the game, Jains have a hard time waging offensive wars, but their remarkable tolerance means Jain rulers are well liked by all.;;;;;;;;;x 
+IndiaDLC;Rajas of India;;;;;;;;;x 
+TurkishUnitPackDLC;Turkish Unit Pack;;;;;;;;;x 
+TurkishPortraitDLC;Turkish Portraits;;;;;;;;;x 
+SongsOfIndiaDLC;Songs of India;;;;;;;;;x 
+#opinion_vassal_king;Vassal King;;;;;;;;;x 
+THREAT;Threat;;;;;;;;;x 
+THREAT_FACTION_LEADER;Faction Leader: §Y$FACTION$§!;;;;;;;;;x 
+THREAT_FACTION_MEMBER;Faction Member: §Y$FACTION$§!;;;;;;;;;x 
+THREAT_ADVENTURER;Preparing an Adventure against me;;;;;;;;;x 
+THREAT_PREPARING_INVASION;Preparing an Invasion against me;;;;;;;;;x 
+alert_adventurer_threat_instant;§YAdventurer Threats§!;;;;;;;;;x 
+alert_adventurer_threat_delayed;The following adventurers are targeting me:\n$LIST$;;;;;;;;;x 
+alert_adventurer_threat_name;Adventurers Targeting me;;;;;;;;;x 
+opinion_targeted_by_adventurer;Targeted for Invasion;;;;;;;;;x 
+opinion_revoked_honorary_title;Revoked my Honorary Title;;;;;;;;;x 
+holding_grand_hunt;Holding Grand Hunt;;;;;;;;;x 
+TITLE_NOT_REVOKEABLE;Not Revokeable;;;;;;;;;x 
+MODIFIER_VASSAL_OPINION;Vassal Opinion;;;;;;;;;x 
+MODIFIER_LIEGE_OPINION;Liege Opinion;;;;;;;;;x 
+MODIFIER_SEX_APPEAL_OPINION;Sex Appeal;;;;;;;;;x 
+REVOKE_HONORARY_TITLE_INTERACTION_TITLE;Revoke Honorary Title;;;;;;;;;x 
+REVOKE_HONORARY_TITLE_INTERACTION_DESC;Revoke an honorary title previously awarded to a character;;;;;;;;;x 
+REVOKE_HONORARY_TITLE_INTERACTION_LONG_DESC;You can revoke honorary titles that you have awarded to characters, depriving them of the prestige and income from those titles.;;;;;;;;;x 
+REVOKE_HONORARY_TITLE_INTERACTION_0;Select an honorary title to revoke from §Y[Recipient.GetTitledFirstName]§W.;;;;;;;;;x 
+REVOKE_HONORARY_TITLE_INTERACTION_1;Revoke the title of §Y[ThirdPartyTitle.GetFullName]§W from §Y[Recipient.GetTitledFirstName]§W. This will change [Recipient.GetPossPronoun] opinion of you by $OPINION$.;;;;;;;;;x 
+REVOKE_HONORARY_TITLE_INTERACTION_ACCEPT_SETUP;Honorary Title Revoked;;;;;;;;;x 
+REVOKE_HONORARY_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W revoked the title of §Y[ThirdPartyTitle.GetFullName]§W from §Y[Recipient.GetBestName]§W;;;;;;;;;x 
+CANNOT_BUY_RET_TEMP_TITLE;\nYou cannot create this retinue, you hold a temporary title.;;;;;;;;;x 
+NOT_ALLOWED_INDIAN;Not allowed to play §YIndian§! without the Rajas of India DLC!;;;;;;;;;x 
+NOT_ALLOWED_INDIAN_MP;§Y$PLAYER$§! not allowed to play §YIndian§! without the Rajas of India DLC;;;;;;;;;x 
+RD_NOT_PLAYABLE_WITHOUT_ROI_DLC;The Indian religions are not playable without the Rajas of India DLC;;;;;;;;;x 
+#TEMP_T_HOLDER_CANT_DESTROY_T;Temporary title holders cannot destroy any titles;;;;;;;;;x 
+CANNOT_PLAY_INDIAN_WITHOUT_DLC;You cannot play an Indian religion without the Rajas of India DLC;;;;;;;;;x 
+CANNOT_PLAY_JUDAISM_WITHOUT_DLC;You cannot play a Jewish character without the Sons of Abraham DLC;;;;;;;;;x 
+DESIGNATE_HEIR_ALLOWED_SUCCESSION;Succession Law must be either Gavelkind, Primogeniture, Ultimogeniture or Open;;;;;;;;;x 
+DESIGNATE_HEIR_ALLOWED_GENDER;Heir Designation must obey the Succession Gender Law;;;;;;;;;x 
+GRANT_LANDED_TITLE_CORRECT_CASTE;Character has the Correct Caste;;;;;;;;;x 
+DESIGNATE_HEIR;Designate this Character as your Heir;;;;;;;;;x 
+opinion_former_lover;Former Lover;;;;;;;;;x 
+IS_NOT_FORMER_LOVER_OF;Is NOT a Former Lover of §Y$WHO$§!;;;;;;;;;x 
+IS_FORMER_LOVER_OF;Is a Former Lover of §Y$WHO$§!;;;;;;;;;x 
+EVTDESC60400;A brilliant Turkish mercenary and former slave warrior by the name of Sabuktigin has distinguished himself many times, leading his company of horsemen in battle and raids. My commanders think I should give him a more prominent position.;;;;;;;;;x 
+EVTOPTA60401;Gandhara is best!;;;;;;;;;x 
+EVTOPTB60401;Multan seems natural;;;;;;;;;x 
+EVTOPTC60401;Lahore is rich and weak;;;;;;;;;x 
+EVTOPTD60401;Bhakkar first!;;;;;;;;;x 
+EVTNAME60406;Rise of the Ghaznavids;;;;;;;;;x 
+EVTDESC60406;A former Turkish mercenary and slave soldier is on the rise in the land of the Afghans. This Sabuktigin, a zealous man who loathes infidels, seems intent on creating an empire to rival that of the Caliphs of old, as he has just finished crushing [FromFrom.GetTitledName] in a brutal war. Tens of thousands of fierce tribesmen have gathered under his banner!;;;;;;;;;x 
+EVTOPTA60406;Infidels beware!;;;;;;;;;x 
+EVTOPTB60406;What a troubled region that is...;;;;;;;;;x 
+EVTOPTC451;[From.GetSheHeCap]'s not my type;;;;;;;;;x 
+EVTOPTA450;Encourage [Root.Liege.GetHerHim];;;;;;;;;x 
+EVTOPTA454;How could [From.GetSheHe] resist my charms?;;;;;;;;;x 
+EVTDESC453;I went to [From.GetFirstName]'s chamber and gave [From.GetHerHim] a good tumble!;;;;;;;;;x 
+NOT_ALREADY_NEGOTIATED;Has NOT already negotiated;;;;;;;;;x 
+force_back_tactic;Force Back;;;;;;;;;x 
+gray_wall_tactic;Gray Wall;;;;;;;;;x 
+crushing_charge_tactic;Crushing Charge;;;;;;;;;x 
+EVTDESC_RoI_115;The four traditions of Hinduism are Shaivism, Vaishnavism, Shaktism and Smartism. You have decided to choose a new way, but which one shall it be?;;;;;;;;;x 
+EVTDESC_RoI_116;The three great branches of Buddhism are Mahayana, Vajrayana and Theravada. You have decided to look for a new philosophy, but which one shall it be?;;;;;;;;;x 
+MORAL_AUTHORITY_DESC;The moral authority of a religion affects the conversion chances of characters and provinces and the susceptibility to heresies. A low authority value can prevent the chief pontiff from performing special actions like excommunication. It may also cause instability with various negative events in your realm as the religious institutions lose their grip on the populace.;;;;;;;;;x 
+MODIFIER_CHURCH_OPINION;Temple Vassal Opinion;;;;;;;;;x 
+CANNOT_AFFORD_THE_PIETY;§RWe do not have enough $PIETYNAME$!§W\n;;;;;;;;;x 
+HIRE_ORDER_DESC;Hire §Y$TITLE$§W for §Y$COST$§W $PIETYNAME$. (They will arrive in or nearby §Y$CAPITAL$§W.);;;;;;;;;x 
+expel_the_jomsvikings_desc;I can drive the Jomsvikings from my realm and seize their castles. However, it is a very impious thing to do...;;;;;;;;;x 

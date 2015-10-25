@@ -1,0 +1,4 @@
+spriteType = {
+    name = "GFX_exactdecisionname"
+    texturefile = "gfx\\interface\\decision_icon_ask_help_to_manage_titles.dds"
+}

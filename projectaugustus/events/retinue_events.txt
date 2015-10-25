@@ -1,0 +1,4230 @@
+namespace = PA
+
+character_event = {
+	id = PA.20001
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 50
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 100 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule duration = -1 }
+                }
+        }
+}
+
+character_event = {
+	id = PA.20002
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule
+		}
+	}
+}			
+
+character_event = {
+	id = PA.20003
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes	
+		higher_tier_than = duke
+                NOT = { realm_size = 50 }
+		capital_scope = {
+			has_province_modifier = imperial_rule
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule
+		}
+	}
+}
+
+character_event = {
+	id = PA.20004
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 100
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule
+		}
+	}
+}
+
+character_event = {
+	id = PA.20005
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 100
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 150 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule2 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule2 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule
+		}
+        }
+}
+
+character_event = {
+	id = PA.20006
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule2
+		}
+	}
+}
+
+character_event = {
+	id = PA.20007
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 100 }
+		capital_scope = {
+			has_province_modifier = imperial_rule2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule2
+		}
+	}
+}
+
+character_event = {
+	id = PA.20008
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 150
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule2
+		}
+	}
+}
+
+character_event = {
+	id = PA.20009
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 150
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 200 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule3 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule3 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule2
+		}
+        }
+}
+
+character_event = {
+	id = PA.200010
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule3
+		}
+	}
+}
+
+character_event = {
+	id = PA.200011
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 150 }
+		capital_scope = {
+			has_province_modifier = imperial_rule3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule3
+		}
+	}
+}
+
+character_event = {
+	id = PA.20002
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 200
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule3
+		}
+	}
+}
+
+character_event = {
+	id = PA.20003
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 200
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 250 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule4 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule4 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule3
+		}
+        }
+}
+
+character_event = {
+	id = PA.20004
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule4
+		}
+	}
+}
+
+
+character_event = {
+	id = PA.20005
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 200 }
+		capital_scope = {
+			has_province_modifier = imperial_rule4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule4
+		}
+	}
+}
+
+character_event = {
+	id = PA.20006
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 250
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule4
+		}
+	}
+}
+
+character_event = {
+	id = PA.20007
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 250
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 300 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule5 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule5 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule4
+		}
+        }
+}
+
+character_event = {
+	id = PA.20008
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule5
+		}
+	}
+}
+
+character_event = {
+	id = PA.20009
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 250 }
+		capital_scope = {
+			has_province_modifier = imperial_rule5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule5
+		}
+	}
+}
+
+character_event = {
+	id = PA.200020
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 300
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule5
+		}
+	}
+}
+
+character_event = {
+	id = PA.200021
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 300
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 350 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule6 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule6 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule5
+		}
+        }
+}
+
+character_event = {
+	id = PA.200022
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule6
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule6
+		}
+	}
+}
+
+character_event = {
+	id = PA.200023
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 300 }
+		capital_scope = {
+			has_province_modifier = imperial_rule6
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule6
+		}
+	}
+}
+
+character_event = {
+	id = PA.200024
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 350
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule6
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule6
+		}
+	}
+}
+
+character_event = {
+	id = PA.200025
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 350
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 400 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule7 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule7 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule6
+		}
+        }
+}
+
+character_event = {
+	id = PA.200026
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule7
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule7
+		}
+	}
+}			
+
+character_event = {
+	id = PA.200027
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes	
+		higher_tier_than = duke
+                NOT = { realm_size = 350 }
+		capital_scope = {
+			has_province_modifier = imperial_rule7
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule7
+		}
+	}
+}
+
+character_event = {
+	id = PA.200028
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 400
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule7
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule7
+		}
+	}
+}
+
+character_event = {
+	id = PA.200029
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 400
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 450 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule8 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule8 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule7
+		}
+        }
+}
+
+character_event = {
+	id = PA.200030
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule8
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule8
+		}
+	}
+}
+
+character_event = {
+	id = PA.200031
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 400 }
+		capital_scope = {
+			has_province_modifier = imperial_rule8
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule8
+		}
+	}
+}
+
+character_event = {
+	id = PA.200032
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 450
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule8
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule8
+		}
+	}
+}
+
+character_event = {
+	id = PA.200033
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 450
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 500 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule9 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule9 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule8
+		}
+        }
+}
+
+character_event = {
+	id = PA.200034
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule9
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule9
+		}
+	}
+}
+
+character_event = {
+	id = PA.200035
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 450 }
+		capital_scope = {
+			has_province_modifier = imperial_rule9
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule9
+		}
+	}
+}
+
+character_event = {
+	id = PA.200036
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 500
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule9
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule9
+		}
+	}
+}
+
+character_event = {
+	id = PA.200037
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 500
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 550 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule10 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule10 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule9
+		}
+        }
+}
+
+character_event = {
+	id = PA.200038
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule10
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule10
+		}
+	}
+}
+
+character_event = {
+	id = PA.200039
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 550 }
+		capital_scope = {
+			has_province_modifier = imperial_rule10
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule10
+		}
+	}
+}
+
+character_event = {
+	id = PA.200040
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 600
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule10
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule10
+		}
+	}
+}
+
+character_event = {
+	id = PA.200041
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 550
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 600 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule11 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule11 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule10
+		}
+        }
+}
+
+character_event = {
+	id = PA.200042
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule11
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule11
+		}
+	}
+}
+
+character_event = {
+	id = PA.200043
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 550 }
+		capital_scope = {
+			has_province_modifier = imperial_rule11
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule11
+		}
+	}
+}
+
+character_event = {
+	id = PA.200044
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 600
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule11
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule11
+		}
+	}
+}
+
+character_event = {
+	id = PA.200045
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 600
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 650 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule12 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule12 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule11
+		}
+        }
+}
+
+character_event = {
+	id = PA.200046
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule12
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule12
+		}
+	}
+}
+
+character_event = {
+	id = PA.200047
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 600 }
+		capital_scope = {
+			has_province_modifier = imperial_rule12
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule12
+		}
+	}
+}
+
+character_event = {
+	id = PA.200048
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 650
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule12
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule12
+		}
+	}
+}
+
+character_event = {
+	id = PA.200049
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 650
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 700 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule13 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule13 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule12
+		}
+        }
+}
+
+character_event = {
+	id = PA.200050
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule13
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule13
+		}
+	}
+}
+
+character_event = {
+	id = PA.200051
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 650 }
+		capital_scope = {
+			has_province_modifier = imperial_rule13
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule13
+		}
+	}
+}
+
+character_event = {
+	id = PA.200052
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 700
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule13
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule13
+		}
+	}
+}
+
+character_event = {
+	id = PA.200053
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 700
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 750 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule14 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule14 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule13
+		}
+        }
+}
+
+character_event = {
+	id = PA.200054
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule14
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule14
+		}
+	}
+}
+
+character_event = {
+	id = PA.200055
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 700 }
+		capital_scope = {
+			has_province_modifier = imperial_rule14
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule14
+		}
+	}
+}
+
+character_event = {
+	id = PA.200056
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 750
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule14
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule14
+		}
+	}
+}
+
+character_event = {
+	id = PA.200057
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 750
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 800 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule15 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule15 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule14
+		}
+        }
+}
+
+character_event = {
+	id = PA.200058
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule15
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule15
+		}
+	}
+}
+
+character_event = {
+	id = PA.200059
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 750 }
+		capital_scope = {
+			has_province_modifier = imperial_rule15
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule15
+		}
+	}
+}
+
+character_event = {
+	id = PA.200060
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                realm_size = 800
+		capital_scope = {
+			has_province_modifier = imperial_rule15
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule15
+		}
+	}
+}
+
+
+character_event = {
+	id = PA.200061
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 800
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 850 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule16 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule16 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule15
+		}
+        }
+}
+
+character_event = {
+	id = PA.200062
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule16
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule16
+		}
+	}
+}		
+
+character_event = {
+	id = PA.200063
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes	
+		higher_tier_than = duke
+                NOT = { realm_size = 800 }
+		capital_scope = {
+			has_province_modifier = imperial_rule16
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule16
+		}
+	}
+}
+
+character_event = {
+	id = PA.200064
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 850
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule16
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule16
+		}
+	}
+}
+
+character_event = {
+	id = PA.200065
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 850
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 900 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule17 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule17 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule16
+		}
+        }
+}
+
+character_event = {
+	id = PA.200066
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule17
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule17
+		}
+	}
+}
+
+character_event = {
+	id = PA.200067
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 850 }
+		capital_scope = {
+			has_province_modifier = imperial_rule17
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule17
+		}
+	}
+}
+
+character_event = {
+	id = PA.200068
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 900
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule17
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = { 
+			remove_province_modifier = imperial_rule17
+		}
+	}
+}
+
+character_event = {
+	id = PA.200069
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 900
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 950 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule18 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule18 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule17
+		}
+        }
+}
+
+character_event = {
+	id = PA.200070
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule18
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule18
+		}
+	}
+}
+
+character_event = {
+	id = PA.200071
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 900 }
+		capital_scope = {
+			has_province_modifier = imperial_rule18
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule18
+		}
+	}
+}
+
+character_event = {
+	id = PA.200072
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 950
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule18
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule18
+		}
+	}
+}
+
+character_event = {
+	id = PA.200073
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 950
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 1000 }
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule19 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule19 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule18
+		}
+        }
+}
+
+character_event = {
+	id = PA.200074
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule19
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule19
+		}
+	}
+}
+
+character_event = {
+	id = PA.200075
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 950 }
+		capital_scope = {
+			has_province_modifier = imperial_rule19
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule19
+		}
+	}
+}
+
+character_event = {
+	id = PA.200076
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 1000
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule19
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule19
+		}
+	}
+}
+
+character_event = {
+	id = PA.200077
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 1000
+                independent = yes
+		higher_tier_than = duke
+                has_law = imperial_administration
+		capital_scope = {
+			NOT = { has_province_modifier = imperial_rule20 }
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+		capital_scope = {
+		         add_province_modifier = { name = imperial_rule20 duration = -1 }
+                }
+		capital_scope = { 
+			remove_province_modifier = imperial_rule19
+		}
+        }
+}
+
+character_event = {
+	id = PA.200078
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		capital_scope = {
+			has_province_modifier = imperial_rule20
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule20
+		}
+	}
+}
+
+character_event = {
+	id = PA.200079
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 1000 }
+		capital_scope = {
+			has_province_modifier = imperial_rule20
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier =  imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule20
+		}
+	}
+}
+
+character_event = {
+	id = PA.200080
+
+        hide_window = yes
+
+	trigger = {
+                NOT = { has_law = imperial_administration }
+		has_character_modifier = imperial_taxes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+	}
+}
+
+character_event = {
+	id = PA.200081
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                has_law = imperial_administration
+		NOT = { has_character_modifier = imperial_taxes }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                add_character_modifier = { name = imperial_taxes duration = -1 }
+	}
+}
+
+character_event = {
+	id = PA.200082
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule
+		}
+	}
+}
+
+character_event = {
+	id = PA.200083
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule2
+		}
+	}
+}
+
+character_event = {
+	id = PA.200084
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule3
+		}
+	}
+}
+
+character_event = {
+	id = PA.200085
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule4
+		}
+	}
+}
+
+character_event = {
+	id = PA.200086
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule5
+		}
+	}
+}
+
+character_event = {
+	id = PA.200087
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule6
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule6
+		}
+	}
+}
+
+character_event = {
+	id = PA.200088
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule7
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule7
+		}
+	}
+}
+
+character_event = {
+	id = PA.200089
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule8
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule8
+		}
+	}
+}
+
+character_event = {
+	id = PA.200090
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule9
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule9
+		}
+	}
+}
+
+character_event = {
+	id = PA.200091
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule10
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule10
+		}
+	}
+}
+
+character_event = {
+	id = PA.200092
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule11
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule11
+		}
+	}
+}
+
+character_event = {
+	id = PA.200093
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule12
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule12
+		}
+	}
+}
+
+character_event = {
+	id = PA.200094
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule13
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule13
+		}
+	}
+}
+
+character_event = {
+	id = PA.200095
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule14
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule14
+		}
+	}
+}
+
+character_event = {
+	id = PA.200096
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule15
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule15
+		}
+	}
+}
+
+character_event = {
+	id = PA.200097
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule16
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule16
+		}
+	}
+}
+
+character_event = {
+	id = PA.200098
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule17
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule17
+		}
+	}
+}
+
+character_event = {
+	id = PA.200099
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule18
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule18
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000100
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule19
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule19
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000101
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		capital_scope = {
+			has_province_modifier = imperial_rule20
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+		capital_scope = {
+			remove_province_modifier = imperial_rule20
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000102
+
+        hide_window = yes
+
+	trigger = {
+                independent = no
+		has_character_modifier = imperial_taxes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                remove_character_modifier = imperial_taxes
+	}
+}
+
+character_event = {
+	id = PA.2000103
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule
+        }
+}
+
+character_event = {
+	id = PA.2000104
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule2
+			NOT = { is_capital = ROOT }
+                }
+        }
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule2
+        }
+}
+
+character_event = {
+	id = PA.2000105
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule3
+			NOT = { is_capital = ROOT }
+                        }
+	        }
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule3
+        }
+}
+
+character_event = {
+	id = PA.2000106
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule4
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+			name = OK
+			remove_province_modifier = imperial_rule4
+                }
+        }
+
+character_event = {
+	id = PA.2000107
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule5
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule5
+        }
+}
+
+character_event = {
+	id = PA.2000108
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule6
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule6
+        }
+}
+
+character_event = {
+	id = PA.2000109
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule7
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule7
+        }
+}
+
+character_event = {
+	id = PA.2000110
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule8
+			NOT = { is_capital = ROOT }
+	        }
+        }
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule8
+        }
+}
+
+character_event = {
+	id = PA.2000111
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule9
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule9
+        }
+}
+
+character_event = {
+	id = PA.2000112
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule10
+			NOT = { is_capital = ROOT }
+	        }
+        }
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule10
+        }
+}
+
+
+character_event = {
+	id = PA.2000113
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule11
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule11
+        }
+}
+
+character_event = {
+	id = PA.2000114
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule12
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule12
+        }
+}
+
+character_event = {
+	id = PA.2000115
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule13
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule13
+        }
+}
+
+character_event = {
+	id = PA.2000116
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule14
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule14
+        }
+}
+
+character_event = {
+	id = PA.2000117
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule15
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule15
+        }
+}
+
+character_event = {
+	id = PA.2000118
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule16
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule16
+        }
+}
+
+character_event = {
+	id = PA.2000119
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule17
+			NOT = { is_capital = ROOT }
+                        }
+	        }
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule17
+        }
+}
+
+character_event = {
+	id = PA.2000120
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule18
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule18
+        }
+}
+
+character_event = {
+	id = PA.2000121
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule19
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule19
+        }
+}
+
+character_event = {
+	id = PA.200000122
+
+        hide_window = yes
+
+	trigger = {
+		any_demesne_province = {
+			has_province_modifier = imperial_rule20
+			NOT = { is_capital = ROOT }
+                }
+	}
+
+	option = {
+		name = OK
+		remove_province_modifier = imperial_rule20
+        }
+}
+
+character_event = {
+	id = PA.2000123
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 50
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 300 }
+                has_law = imperial_administration
+		any_realm_province =  {
+			NOT = { has_province_modifier = standing_army }
+                }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province = {
+			limit = {
+				NOT = { has_province_modifier = standing_army }
+			}
+			add_province_modifier = { name = standing_army duration = -1 }
+		}
+        }
+}
+
+character_event = {
+	id = PA.2000124
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 300
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 600 }
+                has_law = imperial_administration
+		any_realm_province =  {
+			NOT = { has_province_modifier = standing_army2 }
+                }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province = {
+			limit = {
+				NOT = { has_province_modifier = standing_army2 }
+			}
+			add_province_modifier = { name = standing_army2 duration = -1 }
+		}
+        }
+}
+
+character_event = {
+	id = PA.2000125
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 600
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 900 }
+                has_law = imperial_administration
+		any_realm_province =  {
+			NOT = { has_province_modifier = standing_army3 }
+                }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province = {
+			limit = {
+				NOT = { has_province_modifier = standing_army3 }
+			}
+			add_province_modifier = { name = standing_army3 duration = -1 }
+		}
+        }
+}
+
+character_event = {
+	id = PA.2000126
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 900
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 1200 }
+                has_law = imperial_administration
+		any_realm_province =  {
+			NOT = { has_province_modifier = standing_army4 }
+                }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province = {
+			limit = {
+				NOT = { has_province_modifier = standing_army4 }
+			}
+			add_province_modifier = { name = standing_army4 duration = -1 }
+		}
+        }
+}
+
+character_event = {
+	id = PA.2000127
+
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 1200
+                independent = yes
+		higher_tier_than = duke
+                has_law = imperial_administration
+		any_realm_province =  {
+			NOT = { has_province_modifier = standing_army5 }
+                }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province = {
+			limit = {
+				NOT = { has_province_modifier = standing_army5 }
+			}
+			add_province_modifier = { name = standing_army5 duration = -1 }
+		}
+        }
+}
+
+character_event = {
+	id = PA.2000129
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		any_realm_province =  {
+			has_province_modifier = standing_army
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army
+			}
+			remove_province_modifier = standing_army
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000130
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		any_realm_province =  {
+			has_province_modifier = standing_army2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army2
+			}
+			remove_province_modifier = standing_army2
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000131
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		any_realm_province =  {
+			has_province_modifier = standing_army3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army3
+			}
+			remove_province_modifier = standing_army3
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000132
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		any_realm_province =  {
+			has_province_modifier = standing_army4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army4
+			}
+			remove_province_modifier = standing_army4
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000133
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { has_law = imperial_administration }
+		any_realm_province =  {
+			has_province_modifier = standing_army5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army5
+			}
+			remove_province_modifier = standing_army5
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000134
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 300
+                independent = yes
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army
+			}
+			remove_province_modifier = standing_army
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000135
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 600
+                independent = yes
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army2
+			}
+			remove_province_modifier = standing_army2
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000136
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 900
+                independent = yes
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army3
+			}
+			remove_province_modifier = standing_army3
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000137
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                realm_size = 1200
+                independent = yes
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army4
+			}
+			remove_province_modifier = standing_army4
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000138
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 50 }
+		any_realm_province =  {
+			has_province_modifier = standing_army
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army
+			}
+			remove_province_modifier = standing_army
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000139
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 300 }
+		any_realm_province =  {
+			has_province_modifier = standing_army2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army2
+			}
+			remove_province_modifier = standing_army2
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000140
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 600 }
+		any_realm_province =  {
+			has_province_modifier = standing_army3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army3
+			}
+			remove_province_modifier = standing_army3
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000141
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 900 }
+		any_realm_province =  {
+			has_province_modifier = standing_army4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army4
+			}
+			remove_province_modifier = standing_army4
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000142
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		higher_tier_than = duke
+                NOT = { realm_size = 1200 }
+		any_realm_province =  {
+			has_province_modifier = standing_army5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army5
+			}
+			remove_province_modifier = standing_army5
+		}
+	}
+}
+
+
+character_event = {
+	id = PA.2000143
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		OR = {
+                        tier = duke
+                        tier = count
+                }
+		any_realm_province =  {
+			has_province_modifier = standing_army
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army
+			}
+			remove_province_modifier = standing_army
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000144
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		OR = {
+                        tier = duke
+                        tier = count
+                }
+		any_realm_province =  {
+			has_province_modifier = standing_army2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army2
+			}
+			remove_province_modifier = standing_army2
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000145
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		OR = {
+                        tier = duke
+                        tier = count
+                }
+		any_realm_province =  {
+			has_province_modifier = standing_army3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army3
+			}
+			remove_province_modifier = standing_army3
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000146
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		OR = {
+                        tier = duke
+                        tier = count
+                }
+		any_realm_province =  {
+			has_province_modifier = standing_army4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army4
+			}
+			remove_province_modifier = standing_army4
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000147
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = yes
+		OR = {
+                        tier = duke
+                        tier = count
+                }
+		any_realm_province =  {
+			has_province_modifier = standing_army5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army5
+			}
+			remove_province_modifier = standing_army5
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000148
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army
+			}
+			remove_province_modifier = standing_army
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000149
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army2
+			}
+			remove_province_modifier = standing_army2
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000150
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army3
+			}
+			remove_province_modifier = standing_army3
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000151
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army4
+			}
+			remove_province_modifier = standing_army4
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000152
+        hide_window = yes
+
+	trigger = {
+		is_feudal = yes
+                independent = no
+		higher_tier_than = duke
+		any_realm_province =  {
+			has_province_modifier = standing_army5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army5
+			}
+			remove_province_modifier = standing_army5
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000153
+        hide_window = yes
+
+	trigger = {
+		is_feudal = no
+        independent = yes
+		any_realm_province =  {
+			has_province_modifier = standing_army
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army
+			}
+			remove_province_modifier = standing_army
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000154
+        hide_window = yes
+
+	trigger = {
+		is_feudal = no
+        independent = yes
+		any_realm_province =  {
+			has_province_modifier = standing_army2
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army2
+			}
+			remove_province_modifier = standing_army2
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000155
+        hide_window = yes
+
+	trigger = {
+		is_feudal = no
+        independent = yes
+		any_realm_province =  {
+			has_province_modifier = standing_army3
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army3
+			}
+			remove_province_modifier = standing_army3
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000156
+        hide_window = yes
+
+	trigger = {
+		is_feudal = no
+        independent = yes
+		any_realm_province =  {
+			has_province_modifier = standing_army4
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army4
+			}
+			remove_province_modifier = standing_army4
+		}
+	}
+}
+
+character_event = {
+	id = PA.2000157
+        hide_window = yes
+
+	trigger = {
+		is_feudal = no
+        independent = yes
+		any_realm_province =  {
+			has_province_modifier = standing_army5
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		any_realm_province =  {
+			limit = {
+				has_province_modifier = standing_army5
+			}
+			remove_province_modifier = standing_army5
+		}
+	}
+}

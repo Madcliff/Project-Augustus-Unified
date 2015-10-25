@@ -1,0 +1,214 @@
+###########################################
+#
+# Schism Decisions for Orthodox
+#
+###########################################
+
+# Written by Hansol "LumberKing" Lee
+
+decisions = {
+	
+	enforce_chalcedon_orthodox = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Legacy of Rome"
+			age = 16
+			prisoner = no
+			has_global_flag = schism_mended
+			NOT = { trait = incapable }
+			NOT = { has_character_flag = attempted_to_enforce_chalcedon }
+			OR = {
+				has_landed_title = e_western
+				has_landed_title = e_byzantium
+				has_landed_title = e_roman_empire
+			}
+			OR = {
+				religion = orthodox
+				religion = monothelite
+				religion = iconoclast
+			}
+			is_heretic = no
+			k_miaphysite = {
+				holder_scope = {
+					is_heretic = no # If the Coptic Pope (and thus Miaphysitism) is heretical, mending the schism is no longer possible
+				}
+			}
+
+			# All the seats of the Pentarchy must be held by Orthodoxy
+
+			b_hagiasophia = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+			b_antiocheia = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+			b_jerusalem = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+			b_alexandria = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+			b_roma = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+		}
+
+		allow = {
+			piety = 2000
+			religion_authority = 0.9
+			completely_controls = c_dwin
+			completely_controls = c_aksum
+		}
+		effect = {
+			set_character_flag = attempted_to_enforce_chalcedon
+			hidden_tooltip = {
+				any_playable_ruler = {
+					limit = {
+						has_landed_title = k_miaphysite
+					}
+				narrative_event = { id = SHS.201 tooltip = EVTTOOLTIPSHS.201 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	enforce_ephesus_orthodox = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Legacy of Rome"
+			age = 16
+			prisoner = no
+			has_global_flag = schism_mended
+			NOT = { trait = incapable }
+			NOT = { has_character_flag = attempted_to_enforce_ephesus }
+			OR = {
+				has_landed_title = e_western
+				has_landed_title = e_byzantium
+				has_landed_title = e_roman_empire
+			}
+			OR = {
+				religion = orthodox
+				religion = monothelite
+				religion = iconoclast
+			}
+			is_heretic = no
+			k_nestorian = {
+				holder_scope = {
+					is_heretic = no # If the Patriarch (and thus Nestorianism) is heretical, mending the schism is no longer possible
+				}
+			}
+
+			# All the seats of the Pentarchy must be held by Orthodoxy
+
+			b_hagiasophia = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+			b_antiocheia = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+			b_jerusalem = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+			b_alexandria = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+			b_roma = {
+				holder_scope = {
+					OR = {
+						religion = orthodox
+						religion = monothelite
+						religion = iconoclast
+					}
+					is_heretic = no
+				}
+			}
+		}
+
+		allow = {
+			piety = 2000
+			religion_authority = 0.9
+			completely_controls = c_baghdad
+			completely_controls = c_qalqut
+		}
+		effect = {
+			set_character_flag = attempted_to_enforce_ephesus
+			hidden_tooltip = {
+				any_playable_ruler = {
+					limit = {
+						has_landed_title = d_nestorian
+					}
+				narrative_event = { id = SHS.203 tooltip = EVTTOOLTIPSHS.203 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

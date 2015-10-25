@@ -1,0 +1,35 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_mend_eastwest_schism"
+		texturefile = "gfx\\interface\\decision_icon_mend_great_schism_catholic.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_mandean"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_zoroastrian.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_mandean_cathar"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_zoroastrian.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_mandean_bogomilist"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_zoroastrian.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_mandean_paulician"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_zoroastrian.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_mandean_tondrakian"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_zoroastrian.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_mandean_yazidi"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_zoroastrian.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_mandean_hurufi"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_zoroastrian.dds"
+	}
+}

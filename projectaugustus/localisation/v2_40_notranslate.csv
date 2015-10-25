@@ -1,0 +1,217 @@
+#CODE;ENGLISH;;;;;;;;;x 
+AIREASON_AMBITION;Ambition;;;;;;;;;x 
+b_kroran;Krorän;;;;;;;;;x 
+b_endere;Endere;;;;;;;;;x 
+b_dandan_uilik;Dandan-Uiliq;;;;;;;;;x 
+b_korla;Korla;;;;;;;;;x 
+b_shanguo;Shanguo;;;;;;;;;x 
+b_turfan;Turfan;;;;;;;;;x 
+b_tashkurgan;Tashkurgan;;;;;;;;;x 
+b_yecheng;Yecheng;;;;;;;;;x 
+b_mazar;Mazar;;;;;;;;;x 
+b_jiaohe;Jiaohe;;;;;;;;;x 
+b_guma;Guma;;;;;;;;;x 
+b_wensu;Wensu;;;;;;;;;x 
+b_xayar;Xayar;;;;;;;;;x 
+b_danhuan;Danhuan;;;;;;;;;x 
+b_wutanzili;Wutanzili;;;;;;;;;x 
+b_huhu;Huhu;;;;;;;;;x 
+b_loulan;Loulan;;;;;;;;;x 
+b_kargan;Kargan;;;;;;;;;x 
+b_ruoqiang;Ruoqiang;;;;;;;;;x 
+b_mocheng;Mocheng;;;;;;;;;x 
+b_zuomo;Zuomo;;;;;;;;;x 
+b_yuling;Yuling;;;;;;;;;x 
+b_jingjue;Jingjue;;;;;;;;;x 
+b_jiandu;Jiandu;;;;;;;;;x 
+b_shangwangguo;Shangwangguo;;;;;;;;;x 
+b_xiuxun;Xiuxun;;;;;;;;;x 
+b_wulei;Wulei;;;;;;;;;x 
+b_bay;Bay;;;;;;;;;x 
+b_toqsu;Toqsu;;;;;;;;;x 
+b_awat;Awat;;;;;;;;;x 
+b_kelpin;Kelpin;;;;;;;;;x 
+b_fukang;Fukang;;;;;;;;;x 
+b_qiemi;Qiemi;;;;;;;;;x 
+b_balikun;Balikun;;;;;;;;;x 
+b_qian_pulei;Qian Pulei;;;;;;;;;x 
+b_hou_pulei;Hou Pulei;;;;;;;;;x 
+b_yulishi;Yulishi;;;;;;;;;x 
+b_karghalik;Karghalik;;;;;;;;;x 
+b_weixu;Weixu;;;;;;;;;x 
+b_weili;Weili;;;;;;;;;x 
+b_weitou;Weitou;;;;;;;;;x 
+CHRONICLE_ADOPTED_FEUDALISM;[From.GetDynName] adopted a feudal system in [From.GetHerHis] domains, abandoning the old tribal ways.;;;;;;;;;x 
+b_poskam;Poskam;;;;;;;;;x 
+b_yopurga;Yopurga;;;;;;;;;x 
+b_atush;Atush;;;;;;;;;x 
+b_akto;Akto;;;;;;;;;x 
+b_ulugqat;Ulugqat;;;;;;;;;x 
+b_uqturpan;Uqturpan;;;;;;;;;x 
+b_aral;Aral;;;;;;;;;x 
+b_qira;Qira;;;;;;;;;x 
+b_yeyik;Yeyik;;;;;;;;;x 
+b_sutang;Sutang;;;;;;;;;x 
+b_lop;Lop;;;;;;;;;x 
+b_merdek;Merdek;;;;;;;;;x 
+b_yuni;Yuni;;;;;;;;;x 
+b_tiemenguan;Tiemenguan;;;;;;;;;x 
+b_qigexing;Qigexing;;;;;;;;;x 
+b_kizil;Kizil;;;;;;;;;x 
+b_subashi;Subashi;;;;;;;;;x 
+b_kumtura;Kumtura;;;;;;;;;x 
+b_bezeklik;Bezeklik;;;;;;;;;x 
+b_astana;Astana;;;;;;;;;x 
+b_manas;Manas;;;;;;;;;x 
+b_changjo;Changjo;;;;;;;;;x 
+b_kara_koshun;Kara-Koshun;;;;;;;;;x 
+b_lopnor;Lopnor;;;;;;;;;x 
+b_shanshan;Shanshan;;;;;;;;;x 
+b_kumtag;Kumtag;;;;;;;;;x 
+b_yingpan;Yingpan;;;;;;;;;x 
+b_yiwu;Yiwu;;;;;;;;;x 
+b_dahe;Dahe;;;;;;;;;x 
+b_piqan;Piqan;;;;;;;;;x 
+b_yanghai;Yanghai;;;;;;;;;x 
+b_toyuq;Toyuq;;;;;;;;;x 
+b_nanhu_tarim;Nanhu;;;;;;;;;x 
+b_fangpan;Fangpan;;;;;;;;;x 
+b_mogao;Mogao;;;;;;;;;x 
+b_yueyaquan;Yueyaquan;;;;;;;;;x 
+b_hongliuwan;Hongliuwan;;;;;;;;;x 
+b_xuanquanzhi;Xuanquanzhi;;;;;;;;;x 
+b_yumenquan;Yumenquan;;;;;;;;;x 
+b_xingcheng;Xingcheng;;;;;;;;;x 
+b_yuanquan;Yuanquan;;;;;;;;;x 
+b_yulin;Yulin;;;;;;;;;x 
+b_suoyang;Suoyang;;;;;;;;;x 
+b_mazongshan;Mazongshan;;;;;;;;;x 
+b_changji;Changji;;;;;;;;;x 
+b_xincheng;Xincheng;;;;;;;;;x 
+ANSWER_YES;Yes.;;;;;;;;;x 
+ANSWER_NO;No.;;;;;;;;;x 
+b_yumen;Yumen;;;;;;;;;x 
+CHRONICLE_FOUNDED_MERCHANT_REPUBLIC;[From.GetDynName] founded a merchant republic in [From.GetHerHis] domains, abandoning the old tribal ways.;;;;;;;;;x 
+nomadic_emperor_female;Khatun;;;;;;;;;x 
+nomadic_king_female;Khanum;;;;;;;;;x 
+e_chagatai;Chagatai;;;;;;;;;x 
+FACTIONS_MENU;§YFactions§!;;;;;;;;;x 
+CLANS_MENU;§YClans§!;;;;;;;;;x 
+THE_REPUBLIC_MENU;§YThe Republic§!;;;;;;;;;x 
+STAT_WEALTH_MENU;§YWealth§!;;;;;;;;;x 
+STAT_PRESTIGE_MENU;§YPrestige§!;;;;;;;;;x 
+STAT_PIETY_MENU;§YPiety§!;;;;;;;;;x 
+STAT_PIETY_MENU_HONOR;§YHonor§!;;;;;;;;;x 
+STAT_PIETY_MENU_KARMA;§YKarma§!;;;;;;;;;x 
+STAT_PIETY_MENU_PURITY;§YPurity§!;;;;;;;;;x 
+STAT_DEMESNE_SIZE_MENU;§YDemesne Size§!;;;;;;;;;x 
+STAT_VASSAL_LIMIT_MENU;§YVassal Limit§!;;;;;;;;;x 
+STAT_REALM_SIZE_MENU;§YRealm Size§!;;;;;;;;;x 
+STAT_SCORE_MENU;§YScore§!;;;;;;;;;x 
+STAT_POPULATION_MENU;§YPopulation§!;;;;;;;;;x 
+STAT_MANPOWER_MENU;§YManpower§!;;;;;;;;;x 
+TECHNOLOGY;Technology;;;;;;;;;x 
+LAW;Laws;;;;;;;;;x 
+MILITARY;Military;;;;;;;;;x 
+INTRIGUE;Intrigue;;;;;;;;;x 
+DEMESNE_INTERFACE_LABEL;§YDemesne§!;;;;;;;;;x 
+TRADE_INTERFACE_LABEL;§YTrade§!;;;;;;;;;x 
+FORTS_INTERFACE_LABEL;§YForts§!;;;;;;;;;x 
+SIEGES_INTERFACE_LABEL;§YSieges§!;;;;;;;;;x 
+ENEMY_SIEGES_INTERFACE_LABEL;§YHostile Sieges§!;;;;;;;;;x 
+COMBATS_INTERFACE_LABEL;§YLand Combat§!;;;;;;;;;x 
+ARMIES_INTERFACE_LABEL;§YArmies§!;;;;;;;;;x 
+NAVIES_INTERFACE_LABEL;§YNavies§!;;;;;;;;;x 
+MESSAGERULES_INTERFACE_LABEL;§YMessage Rules§!;;;;;;;;;x 
+SPECIAL_INTEREST_CHARACTERS_INTERFACE_LABEL;§YCharacters of Special Interest§!;;;;;;;;;x 
+OL_COURT_INTERFACE_LABEL;§YCourt§!;;;;;;;;;x 
+OL_MP_PLAYERLIST_INTERFACE_LABEL;§YPlayers in Multiplayer§!;;;;;;;;;x 
+OL_DISABLED_ALERTS_INTERFACE_LABEL;§YDisabled Alerts§!;;;;;;;;;x 
+MESSWINDOW_HIGHPRIO_INTERFACE_LABEL;§YHigh Priority Messages§!;;;;;;;;;x 
+MESSWINDOW_LOWPRIO_INTERFACE_LABEL;§YLow Priority Messages§!;;;;;;;;;x 
+FC_FIND_CHARACTERS_INTERFACE_LABEL;§YFind Characters§!;;;;;;;;;x 
+MAIN_MENU_INTERFACE_LABEL;§YMain Menu§!;;;;;;;;;x 
+ZOOM_IN_INTERFACE_LABEL;§YZoom in§!;;;;;;;;;x 
+ZOOM_OUT_INTERFACE_LABEL;§YZoom out§!;;;;;;;;;x 
+HOME_INTERFACE_LABEL;§YGo to Home Province§!;;;;;;;;;x 
+LEDGER_MENU_INTERFACE_LABEL;§YLedger§!;;;;;;;;;x 
+LOGGER_MENU_INTERFACE_LABEL;§YMessage Log§!;;;;;;;;;x 
+FIND_PROVINCE_INTERFACE_LABEL;§YFind Title or Region§!;;;;;;;;;x 
+OPEN_CHRONICLE_INTERFACE_LABEL;§YOpen Chronicle§!;;;;;;;;;x 
+DYNASTYTREE_INTERFACE_LABEL;§YDynasty Tree§!;;;;;;;;;x 
+FAMILYTREE_INTERFACE_LABEL;§YFamily Tree§!;;;;;;;;;x 
+REALM_TREE_INTERFACE_LABEL;§YRealm Tree§!;;;;;;;;;x 
+b_qinggil;Qinggil;;;;;;;;;x 
+b_koktokay;Koktokay;;;;;;;;;x 
+b_burqin;Burqin;;;;;;;;;x 
+b_burultokay;Burultokay;;;;;;;;;x 
+b_kokagax;Kokagax;;;;;;;;;x 
+b_jeminay;Jeminay;;;;;;;;;x 
+b_beshbalik;Beshbalik;;;;;;;;;x 
+b_gucheng;Gucheng;;;;;;;;;x 
+b_mori;Mori;;;;;;;;;x 
+b_jiangjunmiao;Jiangjunmiao;;;;;;;;;x 
+b_zyryan;Zyryan;;;;;;;;;x 
+b_oskemen;Öskemen;;;;;;;;;x 
+b_urunkhayka;Urunkhayka;;;;;;;;;x 
+b_kurchum;Kurchum;;;;;;;;;x 
+b_uryl;Uryl;;;;;;;;;x 
+b_turan;Turan;;;;;;;;;x 
+b_chadaana;Chadaana;;;;;;;;;x 
+b_ulala;Ulala;;;;;;;;;x 
+b_ulagan;Ulagan;;;;;;;;;x 
+b_sayan;Sayan;;;;;;;;;x 
+b_khori_tumed;Khori-Tümed;;;;;;;;;x 
+b_kyren;Kyren;;;;;;;;;x 
+b_kutulik;Kutulik;;;;;;;;;x 
+b_tulun;Tulun;;;;;;;;;x 
+b_korya;Korya;;;;;;;;;x 
+b_semey;Semey;;;;;;;;;x 
+b_aqsw;Aqsw;;;;;;;;;x 
+b_ekibastuz;Ekibastuz;;;;;;;;;x 
+b_ertis;Ertis;;;;;;;;;x 
+b_koktobe;Koktobe;;;;;;;;;x 
+b_abaza;Abaza;;;;;;;;;x 
+b_tashtyp;Tashtyp;;;;;;;;;x 
+b_terkhiin_tsagaan;Terkhiin Tsagaan;;;;;;;;;x 
+b_ogii;Ögii;;;;;;;;;x 
+b_tsetserleg;Tsetserleg;;;;;;;;;x 
+b_uliastai;Uliastai;;;;;;;;;x 
+b_orgil;Orgil;;;;;;;;;x 
+b_erdenet;Erdenet;;;;;;;;;x 
+b_luut;Luut;;;;;;;;;x 
+b_noin_ula;Noin Ula;;;;;;;;;x 
+b_zuunmod;Zuunmod;;;;;;;;;x 
+b_khamag;Khamag;;;;;;;;;x 
+b_lun;Lün;;;;;;;;;x 
+b_bayan;Bayan;;;;;;;;;x 
+b_darkhan;Darkhan;;;;;;;;;x 
+b_bargujin;Bargujin;;;;;;;;;x 
+b_merkit;Merkit;;;;;;;;;x 
+b_kyakhta;Kyakhta;;;;;;;;;x 
+b_uda;Uda;;;;;;;;;x 
+b_galuuta;Galuuta;;;;;;;;;x 
+b_barkul;Barkul;;;;;;;;;x 
+b_khoid;Khoid;;;;;;;;;x 
+b_erdene;Erdene;;;;;;;;;x 
+b_gurvantes;Gurvantes;;;;;;;;;x 
+b_khereid;Khereid;;;;;;;;;x 
+b_zubu;Zübü;;;;;;;;;x 
+b_nuuruudyn_hondij;Nuuruudyn Hondij;;;;;;;;;x 
+b_arguut;Arguut;;;;;;;;;x 
+b_khuld;Khuld;;;;;;;;;x 
+b_naiman;Naiman;;;;;;;;;x 
+b_khovd;Khovd;;;;;;;;;x 
+b_khar;Khar;;;;;;;;;x 
+b_mankhan;Mankhan;;;;;;;;;x 
+b_darvi;Darvi;;;;;;;;;x 
+b_khaliun;Khaliun;;;;;;;;;x 
+HAS_LESS_SETTLEMENTS;Less than §Y$VAL$§! holdings.;;;;;;;;;x 
+HAS_LEAST_SETTLEMENTS;At least §Y$VAL$§! holdings.;;;;;;;;;x 
+CAPTAIN_female; ;;;;;;;;;x 
+messalian_FEATURES;§Y*§! Women may hold all councillor positions\n§Y*§! Women may lead armies;;;;;;;;;x 
+CONFIRM_BUILD_EXTRA_PRESTIGE_OR_PIETY_HOLDING_DESC;Are you sure you want to build a $TYPE$?\nIt will cost you §Y$COST$§! and will be finished on §Y$FINISHED$§!;;;;;;;;;x 
+EVTDESC_HL_10501B;[eloper.GetFirstName] has eloped with the notorious mercenary [From.GetFirstName].;;;;;;;;;x 
+recently_burnt_the_land_not_owner;Recently burned the Land;;;;;;;;;x 
+PRESTIGE_LAW_PASSED_LOG;§Y$RULER$§! has instituted the §Y$LAW$§! Law in §Y$TITLE$§!.;;;;;;;;;x 
+EVTTITLE_HL_1031;[From.GetSonDaughter] of the Wolf?;;;;;;;;;x 

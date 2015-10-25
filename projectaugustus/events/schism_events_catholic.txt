@@ -1,0 +1,1199 @@
+#######################################
+#
+# Catholic Schism Events
+#
+# Event ID ID SHS.101 - SHS.199 reserved
+#
+#######################################
+
+# Written by Hansol "LumberKing" Lee
+
+namespace = SHS
+
+### Mending the Great Schism
+
+# To Mend or Not to Mend
+narrative_event = {
+	id = SHS.101
+	title = EVTNAMESHS.101
+	desc = EVTDESCSHS.101
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.101
+
+		ai_chance = { factor = 50 }
+
+		wealth = 1000
+
+		religion = FROM
+
+		give_nickname = nick_the_heretic
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = orthodox
+					#controls_religion = no
+				}
+				narrative_event = { id = SHS.102 days = 7 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.101
+
+		ai_chance = { factor = 50 }
+
+		give_nickname = nick_the_schismatic
+
+		prestige = 500
+		piety = 100
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.102
+	title = EVTNAMESHS.101
+	desc = EVTDESCSHS.101
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		trigger = {
+			NOT = { has_landed_title = k_orthodox }
+		}
+
+		ai_chance = { factor = 25 }
+		religion = FROM
+
+
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		trigger = {
+			NOT = { has_landed_title = k_orthodox }
+		}
+
+		ai_chance = { factor = 75 }
+	}
+	option = { # Yes - Ecumenical Patriarch
+		name = EVTOPTCSHS.102
+		trigger = {
+			has_landed_title = k_orthodox
+		}
+
+		if = {
+			limit = { 
+				FROM = { religion = catholic }
+			}
+			set_parent_religion = { religion = orthodox parent = catholic }
+		}
+		if = {
+			limit = { 
+				FROM = { religion = fraticelli }
+			}
+			set_parent_religion = { religion = orthodox parent = fraticelli }			
+		}
+		if = {
+			limit = { 
+				FROM = { religion = arian }
+			}
+			set_parent_religion = { religion = orthodox parent = arian }			
+		}
+
+		set_global_flag = schism_mended
+		give_nickname = nick_the_heretic
+
+		ai_chance = { factor = 25 }
+		activate_title = { title = d_latin_constantinople status = yes }
+		hidden_tooltip = {
+			create_random_priest = {
+				dynasty = none
+				random_traits = yes
+			}
+			new_character = {
+				k_orthodox = {
+					grant_title = PREV
+				}
+				wealth = 500
+			}
+			d_latin_constantinople = {
+				grant_title = ROOT
+			}
+			b_hagiasophia = {
+				grant_title = ROOT
+			}
+			set_defacto_liege = FROM	
+			religion_authority = {
+				modifier = patriarchy_instituted
+				years = 20
+			}
+		}
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No - Ecumenical Patriarch
+		name = EVTOPTDSHH.102
+		trigger = {
+			has_landed_title = k_orthodox
+		}
+
+		ai_chance = { factor = 50 }
+		has_landed_title = k_orthodox
+	}
+}
+
+### Enforcing the Council of Chalcedon
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.103
+	title = EVTNAMESHS.103
+	desc = EVTDESCSHS.103
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.102
+
+		ai_chance = { factor = 50 }
+
+		wealth = 500
+
+		religion = FROM
+
+		if = {
+			limit = { 
+				FROM = { religion = catholic }
+			}
+			set_parent_religion = { religion = miaphysite parent = catholic }
+		}
+		if = {
+			limit = { 
+				FROM = { religion = fraticelli }
+			}
+			set_parent_religion = { religion = miaphysite parent = fraticelli }			
+		}
+		if = {
+			limit = { 
+				FROM = { religion = arian }
+			}
+			set_parent_religion = { religion = orthodox parent = arian }			
+		}
+
+		set_global_flag = eutychian_mended
+		give_nickname = nick_the_heretic
+		activate_title = { title = d_latin_alexandria status = yes }
+		hidden_tooltip = {
+			create_random_priest = {
+				dynasty = none
+				random_traits = yes
+			}
+			new_character = {
+				d_miaphysite = {
+					grant_title = PREV
+				}
+				wealth = 500
+			}
+			d_latin_alexandria = {
+				grant_title = ROOT
+			        set_defacto_liege = k_papal_state
+			}
+			b_alexandria = {
+				grant_title = ROOT
+			}	
+			religion_authority = {
+				modifier = patriarchy_instituted
+				years = 20
+			}
+			any_playable_ruler = {
+				limit = {
+					religion = miaphysite
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.102 days = 7 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.102
+
+		ai_chance = { factor = 50 }
+
+		give_nickname = nick_the_schismatic
+
+		prestige = 300
+		piety = 50
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.104
+	title = EVTNAMESHS.103
+	desc = EVTDESCSHS.103
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}
+
+### Enforcing the Council of Ephesus
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.105
+	title = EVTNAMESHS.105
+	desc = EVTDESCSHS.105
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.102
+
+		ai_chance = { factor = 50 }
+
+		wealth = 500
+
+		religion = FROM
+
+		if = {
+			limit = { 
+				FROM = { religion = catholic }
+			}
+			set_parent_religion = { religion = nestorian parent = catholic }
+		}
+		if = {
+			limit = { 
+				FROM = { religion = fraticelli }
+			}
+			set_parent_religion = { religion = nestorian parent = fraticelli }			
+		}
+		if = {
+			limit = { 
+				FROM = { religion = arian }
+			}
+			set_parent_religion = { religion = orthodox parent = arian }			
+		}
+
+		set_global_flag = nestorian_mended
+		give_nickname = nick_the_heretic
+		activate_title = { title = d_latin_antioch status = yes }
+		hidden_tooltip = {
+			create_random_priest = {
+				dynasty = none
+				random_traits = yes
+			}
+			new_character = {
+				d_nestorian = {
+					grant_title = PREV
+				}
+				wealth = 500
+			}
+			d_latin_antioch = {
+				grant_title = ROOT
+			        set_defacto_liege = k_papal_state
+			}
+			b_antioch = {
+				grant_title = ROOT
+			}	
+			religion_authority = {
+				modifier = patriarchy_instituted
+				years = 20
+			}
+			any_playable_ruler = {
+				limit = {
+					religion = nestorian
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.102 days = 7 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.102
+
+		ai_chance = { factor = 50 }
+
+		give_nickname = nick_the_schismatic
+
+		prestige = 300
+		piety = 50
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.106
+	title = EVTNAMESHS.105
+	desc = EVTDESCSHS.105
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}
+
+### Maronite Events
+
+# Crusaders encounter the Maronites
+character_event = {
+	id = SHS.108
+	desc = EVTDESCSHS.108
+
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_war
+	
+	only_men = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		ai = no
+		has_called_crusade = yes
+		NOT = { has_global_flag = maronites_discovered }
+		OR = {
+			any_war = {
+				using_cb = crusade
+				crusade_target = {
+					title = k_jerusalem
+				}
+			}
+			any_liege = {
+				religion = catholic
+				any_war = {
+					using_cb = crusade
+					crusade_target = {
+						title = k_jerusalem
+					}
+				}
+			}
+		}
+		religion = catholic
+		#trait = crusader
+		OR = {
+			location = {
+				county = {
+					de_jure_liege = d_tripoli
+				}
+			}
+			location = {
+				county = {
+					de_jure_liege = c_beirut
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTASHS.108
+		ai_chance = { factor = 50 }
+		set_character_flag = discovered_maronites
+		set_global_flag = maronites_discovered
+		prestige = -100
+		narrative_event = { id = SHS.109 }
+	}
+
+	option = {
+		name = EVTOPTBSHS.108
+		ai_chance = { factor = 50 }
+		set_character_flag = discovered_maronites
+		set_global_flag = maronites_discovered
+		piety = -25
+		narrative_event = { id = SHS.110 days = 7 }
+	}
+}
+
+# Crusaders accept the Maronites as Catholics
+narrative_event = {
+	id = SHS.109
+	title = EVTNAMESHS.109
+	desc = EVTDESCSHS.109
+	major = yes
+	
+	picture = GFX_evt_crusaders
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.109
+		trigger = {
+			has_character_flag = discovered_maronites
+		}
+		hidden_tooltip = {
+			any_independent_ruler = {
+				limit = {
+					has_landed_title = k_monothelite
+				}
+			narrative_event = { id = SHS.111 tooltip = EVTTOOLTIPSHS.111 days = 7 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.109
+		trigger = {
+			religion = catholic
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPTCSHS.109
+		trigger = {
+			religion = monothelite
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPDSHS.109
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = monothelite }
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPESHS.109
+		trigger = {
+			NOT = { religion_group = christian }
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+}
+
+# Crusaders decides Maronites are heretics
+narrative_event = {
+	id = SHS.110
+	title = EVTNAMESHS.109
+	desc = EVTDESCSHS.110
+	major = yes
+
+	picture = GFX_evt_crusaders
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.109
+		trigger = {
+			has_character_flag = discovered_maronites
+		}
+		hidden_tooltip = {
+			any_independent_ruler = {
+				limit = {
+					has_landed_title = k_monothelite
+				}
+			narrative_event = { id = SHS.112 tooltip = EVTTOOLTIPSHS.112 days = 7 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.110
+		trigger = {
+			religion = catholic
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPTCSHS.110
+		trigger = {
+			religion = monothelite
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPTDSHS.110
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = monothelite }
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPTESHS.109
+		trigger = {
+			NOT = { religion_group = christian }
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+}
+
+# Maronite Patriarchate is Established
+narrative_event = {
+	id = SHS.111
+	title = EVTNAMESHS.111
+	desc = EVTDESCSHS.111
+	major = yes
+	
+	picture = GFX_evt_crusaders
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+		trigger = {
+			has_landed_title = k_monothelite
+		}
+		set_global_flag = maronite_patriarchate_established
+		culture = levantine_arabic
+		religion = FROM
+		activate_title = { title = d_maronite status = yes }
+		hidden_tooltip = {
+			create_random_priest = {
+				dynasty = none
+				random_traits = yes
+			}
+			new_character = {
+				k_monothelite = {
+					grant_title = PREV
+				}
+				wealth = 500
+			}
+			d_maronite = {
+				grant_title = ROOT
+				holder_scope = {
+					k_papal_state = {
+						holder_scope = {
+							set_defacto_vassal = PREVPREV
+						}
+					}
+				}
+			}
+			b_boutron = {
+				grant_title = ROOT
+			}
+			religion_authority = {
+				modifier = patriarchy_instituted
+				years = 20
+			}
+			any_playable_ruler = {
+				limit = {
+					religion = catholic
+					controls_religion = yes
+				}
+				narrative_event = { id = SHS.113 days = 7 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTASHS.109
+		trigger = {
+			religion = catholic
+		}
+	}
+	option = {
+		name = EVTOPTCSHS.111
+		trigger = {
+			religion = monothelite
+		}
+	}
+	option = {
+		name = EVTOPTDSHS.111
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = monothelite }
+		}
+	}
+	option = {
+		name = EVTOPTESHS.111
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# Maronites are Insulted
+narrative_event = {
+	id = SHS.112
+	title = EVTNAMESHS.112
+	desc = EVTDESCSHS.112
+	major = yes
+	
+	picture = GFX_evt_crusaders
+	
+	is_triggered_only = yes
+
+	option = {
+		name = OK
+		trigger = {
+			has_landed_title = k_monothelite
+		}
+		activate_title = { title = d_saint_maron status = yes }
+		hidden_tooltip = {
+			create_random_soldier = {
+				dynasty = none
+				random_traits = yes
+			}
+			new_character = {
+				d_saint_maron = {
+					grant_title = PREV
+				}
+			}
+			any_playable_ruler = {
+				limit = {
+					religion = catholic
+					controls_religion = yes
+				}
+				narrative_event = { id = SHS.114 days = 7 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.112
+		trigger = {
+			religion = catholic
+		}
+	}
+	option = {
+		name = EVTOPTCSHS.112
+		trigger = {
+			religion = monothelite
+		}
+	}
+	option = {
+		name = EVTOPTDSHS.112
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = monothelite }
+		}
+	}
+	option = {
+		name = EVTOPTESHS.112
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# Maronites joins the Catholic Church
+narrative_event = {
+	id = SHS.113
+	title = EVTNAMESHS.113
+	desc = EVTDESCSHS.113
+	major = yes
+	
+	picture = GFX_evt_crusaders
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		trigger = {
+			religion = monothelite
+		}
+		ai_chance = { factor = 75 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		trigger = {
+			religion = monothelite
+		}
+		ai_chance = { factor = 25 }
+	}
+	option = {
+		name = EVTOPTASHS.109
+		piety = 150
+		add_claim = k_jerusalem
+		trigger = {
+			has_character_flag = discovered_maronites
+		}
+	}
+	option = {
+		name = EVTOPTDSHS.113
+		trigger = {
+			religion = catholic
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPTESHS.113
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = monothelite }
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPTFSHS.113
+		trigger = {
+			NOT = { religion_group = christian }
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+}
+
+# Pope condemns the Maronites
+narrative_event = {
+	id = SHS.114
+	title = EVTNAMESHS.114
+	desc = EVTDESCSHS.114
+	major = yes
+	
+	picture = GFX_evt_crusaders
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		trigger = {
+			religion = monothelite
+		}
+		ai_chance = { factor = 25 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		trigger = {
+			religion = monothelite
+		}
+		ai_chance = { factor = 75 }
+	}
+	option = {
+		name = EVTOPTASHS.109
+		wealth = 700
+		prestige = 300
+		trigger = {
+			has_character_flag = discovered_maronites
+		}
+	}
+	option = {
+		name = EVTOPTDSHS.114
+		trigger = {
+			religion = catholic
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPTESHS.114
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = monothelite }
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+	option = {
+		name = EVTOPTESHS.109
+		trigger = {
+			NOT = { religion_group = christian }
+			NOT = { has_character_flag = discovered_maronites }
+		}
+	}
+}
+
+### Papal Schism
+
+# Antipope exists
+character_event = {
+	id = SHS.115
+	desc = OK
+
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		year = 1350
+		NOT = { has_global_flag = papal_schism }
+		religion_head = {
+			has_claim = k_papal_state
+			NOT = { completely_controls = c_roma }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		set_character_flag = avignon_pope
+		set_global_flag = papal_schism
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = catholic
+					controls_religion = yes
+				}
+				narrative_event = { id = SHS.117 days = 7 }
+			}
+		}
+	}
+}
+
+# Antipope doesn't exist (set up Antipope)
+character_event = {
+	id = SHS.116
+	desc = OK
+
+	picture = GFX_evt_pope
+	border = GFX_event_narrative_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		year = 1350
+		NOT = { has_global_flag = papal_schism }
+		any_realm_character = {
+			NOT = { has_claim = k_papal_state }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 10
+			has_landed_title = b_avignon
+		}
+	}
+
+	option = {
+		name = OK
+		random_realm_character = {
+			add_claim = k_papal_state
+		}
+		set_character_flag = avignon_pope
+		set_global_flag = papal_schism
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = catholic
+					controls_religion = yes
+				}
+				narrative_event = { id = SHS.117 days = 7 }
+			}
+		}
+	}
+}
+
+# The Curia splits
+narrative_event = {
+	id = SHS.117
+	title = EVTNAMESHS.117
+	desc = EVTDESCSHS.117
+	major = yes
+	
+	picture = GFX_evt_pope
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.117
+		trigger = {
+			has_landed_title = k_papal_state
+		}
+		prestige = -500
+		narrative_event = { id = SHS.118 }
+	}
+	option = {
+		name = EVTOPTBSHS.117
+		trigger = {
+			has_character_flag = avignon_pope
+		}
+		piety = -350
+	}
+	option = {
+		name = EVTOPTCSHS.117
+		trigger = {
+			religion = catholic
+			NOT = { has_character_flag = avignon_pope }
+		}
+		religion_authority = -30
+	}
+	option = {
+		name = EVTOPTDSHS.117
+		trigger = {
+			religion = orthodox
+		}
+	}
+	option = {
+		name = EVTOPTESHS.117
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = orthodox }
+		}
+	}
+	option = {
+		name = EVTOPTFSHS.117
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# The Pope and the Curia sends compromise to the Antipope
+narrative_event = {
+	id = SHS.118
+	title = EVTNAMESHS.118
+	desc = EVTDESCSHS.118
+	major = yes
+	
+	picture = GFX_evt_pope
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.118
+		trigger = {
+			has_landed_title = k_papal_state
+		}
+		any_playable_ruler = {
+			limit = {
+				has_character_flag = avignon_pope
+			}
+			character_event = { id = SHS.119 days = 7 }
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.118
+		trigger = {
+			religion = catholic
+		}
+	}
+	option = {
+		name = EVTOPTCSHS.118
+		trigger = {
+			religion = orthodox
+		}
+	}
+	option = {
+		name = EVTOPTDSHS.118
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = orthodox }
+		}
+	}
+	option = {
+		name = EVTOPTESHS.118
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# Antipope decides on compromise
+character_event = {
+	id = SHS.119
+	desc = OK
+	
+	picture = GFX_evt_pope
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.119
+		trigger = {
+			has_character_flag = avignon_pope
+		}
+		ai_chance = { factor = 15 }
+		narrative_event = { id = SHS.120 }
+	}
+	option = {
+		name = EVTOPTBSHS.119
+		trigger = {
+			has_character_flag = avignon_pope
+		}
+		ai_chance = { factor = 85 }
+		narrative_event = { id = SHS.121 days = 7 }
+	}
+}
+
+# Antipope agrees on compromise
+narrative_event = {
+	id = SHS.120
+	title = EVTNAMESHS.120
+	desc = EVTDESCSHS.120
+	major = yes
+	
+	picture = GFX_evt_pope
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.120
+		trigger = {
+			has_landed_title = k_papal_state
+		}
+		abdicate = yes
+		remove_claim = k_papal_state
+	}
+	option = {
+		name = EVTOPTBSHS.120
+		trigger = {
+			has_character_flag = avignon_pope
+		}
+		remove_claim = k_papal_state
+	}
+	option = {
+		name = EVTOPTCSHS.120
+		trigger = {
+			religion = catholic
+			NOT = { has_character_flag = avignon_pope }
+		}
+		religion_authority = 15
+	}
+	option = {
+		name = EVTOPTDSHS.120
+		trigger = {
+			religion = orthodox
+		}
+	}
+	option = {
+		name = EVTOPTESHS.120
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = orthodox }
+		}
+	}
+	option = {
+		name = EVTOPTFSHS.120
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}
+
+# Antipope disagrees on compromise
+narrative_event = {
+	id = SHS.121
+	title = EVTNAMESHS.121
+	desc = EVTDESCSHS.121
+	major = yes
+	
+	picture = GFX_evt_pope
+	
+	is_triggered_only = yes
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 10
+			has_landed_title = b_canefro
+		}
+	}
+
+	option = {
+		name = OK
+		random_realm_character = {
+			add_claim = k_papal_state
+		}
+		set_character_flag = pisan_pope
+	}
+	option = {
+		name = EVTOPTBSHS.121
+		trigger = {
+			religion = catholic
+			NOT = { has_character_flag = avignon_pope }
+			NOT = { has_character_flag = pisan_pope }
+		}
+		religion_authority = -30
+	}
+	option = {
+		name = EVTOPTCSHS.121
+		trigger = {
+			religion = orthodox
+		}
+	}
+	option = {
+		name = EVTOPTDSHS.121
+		trigger = {
+			religion_group = christian
+			NOT = { religion = catholic }
+			NOT = { religion = orthodox }
+		}
+	}
+	option = {
+		name = EVTOPTESHS.121
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+}

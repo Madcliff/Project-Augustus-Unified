@@ -1,0 +1,21 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+
+# inherit = yes  # Heirs inherit this opinion
+
+# Opinion modifiers can give a reason to do the following actions without penalties
+# prison_reason
+# banish_reason
+# execute_reason
+# revoke_reason
+
+opinion_held_titan_thysia = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_titan_thysia = {
+	opinion = -15
+	months = 12
+}

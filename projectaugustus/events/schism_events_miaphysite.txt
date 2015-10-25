@@ -1,0 +1,203 @@
+#######################################
+#
+# Miaphysite Schism Events
+#
+# Event ID ID SHM.301 - SHM.399 reserved
+#
+#######################################
+
+# Written by Hansol "LumberKing" Lee
+
+namespace = SHS
+
+### Repudating the Council of Chalcedon (Catholic)
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.301
+	title = EVTNAMESHS.301
+	desc = EVTDESCSHS.301
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.200
+
+		if = {
+			limit = { religion = miaphysite }
+			set_parent_religion = { religion = catholic parent = miaphysite }
+		}
+		if = {
+			limit = { religion = monophysite }
+			set_parent_religion = { religion = catholic parent = miaphysite }
+		}
+
+		give_nickname = nick_the_saint
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = catholic
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.302 }
+			}
+		}
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.302
+	title = EVTNAMESHS.302
+	desc = EVTDESCSHS.302
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}
+
+### Repudating the Council of Chalcedon (Orthodox)
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.303
+	title = EVTNAMESHS.303
+	desc = EVTDESCSHS.303
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.200
+
+		if = {
+			limit = { religion = miaphysite }
+			set_parent_religion = { religion = orthodox parent = miaphysite }
+		}
+		if = {
+			limit = { religion = monophysite }
+			set_parent_religion = { religion = orthodox parent = monophysite }
+		}
+
+		give_nickname = nick_the_saint
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = orthodox
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.304 }
+			}
+		}
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.304
+	title = EVTNAMESHS.304
+	desc = EVTDESCSHS.304
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}
+
+### Enforcing the Council of Ephesus
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.305
+	title = EVTNAMESHS.305
+	desc = EVTDESCSHS.305
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.200
+
+		if = {
+			limit = { religion = miaphysite }
+			set_parent_religion = { religion = nestorian parent = miaphysite }
+		}
+		if = {
+			limit = { religion = monophysite }
+			set_parent_religion = { religion = nestorian parent = miaphysite }
+		}
+
+		give_nickname = nick_the_saint
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = nestorian
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.306 }
+			}
+		}
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.306
+	title = EVTNAMESHS.306
+	desc = EVTDESCSHS.306
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}

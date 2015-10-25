@@ -1,0 +1,1325 @@
+#CODE;ENGLISH;;;;;;;;;x 
+AIREASON_ALL_HELP_IS_APPRECIATED;All help is appreciated;;;;;;;;;x 
+RULER_JOINS_ENEMY_WAR_SETUP;A Ruler Joins a War against us;;;;;;;;;x 
+RULER_JOINS_ENEMY_WAR_LOG;§Y$WHO$§! has joined §Y$ENEMY$§! in the §Y$WAR$§!;;;;;;;;;x 
+joined_my_war;Joined my War;;;;;;;;;x 
+#d_venetian_navy;Venetian Navy;;;;;;;;;x 
+#d_venetian_navy_adj;Venetian;;;;;;;;;x 
+#d_genoese_navy;Genoese Navy;;;;;;;;;x 
+#d_genoese_navy_adj;Genoese;;;;;;;;;x 
+#d_hanseatic_navy;Hanseatic Navy;;;;;;;;;x 
+#d_hanseatic_navy_adj;Hanseatic;;;;;;;;;x 
+#d_frisian_navy;Frisian Navy;;;;;;;;;x 
+#d_frisian_navy_adj;Frisian;;;;;;;;;x 
+d_maghreb_corsairs;Maghreb Navy;;;;;;;;;x 
+d_maghreb_corsairs_adj;Maghreb;;;;;;;;;x 
+k_frisia;Frisia;;;;;;;;;x 
+k_frisia_adj;Frisian;;;;;;;;;x 
+#k_lotharingia;Lotharingia;;;;;;;;;x 
+#k_lotharingia_adj;Lotharingian;;;;;;;;;x 
+k_pomerania;Pomerania;;;;;;;;;x 
+k_pomerania_adj;Pomeranian;;;;;;;;;x 
+k_bavaria;Bavaria;;;;;;;;;x 
+k_bavaria_adj;Bavarian;;;;;;;;;x 
+PLOT_TO_MURDER;Plot to Murder;;;;;;;;;x 
+INITIAL_PLOT_POWER;Initial Plot Power;;;;;;;;;x 
+TITLE_RATING_LOWER_THAN;Held Title Rating less than ;;;;;;;;;x 
+TITLE_RATING_AT_LEAST;Held Title Rating at least ;;;;;;;;;x 
+LOADING_TIP_48;Nominating someone a Bishop will disqualify him from succession;;;;;;;;;x 
+LOADING_TIP_50;Greedy and generally indulgent characters like gifts more;;;;;;;;;x 
+AIREASON_EAGER_TO_MURDER;Amoral;;;;;;;;;x 
+AIREASON_RELUCTANT_TO_MURDER;Moral Qualms;;;;;;;;;x 
+TITLE_CANNOT_USURP_SAME_REALM;Cannot usurp a title from anyone in the same Realm unless you have a Strong Claim;;;;;;;;;x 
+REASONING;Reasoning;;;;;;;;;x 
+RulerDesignerDLC;Ruler Designer;;;;;;;;;x 
+PLOT_CONDITION_FOR_YOU;Must be true for you;;;;;;;;;x 
+PLOT_CONDITION_FOR_TARGET;Must be true for $TARGET$;;;;;;;;;x 
+ALREADY_HAVE_AMBITION;Already striving to $PLOT$;;;;;;;;;x 
+SEND_GIFT_INTERACTION_LONG_DESC;Sending an expensive gift to characters will improve their opinion of you by an amount depending on your State Diplomacy and their greed. Characters in your realm will not be quite as appreciative of gifts as outsiders.;;;;;;;;;x 
+JOIN_ATTACKER_WARS_EFFECT;Will join [GetTitledName] in [GetPossPronoun] offensive wars;;;;;;;;;x 
+JOIN_DEFENDER_WARS_EFFECT;Will join [GetTitledName] in [GetPossPronoun] defensive wars;;;;;;;;;x 
+IS_NOT_PRIMARY_WAR_ATTACKER;Is NOT the main attacker in a war;;;;;;;;;x 
+IS_PRIMARY_WAR_ATTACKER;Is the main attacker in a war;;;;;;;;;x 
+IS_NOT_PRIMARY_WAR_DEFENDER;Is NOT the main defender in a war;;;;;;;;;x 
+IS_PRIMARY_WAR_DEFENDER;Is the main defender in a war;;;;;;;;;x 
+SET_DE_JURE_LIEGE_EFFECT;The §Y$LIEGE$§! becomes the new De Jure liege title of the §Y$VASSAL$§!;;;;;;;;;x 
+CONTRIBUTION_PERC_IRO;$CHAR$'s Contribution: §Y$PERC$%§! (§Y$SCORE$§!);;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_TITLE;Offer to Join War;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_DESC;Offer to join §Y[Recipient.GetBestName]§! in one of [Recipient.GetPossPronoun] wars.;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_LONG_DESC;You can offer to join rulers of your own religion in many types of wars.;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_0;Offer to join §Y[Recipient.GetBestName]§! in §Y$WAR$§!.;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_ACCEPT_SETUP;Offer to Join War Accepted;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§W accepted §Y[Actor.GetBestName]'s§W offer to join §Y$WAR$§!;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_DECLINE_SETUP;Offer to Join War Declined;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W declined §Y[Actor.GetBestName]'s§W offer to join §Y$WAR$§!;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_OFFER;[Actor.GetBestName] wants to join §Y$WAR$§!;;;;;;;;;x 
+ASK_TO_JOIN_WAR_INTERACTION_LETTER;Your cause is righteous! Please accept my offer to join you in the $WAR$.;;;;;;;;;x 
+INTERACTION_CANNOT_JOIN_LIEGE_WAR;We cannot join our lieges' wars;;;;;;;;;x 
+INTERACTION_REQUIRES_RECIPIENT_IS_SAME_RELIGION;[Recipient.GetTitledName] is [Actor.Religion.GetName];;;;;;;;;x 
+EVTDESC293;I gladly accept your offer of assistance in my war. Let our enemies tremble!\n\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTDESC294;I appreciate your offer, but I do not need your meddling in my war.\n\n[From.GetTitledFirstName];;;;;;;;;x 
+CALL_ALLY_INTERACTION_TITLE;Call to Arms;;;;;;;;;x 
+CALL_ALLY_INTERACTION_DESC;Request that §Y[Recipient.GetBestName]§! join us in our current war efforts.;;;;;;;;;x 
+CALL_ALLY_INTERACTION_LONG_DESC;Characters can be called into wars only if they are of the same dynasty or have close marital ties.;;;;;;;;;x 
+CALL_ALLY_INTERACTION_0;Request that §Y[Recipient.GetBestName]§! join us in §Y$WAR$§!.;;;;;;;;;x 
+CALL_ALLY_INTERACTION_ACCEPT_SETUP;Call to Arms Accepted;;;;;;;;;x 
+CALL_ALLY_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§W accepted §Y[Actor.GetBestName]'s§W call to arms for §Y$ACTOR_WARS$§!;;;;;;;;;x 
+CALL_ALLY_INTERACTION_DECLINE_SETUP;Call to Arms Declined;;;;;;;;;x 
+CALL_ALLY_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W declined §Y[Actor.GetBestName]'s§W call to arms for §Y$ACTOR_WARS$§!;;;;;;;;;x 
+CALL_ALLY_INTERACTION_OFFER;[Actor.GetBestName] wants us to join §Y$ACTOR_WARS$§!;;;;;;;;;x 
+ACTOR_WARS;[GetPossPronoun] wars;;;;;;;;;x 
+DECLARE_WAR_INTERACTION_3;§R[Recipient.GetTitledFirstName] is currently revolting against [Recipient.GetPossPronoun] liege. If that conflict ends, our war will end too! The forces of the liege and any other revolters will be hostile to our armies.§!;;;;;;;;;x 
+DECLARE_WAR_INTERACTION_4;§RNearby [Recipient.Religion.GetName] rulers might ask to join [Recipient.GetTitledName] in defense of their faith.§!;;;;;;;;;x 
+plot_gain_vassal_title_title;Revoke the [This.GetFullBaseName];;;;;;;;;x 
+plot_gain_vassal_title_desc;[From.GetBestName] is plotting to revoke the title of [This.GetFullBaseName].;;;;;;;;;x 
+plot_gain_vassal_title_decision;[Root.GetPlot];;;;;;;;;x 
+plot_gain_vassal_title_decision_desc;Put the plot into motion by sending an ultimatum to [Root.PlotTarget.GetTitledName].;;;;;;;;;x 
+EVTTOOLTIP8030;[Root.PlotTarget.GetTitledName] receives a letter.;;;;;;;;;x 
+EVTDESC8030;I have decided to [From.GetPlot]. The vassals in the realm have studied the legal documents presented in this case and the majority of them have deemed my demand justified. Either step down peacefully or I will be forced to take what is mine by military means.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTDESC8068;Rather than risking civil war tearing the realm apart, I have decided to give in to your demand and hand my title over to you. But this treacherous act of blackmail will not be forgotten...\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA8068;Excellent!;;;;;;;;;x 
+EVTDESC8096;Rather than letting civil war tear the realm apart, [FromFrom.PlotTarget.GetTitledName] has agreed to step down and let me [FromFrom.GetPlot]. Your valuable support in this conflict will not be forgotten.\n\nSincerely,\n[FromFrom.GetTitledName];;;;;;;;;x 
+EVTOPTA8096;Good;;;;;;;;;x 
+EVTDESC8118;Your shameful attempt at blackmail has not succeeded. No matter how many corrupted souls you have enticed to help carry out your plan I will not give in without a fight. What is rightfully mine is mine!\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA8118;Then war it is!;;;;;;;;;x 
+CRUSADE_DESC_IRO;His Holiness, §Y$POPE$§! has declared a $CRUSADE$ to reclaim all parts of the §Y$TITLE$§! held by §Y$ENEMY$§!.;;;;;;;;;x 
+CRUSADE_DESC_DRO_1;Since the Crown of §Y$TITLE$§! is already held by a good [Religion.GetName] ruler - §Y[GetTitledFirstName]§! - all gains will be handed over to [GetObjectPronoun].;;;;;;;;;x 
+CRUSADE_DESC_DRO_2;Since the Crown of §Y$TITLE$§! is not held by a $RELIGION$ ruler, all gains will be handed over to the ruler who contributes the most to the $CRUSADE$, which is currently §Y$RULER$§!.;;;;;;;;;x 
+PARTICIPATION_SCORE;Contribution to the $CRUSADE$;;;;;;;;;x 
+CLICK_TO_OPEN_WAR_VIEW;§GClick to Open the War View§!;;;;;;;;;x 
+EVTNAME620;Successful [From.Religion.GetCrusadeName] for [Root.GetBaseName]!;;;;;;;;;x 
+EVTDESC620;[From.Religion.GetRandomGodNameCap] has granted [From.GetTitledName] victory in the [From.Religion.GetCrusadeName] for [Root.GetBaseName] against [New.GetTitledName]. [From.RelHead.GetTitledName] has called for a month of celebration across the whole [From.Religion.GetGroupName] world!;;;;;;;;;x 
+EVTOPTA620;Praise [From.Religion.GetRandomGodName]!;;;;;;;;;x 
+EVTNAME621;The [From.Religion.GetCrusadeName] for [Root.GetBaseName] Fails!;;;;;;;;;x 
+EVTDESC621;[From.Religion.GetRandomGodNameCap], it seems, does not favour the [From.Religion.GetGroupName] faithful. After a string of defeats and setbacks, [From.GetTitledName] has called off the [From.Religion.GetCrusadeName] for [Root.GetBaseName] against [New.GetTitledName].;;;;;;;;;x 
+TITLE_CREATION_NOT_PRIMARY_TYPE;Special title holders cannot create or usurp equal or higher rank titles.;;;;;;;;;x 
+IS_NOT_LOCATED_IN_AREA;Is NOT Located in;;;;;;;;;x 
+IS_LOCATED_IN_AREA;Is Located in;;;;;;;;;x 
+IS_NOT_DE_JURE_VASSAL_OR_BELOW;Is NOT de jure vassal or below;;;;;;;;;x 
+IS_DE_JURE_VASSAL_OR_BELOW;Is de jure vassal or below;;;;;;;;;x 
+WAR_NAME_CRUSADE;$ORDER$$RELIGION$ $HOLY_WAR$ for $OTHER_TITLE$;;;;;;;;;x 
+CB_NAME_CLAIM_VASSAL;Revoke [Title.GetBaseName];;;;;;;;;x 
+#coastal_republic_desc;As a Naval Republic, §Y$CLAIMANT$§! can declare war to seize control of the coastal §Y$TITLE$§!;;;;;;;;;x 
+HOLDING_TYPE_IS_NOT;Holding Type is NOT ;;;;;;;;;x 
+HOLDING_TYPE_IS;Holding Type is ;;;;;;;;;x 
+REPUBLIC_HELD_CITY;Republic held City;;;;;;;;;x 
+REPUBLIC_HELD_COASTAL_CITY;Republic held Coastal City;;;;;;;;;x 
+REPUBLIC_GRAND_CAPITAL_CITY;Grand Republic Capital City;;;;;;;;;x 
+MATRILINEAL_MARRIAGE;Matrilineal Marriage;;;;;;;;;x 
+MATRILINEAL;Matrilineal;;;;;;;;;x 
+BETROTHAL_SUCC;Matrilineal Betrothal;;;;;;;;;x 
+BETROTHED_SUCC_IRO;These characters are promised to each other and cannot marry anyone else unless the betrothal is broken. They have agreed to marry matrilineally, meaning any children born to the couple will be of the bride's dynasty.;;;;;;;;;x 
+OFFER_SUCCESSION_MARRIGE_INTERACTION_3;§RChildren born to the couple will not be of your Dynasty - consider a regular marriage!§!;;;;;;;;;x 
+OFFER_MARRIGE_INTERACTION_3;§RChildren born to the couple will not be of your Dynasty - consider a Matrilineal marriage!§!;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_TITLE;Arrange Matrilineal Betrothal;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_DESC;Arrange a Matrilineal Betrothal between two characters;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_LONG_DESC;While children are not allowed to marry, they can get betrothed. The betrothal will last until the characters get married, one of them should die, or it is explicitly broken.;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_0;Select a future bride and groom.;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_1;Select a character from the court of §Y$CHAR$§W.;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_ACCEPT_SETUP;Matrilineal Betrothal Offer Accepted;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§W accepts the suggestion by §Y[Actor.GetBestName]§W that §Y[ActorExtra.GetBestName]§W and §Y[RecipientExtra.GetBestName]§W should get betrothed matrilineally;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_DECLINE_SETUP;Matrilineal Betrothal Offer Declined;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W declines the suggestion by §Y[Actor.GetBestName]§W that §Y[ActorExtra.GetBestName]§W and §Y[RecipientExtra.GetBestName]§W should get betrothed matrilineally;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_OFFER;[Actor.GetBestName] proposes that [ActorExtra.GetBestName] and [RecipientExtra.GetBestName] should get betrothed matrilineally;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_LETTER;We propose that [ActorExtra.GetBestName] and [RecipientExtra.GetBestName] should get betrothed matrilineally.;;;;;;;;;x 
+ARRANGE_SUCC_BETROTHAL_INTERACTION_3;§RChildren born to the couple will not be of your Dynasty - consider a regular marriage!§!;;;;;;;;;x 
+ARRANGE_BETROTHAL_INTERACTION_3;§RChildren born to the couple will not be of your Dynasty - consider a Matrilineal marriage!§!;;;;;;;;;x 
+EVTDESC330;I have decided to accept your suggestion of a matrilineal betrothal between [Root.GetTitledFirstName] and [New.GetTitledFirstName].;;;;;;;;;x 
+EVTDESC331;I reject your insulting suggestion. [New.GetTitledFirstName] will never marry [Root.GetTitledFirstName] matrilineally.;;;;;;;;;x 
+WAR_NAME_CLAIM_ALL;$ORDER$$FIRST_ADJ$ War for the $CLAIMS$;;;;;;;;;x 
+ALL_WARS;All Wars;;;;;;;;;x 
+stressed_death;of severe stress;;;;;;;;;x 
+depressed_death;of depression;;;;;;;;;x 
+ill_death;after a period of illness;;;;;;;;;x 
+pneumonic_death;of Pneumonia;;;;;;;;;x 
+syphilitic_death;of Great Pox;;;;;;;;;x 
+leper_death;of terminal stage Leprosy;;;;;;;;;x 
+wounded_death;of an infected wound;;;;;;;;;x 
+maimed_death;a maimed cripple;;;;;;;;;x 
+infirm_death;bedridden and infirm;;;;;;;;;x 
+incapable_death;comatose in bed;;;;;;;;;x 
+has_tuberculosis_death;of Consumption;;;;;;;;;x 
+has_typhoid_fever_death;of the Slow Fever;;;;;;;;;x 
+has_typhus_death;of Camp Fever;;;;;;;;;x 
+has_bubonic_plague_death;of the dreaded Plague;;;;;;;;;x 
+has_measles_death;of the Measles;;;;;;;;;x 
+has_small_pox_death;of Smallpox;;;;;;;;;x 
+inbred_death;an inbred freak;;;;;;;;;x 
+weak_death;of poor physique;;;;;;;;;x 
+DEATH_BY_TRAIT;died $TRAIT_DEATH$;;;;;;;;;x 
+DEATH_BY_NATURE;died a natural death;;;;;;;;;x 
+DEATH_BY_MURDER;was murdered on the orders of $KILLER$;;;;;;;;;x 
+DEATH_BY_MURDER_UNKNOWN;died under suspicious circumstances;;;;;;;;;x 
+DEATH_EXECUTION;was executed by $KILLER$;;;;;;;;;x 
+DEATH_ACCIDENT;died in an accident;;;;;;;;;x 
+DEATH_BATTLE;died in battle against $KILLER$;;;;;;;;;x 
+DEATH_BATTLE_NO_KILLER;died in battle;;;;;;;;;x 
+DEATH_DUNGEON;died in the dungeons of $KILLER$;;;;;;;;;x 
+DEATH_SUICIDE;committed suicide;;;;;;;;;x 
+DEATH_RABBLE;was killed by rabble;;;;;;;;;x 
+DEATH_DUEL;was slain by $KILLER$ in personal combat;;;;;;;;;x 
+CHARACTER_DEAD_TOOLTIP;[GetDeathReasonCap] on §Y[GetDeathDate]§! at age §Y[GetAgeYears]§! (born §Y[GetBirthDate]§!).;;;;;;;;;x 
+CHAR_DEATH_LOG;At age $AGE$, §Y$NAME$§! $CAUSE$.;;;;;;;;;x 
+CHAR_DEATH_LETTER;At the age of $AGE$ my $RELATION$ $NAME$ $CAUSE$.;;;;;;;;;x 
+SUCCESSION_DESC;$OLD_TITLE$ $OLD_NAME$ $SUCC_RAND_DESC$ at age [GetAgeYears]. [GetSubjectPronounCap] [GetDeathReason]. Long live $NEW_TITLE$ $NEW_NAME$!;;;;;;;;;x 
+NOT_READY_TO_PLAY_MP;§Y$PLAYER$§! is not ready;;;;;;;;;x 
+DESTROY_LANDED_TITLE_EFFECT;The §Y$TITLE$§! is forfeit.\n;;;;;;;;;x 
+READY;Ready;;;;;;;;;x 
+nick_haardraade;Hårdråde;;;;;;;;;x 
+DE_JURE_LIEGE_CHANGED_SETUP;Landed title changes de jure liege;;;;;;;;;x 
+DE_JURE_LIEGE_CHANGED_LOG;After §Y$YEARS$§! years under the §Y$NEW_LIEGE$§!, the §Y$TITLE$§! is no longer considered a de jure part of the §Y$OLD_LIEGE$§!.;;;;;;;;;x 
+DE_JURE_ASS_DESC;Being incorporated, de jure, into the §Y$TITLE$§! (§Y$YEARS$§!/$NEEDED_YEARS$ years);;;;;;;;;x 
+SEND_ASSASSIN_INTERACTION_DESC;Attempt to assassinate §Y[Recipient.GetBestName]§! for §Y$GOLD$§!¤. We have a §Y$CHANCE$%§W chance of success and a §Y$DISC$%§W chance of being discovered. §RIf I am discovered, it will be a black stain on my honor.§W;;;;;;;;;x 
+DS_HOSTILE_2;§YHostile§! towards §Y$LIEGE$§! due to the war with their rebelling vassal §Y$VASSAL$§!.;;;;;;;;;x 
+DS_HOSTILE_3;§YHostile§! towards §Y$ATTACKER$§! due to their war on the rebelling vassal §Y$VASSAL$§!.;;;;;;;;;x 
+DS_HOSTILE_4;§YHostile§! towards §Y$OTHER$§! due to the war on the other rebelling vassal, §Y$VASSAL$§!.;;;;;;;;;x 
+DS_HOSTILE_5;§YHostile§! towards §Y$VASSAL$§! due to the war on their liege, §Y$LIEGE$§!.;;;;;;;;;x 
+DS_HOSTILE_6;§YHostile§! towards §Y$ATTACKER$§! due to their war on the nominal liege, §Y$LIEGE$§!.;;;;;;;;;x 
+UW_NOT_POSSIBLE_TO_ATTACH;There are no friendly units here to attach to.;;;;;;;;;x 
+UW_UNITS_ATTACHED;The following units are attached.;;;;;;;;;x 
+UW_ATTACH_TO;Attach to always follow $NAME$.;;;;;;;;;x 
+UW_DETACH_FROM;Detach from following $NAME$.;;;;;;;;;x 
+INTERACTION_NO_OUTSIDER_OCCUPATION;None of $REVOLTER$'s holdings are occupied by $OUTSIDER$.;;;;;;;;;x 
+OL_UNIT_MOVING;Next province on route is §Y$TARGET$§W.;;;;;;;;;x 
+k_andalusia;Andalusia;;;;;;;;;x 
+k_brittany;Brittany;;;;;;;;;x 
+k_brittany_adj;Breton;;;;;;;;;x 
+k_aquitaine;Aquitaine;;;;;;;;;x 
+k_aquitaine_adj;Aquitanian;;;;;;;;;x 
+d_aquitaine_adj;Aquitanian;;;;;;;;;x 
+b_asperg;Asperg;;;;;;;;;x 
+opinion_father_of_child;My Child;;;;;;;;;x 
+plot_kill_character_short;Kill Character;;;;;;;;;x 
+plot_kill_spouse_short;Kill Spouse;;;;;;;;;x 
+CB_NAME_DEJURECLAIM;De Jure Claim on [Title.GetBaseName];;;;;;;;;x 
+WAR_NAME_DEJURECLAIM;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ De Jure War over $OTHER_TITLE$;;;;;;;;;x 
+TITLE_CREATION_REQ_DUCHIES;You need to hold at least §Y$DUCHIES$§! Duchy titles.;;;;;;;;;x 
+TITLE_TITULAR_NO_CAPITAL;This title cannot be created normally.;;;;;;;;;x 
+TITLE_TITULAR_CREATION_DESC;Creating this title would give you §G$PRESTIGE$§! Prestige and cost you §R$GOLD$§!¤ and §R$PIETY$§! $PIETYNAME$.;;;;;;;;;x 
+TITLE_TITULAR_REQ_HELD_CAPITAL;You must hold the §Y$TITLE$§!.;;;;;;;;;x 
+EVTDESC65115;I find tasty mud on ground. Eat some. While eat, young girl come to me. She ask, 'Are you stupid or something?';;;;;;;;;x 
+EVTOPTA65115;I smart. Girl stupid.;;;;;;;;;x 
+EVTOPTB65115;Stupid is as stupid does.;;;;;;;;;x 
+EVTDESC65120;Practise with sword on field today. Noticed hand was red when practise over. Held sword by wrong end whole time! Hahaha.;;;;;;;;;x 
+EVTOPTA65120;YOW!;;;;;;;;;x 
+EVTDESC65125;Horse strange today while riding. Head missing and only moved backwards. Rode this way into [Root.Location.GetName] where stable boy said, ;;;;;;;;;x 
+EVTOPTA65125;Oops. I done bad...;;;;;;;;;x 
+EVTOPTB65125;Riding my way better.;;;;;;;;;x 
+EVTDESC65126;Forgot to put on pants this morning. Much shouting, many upset. I not understand.;;;;;;;;;x 
+EVTOPTA65126;Calm down! Simple mistake!;;;;;;;;;x 
+EVTDESC65130;Today I stumbled upon a painting of the most wretched, hideous creature I had ever laid eyes on. This affront to nature left me chilled to the bone. The crooked teeth, the ears... [Root.GetHerHis] oversized nose alone was enough to make me nauseous! A nearby courtier then asked what I thought of my new portrait.;;;;;;;;;x 
+EVTOPTA65130;I need a mirror...;;;;;;;;;x 
+EVTOPTB65130;The poor light deceived me. That nose has character!;;;;;;;;;x 
+EVTDESC65135;I learned today that mothers in [Root.Location.GetName] keep their daughters in line by threatening to marry them off to someone as hideous as... me.;;;;;;;;;x 
+EVTOPTA65135;I should spend more time indoors...;;;;;;;;;x 
+EVTOPTB65135;They could do worse!;;;;;;;;;x 
+EVTDESC65140;Vicious rumors that I am a witch have been spreading in [Root.Location.GetName] due to my... unique appearance. At least my station prevents the peasants from acting on these baseless accusations.;;;;;;;;;x 
+EVTOPTA65140;The wretches will soon find someone uglier to pester.;;;;;;;;;x 
+EVTOPTB65140;A pox on them! May they breed ugly, ugly children.;;;;;;;;;x 
+EVTDESC65145;As I grew up, those near me never made it a secret that I was a particularly ugly child. Now, as I am growing into a [Root.GetManWoman], they seem to react differently to my appearance...;;;;;;;;;x 
+EVTOPTA65145;An ugly duckling no longer...;;;;;;;;;x 
+EVTDESC65150;Today as I mounted my favorite horse with the help of six stable boys, it let out a strange sigh and collapsed. The stable master claimed the horse was dead, its back broken. He hinted that perhaps it would be best for all concerned if I walk from now on.;;;;;;;;;x 
+EVTOPTA65150;I may have put on some weight...;;;;;;;;;x 
+EVTOPTB65150;Nonsense! Find me another horse!;;;;;;;;;x 
+EVTDESC65151;Enough is enough. I have decided to eat less and exercise more. Why, I think I can finally see my feet!;;;;;;;;;x 
+EVTDESC65155;I was touring the defenses of [Root.Location.GetName] and as I tried to enter one of the towers, I got stuck in the doorway! I found myself unable to move in either direction and it took the strength of four men to pull me free.;;;;;;;;;x 
+EVTOPTA65155;What have I become? No more suckling pig for me.;;;;;;;;;x 
+EVTOPTB65155;Was this tower designed for use by children? Expand all doorways!;;;;;;;;;x 
+EVTDESC65160;As I strolled through the streets of [Root.Location.GetName], I was approached by the local Coin Purse Inspector. He asked to see my purse, and I duly complied.;;;;;;;;;x 
+EVTOPTA65160;Wait... that wasn't the Coin Purse Inspector...;;;;;;;;;x 
+EVTDESC3460;A holy man came to court today to talk about matters of faith, but it soon became clear he held rather unorthodox views. Being a zealous defender of the church at all times, I believe I did the right thing when I gave the order to imprison a blasphemous pagan who dared criticise my faith and my church.;;;;;;;;;x 
+EVTOPTA3460;Deus vult!;;;;;;;;;x 
+EVTDESC61100;As the regent of [Root.Liege.GetTitledFirstName], my duty is to safeguard the realm. I feel that one of [Root.Liege.GetHerHis] holdings would flourish much more under my direct supervision.;;;;;;;;;x 
+EVTOPTA61100;[Root.Liege.GetTitledFirstName] wills it!;;;;;;;;;x 
+EVTOPTB61100;Nay, I must remember the limits of my station.;;;;;;;;;x 
+EVTTOOLTIP61101;You usurp a title from [Root.Liege.GetTitledFirstName].;;;;;;;;;x 
+EVTDESC61101;[Root.Regent.GetTitledName], your regent, has decided in [Root.Regent.GetHerHis] infinite wisdom that one of your titles would benefit the realm more if it was awarded directly to [Root.Regent.GetHerHim].;;;;;;;;;x 
+EVTOPTA61101;*drool*;;;;;;;;;x 
+EVTOPTB61101;*stare vacantly ahead*;;;;;;;;;x 
+EVTDESC61105;The poor of the realm have suffered terribly under the rule of [Root.Liege.GetTitledFirstName]. As [Root.Liege.GetHerHis] regent, I am in a position to give something back to the people.;;;;;;;;;x 
+EVTOPTA61105;Here you are... courtesy of [Root.Liege.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTB61105;Tempting, but the gold isn't mine to spend.;;;;;;;;;x 
+EVTTOOLTIP61106;You give alms to the poor in the name of [Root.Liege.GetTitledFirstName].;;;;;;;;;x 
+EVTDESC61106;[Root.Regent.GetTitledName], your regent, seems to have given in to [Root.Regent.GetHerHis] charitable nature and has been donating alms to the poor from your coffers. Worst of all, [Root.Regent.GetSheHe] has been doing it in your name!;;;;;;;;;x 
+EVTOPTA61106;Ggghnnn..n-n-nooooo...!;;;;;;;;;x 
+EVTDESC61110;The administration of your realm has improved significantly since [Root.Regent.GetTitledFirstName] became your regent. If only you had [Root.Regent.GetHerHis] skills!;;;;;;;;;x 
+EVTOPTA61110;*emit grunt of approval*;;;;;;;;;x 
+EVTDESC61120;[Root.Liege.GetTitledFirstName] is a decrepit fool and a pathetic shell of a [Root.Liege.GetManWoman]. As [Root.Liege.GetHerHis] appointed regent, I think the court needs a new jester...;;;;;;;;;x 
+EVTOPTA61120;Humiliate [Root.Liege.GetHerHim] in front of the court.;;;;;;;;;x 
+EVTOPTB61120;Perhaps I had better not.;;;;;;;;;x 
+EVTTOOLTIP61121;Those in court with low opinion of [Root.Liege.GetHerHim] approve.;;;;;;;;;x 
+EVTDESC61121;As you sit powerless on your throne, your regent, [Root.Regent.GetTitledName], has made a regular habit of mocking you in front of the rest of the court - [Root.Regent.GetSheHe] hangs [Root.Regent.GetHerHis] coat on your head, [Root.Regent.GetSheHe] writes crude sentiments on your forehead with charcoal and one time [Root.Regent.GetSheHe] even cracked open a walnut using your teeth. The indignity!;;;;;;;;;x 
+EVTOPTA61121;*suffer series of involuntary spasms*;;;;;;;;;x 
+EVTOPTB61121;*bob head in reckless, unpredictable manner*;;;;;;;;;x 
+EVTDESC61122;[Root.Liege.Regent.GetTitledName], the regent of [Root.Liege.GetTitledFirstName], has been physically humiliating [Root.Liege.GetHerHim] in public. Due to the [Root.Liege.GetTitle]'s infirm nature, [Root.Liege.GetSheHe] is powerless to resist. Honor demands that you put an end to this disgrace!;;;;;;;;;x 
+EVTOPTA61122;Approach [Root.Liege.GetTitledFirstName] and seek [Root.Liege.GetHerHis] blessing to act.;;;;;;;;;x 
+EVTOPTB61122;Ah, the fool deserves no less.;;;;;;;;;x 
+EVTTOOLTIP61123;You speak with the [Root.Liege.GetTitle].;;;;;;;;;x 
+EVTDESC61123;The way your regent has been treating you has not gone unnoticed. [From.GetTitledName] approaches you alone one evening to express [From.GetHerHis] disgust at the vile indignities you have been made to suffer. Eyes tearful with anger, [From.GetSheHe] promises to take action against your regent... if only you would give your approval.;;;;;;;;;x 
+EVTOPTA61123;*nod head almost imperceptibly*;;;;;;;;;x 
+EVTOPTB61123;*sag head and lapse into deep slumber*;;;;;;;;;x 
+EVTTOOLTIP61124;You give [From.GetTitledName] your blessing.;;;;;;;;;x 
+EVTDESC61124;Though [Root.Liege.GetSheHe] is not quite [Root.Liege.GetHerselfHimself] these days, you feel that your liege has given [Root.Liege.GetHerHis] blessing to take decisive action against [Root.Liege.Regent.GetTitledName]. Rally some dependable men! The realm needs a new regent!;;;;;;;;;x 
+EVTOPTA61124;It is only fair that I serve as regent of [Root.Liege.GetTitledFirstName].;;;;;;;;;x 
+EVTOPTB61124;Anyone is better than [Root.Liege.Regent.GetFirstName].;;;;;;;;;x 
+EVTTOOLTIP61125;you becoming the next regent.;;;;;;;;;x 
+EVTTOOLTIP61126;the court appointing a new regent.;;;;;;;;;x 
+EVTDESC61125;We have trapped [Root.Liege.Regent.GetFirstName] in one of the castle towers like a cornered rat! Those few guards at court that supported [Root.Liege.Regent.GetHerHim] have fled or been cut down.;;;;;;;;;x 
+EVTOPTA61125;Off to the dungeons with [Root.Liege.Regent.GetHerHim]!;;;;;;;;;x 
+EVTDESC61127;[Root.Liege.Regent.GetFirstName] had more support at court than expected. We fought bravely in defense of the realm, but most of the guards rallied to the side of [Root.Liege.Regent.GetFirstName]. All is lost!;;;;;;;;;x 
+EVTOPTA61127;Unhand me in the name of [Root.Liege.GetTitledFirstName]!;;;;;;;;;x 
+EVTTOOLTIP61127;you being thrown in the dungeons.;;;;;;;;;x 
+EVTDESC61128;[From.GetTitledName], the fool, has decided to end your regency out of misguided sympathy for [Root.Liege.GetTitledFirstName]. Fortunately enough guards rallied to your side to thwart [From.GetHerHis] little scheme.;;;;;;;;;x 
+EVTOPTA61128;Let [From.GetHerHim] rot in the dungeons.;;;;;;;;;x 
+EVTDESC61129;[From.GetTitledName], the fool, has decided to end your regency out of misguided sympathy for [Root.Liege.GetTitledFirstName]. The treacherous guards seem to have left you to your fate!;;;;;;;;;x 
+EVTOPTA61129;Have you no sense of humor?;;;;;;;;;x 
+EVTTOOLTIP61129;[Root.Liege.Regent.GetFirstName] is thrown in the dungeons.;;;;;;;;;x 
+EVTDESC61130;[From.GetTitledFirstName] failed to replace your regent and is now languishing in your castle dungeons. It seems your suffering at the hands of [Root.Regent.GetTitledFirstName] will end only in the blissful embrace of death...;;;;;;;;;x 
+EVTOPTA61130;*blink away single tear*;;;;;;;;;x 
+EVTOPTB61130;*utter incomprehensible oath*;;;;;;;;;x 
+EVTDESC61131;From where you were propped up on your throne, you could hear shouting and the distinct sound of steel striking steel inside the castle. The men loyal to [From.GetTitledFirstName] prevailed against [Root.Regent.GetTitledFirstName]! No longer will [Root.Regent.GetHerHis] vile presence be felt at court, and a new regent is to be appointed forthwith.;;;;;;;;;x 
+EVTOPTA61131;*contort face in grimace vaguely resembling smile*;;;;;;;;;x 
+EVTOPTB61131;*flail arms about in wild celebration*;;;;;;;;;x 
+EVTDESC61135;As you ride through the empty corridors of your castle on your trusty wooden stick horse, you come across your regent, [Root.Regent.GetTitledName], getting some fresh air on a balcony... with [Root.Regent.GetHerHis] back turned against you.;;;;;;;;;x 
+EVTOPTA61135;Charge!;;;;;;;;;x 
+EVTOPTB61135;No, I'm a good [Root.GetLadLass].;;;;;;;;;x 
+EVTDESC61140;It suddenly dawns on you - when [Root.Liege.GetTitledFirstName] comes of age, your title as regent of the realm is forfeit. Perhaps something could be done to extend your enlightened stewardship of the throne... for the good of the realm, of course.;;;;;;;;;x 
+EVTOPTA61140;The whelp is not fit to rule - not now, not ever!;;;;;;;;;x 
+EVTOPTB61140;For better or worse, I will step down when the [Root.Liege.GetLadLass] is ready.;;;;;;;;;x 
+EVTDESC61141;It is becoming increasingly obvious that [Root.Liege.GetTitledFirstName] is a very... special child. You can no longer explain away [Root.Liege.GetHerHis] growing madness as the mere eccentricities of youth.;;;;;;;;;x 
+EVTOPTA61141;This is not a decision I take lightly, but something must be done.;;;;;;;;;x 
+EVTOPTB61141;Perhaps the madness will disappear with age and maturity...;;;;;;;;;x 
+EVTDESC61142;The mad [Root.Liege.GetTitledFirstName] has been imprisoned in one of the castle towers, and your regency will continue until the child is declared sound of mind, regardless of [Root.Liege.GetHerHis] age.;;;;;;;;;x 
+EVTOPTA61142;It is for the good of the realm.;;;;;;;;;x 
+EVTTOOLTIP61145;having [Root.Liege.GetTitledFirstName] declared insane.;;;;;;;;;x 
+EVTDESC61145;Through skillful conniving, you have managed to see [Root.Liege.GetTitledFirstName] declared insane. Until [Root.Liege.GetHerHis] mental state improves, the child will remain locked up in one of the castle towers while your illustrious regency continues.;;;;;;;;;x 
+EVTOPTA61145;Ha! That day will never come.;;;;;;;;;x 
+EVTDESC61146;All of your attempts to have [Root.Liege.GetTitledFirstName] declared insane have failed. Before long the [Root.Liege.GetLadLass] will be a [Root.Liege.GetManWoman], and you may have made yourself a powerful enemy...;;;;;;;;;x 
+EVTOPTA61146;Well, [Root.Liege.GetSheHe] looked insane to me...;;;;;;;;;x 
+EVTTOOLTIP61146;failing to do so.;;;;;;;;;x 
+EVTDESC61150;Your regent, [Root.Regent.GetTitledName], seems to have been conspiring to have you declared insane in a futile attempt to extend [Root.Regent.GetHerHis] regency. Unfortunately for [Root.Regent.GetHerHim], it is obvious to all that you are sound of mind.;;;;;;;;;x 
+EVTOPTA61150;Some day [Root.Regent.GetSheHe] will regret this treachery.;;;;;;;;;x 
+EVTOPTB61150;I'm not mad. Tell them, Mr. Flibble.;;;;;;;;;x 
+EVTDESC61151;Your scheming snake of a regent, [Root.Regent.GetFirstName], has managed to convince the court that you are insane! The decision has been made to lock you up in one of the castle towers until you are deemed mentally fit to rule, regardless of your age.;;;;;;;;;x 
+EVTOPTA61151;I'm not insane! I'm not!;;;;;;;;;x 
+EVTOPTB61151;I shall plead with the King of the Turnip People for my freedom.;;;;;;;;;x 
+EVTDESC61155;For fifteen years [Root.Liege.GetTitledFirstName] has been locked up under guard while you have served as [Root.Liege.GetHerHis] regent. You are the true ruler of the realm in all but name. Perhaps the time has come to end this charade.;;;;;;;;;x 
+EVTOPTA61155;Seize the throne!;;;;;;;;;x 
+EVTOPTB61155;No, appearances must be kept.;;;;;;;;;x 
+EVTOPTC61155;I have had enough. Release the [Root.Liege.GetLadLass].;;;;;;;;;x 
+EVTDESC61156;At long last, the throne is yours. The degrading charade you have been forced to endure all these years has come to an end. You are [Root.Liege.GetTitle] now, both in title and practise. Long live the [Root.Liege.GetTitle]!;;;;;;;;;x 
+EVTOPTA61156;I earned this.;;;;;;;;;x 
+EVTTOOLTIP61156;stealing the throne.;;;;;;;;;x 
+EVTDESC61157;The ingrates at court have refused to embrace you as their true liege! For your audacity in pursuing this claim, they have stripped you of your title as regent and released [Root.Liege.GetTitledFirstName] from [Root.Liege.GetHerHis] imprisonment.;;;;;;;;;x 
+EVTOPTA61157;Fools! The realm will suffer now.;;;;;;;;;x 
+EVTTOOLTIP61157;failing miserably.;;;;;;;;;x 
+EVTDESC61160;Your treacherous regent seems to have finally bitten off more than [Root.Regent.GetSheHe] could chew. An attempt to completely usurp your throne has backfired, and [Root.Regent.GetTitledName] has been stripped of [Root.Regent.GetHerHis] title as regent. You have been released, and can now assume your rightful position as [Root.GetLordLady] of this realm.;;;;;;;;;x 
+EVTOPTA61160;Is... is that the sun?;;;;;;;;;x 
+EVTTOOLTIP61160;The [Root.Liege.GetTitle] is set free!;;;;;;;;;x 
+EVTDESC61161;While you were locked up, your regent has been busily gathering enough support at court to finally steal away your title. The despicable theft of your birthright is now complete.;;;;;;;;;x 
+EVTOPTA61161;This is not happening...;;;;;;;;;x 
+EVTTOOLTIP61161;A new [Root.Liege.GetTitle].;;;;;;;;;x 
+EVTDESC61165;You cunningly trick one of the guards into leaving the door to your tower unlocked. After escaping into the castle, you kick open the door to the main chamber where your jackal regent [Root.Regent.GetFirstName] sits bewildered on your throne. As the confused courtiers whisper to each other, you bellow at the top of your lungs:;;;;;;;;;x 
+EVTOPTA61165;Hear me! I am the rightful [Root.GetLordLady] of this land!;;;;;;;;;x 
+EVTOPTB61165;GOBBLEDYGOOK!;;;;;;;;;x 
+EVTDESC61166;The guards escort you back to your tower and nail the door shut from the outside...;;;;;;;;;x 
+EVTOPTA61166;If this is to be my kingdom, then so be it.;;;;;;;;;x 
+EVTTOOLTIP61166;Well, you gave it your best shot...;;;;;;;;;x 
+EVTDESC61170;Disaster! Somehow [Root.Liege.GetTitledFirstName] has managed to escape from his tower and rally enough support to oust you from your position as regent! The guards turn on you and throw you into the dungeon.;;;;;;;;;x 
+EVTOPTA61170;It was not to be.;;;;;;;;;x 
+EVTTOOLTIP61170;Your regent is arrested.;;;;;;;;;x 
+EVTDESC61190;The throne shan't be yours so long as [Root.Liege.GetTitledFirstName] draws breath. If an accident was to befall the whelp... they happen so easily, after all. As [Root.Liege.GetHerHis] regent, perhaps you should appoint some simple chores to the [Root.Liege.GetLadLass]. The castle roof has long needed to be scrubbed clean of bird-droppings...;;;;;;;;;x 
+EVTOPTA61190;It builds character.;;;;;;;;;x 
+EVTOPTB61190;No, that would not be worthy of a [Root.Liege.GetTitle].;;;;;;;;;x 
+EVTDESC61191;At times you can't shake the feeling that your regent, [Root.Regent.GetTitledName], does not always have your best in mind. Claiming it will build character, [Root.Regent.GetSheHe] has given you the dangerous task of scrubbing away bird-droppings from the castle roof. If you lose your balance even once...;;;;;;;;;x 
+EVTOPTA61191;Isn't this what servants are for?;;;;;;;;;x 
+EVTTOOLTIP61191;May perish in an unfortunate accident.;;;;;;;;;x 
+EVTDESC61192;You had a few close calls, but the roof is now shining clean and you made it down in one piece. If the confounded birds return, you will have a chance to hone your skills at archery.;;;;;;;;;x 
+EVTOPTA61192;An honest day's work.;;;;;;;;;x 
+EVTTOOLTIP61192;a roof free of bird excrements.;;;;;;;;;x 
+EVTDESC61195;So the child has a good sense of balance. No matter. Perhaps a trip to the countryside would do [Root.Liege.GetTitledFirstName] some good. There are some dense woods not far from here, infested with wolves and bandits. One could easily get lost in them...;;;;;;;;;x 
+EVTOPTA61195;Come, [Root.Liege.GetFirstName]. You are going on a little trip.;;;;;;;;;x 
+EVTOPTB61195;The risk is too great.;;;;;;;;;x 
+EVTDESC61196;[Root.Regent.GetFirstName], your regent, has arranged for you to tour the nearby countryside and visit your subjects living there. As you enter a dense forest, your escort mysteriously melts away into the brush and you are left to fend for yourself.;;;;;;;;;x 
+EVTOPTA61196;H-hello? Anyone?;;;;;;;;;x 
+EVTDESC61197;The guards at the castle gates nearly turn you away as peasant rabble when you finally make it back. Your face is caked with dirt, your fancy clothes are torn, but your signet ring proves your identity. Blind luck alone helped you conceal it from the bandits you met on the way.;;;;;;;;;x 
+EVTOPTA61197;My feet hurt.;;;;;;;;;x 
+EVTTOOLTIP61197;safely returning to civilization (such as it is).;;;;;;;;;x 
+EVTDESC61200;Unbelievable... the runt made it back alive! Well, this time I have arranged for a special carriage to take [Root.Liege.GetTitledFirstName] to meet with a foreign dignitary. The driver has been instructed to lose control of the carriage at a certain point on the journey, sending the whole thing careening down a ravine...;;;;;;;;;x 
+EVTOPTA61200;You leave at dawn, [Root.Liege.GetFirstName].;;;;;;;;;x 
+EVTOPTB61200;It will never work.;;;;;;;;;x 
+EVTDESC61201;Your old bore of a regent, [Root.Regent.GetFirstName], wants you to meet with some foreign dignitary in the middle of nowhere. As your carriage travels alongside a deep ravine, the driver suddenly seems to lose control of the horses...;;;;;;;;;x 
+EVTOPTA61201;*scream like a girl*;;;;;;;;;x 
+EVTDESC61202;You throw yourself to safety only moments before the carriage loses one of its wheels, tips over and plummets down the ravine. The driver, who jumped off at the first sign of trouble, looks at you with a frown that almost seems disappointed.;;;;;;;;;x 
+EVTOPTA61202;The clumsy oaf should hang for this.;;;;;;;;;x 
+EVTTOOLTIP61202;surviving a tragic carriage accident.;;;;;;;;;x 
+EVTDESC61205;You take a moment up on the castle ramparts to contemplate your bad luck in dealing with [Root.Liege.GetTitledFirstName], only to see the carefree little scamp strut past below. Next to you is an especially corpulent guard leaning half-asleep against his halberd. A gentle push could send him falling down on [Root.Liege.GetFirstName]...;;;;;;;;;x 
+EVTOPTA61205;*tackle the guard with all your might*;;;;;;;;;x 
+EVTOPTB61205;No, fortune clearly favors this [Root.Liege.GetLadLass].;;;;;;;;;x 
+EVTDESC61206;You walk through the castle courtyard minding your own business when a dark shadow suddenly forms around you. There is just enough time to look up and see the screaming, grossly overweight guard tumbling down at you from the upper ramparts.;;;;;;;;;x 
+EVTOPTA61206;Oh dear.;;;;;;;;;x 
+EVTDESC61207;As if by divine intervention, the guard narrowly misses you and impacts the ground just ahead with a heavy, bone-shattering thud. Above, on the rampart from which he fell, stands your regent, [Root.Regent.GetFirstName]. With a trembling voice [Root.Regent.GetSheHe] asks if you are all right.;;;;;;;;;x 
+EVTOPTA61207;Better than the guard.;;;;;;;;;x 
+EVTTOOLTIP61207;not cushioning the guard's fall at your own expense.;;;;;;;;;x 
+EVTDESC61210;Enough games. If you want the [Root.Liege.GetLadLass] dead, you will clearly have to take more direct action! Blinded by rage and with your best dagger in hand, you rush towards [Root.Liege.GetHerHis] bedchamber...;;;;;;;;;x 
+EVTOPTA61210;DIE!!!;;;;;;;;;x 
+EVTOPTB61210;I must keep my wits about. I could lose everything...;;;;;;;;;x 
+EVTDESC61211;You retreat to your bedchamber to consider the unlikely series of accidents you have suffered recently. Suddenly the door flies ajar with a bang. Your regent, [Root.Regent.GetTitledName], stands before you, [Root.Regent.GetHerHis] eyes burning with hatred. A sharp dagger is clutched in [Root.Regent.GetHerHis] hand and without a word, [Root.Regent.GetSheHe] lunges at you...;;;;;;;;;x 
+EVTOPTA61211;Help! Guards!;;;;;;;;;x 
+EVTTOOLTIP61211;May perish in an unfortunate stabbing spree.;;;;;;;;;x 
+EVTOPTA61212;Did... did I miss something?;;;;;;;;;x 
+EVTTOOLTIP61212;bravely evading the dagger.;;;;;;;;;x 
+EVTDESC61213;Before you can plunge your blade into the wretched little monster's heart, [Root.Liege.GetHerHis] guards intervene and you are dragged away kicking and screaming to the dungeons. Can't they see that [Root.Liege.GetSheHe] HAS to die?;;;;;;;;;x 
+EVTOPTA61213;Let me kill [Root.Liege.GetHerHim]. Just a little bit.;;;;;;;;;x 
+EVTDESC61215;Somehow [Root.Liege.Regent.GetTitledName] has managed to worm [Root.Liege.Regent.GetHerHis] way into being titled regent of poor [Root.Liege.GetTitledFirstName]. This grave error could cost the realm dearly - clearly there is no one better qualified than you for this position.;;;;;;;;;x 
+EVTOPTA61215;Challenge the coward to single combat!;;;;;;;;;x 
+EVTOPTB61215;Make your case at court.;;;;;;;;;x 
+EVTOPTC61215;It is not worth the effort.;;;;;;;;;x 
+EVTDESC61216;Doubts have been expressed at court whether you truly have the skill and ability required to serve as the [Root.Liege.GetTitle]'s regent. [From.GetTitledName] has accused you of incompetence and is arguing that the realm would benefit much more if [From.GetSheHe] was regent.;;;;;;;;;x 
+EVTOPTA61216;Challenge the coward to single combat!;;;;;;;;;x 
+EVTOPTB61216;Rally support at court.;;;;;;;;;x 
+EVTOPTC61216;Abdicate your position.;;;;;;;;;x 
+EVTTOOLTIP61216;Regency put into question.;;;;;;;;;x 
+EVTDESC61217;You have successfully made your case at court, and been appointed as the new regent of [Root.Liege.GetTitledFirstName]. The realm is now safely delivered from the incompetent hands of [Root.Liege.Regent.GetTitledName].;;;;;;;;;x 
+EVTOPTA61217;[Root.Liege.GetTitledFirstName] should be pleased.;;;;;;;;;x 
+EVTTOOLTIP61217;Becomes new regent.;;;;;;;;;x 
+EVTDESC61218;It seems [Root.Liege.Regent.GetTitledName] had too many friends at court. Your attempts to replace [Root.Liege.Regent.GetHerHim] as regent have met with failure, and [Root.Liege.Regent.GetSheHe] is none too pleased...;;;;;;;;;x 
+EVTOPTA61218;I did it for [Root.Liege.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA61219;Those who doubted me will be sorry.;;;;;;;;;x 
+EVTTOOLTIP61219;successfully defending your regency.;;;;;;;;;x 
+EVTDESC61220;[From.GetTitledName] has somehow managed to convince the sycophants at court to appoint [From.GetHerHim] as the new regent of [Root.Liege.GetTitledFirstName].;;;;;;;;;x 
+EVTOPTA61220;Fools!;;;;;;;;;x 
+EVTTOOLTIP61220;losing your regency to [From.GetTitledName].;;;;;;;;;x 
+EVTDESC61221;[From.GetTitledName] has accused you of cowardice and incompetence! He claims you are not fit to serve as the regent of [Root.Liege.GetTitledFirstName], and has challenged you to single combat for the title.;;;;;;;;;x 
+EVTOPTA61221;At last, someone who understands politics!;;;;;;;;;x 
+EVTOPTB61221;I need not prove my martial prowess.;;;;;;;;;x 
+EVTOPTC61221;If he wants the title so badly, he can have it.;;;;;;;;;x 
+EVTTOOLTIP61221;The challenge is issued!;;;;;;;;;x 
+EVTDESC61222;That madman [Root.Liege.Regent.GetTitledName] has challenged you to a duel in what can only be a desperate bid to preserve his regency. What say you?;;;;;;;;;x 
+EVTOPTA61222;Ha! I would have it no other way!;;;;;;;;;x 
+EVTOPTB61222;Surely you jest... a duel? He can keep the bloody regency.;;;;;;;;;x 
+EVTDESC61223;[Root.Liege.Regent.GetTitledName] has accepted your terms. As dawn breaks, you meet on a field just outside [Root.Location.GetName]. The mist still lies thick on the ground and the brilliance of the early morning sun is reflected in the shining steel of your weapons and armor. It is a good day to die.;;;;;;;;;x 
+EVTOPTA61223;Have at thee!;;;;;;;;;x 
+EVTTOOLTIP61223;Challenge accepted!;;;;;;;;;x 
+EVTDESC61224;[From.GetTitledName] has accepted your terms. As dawn breaks, you meet on a field just outside [Root.Location.GetName]. The mist still lies thick on the ground and the brilliance of the early morning sun is reflected in the shining steel of your weapons and armor. It is a good day to die.;;;;;;;;;x 
+EVTOPTA61224;Come then. Let us settle this.;;;;;;;;;x 
+EVTOPTB61224;He actually came? I... I am needed elsewhere.;;;;;;;;;x 
+EVTOPTA61225;The matter is settled.;;;;;;;;;x 
+EVTTOOLTIP61225;delivering a killing blow.;;;;;;;;;x 
+EVTOPTA61226;Learn from this. Do not oppose me again.;;;;;;;;;x 
+EVTTOOLTIP61226;inflicting a serious wound.;;;;;;;;;x 
+EVTDESC61227;As the blackness recedes and your sight returns, you find yourself lying on your back in the tall grass. You feel the warm, sticky sensation of blood gushing from a deep wound somewhere beneath your mail. Your foe leans over you in silence, ready to deal the finishing blow, but to your shame elects to spare your wretched life.;;;;;;;;;x 
+EVTOPTA61227;I have been robbed of a glorious death.;;;;;;;;;x 
+EVTTOOLTIP61227;The regent loses, is maimed.;;;;;;;;;x 
+EVTOPTA61228;There was never any doubt how this would end.;;;;;;;;;x 
+EVTTOOLTIP61228;delivering a killing blow.;;;;;;;;;x 
+EVTOPTA61229;Be gone from my sight. Ye are not fit to serve the [Root.Liege.GetTitle].;;;;;;;;;x 
+EVTOPTB61229;Only one of us can leave this field alive, friend. I am sorry.;;;;;;;;;x 
+EVTTOOLTIP61229;inflicting a serious wound.;;;;;;;;;x 
+EVTDESC61230;As the blackness recedes and your sight returns, you find yourself lying on your back in the tall grass. You feel the warm, sticky sensation of blood gushing from a deep wound somewhere under your mail. Your foe leans over you in silence, ready to deal the finishing blow, but to your shame elects to spare your wretched life.;;;;;;;;;x 
+EVTOPTA61230;I have been robbed of a glorious death.;;;;;;;;;x 
+EVTTOOLTIP61230;spared from death.;;;;;;;;;x 
+EVTDESC61231;You arrive at the agreed upon location of the duel, only to find that [From.GetTitledName] is nowhere to be found. The coward dares not face you after all!;;;;;;;;;x 
+EVTOPTA61231;That worm.;;;;;;;;;x 
+EVTTOOLTIP61231;Informed of your shameful cowardice.;;;;;;;;;x 
+EVTDESC61232;Your opponent plunges his sword deep into your flank, and it takes you a few confused moments to realize all that blood is coming from you. You fall to your knees as life fades away...;;;;;;;;;x 
+EVTOPTA61232;It wasn't supposed to end like this...;;;;;;;;;x 
+EVTTOOLTIP61232;is put out of his misery.;;;;;;;;;x 
+EVTDESC61235;Your former regent has been bested in single combat. The duel's victor, [Root.Liege.Regent.GetTitledName], has taken his place.;;;;;;;;;x 
+EVTDESC61236;Due to court intrigue well beyond your present ability to comprehend, your current serving regent has been replaced with another.;;;;;;;;;x 
+EVTDESC61237;I should be the one to rule in my husband's stead, not [Root.Liege.Regent.GetTitledName]. It is only proper.;;;;;;;;;x 
+EVTOPTA61237;Make it so!;;;;;;;;;x 
+EVTDESC61238;As Queen Mother, I have decided to take over the responsibilities and duties of [Root.Liege.GetTitledFirstName]'s regency.;;;;;;;;;x 
+EVTOPTA61238;[Root.Liege.Regent.GetTitledName], you are dismissed.;;;;;;;;;x 
+EVTDESC61239;Your loving wife has decided that she would do a better job serving as your regent. After all, who but her could rule the realm in accordance with your own desires?;;;;;;;;;x 
+EVTOPTA61239;No one.;;;;;;;;;x 
+EVTOPTB61239;I have a wife?;;;;;;;;;x 
+EVTOPTC61239;That hag!;;;;;;;;;x 
+EVTDESC61240;The Queen Mother has used her considerable influence to step in as your regent. May the realm benefit from her wisdom and experience.;;;;;;;;;x 
+NEW_DLC_AVAILABLE;New content is now available for purchase;;;;;;;;;x 
+EVTDESC1980;Women do not interest me, instead I feel drawn to other men.;;;;;;;;;x 
+EVTDESC1990;Men do not interest me, instead I feel drawn to other women.;;;;;;;;;x 
+EVTDESC20292;My liege,\nI write to you with shocking news! [FromFrom.GetTitledName] tried to have me assassinated to make sure I wouldn't discover [FromFrom.GetHerHis] plot to [FromFrom.GetPlot].\n\nYour humble Spymaster,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTB8118;Actually, going to war was not my plan...;;;;;;;;;x 
+WAR_NAME_CLAIM_VASSAL;$ATTACKER$'s $ORDER$War to Revoke $OTHER_TITLE$;;;;;;;;;x 
+EVTDESC100000;The cook accused me of stealing cookies, the spymaster insisted I had stolen his quill and I was accused of making a lot of mischief. For once, I was innocent. I found the perpetrator playing with the quill and stuffing his face with cookies just outside the stable...;;;;;;;;;x 
+EVTOPTA100000;Tell them you stole the cookies and the quill!;;;;;;;;;x 
+EVTTOOLTIP100001;[Root.GetTitledFirstName] and [This.GetTitledFirstName] becomes rivals;;;;;;;;;x 
+EVTOPTB100000;Let us wreak havoc together!;;;;;;;;;x 
+EVTTOOLTIP100002;[Root.GetTitledFirstName] and [This.GetTitledFirstName] mischievous planning makes them friends;;;;;;;;;x 
+EVTDESC100001;I had watched the cook scold [From.GetFirstName] and the spymaster try to bribe [From.GetHerHim] to give back his quill to no avail - I held the bluish, precious quill in my right hand and a cookie in my left. While playing with it and eating cookies I did not notice [From.GetFirstName] sneak up on me and snatch the quill from my hands.;;;;;;;;;x 
+EVTOPTA100001;Hey! Give that back, that's mine now!;;;;;;;;;x 
+opinion_rival;Rival;;;;;;;;;x 
+EVTDESC100002;I thought [From.GetFirstName] would tell the cook it was I who had stolen the cookies and make me give the quill back to the spymaster. [From.GetFirstName] surprised me when [From.GetSheHe] instead asked me how I managed to steal the quill right under the spymaster's nose and wanted my help to get back at the cook for scolding [From.GetHerHim].;;;;;;;;;x 
+EVTOPTA100002;I could do that!;;;;;;;;;x 
+#EVTDESC100005;Whenever we play, me in the middle most times, there's one child who instead of joining us laughing as loud and as much as we do goes away to read under the shadow of a tree or near the flaming fireplace. Why read dusty, boring old books when you could play knights and ladies or catch frogs in the pond?;;;;;;;;;x 
+EVTOPTA100005;Tease the shy child;;;;;;;;;x 
+EVTTOOLTIP100006;[This.GetFirstName] is teased by [Root.GetFirstName];;;;;;;;;x 
+EVTOPTB100005;I ask if the child would like to borrow my toy sword;;;;;;;;;x 
+EVTTOOLTIP100007;[Root.GetFirstName] talks to [This.GetFirstName];;;;;;;;;x 
+EVTOPTC100005;Leave the child alone;;;;;;;;;x 
+EVTDESC100006;I was reading under the big tree, listening to the other children's laughter and screams, not noticing [From.GetFirstName] until [From.GetSheHe] stood before me and grabbed the book, flinging it away.\n\n'So, nose-in-books, what are you going to about it?';;;;;;;;;x 
+EVTOPTA100006;You will hurt so much your grandchildren will be born crying!;;;;;;;;;x 
+EVTTOOLTIP100008;[Root.GetFirstName] punches [This.GetFirstName];;;;;;;;;x 
+EVTOPTB100006;N-nothing...;;;;;;;;;x 
+EVTDESC100007;I was enjoying my latest find in the library, listening to the other children's laughter to make sure they wouldn't show up and drop another frog down my shirt or on the fragile pages of the book when [From.GetFirstName] sneaked up on me, asked me a bunch of questions about the book and then offered to let me borrow [From.GetHerHis] toy sword.;;;;;;;;;x 
+EVTOPTA100007;I'd love to!;;;;;;;;;x 
+EVTTOOLTIP100012;[Root.GetTitledFirstName] and [This.GetTitledFirstName] plays together and becomes friends;;;;;;;;;x 
+EVTOPTB100007;I'm afraid of swords...;;;;;;;;;x 
+EVTDESC100008;I did not even see [From.GetFirstName] throw the punch that made me fall head-first into the mud puddle!;;;;;;;;;x 
+EVTOPTA100008;I'm gonna kill you!;;;;;;;;;x 
+EVTTOOLTIP100010;The teased [This.GetFirstName] and [Root.GetFirstName] becomes fierce rivals;;;;;;;;;x 
+EVTOPTB100008;Woah, that was a fantastic punch! Show me how you did that!;;;;;;;;;x 
+EVTTOOLTIP100009;[This.GetFirstName] and [Root.GetFirstName] becomes friends;;;;;;;;;x 
+EVTDESC100009;I watched nervously as [From.GetFirstName] slowly got up from the mud puddle [From.GetSheHe] fell into when I punched [From.GetHerHim], ready to run away if [From.GetFirstName] would want revenge. [From.GetSheHeCap] did not even try to grab me, [From.GetFirstName] apologised for throwing my book away and asked if I could show [From.GetHerHim] how to punch like that.;;;;;;;;;x 
+EVTOPTA100009;Promise you are not angry?;;;;;;;;;x 
+EVTDESC100010;I had barely time to pick up the book and then run for my life when [From.GetFirstName] roared like a mad bull and came charging after me, face full of mud and seeking revenge for me punching [From.GetHerHim]. I fled and hid in the kitchen, only to hear [From.GetFirstName] swear [From.GetSheHe] would get [From.GetHerHis] revenge on me, if it would take [From.GetHerHis] whole life so be it so.;;;;;;;;;x 
+EVTOPTA100010;We will never be friends now...;;;;;;;;;x 
+EVTDESC100015;Once again, [Root.Guardian.GetTitledFirstName] found out that I tried to dodge my chores but before I broke down and admitted I had done just that, someone else took the blame for it.;;;;;;;;;x 
+EVTOPTA100015;Thank him profusely when out of earshot;;;;;;;;;x 
+EVTTOOLTIPA100016;[This.GetFirstName] is glad to help a friend;;;;;;;;;x 
+EVTOPTB100015;Why did you interfere? I had it under control!;;;;;;;;;x 
+EVTTOOLTIPB100016;[This.GetFirstName] just wanted to help;;;;;;;;;x 
+EVTOPTC100015;Tell your guardian [Root.Guardian.GetTitledFirstName] the truth;;;;;;;;;x 
+EVTDESC100016;[From.GetFirstName] was in trouble, again. [Root.Guardian.GetTitledFirstName] was scolding [From.GetFirstName] about [From.GetHerHis] slothfulness and failure to do [From.GetHerHis] chores. I interfered and made it sound as if it was my fault [From.GetFirstName] hadn't been able to do [From.GetHerHis] chores...;;;;;;;;;x 
+EVTOPTA100016;[From.GetFirstName] thanked me profusely and we became fast friends;;;;;;;;;x 
+EVTOPTB100016;[From.GetFirstName] made it clear [From.GetSheHe] did not want my help;;;;;;;;;x 
+EVTTOOLTIP100017;Then [This.GetFirstName] won't care if I tell [Root.Guardian.GetTitledFirstName] the truth;;;;;;;;;x 
+EVTOPTC100016;Next time, I won't help [From.GetFirstName];;;;;;;;;x 
+EVTOPTD100016;I learnt my lesson: never help someone in need...;;;;;;;;;x 
+EVTDESC100017;Ever since [From.GetFirstName] tried to save me from getting scolded by [Root.Guardian.GetTitledFirstName] for not doing my chores and me refusing to thank [From.GetHerHim] for it, [From.GetFirstName] has been a regular thorn in my side. I believe [From.GetSheHe] is determined to make me [From.GetHerHis] rival.;;;;;;;;;x 
+EVTOPTA100017;If that's what [From.GetSheHe] wants, then so be it!;;;;;;;;;x 
+EVTDESC100020;I watched and winched in symphathy as yet another lady rejected the poor man. It was clear to me that he lacked even the ability to talk to women but why he persisted I could not understand. Never had I had the same problem, maybe it was time for me to take a student?;;;;;;;;;x 
+EVTOPTA100020;I should offer him help;;;;;;;;;x 
+EVTTOOLTIP100021;[Root.GetFirstName] offers to help [This.GetFirstName];;;;;;;;;x 
+EVTOPTB100020;I fear the competition...;;;;;;;;;x 
+EVTDESC100021;I have never had any luck with women, no matter what subject I try to talk about they just seem to leave as soon as I utters the first word. [From.GetFirstName] interrupted my self-loathing thoughts and offered to help me charm or at least be able to talk to women without them leaving in the middle of a sentence.;;;;;;;;;x 
+EVTOPTA100021;Of course I accept [From.GetHerHis] help!;;;;;;;;;x 
+EVTTOOLTIP100022;[Root.GetFirstName] accepted [This.GetTitledFirstName] offer to help;;;;;;;;;x 
+EVTOPTB100021;I can do it on my own!;;;;;;;;;x 
+EVTTOOLTIP100023;[Root.GetTitledFirstName] rejected [This.GetTitledFirstName] offer to help;;;;;;;;;x 
+EVTOPTC100021;I am happy as I am, thank you!;;;;;;;;;x 
+EVTDESC100022;[From.GetFirstName] was willing to learn but had no idea how [From.GetFirstName] should talk to women or what subject would interest them. We started small, I let [From.GetHerHim] talk to the cook who were more than happy to talk about her cooking. Then it got harder and harder until [From.GetFirstName] finally was able to talk to every woman in the castle and charm her nearly as well as I can.;;;;;;;;;x 
+EVTOPTA100022;During that time, we became friends;;;;;;;;;x 
+EVTDESC100023;I had honestly thought [From.GetFirstName] would enthusiastically accept my help or at least show some interest in learning some of what I knew about women and how to charm them.;;;;;;;;;x 
+EVTOPTA100023;[From.GetFirstName] rejected my offer brusquely;;;;;;;;;x 
+EVTOPTB100023;[From.GetFirstName] politely told me [From.GetSheHe] needed no help;;;;;;;;;x 
+EVTDESC100025;Charming, pleasant and amusing is not words people would describe me with, but the man talking to the small group of women is all that and perhaps more. I wish I could be as charming and be able to talk to women without stuttering or inadvertently insulting them...;;;;;;;;;x 
+EVTOPTA100025;Will he help me if I ask nicely?;;;;;;;;;x 
+EVTTOOLTIP100026;is asked by [Root.GetTitledFirstName] to help [Root.GetHerHim] conquer [Root.GetHerHis] fear of women;;;;;;;;;x 
+EVTOPTB100025;He can have whatever he wants if only he helps me!;;;;;;;;;x 
+EVTTOOLTIP100030;is bribed by [Root.GetTitledFirstName] to help [Root.GetHerHim] conquer [Root.GetHerHis] fear of women;;;;;;;;;x 
+EVTOPTC100025;Forget it, I'm a nobody and women knows it;;;;;;;;;x 
+EVTDESC100026;At first I found it unsettling that [From.GetFirstName] asked me to help [From.GetHerHim] conquer [From.GetHerHis] shyness and teach [From.GetHerHim] to be able to at least talk to a woman without unintentionally insulting her. [From.GetFirstName] said [From.GetSheHe] wanted be as charming and pleasant as I am.;;;;;;;;;x 
+EVTOPTA100026;I'll help you, but it's gonna cost you;;;;;;;;;x 
+EVTTOOLTIP100027;[Root.GetTitledFirstName] agrees to help [This.GetTitledFirstName], but for a prize...;;;;;;;;;x 
+EVTOPTB100026;I would be glad to!;;;;;;;;;x 
+EVTTOOLTIP100028;Under [Root.GetTitledFirstName] watchful eye, [This.GetTitledFirstName] learns how to talk to women;;;;;;;;;x 
+EVTDESC38303;I have gone so long without craving the touch of another human, but now I have grown wiser. I have lost the Chaste trait.;;;;;;;;;x 
+EVTOPTC100026;As if I would want someone to compete with me about women's hearts!;;;;;;;;;x 
+EVTTOOLTIP100029;The rivalry between [Root.GetTitledFirstName] and [This.GetTitledFirstName] reveals itself;;;;;;;;;x 
+EVTDESC100027;[From.GetFirstName] listened thoughtfully when I asked [From.GetHerHim] to help me get over my shyness and learn how to charm or at least talk to a woman! I looked at [From.GetHerHim] pleadingly and after hesitating at first [From.GetFirstName] agreed to help me, for a small sum of money.;;;;;;;;;x 
+EVTOPTA100027;Yes! Of course! Here you go...;;;;;;;;;x 
+EVTOPTB100027;No, I don't think so...;;;;;;;;;x 
+EVTDESC100028;I was willing to learn but I could decipher from [From.GetFirstName] sighs that [From.GetSheHe] thought that I was almost unteachable. No matter who I talked to I made a fool out of myself until [From.GetFirstName] made me talk to the cook who were more than happy to talk about her cooking. From on then it got easier until I finally was able to talk to every woman in the castle and charm them nearly as well as [From.GetFirstName].;;;;;;;;;x 
+EVTOPTA100028;[From.GetFirstName] is a true friend!;;;;;;;;;x 
+EVTDESC100029;No matter what I said, promised or did, [From.GetFirstName] refused to help me with my problem, being unable to to talk to women. [From.GetSheHeCap] even told me it was because I '...would ruin [From.GetHerHis] chances with women...' But all I asked about was to be able to have a conversation...;;;;;;;;;x 
+EVTOPTA100029;This means WAR! Nah, we're just rivals...;;;;;;;;;x 
+EVTDESC100030;[From.GetFirstName] promised me a lot of gold if only I could help [From.GetHerHim] conquer [From.GetHerHis] shyness and teach [From.GetHerHim] to charm and talk to women without unintentionally insulting them.;;;;;;;;;x 
+EVTOPTB100030;I'll take your gold, you'll lose your pride;;;;;;;;;x 
+EVTTOOLTIP100031;[Root.GetTitledFirstName] helps [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100030;I'll help you with this if you can help me with that;;;;;;;;;x 
+EVTDESC100031;After the money had exchanged hands, [From.GetFirstName] became almost merciless in correcting and teaching me how I should talk to women, what subjects might interest them and how I could stand, sit or smile at them in different ways to get them relaxed or interested. A whole new world opened up before my eyes.;;;;;;;;;x 
+EVTOPTA100031;...and now I can talk to women!;;;;;;;;;x 
+EVTDESC100035;I was playing with my doll by myself, trying to remember a song to sing to my poppet when I saw a girl my age look at my beautiful doll with longing in her eyes...;;;;;;;;;x 
+EVTOPTA100035;Do you want to play with her?;;;;;;;;;x 
+EVTTOOLTIP100036;[Root.GetTitledFirstName] tries to befriend [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100035;You're no fun, go away!;;;;;;;;;x 
+EVTTOOLTIP100037;[Root.GetTitledFirstName] becomes [This.GetTitledFirstName] rival;;;;;;;;;x 
+EVTDESC100036;[From.GetFirstName] was playing with [From.GetHerHis] doll by the pond. It was beautiful with long, braided hair, buttons for eyes and even a dress made of grass. I wanted the doll so much I asked [From.GetFirstName] if I could play with her...;;;;;;;;;x 
+EVTOPTA100036;We played for so long, we almost forgot supper!;;;;;;;;;x 
+EVTTOOLTIP100038;[Root.GetTitledFirstName] and [This.GetTitledFirstName] becomes friends;;;;;;;;;x 
+EVTOPTB100036;...then I grabbed the doll and ran!;;;;;;;;;x 
+EVTTOOLTIP100039;[Root.GetTitledFirstName] stole [Root.GetTitledFirstName]'s doll, making them rivals;;;;;;;;;x 
+EVTDESC100037;I just wanted to play with [From.GetFirstName]'s beautiful doll, but when I asked [From.GetHerHim] if I could just hold the doll [From.GetSheHe] screamed at me to go away and threatened to tell my parents I had hit [From.GetHerHim] if I didn't!;;;;;;;;;x 
+EVTOPTA100037;[From.GetFirstName] will never be my friend!;;;;;;;;;x 
+EVTDESC100038;I didn't like how [From.GetFirstName] looked at my doll but when [From.GetSheHe] told me how beautiful my doll was I forgave [From.GetFirstName] at once. We played together for so long, we almost missed supper!;;;;;;;;;x 
+EVTOPTA100038;We will play again tomorrow!;;;;;;;;;x 
+EVTDESC100039;I hugged my doll and then gave her to [From.GetFirstName], who grabbed her and ran away! I tried following [From.GetHerHim], crying the whole time for my doll but [From.GetFirstName] got away!;;;;;;;;;x 
+EVTOPTA100039;Give my doll back! I hate you [From.GetFirstName], so much!;;;;;;;;;x 
+EVTDESC100040;There's a girl at court that is very flirtatious and knows how to play on people's feelings to get what she wants, when she wants it. She is more brave than any other girl I ever met and I envy her sometimes, to be as courageous as she is would be wonderful...;;;;;;;;;x 
+EVTOPTA100040;Could she find it in her heart to help me?;;;;;;;;;x 
+EVTTOOLTIP100041;[Root.GetTitledFirstName] asks [This.GetTitledFirstName] to help [Root.GetHerHim] become courageous;;;;;;;;;x 
+EVTOPTB100040;She's a trollop!;;;;;;;;;x 
+EVTTOOLTIP100042;[Root.GetTitledFirstName] shouldn't have called [This.GetTitledFirstName] a trollop;;;;;;;;;x 
+EVTOPTC100040;How I envy her...;;;;;;;;;x 
+EVTDESC100041;I was kind of flirting with the cute stable boy when [From.GetFirstName] asked me to come help [From.GetHerHim] with something. Thinking it was yet another boring task I couldn't flirt my way out of, I reluctantly followed [From.GetFirstName]. It did surprise me when [From.GetSheHe] asked, no begged me to help [From.GetHerHim] become as courageous as I am.;;;;;;;;;x 
+EVTOPTA100041;I would be my pleasure!;;;;;;;;;x 
+EVTTOOLTIP100043;[Root.GetTitledFirstName] finds a friend in [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100041;This court is not big enough for both of us!;;;;;;;;;x 
+EVTTOOLTIP100044;[Root.GetTitledFirstName] refusal makes [This.GetTitledFirstName] [Root.GetHerHis] rival;;;;;;;;;x 
+EVTOPTC100041;I don't have time for this!;;;;;;;;;x 
+EVTDESC100042;I cannot flirt my way out of everything. [From.GetFirstName] thinks I'm a trollop after watching me flirt and use my charm to get my will through.;;;;;;;;;x 
+EVTOPTA100042;Why would I care what [From.GetFirstName] thinks?;;;;;;;;;x 
+EVTDESC100043;[From.GetFirstName] agreed to help me become more confident and courageous, gave me advice on how to talk to people to get them to like me more and how to use flattery to get my will through. It didn't take long before I could charm the pants off the spymaster if I wanted. Somewhere along my way to confidence, [From.GetFirstName] and I became friends.;;;;;;;;;x 
+EVTOPTA100043;Best friends, forever!;;;;;;;;;x 
+EVTDESC100044;I asked [From.GetFirstName] to help me, begged for a bit of understanding and even tried threatening [From.GetHerHim] into helping me gain some confidence and courage, but [From.GetFirstName] refused. [From.GetSheHeCap] did not want to share [From.GetHerHis] hard-earned secrets to confidence and courage.;;;;;;;;;x 
+EVTOPTA100044;[From.GetFirstName] must have feared the competition!;;;;;;;;;x 
+EVTDESC100050;I wanted someone I could confide in, someone who were a bit more gregarious than me so [Root.GetSheHe] could introduce me to people without making me feel like a fool. A girl my age I could share secrets with, gossip and giggle over boys.;;;;;;;;;x 
+EVTOTPA100050;There should be someone I could talk to!;;;;;;;;;x 
+EVTTOOLTIP100051;[Root.GetTitledFirstName] meets [This.GetTitledFirstName];;;;;;;;;x 
+EVTOTPB100050;What? Her? Never!;;;;;;;;;x 
+EVTTOOLTIP100054;[Root.GetTitledFirstName] dismisses [This.GetTitledFirstName];;;;;;;;;x 
+EVTOTPC100050;I will never find a good friend...;;;;;;;;;x 
+EVTDESC100051;[From.GetFirstName] seemed very lonely, so I decided to talk to [From.GetHerHim] a bit and see if I could make [From.GetHerHim] cheer up. It was if a dam had burst open, we talked and gossiped about everything, from the cook who always smelled of liquor to the cute guards.;;;;;;;;;x 
+EVTOPTA100051;I'd like [From.GetFirstName] to be my friend;;;;;;;;;x 
+EVTTOOLTIP100052;A strong friendship forms between [Root.GetTitledFirstName] and [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100051;But... I like that guard!;;;;;;;;;x 
+EVTTOOLTIP100053;Rivalry bloom between [Root.GetTitledFirstName] and [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100051;I hope you feel better now;;;;;;;;;x 
+EVTDESC100052;I felt as if a dam had burst and swept away with me. When [From.GetFirstName] started talking to me I couldn't stop, we gossiped, laughed and talked for what felt like for ever. I had such a good time I forgot how lonely I had felt just a couple of hours before.;;;;;;;;;x 
+EVTOPTA100052;Let's do this again, tomorrow perhaps?;;;;;;;;;x 
+EVTOPTB100052;I do feel better now, thank you;;;;;;;;;x 
+EVTDESC100053;I thought [From.GetFirstName] had enjoyed our [Root.GetManWoman]-to-[From.GetManWoman] talk yesterday, and I had really poured my heart out, told [From.GetHerHim] all my secrets and even that I thought one of the guards especially handsome. So when I saw that wench kiss 'my' guard this morning it broke my heart...;;;;;;;;;x 
+EVTOPTA100053;I... I thought you were my friend!;;;;;;;;;x 
+EVTDESC100054;I see no reason why but [From.GetFirstName] clearly does not like me. If I were a bit more paranoid than I am I might think [From.GetSheHe] believes me to be a rival.;;;;;;;;;x 
+EVTOPTA100054;So, [From.GetFirstName], are we rivals now then? Fine!;;;;;;;;;x 
+EVTDESC100060;I thought I finally had a chance winning a friendly duel during the swordstraining, my opponent clearly wasn't as comfortable with a sword as I was and I had read our teacher's treatise through and through several times. For all his unease, my opponent showed he knew what end of a sword you are supposed to hold and I lost once again.;;;;;;;;;x 
+EVTOPTA100060;Good game;;;;;;;;;x 
+EVTOPTB100060;How dare you! You, sir, have gained a new rival this day!;;;;;;;;;x 
+EVTTOOLTIP100061;The defeated [Root.GetTitledFirstName] marks [This.GetTitledFirstName] as [Root.GetHerHis] new rival;;;;;;;;;x 
+EVTOPTC100060;I'll defeat you tomorrow!;;;;;;;;;x 
+EVTDESC100061;[From.GetFirstName] certainly handled a sword expertly, but when we started fencing I realized [From.GetSheHe] probably had only read our teacher's treatise without ever practicing any of the moves. I easily disarmed [From.GetFirstName] and when I extended my hand to thank [From.GetHerHim] for the practice [From.GetSheHe] slapped it aside and named me [From.GetHerHis] rival.;;;;;;;;;x 
+EVTOPTA100061;Do you really want me as your rival?;;;;;;;;;x 
+EVTDESC100065;I am sick and tired of being called all sorts of names, dodging kicks and punches and never be left alone. My tormentor is able to sniff me out and find me wherever I try to hide, and I don't know if I can take it any longer!;;;;;;;;;x 
+EVTOPTA100065;Fight back!;;;;;;;;;x 
+EVTTOOLTIP100066;[Root.GetTitledFirstName] punches [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100065;Bribe my tormentor with a sweetmeat;;;;;;;;;x 
+EVTTOOLTIP100067;Will [This.GetTitledFirstName]'s sweetmeat tooth make [This.GetHerHim] leave [Root.GetTitledFirstName] alone?;;;;;;;;;x 
+EVTOPTC100065;Try to ignore the tormentor;;;;;;;;;x 
+EVTDESC100066;It's a delight tormenting [From.GetFirstName], calling [From.GetHerHim] [From.GetFirstName] the cowardly chicken and other epithets and, if that does not work, punches, kicks or destroying [From.GetHerHis]'s things. [From.GetFirstName] was easy prey, until [From.GetSheHe] punched back!;;;;;;;;;x 
+EVTOPTA100066;Ow, my nose! You'll pay for this!;;;;;;;;;x 
+EVTDESC100067;I was looking forward to another day of tormenting [From.GetFirstName] with name-calling and kicks when [From.GetSheHe] came up to me and gave me a sweetmeat.;;;;;;;;;x 
+EVTOPTA100067;Throw the sweetmeat away and kick [From.GetHerHis] butt!;;;;;;;;;x 
+EVTTOOLTIP100068;[Root.GetTitledFirstName] will always be [This.GetTitledFirstName] rival;;;;;;;;;x 
+EVTOPTB100067;Eh... thank you;;;;;;;;;x 
+EVTTOOLTIPA100069;[Root.GetTitledFirstName] stops harassing [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100068;I watched nervously as [From.GetFirstName] looked at the offered sweetmeat in my outstretched hand and then gently took it, sniffing it before stuffing [From.GetHerHis] face with it. [From.GetFirstName] beamed at me and told me I wasn't as bad as [From.GetSheHe] thought I was.;;;;;;;;;x 
+EVTOPTA100068;I'm... flattered?;;;;;;;;;x 
+EVTOPTB100068;Now can we be friends?;;;;;;;;;x 
+EVTTOOLTIPB100069;[Root.GetTitledFirstName] and [This.GetTitledFirstName] lays their differences behind them, becoming fast friends;;;;;;;;;x 
+EVTDESC100069;It felt wrong to keep harassing [From.GetFirstName] after [From.GetSheHe] gave me that sweetmeat, so I decided I would stop calling [From.GetHerHim] things like '[From.GetFirstName] the cowardly chicken' and apologise for kicking [From.GetHerHim].;;;;;;;;;x 
+EVTOPTA100069;Do you think we can be friends?;;;;;;;;;x 
+EVTOPTB100069;Thank you for the sweetmeat!;;;;;;;;;x 
+EVTDESC100070;There's something about that [Root.GetLadLass] that I cannot stand, and I take the opportunity to show that whenever I can. I should feel bad for making [Root.GetHerHim] miserable, but my loathing for [Root.GetHerHim] is too great.;;;;;;;;;x 
+EVTOPTA100070;[Root.GetSheHeCap] truly is my rival;;;;;;;;;x 
+EVTTOOLTIP100071;The rivalry between [Root.GetTitledFirstName] and [This.GetTitledFirstName] escalates;;;;;;;;;x 
+EVTOPTB100070;Oh [Root.Religion.GetRandomGodName], what am I doing?!;;;;;;;;;x 
+EVTOPTC100070;[Root.GetSheHeCap] is a coward, [Root.GetSheHe] will never defend [Root.GetHerselfHimself]!;;;;;;;;;x 
+EVTTOOLTIP100072;[Root.GetTitledFirstName] harasses [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100071;As long as I can remember, [From.GetFirstName] has pestered me in any way [From.GetSheHe] could think off. I'm getting tired of being used for 'innocent' pranks like getting the contents of a chamber pot poured over me, tripped in the stairs or my food stolen.;;;;;;;;;x 
+EVTOPTA100071;You've gotten a rival in me, [From.GetFirstName]!;;;;;;;;;x 
+EVTDESC100072;[From.GetFirstName] has been bothering me for a long time, at first I thought it was [From.GetHerHis] way of making friends. The pranks started to escalate, from being rather harmless to me finding my clothes sprinkled over the yard in the morning or getting the contents of a chamber pot poured over me. I don't think [From.GetFirstName] likes me, at all...;;;;;;;;;x 
+EVTOPTA100072;It's time to get revenge!;;;;;;;;;x 
+EVTTOOLTIP100073;[Root.GetTitledFirstName] gets [Root.GetHerHis] revenge on [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100072;I'm sure I can get [From.GetFirstName] to like me;;;;;;;;;x 
+EVTTOOLTIP100074;[Root.GetTitledFirstName] tries to make friends with [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100072;[From.GetSheHeCap] will get bored someday, hopefully...;;;;;;;;;x 
+EVTDESC100073;I waited until exactly the right moment, when [From.GetFirstName] was directly underneath me, to pour the day-old contents of the chamber pot over [From.GetHerHim]. The horrified look on [From.GetFirstName] face when the contents hit [From.GetHerHim] had me on the floor laughing out loud. [From.GetFirstName] swore at me, calling me all kinds of ugly words and that [From.GetSheHe] would never forget this...;;;;;;;;;x 
+EVTOPTA100073;So I believe [From.GetHerHim] is my rival now?;;;;;;;;;x 
+EVTDESC100074;No matter what I expose [From.GetFirstName] for, [From.GetSheHe] still tries to make me [From.GetHerHis] friend. I have started to feel a reluctant respect for [From.GetFirstName] and even though I still get great ideas for pranks, such as freeze in [From.GetFirstName]'s clothes in a block of ice or empty a chamber pot over [From.GetHerHis] head, it feels wrong doing it.;;;;;;;;;x 
+EVTOPTA100074;I hope [From.GetFirstName] forgives me, maybe we can be friends?;;;;;;;;;x 
+EVTTOOLTIPA100075;[Root.GetTitledFirstName] regrets the harassment of [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100074;Naah, I have too much fun. I won't stop now!;;;;;;;;;x 
+EVTTOOLTIPB100075;[Root.GetTitledFirstName]'s harassment of [This.GetTitledFirstName] leads to rivalry;;;;;;;;;x 
+EVTDESC100075;[From.GetFirstName] has almost stopped pestering me, there's the occasional prank but I can put up with it as long as they are harmless.;;;;;;;;;x 
+EVTOPTA100075;I think... I think you could say we are friends now;;;;;;;;;x 
+EVTOPTB100075;...and then [From.GetSheHe] ruined everything!;;;;;;;;;x 
+EVTDESC100080;I pray to [Root.Religion.GetRandomGodName] every day and listen carefully to the priest whenever he preaches about God's will. When I saw a [Root.GetLadLass] my age clearly disrespecting the word's of God and boisterously proclaimed [Root.GetHerHis] disbeliefs and refusal to accept that there is a God I felt shocked. Something must be done to save this lost soul!;;;;;;;;;x 
+EVTOPTA100080;I will pray for [Root.GetHerHis] soul!;;;;;;;;;x 
+EVTOPTB100080;I will convince [Root.GetHerHim] there's a God!;;;;;;;;;x 
+EVTTOOLTIP100081;Pious little [Root.GetTitledFirstName] tries to help [This.GetTitledFirstName] find [Root.Religion.GetRandomGodName] and save [This.GetHerHis] soul;;;;;;;;;x 
+EVTDESC100081;I don't believe in God, religion is stupid and the priests boring! [From.GetFirstName] couldn't understand how someone could not believe in [From.Religion.GetRandomGodName] and tried to convince me there is a God and He loves me. I decided to listen to [From.GetFirstName], I was curious as to why [From.GetSheHe] is so convinced there's a God.;;;;;;;;;x 
+EVTOPTA100081;Leave me alone! I don't like you nor your [From.Religion.GetRandomGodName]!;;;;;;;;;x 
+EVTTOOLTIP100082;[Root.GetTitledFirstName] cannot be saved by [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100081;If I tell you I believe in [From.Religion.GetRandomGodName], will you leave?;;;;;;;;;x 
+EVTTOOLTIP100083;[Root.GetTitledFirstName] deceives [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100081;Bless you! You have made me believe again;;;;;;;;;x 
+EVTTOOLTIP100084;[Root.GetTitledFirstName]'s immortal soul is saved by [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100082;No matter what I said, no matter what evidence I showed [From.GetFirstName] that there is a God and He loves all His children, [From.GetSheHe] refused to be convinced and held on to [From.GetHerHis] belief that there is no God. [From.GetSheHeCap] said to me: 'If there is a God and He loves everyone, why is there war in the world? Why do people starve? Why do people hurt each other?';;;;;;;;;x 
+EVTOPTA100082;I had no answer, only my faith;;;;;;;;;x 
+EVTDESC100083;It took longer than I thought it would to convince [From.GetFirstName] that our God is a loving God. I am still unsure if [From.GetFirstName] really meant it when [From.GetSheHe] said that [From.GetSheHe] believed in [Root.Religion.GetRandomGodName] or if [From.GetFirstName] only said that to make me feel better...;;;;;;;;;x 
+EVTOPTA100083;Pray some more for [From.GetFirstName]'s soul...;;;;;;;;;x 
+EVTDESC100084;[From.GetFirstName] were unwilling at first but as I talked about God and His love for mankind [From.GetSheHe] started to be interested and soon we were discussing [Root.Religion.GetRandomGodName]. It took several hours of discussing, reading the Bible and answering all [From.GetFirstName]'s questions and then I saw how [From.GetFirstName] started believing...;;;;;;;;;x 
+EVTOPTA100084;How great for you!;;;;;;;;;x 
+EVTDESC100090;I toiled long and hard to try to embroider the most beautiful embroidery but I was beaten, and beaten hard by a nobody... My stitches were small, but hers was smaller. My motif was beautiful, but hers were even more so. My embroidery was praised, but hers people admired and loved.;;;;;;;;;x 
+EVTOPTA100090;I swallow my pride and praise her embroidery;;;;;;;;;x 
+EVTOPTB100090;I will hate her from afar;;;;;;;;;x 
+EVTTOOLTIP100091;The rivalry between [Root.GetTitledFirstName] and [This.GetTitledFirstName] knows no bounds;;;;;;;;;x 
+EVTOPTC100090;No one is better than me!;;;;;;;;;x 
+EVTTOOLTIP100092;[Root.GetTitledFirstName] destroys [This.GetTitledFirstName] embroidery;;;;;;;;;x 
+EVTOPTD100090;I ask her to teach me;;;;;;;;;x 
+EVTTOOLTIP100094;[Root.GetTitledFirstName] humbles [Root.GetHerselfHimself]  and asks [This.GetTitledFirstName] for help;;;;;;;;;x 
+EVTDESC100091;I was beaming from all the praise I got about my embroidery, 'Oh, the stitches are so tiny they are almost invisible!' 'Such a lovely motif!' but when I saw anger cloud [From.GetFirstName] my smile shrank and disappeared. [From.GetSheHeCap] had made a lovely embroidery but people obviously liked mine better and [From.GetFirstName] couldn't stand it.;;;;;;;;;x 
+EVTOPTA100091;I did not want this, I don't want a rival!;;;;;;;;;x 
+EVTDESC100092;My embroidery was lovely and I had worked so hard and gotten so much praise for it that I almost felt physically sick when [From.GetFirstName] grabbed it and started tearing it apart, almost screaming in anger and jealousy as [From.GetSheHe] destroyed my embroidery.;;;;;;;;;x 
+EVTOPTA100092;I hate you so much! How could you? I HATE you!;;;;;;;;;x 
+EVTTOOLTIP100093;[Root.GetTitledFirstName] will never forgive [This.GetTitledFirstName] for destroying [Root.GetHerHis] beautiful embroidery;;;;;;;;;x 
+EVTOPTB100092;You are right, I can do better than this...;;;;;;;;;x 
+EVTDESC100093;It was as if madness and jealousy had taken control over my body, the embroidery lay in pieces by my feet without me having any memory of grabbing it and ripping it apart. [From.GetFirstName] stared at me before [From.GetSheHe] burst into tears and was soothed by the other women whose accusatory eyes I fled. I heard [From.GetFirstName] announcing that [From.GetSheHe] would never forgive me for destroying [From.GetHerHis] embroidery.;;;;;;;;;x 
+EVTOPTA100093;I have just gained a rival...;;;;;;;;;x 
+EVTDESC100094;[From.GetFirstName] really tried to humble [From.GetHerselfHimself], ooohed and aaahed over my embroidery and agreed with the other women that my stitches were the tiniest and the motif even more beautiful than [From.GetHersHis]. I wasn't surprised then when [From.GetFirstName] lingered and asked me if I could teach [From.GetHerHim] to embroider as well as I can.;;;;;;;;;x 
+EVTOPTA100094;It would be my pleasure. Come, let us start immediately!;;;;;;;;;x 
+EVTTOOLTIP100095;[Root.GetTitledFirstName] and [This.GetTitledFirstName] bond over their embroidery;;;;;;;;;x 
+EVTOPTB100094;You are unteachable - just look at that mess!;;;;;;;;;x 
+EVTTOOLTIP100096;[Root.GetTitledFirstName] scornful comment angers [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100095;[From.GetFirstName] was so sweet and told me my embroidery was beautiful, no matter what other people thought about it. We talked while [From.GetFirstName] showed me how [From.GetSheHe] managed to make [From.GetHerHis] stitches so, so small and even gave me a motif [From.GetSheHe] had designed [From.GetHerselfHimself]!;;;;;;;;;x 
+EVTOPTA100095;I forgot my jealousy and won a friend!;;;;;;;;;x 
+EVTDESC100096;Even though I humbled myself, agreed with the other women that [From.GetFirstName]'s embroidery was much more lovely than mine in every way, [From.GetFirstName] weren't as gracious as [From.GetSheHe] should've been when I asked [From.GetHerHim] to give me some advice about embroidery. [From.GetFirstName] was outright scornful and told me I had made a mess out of my embroidery!;;;;;;;;;x 
+EVTOPTA100096;What! That's not true, take that back!;;;;;;;;;x 
+EVTDESC100100;I have lost my doll! She's nowhere to be found, could someone have taken her? I miss her so much, she's my bestest friend!;;;;;;;;;x 
+EVTOPTA100100;I will find the one who took her and make them give her back!;;;;;;;;;x 
+EVTTOOLTIP100101;[Root.GetTitledFirstName] confronts [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100100;I will never, ever find her...;;;;;;;;;x 
+EVTDESC100101;I was playing with my new doll I've found forgotten in the kitchen when [From.GetFirstName] attacked me and tried to take the doll from me. [From.GetFirstName] screamed at me to give back her doll and grew more agitated as I kept holding on to the doll.;;;;;;;;;x 
+EVTOPTA100101;Can I still play with her sometimes?;;;;;;;;;x 
+EVTTOOLTIPA100102;[Root.GetTitledFirstName] gives the doll back to [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100101;Fine, whatever. It's not even a pretty doll;;;;;;;;;x 
+EVTOPTC100101;This doll is mine now!;;;;;;;;;x 
+EVTTOOLTIPB100102;[Root.GetTitledFirstName] refuses to give back the doll to [Root.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100102;I saw my doll in [From.GetFirstName]'s arms and screamed at [From.GetHerHim] to give me my Dolly back! I was so upset, where had [From.GetFirstName] found my doll? And why hadn't [From.GetSheHe] given Dolly back to me yet?;;;;;;;;;x 
+EVTOPTA100102;I got my doll back! I decided we could both play with her as a thank-you;;;;;;;;;x 
+EVTOPTB100102;[From.GetFirstName] called Dolly ugly! But [From.GetSheHe] gave her back...;;;;;;;;;x 
+EVTOPTC100102;[From.GetFirstName] refused to give me Dolly back!;;;;;;;;;x 
+EVTDESC100105;Crusading in [Root.Location.GetName], so far away from friends and family is wearying. It is good I have my fellow commanders I can rely on for some good talks and laughs. We are all here for the same thing:;;;;;;;;;x 
+EVTOPTA100105;Deus Vult! For the Glory of God!;;;;;;;;;x 
+EVTTOOLTIP100106;agrees with [Root.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100105;Deus Vult! For the prestige!;;;;;;;;;x 
+EVTOPTC100105;Deus Vult! For the lands and wealth!;;;;;;;;;x 
+EVTOPTD100105;I'm here only because I have to;;;;;;;;;x 
+EVTDESC100106;When you are fighting a Holy War against the infidels, you need the commanders and soldiers beside you to be good, strong men you can trust. [From.GetTitledFirstName] and I have been crusading for a long time together in [From.Location.GetName] and we were discussing the reasons behind why we where here, in this God-forsaken land, fighting the infidels.;;;;;;;;;x 
+EVTOPTA100106;[From.GetTitledFirstName] is wrong, not for the prestige;;;;;;;;;x 
+EVTOPTB100106;[From.GetTitledFirstName] is wrong, not for the Glory of God;;;;;;;;;x 
+EVTTOOLTIP100107;[Root.GetTitledFirstName] disagrees with [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100106;I agree with [From.GetTitledFirstName]: For the prestige!;;;;;;;;;x 
+EVTTOOLTIP100108;[Root.GetTitledFirstName] concurs with [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTD100106;I agree with [From.GetTitledFirstName]: For the Glory of God!;;;;;;;;;x 
+EVTDESC100107;[From.GetTitledFirstName] does not agree with me, [From.GetSheHe] see no reason why we should be here, not for the prestige, nor for the lands or wealth we might acquire and definitely not for the Glory of God!;;;;;;;;;x 
+EVTOPTA100107;We are here because God wills it!;;;;;;;;;x 
+EVTOPTB100107;And you call yourself Crusader!;;;;;;;;;x 
+EVTDESC100108;All had different reasons why they were here, crusading against the infidels in [Root.Location.GetName], some for the Glory of God, some for the lands and wealth they hoped to acquire, others for the prestige. Both [From.GetTitledFirstName] and I are here, risking our lives together, for the same reason:;;;;;;;;;x 
+EVTOPTA100108;Friendship and for the Glory of God!;;;;;;;;;x 
+EVTOPTB100108;Friendship and the prestige this crusade brings us!;;;;;;;;;x 
+EVTOPTA100110;First step first, make friends with a councillor...;;;;;;;;;x 
+EVTOPTB100110;I will never be better than [Root.Liege.GetChancellorName] [Root.Liege.job_chancellor.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100110;I will never be better than [Root.Liege.GetMarshalName] [Root.Liege.job_marshal.GetTitledFirstName];;;;;;;;;x 
+EVTOPTD100110;I will never be better than [Root.Liege.GetTreasurerName] [Root.Liege.job_treasurer.GetTitledFirstName];;;;;;;;;x 
+EVTOPTE100110;I will never be better than [Root.Liege.GetSpymasterName] [Root.Liege.job_spymaster.GetTitledFirstName];;;;;;;;;x 
+EVTOPTF100110;I will never be better than [Root.Liege.GetLordSpiritualName] [Root.Liege.job_spiritual.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100111;[From.GetTitledFirstName] asked nicely, and I like [From.GetHerHim];;;;;;;;;x 
+EVTTOOLTIP100112;[Root.GetTitledFirstName]'s helpfulness makes [This.GetTitledFirstName] respect [Root.GetHerHim] even more;;;;;;;;;x 
+EVTOPTB100111;I'll help [From.GetTitledFirstName] but I'll keep an eye on [From.GetHerHim]!;;;;;;;;;x 
+EVTTOOLTIP100113;[Root.GetTitledFirstName] refusal to help [This.GetTitledFirstName] has given [Root.GetHerHim] a new rival;;;;;;;;;x 
+EVTDESC100112;At first I had only wanted [From.GetTitledFirstName] to teach me more about [From.GetHerHis] work as a councillor because I aspired to gain that position, but as we talked and got to know each other I realized we had become friends.;;;;;;;;;x 
+EVTOPTA100112;Does this mean I cannot steal your job now?;;;;;;;;;x 
+EVTDESC100113;Even though my motives to get [From.GetTitledFirstName] to teach me more about [From.GetHerHis] work as a councillor was more than arbitrary, I hadn't really expected the reaction I got from [From.GetTitledFirstName] when [From.GetSheHe] refused to teach me. My aspirations was widely known and [From.GetTitledFirstName] feared I would steal [From.GetHerHis] job!;;;;;;;;;x 
+EVTOPTA100113;Well, yes...;;;;;;;;;x 
+EVTDESC100115;I have the fortune of being pregnant at the same time as one of the courtiers at court. We talk about our pregnancies, discuss our problems like morning sickness and swollen feet and talk about what we would name our babies.;;;;;;;;;x 
+EVTOPTA100115;Us mothers should stick together;;;;;;;;;x 
+EVTTOOLTIP100116;[Root.GetTitledFirstName] feels [This.GetTitledFirstName] is a trustworthy friend;;;;;;;;;x 
+EVTOPTB100115;My spouse is all comfort I need;;;;;;;;;x 
+EVTDESC100116;[From.GetTitledFirstName] and I are both pregnant and I have heard more about [From.GetHerHis] morning sickness, swollen feet and absent husband than I really wanted to know. Still, it is very comforting having someone else going through the same thing as I do, to have someone you can talk about embarrassing problems and know they have the same or even more embarrassing problems.;;;;;;;;;x 
+EVTOPTA100116;[From.GetTitledFirstName] is a true friend;;;;;;;;;x 
+EVTOPTB100116;This will only last until the baby is born;;;;;;;;;x 
+EVTTOOLTIP100117;[Root.GetTitledFirstName] inadvertently upsets [This.GetTitledFirstName]'s feelings;;;;;;;;;x 
+EVTDESC100117;The babies are born and I had looked forward to being a mother together with [From.GetTitledFirstName], but [From.GetSheHe] told me that now when the baby is born [From.GetSheHe] won't have time to even talk to me. I don't understand why, it can't be that hard to do two things at the same time?;;;;;;;;;x 
+EVTOPTA100117;I... I really thought we were friends!;;;;;;;;;x 
+opinion_very_disappointed;Very Disappointed;;;;;;;;;x 
+opinion_very_grateful;Very Grateful;;;;;;;;;x 
+EVTDESC100150;Battle after battle, siege after siege... my friend must be pretty tired of the war, maybe I could help my friend in any way?;;;;;;;;;x 
+EVTOPTA100150;My troops could use the exercise!;;;;;;;;;x 
+EVTTOOLTIP100151;[This.GetTitledFirstName] is grateful for any help [Root.GetTitledFirstName] is willing to give;;;;;;;;;x 
+EVTOPTB100150;Some gold should help my friend win this war!;;;;;;;;;x 
+EVTOPTC100150;My friend have everything under control, my help is unnecessary;;;;;;;;;x 
+EVTDESC100151;My dear friend, I fear the war might drag you away from me longer than necessary and thus I felt there must be something I could do! So please accept my help, and let's win this war - together!\n\nYour Loyal Friend,\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100151;With your help, I can defeat any foe!;;;;;;;;;x 
+EVTDESC100152;Dear [Root.GetTitledFirstName], I am a bit concerned about this war you currently struggle with and therefore I decided I would send you a small gift - nothing much, just so you can hire some more soldiers.\n\nSincerely, your friend\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100152;This will suffice, thank you!;;;;;;;;;x 
+EVTDESC100153;Despite being able to help me with my latest war, my friend [From.GetTitledFirstName] chose to ignore my plight. The war was a struggle and any help, any help at all, could have helped me greatly.;;;;;;;;;x 
+EVTOPTA100153;Don't count on my help then, [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTB100153;The war is over, no need to dwell on the past;;;;;;;;;x 
+EVTDESC100160;This war isn't going quite as I thought it would. I lose more men per battle than I'd planned and the sieges - the sieges is going on forever! More manpower and more siege weapons is what I need, perhaps a friend could assist me with this?;;;;;;;;;x 
+EVTOPTA100160;Ask my friend to join the war!;;;;;;;;;x 
+EVTTOOLTIP100161;is asked to join [Root.GetTitledFirstName]'s war;;;;;;;;;x 
+EVTOPTB100160;Ask a friend for some monetary help;;;;;;;;;x 
+EVTTOOLTIP100162;[Root.GetTitledFirstName] asks [This.GetTitledFirstName] for some money;;;;;;;;;x 
+EVTOPTC100160;I need no help, this war will soon be won!;;;;;;;;;x 
+EVTDESC100161;My dear friend, it pains me to have to ask you to join my war. I must confess that the war does not progress as well as I had hoped it would, and I would really appreciate if you would lend me your help, your troops and your siege weapons.\n\nWith hopeful regards,\nYour friend,\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100161;[Root.GetTitledFirstName] to the rescue!;;;;;;;;;x 
+EVTTOOLTIP100163;gladly accepts all help [This.GetSheHe] can get;;;;;;;;;x 
+EVTOPTB100161;I can send [From.GetHerHim] some money instead;;;;;;;;;x 
+EVTOPTC100161;I cannot help [From.GetHerHim] at this time;;;;;;;;;x 
+EVTTOOLTIP100164;is disappointed [Root.GetTitledFirstName] couldn't help [This.GetHerHim];;;;;;;;;x 
+EVTDESC100162;Dear [Root.GetTitledFirstName], I never thought I would feel the shame of asking a friend for some monetary help but this war is threatening to run my coffers dry. I implore you, as a friend to a friend, for a small monetary gift so that I may win this war!\n\nWith my deepest thanks in beforehand\nYour friend,\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100162;I hope this small sum will help [From.GetHerHim] win the war!;;;;;;;;;x 
+EVTOPTB100162;If the war is going so badly, I better join [From.GetHerHim]!;;;;;;;;;x 
+EVTOPTC100162;My hands are tied, there's nothing I can do for [From.GetHerHim];;;;;;;;;x 
+EVTDESC100163;My letter to [From.GetTitledFirstName] could have gotten lost in any number of ways and, truthfully, sometimes I wished it would. The shame of having to ask a friend for help gnawed at me until I got [From.GetTitledFirstName]'s response...;;;;;;;;;x 
+EVTOPTA100163;...[From.GetSheHe] joined my war!;;;;;;;;;x 
+EVTOPTB100163;...sent me money for troops!;;;;;;;;;x 
+EVTDESC100164;Dear [From.GetTitledFirstName], my duties to my family and my vassals disallows me to help you at this moment. I hope the war will turn to your favor and I wish for you to win the war quickly.\n\nWith hopes of understanding,\nYour friend,\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100164;I'll manage, somehow...;;;;;;;;;x 
+EVTDESC100170;The friend of a friend is my friend - a motto I try to live by and sometimes that is an easy truth. A friend of a friend was introduced and I immediately felt a kind of connection with this stranger...;;;;;;;;;x 
+EVTOPTA100170;...so I hope we'll be friends!;;;;;;;;;x 
+EVTTOOLTIP100171;[Root.GetTitledFirstName] hope [Root.GetSheHe] and [This.GetTitledFirstName] will be friends;;;;;;;;;x 
+EVTTOOLTIP100172;[Root.GetTitledFirstName]'s friend [This.GetTitledFirstName] is glad [This.GetHerHis] friends are friends;;;;;;;;;x 
+EVTOPTB100170;...but just because we share a friend doesn't mean we can be friends;;;;;;;;;x 
+EVTTOOLTIP100173;[Root.GetTitledFirstName]'s unwillingness to make friends with [This.GetTitledFirstName] upsets [This.GetHerHim];;;;;;;;;x 
+EVTDESC100171;When I introduced my friend to [From.GetTitledFirstName] I had high hopes. I hoped they would become fast friends so we could spend time together, the three of us.;;;;;;;;;x 
+EVTOPTA100171;Too bad [From.GetTitledFirstName] didn't like my friend;;;;;;;;;x 
+EVTTOOLTIPA100171;[Root.GetTitledFirstName]'s friend [This.GetTitledFirstName] decided to ignore [From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100171;[From.GetTitledFirstName] and my friend had a great time together!;;;;;;;;;x 
+EVTDESC100172;[From.GetTitledFirstName] was introduced by a mutual friend and we talked for quite a while. We had our differences and a few arguments, then we found common, safe ground and I began enjoying myself. [From.GetTitledFirstName] seems like a decent person.;;;;;;;;;x 
+EVTOPTA100172;I wouldn't mind talking to [From.GetTitledFirstName] some more;;;;;;;;;x 
+EVTTOOLTIPA100174;[Root.GetTitledFirstName] and [This.GetTitledFirstName] went from strangers to friends;;;;;;;;;x 
+EVTOPTB100172;I don't like [From.GetHerHis] opinions, nor do I like [From.GetHerHim]!;;;;;;;;;x 
+EVTTOOLTIP100175;[Root.GetTitledFirstName] and [This.GetTitledFirstName] went from strangers to rivals;;;;;;;;;x 
+EVTOPTC100172;A nice [From.GetManWoman], but I wouldn't want [From.GetHerHim] as a friend;;;;;;;;;x 
+EVTTOOLTIPB100174;No friendship was born between [Root.GetTitledFirstName] and [This.GetTitledFirstName] this day;;;;;;;;;x 
+EVTDESC100173;After I talked to [From.GetTitledFirstName] and discovered we had next to nothing in common and that [From.GetSheHe] was a horrible [From.GetManWoman], I wanted nothing to do with [From.GetTitledFirstName] ever again! Our mutual friend wasn't happy, but understood that I wouldn't ever be friends with [From.GetTitledFirstName].;;;;;;;;;x 
+EVTOPTA100173;Don't introduce me to another of your 'friends' ever again!;;;;;;;;;x 
+EVTDESC100174;We had a few disagreements and a few arguments but once we arrived on common, safe ground I really enjoyed talking to [From.GetTitledFirstName]. I should remember to thank my friend for introducing me to [From.GetTitledFirstName], it has been a long time since I've found such an interesting [From.GetManWoman]!;;;;;;;;;x 
+EVTOPTA100174;Friends forever, or what do you say, [From.GetTitledFirstName]?;;;;;;;;;x 
+EVTOPTB100174;[From.GetTitledFirstName] didn't think we could become friends;;;;;;;;;x 
+opinion_rejected_friend;Rejected my friendship;;;;;;;;;x 
+EVTDESC100175;I don't know when I started disliking [From.GetTitledFirstName], but it must have been when [From.GetSheHe] disagreed with me about how the peasants should be treated. The more we talked, the less I liked [From.GetTitledFirstName] and enough was enough! We would never be friends, only rivals.;;;;;;;;;x 
+EVTOPTA100175;I don't like you, I don't like you at all [From.GetTitledFirstName]!;;;;;;;;;x 
+opinion_accepted_religion;Accepted My Religion;;;;;;;;;x 
+opinion_happy_convertion;Happy for a converted friend;;;;;;;;;x 
+opinion_wrong_religion;Wrong Religion;;;;;;;;;x 
+EVTDESC100180;It's hard being a good [Root.Religion.GetName] these days, but my friend truly shocked me when I realized we did not share the same religion. My dear friend is a heretic!;;;;;;;;;x 
+EVTOPTA100180;I shall try to convert my friend to the one true faith!;;;;;;;;;x 
+EVTTOOLTIP100181;[Root.GetTitledFirstName] tries to convert [This.GetTitledFirstName] to a God-fearing [Root.Religion.GetName];;;;;;;;;x 
+EVTOPTB100180;Who cares about religion anyway? I don't!;;;;;;;;;x 
+EVTTOOLTIP100182;[Root.GetTitledFirstName] accepts that [This.GetTitledFirstName] is a [This.Religion.GetName];;;;;;;;;x 
+EVTOPTC100180;To be a good friend, I should probably learn more about this religion;;;;;;;;;x 
+EVTTOOLTIP100183;[Root.GetTitledFirstName]'s interest in [This.Religion.GetName] gladdens [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTD100180;I can't be friends with a heretic!;;;;;;;;;x 
+EVTTOOLTIP100184;[Root.GetTitledFirstName] is no longer friends with [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTE100180;My friend's religion sounds better than [Root.Religion.GetRandomGodName]!;;;;;;;;;x 
+EVTDESC100181;[From.GetTitledFirstName] is a devout [From.Religion.GetName], so when I told [From.GetHerHim] that I believed in [Root.Religion.GetRandomGodName] rather than [From.Religion.GetRandomGodName] I knew what [From.GetSheHe] was going to say. After a long, heated discussion about religion, considered disadvantages and advantages of our respective religions I decided to...;;;;;;;;;x 
+EVTOPTA100181;...keep my religion but lose my friend;;;;;;;;;x 
+EVTTOOLTIP100185;[Root.GetTitledFirstName] cannot be friends with someone who does not respect [Root.GetHerHis] religion;;;;;;;;;x 
+EVTOPTB100181;...keep my friend and convert to the [From.Religion.GetName] religion;;;;;;;;;x 
+EVTTOOLTIP100186;[Root.GetTitledFirstName] converts to [From.GetTitledFirstName]'s religion;;;;;;;;;x 
+EVTOPTC100181;...keep both my religion and my friend;;;;;;;;;x 
+EVTDESC100182;I feared what [From.GetTitledFirstName] would say when I told [From.GetHerHim] that I did not believe in [From.Religion.GetRandomGodName], that I am a devout [Root.Religion.GetName] and I would not give up my religion for anyone. [From.GetTitledFirstName] was more understanding than I would've thought [From.GetHerHim] to be, and after asking some questions [From.GetSheHe] seemed to accept me and my religion.;;;;;;;;;x 
+EVTOPTA100182;A friend like you is hard to find, [From.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100183;[From.GetTitledFirstName] was very inquisitive and asked a lot of questions about [Root.Religion.GetName] and [Root.Religion.GetRandomGodName]. I was happy to talk about my religion and my god with a nonjudgmental [From.GetManWoman] and answered all [From.GetHerHis] questions as good as I could.;;;;;;;;;x 
+EVTOPTA100183;Thank you for not judging my religion, [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTB100183;...[From.GetTitledFirstName] even decided to convert to [Root.Religion.GetName]!;;;;;;;;;x 
+EVTDESC100184;It went exactly as I had feared - [From.GetTitledFirstName] couldn't accept me being a [Root.Religion.GetName] and condemned me and my religion. I tried to reason with [From.GetTitledFirstName] and told [From.GetHerHim] about all the similarities with [From.GetHerHis] religion and [From.Religion.GetName] but I was talking to deaf ears.;;;;;;;;;x 
+EVTOPTA100184; [From.GetTitledFirstName] decided [From.GetSheHe] couldn't be friends with a heretic;;;;;;;;;x 
+EVTDESC100185;I tried talking to [From.GetTitledFirstName], discuss, argue, everything! Nothing I said, nothing I did could convince [From.GetTitledFirstName] to abandon [From.GetHerHis] heretical ways and embrace the one true faith, the [Root.Religion.GetName] religion. Our disagreement about religion were never solved and [From.GetTitledFirstName] told me I was no longer [From.GetHerHis] friend...;;;;;;;;;x 
+EVTOPTA100185;I agree, we can no longer be friends;;;;;;;;;x 
+EVTDESC100186;The difference between a [Root.Religion.GetName] and a [From.Religion.GetName] is that...'\nI reasoned with [From.GetTitledFirstName] about [From.GetHerHis] religion and tried to explain why being a [From.Religion.GetName] in this day and age was a bad idea.;;;;;;;;;x 
+EVTOPTA100186;[From.GetTitledFirstName] decided to convert and become a [Root.Religion.GetName];;;;;;;;;x 
+EVTOPTB100186;[From.GetTitledFirstName] did not heed my warning;;;;;;;;;x 
+EVTDESC100190;I need help with a delicate private matter I don't want the [Root.GetChancellorName] to take care of. There are those who think me undiplomatic and I fear they are right, and now I really need to be diplomatic or the [Root.GetManWomanOpp] blackmailing me might spread [Root.GetHerHisOpp] lies with me being unable to do anything about it.;;;;;;;;;x 
+EVTOPTA100190;My diplomatic friend, could you please help me?;;;;;;;;;x 
+EVTTOOLTIP100191;[Root.GetTitledFirstName] begs [This.GetTitledFirstName] for help with the extortionist;;;;;;;;;x 
+EVTOPTB100190;No one, not even my friends, can know about this!;;;;;;;;;x 
+EVTDESC100191;I heard about the mad [From.GetManWomanOpp] who tries to blackmail [From.GetTitledFirstName] before my friend [From.GetTitledFirstName] came to me and asked for help. [From.GetTitledFirstName] isn't known for [From.GetHerHis] diplomacy and, as desperate as [From.GetSheHe] is, it is even more likely [From.GetTitledFirstName] would handle this situation with less tact than needed.;;;;;;;;;x 
+EVTOPTA100191;I'll help you in any way I can!;;;;;;;;;x 
+EVTTOOLTIP100192;[Root.GetTitledFirstName] decides to help [This.GetTitledFirstName] deal with the blackmailing [This.GetManWomanOpp];;;;;;;;;x 
+EVTOPTB100191;Don't get me involved with that mad [From.GetManWomanOpp]!;;;;;;;;;x 
+EVTTOOLTIP100193;is forced to handle the mad [This.GetManWomanOpp] without [Root.GetTitledFirstName]'s help;;;;;;;;;x 
+EVTOPTC100191;The blackmailer is mad, if you want my help I want to be reimbursed;;;;;;;;;x 
+EVTTOOLTIP100194;is grateful for [Root.GetTitledFirstName] help but not happy about having to pay for it;;;;;;;;;x 
+EVTDESC100192;[From.GetTitledFirstName] and I managed to stop the mad [Root.GetManWomanOpp] from blackmailing and spread malevolent rumors about me. It took every effort, all of our combined diplomatic skill and even a small bribe to get the extortionist to promise to stop the rumors, never approach me again and leave me alone.;;;;;;;;;x 
+EVTOPTA100192;Finally I got rid of that lunatic!;;;;;;;;;x 
+EVTDESC100193;Without the help of [From.GetTitledFirstName], I was unable to stop the extortionist spreading evil rumors about me. Now everyone thinks I really did that awful thing with that lunatic [Root.GetManWomanOpp]! Why [Root.Religion.GetRandomGodName], why?!;;;;;;;;;x 
+EVTOPTA100193;I'm so ashamed I don't know what to do...;;;;;;;;;x 
+EVTDESC100194;I explained the situation for [From.GetTitledFirstName] carefully, not wanting [From.GetHerHim] to know too much about the situation but the fear of the lunatic [Root.GetManWomanOpp] spreading malicious rumors made me quite talkative and I may have told [From.GetTitledFirstName] too much. It was for the best though, [From.GetTitledFirstName] agreed to help me but wanted to be reimbursed, in case something would happen...;;;;;;;;;x 
+EVTOPTA100194;Friends help each other without charging for it!;;;;;;;;;x 
+EVTTOOLTIPA100195;tried to charge [Root.GetTitledFirstName] for [This.GetHerHis] help;;;;;;;;;x 
+EVTOPTB100194;I'll give you whatever you want, just please help me!;;;;;;;;;x 
+EVTTOOLTIPB100195;is paid for [This.GetHerHis]'s help with [Root.GetTitledFirstName]'s lunatic extortionist and the problem is solved;;;;;;;;;x 
+EVTDESC100195;I agreed to help [From.GetTitledFirstName] with [From.GetHerHis] lunatic extortionist if I was paid for my help, and I had already figured out a plan when [From.GetTitledFirstName] told me whether or not my help was wanted enough for getting my demands fulfilled.;;;;;;;;;x 
+EVTOPTA100195;No money, no help;;;;;;;;;x 
+EVTOPTB100195;I've gotten the money, now here's what we shall do...;;;;;;;;;x 
+EVTDESC100200;My knowledge of swords extends only so far as to 'long, sharp things you poke people with when you want them to die, especially if you are in a duel or at war', and it's becoming an embarrassment. If someone could ever teach me anything about swords and how to use them, it would be one of my best friends and I can trust him to never mock my lack of skill.;;;;;;;;;x 
+EVTOPTA100200;I really should ask him for help;;;;;;;;;x 
+EVTTOOLTIP100201;is asked by [Root.GetTitledFirstName] to help him refine his sword skills;;;;;;;;;x 
+EVTOPTB100200;I can probably figure this out by myself... OW!;;;;;;;;;x 
+EVTDESC100201;I have seen how [From.GetTitledFirstName] handle swords, and it is not a pretty sight. Half of the time [From.GetSheHe] seems to forget which side is the sharp one! Should I laugh or should I cry at [From.GetTitledFirstName]'s incompetence with the sword? Now [From.GetTitledFirstName] seems to think I could teach [From.GetHerHim] all I know.;;;;;;;;;x 
+EVTOPTA100201;I can only try...;;;;;;;;;x 
+EVTTOOLTIP100202;[Root.GetTitledFirstName] reluctantly try to teach [This.GetTitledFirstName] how to use a sword;;;;;;;;;x 
+EVTOPTB100201;Give it up. You and swords will never work;;;;;;;;;x 
+EVTTOOLTIP100203;is disappointed but accepts [Root.GetTitledFirstName]'s refusal to teach him;;;;;;;;;x 
+EVTOPTC100201;I'm risking my life, so I'd like to get paid;;;;;;;;;x 
+EVTTOOLTIP100204;considers [Root.GetTitledFirstName] request;;;;;;;;;x 
+EVTDESC100202;It took a while, but after a couple of days I learned which part of the sword I could touch without getting hurt. Then came the easy part: how to use the sword. After having practiced on a dummy for several weeks I finally managed to impress [From.GetTitledFirstName] enough to get to practice with [From.GetHerHim] instead of hacking at the dummy.;;;;;;;;;x 
+EVTOPTA100202;I'm still no good with swords, but better than before;;;;;;;;;x 
+EVTDESC100203;You are a menace with a sword, don't even know which end you should hold and which one you use to kill people with. It saddens me to tell you this but I believe you to be unteachable.'\n[From.GetTitledFirstName] did not mince [From.GetHerHis] words when [From.GetSheHe] told me how utterly unteachable I was and that I should leave the swords to 'real men'!;;;;;;;;;x 
+EVTOPTA100203;I am a man! Give me that sword... OW!;;;;;;;;;x 
+EVTDESC100204;[From.GetTitledFirstName] refused to teach me unless I paid [From.GetHerHim] and followed [From.GetHerHis] every rule. [From.GetSheHeCap] told me that I was a menace with a sword and the gold was meant to pay for any medical attention [From.GetSheHe] might need while teaching me how to use the sharp part of a sword.;;;;;;;;;x 
+EVTOPTA100204;Aren't you expecting the worst now? I'm sure both of us will be fine...;;;;;;;;;x 
+EVTTOOLTIPA100205;[Root.GetTitledFirstName] is not willing to pay [This.GetTitledFirstName] for [This.GetHerHis] help;;;;;;;;;x 
+EVTOPTB100204;I can see the wisdom of that, just teach me already!;;;;;;;;;x 
+EVTTOOLTIPB100205;[Root.GetTitledFirstName] agrees to [This.GetTitledFirstName]'s demands and precautionary measures;;;;;;;;;x 
+EVTDESC100205;Teach [From.GetTitledFirstName] how to use a sword must be the most hazardous job in the whole world, and I told [From.GetHerHim] exactly that. [From.GetTitledFirstName] still insisted and so I told [From.GetHerHim] I wanted some safety for I feared [From.GetTitledFirstName] would injure me, although unintentionally.;;;;;;;;;x 
+EVTOPTA100205;[From.GetTitledFirstName] did not agree to that, and so I refused to help;;;;;;;;;x 
+EVTOPTB100205;[From.GetTitledFirstName] saw the wisdom in that and agreed;;;;;;;;;x 
+EVTTOOLTIPC100205;Under [Root.GetTitledFirstName]'s careful supervision, [This.GetTitledFirstName] learns how to use a sword;;;;;;;;;x 
+EVTDESC100210;I need to take a look at the buildings in [Root.Location.GetName] and figure out how to reinforce them and make them harder to conquer if the county would be sieged. The buildings did not inspire me in any way, but I have a friend who is excellent at these kind of things.;;;;;;;;;x 
+EVTOPTA100210;What am I waiting for? A siege? Just ask!;;;;;;;;;x 
+EVTTOOLTIP100211;is told what [Root.GetTitledFirstName] had in mind about reinforcements in [Root.Location.GetName];;;;;;;;;x 
+EVTOPTB100210;Maybe a new watchtower? Or a defensive wall? I'll think of something...;;;;;;;;;x 
+EVTDESC100211;The buildings [From.GetTitledFirstName] was looking to reinforce should be torn down and replaced with sturdier houses and watchtowers, but [From.GetTitledFirstName] was insistent something could be done about them. I told [From.GetHerHim] my honest opinion about the buildings.;;;;;;;;;x 
+EVTOPTA100211;The materials from the old houses could be used to erect better buildings...;;;;;;;;;x 
+EVTTOOLTIP100212;is grateful [Root.GetTitledFirstName] helps [This.GetHerHim] with the buildings;;;;;;;;;x 
+EVTOPTB100211;Nothing can be done! Tear them down before they fall apart;;;;;;;;;x 
+EVTTOOLTIP100213;is disappointed [Root.GetTitledFirstName] couldn't give any better advice;;;;;;;;;x 
+EVTOPTC100211;The cost to rebuild them will be great, and I want a share of that;;;;;;;;;x 
+EVTTOOLTIP100214;considers [Root.GetTitledFirstName] offer;;;;;;;;;x 
+EVTDESC100212;There's nothing we can do about the buildings except tear them down and use the salvageable material from them to build new houses with better fortifications. This is how I picture it...'\nWith [From.GetTitledFirstName]'s ideas and the material we managed to salvage, the new buildings would really outshine the old ones.;;;;;;;;;x 
+EVTOPTA100212;This is perfect! Thank you [From.GetTitledFirstName]!;;;;;;;;;x 
+friendly_innovations;Friendly Innovations;;;;;;;;;x 
+EVTDESC100213;I talked and talked about what kind of reinforcements I thought the buildings could benefit from, but [From.GetTitledFirstName] was skeptical of all my ideas. [From.GetSheHeCap] called the buildings 'unsalvageable' and 'a threat to anyone'. 'Tear them down and build anew', was [From.GetTitledFirstName]'s advice.;;;;;;;;;x 
+EVTOPTA100213;But... that'll cost too much!;;;;;;;;;x 
+EVTDESC100214;It will cost a large sum of money to repair these old buildings and even if they are repaired I wouldn't promise they would stand a siege. Tear them down, salvage as much material as you can, and build anew. It'll cost, and if you want my help, it'll cost a bit more.'\n[From.GetTitledFirstName] condemned the old buildings and my plans to reinforce them.;;;;;;;;;x 
+EVTOPTA100214;Then I can do nothing about them;;;;;;;;;x 
+EVTTOOLTIPA100215;[Root.GetTitledFirstName] rejects [This.GetTitledFirstName]'s suggestion;;;;;;;;;x 
+EVTOPTB100214;If that's the best idea, I'll have to do it;;;;;;;;;x 
+EVTTOOLTIPB100215;is paid to help [Root.GetTitledFirstName] tear down and erect new buildings;;;;;;;;;x 
+EVTDESC100215;After I told [From.GetTitledFirstName] the best way would be to tear the buildings down and what it would cost to erect new buildings, including my share of the money, [From.GetTitledFirstName] was silent for a very long time. I was about to nudge [From.GetTitledFirstName], thinking [From.GetSheHe] might have forgotten that I was standing next to [From.GetHerHim] when [From.GetSheHe] spoke up.;;;;;;;;;x 
+EVTOPTA100215;[From.GetTitledFirstName] disagreed and rejected my idea;;;;;;;;;x 
+EVTOPTB100215;[From.GetTitledFirstName] agreed, and accepted that I would get a share;;;;;;;;;x 
+EVTDESC100220;My food has tasted strange lately and I have begun to eat less and less for fear of being poisoned. I don't trust the [Root.GetSpymasterName] to find the poisoner, the only one I can rely on is my friend.;;;;;;;;;x 
+EVTOPTA100220;With my friend, I'll find the poisoner and put a stop to this!;;;;;;;;;x 
+EVTTOOLTIP100221;is convinced someone is trying to poison [Root.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100220;I'm just being paranoid, the food is fine;;;;;;;;;x 
+EVTDESC100221;It all sounded as another of [From.GetTitledFirstName]'s paranoid delusions, but I had to agree when [From.GetSheHe] invited me for dinner that the food had an odd taste and a rather strange lingering aftertaste. Someone might be trying to poison [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA100221;You need my help and you'll get it!;;;;;;;;;x 
+EVTTOOLTIP100222;is relieved [Root.GetTitledFirstName] believes someone is trying to poison [This.GetHerHim];;;;;;;;;x 
+EVTOPTB100221;I feel fine! The food taste funny but it's not poisoned!;;;;;;;;;x 
+EVTTOOLTIP100223;cannot believe [Root.GetTitledFirstName] does not believe someone is trying to poison [This.GetHerHim];;;;;;;;;x 
+EVTOPTC100221;Give me some coins and I'll have this figured out in no time!;;;;;;;;;x 
+EVTTOOLTIP100224;contemplates whether or not it is worth it;;;;;;;;;x 
+EVTDESC100222;[From.GetTitledFirstName] did agree with me that the food tasted strange, but wasn't entirely certain someone was trying to poison me. I gave [From.GetTitledFirstName] permission to talk to and interrogate whomever [From.GetSheHe] saw fit, and the cook confessed to having used rancid meat in the stews and trying to cover up the taste with a lot of spices, some poisonous unless used in moderation...;;;;;;;;;x 
+EVTOPTA100222;The cook didn't intend to poison me, but it was close;;;;;;;;;x 
+EVTDESC100223;What are you talking about? Poison? You must be joking, this stew tastes fine. Maybe it needs a bit more salt but there's nothing wrong with it!'\n[From.GetTitledFirstName] dismissed my concerns, leaving me feeling forlorn and scared for my life.;;;;;;;;;x 
+EVTOPTA100223;The poisoner is out there, wanting to kill me!;;;;;;;;;x 
+EVTDESC100224;To be completely sure the food was or was not poisoned, [From.GetTitledFirstName] required certain expensive equipment and I was the one to pay for it. Although the food tastes strange, I do not feel any different than before. The question is if this really is necessary: do I really want to know?;;;;;;;;;x 
+EVTOPTA100224;No, I don't care. The equipment costs too much!;;;;;;;;;x 
+EVTTOOLTIPA100225;accepts [Root.GetTitledFirstName] decision;;;;;;;;;x 
+EVTOPTB100224;Of course I need to know! Take all my money!;;;;;;;;;x 
+EVTTOOLTIPB100225;only takes what [This.GetTitledFirstName] needs to pay for the equipment;;;;;;;;;x 
+EVTDESC100225;It was a fine bluff, telling [From.GetTitledFirstName] I needed expensive equipment to determine if the food was poisoned or not. As soon as I had tasted the stew I knew the strange taste was from rancid meat poorly covered up with enough spices to water your eyes. [From.GetTitledFirstName] tried to decide if [From.GetSheHe] wanted to take a risk of being poisoned or if it was worth paying what I deemed a fair cost.;;;;;;;;;x 
+EVTOPTA100225;I thought [From.GetTitledFirstName] was paranoid enough...;;;;;;;;;x 
+EVTOPTB100225;[From.GetTitledFirstName] accepted the prize;;;;;;;;;x 
+EVTTOOLTIP100226;is overjoyed with [Root.GetTitledFirstName]'s findings;;;;;;;;;x 
+EVTDESC100226;With the expensive equipment acquired [From.GetTitledFirstName] did a thorough examination and it did not take long before [From.GetSheHe] presented me with a result: the cook had used rancid meat in the stew and tried covering up the taste with a lot of spices, some poisonous unless used in moderation. Satisfied with the result, I imprisoned the cook without pardon.;;;;;;;;;x 
+EVTOPTA100226;Now how will I find a new cook?;;;;;;;;;x 
+EVTDESC100230;The [Root.Religion.GetName] priests are constantly pestering me about religion, [Root.Religion.GetRandomGodName] and money to the church. No matter what I do, promise to pray more or read the holy scripture more thoroughly they won't leave me alone!;;;;;;;;;x 
+EVTOPTA100230;Please, someone help me get them to stop!;;;;;;;;;x 
+EVTTOOLTIP100231;hears [Root.GetTitledFirstName] plea for help;;;;;;;;;x 
+EVTOPTB100230;Oh [Root.Religion.GetRandomGodName], help me and I'll be a better [Root.Religion.GetName]!;;;;;;;;;x 
+EVTDESC100231;I find it curious that the [From.Religion.GetName] priests are constantly pestering [From.GetTitledFirstName] no matter what [From.GetSheHe] promises to do or no matter how much money [From.GetSheHe] bestows to the [From.Religion.GetName] church.;;;;;;;;;x 
+EVTOPTA100231;I know what [From.GetTitledFirstName] could do!;;;;;;;;;x 
+EVTTOOLTIP100232;is relieved [Root.GetTitledFirstName] has a solution to [This.GetHerHis] problem;;;;;;;;;x 
+EVTOPTB100231;I don't want to do anything to make the priests upset;;;;;;;;;x 
+EVTTOOLTIP100233;is discouraged that the [This.Religion.GetName] priests frighten [Root.GetTitledFirstName] so;;;;;;;;;x 
+EVTOPTC100231;You want my advice? Then it'll cost you;;;;;;;;;x 
+EVTTOOLTIP100234;listens to what [Root.GetTitledFirstName] has to say;;;;;;;;;x 
+EVTDESC100232;All the [Root.Religion.GetName] priests care about is money. Give them some alms whenever they come visiting and they will leave you alone for weeks, if not months for fear of being sinful: no priest want to admit to the sin of being greedy.'\n[From.GetTitledFirstName] advised me soundly and I agreed to try it.;;;;;;;;;x 
+EVTOPTA100232;So all it took was money? Great!;;;;;;;;;x 
+EVTOPTB100232;It's not only the priests who are greedy...;;;;;;;;;x 
+pious_priests;Money-loving priests;;;;;;;;;x 
+EVTDESC100233;It seems as if no one wants to help me for fear of upsetting the [Root.Religion.GetName] priests, not even my friend [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA100233;The pestering priests are getting worse!;;;;;;;;;x 
+EVTDESC100234;[From.GetTitledFirstName] told me [From.GetSheHe] had a great advice for me on how to stop the [Root.Religion.GetName] priests pestering me and [From.GetSheHe] got my undivided attention. The problem, though, was that [From.GetTitledFirstName] wanted payment for [From.GetHerHis] advice!;;;;;;;;;x 
+EVTOPTA100234;There's no way I'll pay for advice!;;;;;;;;;x 
+EVTTOOLTIPA100235;accept [Root.GetTitledFirstName] decision to do without [Root.GetTitledFirstName]'s advice;;;;;;;;;x 
+EVTOPTB100234;Who cares about money? Here, just tell me!;;;;;;;;;x 
+EVTTOOLTIPB100235;is glad [Root.GetTitledFirstName] decided to take the safe before the sorry;;;;;;;;;x 
+EVTDESC100235;My advice to [From.GetTitledFirstName] was very simple: just pay the [From.Religion.GetName] priests and they'll stop pestering you for, oh perhaps a few weeks? Though I could have shared this for free I decided to test how much [From.GetTitledFirstName] wanted to be left alone by the [From.Religion.GetName] priests and demanded money for the advice.;;;;;;;;;x 
+EVTOPTA100235;I have underestimated [From.GetTitledFirstName]'s patience;;;;;;;;;x 
+EVTOPTB100235;[From.GetTitledFirstName] almost threw the money at me!;;;;;;;;;x 
+EVTDESC100240;The idea of being celibate is intriguing, especially since I feel I have more than enough children. A friend of mine became celibate not long ago, I wonder what made [Root.GetHerHim] take that decision?;;;;;;;;;x 
+EVTOPTA100240;I'd really like to know more about celibacy;;;;;;;;;x 
+EVTTOOLTIP100241;[Root.GetTitledFirstName] has many questions about celibacy for [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100240;On second thought, what were [Root.GetSheHe] thinking!?;;;;;;;;;x 
+EVTTOOLTIP100242;[Root.GetTitledFirstName] upsets [This.GetTitledFirstName] when [Root.GetSheHe] denounces [This.GetHerHis] choice of lifestyle;;;;;;;;;x 
+EVTOPTC100240;No, celibacy certainly isn't for me...;;;;;;;;;x 
+EVTDESC100241;My decision to become celibate is very private and it felt a bit disturbing to have [From.GetTitledFirstName] asking all these questions about celibacy, what it meant and the reason as to why I felt compelled to choose celibacy. I tried explaining as thoroughly as I felt comfortable and [From.GetTitledFirstName] listened intently to whatever I told [From.GetHerHim].;;;;;;;;;x 
+EVTOPTA100241;...but I don't think celibacy is for you;;;;;;;;;x 
+EVTTOOLTIP100243;is disappointed [Root.GetTitledFirstName] thinks [This.GetSheHe] lacks the necessary will for celibacy;;;;;;;;;x 
+EVTOPTB100241;Everyone should try celibacy!;;;;;;;;;x 
+EVTTOOLTIP100244;is thankful [Root.GetTitledFirstName] took the time to answer [This.GetHerHis] questions about celibacy;;;;;;;;;x 
+EVTDESC100242;I thought [From.GetTitledFirstName] had more tact than criticising someone's choice of lifestyle in public, especially a friend's lifestyle. I am celibate and proud of that, I would never denounce anyone's lifestyle no matter my opinion on the matter!;;;;;;;;;x 
+EVTOPTA100242;Next time, talk to me first before making it a public matter!;;;;;;;;;x 
+EVTDESC100243;I have chosen to live my life in celibacy, but the choice was not easily made. No matter what I tell you, I cannot make you chose and to be honest, I don't think celibacy is right for you...'\nThe bitter truth from [From.GetTitledFirstName]'s lips made me reconsider celibacy.;;;;;;;;;x 
+EVTOPTA100243;You are right, celibacy is not for me;;;;;;;;;x 
+EVTDESC100244;You must choose celibacy and if you do, you have to fight temptations every day for the rest of your life. You will abstain from more pleasures than you know about now but the reward is greater than any pleasure. The love of [Root.Religion.GetRandomGodName] will help you hold your promise...'\n[From.GetTitledFirstName] was honest about celibacy and made me realize how important my decision is.;;;;;;;;;x 
+EVTOPTA100244;I chose [Root.Religion.GetRandomGodName]'s love!;;;;;;;;;x 
+EVTTOOLTIP5062;On the road to Celibacy;;;;;;;;;x 
+EVTOPTB100243;I will not take this decision lightly, but... not yet...;;;;;;;;;x 
+EVTDESC100250;I struggle with the pleasures of life or the pleasures of the after-life ever day. Some days I feel celibacy is the right way for me, other days I cannot get enough of the pleasures of life. Today, I am feeling more inclined towards hedonism than celibacy...;;;;;;;;;x 
+EVTOPTA100250;Do I want encouragement or discouragement?;;;;;;;;;x 
+EVTTOOLTIP100251;finds [Root.GetTitledFirstName]'s struggling with the decision interesting;;;;;;;;;x 
+EVTOPTB100250;I don't want to become a hedonist like my friend!;;;;;;;;;x 
+EVTTOOLTIP100252;is upset [Root.GetTitledFirstName] condemns something [Root.GetSheHe] knows nothing about;;;;;;;;;x 
+EVTOPTC100250;I... can't... decide... now!;;;;;;;;;x 
+EVTDESC100251;I know exactly how [From.GetTitledFirstName] feels right now, trying to decide if [From.GetSheHe] wants a heaven on Earth or in the after-life. Pleasure is everything for me and as I saw [From.GetTitledFirstName] struggle I decided this might be the time, the only time, I could convince [From.GetHerHim] to join our side...;;;;;;;;;x 
+EVTOPTA100251;[From.GetTitledFirstName] would never forgive me...;;;;;;;;;x 
+EVTTOOLTIP100253;decides to let [From.GetTitledFirstName] struggle with this alone;;;;;;;;;x 
+EVTOPTB100251;Convincing [From.GetTitledFirstName] will be a piece of cake...;;;;;;;;;x 
+EVTTOOLTIP100254;is easily manipulated by [Root.GetTitledFirstName];;;;;;;;;x 
+opinion_confused;Confused;;;;;;;;;x 
+EVTDESC100252;I am perfectly happy knowing my paradise is on Earth, mayhap not in Heaven but I would rather live my life in pleasure than in pain and struggle just for the sake of maybe being allowed into Heaven when I die. Other people's opinion of me and my lifestyle seldom bother me, but when my friend [From.GetTitledFirstName] said [From.GetSheHe] did not want to become a hedonist like me it still hurt.;;;;;;;;;x 
+EVTOPTA100252;I don't want to hear your opinion, just leave me alone;;;;;;;;;x 
+EVTDESC100253;I received neither encouragement nor discouragement from [From.GetTitledFirstName] and was left alone to struggle with my confused feelings about celibacy and hedonism.;;;;;;;;;x 
+EVTOPTA100253;What to do, what to choose...;;;;;;;;;x 
+EVTDESC100254;Imagine all the pleasures in the world, good food and wine, the touch of skin on skin... To be celibate is to abstain for nearly all worldly pleasures, all for a chance of going to Heaven when you die. So ask yourself: a lifetime of pleasures or perhaps Heaven when you die?'[From.GetTitledFirstName] was very convincing when [From.GetSheHe] talked about hedonism...;;;;;;;;;x 
+EVTOPTA100254;Pleasures in this life! Heaven can wait, I want it now!;;;;;;;;;x 
+EVTTOOLTIP5061;Onwards - to Hedonism!;;;;;;;;;x 
+EVTOPTB100253;I'd rather be rewarded in Heaven;;;;;;;;;x 
+EVTDESC100260;Books have always fascinated me and when I heard that a friend of mine is a scholar and member of a small group of people dedicated to studying books, discussing them and learning more about our world through philosophy and science I knew I had to know more!;;;;;;;;;x 
+EVTOPTA100260;My friend, tell me more about the scholars!;;;;;;;;;x 
+EVTTOOLTIP100261;is glad [Root.GetTitledFirstName] takes an interest to scholarly matters;;;;;;;;;x 
+EVTOPTB100260;It sounds incredibly boring;;;;;;;;;x 
+EVTTOOLTIP100262;did not ask for [Root.GetTitledFirstName] opinion about [This.GetHerHis] scholarly lifestyle;;;;;;;;;x 
+EVTOPTC100260;I need more time to study so I can impress the group of scholars!;;;;;;;;;x 
+EVTDESC100261;Being a scholar means you have a great interest in philosophy, science and theology and a willingness to spend hours with dusty old books just to confirm what you already know or discover you were wrong. I was more than happy to talk to [From.GetTitledFirstName] about what being a scholar meant for me and why I choose it...;;;;;;;;;x 
+EVTOPTA100261;Being a scholar requires dedication, and you don't have it;;;;;;;;;x 
+EVTTOOLTIP100263;can't believe [Root.GetTitledFirstName] don't think [This.GetSheHe] would be dedicated enough to be a scholar;;;;;;;;;x 
+EVTOPTB100261;Let me tell you why I became a scholar and then you can decide;;;;;;;;;x 
+EVTTOOLTIP100264;listens intently as [Root.GetTitledFirstName] tells [This.GetHerHim] why [Root.GetSheHe] became a scholar;;;;;;;;;x 
+EVTDESC100262;I never asked for [From.GetTitledFirstName] opinion about me being a scholar, about my love and passion for books, philosophy, science and theology. The choice I made is one I am proud of and no one, not even my friend, shall take away my pride of being a scholar!;;;;;;;;;x 
+EVTOPTA100262;So stop bedraggling my lifestyle [From.GetFirstName]!;;;;;;;;;x 
+EVTDESC100263;I couldn't resist yawning when [From.GetTitledFirstName] talked about philosophy, theology and science which earned me a sharp reprimand from [From.GetHerHim]. [From.GetTitledFirstName] refused to tell me more, I tried blaming the yawn on too little sleep but [From.GetSheHe] did not believe me.;;;;;;;;;x 
+EVTOPTA100263;It was rather boring...;;;;;;;;;x 
+EVTDESC100264;The more [From.GetTitledFirstName] told me about philosophy, science and theology the more I felt like this was a subject I could immerse myself in until I die without having more than brushed upon the vast amount of knowledge found in books and other scholars.;;;;;;;;;x 
+EVTOPTA100264;I want this! I want the books, the philosophy - everything!;;;;;;;;;x 
+EVTTOOLTIP5000;Scholar - or Mystic?;;;;;;;;;x 
+EVTOPTB100263;I am not quite ready yet;;;;;;;;;x 
+opinion_not_abandon_friendship;Did Not Abandon Friendship;;;;;;;;;x 
+EVTDESC100350;I don't recognize my friend anymore, the things we had in common when we first met and became friends has changed and vanished. Whenever I meet my friend I ask myself: 'Is this the person I want to be friends with? Can we really be friends despite all our differences?';;;;;;;;;x 
+EVTOPTA100350;We have drifted apart;;;;;;;;;x 
+EVTTOOLTIP100351;[Root.GetTitledFirstName] and [This.GetTitledFirstName] is no longer friends;;;;;;;;;x 
+EVTOPTB100350;Tell me, do you think we still can be friends?;;;;;;;;;x 
+EVTTOOLTIP100352;Will [Root.GetTitledFirstName] and [This.GetTitledFirstName] still be friends despite their differences?;;;;;;;;;x 
+EVTOPTC100350;No! You are my friend, that won't ever change!;;;;;;;;;x 
+EVTDESC100351;I've had a good friend in [From.GetTitledFirstName] and it saddens my heart [From.GetSheHe] thinks we no longer have anything in common and the differences between us is too great an obstacle to get over.\n'I no longer see you as my friend,' [From.GetTitledFirstName] told me.;;;;;;;;;x 
+EVTOPTA100351;I will miss you...;;;;;;;;;x 
+EVTOPTB100351;If you don't want me as your friend, then you're my rival!;;;;;;;;;x 
+EVTTOOLTIP100353;[Root.GetTitledFirstName] declares [This.GetTitledFirstName] to no longer be [Root.GetHerHis] friend;;;;;;;;;x 
+EVTDESC100352;I liked having you as my friend, but our differences are too great. We have nothing in common any more and I feel... I feel it would be for the best if we no longer were friends.'\n[From.GetTitledFirstName]'s words did not fall lightly from [From.GetHerHis] lips, this was something [From.GetSheHe] had thought long and hard about.;;;;;;;;;x 
+EVTOPTA100352;If that is what you feel, then I'll respect that;;;;;;;;;x 
+EVTOPTB100352;I want to be your friend, don't throw our friendship away!;;;;;;;;;x 
+EVTTOOLTIP100354;[Root.GetTitledFirstName] refuses to give up on their friendship;;;;;;;;;x 
+EVTDESC100353;I told [From.GetTitledFirstName] that I liked having [From.GetHerHim] as my friend, but our differences were too great. We have nothing in common any more and it would be for the best if we no longer were friends.;;;;;;;;;x 
+EVTOPTA100353;[From.GetTitledFirstName] then declared me [From.GetHerHis] rival!;;;;;;;;;x 
+EVTOPTB100353;This friendship is over;;;;;;;;;x 
+EVTDESC100354;Instead of agreeing that our friendship is doomed, [From.GetTitledFirstName] told me that as long as [From.GetSheHe] lived [From.GetSheHe] would consider me a friend. All our differences, the things we no longer had in common [From.GetTitledFirstName] dismissed as us having grown up and it was time for us to find new things to talk about and strengthen our friendship with.;;;;;;;;;x 
+EVTOPTA100354;So... We are still friends, I guess;;;;;;;;;x 
+EVTDESC100400;The wound was still fresh, oozing blood and I paled when I saw it. My friend just joked about it but became more serious when I, appalled by the sight, asked who had caused the injury.;;;;;;;;;x 
+EVTOPTA100400;Your rival?! I'll kill him!;;;;;;;;;x 
+EVTTOOLTIP100401;[Root.GetTitledFirstName]'s friend's rival [This.GetTitledFirstName] becomes [Root.GetTitledFirstName]'s rival also;;;;;;;;;x 
+EVTOPTB100400;My friend's enemy is my enemy!;;;;;;;;;x 
+EVTOPTC100400;I won't interfere in this;;;;;;;;;x 
+EVTTOOLTIP100402;reacts to [Root.GetTitledFirstName]'s refusal to interfere;;;;;;;;;x 
+EVTDESC100401;Without warning, [From.GetTitledFirstName] jumped me and accused me of having wounded [From.GetHerHis] friend. I defended myself the best I could and tried to calm [From.GetTitledFirstName] down so I could meet [From.GetHerHis] accusations.;;;;;;;;;x 
+EVTOPTA100401;I barely managed to escape with my life!;;;;;;;;;x 
+EVTDESC100402;It was a rather nasty wound but [From.GetTitledFirstName] had it all wrong. Still it was disappointing [From.GetSheHe] thought the matter too inferior for [From.GetHerHis] attention, if it had been my rival who had caused the wound of course I would have wanted [From.GetTitledFirstName] help me retaliate!;;;;;;;;;x 
+EVTOPTA100402;I guess our friendship is 'inferior', too...;;;;;;;;;x 
+opinion_revenge_seeker;Seeks Revenge;;;;;;;;;x 
+EVTDESC100410;For too long I have ignored the constant affronts from my rival but my honor demands I ask my liege [Root.Liege.GetTitledFirstName] for permission to challenge my rival to a duel.;;;;;;;;;x 
+EVTOPTA100410;[Root.Liege.GetTitledFirstName], do I have permission for this duel?;;;;;;;;;x 
+EVTTOOLTIPA100411;Your rival [This.GetTitledFirstName] hears about your request;;;;;;;;;x 
+EVTTOOLTIPB100411;Your liege [This.GetTitledFirstName] considers your request;;;;;;;;;x 
+EVTOPTB100410;Have I really thought this through? I might be wounded!;;;;;;;;;x 
+EVTDESC100411;Though I had thought [From.GetTitledFirstName] to be a more reasonable man, [From.GetHerHis] request to be allowed to duel [From.GetHerHis] rival was slightly... erratic. [From.GetTitledFirstName] claimed to be constantly subject to affronts from [From.GetHerHis] rival and asked for permission to defend [From.GetHerHis] honor.;;;;;;;;;x 
+EVTOPTA100411;Allow the duel;;;;;;;;;x 
+EVTTOOLTIP100412;is very grateful for your permission to duel [This.GetHerHis] rival;;;;;;;;;x 
+EVTOPTB100411;Disallow it, but take no further action;;;;;;;;;x 
+EVTTOOLTIP100413;accepts your refusal but is very disappointed;;;;;;;;;x 
+EVTOPTC100411;Disallow it and banish the instigator;;;;;;;;;x 
+EVTDESC100412;Although I am not entirely certain why you want to duel your rival, you clearly feel you need to defend your honor. You have my permission.'\n[From.GetTitledFirstName] graciously granted my request.;;;;;;;;;x 
+EVTOPTA100412;Too bad I'm only allowed to wound my rival;;;;;;;;;x 
+EVTTOOLTIP100415;is wounded by [Root.GetTitledFirstName] in the duel;;;;;;;;;x 
+EVTOPTB100412;I have calmed down and realized the duel is very unnecessary;;;;;;;;;x 
+EVTDESC100413;I have decided to disallow you to duel your rival with my blessing. Despite what you feel to be slights to your honor I cannot possibly allow you to duel your rival in hot blood...'\n[From.GetTitledFirstName] disregarded the slights to my honor and forbade me to duel my rival!;;;;;;;;;x 
+EVTOPTA100413;But... Shall I just accept the affronts?;;;;;;;;;x 
+EVTDESC100414;I have decided to disallow you to duel your rival and to banish you from my realm. I cannot have vassals like you trying to duel anyone who affronts them - the mayhem caused would be time consuming and wreak havoc in my realm!'\n[From.GetTitledFirstName] banished me, for a simple duel request?!;;;;;;;;;x 
+EVTOPTA100414;This cannot be possible!;;;;;;;;;x 
+EVTDESC100415;[From.GetTitledFirstName] had to ask permission from [From.GetHerHis] liege [From.Liege.GetTitledFirstName] in order to be able to challenge me to a duel. I accepted, of course, what else could I do?;;;;;;;;;x 
+EVTOPTA100415;That bastard managed to wound me!;;;;;;;;;x 
+EVTOPTB100415;I managed to knock [From.GetHerHim] unconscious before anyone was harmed;;;;;;;;;x 
+EVTOPTC100415;I defeated [From.GetHerHim] easily;;;;;;;;;x 
+opinion_disgraceful;Disgraceful;;;;;;;;;x 
+EVTDESC100420;I am absolutely certain my rival is cheating in the tournament! There's no way he could win his fights so easily if he wasn't cheating...;;;;;;;;;x 
+EVTOPTA100420;[Root.Liege.GetTitledFirstName] will know what to do with the cheater!;;;;;;;;;x 
+EVTTOOLTIP100421;[Root.GetTitledFirstName] tells [This.GetTitledFirstName] about the cheating lord;;;;;;;;;x 
+EVTOPTB100420;I'll confront him myself!;;;;;;;;;x 
+EVTTOOLTIP100422;[Root.GetTitledFirstName] confronts [Root.GetHerHis] rival [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100420;Everyone must know what a cheater he is!;;;;;;;;;x 
+EVTTOOLTIP100423;dislikes your slander;;;;;;;;;x 
+EVTOPTD100420;I will hold my tongue and tell no one;;;;;;;;;x 
+EVTDESC100421;My liege, I have proof one of the participants in the tournament is cheating!'\nThe rivalry between [From.GetTitledFirstName] and the supposed cheater is well known, but I can't imagine [From.GetTitledFirstName] would lie about something this serious!;;;;;;;;;x 
+EVTOPTA100421;Imprison the cheater!;;;;;;;;;x 
+EVTTOOLTIP100424;is imprisoned for cheating in the tournament;;;;;;;;;x 
+EVTOPTB100421;Banish the cheater;;;;;;;;;x 
+EVTTOOLTIP100425;is banished for cheating in the tournament;;;;;;;;;x 
+EVTOPTC100421;I need more proof than your words, [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTDESC100422;The tournament was well on its way when [From.GetTitledFirstName], aggravated by [From.GetHerHis] losses at the list field where we both took part in the jousting, accused me of cheating and presented a ridiculous theory [From.GetSheHe] claimed proved I cheated!;;;;;;;;;x 
+EVTOPTA100422;I won every match fair and square!;;;;;;;;;x 
+EVTOPTB100422;Your 'evidence' is dishonoring, I challenge you to a duel!;;;;;;;;;x 
+EVTTOOLTIP100427;is challenged to a duel;;;;;;;;;x 
+EVTDESC100423;Everyone at the tournament [From.Liege.GetTitledFirstName] hosted heard [From.GetTitledFirstName] accusing me of cheating in the tournament. I did not think any one would believe [From.GetTitledFirstName]'s wild accusations, but the suspicious looks and the whispered gossip told me otherwise...;;;;;;;;;x 
+EVTOPTA100423;Gold will stop their gossiping!;;;;;;;;;x 
+EVTOPTB100423;Why should I care what they think?;;;;;;;;;x 
+EVTDESC100424;[FromFrom.GetTitledFirstName] accused me of cheating in the tournament and [From.GetTitledFirstName] believed [FromFrom.GetHerHim]. I was thrown in jail based on unwarranted accusations from a rival of mine - [FromFrom.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA100424;I will kill you for this, [FromFrom.GetTitledFirstName]!;;;;;;;;;x 
+EVTDESC100425;The false accusations from [FromFrom.GetTitledFirstName] about me cheating in the tournament was groundless but [From.GetTitledFirstName] believed every poisonous word that idiot told [From.GetHerHim]. Despite my protests and demands of a fair trial where [FromFrom.GetTitledFirstName] could present [FromFrom.GetHerHis] so-called 'evidence' [From.GetTitledFirstName] chose to banish me!;;;;;;;;;x 
+EVTOPTA100425;When I get back, [FromFrom.GetTitledFirstName] will never be safe again...;;;;;;;;;x 
+EVTDESC100426;After I told [From.GetTitledFirstName] about my rival cheating in the tournament I eagerly waited for [From.GetHerHis] reaction...;;;;;;;;;x 
+EVTOPTA100426;[From.GetTitledFirstName] decided to do nothing!;;;;;;;;;x 
+EVTOPTB100426;[From.GetTitledFirstName] imprisoned the cheater!;;;;;;;;;x 
+EVTOPTC100426;[From.GetTitledFirstName] banished the cheater!;;;;;;;;;x 
+EVTDESC100427;[From.GetTitledFirstName]'s face turned red and [From.GetSheHe] started sputtering swearwords when I accused [From.GetHerHim] of cheating in the tournament. I had made sure I made the accusations where as many people as possible could hear it, something I came to regret quickly when [From.GetTitledFirstName] challenged me to a duel!;;;;;;;;;x 
+EVTOPTA100427;I accept, but don't you cheat this time!;;;;;;;;;x 
+EVTTOOLTIP100428;defends [This.GetHerHis] honor against [Root.GetTitledFirstName]'s accusations;;;;;;;;;x 
+EVTOPTB100427;I jest, I jest! Please don't hit me...;;;;;;;;;x 
+EVTTOOLTIP100429;have never seen a more spineless creature than [Root.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100428;I defended my honor in the only way possible: I challenged [From.GetTitledFirstName] to a duel in front of all the tournament participants, the spectators and our host, [From.Liege.GetTitledFirstName]. No one calls me a cheater and gets away with it!;;;;;;;;;x 
+EVTOPTA100428;I fear... I lost...;;;;;;;;;x 
+EVTOPTB100428;I proved my innocence when [From.GetSheHe] lay unconscious on the ground by my feet;;;;;;;;;x 
+EVTOPTC100428;I defeated [From.GetTitledFirstName] and thus proved I am not a cheater;;;;;;;;;x 
+EVTDESC100429;It was as I thought, [From.GetTitledFirstName] was all talk and no spine. Coward! [From.GetTitledFirstName] hastily withdrew [From.GetHerHis] unwarranted accusations when I threatened to punch [From.GetHerHis] teeth down [From.GetHerHis] throat in a duel.;;;;;;;;;x 
+EVTOPTA100429;I should have done it anyway...;;;;;;;;;x 
+EVTDESC100440;I have great faith in [Root.Religion.GetRandomGodName] but you wonder where the world is going when heretics are trying to overturn all we ever believed in and bring us false gods! Among many others, my rival has embraced a heretical version of the [Root.Religion.GetName] faith.;;;;;;;;;x 
+EVTOPTA100440;Surely [Root.Religion.GetRandomGodName] needs defenders against men like him!;;;;;;;;;x 
+EVTTOOLTIP100441;[Root.GetTitledFirstName] offers [Root.RelHead.GetTitledFirstName] [Root.GetHerHis] help against heretics like [Root.GetHerHis] rival;;;;;;;;;x 
+EVTOPTB100440;My enmity to him is quite secular, thanks;;;;;;;;;x 
+EVTOPTC100440;There might be something truthful in his views;;;;;;;;;x 
+EVTDESC100441;It is with sorrow in my heart that I must tell you that an errant subject has chosen to become a heretic. I trust that Your Holiness will see to it that no one else is tempted to follow the same heretical way...'\n[From.GetTitledFirstName] warned us of a subject lead astray.;;;;;;;;;x 
+EVTOPTA100441;We have no choice but to excommunicate this poor soul;;;;;;;;;x 
+EVTTOOLTIP100443;is sent a letter telling [This.GetTitledFirstName] [From.GetSheHe] has been excommunicated by [Root.GetTitledFirstName];;;;;;;;;x 
+EVTTOOLTIP100444;is sent a letter promising [Root.GetTitledFirstName] will take care of the heretic;;;;;;;;;x 
+EVTOPTB100441;We do not find this important at the moment;;;;;;;;;x 
+EVTTOOLTIP100445;is sent a polite rejection letter thanking [This.GetHerHim] for the warning;;;;;;;;;x 
+EVTDESC100442;Forgive me, [Root.Religion.GetRandomGodNameCap] for I have sinned! The heretical ways of my rival has ensnared me and I find myself being of the [Root.Religion.GetName] faith.;;;;;;;;;x 
+EVTOPTA100442;Maybe this isn't so bad...;;;;;;;;;x 
+EVTDESC100443;On the behest of [FromFrom.GetTitledFirstName] we, [From.GetTitledFirstName], agree that you should be denied communion and be excommunicated! May God have mercy on your soul.\n\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100443;What!?;;;;;;;;;x 
+EVTDESC100444;[Root.GetTitledFirstName], we would like to thank you for your warning about the heretical [From.GetTitledFirstName] among our subjects.\n\n[FromFrom.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100444;I only did what any [Root.Religion.GetName] should do;;;;;;;;;x 
+EVTDESC100445;After some consideration we have decided not to excommunicate the supposed heretic you warned us about as we cannot find any incriminating evidence against the your rival. [From.Religion.GetRandomGodNameCap] be with you.\n\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100445;Oh well, it was worth a try...;;;;;;;;;x 
+EVTDESC100450;My liege [Root.Liege.GetTitledFirstName] has no idea what a treacherous and despicable person that [Root.GetManWoman] is! My rival fawns over our liege and [Root.Liege.GetTitledFirstName] seems to like the flattery my rival pours over [Root.Liege.GetHerHim]...;;;;;;;;;x 
+EVTOTPA100450;I shall expose my rival as the snake [Root.GetSheHe] is!;;;;;;;;;x 
+EVTTOOLTIP100451;[Root.GetTitledFirstName] tells [This.GetTitledFirstName] what a despicable person [Root.GetHerHis] rival is;;;;;;;;;x 
+EVTOTPB100450;[Root.Liege.GetTitledFirstName] will soon know how treacherous that [Root.GetManWoman] can be...;;;;;;;;;x 
+EVTDESC100451;My liege, please listen to me! That [From.GetManWoman] you are so fond of is no more than a treacherous, despicable snake!'\n[From.GetTitledFirstName] tried to convince me to be more careful about my friends.;;;;;;;;;x 
+EVTOTPA100451;I did not know!;;;;;;;;;x 
+EVTTOOLTIP100453;[Root.Liege.GetTitledFirstName] shuns [Root.Liege.GetHerHis] former friend [This.GetTitledFirstName];;;;;;;;;x 
+EVTOTPB100451;I don't believe you! You are just jealous...;;;;;;;;;x 
+EVTTOOLTIP100452;qualms are ignored by [Root.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100452;The more I told [From.GetTitledFirstName] about the misdeeds my rival had done, the treachery and the despicable things I had seen with my own eyes, the more silent and brooding  [From.GetTitledFirstName] became. I feared I may had overdone it, that my liege wouldn't believe me...;;;;;;;;;x 
+EVTOPTA100452;[From.GetTitledFirstName] believed every word I said!;;;;;;;;;x 
+EVTOPTB100452;[From.GetTitledFirstName] called me a liar!;;;;;;;;;x 
+EVTDESC100453;[From.GetTitledFirstName] told me about the misdeeds you have done, the treachery and the despicable things [From.GetSheHe] has seen with [From.GetHerHis] own eyes! I thought we were friends, but now I know better...'\nI couldn't convince [FromFrom.GetTitledFirstName] to believe me rather than [From.GetTitledFirstName]'s lies.;;;;;;;;;x 
+EVTOPTA100453;Curse you, [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTDESC100460;Would you know it, I heard your rival fancies a [Root.GetManWoman]!'\nIt came as quite a shock to hear the rumors that my rival is a sodomite!;;;;;;;;;x 
+EVTOTPA100460;Finally, something I can use to slander my rival's reputation!;;;;;;;;;x 
+EVTTOOLTIP100461;has nothing but contempt for [Root.GetTitledFirstName];;;;;;;;;x 
+EVTOTPB100460;This could destroy my rival's life and reputation! I won't be a part of that;;;;;;;;;x 
+EVTOTPC100460;I will protect this secret as I have mine;;;;;;;;;x 
+EVTTOOLTIP100462;[Root.GetTitledFirstName] no longer sees [This.GetTitledFirstName] as [Root.GetHerHis] rival;;;;;;;;;x 
+EVTDESC100461;It was only rumors at first, then people started talking, then gossiping. The secret I tried to keep hidden, tried to deny and tried to shun caught up to me and blared its, to some, ugly truth: I did not desire the other sex, I wanted a [Root.GetManWoman], not a [Root.GetManWomanOpp] in my bed...;;;;;;;;;x 
+EVTOPTA100461;I have good reason to believe [From.GetTitledFirstName] is behind this!;;;;;;;;;x 
+EVTDESC100462;It has been a secret I have guarded with my life, every gossip, every rumor about me not desiring the other sex has been uprooted as soon as I could. Then my rival [From.GetTitledFirstName] came to me, telling me [From.GetSheHe] knew my secret and I braced myself against [From.GetTitledFirstName]'s glee that [From.GetSheHe] finally had something [From.GetSheHe] could use to ruin my reputation with.;;;;;;;;;x 
+EVTOPTA100462;My secret is safe, [From.GetTitledFirstName] told me...;;;;;;;;;x 
+EVTDESC100470;The more I think about it, the more ridiculous it seems. A [Root.GetTitle] having a rival  so much beneath me, it seems a bit silly of me to hold [Root.GetHerHim] as my rival.;;;;;;;;;x 
+EVTOPTA100470;Indeed, there is little point in this rivalry;;;;;;;;;x 
+EVTOPTB100470;I never forget my enemies;;;;;;;;;x 
+EVTDESC100471;[From.GetTitledFirstName] and I have been rivals for a very long time, but now when [From.GetSheHe] is a [From.GetTitle] and I am a lowly [Root.GetTitle] [From.GetTitledFirstName] feels it is beneath [From.GetHerHim] to have a rival so much beneath [From.GetHerHim].;;;;;;;;;x 
+EVTOPTA100471;Finally!;;;;;;;;;x 
+EVTOPTB100471;[From.GetTitle] or not, the rivalry between us is still strong!;;;;;;;;;x 
+EVTTOOLTIP100472;[Root.GetTitledFirstName] refuses to let go of the rivalry between [Root.GetHerHim] and [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100472;I was willing to bury our rivalries and the petty deeds, the stabs at our reputations our rivalry had caused in the past where it belongs, but [From.GetTitledFirstName] was not as magnanimous as I.\n'[Root.GetTitle] or [From.GetTitle], our rivalry will continue, forever!';;;;;;;;;x 
+EVTOPTA100472;Oh dear...;;;;;;;;;x 
+EVTDESC100480;My rivalry to my liege [Root.Liege.GetTitledFirstName] is straining my commitment to my feudal duties. To know that my hard work enables my rival to live a safer, better life annoys me to no end!;;;;;;;;;x 
+EVTOPTA100480;[Root.Liege.GetTitledFirstName] is my rival until death do us part!;;;;;;;;;x 
+EVTOPTB100480;I should try to live with this;;;;;;;;;x 
+EVTOPTC100480;I should make up for the sake of order;;;;;;;;;x 
+EVTTOOLTIP100481; ;;;;;;;;;x 
+opinion_stubborn_rival;Stubborn Rival;;;;;;;;;x 
+opinion_respects_liege;Respects Liege;;;;;;;;;x 
+EVTDESC100481;My liege, I fear our rivalry is straining my commitment to my feudal duties. To know that my hard work enables a rival of mine to live a safer, better life is putting a strain to me I would gladly have removed. I want us to bury our rivalry and differences so I may serve you to my best.\nYour loyal subject,\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA100481;Yes, it would be for the best...;;;;;;;;;x 
+EVTDESC100490;My fierce rival is planning rebellious acts against our liege [Root.Liege.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA100490;I will not let my rivalry interfere with my cause;;;;;;;;;x 
+EVTOPTB100490;Maybe united hatred allows us to make up?;;;;;;;;;x 
+EVTTOOLTIP100491;[Root.GetTitledFirstName] joins [This.GetTitledFirstName] plot against their liege [Root.Liege.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100491;I was in the middle of planning the next step of the plot when [From.GetTitledFirstName] burst into the room and asked to join my plot against [From.Liege.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA100491;I don't need your help!;;;;;;;;;x 
+EVTTOOLTIP100492;[Root.GetTitledFirstName] needs no help from [This.GetTitledFirstName] with [Root.GetHerHis] plot against [This.Liege.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100491;I could use any help I can get!;;;;;;;;;x 
+EVTDESC100492;I had looked forward to joining [From.GetTitledFirstName] in [From.GetHerHis] plot against our liege [Root.Liege.GetTitledFirstName], but instead of showing some gratitude and welcome me with open arms, [From.GetTitledFirstName] shouted at me and refused to let me join [From.GetHerHis] plot!;;;;;;;;;x 
+EVTOPTA100492;Now what should I do?;;;;;;;;;x 
+EVTDESC100500;Praise [Root.Religion.GetRandomGodName]! My fierce rival has also become a follower of the new way of Christ! Hallelujah!;;;;;;;;;x 
+EVTOPTA100500;I need to re-evaluate our relations!;;;;;;;;;x 
+EVTOPTB100500;Love thy rival does not apply in this situation;;;;;;;;;x 
+EVTDESC100501;The [Root.Religion.GetName] faith teaches us to love thy rival, but [From.GetTitledFirstName] still took me with surprise when [From.GetSheHe] proposed that we should end our rivalry in honor of [Root.Religion.GetRandomGodName]'s teachings...;;;;;;;;;x 
+EVTOPTA100501;For [Root.Religion.GetRandomGodName]'s sake!;;;;;;;;;x 
+EVTTOOLTIP100502;[Root.GetTitledFirstName] ends [Root.GetHerHis] and [This.GetTitledFirstName] rivalry;;;;;;;;;x 
+EVTOPTB100501;[Root.Religion.GetRandomGodNameCap] would condone our rivalry!;;;;;;;;;x 
+EVTTOOLTIP100503;[Root.GetTitledFirstName] rejects [This.GetTitledFirstName] suggestion to end their rivalry;;;;;;;;;x 
+opinion_continued_rivalry;Continued Rivalry;;;;;;;;;x 
+EVTDESC100502;For the love of [Root.Religion.GetRandomGodName], I agree! Let us not fight nor argue anymore, let us respect [Root.Religion.GetRandomGodName]'s teachings about loving thy rival!'\n[From.GetTitledFirstName] agreed to end our petty rivalry!;;;;;;;;;x 
+EVTOPTA100502;Tis a joyous day!;;;;;;;;;x 
+EVTDESC100503;What has [Root.Religion.GetRandomGodName] to do with our rivalry? Was [Root.Religion.GetRandomGodName] there when we became rivals? No! I see no reason why our [Root.Religion.GetName] faith would make us friends.'\n[From.GetTitledFirstName] did not want to let go of our rivalry.;;;;;;;;;x 
+EVTOPTA100503;I thought our common faith would make us friends...;;;;;;;;;x 
+EVTOPTB6502;Kick the kitty;;;;;;;;;x 
+opinion_killed_father;Killed my father;;;;;;;;;x 
+EVTDESC100510;It is a perfect opportunity - my liege [Root.Liege.GetTitledFirstName] has invited both me and my rival to [Root.Liege.GetHerHis] hunt in the forests of [Root.Liege.Location.GetName]. A small mistake can have devastating consequences, an arrow released at the wrong time might pierce through my rival's heart...;;;;;;;;;x 
+EVTOPTA100510;It's now or never!;;;;;;;;;x 
+EVTOPTB100510;Peasant, fire at my command!;;;;;;;;;x 
+EVTTOOLTIP100511;[Root.GetTitledFirstName] bribes [This.GetTitledFirstName] to shoot [Root.GetHerHis] rival with an arrow;;;;;;;;;x 
+EVTOPTC100510;Let's just enjoy the hunt;;;;;;;;;x 
+EVTTOOLTIP36010;The White Stag;;;;;;;;;x 
+EVTDESC100511;I heard the arrow the second before it hit. The whirring noise its feather made as it sang its way through the forest should have made it easier to avoid it...;;;;;;;;;x 
+EVTOPTA100511;The arrow hit my arm!;;;;;;;;;x 
+EVTOPTB100511;The arrow pierced my leg!;;;;;;;;;x 
+EVTOPTC100511;The arrow... pierced my heart...;;;;;;;;;x 
+EVTOPTD100511;The arrow only grazed me;;;;;;;;;x 
+EVTDESC100512;I held my breath as the arrow left the bow, willed my eyes to stay open and follow its path. It was aimed directly at [From.GetTitledFirstName] and I was sure the arrow would hit true...;;;;;;;;;x 
+EVTOPTA100512;...it hit [From.GetTitledFirstName]'s arm, wounding [From.GetHerHim]!;;;;;;;;;x 
+EVTOPTB100512;...it hit [From.GetTitledFirstName]'s leg, maiming [From.GetHerHim]!;;;;;;;;;x 
+EVTOPTC100512;...the arrow missed [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTDESC100513;The arrow struck true, piercing [From.GetTitledFirstName]'s heart and [From.GetSheHe] was dead before [From.GetSheHe] fell off the horse. No one wanted to admit whose arrow killed [From.GetTitledFirstName] and so [From.GetTitledFirstName] death became a sad hunting accident.;;;;;;;;;x 
+EVTOPTA100513;A perfect shot!;;;;;;;;;x 
+EVTTOOLTIP100514;[This.GetTitledFirstName] swears vengeance on [This.GetHerHis] father [This.Father.GetTitledFirstName]'s murderer [Root.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100514;My father [Root.Father.GetTitledFirstName]'s hunting accident was no accident. [From.GetTitledFirstName], my father's rival, held the bow with the arrow that pierced my father's heart!;;;;;;;;;x 
+EVTOPTA100514;I will get my revenge, sooner than later!;;;;;;;;;x 
+the_content;The Contented One;;;;;;;;;x 
+the_failed_poisoner;Failed Poisoner;;;;;;;;;x 
+opinion_poisoner;Poisoner;;;;;;;;;x 
+master_poisoner;Master Poisoner;;;;;;;;;x 
+EVTDESC100520;No one would notice if I poisoned my rival's wine at [Root.Liege.GetTitledFirstName]'s feast, the guests would be too preoccupied with gossip, plots and schemes.;;;;;;;;;x 
+EVTOPTA100520;I will take the risk and poison the wine!;;;;;;;;;x 
+EVTTOOLTIP100523;The poisoned wine intended for [Root.GetTitledFirstName]'s rival finds [This.GetTitledFirstName] lips instead;;;;;;;;;x 
+EVTOPTB100520;I dare not, what if I was to be discovered?;;;;;;;;;x 
+EVTDESC100521;I poured the poison into the wine and made sure no one saw me switching the poisoned goblet with my rival's. My rival did not notice anything, too busy talking with [Root.Liege.GetTitledFirstName] and I was mentally congratulating myself when I heard someone swear and the clatter when the goblet hit the floor.;;;;;;;;;x 
+EVTOPTA100521;The poisoned wine... wasted!;;;;;;;;;x 
+EVTDESC100522;The wine tasted strange, it almost tingled on my tongue but it was quite passable. It wasn't until several hours later, when I started vomiting blood, that I realized the wine must have been poisoned!;;;;;;;;;x 
+EVTOPTA100522;...kill... ...me...;;;;;;;;;x 
+EVTTOOLTIP100524;[Root.GetTitledFirstName] was poisoned by [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100522;The poison did not kill me, but it made me infirm;;;;;;;;;x 
+EVTOPTC100522;The poison... it buuurns...;;;;;;;;;x 
+EVTDESC100523;The feast was exactly as I had planned it, plenty of food and wine, great entertainment and interesting guests. Too bad someone decided to ruin it for everyone by poisoning the wine!;;;;;;;;;x 
+EVTOPTA100523;If I find out who did it, they'll be more than sorry!;;;;;;;;;x 
+EVTTOOLTIP100525;[Root.GetTitledFirstName] was accidentally poisoned by [From.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100524;I watched as [From.GetTitledFirstName] downed the goblet with poisoned wine in a swallowing, burped and called for more. Satisfied, I sat down and enjoyed the food while waiting for the poison to work.;;;;;;;;;x 
+EVTOPTA100524;[From.GetTitledFirstName] died a slow and painful death from the poison;;;;;;;;;x 
+EVTTOOLTIP100526;[This.GetTitledFirstName] will avenge [This.GetHerHis] father [This.Father.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100524;The poison did not kill [From.GetTitledFirstName], only made [From.GetHerHim] infirm;;;;;;;;;x 
+EVTOPTC100524;The poison made [From.GetTitledFirstName] sick as a pig;;;;;;;;;x 
+EVTDESC100525;Several witnesses claimed they had seen [FromFrom.GetTitledFirstName] pouring something into the wine and [FromFrom.GetTitledFirstName] confessed soon enough when I confronted [FromFrom.GetHerHim]. Several guests became sick but thank [Root.Religion.GetRandomGodName] no one died, the poison in the wine was too diluted to cause anyone permanent damage.;;;;;;;;;x 
+EVTOPTA100525;Throw the poisoner into the dungeon!;;;;;;;;;x 
+EVTOPTB100525;Banish the poisoner, as far away as possible!;;;;;;;;;x 
+EVTOPTC100525;No one died, so I'll be merciful;;;;;;;;;x 
+EVTDESC100526;My father died from the wine [From.GetTitledFirstName] poisoned at [From.Liege.GetTitledFirstName]'s feast! I will avenge my father's death!;;;;;;;;;x 
+EVTOTPA100526;I swear that I won't rest until [From.GetTitledFirstName] is dead!;;;;;;;;;x 
+mod_forgives_poisoner;Forgives poisoner;;;;;;;;;x 
+EVTDESC100527;I confessed almost as soon as [From.GetTitledFirstName] started question me about the poisoned wine. My rival did not suffer at all from the poisoning but many guest had fallen ill after they had drunk the poisoned wine.;;;;;;;;;x 
+EVTOTPA100527;[From.GetTitledFirstName] threw me into the dungeon for poisoning the guests;;;;;;;;;x 
+EVTOTPB100527;[From.GetTitledFirstName] banished me for poisoning the guests;;;;;;;;;x 
+EVTDESC72038;I hear [From.GetTitledFirstName] challenge one of my other guests to a duel and before I have any chance to interfere, the two duellers go outside...;;;;;;;;;x 
+EVTOPTA72038;I try to get to them before it is too late...;;;;;;;;;x 
+opinion_revoked_lord_spiritual_title;Revoked job title Court Chaplain;;;;;;;;;x 
+action_inquisition_desc;Send your [GetLordSpiritualName] to tend to the lost souls in a province, converting heretics and infidels.;;;;;;;;;x 
+action_advance_cul_tech_desc;Send your [GetLordSpiritualName] to work for the advancement of Culture in a province.;;;;;;;;;x 
+action_improve_rel_relations_desc;Have your [GetLordSpiritualName] lead a religious delegation to discuss matters of the faith with the local clergy (especially useful towards the official head of a religion).;;;;;;;;;x 
+job_spiritual;Court Chaplain;;;;;;;;;x 
+mastermind_theologian_desc;The Mastermind Theologian is recognized as one of the top scholars of the Faith.;;;;;;;;;x 
+CHOOSE_AMBITION;§GClick to Choose an Ambition§!;;;;;;;;;x 
+NO_VALID_AMBITIONS;No Valid Ambitions;;;;;;;;;x 
+CHOOSE_PLOT;Choose a Plot;;;;;;;;;x 
+NO_VALID_PLOTS;No Valid Plots;;;;;;;;;x 
+DYN9_DESC;With a score of $SCORE$ you$FAILED$ beat House af Bjälbo, who arguably created the modern state of Sweden. Prior to their accession the Swedish state was highly decentralised, where the writ of royal authority barely ran. The Bjälbo Kings regulated things more clearly, conquered Finland and by 1337 had entered a personal union with Norway, leading Sweden to the height of its medieval power.;;;;;;;;;x 
+entertaining_entertainment;Entertaining Entertainment;;;;;;;;;x 
+fabulous_feast;Fabulous Feast;;;;;;;;;x 
+poor_revenge_seeker;Poor Revenge Seeker;;;;;;;;;x 
+hot_revenge;Revenge served cold;;;;;;;;;x 
+EVTDESC100530;It is time to take my revenge! I have so many deliciously vicious things planned, but I should keep it simple to make sure nothing goes wrong.;;;;;;;;;x 
+EVTOPTA100530;I shall slander my rival's good reputation!;;;;;;;;;x 
+EVTTOOLTIP100531;[Root.GetTitledFirstName] denigrates [Root.GetHerHis] rival [This.GetTitledFirstName]'s reputation;;;;;;;;;x 
+EVTTOOLTIP100532;No one believes [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB100530;I shall send my ruffians to kill my rival!;;;;;;;;;x 
+EVTTOOLTIP100533;[Root.GetTitledFirstName] sends ruffians to kill [Root.GetHerHis] rival [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100530;My ruffians will roughen up my rival!;;;;;;;;;x 
+EVTTOOLTIP100534;[Root.GetTitledFirstName]'s ruffians will roughen [Root.GetHerHis] rival [This.GetTitledFirstName] up;;;;;;;;;x 
+EVTOPTD100530;What am I thinking? I do not want revenge!;;;;;;;;;x 
+EVTDESC100531;I have heard the gossip about me, the rumors that are slowly damaging my good reputation. It has gone so far no one dares meet my gaze, the children are pulled away from me by concerned parents and the silence that arises when the gossipers sees me is deafening.;;;;;;;;;x 
+EVTOPTA100531;What have I done? Who has spread these vile rumors?;;;;;;;;;x 
+EVTTOOLTIP100537;The vile rumors are spread by [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100532;I tried everything! My rival is too loved by his vassals so no matter what lies I told them, no matter what ridiculously strange or disgusting things I could think up they did not believe me!;;;;;;;;;x 
+EVTOPTA100532;Then how will I get my revenge?;;;;;;;;;x 
+EVTDESC100533;The ambush came from nowhere, the ruffians swinging cudgels, swords and their clenched fists at me obviously tried to kill me! I fought them desperately but no matter what I tried they still managed to hurt me more seriously than I could them...;;;;;;;;;x 
+EVTOPTA100533;Bleeding badly, I tried to get away from them...;;;;;;;;;x 
+EVTTOOLTIP100538;I escaped with my life;;;;;;;;;x 
+EVTTOOLTIP100535;The ruffians sent to kill [Root.GetTitledFirstName] came from [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100534;Before I could draw my sword the ruffians were upon me. I fought them bravely, even managed to injure some of them, but I was outnumbered and overpowered...;;;;;;;;;x 
+EVTOPTA100534;I cannot fight them, I must flee!;;;;;;;;;x 
+EVTDESC100535;I sent my ruffians out to kill my rival [From.GetTitledFirstName] to try and get revenge on [From.GetHerHim]. The stress, the worry, the anguish tormenting me until I got word from the leader was nerve-racking...;;;;;;;;;x 
+EVTOPTA100535;The ruffians killed [From.GetTitledFirstName]! Oh, joyous day!;;;;;;;;;x 
+EVTOPTB100535;The ruffians didn't even manage to harm [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTC100535;The ruffians only managed to wound [From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTD100535;The ruffians maimed [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTDESC100536;I gave the leader of my gang of ruffians strict order: only hurt [From.GetTitledFirstName], maim [From.GetHerHim] if you like, but try to avoid killing [From.GetHerHim]! Hopefully, they have learnt to obey orders by now...;;;;;;;;;x 
+EVTOPTA100536;Dead!? But I ordered you to wound, at the most maim [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTB100536;How did [From.GetTitledFirstName] manage to defeat ALL of you?;;;;;;;;;x 
+EVTOPTC100536;You wounded [From.GetTitledFirstName]? Excellent!;;;;;;;;;x 
+EVTOPTD100536;You maimed [From.GetTitledFirstName]? Perfect!;;;;;;;;;x 
+EVTDESC100537;My heart rejoiced in all the deliciously malicious, false rumors about [From.GetTitledFirstName] that I managed to spread and I could almost see [From.GetHerHis] good reputation in the gutter by my feet, getting more soiled and impossible to repair for every new gossiper...;;;;;;;;;x 
+EVTOPTA100537;Revenge - a dish best served cold!;;;;;;;;;x 
+EVTOPTB100537;I don't even care that [From.GetTitledFirstName] realized I was the source behind the rumors;;;;;;;;;x 
+EVTDESC100538;I ran for my life and the ruffians, burdened by their weapons and armor, couldn't keep up with me for long. Not even when I couldn't see them behind me any more did I stop, I continued until I was safe in my own home again.;;;;;;;;;x 
+EVTOPTA100538;Who would want to kill me?;;;;;;;;;x 
+EVTDESC100540;I will have my revenge on my father [Root.Father.GetTitledFirstName]'s murderer! There's so many deliciously vicious things I want to do to my father's murderer, but I need to make sure nothing goes wrong...;;;;;;;;;x 
+EVTOPTA100540;I shall slander my father's murderer's reputation!;;;;;;;;;x 
+EVTTOOLTIP100541;[Root.GetTitledFirstName] denigrates [Root.GetHerHis] father's murderer [This.GetTitledFirstName]'s reputation;;;;;;;;;x 
+EVTOPTB100540;I shall send my ruffians to kill my father's murderer!;;;;;;;;;x 
+EVTTOOLTIP100543;[Root.GetTitledFirstName] sends ruffians to kill [Root.GetHerHis] father's murderer [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC100540;My ruffians will roughen up my father's murderer!;;;;;;;;;x 
+EVTTOOLTIP100544;[Root.GetTitledFirstName]'s ruffians will roughen [Root.GetHerHis] father's murderer [This.GetTitledFirstName] up;;;;;;;;;x 
+EVTOPTD100540;I cannot go through with this!;;;;;;;;;x 
+EVTDESC100541;I dare not leave my home anymore, since the rumors about me being a cold-blooded murderer began people are not satisfied with just screaming words of abuse, they try to pelt me with rotten fruits and potatoes too!;;;;;;;;;x 
+EVTOPTA100541;What have I done to deserve this?;;;;;;;;;x 
+EVTTOOLTIP100547;[Root.GetTitledFirstName]'s reputation was soiled by the malicious rumors spread by [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100542;No one listens to me when I try to tell them who murdered my father! I tried every lie, every ridiculously strange or disgusting things I could think up to soil my father's murderer's reputation but no one believed me!;;;;;;;;;x 
+EVTOPTA100542;Curses! How will I get my revenge now?;;;;;;;;;x 
+EVTDESC100543;The ruffians was after my life, no matter what I offered them: land, money, anything they would ever want they just ignored me! I was overpowered and outnumbered one to five but I had one advantage: I wore no armor and my slender sword would not hinder me in any way...;;;;;;;;;x 
+EVTOPTA100543;Run! Run for my life!;;;;;;;;;x 
+EVTDESC100544;Five ruffians stood before me but they did not try to kill me, no, they tried to hurt me as badly as possible without killing me. Despite being one to five I tried to defend myself until I saw no other option but to run for my life!;;;;;;;;;x 
+EVTOPTA100544;Who hired you? Why do they want to hurt me?!;;;;;;;;;x 
+EVTTOOLTIP100545;The ruffians were hired by [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC100545;Finally I will have my revenge on my father's murderer [From.GetTitledFirstName]! My ruffians will kill [From.GetHerHim] for me and no one will suspect a thing!;;;;;;;;;x 
+EVTOPTA100545;Dead? Good, that's what I wanted...;;;;;;;;;x 
+EVTOPTB100545;[From.GetTitledFirstName] got away!? How?!;;;;;;;;;x 
+EVTOPTC100545;Only wounded? But I wanted [From.GetTitledFirstName] dead!;;;;;;;;;x 
+EVTOPTD100545;Maimed!? Fine, that's good enough...;;;;;;;;;x 
+EVTDESC100546;Wound, even maim [From.GetTitledFirstName] if you must, but do not kill [From.GetHerHim]! I want [From.GetTitledFirstName] to suffer...'\nThe ruffians had clear order what to do with [From.GetTitledFirstName], hopefully they will remember exactly what I hired them to do...;;;;;;;;;x 
+EVTOPTA100546;I said I wanted [From.GetTitledFirstName] wounded, maimed at the most, not DEAD!;;;;;;;;;x 
+EVTOPTB100546;You did not even manage to wound [From.GetTitledFirstName]!? Worthless!;;;;;;;;;x 
+EVTOPTC100546;Excellent work! [From.GetTitledFirstName] will suffer enough from [From.GetHerHis] wounds...;;;;;;;;;x 
+EVTOPTD100546;[From.GetTitledFirstName] lost a leg? Perfect!;;;;;;;;;x 
+EVTDESC100547;People pelt [From.GetTitledFirstName] with rotten fruit and scream 'Murderer! Beast! Fiend!' after [From.GetHerHim] wherever [From.GetSheHe] goes. The rumors and the truth I spread has reached the gossipers, soon the whole country will know of [From.GetTitledFirstName] misdeeds!;;;;;;;;;x 
+EVTOPTA100547;Such a deliciously rotten revenge!;;;;;;;;;x 
+EVTOPTB100547;Not even [From.GetTitledFirstName] discovering I was behind the rumors can dampen my mood!;;;;;;;;;x 
+UNREADY;Unready;;;;;;;;;x 

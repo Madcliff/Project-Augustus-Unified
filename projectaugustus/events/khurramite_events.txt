@@ -1,0 +1,730 @@
+namespace = MAZ
+
+
+narrative_event = {
+	id = MAZ.1
+	title = EVTNAMEMAZ.1
+	desc = EVTDESCMAZ.1
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	trigger = {
+		year = 800
+		not = { year = 850 }
+		
+		religion = sunni
+		controls_religion = yes # Let it happen for the Caliph
+		
+		NOT = { has_global_flag = persian_grumbling }
+		NOT = { has_global_flag = babak_rebellion }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		set_global_flag = persian_grumbling 
+		activate_title = { title = e_khorramdin status = yes }
+		create_random_soldier = {
+			random_traits = no
+			dynasty = random
+			name = "Babak"
+			culture = persian
+			religion = mazdaki
+			age = 30
+			attributes = {
+				martial = 14
+				diplomacy = 7
+				stewardship = 6
+				intrigue = 6
+				learning = 8
+			}
+			health = 7
+			fertility = 0.8
+			trait = brilliant_strategist
+			trait = proud
+			trait = zealous
+			trait = humble
+		}
+		new_character = {
+			e_khorramdin  = {
+				grant_title = PREV
+			}
+			set_defacto_liege = THIS
+		}
+
+		activate_title = { title = e_khorramdin status = yes }
+		create_random_soldier = {
+			random_traits = no
+			dynasty = random
+			culture = persian
+			religion = mazdaki
+			age = 33
+			attributes = {
+				martial = 9
+				diplomacy = 5
+				stewardship = 8
+				intrigue = 7
+				learning = 3
+			}
+			health = 6
+			fertility = 0.7
+			trait = brilliant_strategist
+			trait = diligent
+			trait = humble
+			trait = gregarious
+			trait = just
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAMAZ.1"
+	}
+}
+
+narrative_event = {
+	id = MAZ.2
+	title = EVTNAMEMAZ.2
+	desc = EVTDESCMAZ.2
+
+	hide_new = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	trigger = {
+		year = 816
+		has_landed_title = e_khorramdin
+		NOT = { has_global_flag = babak_rebellion }
+		not = { year = 850 }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "OK"
+		trigger = {
+			has_landed_title = e_khorramdin
+		}
+		add_claim = e_persia
+		add_claim = k_persia
+		piety = 2000
+		set_global_flag = babak_rebellion 
+		set_character_flag = claimant_adventurer 
+		667 = {
+   		    kingdom = {
+      		    PREV = {
+         		    owner = {
+            		    top_liege = {
+               		        reverse_war = {
+                  		        casus_belli = invasion
+                  		        target = ROOT
+                  		        third_party_title = PREVPREVPREV
+               		        }
+                        }		
+                    } 
+                }
+            }
+        }
+		wealth = 5000
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 667 # Fergana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 686 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+			}
+		}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 686 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 686 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 686 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+			}
+		}
+		
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 30
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 686 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 35
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 686 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 39
+			attributes = {
+				martial = 12
+			}
+			trait = brilliant_strategist
+		}
+		new_character = {
+			spawn_unit = {
+				province = 686 # Oshrusana
+				troops =
+				{
+					horse_archers = { 2700 2700 }
+					light_cavalry = { 1600 1600 }
+					light_infantry = { 541 541 }
+					heavy_infantry = { 210 210 }
+					knights = { 47 47 }
+				}
+			}
+		}
+		random = {
+			chance = 50
+			
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = mazdaki
+				culture = persian
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 687 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = mazdaki
+				culture = persian
+				female = no
+				age = 35
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 687 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = mazdaki
+				culture = persian
+				female = no
+				age = 39
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 687 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+				}
+			}
+		}
+		random = {
+			chance = 50
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = mazdaki
+				culture = persian
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 687 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = mazdaki
+				culture = persian
+				female = no
+				age = 35
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 687 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = mazdaki
+				culture = persian
+				female = no
+				age = 39
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = 687 # Samarkand
+					troops =
+					{
+						horse_archers = { 2700 2700 }
+						light_cavalry = { 1600 1600 }
+						light_infantry = { 541 541 }
+						heavy_infantry = { 210 210 }
+						knights = { 47 47 }
+					}
+				}
+			}
+		}
+		
+		# Some extra courtiers
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 16
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 18
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 18
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 20
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 25
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 26
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = no
+			age = 28
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = yes
+			age = 16
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = yes
+			age = 17
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = yes
+			age = 18
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = yes
+			age = 18
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = mazdaki
+			culture = persian
+			female = yes
+			age = 20
+		}
+	}
+	option = {
+		name = "EVTOPTB60001"
+		trigger = {
+			religion_group = muslim
+			NOT = { has_landed_title = e_khorramdin }
+		}
+	}
+	option = {
+		name = "EVTOPTC60001"
+		trigger = {
+			religion_group = christian
+			NOT = { has_landed_title = e_khorramdin }
+		}
+	}
+	option = {
+		name = "EVTOPTD60001"
+		trigger = {
+			NOT = { religion_group = christian }
+			NOT = { religion_group = muslim }
+			NOT = { has_landed_title = e_khorramdin }
+		}
+	}
+}
+
+narrative_event = {
+	id = MAZ.3
+	title = EVTNAMEMAZ.3
+	desc = EVTDESCMAZ.3
+
+	major = yes
+	hide_new = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	
+	trigger = {
+		year = 816
+		has_landed_title = e_khorramdin
+		war = no
+		realm_size = 1 #Rebellion Successful
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = OK
+		trigger = {
+			has_landed_title = e_khorramdin
+		}
+		create_character = {
+			name ="Khorsau IV"
+			random_traits = yes
+			dynasty = 1029100
+			religion = zoroastrian
+			culture = persian
+			female = no
+			age = 28	
+			gain_title = e_khorramdin
+			gain_title = e_persia
+		}
+		new_character = {
+			ROOT = {
+				abdicate_to = PREV
+			}
+		}
+		
+		new_character = {
+			gain_title = e_khorramdin
+			gain_title = e_persia	
+			add_claim = e_persia
+			grant_title = e_persia
+		}
+		destroy_landed_title = e_khorramdin
+	}
+}
+
+narrative_event = { 
+	id = MAZ.4
+	title = EVTNAMEMAZ.4
+	desc = EVTDESCMAZ.4
+
+	major = yes
+	hide_new = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	
+	trigger = {
+		year = 816
+		has_landed_title = e_khorramdin
+		war = yes
+		has_character_flag = claimant_adventurer 
+		any_war = {
+			war_score = 90
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		any_war = {
+			limit = {
+				attacker = { character = ROOT }
+			}
+			end_war = success
+		}
+	}
+	
+	option = {
+		name = OK
+		trigger = {
+			has_landed_title = e_khorramdin
+		}
+		clr_character_flag = claimant_adventurer 
+		any_war = {
+			limit = {
+				attacker = { character = ROOT }
+			}
+			end_war = success
+		}
+	}
+}

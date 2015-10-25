@@ -1,0 +1,65 @@
+#CODE;ENGLISH;;;;;;;;;x 
+seize_trade_post_desc;As a Patrician, §Y$CLAIMANT$§! can declare war on §Y$TARGET$§! over the §Y$TITLE$§!. This Casus Belli is not valid against much weaker Patricians within the same Republic.;;;;;;;;;x 
+opinion_rival_republic;Rival Republic;;;;;;;;;x 
+EVTDESC_REP_070;The merchants running one of your Trade Posts have abandoned their allegiance to your dynasty! They now serve one of the patrician families in the newly born Hansa, claiming that the upstart trade league affords them better opportunities to profit.;;;;;;;;;x 
+EVTOPTA_REP_070;Ingrates!;;;;;;;;;x 
+PATRICIAN_DEMESNE_BONUS;Patrician;;;;;;;;;x 
+CANT_BUILD_TRADEPOST_OTHERREP;Is not owned by other Merchant Republic;;;;;;;;;x 
+opinion_royal_marriage;Marriage Ties;;;;;;;;;x 
+AIREASON_REPUBLICS_REFUSE_REVOKE;Merchant Republics will not give up titles;;;;;;;;;x 
+INTERACTION_CAN_AFFORD_THE_COST;Can afford the cost of $COST$¤;;;;;;;;;x 
+INTERACTION_RECIPIENT_NOT_EMBARGOING;[Recipient.GetTitledName] is not already embargoing [ThirdPartyCharacter.GetTitledName];;;;;;;;;x 
+INTERACTION_RECIPIENT_NOT_TRUCE;[Recipient.GetTitledName] does not have a truce with [ThirdPartyCharacter.GetTitledName];;;;;;;;;x 
+INTERACTION_ACTOR_NOT_TRUCE;[Actor.GetTitledName] does not have a truce with [ThirdPartyCharacter.GetTitledName];;;;;;;;;x 
+AIREASON_PRIMARY_IN_WARS;Primary participant in a war;;;;;;;;;x 
+AIREASON_MINOR_IN_WARS;Minor participant in a war;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_TITLE;Ask to Embargo;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_DESC;Ask §Y[Recipient.GetBestName]§W to declare an Embargo War against a rival Merchant Republic.;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_LONG_DESC;You can weaken a rival Merchant Republic and open up coastal counties for your Trade Posts by convincing a ruler to embargo them. Money usually does the trick. However, if you lose the war, §Yyou§! will pay war reparations.;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_0;Select a rival Merchant Republic to embargo.;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_1;Have §Y[Recipient.GetTitledFirstName]§! declare an Embargo War on §Y[ThirdPartyCharacter.GetTitledFirstName]§! and §Y[ThirdPartyCharacter.TopLiege.PrimaryTitle.GetName]§! together with you. Offer §Y$GOLD$§!¤ to sweeten the deal. §RIf you lose the war, you will pay the war reparations.§!;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_ACCEPT_SETUP;Embargo Request Accepted;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetTitledName]§! and §Y[Actor.GetTitledName]§! have declared a joint Embargo War on §Y[ThirdPartyCharacter.GetDynName]§!;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_OFFER;[Actor.GetTitledName] is offering us $COST$¤ to embargo [ThirdPartyCharacter.GetTitledFirstName] and [ThirdPartyCharacter.TopLiege.PrimaryTitle.GetName].;;;;;;;;;x 
+ASK_TO_EMBARGO_INTERACTION_LETTER;The insidious [ThirdPartyCharacter.PrimaryTitle.GetAdjective] traders must be expelled from your lands. If you agree to declare an Embargo War on [ThirdPartyCharacter.GetTitledName], we will not only join the war on your side but also present you with $COST$¤. Should we fail, [Actor.PrimaryTitle.GetName] will pay any war reparations.;;;;;;;;;x 
+INTERACTION_REQUIRES_TARGET_IS_MERCHANT_REPUBLIC;§Y[ThirdPartyCharacter.PrimaryTitle.GetName]§! is a Merchant Republic;;;;;;;;;x 
+ANY_ATTACKER_STARTS;Any Attacker;;;;;;;;;x 
+ANY_DEFENDER_STARTS;Any Defender;;;;;;;;;x 
+EVTDESC295;After careful consideration, I have decided to accept your suggestion. Together, we shall force the [Root.PrimaryTitle.GetAdjective] traders out of [From.PrimaryTitle.GetName]!\n\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTDESC296;Honestly, I find your embargo suggestion against [Root.PrimaryTitle.GetName] rather ludicrous. Why should I favor one money-grubbing Republic over another?\n\n[From.GetTitledFirstName];;;;;;;;;x 
+CONQUEROR_HOME_CULTURE;Cultural Bonds;;;;;;;;;x 
+AIREASON_SUPPORT_FOR_CONQUEROR;Home Support for Conqueror;;;;;;;;;x 
+k_hansa;The Hansa;;;;;;;;;x 
+k_hansa_adj;Hanseatic;;;;;;;;;x 
+called_into_war;Called into War;;;;;;;;;x 
+city_kingdom_of_german;Merchant League of;;;;;;;;;x 
+city_kingdom_german;Merchant League;;;;;;;;;x 
+opinion_bribed_tp;Bribed over Trade Post;;;;;;;;;x 
+opinion_thwarted_tp_destruction;Thwarted Destruction of Trade Post;;;;;;;;;x 
+TRADEPOST_COST_OP_EFFECT;§Y$LIEGE$§!'s opinion of you: $EFFECT$;;;;;;;;;x 
+DESTROY_TRADEPOST_EFFECT;The Trade Post in $LOCATION$ is destroyed;;;;;;;;;x 
+EVTDESC_REP_601;Money continues to flow through the Trade Post in [From.GetName], but your relationship with the merchant family that owns it has soured. To teach them a lesson without going to war, you could arrange for a mob to burn it down...;;;;;;;;;x 
+EVTOPTA_REP_601;Yes! Assemble the mob!;;;;;;;;;x 
+EVTOPTB_REP_601;No, things could quickly escalate out of control...;;;;;;;;;x 
+tp_spare;You decide not to move against the Trade Post.;;;;;;;;;x 
+EVTTOOLTIP_REP_602;An angry mob marches towards the Trade Post.;;;;;;;;;x 
+EVTDESC_REP_602;You and [From.GetTitledName] aren't exactly on the best of terms, and now it seems [From.GetSheHe] has encouraged an angry mob to burn down your Trade Post in [FromFrom.GetName]! Your small garrison has been surrounded, and the mob threatens to butcher them all unless you withdraw from [FromFrom.GetName].;;;;;;;;;x 
+EVTOPTA_REP_602;We have no choice. Dismantle the Trade Post.;;;;;;;;;x 
+EVTOPTB_REP_602;Offer a bribe to [From.GetFirstName].;;;;;;;;;x 
+EVTOPTC_REP_602;Point out the wealth the Trade Post brings to [FromFrom.GetName].;;;;;;;;;x 
+EVTOPTD_REP_602;Use skillful diplomacy to disperse the mob.;;;;;;;;;x 
+EVTDESC_REP_603;The mob you gathered successfully stormed the Trade Post and burnt it to the ground!;;;;;;;;;x 
+EVTOPTA_REP_603;Everything is proceeding as I have foreseen.;;;;;;;;;x 
+EVTTOOLTIP_REP_604;A bribe is offered.;;;;;;;;;x 
+EVTDESC_REP_604;Envoys from [FromFrom.GetTitledName] have presented you with a significant bribe in the hope that you will use your influence to spare [FromFrom.GetHerHis] Trade Post in [From.GetName].;;;;;;;;;x 
+EVTOPTA_REP_604;Good. Have the crowds dispersed.;;;;;;;;;x 
+EVTOPTB_REP_604;Ha! The fool will lose both his money and his Trade Post.;;;;;;;;;x 
+EVTTOOLTIP_REP_605;The mob disperses.;;;;;;;;;x 
+EVTDESC_REP_605;[From.GetTitledName] is quite skilled at stewardship, and [From.GetSheHe] somehow managed to sway the mob by telling them of the wealth that flows into the province through the Trade Post. The crowd has dispersed and the Trade Post remains untouched.;;;;;;;;;x 
+EVTOPTA_REP_605;Sigh. If you want something done...;;;;;;;;;x 
+EVTDESC_REP_606;[From.GetTitledName] has skillfully used diplomacy to somehow make the mob back down! The crowd has dispersed and the Trade Post remains untouched.;;;;;;;;;x 
+EVTTOOLTIP_REP_607;The Trade Post is destroyed.;;;;;;;;;x 
+EVTDESC_REP_607;[From.GetTitledFirstName], the vile monster [From.GetSheHe] is, took the money you offered [From.GetHerHim] as a bribe, but still did nothing to spare your Trade Post. The mob stormed the garrison and the handful of survivors who made it back to [Root.MercRepCapital.GetName] have provided chilling accounts of the brutality that ensued.;;;;;;;;;x 
+EVTOPTA_REP_607;Barbarians! Scum! Savages!;;;;;;;;;x 
+opinion_burned_tp;Burned Trade Post;;;;;;;;;x 
+opinion_burned_tp_despite_bribe;Burned Trade Post Despite Bribe;;;;;;;;;x 

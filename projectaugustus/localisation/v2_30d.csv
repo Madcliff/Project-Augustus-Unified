@@ -1,0 +1,45 @@
+#CODE;ENGLISH;;;;;;;;;x 
+MODIFIER_COMBAT_RATING;Personal Combat Skill;;;;;;;;;x 
+GOD_THE_CREATOR;the Creator;;;;;;;;;x 
+GOD_BRAHMA;Brahma;;;;;;;;;x 
+GOD_SATURN;Saturn;;;;;;;;;x 
+scholar_desc;This character leads the life of a scholar, poring over books and corresponding with the finest minds in the known world.;;;;;;;;;x 
+HAVE_NOT_RELIGION;Is NOT;;;;;;;;;x 
+#alert_available_targetted_decision_instant;§YYou Can Now§!;;;;;;;;;x 
+#alert_available_targetted_decision_delayed;The following Character Interactions are available:\n$LIST$;;;;;;;;;x 
+EVTOPTA_WOL_2100_3;Midgets, shoes... No! [target_spy_on.GetFirstName] is having an affair with a feisty goat!;;;;;;;;;x 
+EVTOPTA_WOL_2100_5;[target_spy_on.GetSubjectPronounCap] murdered a childhood friend at the tender age of 11!;;;;;;;;;x 
+EVTOPTA_WOL_2100_6;[target_spy_on.GetSubjectPronounCap] has an imaginary friend called Bappo!;;;;;;;;;x 
+EVTOPTA_WOL_2100_8;[target_spy_on.GetSubjectPronounCap] leads a secret life as a prostitute in a brothel in [target_spy_on.Capital.Capital.GetName]!;;;;;;;;;x 
+EVTOPTB_WOL_2300;No, I can trust [intrigue_spymaster.GetObjectPronoun];;;;;;;;;x 
+EVTOPTB_WOL_2071;Aha! Now I can call off my spies.;;;;;;;;;x 
+EVTOPTF_WOL_2080;I see, but I think it is time to spy on someone else.;;;;;;;;;x 
+EVTOPTC_WOL_2100;No... I think it is time to spy on someone else.;;;;;;;;;x 
+EVTDESC_WOL_2065;I am not having much luck spying on [FromFromFrom.GetTitledFirstName]. Perhaps I should focus my efforts elsewhere?;;;;;;;;;x 
+EVTOPTA_WOL_2065;Yes, this is pointless.;;;;;;;;;x 
+EVTOPTB_WOL_2065;No, I am sure [FromFromFrom.GetSubjectPronoun] is up to something...;;;;;;;;;x 
+EVTDESC38313;The pressures of life no longer seem so overwhelming. I am not Stressed anymore!;;;;;;;;;x 
+EVTDESC38314;I woke up this morning with a big smile on my face. I am no longer Depressed!;;;;;;;;;x 
+PICK_FOCUS_DESC;You will not be able to change Focus again for §Y$YEARS$§! years!;;;;;;;;;x 
+CANNOT_CANCEL;§RCannot be cancelled.§!;;;;;;;;;x 
+CANNOT_CANCEL_UNTIL;§RCannot be cancelled until §Y$DATE$§!§R.§!;;;;;;;;;x 
+FV_CHOOSE_FOCUS;Choose Focus;;;;;;;;;x 
+CANNOT_CHANGE_FOCUS_UNTIL;§RCannot change Focus until §Y$DATE$§!§R.§!;;;;;;;;;x 
+EVTDESC_WOL_3052;My [GetFromFromRelation], [FromFrom.GetTitledFirstNameNoRegnal], has asked me to spend some quality family time in [FromFrom.Capital.Capital.GetName]. I am sure the idea is for me to become better friends with [From.GetTitledName]...;;;;;;;;;x 
+opinion_dishonest_duel;Dishonest Duel;;;;;;;;;x 
+magnificent_maze;Magnificent Maze;;;;;;;;;x 
+desc_magnificent_maze;This character's beautiful garden maze is known far beyond the realm for it's beauty.;;;;;;;;;x 
+duel_title;The Duel;;;;;;;;;x 
+EVTOPTG_WOL_10221;[stonemason.GetSheHeCap] is not here right now. [stonemason.GetSheHeCap]'s got more important matters to deal with.;;;;;;;;;x 
+duel_tooltip_busy;None of the duellers can be busy or fighting a war.\n;;;;;;;;;x 
+duel_tooltip_sickness;Must be in a healthy condition.\n;;;;;;;;;x 
+duel_tooltip_fought_before;Have not duelled each other before.\n;;;;;;;;;x 
+opinion_fought_duel;Fought Duel;;;;;;;;;x 
+duel_tooltip_valid_target;Is a valid duel target in your religion or culture.\n;;;;;;;;;x 
+duel_tooltip_recent_duel;None of the duellers had a recent duel.\n;;;;;;;;;x 
+dishonest_duel_tooltip;This is considered dishonest and people might be upset about this act.;;;;;;;;;x 
+duel_tooltip_excommunicated;Has the trait '§YZealous§!' and target is §YExcommunicated§! in the same religion.\n;;;;;;;;;x 
+EVTOPTB_WOL_11110;No, I don't want to fight my friends.;;;;;;;;;x 
+is_not_ascetic;Is not an Ascetic\n;;;;;;;;;x 
+wol_duel_training;Duel Training;;;;;;;;;x 
+desc_wol_duel_training;This character has recently been training the arts of duelling.;;;;;;;;;x 

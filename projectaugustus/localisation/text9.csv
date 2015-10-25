@@ -1,0 +1,97 @@
+#CODE;ENGLISH;;;;;;;;;x 
+d_connacht_adj;Connachtian;;;;;;;;;x 
+d_leinster_adj;Leinsterian;;;;;;;;;x 
+d_munster_adj;Munsterian;;;;;;;;;x 
+d_ulster_adj;Ulsterian;;;;;;;;;x 
+d_argyll_adj;Argyllian;;;;;;;;;x 
+d_lothian_adj;Lothian;;;;;;;;;x 
+d_galloway_adj;Gallowayan;;;;;;;;;x 
+d_northumberland_adj;Northumbrian;;;;;;;;;x 
+d_nikaea_adj;Nikaean;;;;;;;;;x 
+d_gelre_adj;Gelrian;;;;;;;;;x 
+d_ryazan_adj;Ryazanian;;;;;;;;;x 
+d_bulgar_adj;Bulgarian;;;;;;;;;x 
+d_mazandaran_adj;Mazandarian;;;;;;;;;x 
+d_moray_adj;Moray;;;;;;;;;x 
+d_meath_adj;Meathian;;;;;;;;;x 
+d_deheubarth_adj;Deheubarthian;;;;;;;;;x 
+d_brunswick_adj;Brunswickian;;;;;;;;;x 
+d_dauphine_adj;Dauphinian;;;;;;;;;x 
+#d_aquitaine_adj;Aquitainian;;;;;;;;;x 
+d_valois_adj;Valoisaine;;;;;;;;;x 
+d_constantine_adj;Constantinian;;;;;;;;;x 
+d_abbasid_adj;Abbasid;;;;;;;;;x 
+d_balearic_adj;Balearic;;;;;;;;;x 
+d_bergen_adj;Bergener;;;;;;;;;x 
+d_bordeaux_adj;Bordeauxian;;;;;;;;;x 
+d_gilan_adj;Gilani;;;;;;;;;x 
+FE_CREATE_GAME;Create Game;;;;;;;;;x 
+HOST_DESC;Host the Game so others can join\nYou will not be able to change the starting date or savegame after you have hosted;;;;;;;;;x 
+DEATH_BY_MURDER_NO_KILLER;was murdered;;;;;;;;;x 
+DEATH_EXECUTION_NO_KILLER;was executed;;;;;;;;;x 
+DEATH_DUNGEON_NO_KILLER;died in prison;;;;;;;;;x 
+DEATH_DUEL_NO_KILLER;was slain in personal combat;;;;;;;;;x 
+EVTOPTB3335;[Root.Liege.GetTitledFirstName] will be fine;;;;;;;;;x 
+plot_weaken_fellow_vassal_title;See the [This.GetFullName] granted to a new ruler;;;;;;;;;x 
+plot_weaken_fellow_vassal_desc;Weaken the power base of [This.Holder.GetTitledName] by dividing [This.Holder.GetHerHis] holdings and granting the [This.GetFullName] to one of [This.Holder.GetHerHis] vassals.;;;;;;;;;x 
+plot_weaken_fellow_vassal_decision;[Root.GetPlot];;;;;;;;;x 
+plot_weaken_fellow_vassal_decision_desc;Put the plot into motion by sending an ultimatum to [Root.PlotTarget.GetTitledName].;;;;;;;;;x 
+plot_weaken_fellow_vassal_decision_liege;Seek the backing of [Root.TopLiege.GetTitledFirstName].;;;;;;;;;x 
+plot_weaken_fellow_vassal_decision_liege_desc;Seek the backing of [Root.TopLiege.GetTitledFirstName] in dividing the holdings of [Root.PlotTarget.GetTitledName] by sending [Root.TopLiege.GetHerHim] a letter. If the [Root.TopLiege.GetTitle] does not support the plot, it will likely be leaked at court...;;;;;;;;;x 
+EVTDESC7500;My [Root.GetTitle], many of your faithful subjects, myself included, feel that [From.PlotTarget.GetTitledName] has amassed more power and titles than is warranted by [From.PlotTarget.GetHerHis] station. If you were to kindly advise [From.PlotTarget.GetHerHim] to abdicate the [From.PlotTargetTitle.GetFullName] to a vassal, know that this decision would enjoy our wholehearted support.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA7500;A commendable initiative.;;;;;;;;;x 
+EVTOPTB7500;I will have no part in this scheme.;;;;;;;;;x 
+EVTTOOLTIP7500;[Root.TopLiege.GetTitledFirstName] receives a letter.;;;;;;;;;x 
+EVTDESC7501;We must confess to sharing in your concerns regarding the rising affluence of [Root.PlotTarget.GetTitledName]. For the good of the realm, we shall contact [Root.PlotTarget.GetHerHim] forthwith and seek the compromise you suggested.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA7501;Excellent!;;;;;;;;;x 
+EVTTOOLTIP7501;Receives your positive reply.;;;;;;;;;x 
+EVTDESC7502;Don't be a fool, [Root.GetFirstName]! I will not see this realm torn asunder by intrigue and connivery. Abandon this scheme now, or on my oath you'll come to regret it!\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA7502;I see.;;;;;;;;;x 
+EVTTOOLTIP7502;Receives your negative reply.;;;;;;;;;x 
+EVTDESC7504;My dear [Root.GetTitle], we hope this letter finds you in good health. We have been urged by certain concerned parties to take steps in restoring the precarious balance of power in the realm, and we think it best if you voluntarily abdicate the [From.PlotTargetTitle] to one of your vassals. We are certain you will agree.\n\nSigned,\n[From.Liege.GetTitledName];;;;;;;;;x 
+EVTOPTA7504;Very well.;;;;;;;;;x 
+EVTOPTB7504;Has he gone insane?;;;;;;;;;x 
+EVTTOOLTIP7504;[Root.PlotTarget.GetTitledName] receives a thinly veiled ultimatum from the [Root.Liege.GetTitle].;;;;;;;;;x 
+EVTDESC7505;You have upset the delicate balance of power in the realm, [From.PlotTarget.GetTitledFirstName]. Relinquish control of the [From.PlotTargetTitle.GetFullName] to one of your vassals for the good of all, lest my confederates and I accomplish the same through force of arms.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA7505;I have little choice.;;;;;;;;;x 
+EVTOPTB7505;Never!;;;;;;;;;x 
+EVTOPTC7505;There are no eligible vassals, so you will have to take it yourself.;;;;;;;;;x 
+EVTTOOLTIP7505;[Root.PlotTarget.GetTitledName] receives a letter.;;;;;;;;;x 
+EVTDESC7506;Though I am sure I shall curse your name until the end of times, I will agree to your demand in the interest of peace.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA7506;Excellent.;;;;;;;;;x 
+EVTDESC7507;I would no sooner surrender the [Root.PlotTargetTitle.GetFullName] than I would my right arm. If you and your little friends can muster the courage to face me, I shall gladly see you cut down to the last man. Come then!\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA7507;You will choke on those words, my dear [From.GetTitle].;;;;;;;;;x 
+EVTOPTB7507;Perhaps I should not risk war...;;;;;;;;;x 
+EVTTOOLTIP7507;Ultimatum rejected.;;;;;;;;;x 
+EVTDESC7508;You put me in a difficult position, my liege, but if you feel this is the best course of action, then so be it. I shall surrender the title.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA7508;Very good.;;;;;;;;;x 
+EVTOPTA7509;The insolence!;;;;;;;;;x 
+EVTDESC7510;The [Root.Liege.GetTitle] has managed to arrange the abdication. [Root.PlotTarget.GetTitledFirstName] now rules the [Root.PlotTargetTitle.GetFullName].;;;;;;;;;x 
+EVTOPTA7510;Good.;;;;;;;;;x 
+EVTDESC7511;[Root.PlotTarget.GetTitledFirstName] has refused the [Root.Liege.GetTitle]'s reasonable request to abdicate the [Root.PlotTargetTitle.GetFullName], but at least this has given your liege the impetus to potentially revoke it in the future. It appears you will have to settle on this arrangement for now.;;;;;;;;;x 
+EVTOPTA7511;So be it.;;;;;;;;;x 
+EVTDESC7515;Through the machinations of a secret conspiracy of noblemen, [From.GetTitledName] has been forced to abdicate one of [From.GetHerHis] duchies. After much deliberation, the lords of the realm have finally managed to agree on you as the least offensive candidate for the title. Congratulations, [From.GetTitle].;;;;;;;;;x 
+EVTOPTA7515;Good things come to those who wait.;;;;;;;;;x 
+EVTDESC7517;[From.GetTitledName] had no eligible vassals to receive the title, so it has been granted to you instead to do with as you see fit.;;;;;;;;;x 
+PLOT_TOOLTIP_WEAKEN_VASSAL;[This.Holder.GetTitledName] is no longer the ruler of the [This.GetFullName].;;;;;;;;;x 
+CB_NAME_WEAKEN_VASSAL;Claim [Title.GetName];;;;;;;;;x 
+VASSAL_TRANSFER_SETUP;A Vassal has been transferred;;;;;;;;;x 
+VASSAL_TRANSFER_LOG;$OLD_LIEGE$ has transferred the vassalage of $VASSAL$ to $NEW_LIEGE$;;;;;;;;;x 
+WAR_NAME_WEAKEN_VASSAL;War for a New Ruler of $OTHER_TITLE$.;;;;;;;;;x 
+TRIGGER_ATTACKER;Main Attacker;;;;;;;;;x 
+TRIGGER_MOST_PART_ATTACKER;Most Contributing Attacker;;;;;;;;;x 
+TRIGGER_DEFENDER;Main Defender;;;;;;;;;x 
+TRIGGER_MOST_PART_DEFENDER;Most Contributing Defender;;;;;;;;;x 
+CHAR_IS_NOT;Character is NOT;;;;;;;;;x 
+CHAR_IS;Character is;;;;;;;;;x 
+CHAR_EXISTS;Character exists;;;;;;;;;x 
+THREAT_NOT_DE_JURE_LIEGE;Not a De Jure Vassal;;;;;;;;;x 
+THREAT_INFIDEL;Infidel;;;;;;;;;x 
+THREAT_FOREIGNER;Foreigner;;;;;;;;;x 
+THREAT_LOW_LEVIES;Depleted Levies;;;;;;;;;x 
+THREAT_OTHER_INDEP_WARS;Current Independence Revolts;;;;;;;;;x 
+force_converting;Force Conversion;;;;;;;;;x 
+EVTTOOLTIP3336;cannot be allowed to continue like this! I must tell [This.GetTitledFirstName] how irresponsible [This.GetHerHis] behavior is!;;;;;;;;;x 
+SongsOfAlbionDLC;Songs of Albion;;;;;;;;;x 
+SongsOfFaithDLC;Songs of Faith;;;;;;;;;x 
+SongsOfTheHolyLandDLC;Songs of the Holy Land;;;;;;;;;x 

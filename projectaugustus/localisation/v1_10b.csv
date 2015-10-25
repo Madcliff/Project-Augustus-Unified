@@ -1,0 +1,72 @@
+#CODE;ENGLISH;;;;;;;;;x 
+d_nubia;Makuria;;;;;;;;;x 
+d_nubia_adj;Makurian;;;;;;;;;x 
+#d_hayya;Hayya;;;;;;;;;x 
+#d_hayya_adj;Hayyan;;;;;;;;;x 
+#d_sennar;Sennar;;;;;;;;;x 
+#d_sennar_adj;Sennari;;;;;;;;;x 
+LIEGEPIETY_HEADER;[Player.Religion.GetPietyName] to Liege;;;;;;;;;x 
+#NO_LIEGEPIETY;This vassal is not giving any piety to you.\nSome buildings in temple holdings give piety to the holder's liege.;;;;;;;;;x 
+major_river_crossing;Major River crossing;;;;;;;;;x 
+realm_job_spiritual;Realm $TITLE$s;;;;;;;;;x 
+job_spiritual_finnish_pagan;Diviner;;;;;;;;;x 
+job_spiritual_finnish_pagan_reformed;Diviner;;;;;;;;;x 
+job_spiritual_baltic_pagan;Diviner;;;;;;;;;x 
+job_spiritual_baltic_pagan_reformed;Diviner;;;;;;;;;x 
+job_spiritual_slavic_pagan;Diviner;;;;;;;;;x 
+job_spiritual_slavic_pagan_reformed;Diviner;;;;;;;;;x 
+job_spiritual_tengri_pagan;Diviner;;;;;;;;;x 
+job_spiritual_tengri_pagan_reformed;Diviner;;;;;;;;;x 
+job_spiritual_zoroastrian;Mobad;;;;;;;;;x 
+nick_hardeknud;Hardeknud;;;;;;;;;x 
+steppe;Steppe;;;;;;;;;x 
+TOGGLE_LOOTER_FAIL_CHARALLOWED; Owner Allowed to Loot;;;;;;;;;x 
+TOGGLE_LOOTER_FAIL_INOWNLAND; Unit is in friendly lands;;;;;;;;;x 
+TOGGLE_LOOTER_FAIL_MERC; Unit has no Mercenary subunits;;;;;;;;;x 
+TOGGLE_LOOTER_FAIL_ISATTACHED; Unit is not attached to another Unit;;;;;;;;;x 
+TOGGLE_LOOTER_FAIL_HASATTACHED; Unit does not have any attached Units;;;;;;;;;x 
+INTERACTION_GRANT_GAVELKIND_EXPLOIT;As your primary heir under Gavelkind, §Y$NAME$§! cannot be granted §Y$TITLE$§!;;;;;;;;;x 
+ca_steppe_barracks_1;Steppe Warrior Lodge;;;;;;;;;x 
+ca_steppe_barracks_2;Steppe Warrior Lodge;;;;;;;;;x 
+ca_steppe_barracks_3;Steppe Warrior Lodge;;;;;;;;;x 
+ca_steppe_barracks_4;Steppe Warrior Lodge;;;;;;;;;x 
+ca_steppe_barracks_5;Steppe Warrior Lodge;;;;;;;;;x 
+ca_steppe_barracks_6;Steppe Warrior Lodge;;;;;;;;;x 
+ca_steppe_stable_1;Steppe Riding Grounds;;;;;;;;;x 
+ca_steppe_stable_2;Steppe Riding Grounds;;;;;;;;;x 
+ca_steppe_stable_3;Steppe Riding Grounds;;;;;;;;;x 
+ca_steppe_stable_4;Steppe Riding Grounds;;;;;;;;;x 
+ca_steppe_stable_5;Steppe Riding Grounds;;;;;;;;;x 
+ca_steppe_stable_6;Steppe Riding Grounds;;;;;;;;;x 
+CK2CoA3DLC;Dynasty Coat of Arms Pack 3;;;;;;;;;x 
+NorseUnitPackDLC;Norse Unit Pack;;;;;;;;;x 
+NorsePortraitsDLC;Norse Portraits;;;;;;;;;x 
+ca_steppe_barracks_desc;The people of the steppes focus on horse warfare at the expense of foot soldiers, but the fighting men trained at this warrior lodge are more than capable of holding their own in battle.;;;;;;;;;x 
+ca_steppe_stable_desc;The steppe is ideal for warfare on horseback, and the nomadic warrior cultures of these lands know to press this advantage. These riding grounds produce extra light cavalry and horse archers.;;;;;;;;;x 
+ca_culture_nahuatl_1;Jaguar Warrior Lodge;;;;;;;;;x 
+ca_culture_nahuatl_2;Jaguar Warrior Lodge;;;;;;;;;x 
+ca_culture_nahuatl_3;Jaguar Warrior Lodge;;;;;;;;;x 
+ca_culture_nahuatl_4;Jaguar Warrior Lodge;;;;;;;;;x 
+ca_culture_nahuatl_1_desc;The fearless warriors of the Jaguar order are trained here. They represent the elite of the Aztec war machine and entire armies have been known to rout at the mere sight of the spotted fur covering their armor.;;;;;;;;;x 
+pagan_group_succ_desc_1;has gone to the gods;;;;;;;;;x 
+pagan_group_succ_desc_4;has set course for the afterlife;;;;;;;;;x 
+pagan_group_succ_desc_8;feasts with the gods;;;;;;;;;x 
+norse_pagan_succ_desc_3;was lifted up by the Valkyries;;;;;;;;;x 
+norse_pagan_reformed_succ_desc_3;was lifted up by the Valkyries;;;;;;;;;x 
+norse_pagan_succ_desc_4;has set course for Asgard;;;;;;;;;x 
+norse_pagan_reformed_succ_desc_4;has set course for Asgard;;;;;;;;;x 
+norse_pagan_succ_desc_8;feasts in Valhalla;;;;;;;;;x 
+norse_pagan_reformed_succ_desc_8;feasts in Valhalla;;;;;;;;;x 
+muslim_succ_desc_1;is eating white raisins in blissful Paradise;;;;;;;;;x 
+muslim_succ_desc_2;rides the white Camels of Paradise;;;;;;;;;x 
+muslim_succ_desc_3;was lifted up by Allah;;;;;;;;;x 
+muslim_succ_desc_4;has set course for al-Jannah;;;;;;;;;x 
+muslim_succ_desc_8;is with the Houris in Paradise;;;;;;;;;x 
+west_african_pagan_succ_desc_1;has gone to join the ancestors;;;;;;;;;x 
+west_african_pagan_reformed_succ_desc_1;has gone to join the ancestors;;;;;;;;;x 
+DE_JURE_INDP_DESC;Becoming independent, de jure, as §Y$TITLE$§! (§Y$YEARS$§!/$NEEDED_YEARS$ years);;;;;;;;;x 
+EVTDESC_TOG_4016;I trust you are in good health, [Root.GetTitledFirstName]. My name is Palnatoke, and I have taken it upon myself to create a brotherhood of warriors devoted to Thor and Odin. While sailing along the coast of Rügen, I discovered the perfect site to build our stronghold and I would ask your permission to settle this land.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTDESC_TOG_4026;I trust you are in good health, [Root.GetTitledFirstName]. My name is Palnatoke, and I have taken it upon myself to create a brotherhood of warriors devoted to Thor and Odin. While sailing along the coast of Werle, I discovered the perfect site to build our stronghold and I would ask your permission to settle this land.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+INTERACTION_CONSORT_NOT_PREGNANT;Concubine must not be pregnant;;;;;;;;;x 
+SETTLEMENT_LOOTED_LOG;§Y$SETTLEMENT$§! has been looted of §Y$LOOT$§!¤ by §Y$LOOTER$§!;;;;;;;;;x 
+EVTDESC20377;My liege, the local noble here in [From.Location.GetName], [FromFrom.GetTitledName], tried to silence me by sending some thugs to kill me! Luckily I managed to get away. I will go ahead and spread the rumor about [FromFrom.GetHerHis] corruption and destroy [FromFrom.GetHerHis] reputation among [FromFrom.GetHerHis] vassals.\n\nYour humble Spymaster,\n[From.GetTitledName];;;;;;;;;x 

@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	# Decision icons
+	spriteType = {
+		name = "GFX_hold_titan_thysia"
+		texturefile = "gfx\\interface\\decision_icon_hold_blot.dds" #Placeholder
+	}
+}

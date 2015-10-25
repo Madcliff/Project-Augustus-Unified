@@ -1,0 +1,2111 @@
+200013 = { 
+	name = "Mariam"
+	culture = assyrian
+}
+200014 = { 
+	name = "Mirza"
+	culture = assyrian
+}
+1045058 = {
+    name = "Pateran"
+    culture = greek
+}
+1000155000 = {
+    name = "Dekapolitissa"
+    culture = greek
+}
+1000155001 = {
+    name = "Frangipani"
+    culture = italian
+}
+1000155002 = {
+    name = "Crescenti"
+    culture = italian
+}
+1000155003 = {
+    name = "Normanni"
+    culture = italian
+}
+1000155004 = {
+    name = "Savelli"
+    culture = italian
+}
+101424535 = {
+    name="Greutungi"
+    culture = gothic
+}
+101424536 = {
+    name="Skiri"
+    culture = gothic
+}
+101424537 = {
+    name="Amaling"
+    culture = gothic
+}
+101424538 = {
+    name="Siegfried"
+    culture = gothic
+}
+101424539 = {
+    name="Ouim"
+    culture = gothic
+}
+101424540 = {
+    name="Filimer"
+    culture = gothic
+}
+101424541 = {
+    name="Tyrfing"
+    culture = gothic
+}
+101424542 = {
+    name="Atanaric"
+    culture = gothic
+}
+101424543 = {
+    name="Skoll"
+    culture = gothic
+}
+101424544 = {
+    name="Teiws"
+    culture = gothic
+}
+101424545 = {
+    name="Danpar"
+    culture = gothic
+}
+101424546 = {
+    name="Tanus"
+    culture = gothic
+}
+10142103 = {
+	name="Gereint"
+	culture = britonic
+}
+10142104 = {
+	name="Lanval"
+	culture = britonic
+}
+10142105 = {
+	name="Licat"
+	culture = britonic
+}
+10142106 = {
+	name="Owain"
+	culture = britonic
+}
+10142107 = {
+	name="Gadric"
+	culture = britonic
+}
+10142108 = {
+	name="Hywel"
+	culture = britonic
+}
+10142109 = {
+	name="Maelgwn"
+	culture = britonic
+}
+10142110 = {
+	name="Menw"
+	culture = britonic
+}
+10142111 = {
+	name="Padern"
+	culture = britonic
+}
+10142112 = {
+	name="Aradig"
+	culture = britonic
+}
+10142113 = {
+	name="Cadfael"
+	culture = britonic
+}
+10142114 = {
+	name="Drystan"
+	culture = britonic
+}
+10142115 = {
+	name="Ligessac"
+	culture = britonic
+}
+10142116 = {
+	name="Cadwallon"
+	culture = britonic
+}
+10142117 = {
+	name="Gwlyddyn"
+	culture = britonic
+}
+10142118 = {
+	name="Cadell"
+	culture = britonic
+}
+10142119 = {
+	name="Iseult"
+	culture = britonic
+}
+10142120 = {
+	name="Glynys"
+	culture = britonic
+}
+10142148 = {
+	name="Haroun" 
+	culture = coptic
+}
+10142281 = {
+	name="Zaia"
+	culture = coptic
+}
+10142282 = {
+	name="Abderahman"
+	culture = coptic
+}
+10142283 = {
+	name="Merkourios"
+	culture = coptic
+}
+10142367 = {
+	name="Himelco"
+	culture = gallic
+}
+10142239 = {
+	name="Victatrix" 
+	culture = gallic
+}
+10142240 = {
+	name="Aurelianix" 
+	culture = gallic
+}
+10142241 = {
+	name="Septanus" 
+	culture = gallic
+}
+10142242 = {
+	name="Pompus" 
+	culture = gallic
+}
+10142243 = {
+	name="Vacantrax" 
+	culture = gallic
+}
+10142244 = {
+	name="Narbonnes" 
+	culture = gallic
+}
+10142245 = {
+	name="Syagrius" 
+	culture = gallic
+}
+10142246 = {
+	name="Aggripatix" 
+	culture = gallic
+}
+10142247 = {
+	name="Amulius" 
+	culture = gallic
+}
+10142248 = {
+	name="Solicitas" 
+	culture = gallic
+}
+10142375 = {
+	name="Nicomactix"
+	culture = gallic
+}
+101424135 = {
+	name="Liberius"
+	culture = hispanic
+}
+101424136 = {
+	name="Decius"
+	culture = hispanic
+}
+101424137 = {
+	name="Cassiodorus"
+	culture = hispanic
+}
+101424138 = {
+	name="Lucimius"
+	culture = hispanic
+}
+101424139 = {
+	name="Avienus"
+	culture = hispanic
+}
+101424140 = {
+	name="Reparatus"
+	culture = hispanic
+}
+101424141 = {
+	name="Iustinianus"
+	culture = hispanic
+}
+101424141 = {
+	name="Verinus"
+	culture = hispanic
+}
+101424142 = {
+	name="Marcianus"
+	culture = hispanic
+}
+101424381 = {
+    name="Elemunding"
+    culture = ostrogothic
+}
+101424382 = {
+    name="Thurisinding"
+    culture = ostrogothic
+}
+101424448 = {
+	name="Agricolus"
+	culture = hispanic
+}
+5000001 = {
+	name="de Buna"
+	culture = dalmatian
+}
+5000002 = {
+	name="Udaina"
+	culture = dalmatian
+}
+5000003 = {
+	name="Tauma"
+	culture = dalmatian
+}
+5000004 = {
+	name="Vaulcassi"
+	culture = dalmatian
+}
+5000005 = {
+	name="Martenussi"
+	culture = dalmatian
+}
+5000006 = {
+	name="Gradei"
+	culture = dalmatian
+}
+5000007 = {
+	name="de Giorgi"
+	culture = dalmatian
+}
+5000008 = {
+	name="Dairsa"
+	culture = dalmatian
+}
+5000009 = {
+	name="Getaldei"
+	culture = dalmatian
+}
+5000010 = {
+	name="Zamanya"
+	culture = dalmatian
+}
+5000011 = {
+	name="de Pozza"
+	culture = dalmatian
+}
+5000012 = {
+	name="Caboga"
+	culture = dalmatian
+}
+5000013 = {
+	name="de Cerva"
+	culture = dalmatian
+}
+5000014 = {
+	name="de Guzzei"
+	culture = dalmatian
+}
+5000015 = {
+	name="de Gundula"
+	culture = dalmatian
+}
+5000016 = {
+	name="de Saraica"
+	culture = dalmatian
+}
+5000017 = {
+	name="Raguseo"
+	culture = dalmatian
+}
+5000018 = {
+	name="de Cattaro"
+	culture = dalmatian
+}
+5000019 = {
+	name="de Saurgo"
+	culture = dalmatian
+}
+5000020 = {
+	name="de Buchja"
+	culture = dalmatian
+}
+5000021 = {
+	name="de Mosor"
+	culture = dalmatian
+}
+5000022 = {
+	name="de Mencei"
+	culture = dalmatian
+}
+5000023 = {
+	name="de Savarei"
+	culture = dalmatian
+}
+5000024 = {
+	name="de Barab"
+	culture = dalmatian
+}
+5000025 = {
+	name="de Bunessa"
+	culture = dalmatian
+}
+5000026 = {
+	name="Spalatrin"
+	culture = dalmatian
+}
+5000027 = {
+	name="Bonduanza"
+	culture = dalmatian
+}
+5000028 = {
+	name="Cuosamaura"
+	culture = dalmatian
+}
+5000029 = {
+	name="Argusta"
+	culture = dalmatian
+}
+5000030 = {
+	name="de Buarca"
+	culture = dalmatian
+}
+5000031 = {
+	name="Amaudi"
+	culture = dalmatian
+}
+5000032 = {
+	name="Saraca"
+	culture = dalmatian
+}
+5000033 = {
+	name="de Blanca"
+	culture = dalmatian
+}
+5000034 = {
+	name="de Moura"
+	culture = dalmatian
+}
+5000035 = {
+	name="Savarin"
+	culture = dalmatian
+}
+5000036 = {
+	name="Aguastin"
+	culture = dalmatian
+}
+5000037 = {
+	name="Vittaurin"
+	culture = dalmatian
+}
+5000038 = {
+	name="Sabbatini"
+	culture = dalmatian
+}
+5000039 = {
+	name="de Puol"
+	culture = dalmatian
+}
+5000040 = {
+	name="de Fualje"
+	culture = dalmatian
+}
+5000041 = {
+	name="Cerieva"
+	culture = dalmatian
+}
+5000042 = {
+	name="Babalei"
+	culture = dalmatian
+}
+5000043 = {
+	name="Bunda"
+	culture = dalmatian
+}
+5000044 = {
+	name="Tudaisi"
+	culture = dalmatian
+}
+5000045 = {
+	name="Procul"
+	culture = dalmatian
+}
+5000046 = {
+	name="de Favro"
+	culture = dalmatian
+}
+5000047 = {
+	name="de Lucuar"
+	culture = dalmatian
+}
+5000048 = {
+	name="de Menzei"
+	culture = dalmatian
+}
+5000049 = {
+	name="Cotrougli"
+	culture = dalmatian
+}
+5000050 = {
+	name="Raduagli"
+	culture = dalmatian
+}
+5000051 = {
+	name="Zuzori"
+	culture = dalmatian
+}
+1000083001 = {
+	name="Crimling"
+	culture = ostrogothic
+}
+1000083002 = {
+	name="Balti"
+	culture = visigothic
+}
+1000083003 = {
+	name="Theuding"
+	culture = ostrogothic
+}
+1000083004 = {
+	name="Liuvigilding"
+	culture = visigothic
+}
+1000124427 = {
+	name="Terving"
+	culture = visigothic
+}
+1000124428 = {
+	name="Theudigiseling"
+	culture = visigothic
+}
+1000124429 = {
+	name="Agilunging"
+	culture = visigothic
+}
+1000124430 = {
+	name="Athanagilding"
+	culture = visigothic
+}
+1000124431 = {
+	name="Wittericing"
+	culture = visigothic
+}
+1000124432 = {
+	name="Gundemarid"
+	culture = visigothic
+}
+1000124433 = {
+	name="Sisebuting"
+	culture = visigothic
+}
+1000124434 = {
+	name="Sisenanding"
+	culture = visigothic
+}
+1000124435 = {
+	name="Chintiling"
+	culture = visigothic
+}
+1000124437 = {
+	name="Wanbanid"
+	culture = visigothic
+}
+1000124438 = {
+	name="Dogilanus"
+	culture = visigothic
+}
+1000124439 = {
+	name="Rechila"
+	culture = visigothic
+}
+1000124448 = {
+	name="Lething"
+	culture = langobard
+}
+1000124449 = {
+	name="Gaidoalding"
+	culture = langobard
+}
+1000124450 = {
+	name="Tassing"
+	culture = langobard
+}
+1000124451 = {
+	name="Tating"
+	culture = langobard
+}
+1000124452 = {
+	name="Mauriting"
+	culture = langobard
+}
+1000124453 = {
+	name="Godeperting"
+	culture = langobard
+}
+1000124454 = {
+	name="Burkharding"
+	culture = langobard
+}
+1000124455 = {
+	name="Randoingi"
+	culture = langobard
+}
+1000124456 = {
+	name="Garibalding"
+	culture = langobard
+}
+1000124457 = {
+	name="Faroaldingi"
+	culture = langobard
+}
+1000124458 = {
+	name="Hildericing"
+	culture = langobard
+}
+1000124459 = {
+	name="Unnolfingi"
+	culture = langobard
+}
+1000124460 = {
+	name="Adalgarding"
+	culture = langobard
+}
+1000124495 = {
+	name="Muniching"
+	culture = ostrogothic
+}
+1000124496 = {
+	name="Ardaricing"
+	culture = ostrogothic
+}
+1000124497 = {
+	name="Elemunding"
+	culture = ostrogothic
+}
+1000124498 = {
+	name="Thurisinding"
+	culture = ostrogothic
+}
+1000124499 = {
+	name="Eraricing"
+	culture = ostrogothic
+}
+1000124500 = {
+	name="Visimaring"
+	culture = ostrogothic
+}
+10142275 = {
+	name="Kelaya"
+	culture = aramean
+}
+10142325 = {
+	name="Eutolmius"
+	culture = aramean
+}
+10142358 = {
+	name="Dalisandus"
+	culture = aramean
+}
+101424231 = {
+	name="Abahu"
+	culture = aramean
+}
+101424232 = {
+	name="Sevag"
+	culture = armenian
+}
+101424233 = {
+	name="Lebbaeus"
+	culture = aramean
+} 
+1000124525 = {
+	name="Taddeid"
+	culture = aramean
+}
+1000124526 = {
+	name="Sabarid"
+	culture = aramean
+}
+1000124528 = {
+	name="Sinaid"
+	culture = aramean
+} 
+200000000 = {
+    name = "Anicius"
+    culture = "roman"
+}
+200000001 = {
+    name = "Procopius"
+    culture = "roman"
+}
+200000002 = {
+    name = "Nepos"
+    culture = "roman"
+}
+200000003 = {
+    name = "Tétény"
+    culture = "hungarian"
+}
+200000004 = {
+    name = "Tatulus"
+    culture = "roman"
+}
+1000124254 = {
+	name="Abrach"
+	culture = mizrahi
+}
+1000124255 = {
+	name="Khardun"
+	culture = mizrahi
+}
+1000124256 = {
+	name="Sasson"
+	culture = mizrahi
+}
+1000124257 = {
+	name="Hysh"
+	culture = mizrahi
+}
+1000124258 = {
+	name="Agmy"
+	culture = mizrahi
+}
+1000124259 = {
+	name="Zangi"
+	culture = mizrahi
+}
+1000124260 = {
+	name="Abocassis"
+	culture = mizrahi
+}
+1000124261 = {
+	name="Sabag"
+	culture = mizrahi
+}
+1000124262 = {
+	name="Biton"
+	culture = mizrahi
+}
+1000124263 = {
+	name="Hruschov"
+	culture = mizrahi
+}
+1000124264 = {
+	name="Sie"
+	culture = mizrahi
+}
+1000124265 = {
+	name="Boethus"
+	culture = mizrahi
+}
+1000124266 = {
+	name="Seth"
+	culture = mizrahi
+}
+1000124267 = {
+	name="Fabus"
+	culture = mizrahi
+}
+1000124268 = {
+	name="Ananus"
+	culture = mizrahi
+}
+1000124269 = {
+	name="Camithus"
+	culture = mizrahi
+}
+1000124270 = {
+	name="Kuppai"
+	culture = mizrahi
+}
+1000124271 = {
+	name="Simon"
+	culture = mizrahi
+}
+1000124272 = {
+	name="Camydus"
+	culture = mizrahi
+}
+1000124273 = {
+	name="Nebedeus"
+	culture = mizrahi
+}
+1000124274= {
+	name="Fabus"
+	culture = mizrahi
+}
+1000124275= {
+	name="Damneus"
+	culture = mizrahi
+}
+1000124276= {
+	name="Gamaliel"
+	culture = mizrahi
+}
+1000124277= {
+	name="Theophilus"
+	culture = mizrahi
+}
+1000124278= {
+	name="Samuel"
+	culture = mizrahi
+}
+101424393 = {
+	name="Quintus"
+	culture = old_italian
+}
+101424394 = {
+	name="Agricolus"
+	culture = old_italian
+}
+101424395 = {
+	name="Mantus"
+	culture = old_italian
+}
+101424397 = {
+	name="Marcellus"
+	culture = old_italian
+}
+101424398 = {
+	name="Vigilius"
+	culture = old_italian
+}
+101424414 = {
+	name="Menenius"
+	culture = old_italian
+} 
+101424415 = {
+	name="Terentius"
+	culture = old_italian
+} 
+101424416 = {
+	name="Gavius"
+	culture = old_italian
+} 
+101424417 = {
+	name="Sextus"
+	culture = old_italian
+} 
+101424418 = {
+	name="Ulpius"
+	culture = old_italian
+} 
+101424450 = {
+	name="Maximus"
+	culture = old_italian
+} 
+101424451 = {
+	name="Alexandros"
+	culture = old_italian
+} 
+101424452 = {
+	name="Bassus"
+	culture = old_italian
+}
+2000260 = {
+	name = "Balambing"
+	culture = hunnic
+}
+2000261 = {
+	name = "Uldining"
+	culture = hunnic
+}
+2000262 = {
+	name = "Charating"
+	culture = hunnic
+}
+2000263 = {
+	name = "Octaring"
+	culture = hunnic
+}
+2000264 = {
+	name = "Rouding"
+	culture = hunnic
+}
+2000265 = {
+	name = "Bleding"
+	culture = hunnic
+}
+2000266 = {
+	name = "Mundzucing"
+	culture = hunnic
+}
+2000267 = {
+	name = "Onulphing"
+	culture = hunnic
+}
+2000268 = {
+	name = "Ruging"
+	culture = hunnic
+}
+2000269 = {
+	name = "Dulo"
+	culture = hunnic
+}
+2000270 = {
+    name = "Abdeshmun"
+    culture = neo-punic
+}
+2000271 = {
+    name = "Abdmelqart"
+    culture = neo-punic
+}
+2000272 = {
+    name = "Abdosir"
+    culture = neo-punic
+}
+2000273 = {
+    name = "Ashtzaph"
+    culture = neo-punic
+}
+2000274 = {
+    name = "Bodashtart"
+    culture = neo-punic
+}
+2000275 = {
+    name = "Bodtanit"
+    culture = neo-punic
+}
+2000276 = {
+    name = "Germelqart"
+    culture = neo-punic
+}
+2000277 = {
+    name = "Himilco"
+    culture = neo-punic
+}
+2000278 = {
+    name = "Milkherem"
+    culture = neo-punic
+}
+2000279 = {
+    name = "Philosir"
+    culture = neo-punic
+}
+2000280 = {
+    name = "Shafat"
+    culture = neo-punic
+}
+100153022 = {
+	name="Bayomi"
+	culture = coptic
+}
+100153023 = {
+	name="Quolta"
+	culture = coptic
+}
+100153034 = {
+	name="Nisan"
+	culture = assyrian
+}
+100153035 = {
+	name="Somikka"
+	culture = assyrian
+}
+100153036 = {
+	name="Simele"
+	culture = assyrian
+}
+100153037 = {
+	name="Sulaqa"
+	culture = assyrian
+}
+100153039 = {
+	name="Bat-Zabbai"
+	culture = aramean
+}
+100153040 = {
+	name="Odaenathus"
+	culture = aramean
+}
+100153041 = {
+	name="Emesa"
+	culture = aramean
+}
+100153042 = {
+	name="Sampsiceramus"
+	culture = aramean
+}
+100153043 = {
+    name="Bast"
+	culture = thracian
+}
+100153044 = {
+    name="Mucaporis"
+	culture = thracian
+}
+100153045 = {
+    name="Diurpaneus"
+	culture = thracian
+}
+100153046 = {
+    name="Mucapor"
+	culture = thracian
+}
+100153047 = {
+    name="Mucatra"
+	culture = thracian
+}
+100153048 = {
+    name="Natoporus"
+	culture = thracian
+}
+100153049 = {
+    name="Pieporus"
+	culture = thracian
+}
+100153050 = {
+    name="Rascuporis"
+	culture = thracian
+}
+100153051 = {
+    name="Rascupolis"
+	culture = thracian
+}
+100153052 = {
+    name="Scorlyo"
+	culture = thracian
+}
+100153053 = {
+    name="Avizina"
+	culture = dacian
+}
+100153054 = {
+    name="Bastiza"
+	culture = dacian
+}
+100153055 = {
+    name="Blaesus"
+	culture = dacian
+}
+100153056 = {
+    name="Burebista"
+	culture = dacian
+}
+100153057 = {
+    name="Comosicus"
+	culture = dacian
+}
+100153058 = {
+    name="Cotiso"
+    culture = dacian
+}
+100153059 = {
+    name="Dardanos"
+    culture = dacian
+}
+100153060 = {
+    name="Dardiolai"
+	culture = dacian
+}
+100153061 = {
+    name="Decaeneus"
+	culture = dacian
+}
+100153062 = {
+    name="Dekinais"
+	culture = dacian
+}
+100153063 = {
+    name="Diourdanos"
+	culture = dacian
+}
+100153064 = {
+    name="Kaigiza"
+	culture = dacian
+}
+100153065 = {
+    name="Komakiza"
+	culture = dacian
+}
+100153066 = {
+    name="Petoporus"
+	culture = dacian
+}
+100153067 = {
+    name="Rescuturme"
+	culture = dacian
+}
+100153068 = {
+    name="Rigozus"
+    culture = dacian
+}
+100153069 = {
+    name="Tarbus"
+    culture = dacian
+}
+100153070 = {
+    name="Tiatitis"
+	culture = dacian
+}
+100153071 = {
+    name="Vezina"
+	culture = dacian
+}
+100153072 = {
+    name="Zinnas"
+	culture = dacian
+}
+100153073 = {
+    name="Aden"
+	culture = romansh
+}
+100153074 = {
+    name="Andri"
+	culture = romansh
+}
+100153075 = {
+    name="Andrin"
+	culture = romansh
+}
+100153076 = {
+    name="Andris"
+	culture = romansh
+}
+100153077 = {
+    name="Baltran"
+	culture = romansh
+}
+100153078 = {
+    name="Bandet"
+    culture = romansh
+}
+100153079 = {
+    name="Camil"
+    culture = romansh
+}
+100153080 = {
+    name="Chasprot"
+	culture = romansh
+}
+100153081 = {
+    name="Claritta"
+	culture = romansh
+}
+100153082 = {
+    name="Corsina"
+	culture = romansh
+}
+100153083 = {
+    name="Dumengia"
+	culture = romansh
+}
+100153084 = {
+    name="Dumeni"
+	culture = romansh
+}
+100153085 = {
+    name="Flurinda"
+	culture = romansh
+}
+100153086 = {
+    name="Fumia"
+	culture = romansh
+}
+1001530687 = {
+    name="Gionina"
+	culture = romansh
+}
+100153088 = {
+    name="Jaronas"
+    culture = romansh
+}
+100153089 = {
+    name="Maximin"
+    culture = romansh
+}
+100153090 = {
+    name="Rusina"
+	culture = romansh
+}
+100153091 = {
+    name="Tschena"
+	culture = romansh
+}
+100153092 = {
+    name="Verena"
+	culture = romansh
+}
+100153093 = {
+    name="Agolli"
+	culture = "albanian"
+}
+100153094 = {
+    name="Asllani"
+	culture = "albanian"
+}
+100153095 = {
+    name="Berisha"
+	culture = "albanian"
+}
+100153096 = {
+    name="Alborov"
+	culture = "albanian"
+}
+100153097 = {
+    name="Bogdani"
+	culture = "albanian"
+}
+100153098 = {
+    name="Dragusha"
+	culture = "albanian"
+}
+100153099 = {
+   name="Gjebrea"
+   culture = "albanian"
+}
+100153100 = {
+    name="Kastrati"
+	culture = "albanian"
+}
+100153101 = {
+    name="Logoreci"
+	culture = "albanian"
+}
+100153102 = {
+    name="Vrioni"
+	culture = "albanian"
+}
+100153103 = {
+    name="Zaharia"
+	culture = "albanian"
+}
+100153104 = {
+    name="Arsinel"
+	culture = "illyrian"
+}
+100153105 = {
+    name="Caragial"
+	culture = "illyrian"
+}
+100153106 = {
+    name="Drenova"
+	culture = "illyrian"
+}
+100153107 = {
+    name="Grabovan"
+	culture = "illyrian"
+}
+100153108 = {
+    name="Ionesco"
+	culture = "illyrian"
+}
+100153109 = {
+    name="Manaki"
+	culture = "illyrian"
+}
+100153110 = {
+    name="Prevenda"
+	culture = "illyrian"
+}
+100153111 = {
+    name="Diamanti"
+	culture = "illyrian"
+}
+100153112 = {
+    name="Stanescu"
+	culture = "illyrian"
+}
+100153113 = {
+    name="Kavalliotis"
+	culture = "illyrian"
+}
+100153114 = {
+    name="Karamata"
+	culture = "illyrian"
+}
+100153115 = {
+    name="Saguna"
+	culture = "illyrian"
+}
+100153116 = {
+    name="Abahu"
+	culture = "mandaic"
+}
+100153117 = {
+    name="Avahu"
+	culture = "mandaic"
+}
+100153118 = {
+    name="Bustan"
+	culture = "mandaic"
+}
+100153119 = {
+    name="Caiaphas"
+	culture = "mandaic"
+}
+100153120 = {
+    name="Chozai"
+	culture = "mandaic"
+}
+100153121 = {
+    name="Mahalie"
+	culture = "mandaic"
+}
+100153122 = {
+    name="Mehalia"
+	culture = "mandaic"
+}
+100153123 = {
+    name="Shamir"
+	culture = "mandaic"
+}
+100153124 = {
+    name="Tabai"
+	culture = "mandaic"
+}
+100153125 = {
+    name="Tavares"
+	culture = "mandaic"
+}
+100153126 = {
+    name="Yanai"
+	culture = "mandaic"
+}
+100153127 = {
+    name="Zerika"
+	culture = "mandaic"
+}
+10424464 = {
+	name="Hanafid"
+	culture = old_arabic
+}
+10424465 = {
+	name="Bakrid"
+	culture = old_arabic
+}
+10424466 = {
+	name="Tamimid"
+	culture = old_arabic
+}
+10424467 = {
+	name="Anizzahid"
+	culture = old_arabic
+}
+10424468 = {
+	name="Udhrahid"
+	culture = old_arabic
+}
+10424469 = {
+	name="Kilabid"
+	culture = old_arabic
+}
+10424470 = {
+	name="Hilalid"
+	culture = old_arabic
+}
+10424471 = {
+	name="Ka'abid"
+	culture = old_arabic
+}
+10424472 = {
+	name="Agrimi"
+	culture = griko
+}
+10424473 = {
+	name="Alektorakis"
+	culture = griko
+}
+10424474 = {
+	name="Antelia"
+	culture = griko
+}
+10424475 = {
+	name="Argyros"
+	culture = griko
+}
+10424476 = {
+	name="Barsakios"
+	culture = griko
+}
+10424477 = {
+	name="Chandakaris"
+	culture = griko
+}
+10424478 = {
+	name="Daphnianos"
+	culture = griko
+}
+10424479 = {
+	name="Kalaphatis"
+	culture = griko
+}
+10424480 = {
+	name="Kamateros"
+	culture = griko
+}
+10424481 = {
+	name="Lazaros"
+	culture = griko
+}
+10424482 = {
+	name="Mandilo"
+	culture = griko
+}
+10424483 = {
+	name="Pilokalos"
+	culture = griko
+}
+10424484 = {
+	name="Skandalis"
+	culture = griko
+}
+10424485 = {
+	name="Nikandros"
+	culture = griko
+}
+10424486 = {
+	name="Romano"
+	culture = griko
+}
+10424485 = {
+    name="Lucanios"
+	culture = griko
+}
+10424486 = {
+    name="Diklah"
+	culture = assyrian
+}
+10424487 = {
+    name="Hanina"
+	culture = assyrian
+}
+10424487 = {
+    name="Hozai"
+	culture = assyrian
+}
+10424488 = {
+    name="Shammai"
+	culture = assyrian
+}
+10424489 = {
+    name="Samiyah"
+	culture = assyrian
+}
+10424486 = {
+    name="Thomasina"
+	culture = assyrian
+}
+10424487 = {
+    name="Tamasine"
+	culture = assyrian
+}
+10424487 = {
+    name="Sameah"
+	culture = assyrian
+}
+10424488 = {
+    name="Maccabee"
+	culture = assyrian
+}
+10424489 = {
+    name="Tabetha"
+	culture = assyrian
+}
+10424490 = {
+    name="Raziel"
+	culture = assyrian
+}
+10424491 = {
+    name="Magdala"
+	culture = assyrian
+}
+10424492 = {
+    name="Rachim"
+	culture = assyrian
+}
+10424493 = {
+    name="Samal"
+	culture = assyrian
+}
+10424494 = {
+    name="Tadeusz"
+	culture = aramean
+}
+10424495 = {
+    name="Talmai"
+	culture = aramean
+}
+10424496 = {
+    name="Samia"
+	culture = aramean
+}
+10424497 = {
+    name="Tadeu"
+	culture = aramean
+}
+10424498 = {
+    name="Toomas"
+	culture = aramean
+}
+1027041 = {
+	name="Salonensis"
+	culture = old_italian
+}
+1027042 = {
+	name="Coeling"
+	culture = british
+}
+1027044 = {
+	name="Pendragon"
+	culture = british
+    coat_of_arms = {
+        template = 4
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 19
+            color = 1
+            color = 2
+            color = 3
+        }
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 19
+            color = 0
+            color = 2
+            color = 13
+        }
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 19
+            color = 7
+            color = 2
+            color = 4
+        }
+    }
+}
+1027046 = {
+	name="Apollinaris"
+	culture = gallic
+}
+1027047= {
+	name="Marianus"
+	culture = old_italian
+}
+1027048 = {
+	name="Monomachus"
+	culture = old_italian
+}
+1027049 = {
+	name="Symmachus"
+	culture = old_italian
+}
+1027050 = {
+	name="Arrianus"
+	culture = old_italian
+}
+1027051 = {
+	name="Severus"
+	culture = old_italian
+}
+1027052 = {
+	name="Probus"
+	culture = old_italian
+}
+1027053 = {
+	name="Probianus"
+	culture = old_italian
+}
+1027054 = {
+	name="Ruferius"
+	culture = old_italian
+}
+10424499 = {
+	name="Narbonensis"
+	culture = gallic
+}
+10424500 = {
+	name="Arelatensis"
+	culture = gallic
+}
+10424501 = {
+	name="Cabellinensis"
+	culture = roman
+}
+10424502 = {
+	name="Arvernius"
+	culture = gallic
+}
+10424503 = {
+	name="Cessetanius"
+	culture = hispanic
+}
+10424504 = {
+	name="Vacceius"
+	culture = hispanic
+}
+10424505 = {
+	name="Warinius"
+	culture = suevic
+}
+10424506 = {
+	name="Cantabrius"
+	culture = hispanic
+}
+10424507 = {
+	name="Corneu"
+	culture = british
+}
+10424508 = {
+	name="Caninus"
+	culture = british
+}
+10424509 = {
+	name="Elafianus"
+	culture = british
+}
+10424510 = {
+	name="Veliocassius"
+	culture = gallic
+}
+10424511 = {
+	name="Castrodunensis"
+	culture = gallic
+}
+10424512 = {
+	name="Aulercius"
+	culture = gallic
+}
+10424513 = {
+	name="Quixotus"
+	culture = hispanic
+}
+10424514 = {
+	name="Pansa"
+	culture = hispanic
+}
+10424515 = {
+	name="Derocianus"
+	culture = british
+}
+10424516 = {
+	name="Aldrianus"
+	culture = british
+}
+10424517 = {
+	name="Senonius"
+	culture = gallic
+}
+10424518 = {
+	name="Wledig"
+	culture = british
+}
+10424519 = {
+	name="Votadinius"
+	culture = british
+}
+10424520 = {
+	name="Guletic"
+	culture = british
+}
+20000000 = {
+	name="Taifaling"
+	culture = visigothic
+}
+90000000 = {
+	name="Triarius"
+	culture = ostrogothic
+}
+62000000 = {
+	name="Syrtis"
+	culture = african
+}
+63000000 = {
+	name="Caprapictius"
+	culture = african
+}
+77000000 = {
+	name="Aunoneneus"
+	culture = hispanic
+}
+83000000 = {
+	name="Ibronensis"
+	culture = hispanic
+}
+86000000 = {
+	name="Parianus"
+	culture = ostrogothic
+}
+96000000 = {
+	name="al-Ghassani"
+	culture = old_arabic
+}
+97000000 = {
+	name="al-Lakhmi"
+	culture = old_arabic
+}
+98000000 = {
+	name="al-Lihyani"
+	culture = old_arabic
+}
+99000000 = {
+	name="al-Kindahi"
+	culture = old_arabic
+}
+12400000 = {
+	name="Qurayshi"
+	culture = old_arabic
+}
+12500000 = {
+	name="Khuza'a"
+	culture = old_arabic
+}
+12600000 = {
+	name="Hawazin"
+	culture = old_arabic
+}
+12700000 = {
+	name="Judham"
+	culture = old_arabic
+}
+12800000 = {
+	name="Himyari"
+	culture = old_arabic
+}
+13200000 = {
+	name="Krimid"
+	culture = ostrogothic
+}
+13500000 = {
+	name="Infaustus"
+	culture = british
+}
+15600000 = {
+	name="Geganius"
+	culture = african
+}
+15700000 = {
+	name="Lartius"
+	culture = african
+}
+15800000 = {
+	name="Menenius"
+	culture = african
+}
+15900000 = {
+	name="Minucius"
+	culture = african
+}
+16000000 = {
+	name="Papirius"
+	culture = african
+}
+16100000 = {
+	name="Potitius"
+	culture = african
+}
+16200000 = {
+	name="Romilius"
+	culture = african
+}
+16300000 = {
+	name="Sempronius"
+	culture = african
+}
+16400000 = {
+	name="Servilius"
+	culture = african
+}
+16500000 = {
+	name="Sulpicius"
+	culture = african
+}
+16600000 = {
+	name="Tullius"
+	culture = african
+}
+16700000 = {
+	name="Verginius"
+	culture = african
+}
+16800000 = {
+	name="Veturius"
+	culture = african
+}
+16900000 = {
+	name="Vitellius"
+	culture = african
+}
+17000000 = {
+	name="Volumnius"
+	culture = african
+}
+2100000 = {
+	name="Burdigalensis"
+	culture = gallic
+}
+2110000 = {
+	name="Caletiensis"
+	culture = gallic
+}
+2120000 = {
+	name="Lutetiensis"
+	culture = gallic
+}
+2130000 = {
+	name="Aurelianensis"
+	culture = gallic
+}
+2140000 = {
+	name="Auscius"
+	culture = gallic
+}
+2150000 = {
+	name="Avaricensis"
+	culture = gallic
+}
+2160000 = {
+	name="Tolosensis"
+	culture = gallic
+}
+2180000 = {
+	name="Ambarrius"
+	culture = gallic
+}
+2190000 = {
+	name="Segusianius"
+	culture = gallic
+}
+2200000 = {
+	name="Gabalius"
+	culture = gallic
+}
+2210000 = {
+	name="Petrocorius"
+	culture = gallic
+}
+2220000 = {
+	name="Turbanensis"
+	culture = gallic
+}
+2230000 = {
+	name="Precianius"
+	culture = gallic
+}
+2240000 = {
+	name="Segodunensis"
+	culture = gallic
+}
+2250000 = {
+	name="Nitiobrigius"
+	culture = gallic
+}
+2270000 = {
+	name="Arecomicius"
+	culture = gallic
+}
+2280000 = {
+	name="Medulius"
+	culture = gallic
+}
+2290000 = {
+	name="Vocontius"
+	culture = gallic
+}
+2300000 = {
+	name="Arvius"
+	culture = gallic
+}
+2310000 = {
+	name="Catalaunius"
+	culture = gallic
+}
+2320000 = {
+	name="Meldius"
+	culture = gallic
+}
+2330000 = {
+	name="Noviodunensis"
+	culture = gallic
+}
+2340000 = {
+	name="Mandubius"
+	culture = gallic
+}
+2350000 = {
+	name="Carnutius"
+	culture = gallic
+}
+2360000 = {
+	name="Cenomanius"
+	culture = gallic
+}
+2370000 = {
+	name="Gravinensis"
+	culture = gallic
+}
+2380000 = {
+	name="Bellovacius"
+	culture = gallic
+}
+2390000 = {
+	name="Anderidensis"
+	culture = gallic
+}
+2410000 = {
+	name="Pompaelonensis"
+	culture = hispanic
+}
+2420000 = {
+	name="Saguntensis"
+	culture = hispanic
+}
+2430000 = {
+	name="Ergavicensis"
+	culture = hispanic
+}
+2440000 = {
+	name="Uxanensis"
+	culture = hispanic
+}
+2450000 = {
+	name="Tutelanensis"
+	culture = hispanic
+}
+2480000 = {
+	name="Orceliensis"
+	culture = hispanic
+}
+2490000 = {
+	name="Libisosinensis"
+	culture = hispanic
+}
+2500000 = {
+	name="Illiberinensis"
+	culture = hispanic
+}
+2510000 = {
+	name="Sigisanensis"
+	culture = hispanic
+}
+2520000 = {
+	name="Constetanius"
+	culture = hispanic
+}
+2530000 = {
+	name="Carpetanius"
+	culture = hispanic
+}
+2540000 = {
+	name="Pelendonius"
+	culture = hispanic
+}
+2550000 = {
+	name="Calagurriensis"
+	culture = hispanic
+}
+2580000 = {
+	name="Igeditensis"
+	culture = hispanic
+}
+2590000 = {
+	name="Auriaitanensis"
+	culture = hispanic
+}
+2600000 = {
+	name="Oripponensis"
+	culture = hispanic
+}
+2610000 = {
+	name="Abamoun"
+	culture = coptic
+}
+2620000 = {
+	name="Anoub"
+	culture = coptic
+}
+2630000 = {
+	name="Babnouda"
+	culture = coptic
+}
+26400000 = {
+	name="Barsanouphios"
+	culture = coptic
+}
+26500000 = {
+	name="Onouphrios"
+	culture = coptic
+}
+26600000 = {
+	name="Paphnoutios"
+	culture = coptic
+}
+26700000 = {
+	name="Shenouti"
+	culture = coptic
+}
+26800000 = {
+	name="Papnoute"
+	culture = coptic
+}
+26900000 = {
+	name="Shanouda"
+	culture = coptic
+}
+27000000 = {
+	name="Ruweis"
+	culture = coptic
+}
+27100000 = {
+	name="Amoun"
+	culture = coptic
+}
+27200000 = {
+    name="Aetava"
+	culture = scythian
+}
+27300000 = {
+    name="Gaotema"
+	culture = scythian
+}
+27400000 = {
+    name="Daungha"
+	culture = scythian
+}
+27500000 = {
+    name="Hitaspa"
+	culture = scythian
+}
+27600000 = {
+    name="Spengha"
+	culture = scythian
+}
+27700000 = {
+    name="Parshinta"
+	culture = scythian
+}
+27800000 = {
+    name="Parshanta"
+	culture = scythian
+}
+27900000 = {
+    name="Vahauka"
+	culture = scythian
+}
+28000000 = {
+    name="Bendva"
+	culture = scythian
+}
+28100000 = {
+    name="Imanish"
+	culture = scythian
+}
+28200000 = {
+    name="Yuxtaspa"
+	culture = scythian
+}
+28300000 = {
+    name="Xvanvant"
+	culture = scythian
+}
+28400000 = {
+     name="Tumaspa"
+	 culture = scythian
+}
+28500000 = {
+    name="Hermericus"
+	culture = suevic
+}
+28600000 = {
+    name="Heremigarius"
+	culture = suevic
+}
+28700000 = {
+    name="Rechila"
+	culture = suevic
+}
+28800000 = {
+    name="Rechiarius"
+	culture = suevic
+}
+28900000 = {
+    name="Agriulfum"
+	culture = suevic
+}
+29000000 = {
+    name="Maldras"
+	culture = suevic
+}
+29100000 = {
+    name="Massila"
+	culture = suevic
+}
+29200000 = {
+    name="Framta"
+	culture = suevic
+}
+29300000 = {
+    name="Frumarius"
+	culture = suevic
+}
+29400000 = {
+    name="Rechimundus"
+	culture = suevic
+}
+29500000 = {
+    name="Remismundus"
+	culture = suevic
+}
+29600000 = {
+    name="Veremundus"
+	culture = suevic
+}
+29700000 = {
+     name="Chararici"
+	 culture = suevic
+}
+29800000 = {
+    name="Ariamirus"
+	culture = suevic
+}
+29900000 = {
+    name="Ildericus"
+	culture = suevic
+}
+30000000 = {
+    name="Theudomirus"
+	culture = suevic
+}
+30100000 = {
+    name="Nitigisius"
+	culture = suevic
+}
+30200000 = {
+    name="Uittimer"
+	culture = suevic
+}
+30300000 = {
+    name="Eboricus"
+	culture = suevic
+}
+30400000 = {
+     name="Siseguntia"
+	 culture = suevic
+}
+30500000 = {
+     name="Remisiwera"
+	 culture = suevic
+}
+30600000 = {
+     name="Thuresmuda"
+	 culture = suevic
+}
+30700000 = {
+     name="Suinthiliuba"
+	 culture = suevic
+}

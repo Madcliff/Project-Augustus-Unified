@@ -1,0 +1,144 @@
+namespace = imperial_army
+character_event = {
+	id = imperial_army.1
+	desc = imperial_army.1_desc
+	picture = GFX_evt_mongols
+	is_triggered_only = yes
+	
+	option = {
+		create_random_soldier = {
+			random_traits = yes
+			religion = FROM
+			culture = swordsmen
+			dynasty = none 
+			martial = 10
+			female = no
+			age = 30
+		}	
+	
+		name = imperial_army.1a
+		new_character = {
+			set_government_type = nomadic_government
+			manpower = 1000
+			culture = dummy1	   
+			create_title = {
+				tier = KING
+				name = DYNAMIC_MERCENARY_COMPANY1
+				landless = yes
+				temporary = no
+				adventurer = no
+				custom_created = yes
+				culture = new_character
+				holder = new_character
+				base_title = THIS
+				mercenary = yes
+				ruler = "CAPTAIN"
+				ruler_female = "CAPTAIN"
+				foa = "CAPTAIN_FOA"
+			}
+			new_title = { 
+				any_realm_character = {
+					culture = ROOT
+				}
+			}			
+		}
+			new_character = {
+				set_government_type = feudal_government
+				culture = ROOT
+				dynasty = none				
+				set_defacto_liege = ROOT   
+				set_character_flag = is_legion_leader
+				add_claim = ROOT 
+			}
+	}
+	option = {
+		name = imperial_army.1b
+		create_random_soldier = {
+			random_traits = yes
+			religion = FROM
+			culture = swordsmen
+			dynasty = none 
+			martial = 10
+			female = no
+			age = 30
+		}		
+		new_character = {
+			set_government_type = nomadic_government
+			manpower = 1000
+			culture = dummy2	   
+			create_title = {
+				tier = KING
+				name = DYNAMIC_MERCENARY_COMPANY1
+				landless = yes
+				temporary = no
+				adventurer = no
+				custom_created = yes
+				culture = new_character
+				holder = new_character
+				base_title = THIS
+				mercenary = yes
+				ruler = "CAPTAIN"
+				ruler_female = "CAPTAIN"
+				foa = "CAPTAIN_FOA"
+			}
+			new_title = { 
+				any_realm_character = {
+					culture = ROOT
+				}
+			}
+		}
+			new_character = {
+				set_government_type = feudal_government
+				culture = ROOT
+				dynasty = none				
+				set_defacto_liege = ROOT   
+				set_character_flag = is_legion_leader
+				add_claim = ROOT 
+			}
+	}
+	option = {
+		name = imperial_army.1c
+		create_random_soldier = {
+			random_traits = yes
+			religion = FROM
+			culture = swordsmen
+			dynasty = none 
+			martial = 10
+			female = no
+			age = 30
+		}		
+		new_character = {
+			set_government_type = nomadic_government
+			manpower = 1000
+			culture = dummy3	   
+			create_title = {
+				tier = KING
+				name = DYNAMIC_MERCENARY_COMPANY1
+				landless = yes
+				temporary = no
+				adventurer = no
+				custom_created = yes
+				culture = new_character
+				holder = new_character
+				base_title = THIS
+				mercenary = yes
+				ruler = "CAPTAIN"
+				ruler_female = "CAPTAIN"
+				foa = "CAPTAIN_FOA"
+			}
+			new_title = { 
+				any_realm_character = {
+					culture = ROOT
+				}
+			}			
+		}
+			new_character = {
+				set_government_type = feudal_government
+				culture = ROOT
+				dynasty = none				
+				set_defacto_liege = ROOT   
+				set_character_flag = is_legion_leader
+				add_claim = ROOT 
+			}
+	}
+}

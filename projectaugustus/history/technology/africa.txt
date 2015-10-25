@@ -1,0 +1,65 @@
+#EAST AFRICA
+
+technology = {
+	titles = {
+		d_axum
+		d_semien
+		d_afar
+		d_gondar
+		d_wag
+		d_gojjam
+		d_damot
+		d_shewa
+		d_nobatia
+		d_nubia
+		d_hayya
+		d_harer
+		d_sennar
+	}
+
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+		
+	}
+	
+	1337 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}
+
+#WEST AFRICA
+
+technology = {
+	titles = {
+		d_tlemcen
+		d_tripolitania
+		d_cyrenaica
+		d_tunis
+		d_kabylia
+		d_tangiers
+		d_fes
+		d_alger
+		d_marrakech
+		d_timbuktu
+		d_ghana
+		d_mali
+		d_songhay
+	}
+	
+	769 = {
+		military = 1.5
+		economy = 1.5
+		culture = 1.5
+		
+	}
+	
+	1337 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}

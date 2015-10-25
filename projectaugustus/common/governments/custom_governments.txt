@@ -1,0 +1,94 @@
+feudal_governments = {	
+	imperial_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			TEMPLE
+			CITY
+			FORT
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			muslim_government
+			consitutional_government
+			republic_government
+			merchant_republic_government
+			theocracy_government
+		}
+		free_revoke_on_tiers = {
+            king
+			duke
+            count
+            baron
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+		    is_patrician = no
+		    independent = yes
+		    primary_title = { NOT = { has_law = legislature_2 } }
+			primary_title = { has_law = imperial_administration }
+		}
+		
+		color = { 176 52 253 }
+
+		uses_decadence = yes
+		dukes_called_kings = yes
+		barons_need_dynasty = yes			
+		free_retract_vassalage = yes
+		can_grant_kingdoms_and_empires_to_other_government = yes
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+	}
+	
+	constitutional_government = {
+		preferred_holdings = { CASTLE }
+		allowed_holdings = { 
+			CASTLE 
+			TEMPLE
+			CITY
+			FORT
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Gets the wrong religion modifier instead
+			feudal_government
+			muslim_government
+			imperial_government
+			republic_government
+			merchant_republic_government
+			theocracy_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		potential = {
+		    is_patrician = no
+		    independent = yes
+			primary_title = { has_law = legislature_2 }
+			primary_title = { has_law = imperial_administration }
+		}
+		
+		color = { 236 178 69 }
+
+		uses_decadence = yes
+		dukes_called_kings = yes
+		barons_need_dynasty = yes
+		can_grant_kingdoms_and_empires_to_other_government = yes		
+
+		can_build_tribal = no
+		
+		ignore_in_vassal_limit_calculation = {
+			tribal_government
+		}
+	}
+}

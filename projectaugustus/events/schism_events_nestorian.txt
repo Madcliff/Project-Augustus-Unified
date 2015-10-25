@@ -1,0 +1,289 @@
+#######################################
+#
+# Nestorian Schism Events
+#
+# Event ID ID SHS.401 - SHS.499 reserved
+#
+#######################################
+
+# Written by Hansol "LumberKing" Lee
+
+namespace = SHS
+
+### The Apostolic Sees
+
+# Archbishopric of Constantinople
+character_event = {
+	id = SHN.011
+	desc = EVTDESCSHN.011
+	picture = GFX_evt_bishop_byzantine
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		NOT = { has_global_flag = arc_constantinople_nes }
+		religion = nestorian
+
+		completely_controls = c_byzantion
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTALoR.200
+		set_global_flag = arc_constantinople_nes
+		piety = 50
+	}
+}
+
+# Bishopric of Aquileia
+character_event = {
+	id = SHN.012
+	desc = EVTDESCSHN.012
+	picture = GFX_evt_bishop_byzantine
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		NOT = { has_global_flag = bis_aquileia_nes }
+		religion = nestorian
+
+		completely_controls = c_aquileia
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTALoR.200
+		set_global_flag = bis_aquileia_nes
+		piety = 50
+	}
+}
+
+# Archbishopric of Seleucia-Ctesiphon
+character_event = {
+	id = SHN.012
+	desc = EVTDESCSHN.013
+	picture = GFX_evt_bishop_byzantine
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		NOT = { has_global_flag = arc_baghdad_nes }
+		religion = nestorian
+
+		completely_controls = c_baghdad
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTALoR.200
+		set_global_flag = arc_baghdad_nes
+		piety = 250
+	}
+}
+
+### Repudating the Council of Chalcedon (Catholic)
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.401
+	title = EVTNAMESHS.401
+	desc = EVTDESCSHS.401
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.200
+
+		if = {
+			limit = { religion = nestorian }
+			set_parent_religion = { religion = catholic parent = nestorian }
+		}
+		if = {
+			limit = { religion = eutychian }
+			set_parent_religion = { religion = catholic parent = eutychian }
+		}
+
+		set_global_flag = nestorian_mended
+		give_nickname = nick_the_saint
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = catholic
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.402 }
+			}
+		}
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.402
+	title = EVTNAMESHS.402
+	desc = EVTDESCSHS.402
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}
+
+### Repudating the Council of Chalcedon (Orthodox)
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.403
+	title = EVTNAMESHS.403
+	desc = EVTDESCSHS.403
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.200
+
+		if = {
+			limit = { religion = nestorian }
+			set_parent_religion = { religion = orthodox parent = nestorian }
+		}
+		if = {
+			limit = { religion = eutychian }
+			set_parent_religion = { religion = orthodox parent = eutychian }
+		}
+
+		set_global_flag = imperial_mended
+		give_nickname = nick_the_saint
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = orthodox
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.404 }
+			}
+		}
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.404
+	title = EVTNAMESHS.404
+	desc = EVTDESCSHS.404
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTASHS.404
+		ai_chance = { factor = 75 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBSHS.404
+		ai_chance = { factor = 25 }
+	}
+}
+
+### Repudating the Council of Ephesus
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.405
+	title = EVTNAMESHS.405
+	desc = EVTDESCSHS.405
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.200
+
+		if = {
+			limit = { religion = nestorian }
+			set_parent_religion = { religion = miaphysite parent = nestorian }
+		}
+		if = {
+			limit = { religion = eutychian }
+			set_parent_religion = { religion = miaphysite parent = eutychian }
+		}
+
+		set_global_flag = schism_mended
+		give_nickname = nick_the_saint
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					religion = miaphysite
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.406 }
+			}
+		}
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.406
+	title = EVTNAMESHS.406
+	desc = EVTDESCSHS.406
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}

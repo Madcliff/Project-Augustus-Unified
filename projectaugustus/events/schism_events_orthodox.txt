@@ -1,0 +1,215 @@
+#######################################
+#
+# Orthodox Schism Events
+#
+# Event ID ID SHS.201 - SHS.299 reserved
+#
+#######################################
+
+# Written by Hansol "LumberKing" Lee
+
+namespace = SHS
+
+### Enforcing the Council of Chalcedon
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.201
+	title = EVTNAMESHS.201
+	desc = EVTDESCSHS.201
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.201
+
+		ai_chance = { factor = 50 }
+
+		wealth = 500
+
+		religion = FROM
+
+		if = {
+			limit = { religion = orthodox }
+			set_parent_religion = { religion = miaphysite parent = orthodox }
+		}
+		if = {
+			limit = { religion = monothelite }
+			set_parent_religion = { religion = miaphysite parent = monothelite }
+		}
+		if = {
+			limit = { religion = iconoclast }
+			set_parent_religion = { religion = miaphysite parent = iconoclast }
+		}
+
+		set_global_flag = chalcedon_mended
+		give_nickname = nick_the_heretic
+		hidden_tooltip = {
+			create_random_priest = {
+				dynasty = none
+				random_traits = yes
+			}
+			new_character = {
+				d_miaphysite = {
+					grant_title = PREV
+				}
+				wealth = 500
+			}
+			b_alexandria = {
+				grant_title = ROOT
+			}	
+			religion_authority = {
+				modifier = patriarchy_instituted
+				years = 20
+			}
+			any_playable_ruler = {
+				limit = {
+					religion = miaphysite
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.202 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.201
+
+		ai_chance = { factor = 50 }
+
+		give_nickname = nick_the_schismatic
+
+		prestige = 300
+		piety = 50
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.202
+	title = EVTNAMESHS.202
+	desc = EVTDESCSHS.202
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}
+
+### Enforcing the Council of Ephesus
+
+# The Schism Mended
+narrative_event = {
+	id = SHS.203
+	title = EVTNAMESHS.203
+	desc = EVTDESCSHS.203
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASHS.201
+
+		ai_chance = { factor = 50 }
+
+		wealth = 500
+
+		religion = FROM
+
+		if = {
+			limit = { religion = orthodox }
+			set_parent_religion = { religion = nestorian parent = orthodox }
+		}
+		if = {
+			limit = { religion = monothelite }
+			set_parent_religion = { religion = nestorian parent = monothelite }
+		}
+		if = {
+			limit = { religion = iconoclast }
+			set_parent_religion = { religion = nestorian parent = iconoclast }
+		}
+
+		set_global_flag = nestorian_mended
+		give_nickname = nick_the_heretic
+		hidden_tooltip = {
+			create_random_priest = {
+				dynasty = none
+				random_traits = yes
+			}
+			new_character = {
+				d_nestorian = {
+					grant_title = PREV
+				}
+				wealth = 500
+			}
+			b_antiocheia = {
+				grant_title = ROOT
+			}	
+			religion_authority = {
+				modifier = patriarchy_instituted
+				years = 20
+			}
+			any_playable_ruler = {
+				limit = {
+					religion = nestorian
+					controls_religion = no
+				}
+				narrative_event = { id = SHS.204 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSHS.201
+
+		ai_chance = { factor = 50 }
+
+		give_nickname = nick_the_schismatic
+
+		prestige = 300
+		piety = 50
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.204
+	title = EVTNAMESHS.204
+	desc = EVTDESCSHS.204
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}

@@ -1,0 +1,28 @@
+# County Title
+title = c_kashgar
+
+# Settlements
+max_settlements = 3
+
+b_kashgar = castle
+#b_atush = city
+#b_xiuxun = castle
+#b_weitou =
+#b_yopurga =
+#b_akto =
+#b_ulugqat =
+
+# Misc
+culture = scythian
+religion = buddhist
+
+# History
+1006.1.1 = {
+	culture = uyghur
+}
+1233.1.1 = {
+	religion = nestorian
+}
+1360.1.1 = {
+	religion = sunni
+}

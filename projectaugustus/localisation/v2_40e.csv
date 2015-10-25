@@ -1,0 +1,122 @@
+#CODE;ENGLISH;;;;;;;;;x 
+EVTOPTA_HL_121;My friend, gold is the sign of nobility!;;;;;;;;;x 
+abandon_province;Abandon Province;;;;;;;;;x 
+abandon_province_desc;It is time to abandon this land and move on to greener pastures.;;;;;;;;;x 
+nomads_exploited_land;Nomads Exploited Land;;;;;;;;;x 
+nomad_population_boom;Population Boom;;;;;;;;;x 
+nomad_population_boom_spillover;Population Boom Spillover;;;;;;;;;x 
+PROVINCE_ABANDONED_TOOLTIP;Abandon the province and let one of the neighbors grab it;;;;;;;;;x 
+ANY_SETTLEMENT;Any Holding;;;;;;;;;x 
+CB_NAME_INSTALLKHAN;Install Khagan;;;;;;;;;x 
+cb_install_khan_desc;The clans can forcefully depose the Khagan and replace him with someone more powerful.;;;;;;;;;x 
+elephant_trample_tactic;Elephant Trample Tactic;;;;;;;;;x 
+INTERACTION_NOT_ALREADY_ENEMIES;Not an enemy;;;;;;;;;x 
+CLAN_SAME_FAITH;Same Faith;;;;;;;;;x 
+DOES_NOT_RISK_MINOR_CLAN_RISING;Does NOT risk a Minor Clan Rising;;;;;;;;;x 
+RISKS_MINOR_CLAN_RISING;Risks a Minor Clan Rising;;;;;;;;;x 
+nomad_expansion_desc;If we have enough Prestige, we can subdue large foreign areas in a single war.;;;;;;;;;x 
+CB_NAME_NOMAD_EXPANSION;Subordination of [Title.GetBaseName];;;;;;;;;x 
+WAR_NAME_NOMAD_EXPANSION;$ORDER$$FIRST_ADJ$ War for $OTHER_TITLE$;;;;;;;;;x 
+POLL_TAX_DESC;Population of other religion groups pay the Jizya tax;;;;;;;;;x 
+CLAN_SIZE;§YMax Number of Clans§!;;;;;;;;;x 
+CLAN_SIZE_DESC;The maximum number of Clans is determined by the size of the realm. Having too many clans will negatively affect the §YClan Sentiment§! of all vassal clans towards their liege. There is also an absolute maximum of §Y$MAX$§! Clans, at which point you can no longer use the §YSplit Clan§! interaction and any subjugated §YNomad§! will become a §YTribal§! ruler instead.;;;;;;;;;x 
+#CLAN_LIMIT_FORMULA;§YAllowed Number of Clans§!;;;;;;;;;x 
+succ_nomad_succession;Nomad Succession;;;;;;;;;x 
+#succ_nomad_succession_desc;Under Nomad Succession, the son or brother with the most Prestige inherits. However, the heir must be of the same culture in order to be eligible for any inheritance at all. Also, adults always have precedence over children. If the Khagan's primary heir is still a child, the child inherits the clan title but the most prestigious adult clan leader takes over the Khaganate. Other clan leaders with more Prestige than the heir always get Claims on the Khaganate.;;;;;;;;;x 
+recent_county_uprising;Recent Uprising;;;;;;;;;x 
+prisoner_to_oubilette;Throw in Oubliette;;;;;;;;;x 
+prisoner_to_oubilette_desc;Have §Y[Root.GetTitledFirstName]§! thrown into the deepest hole in the dungeon and forget all about [Root.GetObjectPronoun]. There is no escape from the Oubliette! ([Root.GetPossPronounCap] life expectancy will not be high down there...);;;;;;;;;x 
+prisoner_to_dungeon;Move to Dungeon Cell;;;;;;;;;x 
+prisoner_to_dungeon_desc;Have §Y[Root.GetTitledFirstName]§! moved to a secure cell in the dungeon, where [Root.GetSubjectPronoun] can't escape easily, yet with a fair life expectancy.;;;;;;;;;x 
+prisoner_to_suite;Put in House Arrest;;;;;;;;;x 
+prisoner_to_suite_desc;Move §Y[Root.GetTitledFirstName]§! to a guarded suite of rooms. There is a higher risk of escape, but [Root.GetSubjectPronoun] will want for nothing and can expect to live for a long time.;;;;;;;;;x 
+MODIFIER_ADDED_NO_END;$WHERE$ gets '§Y$WHAT$§!', giving the following effects:\n$EFFECT$\n\n;;;;;;;;;x 
+NOMAD_LAND_OVERRUN;§YClan Land Demand§!;;;;;;;;;x 
+NOMAD_LAND_OVERRUN_DESC;The Khan holds too much land compared to the other Clans. He has to hand out §Y$NUM$§! counties or he might face revolts from the existing Clans, or even see a minor Clan rising up to seize its rightful position among the major Clans...;;;;;;;;;x 
+#NOMAD_LAND_OVERRUN_GENERIC_DESC;If the Khagan holds too much land compared to the other Clans, it will affect their Sentiments, and there might even be risk of a minor Clan rising up to seize its rightful position among the major Clans...;;;;;;;;;x 
+SENTIMENT_VS_CLAN;Sentiment against §YClan $CLAN$§!:;;;;;;;;;x 
+EMPTY_PROVINCES_IN_REALM;Nomadic Counties in Realm;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_1N;Revoke the §Y[ThirdPartyTitle.GetFullName]§! for §R$PRESTIGE$§! Prestige. This will lower §Y[Recipient.GetTitledFirstName]§!'s opinion of you by §R$OPINION$§!, and other non-Nomad vassals' by §R$OPINION2$§!.;;;;;;;;;x 
+EXILE_IMPRISONED_INTERACTION_LONG_DESC;Banished characters might escape with their lives, but they are forced to abdicate their titles, and their wealth is confiscated.;;;;;;;;;x 
+EXILE_IMPRISONED_INTERACTION_2;Banishing a vassal ruler for no valid reason is seen as tyrannical, lowering your other vassals' opinion of you by §R$OPINION$§!.;;;;;;;;;x 
+declare_feud_desc;Start a Feud with another Clan, allowing you to declare Dispute wars on them (unless you are the Khagan - you are never allowed to raid or declare wars on subject Clans.);;;;;;;;;x 
+SETTLE_FEUD_INTERACTION_DESC;Offer to reconcile and end our feud with the [Recipient.Clan.GetName]. This will cost us §R$COST$§!¤.;;;;;;;;;x 
+SETTLE_FEUD_INTERACTION_LONG_DESC;Offer to reconcile with the [Recipient.Clan.GetName] by paying them a significant amount of money - blood money...;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_DESC;Absorb the §Y[Recipient.Clan.GetName]§! Clan - useful if you have too many Clans.;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_LONG_DESC;Absorbing a Clan is not a popular action, but might be necessary if you have too many Clans.;;;;;;;;;x 
+FORM_BLOOD_OATH_INTERACTION_DESC;Swearing a Blood Oath will make the §Y[Recipient.Clan.GetName]§! Clan a staunch ally for as long as both rulers live. However, you can only have one other Clan as your Blood Brothers.;;;;;;;;;x 
+FORM_BLOOD_OATH_INTERACTION_LONG_DESC;Swearing a Blood Oath will make the other Clan a staunch ally for as long as both rulers live. However, you can only have one other Clan as your Blood Brothers.;;;;;;;;;x 
+adopt_faith_desc;You can adopt the faith of the [Root.Clan.GetName] Clan. The [Root.Religion.GetName] religion does have its advantages...;;;;;;;;;x 
+GOV_PRESTIGE_LAW_CHANGE_DESC;Laws are changed by expending Prestige, not by votes;;;;;;;;;x 
+LAW_NORMAL_CHANGE_PIETY_COST;With $GOV$ Government, it costs $PIETY$ $PIETYNAME$ to change Demesne Laws;;;;;;;;;x 
+LAW_DE_JURE_CHANGE_PIETY_COST;With $GOV$ Government, it costs $PIETY$ $PIETYNAME$ to change Crown Laws;;;;;;;;;x 
+LAW_NORMAL_CHANGE_PRESTIGE_COST;With $GOV$ Government, it costs $PRESTIGE$ Prestige to change Demesne Laws;;;;;;;;;x 
+LAW_DE_JURE_CHANGE_PRESTIGE_COST;With $GOV$ Government, it costs $PRESTIGE$ Prestige to change Crown Laws;;;;;;;;;x 
+NO_TEMPLE_HOLDING;No Temple Holding;;;;;;;;;x 
+clan_opinion_splitted_blood_brother_clan;Split the Clan of my Blood Brother;;;;;;;;;x 
+clan_opinion_splitted_my_clan;Split My Clan;;;;;;;;;x 
+PROVINCE_EXTEND_DESC;§YOpen Trade Post and Fort View§!;;;;;;;;;x 
+PROVINCE_EXTEND_DESC_LONG;Extend the interface to show the local Trade Post and Fort.;;;;;;;;;x 
+#BUILD_FORT_DESC;Forts can be built in all provinces you control, including occupied enemy counties. Forts cost §Y$COST$§!¤ to construct, and can be upgraded to regular Castle Holdings (§GRight-Click the Holding§!). Forts lock down your occupation of empty nomad provinces and negate the crushing Attrition enjoyed by certain Pagan tribes in their homelands.;;;;;;;;;x 
+BUILD_TRADE_POST_DESC;Trade Posts can be built for §Y$COST$§!¤ along the coasts by Patrician families in Merchant Republics - even in foreign territory. However, any local ruler is also allowed to build Trade Posts in their counties if the Silk Road happens to pass through. (See the §YTrade Zones§! map mode.);;;;;;;;;x 
+PROVINCE_NOT_UNDER_SIEGE;§Y$PROVINCE$§! is not under siege.;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_4;Other clan vassals will not oppose the absorption of a traitorous clan.;;;;;;;;;x 
+TECHPOINTS_FROM_BUILDINGS;From Buildings: §Y$AMOUNT$§!\n;;;;;;;;;x 
+RULER_HAS_MOVED_CAPITAL_RECENTLY_NOMAD;§Y[GetTitledFirstName]§! is not allowed to move the capital again for $MONTHS$ months.;;;;;;;;;x 
+MANPOWER_BREAKDOWN;Current Manpower Breakdown;;;;;;;;;x 
+LIEGE_LEVY_DESC_OWNS;§Y$VASSAL$§! owns §Y$NUM$§! Troops in total\n;;;;;;;;;x 
+LIEGE_LEVY_DESC_OWNS_DEPLETION;§Y$VASSAL$§! can currently raise §Y$NUM$§! Troops due to depletion\n;;;;;;;;;x 
+TRIBAL_VASSAL_CALL_TO_ARMS_BUTTON_NO_WAR;§Y$VASSAL$§! ( §Y$MEN$§! men );;;;;;;;;x 
+ALLIES_POTENTIAL;Potential War Allies;;;;;;;;;x 
+SUZERAIN_OF;Is a Suzerain of §Y$OTHER$§!;;;;;;;;;x 
+SET_SPECIAL_TITLE_DESC;§Y$CHARACTER$§! gains the title §Y$TITLE$§!\n;;;;;;;;;x 
+REMOVE_SPECIAL_TITLE_DESC;§Y$CHARACTER$§! loses the title §Y$TITLE$§!\n;;;;;;;;;x 
+BOY;boy;;;;;;;;;x 
+GIRL;lass;;;;;;;;;x 
+employ_soldier;Promote Commander;;;;;;;;;x 
+employ_soldier_desc;Promote a soldier from the ranks of your army to lead the troops on the battlefield.;;;;;;;;;x 
+ISNT_COUNTY_CAPITAL;Is NOT the county capital;;;;;;;;;x 
+IS_COUNTY_CAPITAL;Is the county capital;;;;;;;;;x 
+tocharian;Tocharian;;;;;;;;;x 
+no_horse_breeder_desc;There is always demand for fast and strong horses on the steppe.;;;;;;;;;x 
+TERRAIN_IS;Terrain;;;;;;;;;x 
+HORDE_RETTYPE_INDIAN;Elephant Cavalry;;;;;;;;;x 
+HORDE_RETTYPE_DESERT;Camel Cavalry;;;;;;;;;x 
+HOLYSITE_UNBUILT;The Holy Site of §Y$SITENAME$§! lacks a Temple Holding;;;;;;;;;x 
+CALL_ALLY_BLOOD_BROTHERS;\n§YSince you are blood brothers, they cannot refuse.§!;;;;;;;;;x 
+INTERACTION_CALL_TO_WAR_HAS_VALID_TARGET;There must be a war that §Y[Recipient.GetBestName]§! can be called to.;;;;;;;;;x 
+CALL_ALLY_INTERACTION_AUTOMATIC_SETUP;Call to Arms Automatic;;;;;;;;;x 
+CALL_ALLY_INTERACTION_AUTOMATIC_LOG;You have accepted a call to arms from §Y[Actor.GetBestName]§W for §Y$ACTOR_WARS$§!. Due to your blood oath, you had no other choice.;;;;;;;;;x 
+SUZERAIN_RELATIONSHIP;§Y$SUZERAIN$§! is the suzerain of §Y$TRIBUTARY$§!.;;;;;;;;;x 
+MERC_RIVAL_REASON;\n§Y[GetBestName]§! will not serve you as long as you are rivals.;;;;;;;;;x 
+MERC_FRIEND_REASON;\n§Y[GetBestName]§! will not serve you while you are fighting [GetPossPronoun] friend, §Y$CHAR$§!.;;;;;;;;;x 
+NOMAD_UNUSED_MANPOWER_MODIFIER;Unused Manpower;;;;;;;;;x 
+CURRENT_POPULATION;Current Population;;;;;;;;;x 
+adopt_tribalism_named;Settle as a Tribe in [Root.GetName];;;;;;;;;x 
+adopt_republicanism_named;Found a Merchant Republic in [Root.GetName];;;;;;;;;x 
+adopt_feudalism_named;Adopt Feudalism and settle in [Root.GetName];;;;;;;;;x 
+CHRONICLE_NOMAD_FOUNDED_MERCHANT_REPUBLIC;[From.GetDynName] founded a new merchant republic in [From.GetHerHis] domains, leaving nomad life behind.;;;;;;;;;x 
+nomad_adopt_republicanism;Found Merchant Republic;;;;;;;;;x 
+nomad_adopt_republicanism_named;Found a Merchant Republic in [Root.GetName];;;;;;;;;x 
+nomad_adopt_republicanism_desc;I can choose to leave behind my nomad way of life and found a Merchant Republic.;;;;;;;;;x 
+SET_TITLE_NOMAD_EFFECT;§Y$TITLE$§! becomes a nomad title.\n;;;;;;;;;x 
+UNSET_TITLE_NOMAD_EFFECT;§Y$TITLE$§! will no longer be a nomad title.\n;;;;;;;;;x 
+GLOBAL_MODIFIER_TRADE_ROUTE_WEALTH;Global Trade Route Wealth for Trade Posts;;;;;;;;;x 
+GLOBAL_MODIFIER_TRADE_ROUTE_VALUE;Global Trade Route Income for Trade Posts;;;;;;;;;x 
+GLOBAL_MODIFIER_TRADEVALUE;Global Trade Value in Trade Posts;;;;;;;;;x 
+HAS_COUNTY_CAPITAL;Has a County Capital;;;;;;;;;x 
+HASNT_COUNTY_CAPITAL;Does NOT have a County Capital;;;;;;;;;x 
+INTER_REALM_LOOTING;Internal Looting;;;;;;;;;x 
+INTER_REALM_LOOTING_DESC;Any gold that this unit loots will be added to its owner's treasury directly, since it is raiding in its own realm.;;;;;;;;;x 
+nomad_settle_conversion_tooltip;Due to your population size, additional provinces may be converted to [From.Culture.GetName] culture and the [From.Religion.GetName] faith.\n;;;;;;;;;x 
+is_not_busy_trigger_tooltip;Is NOT busy with feasting, hunting, travel or other special activities;;;;;;;;;x 
+ISNT_NOMADIC;Is NOT Nomadic;;;;;;;;;x 
+REALM_PROVINCE_STARTS;Any Realm Province;;;;;;;;;x 
+NOT_REALM_PROVINCE_STARTS;No Realm Province;;;;;;;;;x 
+EVTDESC6061;I woke this morning feeling much better. It seems that my illness has passed.;;;;;;;;;x 
+choose_warhorse_nomad;Choose a Warhorse;;;;;;;;;x 
+choose_warhorse_nomad_desc;It is fitting for a strong [Root.Culture.GetName] ruler to have a strong horse. I can go out and choose a personal warhorse from the herd. If I choose to do so, I should also invest in suitably impressive equipment for it.;;;;;;;;;x 
+nomad_acquires_warhorse_tooltip;Proceed to choose a horse.;;;;;;;;;x 
+nomad_warhorse;Impressive Warhorse;;;;;;;;;x 
+nomad_warhorse_desc;This character has chosen a particularly impressive horse as [GetHerHis] personal mount, granting [GetHerHim] additional prestige.;;;;;;;;;x 
+#;;;;;;;;;;x 

@@ -1,0 +1,105 @@
+#CODE;ENGLISH;;;;;;;;;x 
+FACTION_LEADER;Faction Leader;;;;;;;;;x 
+FACTION_MEMBER;Faction Member;;;;;;;;;x 
+opinion_defeated_major_revolt;Crushed a Major Revolt;;;;;;;;;x 
+opinion_spared_after_revolt;Spared after Rebellion;;;;;;;;;x 
+opinion_divine_blood_marriage;Divine Marriage;;;;;;;;;x 
+opinion_non_divine_marriage;Profane Marriage;;;;;;;;;x 
+action_uncover_plots;Scheme;;;;;;;;;x 
+miaphysite;Miaphysite;;;;;;;;;x 
+monothelite;Monothelite;;;;;;;;;x 
+k_miaphysite;The Miaphysite Papacy;;;;;;;;;x 
+k_miaphysite_adj;Coptic Papal;;;;;;;;;x 
+COPTIC_POPE;Coptic Pope;;;;;;;;;x 
+INTERACTION_CANNOT_REVOKE_LAST_TEMPLE_OFF_REL_HEAD;Cannot revoke the last Temple Holding from your religious head.;;;;;;;;;x 
+k_monophysite;The Monophysite Papacy;;;;;;;;;x 
+k_monophysite_adj;Monophysite Papal;;;;;;;;;x 
+MONOPHYSITE_POPE;Monophysite Pope;;;;;;;;;x 
+k_nestorian;The Patriarchate of the East;;;;;;;;;x 
+k_nestorian_adj;Eastern Patriarchal;;;;;;;;;x 
+PATRIARCH_IN_THE_EAST;Patriarch of the East;;;;;;;;;x 
+k_monothelite;The Monothelite Patriarchate;;;;;;;;;x 
+k_monothelite_adj;Monothelite Patriarchal;;;;;;;;;x 
+MONOTHELITE_PATRIARCH;Monothelite Patriarch;;;;;;;;;x 
+INTERACTION_TITLE_NOT_CONTESTED;Title cannot be the target or justification for any ongoing war;;;;;;;;;x 
+AND_TRIGGER_STARTS;All of the following must be true;;;;;;;;;x 
+WAR_INVALID_LOG;$WAR$ has ended inconclusively$REASON$;;;;;;;;;x 
+WAR_INVALID_CHARACTER_UNLANDED;\n($CHARACTER$ became unlanded);;;;;;;;;x 
+WAR_INVALID_LIEGE_HIERARCHY;\n(Liege Changes for $CHARACTER$);;;;;;;;;x 
+REL_PENTARCHS_NON_ORTHODOX_DESC;The Pentarchs were the original five Patriarchs of the Christian Church. Their authority as autocephalous Patriarchs over their respective ancient sees is still recognized within the $RELIGION$ church.;;;;;;;;;x 
+PENTARCH_DESC;There is currently no $RELIGION$ Bishop of §Y$TITLE$§!;;;;;;;;;x 
+HEAD_NOT_PENTARCH_DESC;$REL_HEAD$ does not currently hold §Y$TITLE$§!;;;;;;;;;x 
+AUTOCEPHALY_DRO;Apart from the original five Patriarchs - the Pentarchy - all other $RELIGION$ kingdoms or empires also have their own autonomous Patriarchs. The Court Chaplain of such a kingdom or empire is also considered the Patriarch of that realm. He will always do what his liege asks of him, but only the $REL_HEAD_TITLE$ can grant the Invasion Casus Belli. Each autocephalous Patriarch controls Excommunication within their respective realm.;;;;;;;;;x 
+LEAVE_FACTION_DIPLO_IMMUNE;Cannot leave once an ultimatum has been presented!;;;;;;;;;x 
+IS_DIPLO_IMMUNE;Is immune to hostile Liege actions;;;;;;;;;x 
+IS_NOT_DIPLO_IMMUNE;Is NOT immune to hostile Liege actions;;;;;;;;;x 
+INTERACTION_NO_HOSTILE_ACTIONS_VS_DIPLO_IMMUNE;[Recipient.GetTitledFirstName] is currently immune to hostile actions!;;;;;;;;;x 
+#SPAWN_UNIT_EFFECT;A §Y$NUM_TROOPS$§!-man regiment arrives in §Y$WHERE$§!.\n;;;;;;;;;x 
+#SPAWN_UNIT_EFFECT_SHIPS;§Y$NUM_SHIPS$§! ships arrive in §Y$WHERE$§!.\n;;;;;;;;;x 
+NO_FACTIONS_POSSIBLE_NOW;There are no possible Factions to start at this time;;;;;;;;;x 
+INTERACTION_CANNOT_JOIN_ENEMIES;Cannot join our current enemies' wars;;;;;;;;;x 
+AIREASON_IS_MY_REGENT;§Y[GetTitledFirstName]§! is my Regent;;;;;;;;;x 
+EVTDESC45000;Our righteous cause has attracted many supporters from all over the realm! [From.GetTitledFirstName] beware...;;;;;;;;;x 
+EVTDESC45001;Large bands of rebels and opportunists are flocking to the banner of the faithless traitor [From.GetTitledFirstName] in [From.Capital.GetName]!;;;;;;;;;x 
+EVTOPTA45001;Carrion for the vultures!;;;;;;;;;x 
+EVTDESC45002;The ongoing civil war has caused both loyal veterans and various adventurers to make their way to [Root.Capital.GetName] for the muster!;;;;;;;;;x 
+EVTDESC45003;Mobs of opportunists and loyal veterans have flocked to the banner of [From.GetTitledName] in [From.Capital.GetName] to fight against us!;;;;;;;;;x 
+EVTOPTA45003;What next? Women and children?;;;;;;;;;x 
+EVTDESC8037;Great [Root.GetTitledFirstName]! I and a powerful group of loyalists have presented an ultimatum to the usurper, [From.Liege.GetTitledName], demanding your rule over [From.SupportedClaimantTitle.GetName]. Wish us luck!\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA8037;This could get ugly...;;;;;;;;;x 
+EVTDESC20369;My liege, [FromFrom.GetTitledName] decided to not risk upsetting his vassals and confessed to the allegations of corruption. It will take some time before [FromFrom.GetHerHis] prestige recovers and I have with me the fine I collected.\n\nYour humble Spymaster,\n[From.GetTitledName];;;;;;;;;x 
+EVTTOOLTIP2484;The child is tutored by a guardian.;;;;;;;;;x 
+EVTOPTD4140;Inna Lillahi wa inna ilaihi raji'un;;;;;;;;;x 
+blinded_death;from complications of being blinded;;;;;;;;;x 
+successful_sally;Defending troops gets §G10.0%§! morale.\nDefending troops take §R2.5%§! losses.\n§GEnemy:§! Attacking troops take §R5.0%§! losses.;;;;;;;;;x 
+successful_sally_attacker;Attacking troops take §R5.0%§! losses.\n§GEnemy:§! Defending troops gets §G10.0%§! morale.\nDefending troops take §R2.5%§! losses.;;;;;;;;;x 
+failed_sally;Defending troops gets §R-10.0%§! morale.\nDefending troops take §R5.0%§! losses.\n§GEnemy:§! Attacking troops take §R2.5%§! losses.;;;;;;;;;x 
+siege_treachery;Defending troops gets §R-10.0%§! morale.;;;;;;;;;x 
+siege_disease;§GEnemy:§! Attacking troops take §R5.0%§! losses.;;;;;;;;;x 
+siege_raiders;§GEnemy:§! Attacking troops take §R1.0%§! losses.;;;;;;;;;x 
+siege_execute;§GEnemy:§! Defending troops gets §G10.0%§! morale.;;;;;;;;;x 
+siege_hunger;§GEnemy:§! Defending troops take §R5.0%§! losses.;;;;;;;;;x 
+siege_trader;§GEnemy:§! Defending troops gets §G10.0%§! morale.;;;;;;;;;x 
+siege_miracle;Attacking troops take §R90.0%§! losses.\nAttacking troops gets §R-90.0%§! morale.\n§GEnemy:§! Defending troops gets §G100.0%§! morale.;;;;;;;;;x 
+siege_personal_charge;Defending troops gets §R-10.0%§! morale.;;;;;;;;;x 
+siege_assault;Defending troops gets §R-20.0%§! morale.\nDefending troops take §R20.0%§! losses.\n§GEnemy:§! Attacking troops take §R10.0%§! losses.;;;;;;;;;x 
+siege_hide;Defending troops gets §R-5.0%§! morale.\nDefending troops take §R5.0%§! losses.\n§GEnemy:§! Attacking troops take §R15.0%§! losses.;;;;;;;;;x 
+INTERACTION_REQUIRES_BOTH_OF_AGE;Both §Y$ACTOR_PERSON$§W and §Y$RECIPIENT_PERSON$§W are at least §Y$YEARS$§! years old;;;;;;;;;x 
+EVTOPTA62039;Well done, brigands!;;;;;;;;;x 
+EVTNAME62011;A Miracle!;;;;;;;;;x 
+EVTNAME62041;A Disaster!;;;;;;;;;x 
+EVTOPTA62034;They will pay for this!;;;;;;;;;x 
+#EVTDESC62040;Tuscan raiders struck the enemy's camp at [From.Siege.GetName], but they were driven off when a surprise counter attack startled them.;;;;;;;;;x 
+EVTOPTA62041;How could this have happened?;;;;;;;;;x 
+#EVTDESC62043;We had the Muslim fortress surrounded, and the desperate defenders prayed all night for Allah to aid them in their plight. Then one of their Sufi mystics claimed to have a vision where all the rightly guided Caliphs appeared to him and told him that the will of God was that they must attack and with them would be thousands of angels, ranks on ranks. So the frenzied Muslims sallied forth from [From.Siege.GetName] and drove our startled men off.;;;;;;;;;x 
+EVTNAME62044;Enemy Assault;;;;;;;;;x 
+EVTDESC62044;The Christian commander besieging our fortress has taken it upon himself to personally lead the assault against our walls! His mad dash forward caught our brave defenders by surprise!;;;;;;;;;x 
+EVTOPTA62044;A madman!;;;;;;;;;x 
+EVTDESC62045;The enemy has launched a massive assault against our besieged fortress! Our forces were caught unprepared!;;;;;;;;;x 
+EVTOPTA62045;Man the defences!;;;;;;;;;x 
+CB_NAME_IMPERIAL;Imperial Reconquest of [Title.GetBaseName];;;;;;;;;x 
+WAR_NAME_IMPERIAL;$ORDER$$FIRST_ADJ$ Imperial Reconquest of $OTHER_TITLE$;;;;;;;;;x 
+imperial_reconquest_desc;The lost territory of the Roman Empire must be reclaimed! §Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by §Y$TARGET$§! within the de jure §Y$TITLE$§!.;;;;;;;;;x 
+COUNTS_AS_PURPLE_BORN;Used to designate heir.;;;;;;;;;x 
+AIREASON_IS_MY_PARENT;Is my parent;;;;;;;;;x 
+FLANK_DOES_NOT_HAVE_LEADER;Flank does NOT have a leader;;;;;;;;;x 
+FLANK_HAS_LEADER;Flank has a leader;;;;;;;;;x 
+CANNOT_BUY_RET_OCCUPIED;\nYou cannot create this retinue, you are not in control of any of your demesne holdings.;;;;;;;;;x 
+king_east_slavic;Grand Prince;;;;;;;;;x 
+king_female_east_slavic;Grand Princess;;;;;;;;;x 
+kingdom_of_east_slavic;Grand Principality of;;;;;;;;;x 
+duke_east_slavic;Prince;;;;;;;;;x 
+duke_female_east_slavic;Princess;;;;;;;;;x 
+duchy_of_east_slavic;Principality of;;;;;;;;;x 
+king_iranian;Shah;;;;;;;;;x 
+kingdom_of_iranian;Shahdom of;;;;;;;;;x 
+emperor_female_greek;Basilissa;;;;;;;;;x 
+EVTTOOLTIP94066;You work at improving your garden.;;;;;;;;;x 
+MediterraneanPortraitsDLC;Mediterranean Portraits;;;;;;;;;x 
+SongsOfByzantiumDLC;Songs of Byzantium;;;;;;;;;x 
+ByzantineUnitsDLC;Byzantine Unit Pack;;;;;;;;;x 
+CK2CoA2DLC;Dynasty Coat of Arms Pack 2;;;;;;;;;x 
+DIRECT_DJ_VASSAL_TITLE_STARTS;De Jure Vassal Title;;;;;;;;;x 
+ALL_DIRECT_DE_JURE_VASSAL_TITLES;All Direct De Jure Vassal Titles;;;;;;;;;x 
+WAR_INVALID_CB_TRIGGER;\n(Casus Belli no longer valid);;;;;;;;;x 
+AfricanPortraitsDLC;African Portraits;;;;;;;;;x 

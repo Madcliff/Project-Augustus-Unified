@@ -1,0 +1,17 @@
+337.1.1={
+    de_jure_liege = k_pannonia
+}
+835.1.1={
+	liege = k_germany
+	holder = 90107 #Louis II the German
+}
+839.1.1={
+        liege = 0
+	holder = 187011
+}
+861.1.1={
+	holder = 187012
+}
+876.1.1={
+        holder = 0
+}

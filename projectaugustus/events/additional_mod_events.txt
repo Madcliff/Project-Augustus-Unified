@@ -1,0 +1,5895 @@
+namespace = PA
+
+narrative_event = {
+	id = PA.1000305
+        title = EVTNAMPA.1000305
+        desc = EVTDESCPA.1000305
+        picture = GFX_evt_seige
+
+        trigger = {
+		NOT = { realm_size = 60 }
+		has_landed_title = k_kievan_rus
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+        option = {
+		name = OPTPA_1000307
+		k_kievan_rus = {
+			destroy_landed_title = THIS
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000306
+
+        hide_window = yes
+
+	trigger = {
+                tier = king
+	        independent = yes
+                has_landed_title = k_bulgaria
+                has_global_flag = bulgarian_patriarchate
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+		activate_title = { title = k_bulgaria2 status = yes }
+		k_bulgaria2 = {
+			grant_title = ROOT
+			copy_title_laws = k_bulgaria
+			copy_title_history = k_bulgaria
+		}
+                k_bulgaria = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_bulgaria2
+			}
+		}
+		k_bulgaria = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_bulgaria status = no }
+        }
+}
+
+character_event = {
+	id = PA.1000307
+
+        hide_window = yes
+
+	trigger = {
+                tier = king
+	        independent = yes
+                has_landed_title = k_serbia
+                has_global_flag = serbian_patriarchate
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+		activate_title = { title = k_serbia2 status = yes }
+		k_serbia2 = {
+			grant_title = ROOT
+			copy_title_laws = k_serbia
+			copy_title_history = k_serbia
+		}
+                k_serbia = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_serbia2
+			}
+		}
+		k_serbia = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_serbia status = no }
+        }
+}
+
+character_event = {
+	id = PA.1000308
+
+        hide_window = yes
+
+	trigger = {
+		k_bulgaria2 = {
+			has_holder = no
+                }
+                is_active_title = k_bulgaria2
+                has_global_flag = bulgarian_patriarchate
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+		activate_title = { title = k_bulgaria status = yes }
+		k_bulgaria = {
+			copy_title_history = k_bulgaria2
+		}
+                k_bulgaria2 = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_bulgaria
+			}
+		}
+		k_bulgaria2 = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_bulgaria2 status = no }
+        }
+}
+
+character_event = {
+	id = PA.1000309
+
+        hide_window = yes
+
+	trigger = {
+		k_serbia2 = {
+			has_holder = no
+                }
+                is_title_active = k_serbia2
+                has_global_flag = serbia_patriarchate
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+		activate_title = { title = k_serbia status = yes }
+		k_serbia = {
+			copy_title_history = k_serbia2
+		}
+                k_serbia2 = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_serbia
+			}
+		}
+		k_serbia2 = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_serbia2 status = no }
+        }
+}
+
+character_event = {
+	id = PA.1000310
+
+        hide_window = yes
+
+	trigger = {
+                NOT = { has_global_flag = hre_formed }
+                k_germany = {
+			de_jure_liege = e_hre
+                }                    
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+                e_hre = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = 0
+			}
+		}
+        }
+}
+
+character_event = {
+	id = PA.1000311
+
+        hide_window = yes
+
+	trigger = {
+                tier = emperor
+	        independent = yes
+                has_landed_title = k_bulgaria
+                has_global_flag = bulgarian_patriarchate
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+		activate_title = { title = k_bulgaria2 status = yes }
+		k_bulgaria2 = {
+                        grant_title = ROOT
+			copy_title_history = k_bulgaria
+		}
+                k_bulgaria = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_bulgaria2
+			}
+		}
+		k_bulgaria = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_bulgaria status = no }
+        }
+}
+
+character_event = {
+	id = PA.1000312
+
+        hide_window = yes
+
+	trigger = {
+                tier = emperor
+	        independent = yes
+                has_landed_title = k_serbia
+                has_global_flag = serbian_patriarchate
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+		activate_title = { title = k_serbia2 status = yes }
+		k_serbia2 = {
+                        grant_title = ROOT
+			copy_title_history = k_serbia
+		}
+                k_serbia = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_serbia2
+			}
+		}
+		k_serbia = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_serbia status = no }
+        }
+}
+
+# Qaisar Trait Gained
+character_event = {
+	id = PA.1000313
+	desc = EVTDESCPA.1000313
+	picture = GFX_evt_hagia_sophia_muslim
+	
+	trigger = {
+                is_female = no
+		NOT = { trait = qaisar }
+		has_landed_title = e_rum
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OPTPA_1000
+		add_trait = qaisar
+	}
+}
+
+# Qaisar Trait Lost
+character_event = {
+	id = PA.1000314
+	desc = EVTDESCPA.1000314
+	picture = GFX_evt_hagia_sophia_muslim
+	
+	trigger = {
+		trait = qaisar
+		is_alive = yes
+		NOT = { has_landed_title = e_rum }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OPTPA_10001
+		remove_trait = qaisar
+	}
+}
+
+
+# Qaisara Trait Gained
+character_event = {
+	id = PA.1000315
+	desc = EVTDESCPA.1000315
+	picture = GFX_evt_hagia_sophia_muslim
+	
+	trigger = {
+                is_female = yes
+		NOT = { trait = qaisara }
+		has_landed_title = e_rum
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OPTPA_1000
+		add_trait = qaisara
+	}
+}
+
+# Qaisara Trait Lost
+character_event = {
+	id = PA.1000316
+	desc = EVTDESCPA.1000316
+	picture = GFX_evt_hagia_sophia_muslim
+	
+	trigger = {
+		trait = qaisara
+		is_alive = yes
+		NOT = { has_landed_title = e_rum }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OPTPA_10001
+		remove_trait = qaisara
+	}
+}
+
+# Imperator Trait Gained
+character_event = {
+	id = PA.1000317
+	desc = EVTDESCPA.1000317
+	picture = GFX_evt_rome_restored_byzantine
+	
+	trigger = {
+        is_female = no
+		NOT = { trait = imperator }
+		has_landed_title = e_western
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OPTPA_1000
+		add_trait = imperator
+	}
+}
+
+# Imperator Trait Lost
+character_event = {
+	id = PA.1000318
+	desc = EVTDESCPA.1000318
+	picture = GFX_evt_rome_restored_byzantine
+	
+	trigger = {
+		trait = imperator
+		is_alive = yes
+		NOT = { has_landed_title = e_western }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OPTPA_10001
+		remove_trait = imperator
+	}
+}
+
+# Imperatrix Trait Gained
+character_event = {
+	id = PA.1000319
+	desc = EVTDESCPA.1000319
+	picture = GFX_evt_rome_restored_byzantine
+	
+	trigger = {
+                is_female = yes
+		NOT = { trait = imperatrix }
+		has_landed_title = e_western
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OPTPA_1000
+		add_trait = imperatrix
+	}
+}
+
+# Imperatrix Trait Lost
+character_event = {
+	id = PA.1000320
+	desc = EVTDESCPA.1000320
+	picture = GFX_evt_rome_restored_byzantine
+	
+	trigger = {
+		trait = imperatrix
+		is_alive = yes
+		NOT = { has_landed_title = e_western }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = OPTPA_10001
+		remove_trait = imperatrix
+	}
+}
+
+character_event = {
+	id = PA.1000321
+
+        hide_window = yes
+
+        trigger = {
+                tier = emperor
+                is_feudal = yes
+                independent = yes
+                has_law = imperial_administration
+                any_vassal = {
+                        tier = KING
+                        primary_title = { is_vice_royalty = yes }
+                }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = {
+		       name = OK
+               any_vassal = {
+                       limit = {
+                              tier = KING
+                              primary_title = { is_vice_royalty = yes }
+                       }
+                       primary_title = { add_claim = ROOT }
+               }
+        }
+}
+
+character_event = {
+	id = PA.1000323
+	
+        hide_window = yes
+	
+        trigger = {
+                has_law = vassal_wars_2
+		NOT = { has_law = crown_authority_2 }
+		NOT = { has_law = crown_authority_3 }
+		NOT = { has_law = crown_authority_4 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+	        name = OK
+                primary_title = { add_law = vassal_wars_1 }
+	}
+}
+
+character_event = {
+	id = PA.1000324
+	
+        hide_window = yes
+	
+        trigger = {
+                has_law = vassal_wars_1
+		NOT = { has_law = crown_authority_2 }
+		NOT = { has_law = crown_authority_3 }
+		NOT = { has_law = crown_authority_4 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+	        name = OK
+                primary_title = { add_law = vassal_wars_0 }
+	}
+}
+
+character_event = {
+	id = PA.1000325
+	
+        hide_window = yes
+	
+        trigger = {
+                has_law = vice_royalty_2
+		NOT = { has_law = crown_authority_2 }
+		NOT = { has_law = crown_authority_3 }
+		NOT = { has_law = crown_authority_4 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+	        name = OK
+                primary_title = { add_law = vice_royalty_1 }
+	}
+}
+
+character_event = {
+	id = PA.1000325
+	
+        hide_window = yes
+	
+        trigger = {
+                has_law = vice_royalty_1
+		NOT = { has_law = crown_authority_2 }
+		NOT = { has_law = crown_authority_3 }
+		NOT = { has_law = crown_authority_4 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+	        name = OK
+                primary_title = { add_law = vice_royalty_0 }
+	}
+}
+
+character_event = {
+	id = PA.1000326
+
+        hide_window = yes
+
+	trigger = {
+                has_landed_title = e_byzantium
+                has_landed_title = k_bulgaria2
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+		activate_title = { title = k_bulgaria status = yes }
+		k_bulgaria = {
+			copy_title_history = k_bulgaria2
+		}
+                k_bulgaria2 = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_bulgaria
+			}
+		}
+		k_bulgaria2 = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_bulgaria2 status = no }
+        }
+}
+
+character_event = {
+	id = PA.1000327
+
+        hide_window = yes
+
+	trigger = {
+                has_landed_title = e_byzantium
+                has_landed_title = k_serbia2
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+	option = {
+		name = OK
+		activate_title = { title = k_serbia status = yes }
+		k_serbia = {
+			copy_title_history = k_serbia2
+		}
+                k_serbia2 = {
+			any_direct_de_jure_vassal_title = {
+				de_jure_liege = k_serbia
+			}
+		}
+		k_serbia2 = {
+			destroy_landed_title = THIS
+		}
+		activate_title = { title = k_serbia2 status = no }
+        }
+}
+
+narrative_event = {
+	id = PA.1000328
+        title = EVTNAMPA.1000328
+        desc = EVTDESCPA.1000328
+        picture = GFX_evt_seige
+
+        trigger = {
+		has_landed_title = e_trebizond
+		NOT = { has_landed_title = c_trapezous }
+		NOT ={ any_vassal = {
+			has_landed_title = c_trapezous
+                        }
+		}
+        }
+
+        mean_time_to_happen = {
+		days = 1
+        }
+
+        option = {
+		name = OPTPA_1000328
+		e_trebizond = {
+			destroy_landed_title = THIS
+		}
+	}
+}
+
+# Italo-Roman province converts to Italian
+province_event = {
+	id = PA.1000330
+	desc = EVTDESCPA.1000330
+	picture = GFX_evt_stone_church
+
+	trigger = {
+                year = 867
+		culture = old_italian
+                NOT = { year = 1000 }
+		OR = { 
+			county = { kingdom = { title = k_lombardy } }
+			county = { kingdom = { title = k_sicily } }
+                }
+	}
+	
+	mean_time_to_happen = {
+		months = 2400
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture_group = latin
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_2
+		culture = italian
+	}
+}
+
+# Italo-Roman province converts to Roman
+character_event = {
+	id = PA.1000331
+	desc = EVTDESCPA.1000331
+	picture = GFX_evt_stone_church
+
+        trigger = {
+                culture = roman
+                any_realm_province = {
+                        culture = old_italian
+                }
+                has_global_flag = revived_roman_culture
+	}
+
+	mean_time_to_happen = {
+		months = 3600
+	}
+
+	option = {
+		name = OPTPA_1000331
+		random_realm_province = {
+			limit = {
+				culture_group = old_italian
+			}
+			culture = roman
+		}
+	}
+}
+
+# Lombard province converts to Italian
+province_event = {
+	id = PA.1000332
+	desc = EVTDESCPA.1000332
+	picture = GFX_evt_stone_church
+
+	trigger = {
+                year = 867
+		culture = lombard
+                NOT = { year = 1000 }
+		OR = { 
+			county = { kingdom = { title = k_lombardy } }
+			county = { kingdom = { title = k_sicily } }
+                }
+                NOT = { county = { title = c_grisons } }
+                NOT = { county = { title = c_lombardia } }
+	}
+	
+	mean_time_to_happen = {
+		months = 2400
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture_group = latin
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_2
+		culture = italian
+	}
+}
+
+# Sacred Band Initiation Ceremony
+province_event = {
+	id = PA.1000333
+
+        hide_window = yes
+
+	trigger = {
+        NOT = { has_trait = homosexual }
+        has_landed_title = d_sacred_band
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = Ok
+		add_trait = homosexual
+	}
+}
+
+# Re-establish Nokkor
+narrative_event = {
+	id = PA.1000000334
+
+        hide_window = yes
+	
+	trigger = {
+        has_landed_title = e_hunnicia
+        has_global_flag = formed_imperial_nokkor
+		  any_vassal = {
+			NOT = { has_landed_title = d_nokkor }
+		  }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		activate_title = { title = d_nokkor status = yes }
+		create_random_soldier = {
+			dynasty = none
+			random_traits = yes
+			religion = ROOT
+		}
+		new_character = {
+			d_nokkor = {
+				grant_title = PREV
+			}
+			set_defacto_liege = ROOT
+		}
+		
+	}
+	
+	option = {
+		name = OK
+	}
+		
+}
+
+# Destroy Nokkor
+narrative_event = {
+	id = PA.1000000335
+
+        hide_window = yes
+	
+	trigger = {
+		  e_hunnicia = {
+			  has_holder = no
+		  }
+		  d_nokkor = {
+			  has_holder = yes
+		  }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		destroy_landed_title = d_nokkor
+		activate_title = { title = d_nokkor status = no }
+		
+	}
+	
+	option = {
+		name = OK
+        }	
+}
+
+########################################
+# Imperial Order
+########################################
+
+# The son of a ruler volunteers to join the Order
+character_event = {
+	id = PA.1000336
+	desc = EVTDESCPA.1000336
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = imperial
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_imperial_order
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_d_imperial_order }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_d_imperial_order
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.5
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.7
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.0
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.0
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.0
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.0
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.0
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1030 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = PA.1000357
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_SOA_1030 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Order
+character_event = {
+	id = PA.1000337
+	desc = EVTDESCPA.1000337
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1031 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = PA.1000338
+				tooltip = EVTTOOLTIPPA_100000339
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1031 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = PA.1000339
+				tooltip = EVTTOOLTIP_SOA_1033
+			}
+		}
+	}
+}
+
+# Son or brother joins the Order
+character_event = {
+	id = PA.1000338
+	desc = EVTDESCPA.1000338
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_imperial_order = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clr_wealth = PREV
+					}
+					add_trait = celibate
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Order
+character_event = {
+	id = PA.1000339
+	desc = EVTDESCPA.1000339
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1033
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+# Ping event when donating money to the Order
+character_event = {
+	id = PA.1000340
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		wealth = 300
+		FROM = {
+			letter_event = {
+				id = PA.1000341
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_generous_donation
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when donating money to the Order
+letter_event = {
+	id = PA.1000341
+	desc = EVTDESC_SOA_1141
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+	}
+}
+
+# The Grand Master humbly requests the right to build a castle in your demesne
+character_event = {
+	id = PA.1000342
+	
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		religion = imperial
+		is_heretic = no
+		
+		d_imperial_order = {
+			holder_scope = {
+				wealth = 300
+				NOT = {
+					realm_size = 10
+				}
+			}
+		}
+		
+		any_demesne_province = {
+			has_empty_holding = yes
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_d_imperial_order }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_d_imperial_order
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			d_imperial_order = {
+				holder_scope = {
+					NOT = { demesne_size = 1 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			d_imperial_order = {
+				holder_scope = {
+					NOT = { demesne_size = 2 }
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_imperial_order = {
+				holder_scope = {
+					num_of_count_titles = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_imperial_order = {
+				holder_scope = {
+					realm_size = 5
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				has_empty_holding = yes
+			}
+			province_event = {
+				id = PA.1000343
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+province_event = {
+	id = PA.1000343
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		d_imperial_order = {
+			holder_scope = {
+				character_event = {
+					id = PA.1000344
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+character_event = {
+	id = PA.1000344
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			character_event = {
+				id = PA.1000345
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+letter_event = {
+	id = PA.1000345
+	desc = EVTDESCPA.1000345
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1023 # Agree
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				has_character_modifier = expelled_d_imperial_order
+			}
+		}
+		
+		hidden_tooltip = {
+			FROMFROM = {
+				province_event = { id = PA.1000346 }
+			}
+			remove_character_modifier = expelled_d_imperial_order
+		}
+		
+		piety = 200
+		wealth = 100
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1153 # Refuse
+		ai_chance = {
+			factor = 20
+		}
+		
+		piety = -100
+	}
+}
+
+# Castle has been erected
+province_event = {
+	id = PA.1000346
+	desc = EVTDESCPA.1000346
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			wealth = -300
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1024
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
+	}
+}
+
+# Ping event when expelling the Order
+character_event = {
+	id = PA.1000347
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		any_title_under = {
+			limit = {
+				tier = BARON
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+				}
+			}
+			usurp_title = FROM
+		}
+	
+		FROM = {
+			letter_event = {
+				id = PA.1000348
+			}
+		}
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_expelled_from_realm
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when expelling the Order
+letter_event = {
+	id = PA.1000348
+	desc = EVTDESCPA.1000348
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTB_SOA_1061
+	}
+}
+
+########################################
+# Sacred Band
+########################################
+
+# The son of a ruler volunteers to join the Order
+character_event = {
+	id = PA.1000349
+	desc = EVTDESCPA.1000349
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = hellenic_pagan
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_sacred_band
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_d_sacred_band }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_d_sacred_band
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 0
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.7
+			trait = content
+		}
+		modifier = {
+			factor = 0
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.0
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.0
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.0
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.0
+			trait = homosexual
+		}
+		modifier = {
+			factor = 2.0
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.0
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1030 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = PA.1000350
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_SOA_1030 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Order
+character_event = {
+	id = PA.1000350
+	desc = EVTDESCPA.1000350
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1031 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = PA.1000351
+				tooltip = EVTTOOLTIPPA_100000351
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1031 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = PA.1000352
+				tooltip = EVTTOOLTIP_SOA_1033
+			}
+		}
+	}
+}
+
+# Son or brother joins the Order
+character_event = {
+	id = PA.1000353
+	desc = EVTDESCPA.1000353
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_sacred_band = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clr_wealth = PREV
+					}
+					add_trait = homosexual
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Order
+character_event = {
+	id = PA.1000354
+	desc = EVTDESCPA.1000354
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1033
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+# Ping event when donating money to the Order
+character_event = {
+	id = PA.1000355
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		wealth = 300
+		FROM = {
+			letter_event = {
+				id = PA.1000356
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_generous_donation
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when donating money to the Order
+letter_event = {
+	id = PA.1000356
+	desc = EVTDESC_SOA_1141
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+	}
+}
+
+# The Grand Master humbly requests the right to build a castle in your demesne
+character_event = {
+	id = PA.1000357
+	
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		religion = hellenic_pagan
+		is_heretic = no
+		
+		d_sacred_band = {
+			holder_scope = {
+				wealth = 300
+				NOT = {
+					realm_size = 10
+				}
+			}
+		}
+		
+		any_demesne_province = {
+			has_empty_holding = yes
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_d_sacred_band }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_d_sacred_band
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			d_sacred_band = {
+				holder_scope = {
+					NOT = { demesne_size = 1 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			d_sacred_band = {
+				holder_scope = {
+					NOT = { demesne_size = 2 }
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_sacred_band = {
+				holder_scope = {
+					num_of_count_titles = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_sacred_band = {
+				holder_scope = {
+					realm_size = 5
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				has_empty_holding = yes
+			}
+			province_event = {
+				id = PA.1000358
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+province_event = {
+	id = PA.1000358
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		d_sacred_band = {
+			holder_scope = {
+				character_event = {
+					id = PA.1000359
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+character_event = {
+	id = PA.1000359
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			character_event = {
+				id = PA.1000360
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+letter_event = {
+	id = PA.1000360
+	desc = EVTDESCPA.1000360
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1023 # Agree
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				has_character_modifier = expelled_d_sacred_band
+			}
+		}
+		
+		hidden_tooltip = {
+			FROMFROM = {
+				province_event = { id = PA.1000361 }
+			}
+			remove_character_modifier = expelled_d_sacred_band
+		}
+		
+		piety = 200
+		wealth = 100
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1153 # Refuse
+		ai_chance = {
+			factor = 20
+		}
+		
+		piety = -100
+	}
+}
+
+# Castle has been erected
+province_event = {
+	id = PA.1000361
+	desc = EVTDESCPA.1000361
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			wealth = -300
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1024
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
+	}
+}
+
+# Ping event when expelling the Order
+character_event = {
+	id = PA.1000362
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		any_title_under = {
+			limit = {
+				tier = BARON
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+				}
+			}
+			usurp_title = FROM
+		}
+	
+		FROM = {
+			letter_event = {
+				id = PA.1000363
+			}
+		}
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_expelled_from_realm
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when expelling the Order
+letter_event = {
+	id = PA.1000363
+	desc = EVTDESCPA.1000363
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTB_SOA_1061
+	}
+}
+
+# Bolghar province converts to Bulgarian
+province_event = {
+	id = PA.1000363
+	desc = EVTDESCPA.1000363
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		culture = bolghar
+        NOT = { year = 1000 }
+		county = { kingdom = { title = k_bulgaria } }
+		owner = {
+			NOT = {	culture = bulgarian }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+
+	option = {
+		name = EVTOPTA_CM_2
+		culture = bulgarian
+	}
+}
+
+# Deification Event (Father)
+character_event = {
+	id = PA.1000188	
+	desc = EVTDESCPA.1000188
+	picture = GFX_evt_religious_exultation
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+                OR={
+                       tier = king
+                       tier = emperor
+                }
+                is_ruler = yes
+                is_feudal = yes
+                religion_group = pagan_group
+                NOT = { has_character_modifier = divine_father }
+		father = {
+                        religion_group = pagan_group
+			OR = {
+                              piety = 1000
+                              diplomacy = 20
+                              stewardship = 20
+                              martial = 20
+                              intrigue = 20
+                              learning = 20
+			}
+			is_alive = no
+			}
+		}
+
+	option = {
+		name = OPTAPA_1000188
+		add_character_modifier = {
+                        name = divine_father
+                        duration = -1
+                        inherit = no
+                }
+                piety = 100
+                father_even_if_dead = {
+                         give_nickname = nick_the_divine
+                }
+
+	ai_chance = {
+	        factor = 1
+	        }
+        }
+
+	option = {
+		name = OPTBPA_1000188
+		piety = -100
+
+	ai_chance = {
+	        factor = 0
+	        }
+        }
+}
+
+# Deification Event (Mother)
+character_event = {
+	id = PA.1000189	
+	desc = EVTDESCPA.1000189
+	picture = GFX_evt_religious_exultation
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+                OR={
+                       tier = king
+                       tier = emperor
+                }
+                is_ruler = yes
+                is_feudal = yes
+                religion_group = pagan_group
+                NOT = { has_character_modifier = divine_mother }
+		mother = {
+                        religion_group = pagan_group
+			OR = {
+                              piety = 1000
+                              diplomacy = 20
+                              stewardship = 20
+                              martial = 20
+                              intrigue = 20
+                              learning = 20
+			}
+			is_alive = no
+			}
+		}
+
+	option = {
+		name = OPTAPA_1000189
+		add_character_modifier = {
+                        name = divine_mother
+                        duration = -1
+                        inherit = no
+                }
+                piety = 100
+                mother_even_if_dead = {
+                         give_nickname = nick_the_divine
+                }
+
+	ai_chance = {
+	        factor = 1
+	        }
+        }
+
+	option = {
+		name = OPTBPA_1000189
+		piety = -100
+
+	ai_chance = {
+	        factor = 0
+	        }
+        }
+}
+
+# Canonisation Event (Father)
+character_event = {
+	id = PA.1000364	
+	desc = EVTDESCPA.1000364
+	picture = GFX_evt_religious_exultation
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+                OR={
+                       tier = king
+                       tier = emperor
+                }
+                is_ruler = yes
+                is_feudal = yes
+                religion_group = christian
+                NOT = { has_character_modifier = canonised_father }
+		father = {
+                        religion_group = christian
+                        NOT = { trait = cruel }
+                        NOT = { trait = proud }
+                        NOT = { trait = greedy }
+                        NOT = { trait = cynical }
+                        NOT = { trait = lustful }
+                        NOT = { trait = lunatic }
+                        NOT = { trait = drunkard }
+                        NOT = { trait = implailer }
+                        NOT = { trait = kinslayer }
+                        NOT = { trait = possessed }
+                        NOT = { trait = homosexual }
+                        NOT = { trait = excommunicated }
+			OR = {
+                              piety = 2000
+                              learning = 20
+			}
+			is_alive = no
+			}
+		}
+
+	option = {
+		name = OPTAPA_1000188
+		add_character_modifier = {
+                        name = canonised_father
+                        duration = -1
+                        inherit = no
+                }
+                piety = 100
+                father_even_if_dead = {
+                         give_nickname = nick_the_saint
+                }
+
+	ai_chance = {
+	        factor = 1
+	        }
+        }
+
+	option = {
+		name = OPTBPA_1000188
+		piety = -100
+
+	ai_chance = {
+	        factor = 0
+	        }
+        }
+}
+
+# Canonisation Event (Mother)
+character_event = {
+	id = PA.1000365	
+	desc = EVTDESCPA.1000365
+	picture = GFX_evt_religious_exultation
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	trigger = {
+                OR={
+                       tier = king
+                       tier = emperor
+                }
+                is_ruler = yes
+                is_feudal = yes
+                religion_group = christian
+                NOT = { has_character_modifier = canonised_mother }
+		mother = {
+                        religion_group = christian
+                        NOT = { trait = cruel }
+                        NOT = { trait = proud }
+                        NOT = { trait = greedy }
+                        NOT = { trait = cynical }
+                        NOT = { trait = lustful }
+                        NOT = { trait = lunatic }
+                        NOT = { trait = drunkard }
+                        NOT = { trait = implailer }
+                        NOT = { trait = kinslayer }
+                        NOT = { trait = possessed }
+                        NOT = { trait = homosexual }
+                        NOT = { trait = excommunicated }
+			OR = {
+                              piety = 2000
+                              learning = 20
+			}
+			is_alive = no
+			}
+		}
+
+	option = {
+		name = OPTAPA_1000189
+		add_character_modifier = {
+                        name = canonised_mother
+                        duration = -1
+                        inherit = no
+                }
+                piety = 100
+                mother_even_if_dead = {
+                         give_nickname = nick_the_saint
+                }
+
+	ai_chance = {
+	        factor = 1
+	    }
+     }
+
+	option = {
+		name = OPTBPA_1000189
+		piety = -100
+
+	ai_chance = {
+	        factor = 0
+	    }
+    }
+}
+
+# Magyar Horde Event (Generation)
+character_event = {
+	id = PA.1000368
+
+        hide_window = yes	
+
+        trigger = {
+                year = 845
+                NOT = { year = 867 }
+                controls_religion = yes
+                NOT = { has_global_flag = magyars }
+                NOT = { has_global_flag = magyar_migration }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+                name = OK
+                set_global_flag = magyars
+                create_random_soldier = {
+			random_traits = no
+	                dynasty=708
+			name = "Álmos"
+			culture = hungarian
+			religion = tengri_pagan
+			age = 35
+			attributes = {
+	                        martial= 8
+	                        diplomacy= 7
+			}
+			trait=ambitious
+			trait=gregarious
+			trait=just
+			trait=patient
+			trait=brilliant_strategist
+			trait=inspiring_leader
+		}
+		new_character = {
+			k_magyar = {
+				grant_title = PREV
+			}
+			set_defacto_liege = THIS
+                }
+        }
+}
+
+# Magyar Horde Event (Invasion)
+narrative_event = {
+	id = PA.1000369	
+        title = EVTNAMPA.1000369
+        desc = EVTDESCPA.1000369
+        picture = GFX_evt_seige
+
+        trigger = {
+                year = 845
+                NOT = { year = 867 }
+                has_landed_title = k_magyar
+                NOT = { has_global_flag = magyar_migration }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+                name = OK
+
+                wealth = 200
+                prestige = 750
+
+		set_global_flag = magyar_migration
+                522 = { # Pest
+			kingdom = {
+				ROOT = {
+					war = {
+						casus_belli = tribal_invasion
+                                                target = PREVPREV # The top liege of the owner
+                                                thirdparty_title = PREV # The de jure kingdom
+                                        }
+                                }
+                        }
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = no
+			age = 23
+			attributes = {
+				martial = 6
+			}
+			trait = tough_soldier
+		}
+		new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				owner = PREV
+				troops = {
+                                archers = { 1000 1000 }
+                                pikemen = { 800 800 }
+			        light_cavalry = { 1200 1200 }
+				light_infantry = { 1000 1000 }
+				heavy_infantry = { 2400 2400 }
+				knights = { 800 800 }
+                                }
+                                earmark = hungarian_conquest
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = no
+			age = 30
+			attributes = {
+				martial = 6
+			}
+			trait = tough_soldier
+		}
+		new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				owner = PREV
+				troops = {
+                                archers = { 1000 1000 }
+                                pikemen = { 800 800 }
+				light_cavalry = { 1200 1200 }
+				light_infantry = { 1000 1000 }
+				heavy_infantry = { 2400 2400 }
+				knights = { 800 800 }
+                                }
+                                earmark = hungarian_conquest
+			}
+		}
+		create_character = {
+			random_traits = yes
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = no
+			age = 27
+			attributes = {
+				martial = 6
+			}
+			trait = tough_soldier
+		}
+		new_character = {
+			spawn_unit = {
+				province = 544 # Korsun
+				owner = PREV
+			        troops = {
+                                archers = { 1000 1000 }
+                                pikemen = { 800 800 }
+				light_cavalry = { 1200 1200 }
+				light_infantry = { 1000 1000 }
+				heavy_infantry = { 2400 2400 }
+				knights = { 800 800 }
+                                }
+                                earmark = hungarian_conquest
+			}
+		}
+	}
+}
+
+# Re-establish Golden Band
+narrative_event = {
+	id = PA.1000370
+
+        hide_window = yes
+	
+	trigger = {
+                  has_landed_title = e_carthage
+                  has_global_flag = formed_golden_band
+		  any_vassal = {
+			NOT = { has_landed_title = d_golden_band }
+		  }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		activate_title = { title = d_golden_band status = yes }
+		create_random_soldier = {
+			dynasty = none
+			random_traits = yes
+			religion = ROOT
+		}
+		new_character = {
+			d_golden_band = {
+				grant_title = PREV
+			}
+			set_defacto_liege = ROOT
+		}
+		
+	}
+	
+	option = {
+		name = OK
+	}		
+}
+
+# Destroy Golden Band
+narrative_event = {
+	id = PA.1000371
+
+        hide_window = yes
+	
+	trigger = {
+		  e_carthage = {
+			  has_holder = no
+		  }
+		  d_golden_band = {
+			  has_holder = yes
+		  }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		destroy_landed_title = d_golden_band
+		activate_title = { title = d_golden_band status = no }
+		
+	}
+	
+	option = {
+		name = OK
+        }	
+}
+
+########################################
+# Saint Maron
+########################################
+
+# The son of a ruler volunteers to join the Order
+character_event = {
+	id = PA.1000372
+	desc = EVTDESCPA.1000372
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = catholic
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_saint_maron
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_d_saint_maron }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_d_saint_maron
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.5
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.7
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.0
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.0
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.0
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.0
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.0
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1030 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = PA.1000373
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_SOA_1030 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Order
+character_event = {
+	id = PA.1000373
+	desc = EVTDESCPA.1000373
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1031 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = PA.1000374
+				tooltip = EVTTOOLTIPPA_100000374
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1031 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = PA.1000375
+				tooltip = EVTTOOLTIP_SOA_1033
+			}
+		}
+	}
+}
+
+# Son or brother joins the Order
+character_event = {
+	id = PA.1000374
+	desc = EVTDESCPA.1000374
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_saint_maron = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clr_wealth = PREV
+					}
+					add_trait = celibate
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Order
+character_event = {
+	id = PA.1000375
+	desc = EVTDESCPA.1000375
+	picture = GFX_evt_western_knights_byzantine
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1033
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+# Ping event when donating money to the Order
+character_event = {
+	id = PA.1000376
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		wealth = 300
+		FROM = {
+			letter_event = {
+				id = PA.1000377
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_generous_donation
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when donating money to the Order
+letter_event = {
+	id = PA.1000377
+	desc = EVTDESC_SOA_1141
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+	}
+}
+
+# The Grand Master humbly requests the right to build a castle in your demesne
+character_event = {
+	id = PA.1000378
+	
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		religion = catholic
+		is_heretic = no
+		
+		d_saint_maron = {
+			holder_scope = {
+				wealth = 300
+				NOT = {
+					realm_size = 10
+				}
+			}
+		}
+		
+		any_demesne_province = {
+			has_empty_holding = yes
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_d_saint_maron }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_d_saint_maron
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			d_saint_maron = {
+				holder_scope = {
+					NOT = { demesne_size = 1 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			d_saint_maron = {
+				holder_scope = {
+					NOT = { demesne_size = 2 }
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_saint_maron = {
+				holder_scope = {
+					num_of_count_titles = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_saint_maron = {
+				holder_scope = {
+					realm_size = 5
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				has_empty_holding = yes
+			}
+			province_event = {
+				id = PA.1000379
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+province_event = {
+	id = PA.1000379
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		d_saint_maron = {
+			holder_scope = {
+				character_event = {
+					id = PA.1000380
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+character_event = {
+	id = PA.1000380
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			character_event = {
+				id = PA.1000381
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+letter_event = {
+	id = PA.1000381
+	desc = EVTDESCPA.1000381
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1023 # Agree
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				has_character_modifier = expelled_d_saint_maron
+			}
+		}
+		
+		hidden_tooltip = {
+			FROMFROM = {
+				province_event = { id = PA.1000382 }
+			}
+			remove_character_modifier = expelled_d_saint_maron
+		}
+		
+		piety = 200
+		wealth = 100
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1153 # Refuse
+		ai_chance = {
+			factor = 20
+		}
+		
+		piety = -100
+	}
+}
+
+# Castle has been erected
+province_event = {
+	id = PA.1000382
+	desc = EVTDESCPA.1000382
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			wealth = -300
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1024
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
+	}
+}
+
+# Ping event when expelling the Order
+character_event = {
+	id = PA.1000383
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		any_title_under = {
+			limit = {
+				tier = BARON
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+				}
+			}
+			usurp_title = FROM
+		}
+	
+		FROM = {
+			letter_event = {
+				id = PA.1000384
+			}
+		}
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_expelled_from_realm
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when expelling the Order
+letter_event = {
+	id = PA.1000384
+	desc = EVTDESCPA.1000384
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTB_SOA_1061
+	}
+}
+
+character_event = {
+		id = PA.1000385
+
+        hide_window = yes
+
+	trigger = {
+			    is_patrician = no
+                independent = yes
+				is_merchant_republic = no
+                NOT = { has_law = legislature_2 }
+		        has_law = imperial_administration
+                NOT = { government = imperial_government }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+        set_government_type = imperial_government
+	}
+}
+
+character_event = {
+		id = PA.1000386
+
+        hide_window = yes
+
+	trigger = {		                
+	            is_patrician = no
+                independent = yes
+                has_law = legislature_2 
+				is_merchant_republic = no
+				has_law = imperial_administration
+				NOT = { government = constitutional_government }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+        set_government_type = constitutional_government
+	}
+}
+
+
+character_event = {
+		id = PA.1000387
+
+        hide_window = yes
+
+	trigger = {
+			    is_patrician = no
+                independent = yes
+                has_law = legislature_1
+				is_merchant_republic = no
+		        has_law = imperial_administration
+                government = consitutional_government
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+                set_government_type = imperial_government
+	}
+}
+
+character_event = {
+		id = PA.1000388
+
+        hide_window = yes
+
+	trigger = {
+                independent = yes
+                NOT = { religion_group = muslim }
+		        NOT = { has_law = imperial_administration }
+                government = imperial_government
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+        set_government_type = feudal_government
+	}
+}
+
+character_event = {
+		id = PA.1000389
+
+        hide_window = yes
+
+	trigger = {
+		        is_patrician = no	
+                independent = yes
+                religion_group = muslim
+				is_merchant_republic = no
+		        NOT = { has_law = imperial_administration }
+                government = imperial_government
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+        set_government_type = muslim_government
+	}
+}
+
+character_event = {
+	id = PA.1000390
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    has_landed_title = e_roman_empire
+		
+		any_vassal = {
+		    has_minor_title = title_prefect
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_senator
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					tier = emperor
+                }
+				NOT = { any_vassal = { has_minor_title = title_senator } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+		
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+	}
+} 
+
+character_event = {
+	id = PA.1000391
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    has_landed_title = e_western
+		
+		any_vassal = {
+		    has_minor_title = title_prefect
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_senator
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					tier = emperor
+                }
+				NOT = { any_vassal = { has_minor_title = title_senator } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator
+		}
+	}
+} 
+
+character_event = {
+	id = PA.1000392
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    has_landed_title = e_byzantium
+		
+		any_vassal = {
+		    has_minor_title = title_eparch
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_senator2
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					tier = emperor
+                }
+				NOT = { any_vassal = { has_minor_title = title_senator2 } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+		
+		random_vassal = {
+			limit = {
+				higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_senator2
+		}
+	}
+} 
+
+character_event = {
+	id = PA.1000394
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = christian
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_speaker
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_speaker } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_speaker
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000395
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = christian
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+		
+		any_vassal = {
+		    has_minor_title = title_speaker
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_lord_peer
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_lord_peer } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+		
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker }
+				NOT = { has_minor_title = title_lord_peer }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_lord_peer
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000396
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = muslim
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_speaker2
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_speaker2 } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_speaker2
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000397
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = muslim
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+		
+		any_vassal = {
+		    has_minor_title = title_speaker2
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_councillor
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_councillor } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+		
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker2 }
+				NOT = { has_minor_title = title_councillor }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000398
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = jewish_group
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_nasi
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_nasi } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_nasi
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000399
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = jewish_group
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+		
+		any_vassal = {
+		    has_minor_title = title_nasi
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_mufla
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_mufla } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+		
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_nasi }
+				NOT = { has_minor_title = title_mufla }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_mufla
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000400
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = zoroastrian_group
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_speaker3
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_speaker3 } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_speaker3
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000401
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = zoroastrian_group
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+		
+		any_vassal = {
+		    has_minor_title = title_speaker3
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_councillor2
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_councillor2 } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+		
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker3 }
+				NOT = { has_minor_title = title_councillor2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor2
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000402
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = pagan_group
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_speaker4
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_speaker4 } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_speaker4
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000403
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    religion_group = pagan_group
+		NOT = { has_landed_title = e_byzantium }
+		NOT = { has_landed_title = e_roman_empire }
+		NOT = { has_landed_title = e_western }
+		
+		any_vassal = {
+		    has_minor_title = title_speaker4
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_high_elder
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_high_elder } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+		
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+		
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker4 }
+				NOT = { has_minor_title = title_high_elder }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_high_elder
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000404
+
+    hide_window = yes
+		
+	trigger = {
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+		is_merchant_republic = yes
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_speaker5
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_speaker5 } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_speaker5
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000405
+
+    hide_window = yes
+		
+	trigger = {
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+		is_merchant_republic = yes
+		
+		any_vassal = {
+		    has_minor_title = title_speaker5
+		}
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_councillor3
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					OR = {
+					    tier = king
+					    tier = emperor
+					}
+                }
+				NOT = { any_vassal = { has_minor_title = title_councillor3 } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+		
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_speaker5 }
+				NOT = { has_minor_title = title_councillor3 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_councillor3
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000406
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    has_landed_title = e_roman_empire
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_prefect
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					tier = emperor
+                }
+				NOT = { any_vassal = { has_minor_title = title_prefect } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_prefect
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000407
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    has_landed_title = e_western
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_prefect
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					tier = emperor
+                }
+				NOT = { any_vassal = { has_minor_title = title_prefect } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_prefect }
+				NOT = { has_minor_title = title_senator }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_prefect
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000408
+
+    hide_window = yes
+		
+	trigger = {
+		is_feudal = yes
+        OR = {
+		    has_law = legislature_1
+			has_law = legislature_2
+	    }
+	    has_landed_title = e_byzantium
+
+		NOT = {
+			any_vassal = {
+					has_minor_title = title_eparch
+                }
+        }
+
+		any_vassal = {
+			is_adult = yes
+			ROOT = {
+				is_feudal = yes
+				primary_title = {
+					tier = emperor
+                }
+				NOT = { any_vassal = { has_minor_title = title_eparch } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OK
+		random_vassal = {
+			limit = {
+			    higher_tier_than = BARON
+				NOT = { has_minor_title = title_eparch }
+				NOT = { has_minor_title = title_senator2 }
+				is_adult = yes
+				is_female = no
+				NOT = { trait = inbred }
+				NOT = { trait = lunatic }
+				NOT = { trait = incapable }
+				NOT = { trait = imbecile }
+				NOT = { trait = slow }
+			}
+			give_minor_title = title_eparch
+		}
+	}
+}
+
+character_event = {
+	id = PA.1000409
+	
+	trigger = {
+	    NOT = { religion_group = pagan_group }
+	    has_character_modifier = divine_father
+	}
+	
+	option = {
+	    name = OK
+		remove_character_modifier = divine_father 
+	}
+}
+
+character_event = {
+	id = PA.1000410
+	
+	trigger = {
+	    NOT = { religion_group = pagan_group }
+	    has_character_modifier = divine_mother
+	}
+	
+	option = {
+	    name = OK
+		remove_character_modifier = divine_mother 
+	}
+}
+
+character_event = {
+	id = PA.1000411
+	
+	trigger = {
+	    NOT = { religion_group = christian }
+	    has_character_modifier = canonised_father
+	}
+	
+	option = {
+	    name = OK
+		remove_character_modifier = canonised_father 
+	}
+}
+
+character_event = {
+	id = PA.1000412
+	
+	trigger = {
+	    NOT = { religion_group = christian }
+	    has_character_modifier = canonised_mother
+	}
+	
+	option = {
+	    name = OK
+		remove_character_modifier = canonised_mother
+	}
+}
+
+# Thracian province converts to Romanian
+character_event = {
+	id = PA.1000413
+	desc = EVTDESCPA.1000413
+	picture = GFX_evt_stone_church
+
+    trigger = {
+		year = 850
+        NOT = { year = 1000 }
+        any_realm_province = {
+            culture = thracian
+        }
+        NOT = { has_global_flag = thracia }
+	}
+
+	mean_time_to_happen = {
+		months = 3600
+	}
+
+	option = {
+		name = OPTPA_1000413
+		random_realm_province = {
+			limit = {
+				culture_group = thracian
+			}
+			culture = romanian
+		}
+	}
+}
+
+# Dacian province converts to Romanian
+character_event = {
+	id = PA.1000414
+	desc = EVTDESCPA.1000414
+	picture = GFX_evt_stone_church
+
+    trigger = {
+		year = 850
+        NOT = { year = 1000 }
+        any_realm_province = {
+            culture = dacian
+        }
+        NOT = { has_global_flag = dacia }
+	}
+
+	mean_time_to_happen = {
+		months = 3600
+	}
+
+	option = {
+		name = OPTPA_1000414
+		random_realm_province = {
+			limit = {
+				culture_group = dacian
+			}
+			culture = romanian
+		}
+	}
+}
+
+# Rhaetian province converts to Romansh
+character_event = {
+	id = PA.1000415
+	desc = EVTDESCPA.1000415
+	picture = GFX_evt_stone_church
+
+    trigger = {
+		year = 850
+        NOT = { year = 1000 }
+        any_realm_province = {
+            culture = rhaetian
+        }
+	}
+
+	mean_time_to_happen = {
+		months = 3600
+	}
+
+	option = {
+		name = OPTPA_1000415
+		random_realm_province = {
+			limit = {
+				culture_group = rhaetian
+			}
+			culture = romansh
+		}
+	}
+}
+
+# Illyrian province converts to Albanian
+character_event = {
+	id = PA.1000416
+	desc = EVTDESCPA.1000416
+	picture = GFX_evt_stone_church
+
+        trigger = {
+		    year = 850
+            NOT = { year = 1000 }
+            any_realm_province = {
+                culture = illyrian
+            }
+            NOT = { has_global_flag = illyria
+	    }
+
+	mean_time_to_happen = {
+		months = 3600
+	}
+
+	option = {
+		name = OPTPA_1000416
+		random_realm_province = {
+			limit = {
+				culture_group = illyrian
+			}
+			culture = albanian
+		}
+	}
+}
+
+narrative_event = {
+	id = PA.1000417
+	title = EVTNAMEPA.1000417
+	desc = EVTDESCPA.1000417
+	picture = GFX_evt_rome_restored_byzantine
+
+        trigger = {
+		    has_landed_title = e_western
+			has_global_flag = fall_of_wre
+            NOT = { has_global_flag = wre_revived }
+	    }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OPTPA_1000417
+		set_global_flag = wre_revived
+		prestige = 500
+	}
+}
+
+narrative_event = {
+	id = PA.1000418
+	title = EVTNAMEPA.1000418
+	desc = EVTDESCPA.1000418
+	picture = GFX_evt_religious_exultation
+
+        trigger = {
+		    has_landed_title = e_carthage
+            NOT = { has_global_flag = carthage_revived }
+	    }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OPTPA_1000418
+		set_global_flag = carthage_revived
+		prestige = 500
+	}
+}
+
+narrative_event = {
+	id = PA.1000419
+	title = EVTNAMEPA.1000419
+	desc = EVTDESCPA.1000419
+	picture = GFX_evt_religious_exultation
+
+        trigger = {
+		    has_landed_title = e_macedonia
+            NOT = { has_global_flag = macedonia_revived }
+	    }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OPTPA_1000419
+		set_global_flag = macedonia_revived
+		prestige = 500
+	}
+}
+
+narrative_event = {
+	id = PA.1000420
+	title = EVTNAMEPA.1000420
+	desc = EVTDESCPA.1000420
+	picture = GFX_evt_mongols_pillage_oldgods
+
+        trigger = {
+		    has_landed_title = e_hunnicia
+			has_global_flag = fall_of_hunnicia
+            NOT = { has_global_flag = hunnicia_revived }
+	    }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = OPTPA_1000419
+		set_global_flag = hunnicia_revived
+		prestige = 500
+	}
+}

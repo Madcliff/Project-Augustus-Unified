@@ -1,0 +1,6 @@
+# TRIGGERED ONLY
+################
+
+nick_the_apostate = {}
+nick_the_heretic = {}
+nick_the_schismatic = {}

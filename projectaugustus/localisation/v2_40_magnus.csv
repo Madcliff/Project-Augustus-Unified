@@ -1,0 +1,13 @@
+#CODE;ENGLISH;;;;;;;;;x 
+MERCHANT_REPUBLICS_CANNOT_MOVE_CAPITAL;Merchant Republics are not allowed to change Capital, unless when moving to a city in a province with a port from a province without a port;;;;;;;;;x 
+PRESTIGE_LAW_PASSED_SETUP;Law Instituted;;;;;;;;;x 
+GOV_BUILD_WITH_PIETY_DESC;Uses Piety to build $HOLDINGS_LIST$ Holdings;;;;;;;;;x 
+GOVERNMENT_VASSALS_LESS_THAN;Have less than §Y$NUM$§! §Y$GOVERNMENT$§! vassals;;;;;;;;;x 
+GOVERNMENT_VASSALS_AT_LEAST;Have at least §Y$NUM$§! §Y$GOVERNMENT$§! vassals;;;;;;;;;x 
+FEATURES;Features;;;;;;;;;x 
+HINT_SPLASH_2_INTRO;You are playing a [Culture.GetName] [Religion.GetName] [PrimaryTitle.GetRulerTitle].;;;;;;;;;x 
+UNSELECT_CHAR;Unselect Character;;;;;;;;;x 
+tribal_governments_FEATURES;§Y*§! Can reform to Feudal, Iqta and Merchant Republic governments;;;;;;;;;x 
+nomadic_governments_FEATURES;§Y*§! Can reform to Feudal, Iqta and Merchant Republic governments\n§Y*§! Can pillage settlements to gain wealth and technology\n§Y*§!Can abandon provinces to gain increased population and manpower growth;;;;;;;;;x 
+GOVERNMENT_UNLOCKS;Governments unlocked: ;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_2G;Our $GOVERNMENT$ administration allows us to revoke §Y$TIER$§! titles without objections from the aristocracy;;;;;;;;;x 

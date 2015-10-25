@@ -1,0 +1,93 @@
+#######################################
+#
+# Muslim Schism Events
+#
+# Event ID ID SHS.501 - SHS.599 reserved
+#
+#######################################
+
+# Written by Hansol "LumberKing" Lee
+
+namespace = SHS
+
+### The Unification of Islam
+
+# Islam Unified
+narrative_event = {
+	id = SHS.501
+	title = EVTNAMESHS.501
+	desc = EVTDESCSHS.501
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPASHS.501
+
+		religion = FROM
+
+		if = {
+			limit = { religion = sunni }
+			set_parent_religion = { religion = shiite parent = sunni }
+			set_parent_religion = { religion = hurufi parent = sunni }
+			set_parent_religion = { religion = ibadi parent = sunni }
+		}
+		if = {
+			limit = { religion = shiite }
+			set_parent_religion = { religion = sunni parent = shiite }
+			set_parent_religion = { religion = quran parent = shiite }
+			set_parent_religion = { religion = ibadi parent = shiite }
+		}
+		if = {
+			limit = { religion = hurufi }
+			set_parent_religion = { religion = sunni parent = hurufi }
+			set_parent_religion = { religion = quran parent = hurufi }
+			set_parent_religion = { religion = ibadi parent = hurufi }
+		}
+		if = {
+			limit = { religion = ibadi }
+			set_parent_religion = { religion = sunni parent = ibadi }
+			set_parent_religion = { religion = quran parent = ibadi }
+			set_parent_religion = { religion = shiite parent = ibadi }
+			set_parent_religion = { religion = hurufi parent = ibadi }
+		}
+		if = {
+			limit = { religion = kharijite }
+			set_parent_religion = { religion = sunni parent = kharijite }
+			set_parent_religion = { religion = quran parent = kharijite }
+			set_parent_religion = { religion = shiite parent = kharijite }
+			set_parent_religion = { religion = hurufi parent = kharijite }
+		}
+
+		set_global_flag = islam_united
+		give_nickname = nick_the_saint
+	}
+}
+
+# Convert or Not?
+narrative_event = {
+	id = SHS.502
+	title = EVTNAMESHS.501
+	desc = EVTDESCSHS.501
+	
+	picture = GFX_evt_icon
+	
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = EVTOPTALoR.211
+		ai_chance = { factor = 50 }
+		religion = FROM
+		any_courtier = {
+			religion = FROM
+		}
+		capital_scope = {
+			religion = FROM
+		}
+	}
+	option = { # No
+		name = EVTOPTBLoR.211
+		ai_chance = { factor = 50 }
+	}
+}

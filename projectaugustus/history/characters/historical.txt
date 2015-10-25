@@ -1,0 +1,94 @@
+200000030 = {
+        name="Edeko"
+        religion="arian"
+        culture="suevic"
+        410.1.1={
+                birth=yes
+        }
+        468.1.1={
+                death=yes
+        }
+}
+200000031 = {
+        name="Odacer"
+        religion="arian"
+        culture="suevic"
+        father=200000030
+        trait="skilled_tactician"
+        trait="ambitious"
+        trait="diligent"
+        trait="deceitful"
+        trait="patient"
+        trait="brave"
+        433.1.1={
+                birth=yes
+        }
+        458.1.1={
+                add_spouse=200000029
+        }
+        493.3.15={
+		death = {
+			    death_reason = death_murder
+			    killer = 168775
+		    }
+        }
+}
+200000032 = {
+        name="Onoulphus"
+        religion="arian"
+        culture="suevic"
+        father=200000030
+        435.1.1={
+                birth=yes
+        }
+        493.3.15={
+		death = {
+			    death_reason = death_murder
+			    killer = 168775
+		    }
+        }
+}
+200000033 = {
+        name="Thela"
+        religion="arian"
+        culture="suevic"
+        father=200000031
+        mother=200000029
+        460.1.1={
+                birth=yes
+        }
+        493.3.15={
+		    death = {
+			    death_reason = death_murder
+			    killer = 168775
+		    }
+        }
+}
+200000034 = {
+        name="Thassalio"
+        religion="arian"
+        culture="suevic"
+        father=200000031
+        mother=200000029
+        461.1.1={
+                birth=yes
+        }
+        493.3.15={
+		    death = {
+			    death_reason = death_murder
+			    killer = 168775
+		    }
+        }
+}
+200000035 = {
+        name="Tétény"
+        dynasty=200000003
+        religion="tengri_pagan"
+        culture="hungarian"
+        730.1.1={
+                birth=yes
+        }
+        780.3.15={
+		death = yes
+        }
+}

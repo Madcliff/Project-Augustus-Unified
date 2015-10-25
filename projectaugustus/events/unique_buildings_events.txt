@@ -1,0 +1,976 @@
+namespace = PA
+
+character_event = {
+	id = PA.1000220
+	desc = EVTDESCPA.1000220
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_roma
+                NOT = { has_global_flag = rome_capital }
+                NOT = { has_global_flag = great_pantheon }
+                NOT = { has_global_flag = petersbasillica }
+                NOT = { has_character_flag = great_pantheon }
+        }
+
+        option = { name = OPTAPA_100220
+               set_global_flag = great_pantheon
+               clr_global_flag = no_great_pantheon
+               b_roma = { add_building = tp_great_pantheon }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = great_pantheon
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000221
+	desc = EVTDESCPA.1000221
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_roma
+                has_global_flag = great_pantheon
+                NOT = { has_global_flag = rome_capital }
+                NOT = { has_global_flag = petersbasillica }
+                NOT = { has_character_flag = ignored_st_peters }
+        }
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = great_pantheon
+               set_global_flag = no_great_pantheon
+               b_roma = { add_building = tp_stpeters }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_st_peters
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000222
+	desc = EVTDESCPA.1000222
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_byzantion
+                NOT = { has_global_flag = temple_of_hecate }
+                NOT = { has_character_flag = temple_of_hecate }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               set_global_flag = temple_of_hecate
+               clr_global_flag = no_temple_of_hecate
+               b_hagiasophia = { add_building = tp_temple_of_hecate }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = temple_of_hecate
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000223
+	desc = EVTDESCPA.1000223
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_byzantion
+                has_global_flag = temple_of_hecate
+                NOT = { has_character_flag = ignored_hagia_sophia }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = temple_of_hecate
+               set_global_flag = no_temple_of_hecate
+               b_hagiasophia = { add_building = tp_hagiasophia }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_hagia_sophia
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000224
+	desc = EVTDESCPA.1000224
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_antiocheia
+                NOT = { has_global_flag = sacred_colossi }
+                NOT = { has_character_flag = sacred_colossi }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               set_global_flag = sacred_colossi
+               clr_global_flag = no_sacred_colossi
+               b_antiocheia = { add_building = tp_sacred_colossi }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = sacred_colossi
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000225
+	desc = EVTDESCPA.1000225
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_antiocheia
+                has_global_flag = sacred_colossi
+                NOT = { has_character_flag = ignored_antiochchurch }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = sacred_colossi
+               set_global_flag = no_sacred_colossi
+               b_antiocheia = { add_building = tp_antiochchurch }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_antiochchurch
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000226
+	desc = EVTDESCPA.1000226
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_jerusalem
+                NOT = { has_global_flag = temple_of_jupiter }
+                NOT = { has_character_flag = temple_of_jupiter }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               set_global_flag = temple_of_jupiter
+               clr_global_flag = no_temple_of_jupiter
+               b_jerusalem = { add_building = tp_temple_of_jupiter }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = temple_of_jupiter
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000227
+	desc = EVTDESCPA.1000227
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_jerusalem
+                has_global_flag = temple_of_jupiter
+                NOT = { has_character_flag = ignored_holysepulchre }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = temple_of_jupiter
+               set_global_flag = no_temple_of_jupiter
+               b_jerusalem = { add_building = tp_holysepulchre }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_holysepulchre
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000228
+	desc = EVTDESCPA.1000228
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_alexandria
+                NOT = { has_global_flag = pharos_lighthouse }
+                NOT = { has_character_flag = pharos_lighthouse }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               set_global_flag = pharos_lighthouse
+               b_alexandria = { add_building = tp_pharos_lighthouse }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = pharos_lighthouse
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000229
+	desc = EVTDESCPA.1000229
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_alexandria
+                has_global_flag = pharos_lighthouse
+                NOT = { has_character_flag = ignored_st_marks }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_alexandria = { add_building = tp_stmarks2 }
+               set_global_flag = reopened_st_marks
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_st_marks
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000230
+	desc = EVTDESCPA.1000230
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_alexandria
+                has_global_flag = pharos_lighthouse
+                has_global_flag = reopened_st_marks
+                NOT = { has_character_flag = ignored_st_marks }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_alexandria = { remove_building = tp_stmarks2 }
+               set_global_flag = closed_st_marks
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_stmarks
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000231
+	desc = EVTDESCPA.1000231
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_alexandria
+                has_global_flag = closed_stmarks
+                NOT = { has_character_flag = ignored_st_marks }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_alexandria = { add_building = tp_stmarks2 }
+               clr_global_flag = closed_st_marks
+               set_global_flag = reopened_st_marks
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_st_marks
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000232
+	desc = EVTDESCPA.1000232
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_roma
+                has_global_flag = rome_capital
+                NOT = { has_global_flag = great_pantheon }
+                NOT = { has_global_flag = petersbasillica }
+                NOT = { has_character_flag = great_pantheon }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               set_global_flag = great_pantheon
+               b_roma = { add_building = great_pantheon }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = great_pantheon
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000233
+	desc = EVTDESCPA.1000233
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_roma
+                has_global_flag = rome_capital
+                has_global_flag = great_pantheon
+                NOT = { has_global_flag = petersbasilica }
+                NOT = { has_character_flag = ignored_st_peters }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = great_pantheon
+               b_roma = { add_building = tp_stpeters2 }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_st_peters
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000234
+	desc = EVTDESCPA.1000234
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_roma
+                has_global_flag = rome_capital
+                NOT = { has_global_flag = great_pantheon }
+                NOT = { has_character_flag = great_pantheon }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               set_global_flag = great_pantheon
+               clr_global_flag = no_great_pantheon
+               b_roma = { add_building = great_pantheon }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = great_pantheon
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000235
+	desc = EVTDESCPA.1000235
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_roma
+                has_global_flag = rome_capital
+                has_global_flag = great_pantheon
+                NOT = { has_character_flag = ignored_st_peters }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = great_pantheon
+               set_global_flag = no_great_pantheon
+               b_roma = { add_building = tp_stpeters2 }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_st_peters
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000236
+	desc = EVTDESCPA.1000236
+	picture = GFX_evt_crusaders
+
+
+        trigger = {
+                independent = yes
+                religion = hellenic_pagan
+                completely_controls = c_roma
+                has_global_flag = petersbasilica
+                NOT = { has_global_flag = great_pantheon }
+                NOT = { has_character_flag = great_pantheon }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               set_global_flag = great_pantheon
+               clr_global_flag = no_great_pantheon
+               b_roma = { add_building = great_pantheon }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = great_pantheon
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000237
+	desc = EVTDESCPA.1000237
+	picture = GFX_evt_crusaders
+
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_roma
+                has_global_flag = great_pantheon
+                has_global_flag = petersbasilica
+                NOT = { has_character_flag = ignored_st_peters }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = great_pantheon
+               set_global_flag = no_great_pantheon
+               b_roma = { add_building = tp_stpeters3 }
+               wealth = -1000
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_st_peters
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000238
+	desc = EVTDESCPA.1000238
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_roma
+                has_global_flag = great_pantheon
+                NOT = { religion_group = christian }
+                NOT = { religion_group = pagan_group }
+                NOT = { has_character_flag = ignored_pagan_rome }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = great_pantheon
+               set_global_flag = no_great_pantheon
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_pagan_rome
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000239
+	desc = EVTDESCPA.1000239
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_byzantion
+                has_global_flag = temple_of_hecate
+                NOT = { religion_group = christian }
+                NOT = { religion_group = pagan_group }
+                NOT = { has_character_flag = ignored_pagan_constantinople }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = temple_of_hecate
+               set_global_flag = no_temple_of_hecate
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_pagan_constantinople
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000240
+	desc = EVTDESCPA.1000240
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_antiocheia
+                has_global_flag = sacred_colossi
+                NOT = { religion_group = christian }
+                NOT = { religion_group = pagan_group }
+                NOT = { has_character_flag = ignored_pagan_antioch }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = sacred_colossi
+               set_global_flag = no_sacred_colossi
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_pagan_antioch
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000241
+	desc = EVTDESCPA.1000241
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_jerusalem
+                has_global_flag = temple_of_jupiter
+                NOT = { religion_group = christian }
+                NOT = { religion_group = pagan_group }
+                NOT = { has_character_flag = ignored_pagan_jerusalem }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               clr_global_flag = temple_of_jupiter
+               set_global_flag = no_temple_of_jupiter
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_pagan_jerusalem
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000242
+	desc = EVTDESCPA.1000242
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_mecca
+                NOT = { religion_group = muslim }
+                b_mecca = { has_building = tp_grand_mosque }
+                NOT = { has_character_flag = ignored_grand_mosque }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_mecca = { remove_building = tp_grand_mosque }
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_grand_mosque
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000243
+	desc = EVTDESCPA.1000243
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_medina
+                NOT = { religion_group = muslim }
+                b_medina = { has_building = tp_prophetnosque }
+                NOT = { has_character_flag = ignored_prophetsmosque }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_medina = { remove_building = tp_prophetsmosque }
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_prophetsmosque
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000244
+	desc = EVTDESCPA.1000244
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_paderborn
+                NOT = { religion_group = pagan_group }
+                b_paderobrn = { has_building = tp_irminsul }
+                NOT = { has_global_flag = irminsul }
+                NOT = { has_character_flag = irminsul }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_paderborn = { remove_building = tp_irminsul }
+               set_global_flag = irminsul
+
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = irminsul
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000245
+	desc = EVTDESCPA.1000245
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_paderborn
+                NOT = { religion_group = pagan_group }
+                has_global_flag = irminsul
+                b_paderobrn = { has_building = tp_irminsul2 }
+                NOT = { has_character_flag = irminsul2 }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_paderborn = { remove_building = tp_irminsul2 }
+
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = irminsul2
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000246
+	desc = EVTDESCPA.1000246
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_jerusalem
+                NOT = { religion_group = jewish_group }
+		has_global_flag = third_temple_built
+                NOT = { has_character_flag = ignored_third_temple }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_jerusalem = { remove_building = tp_third_temple }
+	       clr_global_flag = third_temple_built
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_third_temple
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000247
+	desc = EVTDESCPA.1000247
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                completely_controls = c_dwin
+                has_global_flag = etchmiadzin
+                NOT = { religion_group = muslim }
+                NOT = { religion_group = christian }
+                b_etchmiadzin = { has_building = tp_etchmiadzin }
+                NOT = { has_character_flag = ignored_etchmiadzin }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_etchmiadzin = { remove_building = tp_etchmiadzin }
+               clr_global_flag = etchmiadzin
+
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_etchmiadzin
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}
+
+character_event = {
+	id = PA.1000254
+	desc = EVTDESCPA.1000254
+	picture = GFX_evt_crusaders
+
+        trigger = {
+                independent = yes
+                religion_group = christian
+                completely_controls = c_dwin
+                NOT = { has_global_flag = etchmiadzin }
+                NOT = { has_character_flag = ignored_etchmiadzin }
+        }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = { name = OPTAPA_100220
+               b_etchmiadzin = { add_building = tp_etchmiadzin }
+               set_global_flag = etchmiadzin
+
+        }
+        option = { name = OPTBPA_100220
+               set_character_flag = ignored_etchmiadzin
+        }
+        option = { name = OPTCPA_100220
+               custom_tooltip = {
+			text = disable_building_events
+	       }
+               set_character_flag = disabled_building_events
+        }
+}

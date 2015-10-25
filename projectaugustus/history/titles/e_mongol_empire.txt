@@ -1,0 +1,37 @@
+20.1.1={
+	active = no
+}
+1066.1.1={
+        law = crown_authority_4
+	law = agnatic_succession
+	law = succ_feudal_elective
+		law = imperial_administration
+        law = centralization2
+        law = vassal_wars_1
+        law = legislature_1
+        law = feudal_tax_1
+}
+1206.1.1 = {
+	holder=125501
+	active = yes
+	set_global_flag = mongol_horde_rumors
+	set_global_flag = golden_horde_arrival
+	set_global_flag = il_khanate_arrival
+	set_global_flag = mongol_empire_arrival
+	set_global_flag = mongol_horde_united
+}
+1227.12.2=
+{
+	holder=172005
+}
+1241.12.11=
+{
+        holder=172007
+}
+1248.1.1=
+{
+        holder=217265
+}
+1259.8.11 = {
+	holder = 0
+}

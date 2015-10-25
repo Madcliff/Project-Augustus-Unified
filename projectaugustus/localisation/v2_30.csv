@@ -1,0 +1,770 @@
+#CODE;ENGLISH;;;;;;;;;x 
+ACQUISITION_CLAIM;Conquered as a Claimant;;;;;;;;;x 
+ACQUISITION_HOST;Conquered as an Adventurer;;;;;;;;;x 
+ACQUISITION_REVOLT;Conquered as Leader of an Uprising;;;;;;;;;x 
+ACQUISITION_USURP;Peacefully Usurped;;;;;;;;;x 
+ACQUISITION_FACTION_DEMAND;Installed by Faction Demand;;;;;;;;;x 
+PERSONAL_OPINION_LOWER_THAN;Personal Opinion lower than ;;;;;;;;;x 
+PERSONAL_OPINION_AT_LEAST;Personal Opinion of at least ;;;;;;;;;x 
+PERS_OPINION_DIFF_LOWER_THAN;Personal Opinion difference between §Y$FIRST$§! and §Y$SECOND$§! lower than §Y$VAL$§!;;;;;;;;;x 
+PERS_OPINION_DIFF_AT_LEAST;Personal Opinion difference between §Y$FIRST$§! and §Y$SECOND$§! at least §Y$VAL$§!;;;;;;;;;x 
+RULER_OF_TITLE;$RULER$ of $TITLE$;;;;;;;;;x 
+EVTDESC38305;I have grown more trusting, accepting whatever fate has in store for me. I have lost the Paranoid trait.;;;;;;;;;x 
+EVTDESC38306;I have become aware of people's duplicity. I have lost the Trusting trait.;;;;;;;;;x 
+EVTDESC38307;I have suffered enough pain and betrayal. Why help those who hurt me back? I have lost the Kind trait.;;;;;;;;;x 
+EVTDESC38308;The wounds have marked me for life. I have gained the Scarred trait.;;;;;;;;;x 
+MEN;men;;;;;;;;;x 
+WOMEN;women;;;;;;;;;x 
+MALE;male;;;;;;;;;x 
+FEMALE;female;;;;;;;;;x 
+ADULTERER;adulterer;;;;;;;;;x 
+ADULTERESS;adulteress;;;;;;;;;x 
+nick_the_unfaithful;the Unfaithful;;;;;;;;;x 
+nick_the_beguiling;the Beguiling;;;;;;;;;x 
+nick_the_temptress;the Temptress;;;;;;;;;x 
+nick_the_seducer;the Seducer;;;;;;;;;x 
+nick_the_lewd;the Lewd;;;;;;;;;x 
+nick_the_lecher;the Lecher;;;;;;;;;x 
+nick_the_unchaste;the Unchaste;;;;;;;;;x 
+INSULT_OLD;old;;;;;;;;;x 
+INSULT_TADPOLE;tadpole;;;;;;;;;x 
+INSULT_CHILD;child;;;;;;;;;x 
+INSULT_VILE;vile;;;;;;;;;x 
+INSULT_FOUL;foul;;;;;;;;;x 
+INSULT_FILTHY;filthy;;;;;;;;;x 
+INSULT_CLOWN;clown;;;;;;;;;x 
+INSULT_COW;cow;;;;;;;;;x 
+INSULT_INFIDEL;infidel;;;;;;;;;x 
+INSULT_HERETIC;heretic;;;;;;;;;x 
+INSULT_GROTESQUE;grotesque;;;;;;;;;x 
+INSULT_DWARF;dwarf;;;;;;;;;x 
+INSULT_CLUBFOOT;clubfoot;;;;;;;;;x 
+INSULT_LIMPING;limping;;;;;;;;;x 
+INSULT_HARELIP;harelip;;;;;;;;;x 
+INSULT_CLEFT_LIPPED;cleft-lipped;;;;;;;;;x 
+INSULT_BASTARD;bastard;;;;;;;;;x 
+INSULT_BASEBORN;baseborn;;;;;;;;;x 
+INSULT_KINSLAYER;kinslayer;;;;;;;;;x 
+INSULT_SODOMITE;sodomite;;;;;;;;;x 
+INSULT_DULLARD;dullard;;;;;;;;;x 
+INSULT_DIM;dim;;;;;;;;;x 
+INSULT_VACUOUS;vacuous;;;;;;;;;x 
+INSULT_NITWIT;nitwit;;;;;;;;;x 
+INSULT_IMBECILE;imbecile;;;;;;;;;x 
+INSULT_FREAK;freak;;;;;;;;;x 
+INSULT_ABOMINATION;abomination;;;;;;;;;x 
+INSULT_MONSTROUS;monstrous;;;;;;;;;x 
+INSULT_HIDEOUS;hideous;;;;;;;;;x 
+INSULT_WEAKLING;weakling;;;;;;;;;x 
+INSULT_LESBIAN;lesbian;;;;;;;;;x 
+INSULT_SAPPHIC;sapphic;;;;;;;;;x 
+INSULT_HUNCHBACK;hunchback;;;;;;;;;x 
+INSULT_CROOKED;crooked;;;;;;;;;x 
+INSULT_LISPER;lisper;;;;;;;;;x 
+INSULT_FALTERING;faltering;;;;;;;;;x 
+INSULT_STUTTERING;stuttering;;;;;;;;;x 
+INSULT_GORGON;gorgon;;;;;;;;;x 
+INSULT_IDIOT;idiot;;;;;;;;;x 
+INSULT_TORTURER;torturer;;;;;;;;;x 
+INSULT_LECHER;lecher;;;;;;;;;x 
+INSULT_LECHEROUS;lecherous;;;;;;;;;x 
+INSULT_GLUTTON;glutton;;;;;;;;;x 
+INSULT_GORGING;gorging;;;;;;;;;x 
+INSULT_VENAL;venal;;;;;;;;;x 
+INSULT_INDOLENT;indolent;;;;;;;;;x 
+INSULT_EVIL;evil;;;;;;;;;x 
+INSULT_ENVIOUS;envious;;;;;;;;;x 
+INSULT_HARRIDAN;harridan;;;;;;;;;x 
+INSULT_RAGING;raging;;;;;;;;;x 
+INSULT_DECEITFUL;deceitful;;;;;;;;;x 
+INSULT_CRAVEN;craven;;;;;;;;;x 
+INSULT_COWARD;coward;;;;;;;;;x 
+INSULT_SCATTERBRAIN;scatterbrain;;;;;;;;;x 
+INSULT_ERRATIC;erratic;;;;;;;;;x 
+INSULT_BIGOT;bigot;;;;;;;;;x 
+INSULT_BIGOTED;bigoted;;;;;;;;;x 
+INSULT_PARANOID;paranoid;;;;;;;;;x 
+INSULT_FOOL;fool;;;;;;;;;x 
+INSULT_GULLIBLE;gullible;;;;;;;;;x 
+INSULT_CRUEL;cruel;;;;;;;;;x 
+INSULT_BRUTE;brute;;;;;;;;;x 
+INSULT_FIEND;fiend;;;;;;;;;x 
+INSULT_CALLOUS;callous;;;;;;;;;x 
+INSULT_WANTON;wanton;;;;;;;;;x 
+INSULT_SENILE;senile;;;;;;;;;x 
+INSULT_CRIPPLE;cripple;;;;;;;;;x 
+INSULT_VEGETABLE;vegetable;;;;;;;;;x 
+INSULT_BESOTTED;besotted;;;;;;;;;x 
+INSULT_DRUNKARD;drunkard;;;;;;;;;x 
+INSULT_UNCLEAN;unclean;;;;;;;;;x 
+INSULT_LEPER;leper;;;;;;;;;x 
+INSULT_BAT;bat;;;;;;;;;x 
+INSULT_DEMONIC;demonic;;;;;;;;;x 
+INSULT_DEMENTED;demented;;;;;;;;;x 
+INSULT_LUNATIC;lunatic;;;;;;;;;x 
+INSULT_LUGUBRIOUS;lugubrious;;;;;;;;;x 
+INSULT_CRAZED;crazed;;;;;;;;;x 
+INSULT_DEVIL_WOMAN;devil-woman;;;;;;;;;x 
+INSULT_WARLOCK;warlock;;;;;;;;;x 
+INSULT_EFFEMINATE;effeminate;;;;;;;;;x 
+INSULT_UNMANNED;unmanned;;;;;;;;;x 
+INSULT_EUNUCH;eunuch;;;;;;;;;x 
+INSULT_BLIND;blind;;;;;;;;;x 
+INSULT_PEASANT;peasant;;;;;;;;;x 
+INSULT_PEASANT_WOMAN;peasant woman;;;;;;;;;x 
+INSULT_LOWBORN;lowborn;;;;;;;;;x 
+INSULT_HERESIARCH;heresiarch;;;;;;;;;x 
+INSULT_SYBARITE;sybarite;;;;;;;;;x 
+INSULT_DECADENT;decadent;;;;;;;;;x 
+INSULT_WHOREMONGER;whoremonger;;;;;;;;;x 
+INSULT_WHORING;whoring;;;;;;;;;x 
+INSULT_DEBASED;debased;;;;;;;;;x 
+INSULT_TEMPTRESS;temptress;;;;;;;;;x 
+INSULT_DODDERER;dodderer;;;;;;;;;x 
+INSULT_DEBAUCHER;debaucher;;;;;;;;;x 
+INSULT_LITTLE;little;;;;;;;;;x 
+INSULT_DEGENERATE;degenerate;;;;;;;;;x 
+INSULT_PERVERTED;perverted;;;;;;;;;x 
+INSULT_TROLLOP;trollop;;;;;;;;;x 
+INSULT_PRUNE;prune;;;;;;;;;x 
+INSULT_PRUDE;prude;;;;;;;;;x 
+INSULT_PRUDISH;prudish;;;;;;;;;x 
+INSULT_BORE;bore;;;;;;;;;x 
+INSULT_IDLER;idler;;;;;;;;;x 
+INSULT_COVETOUS;covetous;;;;;;;;;x 
+INSULT_SOFT;soft;;;;;;;;;x 
+INSULT_SPIDER;spider;;;;;;;;;x 
+INSULT_WUSSY;wussy;;;;;;;;;x 
+INSULT_TIMID;timid;;;;;;;;;x 
+INSULT_COY;coy;;;;;;;;;x 
+INSULT_RAPACIOUS;rapacious;;;;;;;;;x 
+INSULT_GRASPING;grasping;;;;;;;;;x 
+INSULT_UNBELIEVER;unbeliever;;;;;;;;;x 
+INSULT_NARROWMINDED;narrow-minded;;;;;;;;;x 
+COMPL_VIVACIOUS;vivacious;;;;;;;;;x 
+COMPL_DEMURE;demure;;;;;;;;;x 
+COMPL_SINCERE;sincere;;;;;;;;;x 
+COMPL_FORTHRIGHT;forthright;;;;;;;;;x 
+COMPL_ROGUE;rogue;;;;;;;;;x 
+COMPL_RAFFISH;raffish;;;;;;;;;x 
+COMPL_AFFABLE;affable;;;;;;;;;x 
+COMPL_WIT;wit;;;;;;;;;x 
+COMPL_DEVIL;devil;;;;;;;;;x 
+COMPL_IMPISH;impish;;;;;;;;;x 
+COMPL_PIRATE;pirate;;;;;;;;;x 
+COMPL_BERSERKER;berserker;;;;;;;;;x 
+COMPL_SAOSHYANT;Saoshyant;;;;;;;;;x 
+COMPL_VALKYRIE;valkyrie;;;;;;;;;x 
+COMPL_VIKING;viking;;;;;;;;;x 
+COMPL_FAIR;fair;;;;;;;;;x 
+COMPL_BEAUTY;beauty;;;;;;;;;x 
+COMPL_HANDSOME;handsome;;;;;;;;;x 
+COMPL_BRILLIANT;brilliant;;;;;;;;;x 
+COMPL_GENIUS;genius;;;;;;;;;x 
+COMPL_STRONG;strong;;;;;;;;;x 
+COMPL_SCHOLAR;scholar;;;;;;;;;x 
+COMPL_LEARNED;learned;;;;;;;;;x 
+COMPL_MYSTIC;mystic;;;;;;;;;x 
+COMPL_POET;poet;;;;;;;;;x 
+COMPL_CHASTE;chaste;;;;;;;;;x 
+COMPL_GOOD;good;;;;;;;;;x 
+COMPL_DILIGENT;diligent;;;;;;;;;x 
+COMPL_KINDLY;kindly;;;;;;;;;x 
+COMPL_KINDHEARTED;kindhearted;;;;;;;;;x 
+COMPL_BRAVE;brave;;;;;;;;;x 
+COMPL_PROUD;proud;;;;;;;;;x 
+COMPL_HUMBLE;humble;;;;;;;;;x 
+COMPL_JUST;just;;;;;;;;;x 
+COMPL_RIGHTEOUS;righteous;;;;;;;;;x 
+COMPL_SAYYID;Sayyid;;;;;;;;;x 
+COMPL_SAYYIDA;Sayyida;;;;;;;;;x 
+COMPL_PILGRIM;pilgrim;;;;;;;;;x 
+COMPL_MIRZA;mirza;;;;;;;;;x 
+COMPL_HAJJAJ;Hajjaj;;;;;;;;;x 
+COMPL_MUJAHID;Mujahid;;;;;;;;;x 
+COMPL_CRUSADER;Crusader;;;;;;;;;x 
+COMPL_HAFIZ;Hafiz;;;;;;;;;x 
+COMPL_FAQIH;Faqih;;;;;;;;;x 
+COMPL_WISE;wise;;;;;;;;;x 
+COMPL_PURPLE_BORN;purple-born;;;;;;;;;x 
+COMPL_AUGUSTUS;Augustus;;;;;;;;;x 
+COMPL_HOLY_WARRIOR;holy warrior;;;;;;;;;x 
+COMPL_MONK;monk;;;;;;;;;x 
+COMPL_NUN;nun;;;;;;;;;x 
+COMPL_CHARMER;charmer;;;;;;;;;x 
+COMPL_CHARMING;charming;;;;;;;;;x 
+COMPL_RAVISHING;ravishing;;;;;;;;;x 
+COMPL_ENCHANTRESS;enchantress;;;;;;;;;x 
+COMPL_FETCHING;fetching;;;;;;;;;x 
+COMPL_GREAT;great;;;;;;;;;x 
+COMPL_SWEET;sweet;;;;;;;;;x 
+COMPL_DEAR;dear;;;;;;;;;x 
+COMPL_LORD;lord;;;;;;;;;x 
+COMPL_LADY;lady;;;;;;;;;x 
+COMPL_SEDUCER;seducer;;;;;;;;;x 
+COMPL_PLEASANT;pleasant;;;;;;;;;x 
+COMPL_LEVELHEADED;levelheaded;;;;;;;;;x 
+COMPL_WRY;wry;;;;;;;;;x 
+AIREASON_UNFAITHFULNESS;Unfaithfulness;;;;;;;;;x 
+HAS_NOT_POLYGAMY;Does not have Polygamy;;;;;;;;;x 
+HAS_POLYGAMY;Has Polygamy;;;;;;;;;x 
+HAS_NOT_CONCUBINAGE;Does not have Concubinage;;;;;;;;;x 
+HAS_CONCUBINAGE;Has Concubinage;;;;;;;;;x 
+DIVORCE_INTERACTION_2;Divorce §Y[Recipient.GetTitledFirstName]§! for [Recipient.GetPossPronoun] proven unfaithfulness! [Recipient.GetPossPronounCap] close relatives will still be insulted (§R$OPINION$§! opinion)...;;;;;;;;;x 
+ASK_FOR_DIVORCE_INTERACTION_2;Ask §Y[Actor.RelHead.GetTitledFirstName]§W for a divorce from §Y[Actor.Spouse.GetFirstName]§W. Due to [Actor.Spouse.GetPossPronoun] unfaithfulness, the request will not be denied and will cost nothing. However, it will still be viewed as an insult by [Actor.Spouse.GetPossPronoun] relatives.;;;;;;;;;x 
+EVTOPTA301_DESC;[From.GetFirstName] is declared a legitimate [From.GetSonDaughter] with full inheritance rights.\n;;;;;;;;;x 
+EVTOPTB301_DESC;[From.GetFirstName] remains illegitimate, but is sanctioned as my [From.GetSonDaughter] and can be married off to form alliances. If [From.GetSubjectPronoun] ever has children, a new dynasty will be created for that line.\n;;;;;;;;;x 
+EVTOPTC301_DESC;[From.GetFirstName] is denounced as a bastard with an unknown father, having no official connection to me at all.\n;;;;;;;;;x 
+EVTDESC404_KF;My [GetFromRelation] [From.GetFirstName] is pregnant and I can't possible be the father! The realm is already astir with gossip - everyone knows [From.FatherOfUnborn.GetTitledName] is the real father.;;;;;;;;;x 
+EVTDESC404_2;My [GetFromRelation] [From.GetFirstName] tells me she is pregnant, but that can't be right, can it?;;;;;;;;;x 
+EVTOPTB404;Denounce them both as traitors!;;;;;;;;;x 
+EVTDESC21001;I have thought it over, and I cannot be the father of my [GetFromRelation] [From.GetFirstName]'s baby. As it grows in her belly, I have trouble sleeping. I must put this matter to rest!;;;;;;;;;x 
+EVTOPTA21001;Hire someone to find out;;;;;;;;;x 
+EVTOPTB21001;No, I trust her word!;;;;;;;;;x 
+EVTDESC21003;The maid I paid to spy on my [GetFromRelation] has confirmed my suspicions - [From.FatherOfUnborn.GetTitledName] is [From.GetFirstName]'s lover and the real father of the child!;;;;;;;;;x 
+EVTDESC21003_CR;The woman I hired to spy on my [GetFromRelation] [From.GetFirstName] has found out the shocking truth about her pregnancy. I was right, I am not the father... [From.FatherOfUnborn.GetTitledFirstName] is, her own [GetFromVsFatherOfUnbornRelation]!;;;;;;;;;x 
+EVTOPTA21003;By [Root.Religion.GetRandomGodName], I had better keep this quiet!;;;;;;;;;x 
+EVTOPTB21003;Unholy! Expose the traitors!;;;;;;;;;x 
+EVTOPTC21003;Holy... but treasonous. Expose them!;;;;;;;;;x 
+EVTOPTD21003;This is High Treason!;;;;;;;;;x 
+EVTDESC21005;My [GetFromRelation] just stormed in, roaring and smashing chairs. He knows about my affair with [Root.FatherOfUnborn.GetTitledFirstName]. He knows the child I carry is not his...;;;;;;;;;x 
+EVTOPTA21005;The flesh is weak...;;;;;;;;;x 
+EVTDESC21006;[From.GetTitledName] knows about my affair with [FromFrom.GetTitledFirstName]. He knows the child she carries is actually mine...;;;;;;;;;x 
+EVTOPTA21006;This could spell my doom!;;;;;;;;;x 
+EVTOPTB21006;How embarrassing!;;;;;;;;;x 
+EVTDESC21010;The maid I hired to gain my [GetFromRelation] [From.GetFirstName]'s confidence has not found anything at all suspicious about her pregnancy.;;;;;;;;;x 
+EVTOPTA21010;That's a relief!;;;;;;;;;x 
+EVTOPTB21010;I must KNOW. I will confront her directly!;;;;;;;;;x 
+EVTOPTC21010;Hire more spies!;;;;;;;;;x 
+EVTOPTD21010;Lay a trap for her;;;;;;;;;x 
+EVTDESC21011;The spies I hired at great expense to discover anything suspicious about my [GetFromRelation] [From.GetFirstName] and her pregnancy have failed to turn up anything at all.;;;;;;;;;x 
+EVTOPTA21011;I guess the child must be mine then..?;;;;;;;;;x 
+EVTDESC21012;My dear [GetFromRelation] [From.GetFirstName] is suspicious of my pregnancy. He is here right now asking me if the child is really his!;;;;;;;;;x 
+EVTOPTA21012;Ensure him of my faithfulness!;;;;;;;;;x 
+EVTOPTB21012;Tearfully admit my affair with [Root.FatherOfUnborn.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC21012;He's such a baby. Wrap him around my finger.;;;;;;;;;x 
+EVTDESC21013;[From.GetFirstName] started crying when I asked her if she's being unfaithful. She profusely ensures me of her undying love, virtue and steadfastness...;;;;;;;;;x 
+EVTOPTA21013;I'll never be entirely sure...;;;;;;;;;x 
+EVTDESC21003_CONF;When asked outright, my [GetFromRelation] [From.GetFirstName] broke down and tearfully admitted to having an affair with [From.FatherOfUnborn.GetTitledName], blubbering about mercy and forgiveness!;;;;;;;;;x 
+EVTDESC21003_CONF_CR;When asked outright, my [GetFromRelation] [From.GetFirstName] broke down and tearfully admitted to having an affair with [From.FatherOfUnborn.GetTitledName] - her own [GetFromVsFatherOfUnbornRelation]!;;;;;;;;;x 
+EVTDESC21015;[From.GetFirstName] got angry when I confronted her about the pregnancy, saying she lives in a prison and that I am denying her even the most basic freedoms...;;;;;;;;;x 
+EVTOPTA21015;Now I feel guilty...;;;;;;;;;x 
+EVTDESC21016;I found a note from my beloved [Root.FatherOfUnborn.GetTitledFirstName] to meet him behind the smithy today, but it was my [GetFromRelation] [From.GetFirstName] who waited for me there!;;;;;;;;;x 
+EVTOPTA21016;Darling, I can explain!;;;;;;;;;x 
+EVTTOOLTIP21003_TRAP;[This.GetFirstName] flies into a rage!;;;;;;;;;x 
+EVTDESC21003_TRAP;I planted a note in my [GetFromRelation]'s bedroom, instructing her to meet her lover behind the smithy. I stood there waiting, hoping she wouldn't come... but she did. She confessed to an affair with [From.FatherOfUnborn.GetTitledName]!;;;;;;;;;x 
+EVTDESC21003_TRAP_CR;I planted a note in my [GetFromRelation]'s bedroom, instructing her to meet her lover behind the smithy. She came alright, and brokenly confessed to an affair with [From.FatherOfUnborn.GetTitledName] - her own [GetFromVsFatherOfUnbornRelation]!;;;;;;;;;x 
+EVTTOOLTIP64046;[This.GetFirstName] and [Root.GetTitledFirstNameNoRegnal] break off their love affair;;;;;;;;;x 
+alert_no_focus_name;Pick a Focus;;;;;;;;;x 
+alert_no_focus_instant;§YPick a Character Focus§!;;;;;;;;;x 
+alert_no_focus_delayed;You should pick a Focus for your character;;;;;;;;;x 
+opinion_unfaithful_wife;Unfaithful Harlot;;;;;;;;;x 
+opinion_unfaithful_husband;Unfaithful Lecher;;;;;;;;;x 
+opinion_cuckolded;Cuckolded;;;;;;;;;x 
+opinion_chasing_friend;Seducing my Friend;;;;;;;;;x 
+opinion_chasing_spouse;Seducing my Spouse;;;;;;;;;x 
+opinion_chasing_child;Seducing my Child;;;;;;;;;x 
+adulterer;Adulterer;;;;;;;;;x 
+adulteress;Adulteress;;;;;;;;;x 
+known_sodomite;Known Sodomite;;;;;;;;;x 
+cradle_robber;Cradle Robber;;;;;;;;;x 
+incestuous_adulterer;Incestuous Adulterer;;;;;;;;;x 
+incestuous_adulteress;Incestuous Adulteress;;;;;;;;;x 
+opinion_suspected_adultery;Suspected Adultery;;;;;;;;;x 
+opinion_regrets_accusation;Regrets Accusation;;;;;;;;;x 
+opinion_advance_rejected;Advance Rejected;;;;;;;;;x 
+opinion_killed_lover;Killed Lover;;;;;;;;;x 
+adulterous_priest;Adulterous Priest;;;;;;;;;x 
+wol_seducer_1;Aspiring Seducer;;;;;;;;;x 
+desc_wol_seducer_1;This character is learning the arts of attraction and the thrill of the chase...;;;;;;;;;x 
+wol_seducer_2;Seducer;;;;;;;;;x 
+desc_wol_seducer_2;This character is a well known seducer and heartbreaker.;;;;;;;;;x 
+wol_court_tomcat;Court Tomcat;;;;;;;;;x 
+desc_wol_court_tomcat;This man is a notorious tail chaser who runs circles around jealous husbands and lovers.;;;;;;;;;x 
+wol_court_vixen;Court Vixen;;;;;;;;;x 
+desc_wol_court_vixen;This lady is a notorious minx who knows all about outmanoeuvring jealous wives and lovers.;;;;;;;;;x 
+wol_refused_duel;Refused to Duel;;;;;;;;;x 
+desc_wol_refused_duel;Challenged to an honorably duel, this character cravenly refused.;;;;;;;;;x 
+FOCUS;Focus;;;;;;;;;x 
+MILADY;Milady;;;;;;;;;x 
+MILORD;Milord;;;;;;;;;x 
+CHOOSE_FOCUS_OR_AMBITION;Choose Focus or Ambition;;;;;;;;;x 
+FOCUSABORTED_SETUP;Focus Abandoned;;;;;;;;;x 
+FOCUSABORTED_LOG;§Y$CHARNAME$§! can no longer focus on §Y$FOCUS$§!.;;;;;;;;;x 
+FOCUSABORTED_LETTER;My current situation prevents me from focusing on $FOCUS$.;;;;;;;;;x 
+HAS_FOCUS;Focusing on §Y$FOCUS$§!;;;;;;;;;x 
+HAS_A_FOCUS;Has a Focus;;;;;;;;;x 
+HAS_NO_FOCUS;Has no Focus;;;;;;;;;x 
+SET_FOCUS_EFFECT;$CHAR$ gets the Focus §Y$FOCUS$§!\n;;;;;;;;;x 
+focus_rulership_title;Rulership;;;;;;;;;x 
+focus_rulership_desc;[This.GetTitledFirstName] spends [This.GetPossPronoun] time and effort trying to govern well.;;;;;;;;;x 
+RULERSHIP_FOCUS;Rulership Focus;;;;;;;;;x 
+focus_business_title;Business;;;;;;;;;x 
+focus_business_desc;[This.GetTitledFirstName] fraternizes with burghers and merchants, seeking to unravel the enigma of gold.;;;;;;;;;x 
+BUSINESS_FOCUS;Business Focus;;;;;;;;;x 
+focus_seduction_title;Seduction;;;;;;;;;x 
+focus_seduction_desc;[This.GetTitledFirstName] hones [This.GetPossPronoun] skills of attraction, for thrills and power. This Focus unlocks the §YSeduce§! option vs suitable targets.;;;;;;;;;x 
+SEDUCTION_FOCUS;Seduction Focus;;;;;;;;;x 
+focus_intrigue_title;Intrigue;;;;;;;;;x 
+#focus_intrigue_desc;[This.GetTitledFirstName] seeks to become a better schemer, spending most of [This.GetPossPronoun] time engrossed in court intrigue. This Focus unlocks the §YAbduct§! option vs suitable targets.;;;;;;;;;x 
+INTRIGUE_FOCUS;Intrigue Focus;;;;;;;;;x 
+focus_hunting_title;Hunting;;;;;;;;;x 
+focus_hunting_desc;[This.GetTitledFirstName] travels the realm making friends and killing off [This.Religion.GetHighGodName]'s creatures.;;;;;;;;;x 
+HUNTING_FOCUS;Hunting Focus;;;;;;;;;x 
+focus_war_title;War;;;;;;;;;x 
+focus_war_desc;[This.GetTitledFirstName] engages in all things martial, from melee training to reading the works of ancient generals. This Focus unlocks the §YDuel§! action vs rivals and foes.;;;;;;;;;x 
+WAR_FOCUS;War Focus;;;;;;;;;x 
+focus_carousing_title;Carousing;;;;;;;;;x 
+focus_carousing_desc;[This.GetTitledFirstName] strives to become more popular and outgoing by hosting wild parties. This Focus unlocks the §YInvite to Carousing§! option vs suitable targets.;;;;;;;;;x 
+CAROUSING_FOCUS;Carousing Focus;;;;;;;;;x 
+focus_family_title;Family;;;;;;;;;x 
+focus_family_desc;[This.GetTitledFirstName] concentrates on family life, ensuring better relations between all family members.;;;;;;;;;x 
+FAMILY_FOCUS;Family Focus;;;;;;;;;x 
+focus_scholarship_title;Scholarship;;;;;;;;;x 
+focus_scholarship_desc;[This.GetTitledFirstName] buries [This.GetPossPronoun] nose in dusty old tomes, seeking knowledge and learning.;;;;;;;;;x 
+SCHOLARSHIP_FOCUS;Scholarship Focus;;;;;;;;;x 
+focus_theology_title;Theology;;;;;;;;;x 
+focus_theology_desc;[This.GetTitledFirstName] leads a religious life of contemplation, prayer and meditation.;;;;;;;;;x 
+THEOLOGY_FOCUS;Theology Focus;;;;;;;;;x 
+seduce_decision;Seduce;;;;;;;;;x 
+seduce_decision_desc;Focus your seduction efforts on §Y[This.GetTitledFirstName]§! in the hopes of gaining a new lover...;;;;;;;;;x 
+DIP_PERFORM_ACTION;Do it!;;;;;;;;;x 
+opinion_seducing;Seducing;;;;;;;;;x 
+opinion_seduced_attracted;Attracted;;;;;;;;;x 
+opinion_seduced_repelled;Repelled;;;;;;;;;x 
+opinion_seduced_yearning;Yearning;;;;;;;;;x 
+seducer;Master Seducer;;;;;;;;;x 
+seducer_desc;This man is a notorious rake and debaucher who leaves a trail of broken hearts - and bastards - in his wake.;;;;;;;;;x 
+seductress;Master Seductress;;;;;;;;;x 
+seductress_desc;This woman is an infamous siren and temptress whose virtue is certainly in doubt...;;;;;;;;;x 
+administrator;Administrator;;;;;;;;;x 
+administrator_desc;This character is a devoted administrator who loves order and efficiency above all things.;;;;;;;;;x 
+architect;Architect;;;;;;;;;x 
+architect_desc;This character loves buildings, architecture and machinery, particularly anything related to siege warfare.;;;;;;;;;x 
+strategist;Strategist;;;;;;;;;x 
+strategist_desc;This character loves planning campaigns and analyzing the current state of affairs.;;;;;;;;;x 
+socializer;Socializer;;;;;;;;;x 
+socializer_desc;This character is committed to being well liked, and spends most spare time in the company of others.;;;;;;;;;x 
+#schemer;Schemer;;;;;;;;;x 
+schemer_desc;This character leads a life of intrigue and manipulation.;;;;;;;;;x 
+HAS_ANY_OPINION_MOD;Has the '§Y$MOD$§!' Opinion of Anyone;;;;;;;;;x 
+HAS_NO_OPINION_MOD;Does not have the '§Y$MOD$§!' Opinion of Anyone;;;;;;;;;x 
+AGE_DIFF_AT_LEAST;Age Difference at least ;;;;;;;;;x 
+AGE_DIFF_LESS_THAN;Age Difference less than ;;;;;;;;;x 
+EVTTITLE_WOL_55;A Dirty Secret;;;;;;;;;x 
+EVTDESC_WOL_55;Just the other day - skulking as I often do - I caught [FromFrom.GetTitledName] and my [GetFromRelation] [From.GetFirstName] in flagrante! Lost in passion, they did not notice me, but I am still in shock!;;;;;;;;;x 
+EVTDESC_WOL_55_CR;Just the other day - skulking as I often do - I caught [FromFrom.GetTitledName] and my [GetFromRelation] [From.GetFirstName] in flagrante! I can't believe it... [GetFromVsFromFromRelation] and [GetFromFromVsFromRelation]! They did not notice me, but I am still in shock!;;;;;;;;;x 
+EVTDESC_WOL_55_M_HOMO;Just the other day - skulking as I often do - I caught [FromFrom.GetTitledName] and my [GetFromRelation] [From.GetFirstName] doing what man should not do to man! They didn't notice me, but I am still in shock!;;;;;;;;;x 
+EVTDESC_WOL_55_F_HOMO;Just the other day - skulking as I often do - I caught [FromFrom.GetTitledName] and my [GetFromRelation] [From.GetFirstName] performing a very strange and intimate exercise... naked. They didn't notice me, but I am still in shock!;;;;;;;;;x 
+EVTDESC_WOL_55_PRIEST;Just the other day - skulking as I often do - I caught [FromFrom.GetTitledName] and my [GetFromRelation] [From.GetFirstName] in flagrante! A [From.GetManWoman] of God! They didn't notice me, but I am still in shock!;;;;;;;;;x 
+EVTDESC_WOL_55_AGE_YOUNG;Just the other day - skulking as I often do - I caught [FromFrom.GetTitledName] and my [GetFromRelation] [From.GetFirstName] in flagrante! For shame, [From.GetSubjectPronoun] could be [FromFrom.GetPossPronoun] [From.GetSonDaughter]! They didn't notice me, but I am still in shock!;;;;;;;;;x 
+EVTDESC_WOL_55_AGE_OLD;Just the other day - skulking as I often do - I caught [FromFrom.GetTitledName] and my [GetFromRelation] [From.GetFirstName] in flagrante! For shame, [From.GetSubjectPronoun] could be [FromFrom.GetPossPronoun] [From.GetFatherMother]! They didn't notice me, but I am still in shock!;;;;;;;;;x 
+EVTDESC_WOL_55_F_MARRIED;Just the other day - skulking as I often do - I caught [FromFrom.GetTitledName] and my [GetFromRelation] [From.GetFirstName] in flagrante! They did't notice me, but I am still in shock! [From.GetSubjectPronounCap] is a married [From.GetManWoman], by [Root.Religion.GetRandomGodName]!;;;;;;;;;x 
+EVTOPTA_WOL_55;Scandalous! They must be exposed!;;;;;;;;;x 
+EVTOPTA_WOL_55_UNHOLY;Unholy sinners! They must be exposed!;;;;;;;;;x 
+EVTOPTB_WOL_55;The flesh is weak. Forgive and forget.;;;;;;;;;x 
+EVTOPTC_WOL_55;I smell profit!;;;;;;;;;x 
+EVTTOOLTIP_WoL_60;[This.GetBestName]'s affair is exposed;;;;;;;;;x 
+EVTTOOLTIP_WoL_56;[This.GetTitledName] is blackmailed;;;;;;;;;x 
+EVTDESC_WOL_56;To [Root.GetTitledFirstName]. I know what you're doing with my [GetFromVsFromFromRelation] [FromFrom.GetTitledFirstName], you [GetFromRootInsult]. However, I understand the flesh is weak and would be willing to keep quiet about this affair for a small... donation.\n\n[From.GetBestName];;;;;;;;;x 
+EVTDESC_WOL_56_CR;To [Root.GetTitledFirstName]. I know what you and your [GetFromFromRelation] are doing, you [GetFromRootInsult]. While you both sicken me, I am in dire need of funds would be willing to forget in return for a small donation.\n\n[From.GetBestName];;;;;;;;;x 
+EVTDESC_WOL_56_HOMO;To [Root.GetTitledFirstName]. I've seen what you and my [GetFromVsFromFromRelation] are doing to each other, you [GetFromRootInsult]. Abomination! Yet, I am a kind [From.GetManWoman] and would be willing to forget in return for a small donation.\n\n[From.GetBestName];;;;;;;;;x 
+EVTOPTA_WOL_56;The [GetRootFromInsult]! I'll pay...;;;;;;;;;x 
+EVTOPTB_WOL_56;I'd rather suffer the scandal!;;;;;;;;;x 
+EVTTOOLTIP_WoL_57;The money is sent to [This.GetBestName];;;;;;;;;x 
+EVTDESC_WOL_57;To the [GetFromRootInsult] [Root.GetFirstName]. Here, take my money. If you do not keep quiet, I will do things to you that you cannot even begin to imagine!\n\n[From.GetFirstName];;;;;;;;;x 
+EVTOPTA_WOL_57;Snooping can be so rewarding!;;;;;;;;;x 
+EVTDESC_WOL_59;To the [GetFromFromRootInsult] [Root.GetFirstName]. Is this some kind of sick jest? [From.GetFirstName]'s virtue is immaculate! Do what you will, no one will believe your lies anyway.\n\n[FromFrom.GetFirstName];;;;;;;;;x 
+EVTOPTA_WOL_59;Very well. I will enjoy this!;;;;;;;;;x 
+EVTOPTB_WOL_59;It was worth a try, but I'm not that cruel.;;;;;;;;;x 
+EVTTITLE_WOL_60;Adulterous Scandal;;;;;;;;;x 
+EVTDESC_WOL_60;[From.GetBestName] has been telling everyone that [From.GetSubjectPronoun] saw me and [FromFrom.GetFirstName] making love. The scandal is a fact.;;;;;;;;;x 
+EVTOPTA_WOL_60_F;Poor [FromFrom.GetFirstName]. I didn't mean to hurt [FromFrom.GetObjectPronoun].;;;;;;;;;x 
+EVTOPTA_WOL_60_M;Ah well. It is the Middle Ages!;;;;;;;;;x 
+EVTDESC_WOL_61;[FromFrom.GetBestName] has been telling everyone that [FromFrom.GetSubjecPronoun] saw me and [From.GetFirstName] making love. The scandal is a fact.;;;;;;;;;x 
+EVTOPTA_WOL_61_F;I am ruined!;;;;;;;;;x 
+EVTDESC_WOL_62;[FromFrom.GetBestName] has exposed an affair between my [GetFromRelation] [From.GetFirstName] and [FromFromFrom.GetTitledName]!;;;;;;;;;x 
+EVTOPTA_WOL_62;My heart is broken!;;;;;;;;;x 
+EVTOPTA_WOL_62_CR;[From.GetSubjectPronounCap] cheated with [From.GetPossPronoun] own [GetFromVsFromFromFromRelation]!?;;;;;;;;;x 
+EVTDESC_WOL_63;[FromFromFrom.GetBestName] has exposed an affair between my [GetFromRelation] [From.GetFirstName] and [FromFrom.GetTitledName]!;;;;;;;;;x 
+EVTOPTA_WOL_63_CR;[From.GetSubjectPronounCap] cheated with [From.GetPossPronoun] own [GetFromVsFromFromRelation]!?;;;;;;;;;x 
+EVTDESC_WOL_81_F;It isn't easy bedding every man who catches my fancy. Jealous wives, watchful mothers, meddling courtiers, unwanted pregnancies - it takes skill to navigate such treacherous waters!;;;;;;;;;x 
+EVTDESC_WOL_81_M;Chasing skirts can be a dangerous business. Jealous husbands, watchful parents, eavesdropping maids... little bastards. By [Root.Religion.GetRandomGodName], it's a wonder I'm still alive!;;;;;;;;;x 
+EVTDESC_WOL_81_HOMO;In this benighted age, pursuing other [Root.GetMenWomen] is fraught with danger. Yet, the risk of scandal makes it all the more exciting. Besides, there's no risk of unwanted pregnancies!;;;;;;;;;x 
+EVTOPTA_WOL_81;I've learned a thing or two about Intrigue!;;;;;;;;;x 
+EVTDESC_WOL_99;My confidence is a mountain, my charm irresistible, my exploits legendary. I am [Root.GetFirstName] - temptation incarnate.;;;;;;;;;x 
+EVTOPTA_WOL_99;Move over Cleopatra!;;;;;;;;;x 
+EVTOPTA_WOL_99_PERS;Move over Scheherazade!;;;;;;;;;x 
+EVTOPTB_WOL_99;I can hardly resist myself!;;;;;;;;;x 
+EVTOPTC_WOL_99;But... there are so many sins to explore!;;;;;;;;;x 
+EVTOPTD_WOL_99;Naturally, but I won't let vices define me.;;;;;;;;;x 
+EVTTITLE_WOL_100;The Chase Begins!;;;;;;;;;x 
+EVTDESC_WOL_100;I shall bring all my seduction skills to bear on [From.GetTitledFirstName] until I have [From.GetObjectPronoun] wrapped around my finger!;;;;;;;;;x 
+EVTOPTA_WOL_100;[From.GetSubjectPronounCap] will be mine!;;;;;;;;;x 
+EVTDESC_WOL_101;I have set my sights on [From.GetTitledFirstName], but the age difference could cause a bit of a scandal if the court gossips take notice of my efforts...;;;;;;;;;x 
+EVTOPTA_WOL_101;But I love wrinkles!;;;;;;;;;x 
+EVTOPTB_WOL_101;But [From.GetSubjectPronoun]'s such a little morsel!;;;;;;;;;x 
+EVTOPTC_WOL_101;I should seek other quarry...;;;;;;;;;x 
+EVTTITLE_WOL_102;A Game for the Whole Family;;;;;;;;;x 
+EVTDESC_WOL_102;I have decided to seduce my own [GetFromRelation] [From.GetFirstName]. The sheer taboo of it is thrilling, but the scandal... by [Root.Religion.GetRandomGodName], the scandal would be epic.;;;;;;;;;x 
+EVTOPTA_WOL_102;The risk makes it even more exciting!;;;;;;;;;x 
+EVTOPTB_WOL_102;On second thought, I'm no deviant.;;;;;;;;;x 
+EVTDESC_WOL_103;The idea of seducing [From.GetTitledFirstName] - a [From.GetManWoman] of the cloth - is so exciting! Yet, I am definitely risking a scandal here...;;;;;;;;;x 
+EVTOPTA_WOL_103;It will be worth it!;;;;;;;;;x 
+EVTOPTB_WOL_103;No, I fear [Root.Religion.GetRandomGodName] too much.;;;;;;;;;x 
+EVTDESC_WOL_104;Society may take a dim view on my preferences, but at the risk of a scandal I am about to seduce [From.GetTitledFirstName].;;;;;;;;;x 
+EVTOPTA_WOL_104;With pride!;;;;;;;;;x 
+EVTOPTB_WOL_104;It just isn't worth the risk.;;;;;;;;;x 
+EVTTOOLTIP_WoL_110;I start planning my next move;;;;;;;;;x 
+EVTDESC_WOL_111;The target of my seduction, [FromFromFrom.GetTitledFirstName], has tragically passed away!;;;;;;;;;x 
+EVTOPTA_WOL_111;Well, there are more fish in the sea!;;;;;;;;;x 
+EVTDESC_WOL_112;My seduction of [FromFromFrom.GetTitledFirstName] has come to an unexpected end, as [FromFromFrom.GetSubjectPronoun] has ended up in prison!;;;;;;;;;x 
+EVTOPTA_WOL_112;I shall have get my thrills elsewhere;;;;;;;;;x 
+EVTDESC_WOL_113;[FromFromFrom.GetTitledFirstName], the target of my amorous attentions, has tragically fallen comatose and is now entirely incapable of appreciating my efforts.;;;;;;;;;x 
+EVTOPTA_WOL_113;Seducing a vegetable is no challenge!;;;;;;;;;x 
+EVTTITLE_WOL_200;A Love Letter;;;;;;;;;x 
+EVTDESC_WOL_200;Today I found a scented letter lying on my pillow. It appears [From.GetTitledFirstName] is quite smitten with me!;;;;;;;;;x 
+EVTDESC_WOL_200_CR;Today I found a scented letter lying on my pillow... I don't quite know how to react - it appears my own [GetFromRelation] [From.GetFirstName] is quite smitten with me!;;;;;;;;;x 
+EVTOPTA_WOL_200;Oh, how romantic!;;;;;;;;;x 
+EVTOPTB_WOL_200;How delightfully perverted!;;;;;;;;;x 
+EVTOPTC_WOL_200;What foolishness!;;;;;;;;;x 
+EVTOPTD_WOL_200;Fool. I am a married [Root.GetManWoman]!;;;;;;;;;x 
+EVTOPTE_WOL_200;I am offended!;;;;;;;;;x 
+EVTOPTF_WOL_200;What a sick deviant!;;;;;;;;;x 
+EVTTOOLTIP_WoL_201;Encourage this...;;;;;;;;;x 
+EVTTOOLTIP_WoL_202;My silence will dissuade [This.GetObjectPronoun].;;;;;;;;;x 
+EVTTOOLTIP_WoL_203;Strongly discourage [This.GetObjectPronoun]!;;;;;;;;;x 
+EVTTITLE_WOL_201;Letters of Love;;;;;;;;;x 
+EVTDESC_WOL_201;I arranged for a scented love letter to be left on [From.GetFirstName]'s pillow in an attempt to woo [From.GetObjectPronoun]... and it seems to have struck true, for [From.GetSubjectPronoun] has left one on mine, confessing [From.GetPossPronoun] attraction to me!;;;;;;;;;x 
+EVTOPTA_WOL_201;Oho! Time to up the ante?;;;;;;;;;x 
+EVTOPTB_WOL_201;Great, but I no longer desire [From.GetObjectPronoun];;;;;;;;;x 
+WOL_SEDUCE_END_TOOLTIP;The chase is ended\n;;;;;;;;;x 
+EVTDESC_WOL_202;[From.GetFirstName] has not responded to the love letter I had left on [From.GetPossPronoun] pillow.;;;;;;;;;x 
+#EVTOPTA_WOL_202;Silence is not a no!;;;;;;;;;x 
+EVTOPTB_WOL_202;Time to give up;;;;;;;;;x 
+EVTDESC_WOL_203;I arranged for a scented love letter to be left on [From.GetFirstName]'s pillow in an attempt to woo [From.GetObjectPronoun]... Today I found [From.GetPossPronoun] answering missive in the privy. It did not smell of roses.;;;;;;;;;x 
+EVTOPTA_WOL_203;A temporary setback!;;;;;;;;;x 
+EVTOPTB_WOL_203;Time to move on;;;;;;;;;x 
+EVTTITLE_WOL_210;A Gift of Love;;;;;;;;;x 
+EVTDESC_WOL_210;My bedroom is covered in wildflowers! And what's this? A beautiful necklace set with precious stones! There is a note here as well: 'From your humble admirer, [From.GetTitledFirstName], something to match your eyes'.;;;;;;;;;x 
+EVTDESC_WOL_210_CR;My bedroom is covered in wildflowers! And what's this? A beautiful necklace set with precious stones! There is a note here as well: 'From your humble admirer, [From.GetFirstName], something to match your eyes'. Wait, what, surely not my [GetFromRelation] [From.GetFirstName]?!;;;;;;;;;x 
+EVTDESC_WOL_210_M;A page brought me a beautifully wrapped gift today - a perfectly balanced blade with a gilded hilt. The accompanying note says it's a gift from an admiring [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTDESC_WOL_210_CR_M;A page brought me a beautifully wrapped gift today - a perfectly balanced blade with a gilded hilt. The accompanying note says it's a gift from an admiring [From.GetFirstName]! My own [GetFromRelation] [From.GetFirstName]?!;;;;;;;;;x 
+EVTOPTA_WOL_210;How romantic!;;;;;;;;;x 
+EVTOPTB_WOL_210;How perverted... and thrilling!;;;;;;;;;x 
+EVTTITLE_WOL_211;Gifts of Love;;;;;;;;;x 
+EVTDESC_WOL_211;I sent [From.GetFirstName] a beautiful necklace and had her room covered with wildflowers. The gambit seems to have paid off, for I found a magnificent new saddle with her embossed seal in the stables today!;;;;;;;;;x 
+EVTDESC_WOL_211_M;I sent [From.GetFirstName] a magnificent sword as a gift. It seems to have warmed his heart, for he sent me a matching dagger back!;;;;;;;;;x 
+EVTOPTA_WOL_211;Pretty clear symbolism, I'd say!;;;;;;;;;x 
+EVTOPTB_WOL_211;I'm irresistible! But I've changed my mind...;;;;;;;;;x 
+EVTDESC_WOL_212;I sent [From.GetFirstName] a beautiful necklace and covered her room with wildflowers, but I've heard nothing back from her...;;;;;;;;;x 
+EVTDESC_WOL_212_M;I sent [From.GetFirstName] a magnificent sword as a gift, but all I got in return was silence.;;;;;;;;;x 
+EVTOPTA_WOL_212;It could have been worse!;;;;;;;;;x 
+EVTOPTB_WOL_212;This is going nowhere.;;;;;;;;;x 
+EVTDESC_WOL_213;I sent [From.GetFirstName] a beautiful necklace and covered her room with wildflowers... Today I found my bed full of wilted petals and a bent, rusty nail on my pillow!;;;;;;;;;x 
+EVTDESC_WOL_213_M;Some time ago, I sent [From.GetFirstName] a magnificent sword as a gift. Today, I found it jammed into my loom, the weave completely ruined!;;;;;;;;;x 
+EVTOPTA_WOL_213;[From.GetSubjectPronounCap] is feisty! I love a good challenge!;;;;;;;;;x 
+EVTOPTB_WOL_213;That's it, I'm wasting my talents!;;;;;;;;;x 
+EVTTITLE_WOL_220;Rumors of Infatuation;;;;;;;;;x 
+EVTDESC_WOL_220;I didn't credit it when my maid claimed to have heard that [From.GetTitledFirstName] can't sleep because he's constantly thinking of me, but now all my friends are saying it too!;;;;;;;;;x 
+EVTDESC_WOL_220_CR;The chamber maid claims to have heard rumors that [From.GetTitledFirstName] can't sleep because he's constantly thinking about me... My own [GetFromRelation], bless [Root.Religion.GetRandomGodName]!;;;;;;;;;x 
+EVTDESC_WOL_220_M;I didn't credit it when my manservant claimed to have heard that [From.GetTitledFirstName] twists and turns at night in the grip of passionate dreams, crying out my name, but now my friends are saying it too!;;;;;;;;;x 
+EVTDESC_WOL_220_CR_M;I didn't credit it when my manservant claimed to have heard that [From.GetTitledFirstName] twists and turns at night in the grip of passionate dreams, crying out my name, but now my friends are saying it too! My own [GetFromRelation], by [Root.Religion.GetRandomGodName]!;;;;;;;;;x 
+EVTOPTA_WOL_220;How flattering!;;;;;;;;;x 
+EVTOPTB_WOL_220;Unnatural! Why does this excite me?;;;;;;;;;x 
+EVTTITLE_WOL_221;Conquest by Rumor;;;;;;;;;x 
+EVTDESC_WOL_221;Some carefully placed words where they can easily be overheard by notorious gossips can be more effective than a love letter! [From.GetTitledFirstName] must have gotten my message, for I found a lock of hair wrapped in silk with [From.GetPossPronoun] personal seal in my chambers today.;;;;;;;;;x 
+EVTOPTA_WOL_221;Hah! I shall have [From.GetObjectPronoun]!;;;;;;;;;x 
+EVTOPTB_WOL_221;Unfortunately, I don't want [From.GetObjectPronoun] anymore;;;;;;;;;x 
+EVTDESC_WOL_222;Some carefully placed words where they can easily be overheard by notorious gossips can be more effective than a love letter. Or so I thought, but my quarry, [From.GetTitledFirstName], has not responded in any way.;;;;;;;;;x 
+EVTOPTA_WOL_222;I need another tactic.;;;;;;;;;x 
+EVTOPTB_WOL_222;Time to end this endeavor!;;;;;;;;;x 
+EVTDESC_WOL_223;I thought some carefully placed words where they could easily be overheard by notorious gossips would be more effective than a love letter... Well, [From.GetTitledFirstName] clearly got the message, for [From.GetSubjectPronoun] has started rumors of [From.GetPossPronoun] own about me!;;;;;;;;;x 
+EVTOPTA_WOL_223;Ingenious, but I won't give up so easily!;;;;;;;;;x 
+EVTOPTB_WOL_223;Me and a horse?! I've had it!;;;;;;;;;x 
+EVTTITLE_WOL_300;An Informal Event;;;;;;;;;x 
+EVTDESC_WOL_300;My heart beats faster as [From.GetTitledName] grabs me for another dance. The hour is getting late, but the [From.GetManWoman] is such a charmer! I must be blushing like a beetroot.;;;;;;;;;x 
+EVTDESC_WOL_300_CR;My [GetFromRelation] [From.GetFirstName] has danced with me all evening. I thought [From.GetSubjectPronoun] was just being sweet, but there is a strange tension growing between us. Something sensual, forbidden... thrilling.;;;;;;;;;x 
+EVTDESC_WOL_300_M;This minor event would be a dull affair, but [From.GetTitledName] just brushed her bosom against me again. Is she flirting with me..? That was definitely a wink! This is getting more interesting by the minute!;;;;;;;;;x 
+EVTOPTA_WOL_300;Say something clever!;;;;;;;;;x 
+EVTOPTA_WOL_300_F;Show [From.GetObjectPronoun] some cleavage...;;;;;;;;;x 
+EVTOPTA_WOL_300_CR;Delicious sin! Lower my hands just a fraction...;;;;;;;;;x 
+EVTOPTB_WOL_300;Give [From.GetObjectPronoun] the cold shoulder.;;;;;;;;;x 
+EVTOPTB_WOL_300_MAR;I'm a married [Root.GetManWoman]! Take my leave.;;;;;;;;;x 
+EVTOPTB_WOL_300_OLD;[From.GetSubjectPronounCap] is far too young for me!;;;;;;;;;x 
+EVTOPTB_WOL_300_YOUNG;[From.GetSubjectPronounCap] is far too old for me!;;;;;;;;;x 
+EVTOPTB_WOL_300_CR;No way [GetFromRelation]!;;;;;;;;;x 
+EVTTOOLTIP_WoL_301;[This.GetFirstName]'s advances are encouraged;;;;;;;;;x 
+EVTTOOLTIP_WoL_302;[This.GetFirstName]'s advances are rebuffed;;;;;;;;;x 
+EVTTITLE_WOL_301;An Informal Event;;;;;;;;;x 
+EVTDESC_WOL_301;I made sure to attend this minor event in [From.Capital.Capital.GetName] so I could seduce [From.GetTitledFirstName]. We've been dancing and conversing all night and [From.GetSubjectPronoun] is clearly responding to my advances...;;;;;;;;;x 
+EVTDESC_WOL_301_DISTANT;I travelled all the way to the court of [From.Employer.GetTitledName] in [From.Capital.Capital.GetName] so I could meet [From.GetFirstName] at a minor celebration. We've been dancing and conversing all night and [From.GetSubjectPronoun] is clearly responding to my advances...;;;;;;;;;x 
+EVTOPTA_WOL_301;Mead in my room, [From.GetMilordMilady]?;;;;;;;;;x 
+EVTOPTB_WOL_301;Leave [From.GetObjectPronoun] yearning for more...;;;;;;;;;x 
+EVTOPTC_WOL_301;I'm affirmed. Now I can end this.;;;;;;;;;x 
+EVTTOOLTIP_WoL_303;Seek to make [This.GetObjectPronoun] my lover;;;;;;;;;x 
+EVTTOOLTIP_WoL_304;Raise [This.GetPossPronoun] opinion of me;;;;;;;;;x 
+EVTDESC_WOL_302;I made sure to attend a minor event in [From.Capital.Capital.GetName] in the hopes of seducing [From.GetTitledFirstName], but despite my best attempts, [From.GetSubjectPronoun] remains unimpressed.;;;;;;;;;x 
+EVTOPTA_WOL_302;I need more practice;;;;;;;;;x 
+EVTDESC_WOL_303;As the festivities wind down, [From.GetFirstName] takes my hands and looks into my eyes. '[From.GetMilordMilady], will you escort me to my chambers?';;;;;;;;;x 
+EVTDESC_WOL_303_F;The night's merrymaking is coming to an end. [From.GetFirstName] nods towards my rather inebriated attendant. 'She won't even notice us leaving...' [From.GetSubjectPronounCap] grins lasciviously and pats me on the rump.;;;;;;;;;x 
+EVTOPTA_WOL_303;Sweet temptation, yes!;;;;;;;;;x 
+EVTOPTB_WOL_303;I am not that kind of [Root.GetLadLass]!;;;;;;;;;x 
+EVTOPTC_WOL_303;Laugh cruelly and loudly insult [From.GetObjectPronoun]!;;;;;;;;;x 
+EVTOPTC_WOL_303_F;Slap [From.GetObjectPronoun] and make a scene!;;;;;;;;;x 
+EVTTOOLTIP_WoL_306;Have a memorable night!;;;;;;;;;x 
+EVTDESC_WOL_304;What a night! I think I'm falling in love with [From.GetFirstName]...;;;;;;;;;x 
+EVTOPTA_WOL_304;I must have [From.GetObjectPronoun]!;;;;;;;;;x 
+EVTDESC_WOL_305;Just when things were really heating up, [From.GetFirstName] excused [From.GetReflexivePronoun] and left!;;;;;;;;;x 
+EVTOPTA_WOL_305;What did I do?;;;;;;;;;x 
+EVTDESC_WOL_306;I sure know how to cajole [From.GetMenWomen]! [From.GetFirstName] and I spent the night making sweet, illicit love in [From.GetPossPronoun] bed. I snuck off in the wee hours, leaving the court clueless... I hope!;;;;;;;;;x 
+EVTDESC_WOL_306_CR;I sure know how to cajole [From.GetMenWomen]! [Root.Religion.GetRandomEvilGodNameCap] will surely claim our souls for our wicked sin, but [From.GetFirstName] and I spent the night making sweet, illicit love in [From.GetPossPronoun] bed. I snuck off in the wee hours, leaving the court clueless... I hope!;;;;;;;;;x 
+EVTOPTA_WOL_306;Vidi, Vici, Veni;;;;;;;;;x 
+EVTOPTA_WOL_306_CUSTOM;Love [From.GetObjectPronoun] and leave [From.GetObjectPronoun].;;;;;;;;;x 
+EVTOPTB_WOL_306;Let our love grow!;;;;;;;;;x 
+EVTDESC_WOL_307;As the festivities wound down, I took [From.GetFirstName] aside and suggested we retire together... I can't believe [From.GetSubjectPronoun] actually spurned me!;;;;;;;;;x 
+EVTOPTA_WOL_307;The virtue is strong in this one...;;;;;;;;;x 
+EVTOPTB_WOL_307;I don't have the patience for this;;;;;;;;;x 
+EVTDESC_WOL_308;I thought I had [From.GetFirstName] completely entranced, but when I finally suggested we retire together, [From.GetSubjectPronoun] loudly mocked me and walked off with [From.GetPossPronoun] rather inebriated attendant, laughing cruelly!;;;;;;;;;x 
+EVTOPTA_WOL_308;Hah. The prey is feisty!;;;;;;;;;x 
+EVTOPTB_WOL_308;I've had it with this harridan!;;;;;;;;;x 
+EVTOPTB_WOL_308_F;I've had it with this buffoon!;;;;;;;;;x 
+EVTTITLE_WOL_351;A Midnight Snack;;;;;;;;;x 
+EVTDESC_WOL_351;I managed to 'chance' upon [From.GetFirstName] alone in the kitchen when [From.GetSubjectPronoun] came down for [From.GetPossPronoun] usual late snack. We've talked and laughed for hours and I can tell the attraction is growing. Hoping I've read [From.GetObjectPronoun] correctly, I lean in to whisper in [From.GetPossPronoun] ear...;;;;;;;;;x 
+EVTDESC_WOL_351_DISTANT;The journey to the court of [From.Employer.GetTitledName] was dreary, but I managed to 'chance' upon [From.GetFirstName] alone in the kitchen when [From.GetSubjectPronoun] came down for [From.GetPossPronoun] usual late snack. We've talked and laughed for hours and I can tell [From.GetSubjectPronoun] is attracted. Hoping I've read [From.GetObjectPronoun] correctly, I lean in to whisper in [From.GetPossPronoun] ear...;;;;;;;;;x 
+EVTOPTA_WOL_351;Confess my love;;;;;;;;;x 
+EVTOPTB_WOL_351;Make a lewd suggestion;;;;;;;;;x 
+EVTOPTC_WOL_351;Quote love poetry;;;;;;;;;x 
+EVTOPTD_WOL_351;Brush my lips against [From.GetPossPronoun] ear and breathe out softly;;;;;;;;;x 
+EVTTOOLTIP_WoL_352_LOVE;Bet that [This.GetFirstName] is a naive romantic;;;;;;;;;x 
+EVTTOOLTIP_WoL_352_LEWD;Bet that [This.GetFirstName] is experienced and bawdy;;;;;;;;;x 
+EVTTOOLTIP_WoL_352_POET;Bet that [This.GetFirstName] will respond to poetry and learning;;;;;;;;;x 
+EVTTOOLTIP_WoL_352_BREATH;Use an unfailing trick of seduction;;;;;;;;;x 
+EVTDESC_WOL_352;As I snuck into the kitchen for my usual night snack, I chanced upon [From.GetTitledFirstNameNoRegnal]. We've been chatting and laughing for hours now, but the words have grown softer and our hands are touching... Suddenly, [From.GetSubjectPronoun] leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTDESC_WOL_352_DISTANT;As I snuck into the kitchen for my usual night snack, I chanced upon our distant guest, [From.GetTitledFirstName]. We've been chatting and laughing for hours now, but the words have grown softer and our hands are touching... Suddenly, [From.GetSubjectPronoun] leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTDESC_WOL_352_HOMO;As I snuck into the kitchen for my usual night snack, I chanced upon [From.GetTitledFirstNameNoRegnal]. We've been chatting and laughing for hours now, but there is a strange tension growing between us. Attraction? For another [From.GetManWoman]..?! As we are about to leave, [From.GetSubjectPronoun] suddenly leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTDESC_WOL_352_CR;As I snuck into the kitchen for my usual night snack, I chanced upon my [GetFromRelation] [From.GetFirstName]. We've been chatting and laughing for hours now, but there is a strange tension growing between us. Attraction? For my own [GetFromRelation]..?! As we are about to leave, [From.GetSubjectPronoun] suddenly leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTOPTA_WOL_352_POET;Such learning! I cannot resist poetry...;;;;;;;;;x 
+EVTOPTA_WOL_352_LEWD;Such a dirty mind, [From.GetFirstName]! Come then, let's commit a few sins...;;;;;;;;;x 
+EVTOPTA_WOL_352_LOVE;Such sweet words of love! How can my heart resist?;;;;;;;;;x 
+EVTOPTA_WOL_352_BREATH;[From.GetPossPronounCap] hot breath sends lightning through my body!;;;;;;;;;x 
+EVTTOOLTIP_WoL_306_2;Follow [This.GetFirstName] to bed...;;;;;;;;;x 
+EVTOPTB_WOL_352_POET;Poetry? I care nothing for such nonsense!;;;;;;;;;x 
+EVTOPTB_WOL_352_LEWD;How rude! I didn't even know such lewd words existed!;;;;;;;;;x 
+EVTOPTB_WOL_352_LOVE;A confession of love? Such childish nonsense!;;;;;;;;;x 
+EVTOPTB_WOL_352_BREATH;Desire overwhelms me, but I must be strong!;;;;;;;;;x 
+EVTDESC_WOL_353;[From.GetFirstName] backed away from me, blushing and stammering something about being sorry before rushing off.;;;;;;;;;x 
+EVTDESC_WOL_353_CR;[From.GetFirstName] jerked away from me with a look of shock and disgust, exclaiming '[Root.GetFirstName], I am your [GetFromRelation] for [From.Religion.GetRandomGodName]'s sake!';;;;;;;;;x 
+EVTDESC_WOL_353_OLD_M;[From.GetFirstName] jerked away from me with a shocked expression, exclaiming '[Root.GetTitledFirstNameNoRegnal]! You are old enough to be my father!' Then [From.GetSubjectPronoun] ran off giggling.;;;;;;;;;x 
+EVTDESC_WOL_353_OLD_F;[From.GetFirstName] jerked away from me with a shocked expression, exclaiming 'Sorry [Root.PrimaryTitle.GetRulerTitle], but you are far too old for me!' before rushing off.;;;;;;;;;x 
+EVTDESC_WOL_353_YOUNG;[From.GetFirstName] slowly shook [From.GetPossPronoun] head, grinning as [From.GetSubjectPronoun] gently pushed me away. 'Sorry [Root.GetLadLass], you still have a lot to learn about [From.GetMenWomen]!';;;;;;;;;x 
+EVTTITLE_WOL_401;Seduction in the Wild;;;;;;;;;x 
+EVTDESC_WOL_401;I am attending a festive outing with [From.GetTitledFirstNameNoRegnal]. Unfortunately, half the court is also here and I am having trouble getting any time alone with my amorous quarry...;;;;;;;;;x 
+EVTDESC_WOL_401_DISTANT;I travelled far to attend this festive outing with [From.GetTitledFirstNameNoRegnal]. Unfortunately, half the court of [From.Employer.PrimaryTitle.GetName] is also here and I am having trouble getting any time alone with my amorous quarry...;;;;;;;;;x 
+EVTDESC_WOL_401_CR;I am attending a festive outing with [From.GetFirstName]. With half the court around as chaperones, it would normally be hard to spend any time alone with the target of my affection, but [From.GetFirstName] is my [GetFromRelation], so I should be above suspicion...;;;;;;;;;x 
+EVTDESC_WOL_401_HOMO;I am attending a festive outing with [From.GetFirstName]. With half the court around as chaperones, it would normally be hard to spend any time alone with the target of my affection, but [From.GetFirstName] is another [Root.GetManWoman], so it should not arouse suspicion...;;;;;;;;;x 
+EVTOPTA_WOL_401;Seek an ally among [From.GetPossPronoun] friends;;;;;;;;;x 
+EVTOPTB_WOL_401;Leave [From.GetObjectPronoun] a note to meet me by the stream;;;;;;;;;x 
+EVTOPTC_WOL_401;Take a long walk alone with [From.GetObjectPronoun];;;;;;;;;x 
+EVTOPTD_WOL_401;Flirt with [From.GetObjectPronoun] discretely;;;;;;;;;x 
+EVTDESC_WOL_403;I found [From.GetBestName] sympathetic to my romantic cause. [From.GetSubjectPronounCap] and [FromFromFrom.GetFirstName] 'chanced' upon me by a nearby stream and the three of us have had a great time. I can tell [FromFromFrom.GetSubjectPronoun] is falling for me, for [FromFromFrom.GetSubjectPronoun] barely noticed [FromFromFrom.GetPossPronoun] friend leaving. I lean in to whisper in [FromFromFrom.GetPossPronoun] ear...;;;;;;;;;x 
+EVTDESC_WOL_404;At a festive outing in the wild, I found myself alone with [From.GetTitledFirstNameNoRegnal] by a stream, all my friends and servants seemingly having deserted me. Hours must have passed while I laughed and talked with the captivating [From.GetTitledFirstNameNoRegnal]. Suddenly, [From.GetSubjectPronoun] leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTDESC_WOL_404_DISTANT;At a festive outing in the wild, I found myself alone by a stream with our distant visitor, [From.GetTitledFirstName]. My friends and servants all seem to have deserted me. Hours must have passed while I laughed and talked with the captivating [From.GetTitledFirstNameNoRegnal]. Suddenly, [From.GetSubjectPronoun] leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTDESC_WOL_404_HOMO;At a festive outing in the wild, [From.GetTitledFirstName] and I left the main party and walked down to a nearby stream, chatting amicably. Hours later, sitting on a cliff together watching the water flow, a strange tension has grown between us. Attraction? For another [From.GetManWoman]..?! As we get up to leave, [From.GetSubjectPronoun] suddenly leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTDESC_WOL_404_CR;At a festive outing in the wild, my [GetFromRelation] [From.GetFirstName] and I left the main party and walked down to a nearby stream. Sitting close together on the cliffs, gossip and familial advice has turned into something else... Desire? For my own [GetFromRelation]..?! Suddenly, [From.GetSubjectPronoun] puts a hand on my thigh, leans over and whispers in my ear...;;;;;;;;;x 
+EVTTOOLTIP_WoL_405;Follow [This.GetObjectPronoun] into the warm water...;;;;;;;;;x 
+EVTDESC_WOL_405;[From.GetFirstName] and I spent a long time making love in the water and on the warm cliffs above. When we returned to the main party in the evening, grinning and squeaky clean, we found they'd been looking for us. Attendants came rushing and more than a few eyebrows were raised in speculation...;;;;;;;;;x 
+EVTDESC_WOL_405_SIN;[From.GetFirstName] and I gave our souls to [Root.Religion.GetRandomEvilGodName] in the warm waters of that stream, lost in wicked sin. When we returned to the main party in the evening, grinning and squeaky clean, the servants came rushing. If only they knew... By [Root.Religion.GetRandomGodName] I hope they don't!;;;;;;;;;x 
+EVTDESC_WOL_407;I asked [FromFrom.GetBestName] to help me woo [From.GetTitledFirstNameNoRegnal], but [FromFrom.GetSubjectPronoun] was not in the least sympathetic. In fact, I got the sense [FromFrom.GetSubjectPronoun] will be keeping an eye on me from now on...;;;;;;;;;x 
+EVTOPTA_WOL_407;I should have left [From.GetFirstName] a note instead!;;;;;;;;;x 
+EVTOPTB_WOL_407;I tire of this game;;;;;;;;;x 
+EVTDESC_WOL_409;My [GetFromFromRelation] [FromFrom.GetBestName] has just informed me that [FromFromFrom.GetTitledName] tried to recruit [FromFrom.GetObjectPronoun] in a scheme to seduce my [GetFromRelation] [From.GetFirstName]!;;;;;;;;;x 
+EVTOPTA_WOL_409_M;That randy goat!;;;;;;;;;x 
+EVTOPTA_WOL_409_M_OLD;That randy old goat!;;;;;;;;;x 
+EVTOPTA_WOL_409_F;That wanton trollop!;;;;;;;;;x 
+EVTOPTA_WOL_409_F_OLD;That lascivious old witch!;;;;;;;;;x 
+EVTDESC_WOL_412;The courtier I tried to recruit to help me seduce [From.GetTitledFirstNameNoRegnal] was not in the least sympathetic, and has even tipped off [From.GetPossPronoun] [GetFromVsFromFromFromRelation], gaining me a new Rival!;;;;;;;;;x 
+EVTDESC_WOL_414;I spent most of the outing trying to charm [From.GetFirstName]'s friends, with little success. No one seemed willing to help me romance [From.GetObjectPronoun]...;;;;;;;;;x 
+EVTOPTA_WOL_414;I don't give up that easily!;;;;;;;;;x 
+EVTDESC_WOL_415;At a festive outing in the wild, I've found myself talking a lot to [From.GetTitledFirstNameNoRegnal]. I feel strangely attracted to the [GetRootFromCompliment]!;;;;;;;;;x 
+EVTDESC_WOL_415_DISTANT;At a festive outing in the wild, I've been talking a lot to [From.GetTitledFirstNameNoRegnal], who is currently visiting our court. I find myself quite drawn to the [GetRootFromCompliment]!;;;;;;;;;x 
+EVTDESC_WOL_416;Despite never getting a chance to be alone with [From.GetTitledFirstNameNoRegnal], I do believe my winning personality has impressed [From.GetObjectPronoun]!;;;;;;;;;x 
+EVTOPTA_WOL_416;I need a new plan!;;;;;;;;;x 
+EVTDESC_WOL_418;At a festive outing in the wild, I found a message surrounded by wildflowers in my tent! It says to meet [FromFrom.GetTitledFirstNameNoRegnal] by the stream, alone!;;;;;;;;;x 
+EVTDESC_WOL_418_DISTANT;At a festive outing in the wild, I found a message surrounded by wildflowers in my tent! It says to meet our distant guest, [FromFrom.GetTitledFirstNameNoRegnal] by the stream, alone!;;;;;;;;;x 
+EVTOPTA_WOL_418_F;How exciting! My maid can cover for me.;;;;;;;;;x 
+EVTOPTA_WOL_418_M;How exciting! My friends can cover for me.;;;;;;;;;x 
+EVTOPTB_WOL_418;I will take no risks for the likes of [FromFrom.GetFirstName]!;;;;;;;;;x 
+EVTDESC_WOL_419;I didn't have to wait long for [From.GetTitledFirstNameNoRegnal] to show up by the nearby stream. We've spent hours chatting and laughing, and I do believe [From.GetSubjectPronoun] is falling for me! I lean in to whisper in [From.GetPossPronoun] ear...;;;;;;;;;x 
+EVTDESC_WOL_404_NOTE;I snuck out of my tent and down to the stream. I found [From.GetTitledFirstNameNoRegnal] waiting, shining up when [From.GetSubjectPronoun] saw me. Hours must have passed while I laughed and talked with the [GetRootFromCompliment]. Suddenly, [From.GetSubjectPronoun] leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTDESC_WOL_404_HOMO_NOTE;I snuck out of my tent and down to the stream. I found [From.GetTitledFirstNameNoRegnal] waiting, shining up when [From.GetSubjectPronoun] saw me. Sitting on a cliff together after hours of friendly conversation, a strange tension has grown between us. Attraction? For another [From.GetManWoman]..?! As we get up to leave, [From.GetSubjectPronoun] suddenly leans in and whispers softly in my ear...;;;;;;;;;x 
+EVTDESC_WOL_420;I've waited for hours by the stream, hoping that [From.GetTitledFirstNameNoRegnal] would be able to shake [From.GetPossPronoun] friends and chaperones to meet me, but the sun is about to set. [From.GetSubjectPronounCap] is clearly not coming.;;;;;;;;;x 
+EVTDESC_WOL_421;At a festive outing in the wild, I found a message left amidst wildflowers addressed to my [GetFromFromFromRelation] [FromFromFrom.GetFirstName] in our tent! The would-be seducer, the [GetRootFromFromInsult] [FromFrom.GetTitledFirstName], is apparently waiting for [FromFromFrom.GetObjectPronoun] nearby.;;;;;;;;;x 
+EVTOPTB_WOL_421;Guards! Arrest [FromFrom.GetObjectPronoun]!;;;;;;;;;x 
+EVTDESC_WOL_423;Alas, the message I left in [From.GetTitledFirstNameNoRegnal]'s tent was found by her [GetFromVsFromFromRelation] [FromFrom.GetTitledFirstNameNoRegnal]. [FromFrom.GetSubjectPronounCap] was not amused... I am lucky I was not thrown in irons, but I have certainly made an enemy!;;;;;;;;;x 
+EVTDESC_WOL_423_PRISON;Alas, the message I left in [From.GetTitledFirstNameNoRegnal]'s tent was found by her [GetFromVsFromFromRelation] [FromFrom.GetTitledFirstNameNoRegnal]. [FromFrom.GetSubjectPronounCap] came rushing down to the stream with six guards to arrest me!;;;;;;;;;x 
+EVTOPTA_WOL_423;I like high stakes games!;;;;;;;;;x 
+EVTOPTA_WOL_423_PRISON;Curses! I will try again when I get out!;;;;;;;;;x 
+EVTDESC_WOL_424;At a festive outing in the wild, I found a message left amidst wildflowers addressed to my [GetFromFromFromRelation] [FromFromFrom.GetTitledFirstNameNoRegnal]. The would-be lover, [FromFrom.GetTitledFirstNameNoRegnal], is waiting for [FromFromFrom.GetObjectPronoun] by the stream near the camp...;;;;;;;;;x 
+EVTOPTB_WOL_424;I must protect [FromFromFrom.GetFirstName] from such dangerous liaisons!;;;;;;;;;x 
+EVTOPTC_WOL_424;The [GetRootFromFromCompliment][FromFrom.GetFirstName]? I'm going myself!;;;;;;;;;x 
+EVTDESC_WOL_426;I waited by the stream for hours in vain. Back in the camp I noticed [From.GetFirstName]'s [GetFromVsFromFromRelation] staring at me angrily, shaking [FromFrom.GetPossPronoun] head. I guess my message was intercepted...;;;;;;;;;x 
+EVTDESC_WOL_428;I didn't have to wait long by the river until a [FromFrom.GetMaleFemale] figure showed up among the trees... But it wasn't [From.GetTitledFirstNameNoRegnal], but [From.GetPossPronoun] [GetFromVsFromFromRelation] [FromFrom.GetTitledFirstNameNoRegnal]! As it turns out, the [GetRootFromFromCompliment] is looking for a casual dalliance.;;;;;;;;;x 
+EVTOPTA_WOL_428;I think I can help...;;;;;;;;;x 
+EVTOPTB_WOL_428;Thank you, my [FromFrom.GetLordLady], but no!;;;;;;;;;x 
+EVTTOOLTIP_WoL_430;[This.GetFirstName] is frustrated and not likely to think better of me...;;;;;;;;;x 
+EVTDESC_WOL_429;I met the amorous [From.GetTitledFirstNameNoRegnal] down by the river. [From.GetSubjectPronounCap] was surprised to see me instead of [FromFrom.GetTitledFirstNameNoRegnal], but it did not take much to cajole the [GetRootFromCompliment]. We spent a magical afternoon of passion in the water and under the willows.;;;;;;;;;x 
+EVTOPTA_WOL_429;I needed that!;;;;;;;;;x 
+EVTDESC_WOL_430;I met the amorous [From.GetTitledFirstNameNoRegnal] down by the river. [From.GetSubjectPronounCap] was surprised to see me instead of [FromFrom.GetTitledFirstNameNoRegnal], to say the least! Unfortunately, my assets and charm were not enough to cajole the [GetRootFromInsult]!;;;;;;;;;x 
+EVTOPTA_WOL_430;[From.GetSubjectPronounCap] will regret this!;;;;;;;;;x 
+EVTDESC_WOL_1003;The late nights, the way my [GetFromFromRelation] [FromFrom.GetFirstName] has stopped touching me - or even looking at me - and now the whispers of [FromFrom.GetObjectPronoun] and that [GetRootFromInsult] [From.GetBestName]... I can't take it anymore!;;;;;;;;;x 
+EVTDESC_WOL_1003_CR;My [GetFromFromRelation] [FromFrom.GetFirstName] has stopped touching me, or even looking at me. There is something not right about the way [FromFrom.GetFirstName] and [FromFrom.GetPossPronoun] [GetFromFromVsFromRelation] [From.GetTitledFirstNameNoRegnal] hold hands, about their long walks in the forest... It sickens me.;;;;;;;;;x 
+EVTDESC_WOL_1003_TIP;I received a message today, from [FromFromFrom.GetTitledName]. [FromFromFrom.GetSubjectPronounCap] tells me that [FromFromFrom.GetPossPronoun] suspects that her spouse, [From.GetTitledFirstNameNoRegnal] and my [GetFromFromRelation] [FromFrom.GetFirstName] are having an affair, but that there is nothing more [FromFromFrom.GetSubjectPronoun] dares do about it!;;;;;;;;;x 
+EVTOPTA_WOL_1003;Confront [FromFrom.GetFirstName]!;;;;;;;;;x 
+EVTOPTB_WOL_1003_M;Confront [From.GetTitledFirstNameNoRegnal]!;;;;;;;;;x 
+EVTOPTB_WOL_1003_F;Confront the harlot, [From.GetTitledFirstNameNoRegnal]!;;;;;;;;;x 
+EVTOPTC_WOL_1003;Focus on more important matters;;;;;;;;;x 
+EVTOPTC_WOL_1003_HOMO_F;Women lovers? Let them play...;;;;;;;;;x 
+EVTDESC_WOL_1004;My [GetFromRelation] [From.GetFirstName] just asked me if I'm having an affair with [FromFrom.GetTitledName]. [From.GetPossPronounCap] stony expression does not reveal whether [From.GetSubjectPronoun] knows or is only guessing...;;;;;;;;;x 
+EVTOPTA_WOL_1004;Tearfully confess and ask forgiveness;;;;;;;;;x 
+EVTOPTB_WOL_1004;Admit it, but refuse to break up with [FromFrom.GetFirstName];;;;;;;;;x 
+EVTOPTC_WOL_1004;Lie to [From.GetPossPronoun] face;;;;;;;;;x 
+EVTOPTD_WOL_1004;Lie and make [From.GetObjectPronoun] feel guilty for asking!;;;;;;;;;x 
+EVTTOOLTIP_WoL_1005;My affair with [This.GetTitledFirstNameNoRegnal] is ended;;;;;;;;;x 
+EVTDESC_WOL_1005;My lover, [From.GetTitledFirstNameNoRegnal] just broke up with me! Apparently, [From.GetPossPronoun] jealous [GetFromVsFromFromRelation] confronted [From.GetObjectPronoun] about our affair...;;;;;;;;;x 
+EVTOPTA_WOL_1005_F;That meddling witch!;;;;;;;;;x 
+EVTOPTA_WOL_1005_M;That accursed blackguard!;;;;;;;;;x 
+EVTTOOLTIP_WoL_1006;[This.GetFirstName] is upset;;;;;;;;;x 
+EVTTOOLTIP_WoL_1009;[This.GetFirstName] is upset and might overreact...;;;;;;;;;x 
+EVTTOOLTIP_WoL_1022;[This.GetFirstName] responds to my lies...;;;;;;;;;x 
+EVTTOOLTIP_WoL_1010;[This.GetFirstName] is manipulated;;;;;;;;;x 
+EVTDESC_WOL_1006;My [GetFromRelation] [From.GetFirstName] tearfully admitted to [From.GetPossPronoun] affair with [FromFromFrom.GetTitledFirstNameNoRegnal] and is begging me for forgiveness on [From.GetPossPronoun] bare knees...;;;;;;;;;x 
+EVTOPTA_WOL_1006;Very well, but I am deeply disappointed.;;;;;;;;;x 
+EVTOPTB_WOL_1006;Never! Denounce them both publicly!;;;;;;;;;x 
+EVTDESC_WOL_1007;The jealous [GetFromFromVsFromRelation] of my lover [FromFrom.GetTitledFirstNameNoRegnal] has denounced us both as adulterers publicly!;;;;;;;;;x 
+EVTDESC_WOL_1007_LOVER_ADM;The [GetRootFromInsult] [From.GetTitledFirstNameNoRegnal] would not accept my sincere apology, but has chosen to denounce both me and [From.GetPossPronoun] [GetFromVsFromFromRelation] [FromFrom.GetTitledFirstNameNoRegnal] publicly as adulterers!;;;;;;;;;x 
+EVTDESC_WOL_1007_SPYING;[From.GetTitledFirstNameNoRegnal] hired spies to observe me and [From.GetPossPronoun] [GetFromVsFromFromRelation] [FromFrom.GetTitledFirstNameNoRegnal]. They uncovered our love affair, and the [GetRootFromInsult] has chosen to expose our adultery to the public!;;;;;;;;;x 
+EVTDESC_WOL_1008;My wrathful [GetFromRelation] [From.GetFirstName] would not accept my sincere apologies no matter what I said. [From.GetSubjectPronounCap] has denounced me and my lover [FromFromFromFrom.GetTitledFirstNameNoRegnal] publicly.;;;;;;;;;x 
+EVTDESC_WOL_1008_CRUEL;My spiteful [GetFromRelation] [From.GetFirstName] did not take my frank declaration of love for my [GetFromFromFromFromRelation] [FromFromFromFrom.GetTitledFirstNameNoRegnal] well at all. The [GetRootFromInsult] has denounced us both publicly.;;;;;;;;;x 
+EVTDESC_WOL_1009;My cheating [GetFromRelation] - the [GetRootFromInsult] - just smirked and openly admitted to having an affair with [FromFromFrom.GetTitledName]!;;;;;;;;;x 
+EVTOPTA_WOL_1009_M;It's a man's world. I'll just have to swallow my pride.;;;;;;;;;x 
+EVTOPTA_WOL_1009_F;I can't afford a scandal right now...;;;;;;;;;x 
+EVTOPTB_WOL_1009;Denounce them both publicly!;;;;;;;;;x 
+EVTDESC_WOL_1022;My [GetFromRelation] [From.GetFirstName] vehemently denies having an affair with [FromFromFrom.GetTitledFirstNameNoRegnal] and promises to spend more time with me.;;;;;;;;;x 
+EVTOPTA_WOL_1022;That's a relief, but I still have doubts...;;;;;;;;;x 
+EVTOPTB_WOL_1022;[FromFromFrom.GetFirstName] is married too. Ask [FromFromFrom.GetPossPronoun] spouse [FromFromFrom.Spouse.GetTitledFirstNameNoRegnal] to investigate.;;;;;;;;;x 
+EVTOPTC_WOL_1022;Pay to have them both watched;;;;;;;;;x 
+EVTTOOLTIP_WoL_1023;[This.Spouse.GetFirstName] is tipped off.;;;;;;;;;x 
+EVTDESC_WOL_1025;[From.GetTitledFirstNameNoRegnal] thanks me for making [From.GetObjectPronoun] aware of our spouses' possible cheating, and for my discretion. [From.GetSubjectPronounCap] promises to look into the matter...;;;;;;;;;x 
+EVTOPTA_WOL_1025;I hope that's all there is to it!;;;;;;;;;x 
+EVTDESC_WOL_1027;My spies have carefully observed my [GetFromFromFromRelation] [FromFromFrom.GetFirstName] and [From.GetTitledFirstNameNoRegnal], and as far as they can determine, they are not having an affair.;;;;;;;;;x 
+EVTDESC_WOL_1028;My spies report that they caught my [GetFromFromFromRelation] and [FromFromFrom.GetPossPronoun] lover, [From.GetTitledFirstNameNoRegnal] 'in flagrante delicto' in a glade near [From.Location.Capital.GetName]!;;;;;;;;;x 
+EVTOPTA_WOL_1028;No! But... I don't want a scandal.;;;;;;;;;x 
+EVTOPTB_WOL_1028;Filth! Denounce them both publicly!;;;;;;;;;x 
+EVTDESC_WOL_1031;My suspicious [GetFromRelation] [From.GetFirstName] did not believe my denials and hired spies to uncover my love affair with [FromFrom.GetTitledFirstNameNoRegnal]. [From.GetSubjectPronounCap] has denounced us both publicly!;;;;;;;;;x 
+EVTDESC_WOL_1010_F;[From.GetFirstName] got angry when I confronted her about her rumored affair with [FromFromFrom.GetTitledName], saying she lives in a prison and that I am denying her even the most basic freedoms.;;;;;;;;;x 
+EVTDESC_WOL_1010_M;[From.GetFirstName] got angry when I confronted him about his rumored affair with [FromFromFrom.GetTitledName], saying I have grown cold and distant and only greet him with mistrust.;;;;;;;;;x 
+EVTDESC_WOL_1033;[From.GetBestName], the [GetFromFromFromVsFromRelation] of my lover [FromFromFrom.GetTitledFirstNameNoRegnal], shocked me by asking me to my face if we're having an affair!;;;;;;;;;x 
+EVTDESC_WOL_1033_DISTANT;[From.GetBestName], the [GetFromFromFromVsFromRelation] of my lover [FromFromFrom.GetTitledFirstNameNoRegnal] has sent me a letter asking me directly if we're having an affair!;;;;;;;;;x 
+EVTOPTA_WOL_1033;Flatly deny;;;;;;;;;x 
+EVTOPTB_WOL_1033;Confess and promise to end the affair;;;;;;;;;x 
+EVTOPTC_WOL_1033_F;I will kill the bitch!;;;;;;;;;x 
+EVTOPTC_WOL_1033_M;The [GetRootFromInsult]! I will kill him!;;;;;;;;;x 
+EVTTOOLTIP_WoL_1011_ATTACK;[From.GetTitledFirstNameNoRegnal] is attacked and hopefully hurt badly!;;;;;;;;;x 
+EVTDESC_WOL_1012;[FromFrom.GetTitledFirstNameNoRegnal] acts shocked and denies having an affair with my [GetFromRelation] [From.GetFirstName].;;;;;;;;;x 
+EVTDESC_WOL_1012_ATTACKED;When questioned about [FromFrom.GetPossPronoun] affair with my [GetFromRelation] [From.GetFirstName], [FromFrom.GetTitledFirstNameNoRegnal] flew into a rage and physically assaulted me!;;;;;;;;;x 
+EVTOPTA_WOL_1012;Oh. Ok then.;;;;;;;;;x 
+EVTOPTA_WOL_1012_ATTACKED;Such fury must mean innocence... right?;;;;;;;;;x 
+EVTOPTB_WOL_1012;I don't need proof when I have poison!;;;;;;;;;x 
+EVTTOOLTIP_WoL_1013;Poison [This.GetFirstName] at the first opportunity.;;;;;;;;;x 
+EVTOPTC_WOL_1012_DUEL;Our blades will decide [FromFrom.GetPossPronoun] guilt!;;;;;;;;;x 
+EVTTOOLTIP_WoL_1032;[This.GetFirstName] is challenged to a duel.;;;;;;;;;x 
+EVTDESC_WOL_1014;What a lovely evening! Good food, good entertainment and the company of friends. But... I don't feel so good. I can't breathe. I CAN'T BREATHE!;;;;;;;;;x 
+EVTOPTA_WOL_1014;[FromFrom.GetTitledFirstNameNoRegnal], I curse you with my dying breath!;;;;;;;;;x 
+EVTDESC_WOL_1015;What a lovely evening! Good food, good entertainment and the company of friends. But... I don't feel so good. Have I been poisoned?;;;;;;;;;x 
+EVTOPTA_WOL_1015;Poison or bad shellfish?;;;;;;;;;x 
+EVTDESC_WOL_1016;The filthy [From.GetAdultererAdulteress], [From.GetTitledFirstNameNoRegnal], did not eat the poisoned shellfish, though I hear some kitchen boy died later that night.;;;;;;;;;x 
+EVTOPTA_WOL_1016;May [Root.Religion.GetRandomEvilGodName] curse [From.GetObjectPronoun]!;;;;;;;;;x 
+EVTDESC_WOL_1017;I watched from the gallery as the dirty [From.GetAdultererAdulteress], [From.GetTitledFirstNameNoRegnal], lay choking to death, servants milling about trying to help. In vain, of course...;;;;;;;;;x 
+EVTOPTA_WOL_1017;I hope my [FromFromFromFrom.GetHusbandWife] gets the hint!;;;;;;;;;x 
+EVTDESC_WOL_1018;The filthy [From.GetAdultererAdulteress], [From.GetTitledFirstNameNoRegnal], did not die of the poison, but at least [From.GetSubjectPronoun] got ill.;;;;;;;;;x 
+EVTOPTA_WOL_1018;I need to have a serious talk with that apothecary;;;;;;;;;x 
+EVTDESC_WOL_1019;My lover, [From.GetTitledFirstNameNoRegnal], just broke up with me! Apparently, [From.GetSubjectPronoun] was confronted by my suspicious [GetFromFromRelation] [FromFrom.GetFirstName] and promised to stay away.;;;;;;;;;x 
+EVTDESC_WOL_1019_DUEL;Challenged to a duel by my furious [GetFromFromRelation] [FromFrom.GetFirstName], my lover, [From.GetTitledFirstNameNoRegnal], decided to admit [From.GetPossPronoun] guilt and break up with me!;;;;;;;;;x 
+EVTOPTA_WOL_1019;How will I live without [From.GetFirstName]?;;;;;;;;;x 
+EVTDESC_WOL_1020;The [GetRootFromFromInsult] [FromFrom.GetTitledFirstNameNoRegnal] admits to having an affair with my [GetFromRelation] [From.GetFirstName], sincerely asking for forgiveness and promising to stay away from my [GetFromRelation].;;;;;;;;;x 
+EVTOPTA_WOL_1020;Very well, I can be the greater [Root.GetManWoman].;;;;;;;;;x 
+EVTDESC_WOL_1021;In spite of my lover's abasement and apologies, my wrathful [GetFromRelation] [From.GetFirstName] has chosen to shame me and [FromFromFrom.GetTitledFirstNameNoRegnal] publicly as adulterers!;;;;;;;;;x 
+EVTDESC_WOL_1032;The furious [From.GetTitledFirstNameNoRegnal] does not accept my profuse denials and has challenged me to a duel to determine my guilt and that of [From.GetPossPronoun] [GetFromVsFromFromRelation], my lover, [FromFrom.GetTitledFirstNameNoRegnal]!;;;;;;;;;x 
+EVTOPTA_WOL_1032;Challenge accepted!;;;;;;;;;x 
+EVTOPTB_WOL_1032;A duel? What farce, what mummery!;;;;;;;;;x 
+EVTOPTC_WOL_1032;I am no fighter. Beg forgiveness.;;;;;;;;;x 
+EVTDESC_WOL_1034;The cowardly [From.GetTitledFirstNameNoRegnal] refuses to fight me!;;;;;;;;;x 
+EVTOPTA_WOL_1034;A smear on [From.GetPossPronoun] honor!;;;;;;;;;x 
+EVTDESC_WOL_1036;After a few probing exchanges, I realized that [FromFrom.GetTitledFirstNameNoRegnal] was no master of the blade. I defeated [FromFrom.GetObjectPronoun] easily, proving [FromFrom.GetPossPronoun] guilt, and that of my [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]...;;;;;;;;;x 
+EVTDESC_WOL_1036_WOUND;The duel with [FromFrom.GetTitledFirstNameNoRegnal] was hard fought, but in the end I proved the better [Root.GetManWoman]. Though [FromFrom.GetSubjectPronoun] managed to cut me, I have proven [FromFrom.GetPossPronoun] guilt, and that of my [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName].;;;;;;;;;x 
+EVTDESC_WOL_1036_MAIM;[FromFrom.GetTitledFirstNameNoRegnal] proved to be a formidable opponent. Though I won in the end, I lost three fingers and took several wounds in the process. I have proven [FromFrom.GetPossPronoun] guilt, and that of my [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]!;;;;;;;;;x 
+EVTOPTA_WOL_1036;I allowed [FromFrom.GetObjectPronoun] to yield unscathed, having lost [FromFrom.GetPossPronoun] sword;;;;;;;;;x 
+EVTOPTB_WOL_1036;[FromFrom.GetSubjectPronoun] yielded after I pierced [FromFrom.GetPossPronoun] shoulder;;;;;;;;;x 
+EVTOPTC_WOL_1036;Bleeding from several cuts, [FromFrom.GetSubjectPronoun] yielded only when I took [FromFrom.GetPossPronoun] hand off!;;;;;;;;;x 
+EVTOPTD_WOL_1036;I pierced [FromFrom.GetPossPronoun] heart. A suitable end to the [GetRootFromInsult]!;;;;;;;;;x 
+EVTDESC_WOL_1037;My brutish [GetFromRelation] [From.GetFirstName] defeated my beloved [FromFromFrom.GetTitledFirstNameNoRegnal] in a duel, thus proving our guilt.;;;;;;;;;x 
+EVTDESC_WOL_1037_WOUND;My brutish [GetFromRelation] [From.GetFirstName] defeated and wounded my beloved [FromFromFrom.GetTitledFirstNameNoRegnal] in a duel, thus proving our guilt.;;;;;;;;;x 
+EVTDESC_WOL_1037_MAIM;My vicious [GetFromRelation] [From.GetFirstName] defeated and maimed my beloved [FromFromFrom.GetTitledFirstNameNoRegnal] in a duel, thus proving our guilt.;;;;;;;;;x 
+EVTDESC_WOL_1037_DEATH;My monster of a [GetFromRelation], the [GetRootFromInsult] [From.GetFirstName], slew my beloved [FromFromFrom.GetTitledFirstNameNoRegnal] in a duel, proving our guilt. I, at least, will have to live with the shame.;;;;;;;;;x 
+EVTOPTA_WOL_1037;We must atone for our sins...;;;;;;;;;x 
+EVTOPTB_WOL_1037;How cruel is the world!?;;;;;;;;;x 
+EVTDESC_WOL_1038;Though I fought hard, the vengeful [FromFrom.GetTitledFirstNameNoRegnal] defeated me in a fair duel, thus proving me and my lover [From.GetFirstName] guilty of adultery. We are shamed.;;;;;;;;;x 
+EVTDESC_WOL_1038_WOUND;The vengeful [FromFrom.GetTitledFirstNameNoRegnal] defeated me in a fair duel. I had to yield after being pierced in the shoulder, thus proving me and my lover [From.GetFirstName] guilty of adultery. We are shamed.;;;;;;;;;x 
+EVTDESC_WOL_1038_MAIM;The vengeful [FromFrom.GetTitledFirstNameNoRegnal] took my hand off in the vicious duel, thus proving me and my lover [From.GetFirstName] guilty of adultery. Maimed and bleeding from many lesser cuts, I will have to accept our humiliation.;;;;;;;;;x 
+EVTDESC_WOL_1038_DEATH;I fought [FromFrom.GetTitledFirstNameNoRegnal] hard for what seemed like hours, but just when I finally saw an opening, [FromFrom.GetSubjectPronoun] pierced my heart. Darkness descends.;;;;;;;;;x 
+EVTOPTA_WOL_1038;[Root.Religion.GetRandomGodNameCap] has judged us fairly. We must atone.;;;;;;;;;x 
+EVTOPTB_WOL_1038;Curse [FromFrom.GetObjectPronoun]! I will have my revenge!;;;;;;;;;x 
+EVTOPTC_WOL_1038;[From.GetFirstName], I have shamed you...;;;;;;;;;x 
+EVTDESC_WOL_1039;After a few probing exchanges, I realized that [From.GetTitledFirstNameNoRegnal] was no master of the blade. I defeated [From.GetObjectPronoun] easily, proving my innocence and that of my [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName].;;;;;;;;;x 
+EVTDESC_WOL_1039_WOUND;The duel with [From.GetTitledFirstNameNoRegnal] was hard fought, but in the end I proved the better [Root.GetManWoman]. Though [From.GetSubjectPronoun] managed to cut me, I have proven my innocence and that of my [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName].;;;;;;;;;x 
+EVTDESC_WOL_1039_MAIM;[From.GetTitledFirstNameNoRegnal] proved to be a formidable opponent. Though I won in the end, I lost three fingers and took several wounds in the process. I have proven my innocence and that of my [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]!;;;;;;;;;x 
+EVTDESC_WOL_1040;My valiant [GetFromRelation] [From.GetTitledFirstNameNoRegnal] defeated my brutish [GetFromFromRelation] [FromFrom.GetFirstName] in a duel, thus proving our innocence.;;;;;;;;;x 
+EVTDESC_WOL_1040_WOUND;My valiant [GetFromRelation] [From.GetTitledFirstNameNoRegnal] defeated and wounded my brutish [GetFromFromRelation] [FromFrom.GetFirstName] in a duel, thus proving our innocence.;;;;;;;;;x 
+EVTDESC_WOL_1040_MAIM;My [GetFromRelation] [From.GetTitledFirstNameNoRegnal] defeated my [GetFromFromRelation] [FromFrom.GetFirstName] in a duel, cutting off his hand in the process. Our innocence has been proven.;;;;;;;;;x 
+EVTDESC_WOL_1040_DEATH;My [GetFromRelation] [From.GetTitledFirstNameNoRegnal] defended our honor by slaying my [GetFromFromRelation] [FromFrom.GetFirstName] in a duel. Our innocence has been proven.;;;;;;;;;x 
+EVTOPTA_WOL_1040;[Root.Religion.GetRandomGodNameCap] favors our love!;;;;;;;;;x 
+EVTOPTB_WOL_1040;May [Root.Religion.GetRandomGodName] forgive us!;;;;;;;;;x 
+EVTDESC_WOL_1041;I fought hard, full of righteous fury, yet [FromFrom.GetTitledFirstNameNoRegnal] disarmed and defeated me in a fair duel, thus proving [FromFrom.GetPossPronoun] innocence, and that of my [GetFromRelation] [From.GetFirstName].;;;;;;;;;x 
+EVTDESC_WOL_1041_WOUND;I fought hard, full of righteous fury, yet [FromFrom.GetTitledFirstNameNoRegnal] cut me again and again. Bleeding profusely, I had to yield. [Root.Religion.GetRandomGodNameCap] has proven [FromFrom.GetPossPronoun] innocence, and that of my [GetFromRelation] [From.GetFirstName].;;;;;;;;;x 
+EVTDESC_WOL_1041_MAIM;[FromFrom.GetTitledFirstNameNoRegnal] cut me again and again, but I refused to yield. Suddenly, sun blinding me from the glare in [FromFrom.GetPossPronoun] blade, [FromFrom.GetSubjectPronoun] chopped my hand right off! [Root.Religion.GetRandomGodNameCap] has proven [FromFrom.GetPossPronoun] innocence, and that of my [GetFromRelation] [From.GetFirstName].;;;;;;;;;x 
+EVTDESC_WOL_1041_DEATH;I fought [FromFrom.GetTitledFirstNameNoRegnal] hard for what seemed like hours, but when my righteous fury gave way to exhaustion, [FromFrom.GetSubjectPronoun] pierced my heart. Darkness descends.;;;;;;;;;x 
+EVTOPTA_WOL_1041;[Root.Religion.GetRandomGodNameCap] has judged them fairly. [From.GetFirstName] forgive me.;;;;;;;;;x 
+EVTOPTC_WOL_1041;[Root.Religion.GetRandomGodNameCap] judge me fairly!;;;;;;;;;x 
+EVTDESC_WOL_1102;I woke up this morning and realized that I have lost my feelings for my [GetFromRelation] [From.GetTitledFirstNameNoRegnal].;;;;;;;;;x 
+EVTOPTA_WOL_1102;Such is life. I should tell [From.GetObjectPronoun].;;;;;;;;;x 
+EVTOPTB_WOL_1102;We are [GetFromRelation] and [GetFromReverseRelation]. What need for love?;;;;;;;;;x 
+EVTOPTC_WOL_1102;I will rekindle our love!;;;;;;;;;x 
+EVTDESC_WOL_1103;My [GetFromRelation] [From.GetTitledFirstNameNoRegnal] has avoided me for some time now, and the rare occasions when we meet have turned from the nights of passion I remember to evenings of arguments and disagreement. It did not come as a shock when [From.GetSubjectPronoun] told me [From.GetSubjectPronoun] no longer loves me, but it hurt more than I thought it would.;;;;;;;;;x 
+EVTOPTC_WOL_1103;Time to re-seduce [From.GetObjectPronoun]!;;;;;;;;;x 
+EVTTOOLTIP_WoL_1104;[This.GetObjectPronoun] is given a night [This.GetSubjectPronoun] won't soon forget!;;;;;;;;;x 
+EVTDESC_WOL_1104;I let [From.GetFirstName] know of my lost feelings for [From.GetObjectPronoun], and then [From.GetSubjectPronoun] goes and fills my room with flowers... and by [Root.Religion.GetRandomGodName], what is [From.GetSubjectPronoun] wearing?!;;;;;;;;;x 
+EVTOPTA_WOL_1104;I love [From.GetObjectPronoun]! Or is it lust? Who cares!;;;;;;;;;x 
+EVTOPTB_WOL_1104;Sorry dear, it just doesn't do it for me.;;;;;;;;;x 
+EVTTOOLTIP_WoL_1105;[This.GetFirstName] remains my lover!;;;;;;;;;x 
+EVTDESC_WOL_1105;I filled [From.GetFirstName]'s room with roses and waited on [From.GetPossPronoun] bed wearing... very little. [From.GetSubjectPronounCap] was most impressed.;;;;;;;;;x 
+EVTOPTA_WOL_1105;I've still got it!;;;;;;;;;x 
+EVTDESC_WOL_1106;I filled [From.GetFirstName]'s room with roses and waited on [From.GetPossPronoun] bed wearing... very little. [From.GetSubjectPronounCap] just sighed and went to sleep in another bedroom.;;;;;;;;;x 
+EVTOPTA_WOL_1106;Have I lost it?;;;;;;;;;x 
+converts_to_castle;Will convert to §Y$NAME$§! when upgraded to a castle.;;;;;;;;;x 
+converts_to_city;Will convert to §Y$NAME$§! when upgraded to a city.;;;;;;;;;x 
+converts_to_temple;Will convert to §Y$NAME$§! when upgraded to a temple.;;;;;;;;;x 
+converts_to_tribal;Will convert to §Y$NAME$§! when upgraded to a tribal.;;;;;;;;;x 
+convert_settlement_to_castle;§Y$SETTLEMENT$§! will be upgraded to a castle.\n;;;;;;;;;x 
+convert_settlement_to_city;§Y$SETTLEMENT$§! will be upgraded to a city.\n;;;;;;;;;x 
+convert_settlement_to_temple;§Y$SETTLEMENT$§! will be upgraded to a temple.\n;;;;;;;;;x 
+convert_settlement_to_tribal;§Y$SETTLEMENT$§! will be upgraded to a tribe.\n;;;;;;;;;x 
+NOT_ENOUGH_GOLD;(§RX§!) Has §G$COST$§! Gold;;;;;;;;;x 
+IS_BUILDING;(§RX§!) Holding is not building anything;;;;;;;;;x 
+NOT_ENOUGH_PRESTIGE;(§RX§!) Has §G$COST$§! Prestige;;;;;;;;;x 
+ALLOW_FREE_VICEROY_REVOKATION_ON;Revocation of viceroyalty duchy titles free.\n;;;;;;;;;x 
+ALLOW_FREE_VICEROY_REVOKATION_OFF;Revocation of viceroyalty duchy titles no longer free.\n;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_2J;Our Imperial administration allows us to revoke viceroyalty Duchies without objections from the aristocracy.;;;;;;;;;x 
+action_build_zeal_desc;Have your [GetLordSpiritualName] whip up religious zeal among the people, increasing your Piety and possibly even attracting some holy warriors. If you don't use these troops for religious wars, they will get angry at you and you will lose piety.;;;;;;;;;x 
+action_organize_raid_desc;Have your [GetMarshalName] gather men for a great raid, for plunder and glory! If you don't use these troops for raiding, they will get angry at you and take your gold instead.;;;;;;;;;x 
+action_build_legend_desc;Have your [GetTreasurerName] build your legend among the people, increasing your Prestige and possibly even raising some eager warriors. If you don't use these troops and go to war, they will get angry at you and you will lose prestige.;;;;;;;;;x 

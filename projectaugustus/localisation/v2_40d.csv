@@ -1,0 +1,728 @@
+#CODE;ENGLISH;;;;;;;;;x 
+INTERACTION_CANNOT_INVITE_MARRIED;[Recipient.GetBestName] must not be married;;;;;;;;;x 
+INTERACTION_CANNOT_INVITE_CONSORT;[Recipient.GetBestName] must not be a concubine;;;;;;;;;x 
+AIREASON_LOVER;§Y[GetTitledFirstName]§! is my Lover;;;;;;;;;x 
+AIREASON_FRIEND;§Y[GetTitledFirstName]§! is my Friend;;;;;;;;;x 
+AIREASON_WITH_LOVER;Wants to stay with lover - §Y[GetTitledFirstName]§!;;;;;;;;;x 
+MODIFIER_SAME_RELIGION_OPINION;Same Religion;;;;;;;;;x 
+PV_FORT;Fort;;;;;;;;;x 
+PV_TRADE_POST;Trade Post;;;;;;;;;x 
+adopt_wolf_child;The child is adopted with full right of inheritance.;;;;;;;;;x 
+EVTTOOLTIP89008;Is informed of the murder attempt.;;;;;;;;;x 
+claim_on_vassal_plot_desc;§Y$CLAIMANT$§! is trying to revoke the title of §Y$TITLE$§!, which has resulted in an armed conflict with §Y$TARGET$§!;;;;;;;;;x 
+EVTOPTC63011;This seems fishy. I should notify the supposed 'plotter'.;;;;;;;;;x 
+werewolf_howling_tooltip;Howling at the moon all through the night.;;;;;;;;;x 
+werewolf_swimming_tooltip;Sleeping outside, all wet..;;;;;;;;;x 
+SENTIMENT;Sentiment:;;;;;;;;;x 
+#SENTIMENT_OF;Sentiment of;;;;;;;;;x 
+GRAZING_LAND;Need more grazing land;;;;;;;;;x 
+CLAN_OPINION;Clan sentiment;;;;;;;;;x 
+MARRIAGE_TIES;Marriage ties;;;;;;;;;x 
+WEAK;Weakness;;;;;;;;;x 
+TOO_MUCH_COMPETITION;Too much competition;;;;;;;;;x 
+CREATE_FEUD;$ACTOR$ and $RECIPIENT$ will be dragged into a feud;;;;;;;;;x 
+opinion_built_temple;Built Temple;;;;;;;;;x 
+FORM_BLOOD_OATH_INTERACTION_TITLE;Form a Blood Oath;;;;;;;;;x 
+#FORM_BLOOD_OATH_INTERACTION_DESC;Swearing a blood oath between these two clans will make them become as if one. You swear to defend each other and for all time be allies in war and brothers in peace. Be careful however as you can only have one other clan as your blood-sworn brother.;;;;;;;;;x 
+#FORM_BLOOD_OATH_INTERACTION_LONG_DESC;Swearing a blood oath between these two clans will make them become as if one. You swear to defend each other and for all time be allies in war and brothers in peace. Be careful however as you can only have one other clan as your blood-sworn brother.;;;;;;;;;x 
+INTERACTION_NO_BLOOD_BROTHER;§Y$CLAN$§! can't already have a Blood Brother.;;;;;;;;;x 
+HAS_BLOOD_OATH_WITH;Has a Blood Oath with §Y$CLAN$§!;;;;;;;;;x 
+NOT_HAS_BLOOD_OATH_WITH;Do not have a Blood Oath with §Y$CLAN$§!;;;;;;;;;x 
+declare_feud;Declare Feud;;;;;;;;;x 
+#declare_feud_desc;Declare a feud between your clan and another.;;;;;;;;;x 
+opinion_feud;Feud;;;;;;;;;x 
+BLOOD_BROTHER;Blood Brothers;;;;;;;;;x 
+EVTDESC505;I swear to you that we shall be bonded by blood as brothers!;;;;;;;;;x 
+EVTDESC506;I do not accept your offer of blood oath.;;;;;;;;;x 
+INTERACTION_CANT_DOW_BLOOD_BROTHER;Must not be a blood brother.;;;;;;;;;x 
+EVTNAMEHL6;The [From.Clan.GetName] Feud;;;;;;;;;x 
+EVTDESCHL6;[From.GetBestName] and his people have hunted on our lands, stolen our sheep and kidnapped our women. This even though they know very well the boundaries between our clans! They truly are despicable and would betray us instantly if given the chance.;;;;;;;;;x 
+EVTOPTAHL6;Beware the [From.Clan.GetName]. They are without honor.;;;;;;;;;x 
+SHOW_OPINION;§YInspect Clan Standings§!;;;;;;;;;x 
+TOTAL_POPULATION;Total Population:;;;;;;;;;x 
+FEUD;Feud;;;;;;;;;x 
+FEUD_BLOOD_BROTHER;Feud with Blood Brothers;;;;;;;;;x 
+CLAN_LEADER_HAS_NO_JOB;Is not a Councillor;;;;;;;;;x 
+PRESTIGE;Prestige;;;;;;;;;x 
+FEUD_CLAN_LEADER_HAS_JOB; is a Councillor;;;;;;;;;x 
+EVTNAMEHL10;Death of a brother;;;;;;;;;x 
+EVTDESCHL10;With the death of [From.GetBestName] our blood oath with his family and our obligation to his people vanishes together with his life.;;;;;;;;;x 
+EVTOPTAHL10;A sad day for the [Root.Clan.GetName]...;;;;;;;;;x 
+EVTDESC_HL_10700;[From.GetFirstName] has spent his hard earned wealth on attracting and recruiting more soldiers for his mercenary band.;;;;;;;;;x 
+EVTOPTA_HL_10700;A good investment I hope.;;;;;;;;;x 
+EVTDESC_HL_10701;[From.GetFirstName] has spent his hard earned wealth on carousing with his men, wasting it on spirits and women;;;;;;;;;x 
+EVTOPTA_HL_10701;A good family tradition.;;;;;;;;;x 
+alert_inefficent_land_management_instant;§YInefficient Land Management§!;;;;;;;;;x 
+alert_inefficent_land_management_delayed;You have too many holdings in your personal demesne. As a nomad you can only have one holding without penalties. However you might want to keep the land yourself so you can pillage it...;;;;;;;;;x 
+plot_gain_title_short;Plot to Acquire;;;;;;;;;x 
+plot_gain_vassal_title_short;Plot to Revoke;;;;;;;;;x 
+plot_kill_character_short;Plot to Kill;;;;;;;;;x 
+plot_kill_spouse_short;Plot to Kill;;;;;;;;;x 
+plot_gain_liege_title_short;Plot for Claim;;;;;;;;;x 
+plot_gain_fellow_vassal_title_short;Plot for Claim;;;;;;;;;x 
+MAKE_PRIMARY;Make Primary;;;;;;;;;x 
+WAR_INVALID_LIEGE_JOINS_ENEMY;\n($LIEGE$ joins $OTHER$'s war);;;;;;;;;x 
+WAR_INVALID_ELECTED_REL_HEAD;\n($CHAR$ was elected $TITLE$);;;;;;;;;x 
+INTERACTION_HAS_TITLES_TO_REVOKE;Has Titles that can be Revoked;;;;;;;;;x 
+REL_UNCLE_HUSBAND;Husband;;;;;;;;;x 
+REL_NEPHEW_HUSBAND;Husband;;;;;;;;;x 
+REL_COUSIN_HUSBAND;Husband;;;;;;;;;x 
+REL_COUSIN_WIFE;Wife;;;;;;;;;x 
+REL_AUNT_WIFE;Wife;;;;;;;;;x 
+REL_NIECE_WIFE;Wife;;;;;;;;;x 
+MINOR_CLAN_REVOLT;[Root.County.GetAdjective] Minor Clan Rising;;;;;;;;;x 
+succ_nomadic_desc;Among the peoples of the steppe, Prestige alone determines the line of succession. Legitimate children and siblings of the current ruler are eligible, but, unlike other forms of succession, only adults of the right culture can inherit.;;;;;;;;;x 
+STAT_CULTURE_PROV_DESC;This is the majority culture in this county.;;;;;;;;;x 
+STAT_RELIGION_PROV_DESC;This is the majority religion in this county.;;;;;;;;;x 
+TITLE_CANNOT_CREATE_MERCENARY_TITLE;You can never directly create a Mercenary title;;;;;;;;;x 
+TITLE_CANNOT_CREATE_HOLY_ORDER_TITLE;You can never directly create a Holy Order title;;;;;;;;;x 
+NO_VALID_AMBITIONS;§RThere is no valid Ambition for you to pick!§!;;;;;;;;;x 
+NO_VALID_FOCUSES;§RThere is no valid Focus for you to pick!§!;;;;;;;;;x 
+AIREASON_WILL_NOT_MARRY_INFIDELS;§Y[GetTitledFirstName]§! will not consider offers from infidels;;;;;;;;;x 
+AN_UNKNOWN_LOCATION;an unknown location;;;;;;;;;x 
+cb_liberate_nomad_duchy_desc;§Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by the savage, §Y$TARGET$§!, within the de jure §Y$TITLE$§!.;;;;;;;;;x 
+nomad_dispute_desc;Feuding clans can declare wars against each other to seize a single county.;;;;;;;;;x 
+CB_NAME_LIBERATE_NOMAD;Liberate [Title.GetBaseName];;;;;;;;;x 
+WAR_NAME_LIBERATE_NOMAD;$ORDER$$FIRST_ADJ$ Liberation of $OTHER_TITLE$;;;;;;;;;x 
+liberate_nomad_cb_succ_tip;§Y[Root.GetTitledFirstName]§! vassalizes non-nomadic lords and takes all other titles in the §Y[This.GetFullBaseName]§!.\n;;;;;;;;;x 
+pagan_subjugation_desc;Pagans are allowed to subjugate other pagan rulers once in their lifetime. (With the 'Become $KING$' ambition, there is no such time limit against those who control titles within the kingdom.) Free men are always willing to follow the mightiest ruler...;;;;;;;;;x 
+pagan_county_conquest_desc;Pagans and Nomads can conquer single border counties without specific reasons. Norse Pagans can also take any coastal county.;;;;;;;;;x 
+nomad_subjugation_desc;Nomads can subjugate non-Nomadic realms once in their lifetime.;;;;;;;;;x 
+nomad_invasion_desc;If our population is getting too large, we may invade another realm to seize their pasture lands! If successful, all occupied territory will be seized and all vassals will become our vassals.;;;;;;;;;x 
+CB_NAME_PAGAN_SUBJUGATION;Subjugation;;;;;;;;;x 
+WAR_NAME_PAGAN_SUBJUGATION;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Subjugation War;;;;;;;;;x 
+tribal_subjugation_tip;§Y[Root.GetTitledFirstName]§! subjugates §Y[This.GetTitledName]§!\n;;;;;;;;;x 
+POPULATION_FACTOR_LOWER_THAN;Population less than §Y$PERC$%§! of Maximum;;;;;;;;;x 
+POPULATION_FACTOR_AT_LEAST;Population at least §Y$PERC$%§! of Maximum;;;;;;;;;x 
+action_collect_tribute;Collect Tribute;;;;;;;;;x 
+action_collect_tribute_desc;Send your [GetTreasurerName] to collect extra contributions from vassals and tributary rulers. This will not please them much...;;;;;;;;;x 
+squeezed_for_extra_tribute;Squeezed for Extra Tribute;;;;;;;;;x 
+refused_extra_tribute;Refused Extra Tribute;;;;;;;;;x 
+EVTNAME20225;Extra Contributions;;;;;;;;;x 
+EVTDESC20225;My liege, [Root.Liege.GetTitledFirstName] has charged me with collecting extra tribute from [tribute_giver.GetTitledName]. It has not been easy going through [tribute_giver.GetPossPronoun] finances, but I finally know how much I should demand...;;;;;;;;;x 
+EVTOPTA20225;Present my demand;;;;;;;;;x 
+EVTOPTB20225;I should procratinate...;;;;;;;;;x 
+EVTTOOLTIP_20226;[tribute_giver.GetFirstName] responds to my demand.;;;;;;;;;x 
+EVTDESC20226;The [GetRootFromInsult], [From.GetTitledFirstName], is here demanding extra 'contributions' on behalf of [From.Liege.GetTitledName]!;;;;;;;;;x 
+EVTOPTA20226;Accept the demand;;;;;;;;;x 
+EVTOPTB20226;Refuse. Consequences be damned!;;;;;;;;;x 
+EVTDESC20227;[From.GetTitledFirstName] wisely - though reluctantly - accepted my demand for extra contributions to my liege, [Liege.GetTitledFirstName]. I fear this has hurt our relations, however...;;;;;;;;;x 
+EVTDESC20228;My efficient [From.GetJobTitle], [From.GetTitledFirstName], has managed to squeeze some extra money out of [FromFrom.GetTitledName]. I fear [FromFrom.GetSubjectPronoun] is not too happy about it though...;;;;;;;;;x 
+EVTDESC20229;[From.GetTitledFirstName] outrageously refused my demand for extra contributions to my liege, [Liege.GetTitledFirstName], claiming [From.GetSubjectPronoun] is under no such obligations!;;;;;;;;;x 
+EVTOPTA20229;The [GetRootFromInsult]!;;;;;;;;;x 
+EVTDESC20231;The [GetRootFromFromInsult], [FromFrom.GetTitledFirstName], outrageously refused to pay the extra tribute demanded by my [Root.GetTreasurerName], [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA20231;I shall not forget this...;;;;;;;;;x 
+action_train_troops_nomadic;Train Warriors;;;;;;;;;x 
+action_train_troops_nomadic_desc;Send your [GetMarshalName] to increase your manpower regrowth.;;;;;;;;;x 
+action_clan_sentiment;Improve Clan Sentiment;;;;;;;;;x 
+action_clan_sentiment_desc;Send your [GetChancellorName] to improve your clan's esteem in the eyes of another clan.;;;;;;;;;x 
+clan_propaganda_effort;Propaganda Effort;;;;;;;;;x 
+won_tributary_war;Won Tributary War;;;;;;;;;x 
+opinion_driven_from_my_lands;Driven from my Lands;;;;;;;;;x 
+SENTIMENT_CLANS_WANT_MORE_LAND;Clans Want More Land;;;;;;;;;x 
+EVTNAME20235;An Honorable Mention;;;;;;;;;x 
+EVTDESC20235;Most of the Clan elders are assembled in [Root.Location.GetName]. This is a golden opportunity to tell them about the great honor of [Root.Liege.GetTitledFirstNameNoRegnal]'s clan...;;;;;;;;;x 
+EVTOPTA20235;Spin them such a tale...;;;;;;;;;x 
+EVTOPTB20235;What 'great honor'?;;;;;;;;;x 
+EVTDESC20236;My trusted [Root.GetChancellorName], [From.GetTitledFirstName], reports success from the Clan of [target_chief.Clan.GetBaseName]. Their elders now like the [Root.Clan.GetName] a lot better!;;;;;;;;;x 
+INCOME_TRIBUTE;Tributes;;;;;;;;;x 
+EXPENSE_TRIBUTE;Tribute;;;;;;;;;x 
+#EXPENSE_TRIBUTE;Tribute;;;;;;;;;x 
+PAYS_TRIBUTE_TO;Is a Tributary of §Y$OTHER$§!;;;;;;;;;x 
+PAYS_NOT_TRIBUTE_TO;Is NOT a Tributary of §Y$OTHER$§!;;;;;;;;;x 
+free_tributary_cb_desc;You can declare war to free yourself or one of your vassals from tributary status.;;;;;;;;;x 
+alert_available_minor_title_name;Available Minor Title;;;;;;;;;x 
+alert_available_targetted_decision_name;Special Character Actions Possible;;;;;;;;;x 
+alert_available_title_decision_name;Special Title Actions Possible;;;;;;;;;x 
+alert_available_settlement_decision_name;Special Holding Actions Possible;;;;;;;;;x 
+alert_inefficent_land_management_name;Inefficient Land Management;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_2I;Since §Y[Recipient.GetTitledFirstName]§! is a Tribal barbarian, our vassals will not object.;;;;;;;;;x 
+religious_desc;§Y$CLAIMANT$§! can use this Casus Belli to seize all titles held by the infidel, §Y$TARGET$§!, within the de jure §Y$TITLE$§!. This Casus Belli is valid against neighbors, and also against infidels up to two sea zones away if either the attacker or the defender is a Muslim, or if the era of Great Holy Wars has started for the attacker's religion.;;;;;;;;;x 
+INTERACTION_REQUIRES_NO_UNITS_IN_ENEMY;We have no units in enemy provinces where we lack Holdings;;;;;;;;;x 
+EVTDESC236_NC;The vile excesses of [Root.GetTitledFirstName] can no longer be tolerated! We agree that [Root.GetSubjectPronoun] should be excommunicated!;;;;;;;;;x 
+ASK_FOR_EXCOMMUNICATION_INTERACTION_TITLE_HEAD;Excommunicate;;;;;;;;;x 
+ASK_FOR_EXCOMMUNICATION_INTERACTION_DESC_HEAD;Have §Y[ThirdPartyCharacter.GetBestName]§W excommunicated. This will cost you §R100§W Piety and will be viewed as an insult by [ThirdPartyCharacter.GetPossPronoun] relatives.;;;;;;;;;x 
+ASK_FOR_EXCOMMUNICATION_INTERACTION_0_HEAD;Have §Y[ThirdPartyCharacter.GetBestName]§W excommunicated. This will cost you §R$COST$§W Piety and will be viewed as an insult by [ThirdPartyCharacter.GetPossPronoun] relatives.;;;;;;;;;x 
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DESC_HEAD;Lift the excommunication of §Y[ThirdPartyCharacter.GetBestName]§W.;;;;;;;;;x 
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_0_HEAD;Lift the excommunication of §Y[ThirdPartyCharacter.GetBestName]§W. This will cost you §R$COST$§W Piety.;;;;;;;;;x 
+DESIGNATE_HEIR_PROGENY;You can only Designate your Children;;;;;;;;;x 
+EVTDESC327;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the adherents of '[New.Religion.GetHighGodName]' in the [From.GetFullBaseName]! All true [Root.Religion.GetName] men are called to arms in the name of [Root.Religion.GetHighGodName]!\n\n The dark manifestations of [Root.Religion.GetRandomEvilGodName] must be cleansed in healing flames!;;;;;;;;;x 
+EVTDESC327_MUSLIMS;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the followers of [New.Religion.GetHighGodName] in the [From.GetFullBaseName]! All true [Root.Religion.GetName] men are called to arms against the old arch-enemy!\n\n Muhammed was the mouthpiece of [Root.Religion.GetRandomEvilGodName] and all his works must be destroyed!;;;;;;;;;x 
+EVTDESC327_CHRIST;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the [New.Religion.GetName] infidels in [From.GetFullBaseName]! All true [Root.Religion.GetName] men are called to arms against the deniers of [Root.Religion.GetHighGodName]!\n\n The Magi will cleanse their churches in healing flames!;;;;;;;;;x 
+EVTDESC328;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the adherents of '[New.Religion.GetHighGodName]' in the [From.GetFullBaseName]! All righteous [Root.Religion.GetName] men are called to arms in the name of [Root.Religion.GetHighGodName]!\n\n The idolators will learn to fear the Lord!;;;;;;;;;x 
+EVTDESC328_MUSLIMS;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the followers of [New.Religion.GetHighGodName] in the [From.GetFullBaseName]! The whole [Root.Religion.GetName] nation is called to arms against the [New.Religion.GetName] menace!\n\n The false works of the Madman must be torn down!;;;;;;;;;x 
+EVTDESC328_CHRIST;The great [Root.GetTitledFirstName] has declared a [Root.Religion.GetCrusadeName] against [New.GetTitledName] and the [New.Religion.GetGroupName] infidels in [From.GetFullBaseName]! All true [Root.Religion.GetName] men are called to arms against the old oppressors!\n\n The Lord will prove us right!;;;;;;;;;x 
+EVTOPTA328;For God and Israel!;;;;;;;;;x 
+temple_desc;Temples provide moderate income and good levies. They may also give Piety to their holder, and the holder's liege.;;;;;;;;;x 
+ARRANGE_BETROTHAL_DESC;Arrange a betrothal with the most eligible potential spouse.;;;;;;;;;x 
+HINT_SPLASH_TEXT;In Crusader Kings II, you play as a succession of medieval rulers from a single dynasty. There is no set goal, but the world is filled with ambitious rivals... Secure more land to increase your power and protect your family.;;;;;;;;;x 
+HINT_SPLASH_START;As a ruler, your first priority is to secure an heir. If you do not have a legitimate heir when your character dies, the game will end. Other pressing matters appear as Alerts along the top of the screen!;;;;;;;;;x 
+HINT_SPLASH_VICTORY;You cannot hold infinite amounts of land yourself. To expand, you will need to rely on vassal rulers. Keep them happy with titles and gifts lest they decide to revolt! The game will end in 1452, if your line can stay in power that long...;;;;;;;;;x 
+HINT_SPLASH_2_TITLE;[Culture.GetName] [Religion.GetName] [Government.GetName];;;;;;;;;x 
+#HINT_SPLASH_2_INTRO;You have chosen to play as a [Culture.GetName] [Religion.GetName] [PrimaryTitle.GetRulerTitle].;;;;;;;;;x 
+HINT_SPLASH_2_CUL_DESC;[Culture.GetName] culture effects:;;;;;;;;;x 
+HINT_SPLASH_2_CUL_FEATURES;[Culture.GetFeatures];;;;;;;;;x 
+HINT_SPLASH_2_GOV_DESC;[Government.GetDesc];;;;;;;;;x 
+HINT_SPLASH_2_GOV_FEATURES;[Government.GetFeatures];;;;;;;;;x 
+HINT_SPLASH_2_REL_DESC;[Religion.GetDesc];;;;;;;;;x 
+HINT_SPLASH_2_REL_FEATURES;[Religion.GetFeatures];;;;;;;;;x 
+REL_INVESTITURE_DESC;$NAME$ Bishops may pay tax to the Pope rather than their secular liege;;;;;;;;;x 
+REL_ANTIPOPES_DESC;$NAME$ Rulers can set up Antipopes;;;;;;;;;x 
+REL_EXCOMMUNICATION_DESC;The $HEAD_TITLE$ can Excommunicate $NAME$ characters;;;;;;;;;x 
+REL_GRANT_DIVORCE_DESC;The $HEAD_TITLE$ can grant divorces;;;;;;;;;x 
+REL_GRANT_INVASION_DESC;The $HEAD_TITLE$ can grant the Invasion Casus Belli;;;;;;;;;x 
+REL_GRANT_CLAIM_DESC;The $HEAD_TITLE$ can grant Claims on titles;;;;;;;;;x 
+REL_CALL_CRUSADE_DESC;The $HEAD_TITLE$ can call for a $CRUSADE$;;;;;;;;;x 
+REL_PRIESTS_INHERIT_DESC;Priests (Temple holders) can inherit titles;;;;;;;;;x 
+REL_PRIESTS_MARRY_DESC;Priests can marry;;;;;;;;;x 
+REL_FEMALE_TEMPLE_HOLDERS_DESC;Women may own Temple Holdings;;;;;;;;;x 
+REL_NO_FEMALE_RULER_OPINION_PENALTY_DESC;No opinion penalty against female rulers and heirs;;;;;;;;;x 
+REL_AUTOCEPHALY_DESC;Multiple Patriarchs - the five Pentarchs and Autocephalous Patriarchs under Kings;;;;;;;;;x 
+REL_PREPARED_INVASIONS_DESC;Fairly weak rulers can Prepare Invasions;;;;;;;;;x 
+REL_RIVER_MOVEMENT_DESC;Fleets can navigate major rivers;;;;;;;;;x 
+REL_RAIDING_DESC;Rulers can raid infidel neighbors for loot;;;;;;;;;x 
+REL_VASSALS_DONT_MIND_RAISED_DESC;Vassals do not mind if their levies are raised;;;;;;;;;x 
+REL_DIVINE_BLOOD_DESC;Rulers can marry close kin to improve vassal opinions;;;;;;;;;x 
+REL_DECADENCE_DESC;$NAME$ dynasties may grow Decadent;;;;;;;;;x 
+REL_NO_MATRI_MARRIAGES_DESC;Matrilineal marriages are not allowed;;;;;;;;;x 
+REL_POLYGAMY_DESC;$NAME$ men can have up to §Y$NUM$§! wives (unless they are allowed to have concubines);;;;;;;;;x 
+REL_CONCUBINAGE_DESC;$NAME$ men can take up to §Y$NUM$§! Concubines;;;;;;;;;x 
+REL_DEF_ATTRITION_DESC;Non-pagans (with low tech) have a very low Supply Limit in $NAME$ counties;;;;;;;;;x 
+REL_PEACE_PRESTIGE_LOSS_DESC;Rulers lose Prestige if at peace for too long;;;;;;;;;x 
+REL_CAN_REFORM_DESC;Can be Reformed;;;;;;;;;x 
+REL_HEAD_CAN_BE_CREATED_DESC;A religious head (the $HEAD_TITLE$) can be created by a special Decision;;;;;;;;;x 
+REL_SECULAR_HEAD_DESC;$TITLE_NAME$ is held by a secular ruler, and can be destroyed or created normally;;;;;;;;;x 
+REL_ALWAYS_A_HEAD_DESC;There is always a $HEAD_TITLE$, landed or not;;;;;;;;;x 
+REL_NO_HEAD_DESC;There is (and can exist) no religious head;;;;;;;;;x 
+REL_CASTE_OPINIONS_DESC;Caste Traits have great effect on opinions;;;;;;;;;x 
+REL_PACIFIST_DESC;Much lower chance of provincial revolts\n§Y*§! Large bonuses to all vassal opinions\n§Y*§! Rulers can hold larger Demesnes\n§Y*§! Rulers cannot declare Holy Wars;;;;;;;;;x 
+REL_HEIR_DESIGNATION_DESC;Can designate any valid offspring as the heir;;;;;;;;;x 
+buddhist_FEATURES;§Y*§! Can only declare limited Holy Wars against non-Indian religions;;;;;;;;;x 
+hindu_FEATURES;§Y*§! Can only declare Holy Wars against non-Indian religions;;;;;;;;;x 
+cathar_FEATURES;§Y*§! Women may hold all councillor positions\n§Y*§! Women may lead armies;;;;;;;;;x 
+#feudal_government_desc;Feudal government revolves around the oath between liege and vassal, and Feudal lords can only directly own so many Holdings before they must start to rely on vassals - whose loyalty may vary... There are several Succession Laws to pick between - each with its own merits. The Centralization Law controls the maximum size of your Demesne and the number of direct vassals you can have.;;;;;;;;;x 
+#muslim_government_desc;The Arabic Iqta system is similar to the Feudal system - rulers must rely on land holding vassals or varying loyalty and ambition. The maximum number of vassals and the number of Holdings you can directly own are controlled by the Centralization Law. However, there is only one form of Succession available - the chaotic 'Open' type, where the son with most land inherits.;;;;;;;;;x 
+nomadic_government_desc;Nomads are not very interested in owning Holdings, only in more grazing land for their sheep and horses. Gameplay centers around the Population of the tribe and the Manpower it provides. Empty Holdings slots in open terrain increases the maximum population. While Nomads can have normal vassals, they are mostly concerned with managing the other, few but powerful, major Clans of the tribe.;;;;;;;;;x 
+republic_government_desc;The leaders of regular republics are randomly chosen from among the citizenry. This kind of republic is not playable, since there is no dynastic persistence between the generations of rulers.;;;;;;;;;x 
+tribal_government_desc;Tribes are settled but agrarian. Each county can only have one Tribal 'Holding', representing the entire local tribal population - the more empty Holding slots, the more powerful the Tribal Holding. Tribal rulers are limited to the 'Elective Gavelkind' Succession Law, which tends to fragment the realm between sons on the death of the chief.;;;;;;;;;x 
+theocracy_government_desc;Theocracies, like minor republics, are unplayable. Rulers are appointed or elected from among the ecclesiarchy, and there is no dynastic persistence between generations of rulers.;;;;;;;;;x 
+GOV_DECADENCE_DESC;$NAME$ dynasties may grow Decadent if the religion also allows it;;;;;;;;;x 
+#GOV_POLL_TAX_DESC;Vassals of other religions pay the Jizya tax;;;;;;;;;x 
+GOV_PIETY_LAW_CHANGE_DESC;Laws are changed by expending Piety, not by votes;;;;;;;;;x 
+GOV_RAIDING_DESC;Rulers can raid infidel neighbors for loot;;;;;;;;;x 
+GOV_FREE_RETRACT_DESC;Other vassals will not object to vassal retraction;;;;;;;;;x 
+GOV_IGNORES_DE_JURE_LAWS_DESC;De Jure Law effects are ignored;;;;;;;;;x 
+GOV_CANNOT_CREATE_KINGDOMS_DESC;Cannot create kingdoms;;;;;;;;;x 
+GOV_CANNOT_USURP_K_OR_E_DESC;Cannot usurp kingdoms or empires;;;;;;;;;x 
+GOV_NO_GENDER_SUCC_LAWS_DESC;No Gender Succession Laws;;;;;;;;;x 
+GOV_CONCUBINAGE_DESC;Male rulers can take up to §Y$NUM$§! Concubines;;;;;;;;;x 
+CUL_RAIDING_DESC;Rulers can raid infidel neighbors for loot;;;;;;;;;x 
+CUL_OVERSEAS_RAIDER_DESC;Can raid overseas with ships;;;;;;;;;x 
+CUL_BLINDING_DISINHERITS_DESC;Blind characters cannot inherit titles;;;;;;;;;x 
+NO_SPECIAL_FEATURES;No special features;;;;;;;;;x 
+nomad_ruling_clan_too_powerful;Minor Clans on the Rise;;;;;;;;;x 
+cb_minor_clan_revolt_desc;Powerful 'minor' clans can rise up in revolt, demanding a place among the major clans.;;;;;;;;;x 
+CB_NAME_MINOR_CLAN_REVOLT;Minor Clan Revolt;;;;;;;;;x 
+WAR_NAME_MINOR_CLAN_REVOLT;Minor Clan Rising;;;;;;;;;x 
+ISNT_CLOSE_RELATIVE;Is NOT a close relative;;;;;;;;;x 
+IS_CLOSE_RELATIVE;Is a close relative;;;;;;;;;x 
+HOLYSITE_LOCATION_COUNTY;§Y$SITENAME$§! contains a Holy Site;;;;;;;;;x 
+NOT_REALM_TITLE_STARTS;No Realm Title;;;;;;;;;x 
+ANY_TRADE_ROUTE_PROVINCE_STARTS;Any Trade Route County;;;;;;;;;x 
+NOT_ANY_TRADE_ROUTE_PROVINCE_STARTS;No Trade Route County;;;;;;;;;x 
+HINT_NOMAD_VIEW_TITLE;The Clan View;;;;;;;;;x 
+AIREASON_NO_WAR_AGAINST_SPOUSE;Will not join wars against spouse (§Y[GetTitledName]§!)!;;;;;;;;;x 
+HINT_NOMAD_VIEW_TEXT_1;Nomadic Tribes are always dominated by a number of major Clans. Keeping the clan chiefs in line - and balancing their number and power - should be a priority for any Khan. Have too few Clans, and one is likely to emerge by force if necessary. Have too many Clans, and they will be unhappy about lack of grazing land.;;;;;;;;;x 
+HINT_NOMAD_VIEW_TEXT_2;Each Clan has an opinion of every other Clan, called Clan Sentiments. The Clan chiefs must respect these sentiments, which is reflected in their normal Opinions of the other chiefs. Keep a careful eye on the Clan Sentiments to prevent internal strife before it happens.;;;;;;;;;x 
+HINT_NOMAD_VIEW_TEXT_3;Clans are always semi-autonomous and must be called to war even against a rebellion by another Clan. Worse, each Clan (even the ruling one) can only be allied to one other Clan, by swearing a Blood Oath. It is also common for Clans to be feuding, which allows them to war with each other for land. Positive or negative treatment of one Clan will also affect the Sentiments of any feuding or Blood Brother clan, as appropriate...;;;;;;;;;x 
+HINT_NOMAD_VIEW_TEXT_4;The key to managing the Clans is to use the special actions available to you - 'Split Clan', 'Settle Feud', etc.;;;;;;;;;x 
+EVTTOOLTIP62920;León and Asturias are now one kingdom;;;;;;;;;x 
+EVTNAME62920;León and Asturias are One;;;;;;;;;x 
+EVTDESC62920;The Kingdoms of León and Asturias are to stay united forever, so there will be only one crown and one king ruling them forever.;;;;;;;;;x 
+EVTDESC62921;[From.GetTitledName] has decided to unite the Kingdoms of León and Asturias as a single entity - León.;;;;;;;;;x 
+EVTTOOLTIP62922;I'm crowned King of Castille;;;;;;;;;x 
+EVTNAME62922;The Kingdom of Castille;;;;;;;;;x 
+EVTDESC62922;After centuries of subjugation, Castille has grown in power and autonomy. It is time to be recognized as an equal by the other rulers in our region!;;;;;;;;;x 
+EVTOPTA62922;The crown fits me perfectly!;;;;;;;;;x 
+EVTDESC62923;[From.GetTitledName] has been created King of Castille due to the prestige of [From.GetPossPronoun] independent rule over [From.GetPossPronoun] ancestral lands.;;;;;;;;;x 
+EVTOPTA62923;One more kingdom?;;;;;;;;;x 
+EVTTOOLTIP62924;I'm crowned King of Portugal;;;;;;;;;x 
+EVTNAME62924;The Kingdom of Portugal;;;;;;;;;x 
+EVTDESC62924;After centuries of subjugation, Portugal has grown in power and autonomy. It is time to be recognized as an equal by the other rulers in our region!;;;;;;;;;x 
+EVTDESC62925;[From.GetTitledName] has been created King of Portugal due to the prestige of [From.GetPossPronoun] independent rule over [From.GetPossPronoun] ancestral lands.;;;;;;;;;x 
+EVTTOOLTIP62926;I'm crowned King of Aragon;;;;;;;;;x 
+EVTNAME62926;The Kingdom of Aragon;;;;;;;;;x 
+EVTDESC62926;The little County of Aragon, created by the Franks long ago, has become such a prestigious title that it has almost been considered a Kingdom... Now there is no almost about it!;;;;;;;;;x 
+EVTDESC62927;[From.GetTitledName] has been created King of Aragon due to the prestige of [From.GetPossPronoun] independent rule over [From.GetPossPronoun] ancestral lands.;;;;;;;;;x 
+EVTDESC_HL_2000;A powerful minor Clan has risen up in [Root.GetName], led by their charismatic chieftain. They demand a place among the major clans!;;;;;;;;;x 
+EVTOPTA_HL_2000;We shall see who proves the stronger!;;;;;;;;;x 
+EVTDESC_HL_2001;A powerful minor Clan has risen up in [From.GetName], led by their charismatic chieftain. They demand a place among the major clans!;;;;;;;;;x 
+EVTDESC_HL_2010;The minor Clan rising has gained more support in [Root.GetName], reinforcing the ongoing revolt!;;;;;;;;;x 
+EVTDESC_HL_2011;The minor Clan rising has gained more support in [From.GetName], reinforcing the ongoing revolt!;;;;;;;;;x 
+title_behi;Behi;;;;;;;;;x 
+title_behi_desc;This title was given to women in the families within the Mongolian nobility.;;;;;;;;;x 
+title_master_of_the_eagle;Master of the Eagle;;;;;;;;;x 
+title_master_of_the_eagle_desc;The Mongolian warriors used eagles to aid them while hunting. Being responsible for the training of these companions was a great honor.;;;;;;;;;x 
+EVTNAME60500;The Mongols;;;;;;;;;x 
+EVTDESC60500;Word has reached us that an ambitious Khan from beyond the great mountains has set out to unite the clans of the great steppe. It is also said by men who read the stars that this Khan is destined to become the ruler of the world.;;;;;;;;;x 
+EVTOPTA60500;What could those equestrians hope to accomplish?;;;;;;;;;x 
+EVTOPTB60500;That should be nothing to worry about.;;;;;;;;;x 
+EVTOPTC60500;No-one will rule over our people!;;;;;;;;;x 
+GENGHIS_KHAN;Genghis Khan;;;;;;;;;x 
+greatest_of_khans;Greatest of Khans;;;;;;;;;x 
+become_genghis_khan;Become Greatest of Khans;;;;;;;;;x 
+become_genghis_khan_desc;A Mongolian ruler who manages to unite the clans of the Great Steppe may claim the title of Genghis Khan, Greatest of Khans. While unifying the people of the step is quite a challenge, fullfilling the prophecy of ultimately becoming the leader of the world may prove to be even harder.;;;;;;;;;x 
+become_genghis_khan_tribal;Become Greatest of Khans;;;;;;;;;x 
+become_genghis_khan_tribal_desc;A Mongolian ruler who manages to unite the clans of the Great Steppe may claim the title of Genghis Khan, Greatest of Khans. While unifying the people of the steppe is quite a challenge, fullfilling the prophecy of ultimately becoming the leader of the world may prove to be even harder.;;;;;;;;;x 
+EVTNAME60520;The Mongols;;;;;;;;;x 
+EVTDESC60520;The many Khans of the steppe have been rallied under the same banner. The leader that managed to unite them all is [From.GetFirstName] of [From.PrimaryTitle.GetName]. The people of the steppe now call their leader Genghis Khan, Greatest of Khans, and have set their minds not only on ruling the steppes but to spread throughout the world. Is there anyone who can stop the thundering armies of thousands of hooves?;;;;;;;;;x 
+EVTOPTA_60520;I truly am great!;;;;;;;;;x 
+EVTOPTB_60520;Something has to be done to stop them!;;;;;;;;;x 
+EVTOPTC_60520;[From.GetFirstName] truly is the Greatest of Khans!;;;;;;;;;x 
+strategic_innovation;Strategic Innovation;;;;;;;;;x 
+EVTOPTC_94019;I'll use this knowledge to my advantage!;;;;;;;;;x 
+EVTDESC_WOL_10999;More than a month has passed since you set out with your expedition, and you have yet to find a suitable trade partner anywhere. Your crew is homesick, and have now turned the company around to head home.;;;;;;;;;x 
+EVTOPTA_WOL_10999;Tough luck.;;;;;;;;;x 
+EVTDESC_HL_8005_mother;As your mother's heir it falls upon you to bring her to the mountains. She will be offered to the birds of prey, and in death she will generously share her flesh with all living creatures.;;;;;;;;;x 
+EVTDESC_HL_8005_sister;Without any heirs of her own, it falls upon you to bring your sister to the mountains. She will be offered to the birds of prey, and in death she will generously share her flesh with all living creatures.;;;;;;;;;x 
+tooltip_not_busy;Is NOT already busy.\n;;;;;;;;;x 
+EVTOPTB5051;I should take the bird out for some hunting instead.;;;;;;;;;x 
+no_horse_breeder_1;Horse Breeder;;;;;;;;;x 
+no_horse_breeder_2;Horse Breeder;;;;;;;;;x 
+no_horse_breeder_3;Horse Breeder;;;;;;;;;x 
+no_horse_breeder_4;Horse Breeder;;;;;;;;;x 
+no_horse_breeder_5;Horse Breeder;;;;;;;;;x 
+no_horse_breeder_6;Horse Breeder;;;;;;;;;x 
+no_horse_breeder_7;Horse Breeder;;;;;;;;;x 
+no_horse_breeder_8;Horse Breeder;;;;;;;;;x 
+#no_horse_breeder_desc;;;;;;;;;;x 
+no_wrestling_1;Wrestling;;;;;;;;;x 
+no_wrestling_2;Wrestling;;;;;;;;;x 
+no_wrestling_3;Wrestling;;;;;;;;;x 
+no_wrestling_4;Wrestling;;;;;;;;;x 
+no_wrestling_5;Wrestling;;;;;;;;;x 
+no_wrestling_6;Wrestling;;;;;;;;;x 
+no_wrestling_7;Wrestling;;;;;;;;;x 
+no_wrestling_8;Wrestling;;;;;;;;;x 
+no_wrestling_desc;In the wrestling pit people fight for glory and enjoyment.;;;;;;;;;x 
+no_shrine_1;Shrine;;;;;;;;;x 
+no_shrine_2;Shrine;;;;;;;;;x 
+no_shrine_3;Shrine;;;;;;;;;x 
+no_shrine_4;Shrine;;;;;;;;;x 
+no_shrine_5;Shrine;;;;;;;;;x 
+no_shrine_6;Shrine;;;;;;;;;x 
+no_shrine_7;Shrine;;;;;;;;;x 
+no_shrine_8;Shrine;;;;;;;;;x 
+no_shrine_desc;At the shrine people can practice the main religious rituals and ceremonies.;;;;;;;;;x 
+no_ox_wagon_1;Ox & Wagon;;;;;;;;;x 
+no_ox_wagon_2;Ox & Wagon;;;;;;;;;x 
+no_ox_wagon_3;Ox & Wagon;;;;;;;;;x 
+no_ox_wagon_4;Ox & Wagon;;;;;;;;;x 
+no_ox_wagon_5;Ox & Wagon;;;;;;;;;x 
+no_ox_wagon_6;Ox & Wagon;;;;;;;;;x 
+no_ox_wagon_7;Ox & Wagon;;;;;;;;;x 
+no_ox_wagon_8;Ox & Wagon;;;;;;;;;x 
+no_ox_wagon_desc;Wagons pulled by oxen are used to move villages and supplies. Yurts were commonly moved fully assembled to achieve a mobile community.;;;;;;;;;x 
+no_sheep_1;Sheep;;;;;;;;;x 
+no_sheep_2;Sheep;;;;;;;;;x 
+no_sheep_3;Sheep;;;;;;;;;x 
+no_sheep_4;Sheep;;;;;;;;;x 
+no_sheep_5;Sheep;;;;;;;;;x 
+no_sheep_6;Sheep;;;;;;;;;x 
+no_sheep_7;Sheep;;;;;;;;;x 
+no_sheep_8;Sheep;;;;;;;;;x 
+no_sheep_desc;Sheep wool is used to make felt in addition to the meat that the sheep provide.;;;;;;;;;x 
+no_hunting_parties_1;Hunting Parties;;;;;;;;;x 
+no_hunting_parties_2;Hunting Parties;;;;;;;;;x 
+no_hunting_parties_3;Hunting Parties;;;;;;;;;x 
+no_hunting_parties_4;Hunting Parties;;;;;;;;;x 
+no_hunting_parties_5;Hunting Parties;;;;;;;;;x 
+no_hunting_parties_6;Hunting Parties;;;;;;;;;x 
+no_hunting_parties_7;Hunting Parties;;;;;;;;;x 
+no_hunting_parties_8;Hunting Parties;;;;;;;;;x 
+no_hunting_parties_desc;Regular hunting activities are arranged in the region.;;;;;;;;;x 
+no_riding_contests_1;Riding Contests;;;;;;;;;x 
+no_riding_contests_2;Riding Contests;;;;;;;;;x 
+no_riding_contests_3;Riding Contests;;;;;;;;;x 
+no_riding_contests_4;Riding Contests;;;;;;;;;x 
+no_riding_contests_5;Riding Contests;;;;;;;;;x 
+no_riding_contests_6;Riding Contests;;;;;;;;;x 
+no_riding_contests_7;Riding Contests;;;;;;;;;x 
+no_riding_contests_8;Riding Contests;;;;;;;;;x 
+no_riding_contests_desc;A competition to bring forth the fastest riders.;;;;;;;;;x 
+no_yam_1;Yam;;;;;;;;;x 
+no_yam_2;Yam;;;;;;;;;x 
+no_yam_3;Yam;;;;;;;;;x 
+no_yam_4;Yam;;;;;;;;;x 
+no_yam_5;Yam;;;;;;;;;x 
+no_yam_6;Yam;;;;;;;;;x 
+no_yam_7;Yam;;;;;;;;;x 
+no_yam_8;Yam;;;;;;;;;x 
+no_yam_desc;Checkpoints for a fast messenger system giving supplies and fresh horses to allow messengers to travel huge distances every day.;;;;;;;;;x 
+no_baghatur_council_1;Baghatur Council;;;;;;;;;x 
+no_baghatur_council_2;Baghatur Council;;;;;;;;;x 
+no_baghatur_council_3;Baghatur Council;;;;;;;;;x 
+no_baghatur_council_4;Baghatur Council;;;;;;;;;x 
+no_baghatur_council_5;Baghatur Council;;;;;;;;;x 
+no_baghatur_council_6;Baghatur Council;;;;;;;;;x 
+no_baghatur_council_7;Baghatur Council;;;;;;;;;x 
+no_baghatur_council_8;Baghatur Council;;;;;;;;;x 
+no_baghatur_council_desc;The most proven heroes of the realm gather to discuss everything from politics to tactics.;;;;;;;;;x 
+no_cattle_pens_1;Cattle Pens;;;;;;;;;x 
+no_cattle_pens_2;Cattle Pens;;;;;;;;;x 
+no_cattle_pens_3;Cattle Pens;;;;;;;;;x 
+no_cattle_pens_4;Cattle Pens;;;;;;;;;x 
+no_cattle_pens_5;Cattle Pens;;;;;;;;;x 
+no_cattle_pens_6;Cattle Pens;;;;;;;;;x 
+no_cattle_pens_7;Cattle Pens;;;;;;;;;x 
+no_cattle_pens_8;Cattle Pens;;;;;;;;;x 
+no_cattle_pens_desc;The cattle livestock provides meat and works as pack animals.;;;;;;;;;x 
+no_meat_preserver_1;Meat Preserver;;;;;;;;;x 
+no_meat_preserver_2;Meat Preserver;;;;;;;;;x 
+no_meat_preserver_3;Meat Preserver;;;;;;;;;x 
+no_meat_preserver_4;Meat Preserver;;;;;;;;;x 
+no_meat_preserver_5;Meat Preserver;;;;;;;;;x 
+no_meat_preserver_6;Meat Preserver;;;;;;;;;x 
+no_meat_preserver_7;Meat Preserver;;;;;;;;;x 
+no_meat_preserver_8;Meat Preserver;;;;;;;;;x 
+no_meat_preserver_desc;Dried meat work as effective field rations for the armies.;;;;;;;;;x 
+no_harbor_1;Harbor;;;;;;;;;x 
+no_harbor_2;Harbor;;;;;;;;;x 
+no_harbor_3;Harbor;;;;;;;;;x 
+no_harbor_4;Harbor;;;;;;;;;x 
+no_harbor_5;Harbor;;;;;;;;;x 
+no_harbor_6;Harbor;;;;;;;;;x 
+no_harbor_7;Harbor;;;;;;;;;x 
+no_harbor_8;Harbor;;;;;;;;;x 
+no_harbor_desc;A harbor village allowing small transport and trade ships to dock and be maintained.;;;;;;;;;x 
+no_fishing_village_1;Fishing Village;;;;;;;;;x 
+no_fishing_village_2;Fishing Village;;;;;;;;;x 
+no_fishing_village_3;Fishing Village;;;;;;;;;x 
+no_fishing_village_4;Fishing Village;;;;;;;;;x 
+no_fishing_village_5;Fishing Village;;;;;;;;;x 
+no_fishing_village_6;Fishing Village;;;;;;;;;x 
+no_fishing_village_7;Fishing Village;;;;;;;;;x 
+no_fishing_village_8;Fishing Village;;;;;;;;;x 
+no_fishing_village_desc;Fishers use the nearby water to provide an additional source of food.;;;;;;;;;x 
+no_felt_crafter_1;Felt Crafter;;;;;;;;;x 
+no_felt_crafter_2;Felt Crafter;;;;;;;;;x 
+no_felt_crafter_3;Felt Crafter;;;;;;;;;x 
+no_felt_crafter_4;Felt Crafter;;;;;;;;;x 
+no_felt_crafter_5;Felt Crafter;;;;;;;;;x 
+no_felt_crafter_6;Felt Crafter;;;;;;;;;x 
+no_felt_crafter_7;Felt Crafter;;;;;;;;;x 
+no_felt_crafter_8;Felt Crafter;;;;;;;;;x 
+no_felt_crafter_desc;Turning the wool into felt for use in clothes or the construcion of tents.;;;;;;;;;x 
+no_composite_bow_crafter_1;Composite Bow;;;;;;;;;x 
+no_composite_bow_crafter_2;Composite Bow;;;;;;;;;x 
+no_composite_bow_crafter_3;Composite Bow;;;;;;;;;x 
+no_composite_bow_crafter_4;Composite Bow;;;;;;;;;x 
+no_composite_bow_crafter_5;Composite Bow;;;;;;;;;x 
+no_composite_bow_crafter_6;Composite Bow;;;;;;;;;x 
+no_composite_bow_crafter_7;Composite Bow;;;;;;;;;x 
+no_composite_bow_crafter_8;Composite Bow;;;;;;;;;x 
+no_composite_bow_crafter_desc;Crafted from bamboo, horn and sinew, small composite bows are agile enough to be used effectively on horseback.;;;;;;;;;x 
+no_lamellar_armor_crafter_1;Lamellar Armor Crafter;;;;;;;;;x 
+no_lamellar_armor_crafter_2;Lamellar Armor Crafter;;;;;;;;;x 
+no_lamellar_armor_crafter_3;Lamellar Armor Crafter;;;;;;;;;x 
+no_lamellar_armor_crafter_4;Lamellar Armor Crafter;;;;;;;;;x 
+no_lamellar_armor_crafter_5;Lamellar Armor Crafter;;;;;;;;;x 
+no_lamellar_armor_crafter_6;Lamellar Armor Crafter;;;;;;;;;x 
+no_lamellar_armor_crafter_7;Lamellar Armor Crafter;;;;;;;;;x 
+no_lamellar_armor_crafter_8;Lamellar Armor Crafter;;;;;;;;;x 
+no_lamellar_armor_crafter_desc;Rectangular leather pieces are laced together to form a sturdy armor.;;;;;;;;;x 
+no_ger_crafter_1;Ger Crafter;;;;;;;;;x 
+no_ger_crafter_2;Ger Crafter;;;;;;;;;x 
+no_ger_crafter_3;Ger Crafter;;;;;;;;;x 
+no_ger_crafter_4;Ger Crafter;;;;;;;;;x 
+no_ger_crafter_5;Ger Crafter;;;;;;;;;x 
+no_ger_crafter_6;Ger Crafter;;;;;;;;;x 
+no_ger_crafter_7;Ger Crafter;;;;;;;;;x 
+no_ger_crafter_8;Ger Crafter;;;;;;;;;x 
+no_ger_crafter_desc;The majority of the residences in the steppe consists of felt huts known as gers.;;;;;;;;;x 
+no_camel_breeder_1;Camel Breeder;;;;;;;;;x 
+no_camel_breeder_2;Camel Breeder;;;;;;;;;x 
+no_camel_breeder_3;Camel Breeder;;;;;;;;;x 
+no_camel_breeder_4;Camel Breeder;;;;;;;;;x 
+no_camel_breeder_5;Camel Breeder;;;;;;;;;x 
+no_camel_breeder_6;Camel Breeder;;;;;;;;;x 
+no_camel_breeder_7;Camel Breeder;;;;;;;;;x 
+no_camel_breeder_8;Camel Breeder;;;;;;;;;x 
+no_camel_breeder_desc;The camel breeder makes sure that there is a steady supply of sturdy camels.;;;;;;;;;x 
+no_minority_shrine_1;Minority Shrines;;;;;;;;;x 
+no_minority_shrine_2;Minority Shrines;;;;;;;;;x 
+no_minority_shrine_3;Minority Shrines;;;;;;;;;x 
+no_minority_shrine_4;Minority Shrines;;;;;;;;;x 
+no_minority_shrine_5;Minority Shrines;;;;;;;;;x 
+no_minority_shrine_6;Minority Shrines;;;;;;;;;x 
+no_minority_shrine_7;Minority Shrines;;;;;;;;;x 
+no_minority_shrine_8;Minority Shrines;;;;;;;;;x 
+no_minority_shrine_desc;These shrines gives the oppotunity for people to worship deities of different religions.;;;;;;;;;x 
+no_gathering_hall_1;Clan Gathering Hall;;;;;;;;;x 
+no_gathering_hall_2;Clan Gathering Hall;;;;;;;;;x 
+no_gathering_hall_3;Clan Gathering Hall;;;;;;;;;x 
+no_gathering_hall_4;Clan Gathering Hall;;;;;;;;;x 
+no_gathering_hall_5;Clan Gathering Hall;;;;;;;;;x 
+no_gathering_hall_6;Clan Gathering Hall;;;;;;;;;x 
+no_gathering_hall_7;Clan Gathering Hall;;;;;;;;;x 
+no_gathering_hall_8;Clan Gathering Hall;;;;;;;;;x 
+no_gathering_hall_desc;A meeting place for the different clans in the nomad realm to discuss various internal affairs.;;;;;;;;;x 
+no_airag_producer_1;Airag Producer;;;;;;;;;x 
+no_airag_producer_2;Airag Producer;;;;;;;;;x 
+no_airag_producer_3;Airag Producer;;;;;;;;;x 
+no_airag_producer_4;Airag Producer;;;;;;;;;x 
+no_airag_producer_5;Airag Producer;;;;;;;;;x 
+no_airag_producer_6;Airag Producer;;;;;;;;;x 
+no_airag_producer_7;Airag Producer;;;;;;;;;x 
+no_airag_producer_8;Airag Producer;;;;;;;;;x 
+no_airag_producer_desc;A mild alcoholic beverage derived from mare's milk.;;;;;;;;;x 
+no_minter_1;Minter;;;;;;;;;x 
+no_minter_2;Minter;;;;;;;;;x 
+no_minter_3;Minter;;;;;;;;;x 
+no_minter_4;Minter;;;;;;;;;x 
+no_minter_5;Minter;;;;;;;;;x 
+no_minter_6;Minter;;;;;;;;;x 
+no_minter_7;Minter;;;;;;;;;x 
+no_minter_8;Minter;;;;;;;;;x 
+no_minter_desc;The local minting of coins allows more trade to be conducted in the province.;;;;;;;;;x 
+no_camp_fortifications_1;Camp Fortifications;;;;;;;;;x 
+no_camp_fortifications_2;Camp Fortifications;;;;;;;;;x 
+no_camp_fortifications_3;Camp Fortifications;;;;;;;;;x 
+no_camp_fortifications_4;Camp Fortifications;;;;;;;;;x 
+no_camp_fortifications_5;Camp Fortifications;;;;;;;;;x 
+no_camp_fortifications_6;Camp Fortifications;;;;;;;;;x 
+no_camp_fortifications_7;Camp Fortifications;;;;;;;;;x 
+no_camp_fortifications_8;Camp Fortifications;;;;;;;;;x 
+no_camp_fortifications_desc;Small barricades have been errected around the camp to protect it from bandits and raiders.;;;;;;;;;x 
+no_elephant_camp_1;Elephant Camp;;;;;;;;;x 
+no_elephant_camp_2;Elephant Camp;;;;;;;;;x 
+no_elephant_camp_3;Elephant Camp;;;;;;;;;x 
+no_elephant_camp_4;Elephant Camp;;;;;;;;;x 
+no_elephant_camp_5;Elephant Camp;;;;;;;;;x 
+no_elephant_camp_6;Elephant Camp;;;;;;;;;x 
+no_elephant_camp_7;Elephant Camp;;;;;;;;;x 
+no_elephant_camp_8;Elephant Camp;;;;;;;;;x 
+no_elephant_camp_desc;In the camp elephants are prepared to take part in military campaigns.;;;;;;;;;x 
+STAT_VASSAL_LIMIT_DESC;Your vassal limit indicates how many direct vassals you can have at count tier or higher, excluding nomad clans. Having too many direct vassals will negatively affect the amount of taxes and levies you get from your vassals, and you might lose the grip of your vassals upon death.;;;;;;;;;x 
+ENDGAME_TEXT_NOMADIC;You have become the ruler of a Nomadic realm and are therefore no longer allowed to continue playing.;;;;;;;;;x 
+TT_BUILD_TRIBAL_HOLDINGS;All empty demesne provinces will get a §YTribal holding§!\n;;;;;;;;;x 
+TT_NEW_KHAN;Becomes the new Khan of §Y[PrevPrev.GetName]§!\n;;;;;;;;;x 
+TT_KHAN_INDEPENDENCE;Becomes independent from §Y[Prev.GetName]§!\n;;;;;;;;;x 
+adopt_tribalism;Settle as Tribe;;;;;;;;;x 
+adopt_tribalism_desc;I can choose to settle my tribe permanently.;;;;;;;;;x 
+nomad_adopt_feudalism;Settle as Feudal;;;;;;;;;x 
+nomad_adopt_feudalism_named;Settle as Feudal in [Root.GetName];;;;;;;;;x 
+nomad_adopt_feudalism_desc;I can choose to leave behind my nomad way of life and become a Feudal ruler.;;;;;;;;;x 
+CHRONICLE_ADOPTED_TRIBALISM;[From.GetDynName] settled as a tribe in [From.GetHerHis] domains, leaving their old nomad life behind them.;;;;;;;;;x 
+CHRONICLE_ADOPTED_IQTA;[From.GetDynName] adopted an Iqta system in [From.GetHerHis] domains, abandoning the old tribal ways.;;;;;;;;;x 
+CHRONICLE_NOMAD_ADOPTED_FEUDALISM;[From.GetDynName] adopted a feudal system in [From.GetHerHis] domains, leaving their old nomad life behind them.;;;;;;;;;x 
+CHRONICLE_NOMAD_ADOPTED_IQTA;[From.GetDynName] adopted an Iqta system in [From.GetHerHis] domains, leaving their old nomad life behind them.;;;;;;;;;x 
+realm_has_fewer_holdings_than;Has fewer than §Y$NUM$§! $TYPE$s in realm;;;;;;;;;x 
+realm_has_more_holdings_than;Has at least §Y$NUM$§! $TYPE$s in realm;;;;;;;;;x 
+has_fewer_holdings_than;Has fewer than §Y$NUM$§! $TYPE$s in demesne;;;;;;;;;x 
+has_more_holdings_than;Has at least §Y$NUM$§! $TYPE$s in demesne;;;;;;;;;x 
+EMPTY_PROVINCE;Empty Province;;;;;;;;;x 
+HOLDING_DIFF_LOWER_THAN;Fewer than §Y$VAL$§! §Y$FIRST_TYPE$s§! in $FIRST_LOCATION$ per §Y$SECOND_TYPE$s§! in $SECOND_LOCATION$ (currently $FIRST_VAL$/$SECOND_VAL$ §Y$FIRST_TYPE$s§!);;;;;;;;;x 
+HOLDING_DIFF_AT_LEAST;At least §Y$VAL$§!% more §Y$FIRST_TYPE$s§! in $FIRST_LOCATION$ per §Y$SECOND_TYPE$s§! in $SECOND_LOCATION$ (currently $FIRST_VAL$/$SECOND_VAL$ §Y$FIRST_TYPE$s§!);;;;;;;;;x 
+SUB_REALM;Sub-realm;;;;;;;;;x 
+EVTNAMEHL1;A New Realm;;;;;;;;;x 
+EVTDESCHL1;The King of the [FromFrom.Culture.GetName]s, [FromFrom.GetBestName], has decided to settle down in [FromFrom.PrimaryTitle.GetName], making it [FromFrom.GetHerHis] new homeland.;;;;;;;;;x 
+EVTNAMEHL2;Nomads Settled;;;;;;;;;x 
+EVTDESCHL2;The King of the [FromFrom.Culture.GetName]s, [FromFrom.GetBestName], has decided to settle down in [FromFrom.PrimaryTitle.GetName], making it [FromFrom.GetHerHis] new tribal homeland.;;;;;;;;;x 
+APPOINT_COMMANDER_INTERACTION_LETTER;We've decided to offer you the position of commander, do you accept?;;;;;;;;;x 
+RESIGN_COMMANDER_INTERACTION_LETTER;We have decided to revoke your title as commander.;;;;;;;;;x 
+IS_NOT_MARSHAL;§Y$RECIPIENT$§W must not already be a $MARSHAL$.;;;;;;;;;x 
+adopt_faith;Adopt Religion;;;;;;;;;x 
+#adopt_faith_desc;Converting to [Root.Religion.GetName] would bring your clans closer.;;;;;;;;;x 
+recently_adopted_faith_tooltip;Has not adopted the faith of another clan in 10 years\n;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_TITLE;Absorb Clan;;;;;;;;;x 
+#ABSORB_CLAN_INTERACTION_DESC;Absorb the §Y[Recipient.Clan.GetName]§! Clan.;;;;;;;;;x 
+#ABSORB_CLAN_INTERACTION_LONG_DESC;Absorbing a Clan will help you grow in power, but other Clans might see this as a threat.;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_ACCEPT_SETUP;Clan Absorbed;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! absorbed the §Y[Recipient.GetOnlyDynastyName]§! clan from §Y[Recipient.GetBestName]§!;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_DECLINE_SETUP;Clan Absorption Refused;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! refused the absorption of the §Y[Recipient.Clan.GetName]§! clan, requested by §Y[Actor.GetBestName]§!;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_0;This will lower §Y[Recipient.GetTitledFirstName]§!'s opinion of you by §R$VAL$§!.;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_1;[Recipient.GetHerHis] Blood Brother §Y$BLOOD_BROTHER$§!'s Clan Sentiment towards you will also be lowered by §R$VAL$§!.;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_2;Other clan vassals will see this as a tyrannical act, decreasing their Sentiment towards you by §R$VAL$§!.;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_3;Other clan vassals will not mind, as they think there are too many clans in the realm.;;;;;;;;;x 
+opinion_absorbed_my_clan;Absorbed my Clan;;;;;;;;;x 
+EVTDESC503;I humbly accept your decision to absorb the [From.GetOnlyDynastyName] Clan, though it grieves me deeply.;;;;;;;;;x 
+EVTDESC504;I will not allow you to steal my people without a fight! You are no longer my Khan.;;;;;;;;;x 
+LIEGE_ENDED_OTHER_WAR_PARTICIPATION_SETUP;Liege ended war participation;;;;;;;;;x 
+LIEGE_ENDED_OTHER_WAR_SETUP;Liege ended war;;;;;;;;;x 
+ASK_FOR_CLAIM_INTERACTION_ACCEPT_SETUP;Request for claim was Accepted;;;;;;;;;x 
+SET_TITLE_ADVENTURER_EFFECT;§Y$TITLE$§! becomes an adventurer title.\n;;;;;;;;;x 
+UNSET_TITLE_ADVENTURER_EFFECT;§Y$TITLE$§! will no longer be an adventurer title.\n;;;;;;;;;x 
+SET_TITLE_LANDLESS_EFFECT;§Y$TITLE$§! becomes a temporary title.\n;;;;;;;;;x 
+UNSET_TITLE_LANDLESS_EFFECT;§Y$TITLE$§! will no longer be a temporary title.\n;;;;;;;;;x 
+LOOTING_FORBIDDEN_AGAINST_CHAR;Not allowed to loot §Y$CHAR$§!;;;;;;;;;x 
+HAS_FEUD_WITH;Has Feud with §Y$CLAN$§!;;;;;;;;;x 
+NOT_HAS_FEUD_WITH;Does NOT have Feud with §Y$CLAN$§!;;;;;;;;;x 
+MUST_BE_A_COMMANDER;§Y$FIRST_CHAR$§! must be one of §Y$SECOND_CHAR$'s§! Commanders;;;;;;;;;x 
+RESIGN_AS_COMMANDER_INTERACTION_TITLE;Resign As Commander;;;;;;;;;x 
+RESIGN_AS_COMMANDER_INTERACTION_DESC;Resign from your duty as a Commander;;;;;;;;;x 
+RESIGN_AS_COMMANDER_INTERACTION_LONG_DESC;To avoid injuries or in order to lead your own troops, it might be a good idea to Resign from your duty as a Commander.;;;;;;;;;x 
+RESIGN_AS_COMMANDER_INTERACTION_ACCEPT_SETUP;Commander Resigned;;;;;;;;;x 
+RESIGN_AS_COMMANDER_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W has Resigned from [Actor.GetHerHis] duty as Commander.;;;;;;;;;x 
+RESIGN_AS_COMMANDER_INTERACTION_LETTER;I have decided to step down as your Commander.;;;;;;;;;x 
+MINOR_TITLES;Minor Titles;;;;;;;;;x 
+allowed_to_hold;Holder Conditions;;;;;;;;;x 
+CLAN_OPINION_LOWER_THAN;Clan Sentiment lower than ;;;;;;;;;x 
+CLAN_OPINION_AT_LEAST;Clan Sentiment of at least ;;;;;;;;;x 
+CLAN_OPINION_DIFF_LOWER_THAN;Clan Sentiment difference between §Y$FIRST$§! and §Y$SECOND$§! lower than §Y$VAL$§!;;;;;;;;;x 
+CLAN_OPINION_DIFF_AT_LEAST;Clan Sentiment difference between §Y$FIRST$§! and §Y$SECOND$§! at least §Y$VAL$§!;;;;;;;;;x 
+alert_available_minor_title_instant;§YSpecial Minor Titles Grantable§!;;;;;;;;;x 
+alert_available_minor_title_delayed;The following Special Minor Titles can be granted:\n$LIST$;;;;;;;;;x 
+title_commander_desc;§YCommanders§! are the only ones after the §YMarshal§! and the ruler who are allowed to command armies.;;;;;;;;;x 
+NUM_OF_FEUDS_LESS;Less than §Y$VAL$§W Feuds.;;;;;;;;;x 
+NUM_OF_FEUDS_AT_LEAST;At least §Y$VAL$§W Feuds.;;;;;;;;;x 
+CLANS;Clans;;;;;;;;;x 
+EVTNAMEHL11;Clan Adopted your Faith;;;;;;;;;x 
+EVTDESCHL11;[FromFrom.GetBestName], leader of the [FromFrom.Clan.GetName] Clan, has adopted our religion.;;;;;;;;;x 
+EVTNAMEHL9;Clan Adopted another Faith;;;;;;;;;x 
+EVTDESCHL9;[FromFrom.GetBestName], leader of the [FromFrom.Clan.GetName] Clan, has adopted the faith of [FromFromFrom.GetFirstName] and become [FromFromFrom.Religion.GetName].;;;;;;;;;x 
+convert_fort_to_city_named;Upgrade the Fort of [Root.GetName] to a City;;;;;;;;;x 
+convert_fort_to_castle_named;Upgrade the Fort of [Root.GetName] to a Castle;;;;;;;;;x 
+convert_fort_to_temple_named;Upgrade the Fort of [Root.GetName] to a Temple;;;;;;;;;x 
+convert_fort_to_tribal_named;Upgrade the Fort of [Root.GetName] to a Tribal Holding;;;;;;;;;x 
+FORM_BLOOD_OATH_INTERACTION_ACCEPT_SETUP;Blood Oath Formed;;;;;;;;;x 
+FORM_BLOOD_OATH_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W has Formed a Blood Oath with [Recipient.GetBestName].;;;;;;;;;x 
+FORM_BLOOD_OATH_INTERACTION_DECLINE_SETUP;Blood Oath offer Refused;;;;;;;;;x 
+FORM_BLOOD_OATH_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W refused to form a Blood Oath with [Actor.GetBestName].;;;;;;;;;x 
+FORM_BLOOD_OATH_INTERACTION_LETTER;I propose we form a Blood Oath to help each other throughout our lifespan.;;;;;;;;;x 
+AI_AMBITION_LESS_THAN;AI Ambition less than ;;;;;;;;;x 
+AI_AMBITION_AT_LEAST;AI Ambition at least ;;;;;;;;;x 
+AI_HONOR_LESS_THAN;AI Honor less than ;;;;;;;;;x 
+AI_HONOR_AT_LEAST;AI Honor at least ;;;;;;;;;x 
+AI_RATIONALITY_LESS_THAN;AI Rationality less than ;;;;;;;;;x 
+AI_RATIONALITY_AT_LEAST;AI Rationality at least ;;;;;;;;;x 
+AI_GREED_LESS_THAN;AI Greed less than ;;;;;;;;;x 
+AI_GREED_AT_LEAST;AI Greed at least ;;;;;;;;;x 
+AI_ZEAL_LESS_THAN;AI Zeal less than ;;;;;;;;;x 
+AI_ZEAL_AT_LEAST;AI Zeal at least ;;;;;;;;;x 
+AIREASON_CLAN_OPINION;Clan Sentiment of §Y[Clan.GetName]§!;;;;;;;;;x 
+AIREASON_MY_KHAN;My Khan;;;;;;;;;x 
+AIREASON_BLOOD_BROTHER;[GetTitledFirstName] is my Blood Brother;;;;;;;;;x 
+AIREASON_FEUD;At feud with [GetTitledFirstName];;;;;;;;;x 
+clan_opinion_absorbed_clan;Absorbed Clan;;;;;;;;;x 
+clan_opinion_absorbed_blood_brother_clan;Absorbed the Clan of my Blood Brother;;;;;;;;;x 
+clan_opinion_absorbed_my_clan;Tried to Absorb My Clan;;;;;;;;;x 
+SETTLE_FEUD_INTERACTION_TITLE;Settle Feud;;;;;;;;;x 
+#SETTLE_FEUD_INTERACTION_DESC;Attempt to reconcile with the [Recipient.Clan.GetName].;;;;;;;;;x 
+#SETTLE_FEUD_INTERACTION_LONG_DESC;Attempt to reconcile with the [Recipient.Clan.GetName].;;;;;;;;;x 
+SETTLE_FEUD_INTERACTION_ACCEPT_SETUP;Feud Settled;;;;;;;;;x 
+SETTLE_FEUD_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W Settled the Feud with the [Recipient.Clan.GetName].;;;;;;;;;x 
+SETTLE_FEUD_INTERACTION_DECLINE_SETUP;Settle Feud Offer Declined;;;;;;;;;x 
+SETTLE_FEUD_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W refused to Settle the Feud with the [Actor.Clan.GetName].;;;;;;;;;x 
+SETTLE_FEUD_INTERACTION_LETTER;[Actor.GetBestName] has sent a messenger bringing luxurious gifts in hopes that these extravagencies shall make me forget the conflict between the [Actor.Clan.GetName] and the [Recipient.Clan.GetName].;;;;;;;;;x 
+EVTDESC507;The feud has finally come to an end and our people can again know peace.;;;;;;;;;x 
+EVTOPTA507;At last!;;;;;;;;;x 
+EVTDESC508;The [From.Clan.GetName] are stubborn and refuses to put our issues behind us.;;;;;;;;;x 
+EVTOPTA508;They are a simple people...;;;;;;;;;x 
+AIREASON_OTHER_FEUDS;Have Other Feuds;;;;;;;;;x 
+NUM_OF_TITLES_IN_REALM_LESS;Less than §Y$VAL$§W $TIER$ titles in realm.;;;;;;;;;x 
+NUM_OF_TITLES_IN_REALM_LEAST;At least §Y$VAL$§W $TIER$ titles in realm.;;;;;;;;;x 
+NUM_OF_TITLES_IN_REALM_LESS_2;Less than §Y$VAL$§W titles in realm.;;;;;;;;;x 
+NUM_OF_TITLES_IN_REALM_LEAST_2;At least §Y$VAL$§W titles in realm.;;;;;;;;;x 
+LOOTING_BLOOD_BROTHER;Cannot raid our Blood Brothers.;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_TITLE;Split Clan;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_DESC;Split the §Y[Recipient.Clan.GetName]§!.;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_LONG_DESC;Splitting Clans is a good way to keep your Clan vassals weak. Creating too many Clans however will make them upset about the competition. The new Clan will appreciate the power given to them and be loyal to you, for a while..;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_ACCEPT_SETUP;Clan Splitted;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! splitted the §Y[Recipient.Clan.GetName]§! clan.;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_DECLINE_SETUP;Clan Splitting Refused;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! refused the splitting of the §Y[Recipient.Clan.GetName]§! clan, requested by §Y[Actor.GetBestName]§!;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_0;Split the §Y[Recipient.Clan.GetName]§! and give §Y$TITLE$§! to a new Clan.;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_1;This will lower §Y[Recipient.GetTitledFirstName]§!'s Clan Sentiment of you by §R$VAL$§!.;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_2;[Recipient.GetHerHis] Blood Brother §Y$BLOOD_BROTHER$§!'s Clan Sentiment towards you will also be lowered by §R$VAL$§!.;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_3;All clan vassals will become upset as there is already enough clans in the realm, decreasing their Sentiment towards you by §R$VAL$§!.;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_4;Other clan vassals will not mind, as they do not think there are too many clans in the realm.;;;;;;;;;x 
+EVTDESC509;I humbly accept your decision to split my Clan, though it grieves me deeply.;;;;;;;;;x 
+EVTDESC510;I will not allow you to steal my people without a fight! You are no longer my Khan.;;;;;;;;;x 
+#clan_opinion_splitted_blood_brother_clan;Splitted the Clan of my Blood Brother;;;;;;;;;x 
+#clan_opinion_splitted_my_clan;Splitted My Clan;;;;;;;;;x 
+clan_opinion_created;Loyal Clan;;;;;;;;;x 
+INTERACTION_REQUIRES_NOT_BLOOD_BROTHER;[Recipient.GetBestName] is not Blood Brother of [Actor.GetBestName].;;;;;;;;;x 
+INTERACTION_REQUIRES_NOT_FEUD;[Recipient.GetBestName] is not at Feud with [Actor.GetBestName].;;;;;;;;;x 
+INTERACTION_REQUIRES_RECIPIENT_IS_ACTOR_OR_RECIPIENT_MOST_POPULOUS_VASSAL;Can only be used against self or the most Populous Clan vassal.;;;;;;;;;x 
+INTERACTION_REQUIRES_VALID_EMPTY_PROVINCE;[Recipient.GetBestName] must have a valid province without a capital settlement to take.;;;;;;;;;x 
+alert_over_clan_limit_instant;§YOver Clan Limit§!;;;;;;;;;x 
+alert_over_clan_limit_delayed;You have §R$NUM$§!/§Y$MAX$§! Clans, giving you a Clan Sentiment penalty towards all Clan vassals.;;;;;;;;;x 
+alert_over_clan_limit_name;Over Clan Limit;;;;;;;;;x 
+#CLAN_SIZE;Desired Clan Size;;;;;;;;;x 
+TOTAL_POPULATION_DESC;§YTotal Population in Realm§!;;;;;;;;;x 
+#CLAN_SIZE_DESC;The Desired Clan Size is determined by the size of the realm. Having too many clans will negatively affect the Clan Sentiment of all vassal clans towards their liege. Being too far below the Desired Clan Size will put the Khan at the risk of a Clan Revolt. When the Maximum Possible Clan Size has been reached, you can no longer use the Split Clan interaction and any subjugated Nomad will become a Tribal ruler instead.;;;;;;;;;x 
+#CLAN_LIMIT_FORMULA;Desired Clan Size Formula;;;;;;;;;x 
+alert_too_few_clans_instant;§YClans Want More Land§!;;;;;;;;;x 
+alert_too_few_clans_delayed;You hold too much land compared to the other Clans. Hand out §Y$NUM$§! counties or you might face revolts from the existing Clans as it negatively affects their §YClan Sentiment§! of you. You can also face a §YMinor Clan Rising§! revolt to seize its rightful position among the major Clans...;;;;;;;;;x 
+alert_too_few_clans_name;Clans Want More Land;;;;;;;;;x 
+#MIN_CLAN_LIMIT_FORMULA;Minimum Clan Size Formula;;;;;;;;;x 
+#MIN_CLAN_LIMIT;Minimum Clan Size;;;;;;;;;x 
+MAX_CLAN_LIMIT;Maximum Possible Clans;;;;;;;;;x 
+SPLIT_CLAN_INTERACTION_LETTER;I have decided to revoke the lands of [ThirdPartyTitle.GetFullName] and give it to a new clan. Failure to hand it over peacefully will lead to war.;;;;;;;;;x 
+ABSORB_CLAN_INTERACTION_LETTER;I have decided to seize your lands and merge your clan with mine. Failure to hand over your lands peacefully will lead to war.;;;;;;;;;x 
+MODIFIER_RETINUE_MAINTENENCE_COST;Retinue Maintenence Cost;;;;;;;;;x 
+MODIFIER_HORDE_MAINTENENCE_COST;Horde Maintenence Cost;;;;;;;;;x 
+MODIFIER_CLAN_SENTIMENT;Clan Sentiment;;;;;;;;;x 
+CAPITAL_AT_TRADE_POST_MODIFIER;In Capital;;;;;;;;;x 
+CAPITAL_ADJACADENT_TO_TRADE_POST_MODIFIER;Adjacadent to Capital;;;;;;;;;x 
+NOMAD_HORSE_OFFENSIVE_MODIFIER;Capital is in a Steppe, Desert or Plains province;;;;;;;;;x 
+NOMAD_HORSE_DEFENSIVE_MODIFIER;Capital is in a Mountains, Hills or Arctic province;;;;;;;;;x 
+MODIFIER_GLOBAL_WINTER_SUPPLY;Global Winter Supply;;;;;;;;;x 
+BUILDING_ACTIVE;This building is only active while;;;;;;;;;x 
+CAPITAL_AT_HOLY_SITE;Capital at $RELIGION$ Holy Site: §G+$VALUE$§!;;;;;;;;;x 
+COMMANDER_LIMIT;Commander Limit: §Y$LIMIT$§!;;;;;;;;;x 
+RULER_HAS_MOVED_CAPITAL_RECENTLY;§Y[GetTitledFirstName]§! is not allowed to move the capital again in $MONTHS$ months - unless it's back to the traditional capital of [PrimaryTitle.GetName].;;;;;;;;;x 
+CONFIRM_MAKE_CAPITAL_DESC;Are you sure you want to move your court to $PROVINCE$, making it your capital?;;;;;;;;;x 
+CONFIRM_MAKE_CAPITAL_DESC_0;$GOVERNMENT$ Rulers can only do this once in their lifetime.;;;;;;;;;x 
+CONFIRM_MAKE_CAPITAL_DESC_1;You will not be able to change capital again for $MONTHS$ months.;;;;;;;;;x 
+MOVED_CAPITAL_MONTHS_MULT;Capital Movement Delay Modifier;;;;;;;;;x 
+convert_fort_to_city_desc;I can upgrade the Fort of [Root.County.GetBaseName] to a prosperous City.;;;;;;;;;x 
+convert_fort_to_castle_desc;I can upgrade the Fort of [Root.County.GetBaseName] to a glorious Castle.;;;;;;;;;x 
+convert_fort_to_temple_desc;I can upgrade the Fort of [Root.County.GetBaseName] to a holy Temple.;;;;;;;;;x 
+convert_fort_to_tribal_desc;I can upgrade the Fort of [Root.County.GetBaseName] to a Tribal Holding.;;;;;;;;;x 
+NOMAD_CANNOT_MOVE_CAPITAL_TO_HOLDING;Nomads can only move their Capital to provinces with an empty primary holding slot.;;;;;;;;;x 
+#MANPOWER_BREAKDOWN;Manpower Breakdown;;;;;;;;;x 
+INTERACTION_REQUIRES_RECIPIENT_NO_OCCUPIED_PROVINCES;[Recipient.GetBestName] have no occupied provinces.;;;;;;;;;x 
+#EMPTY_PROVINCES_IN_REALM;Empty Provinces in Realm;;;;;;;;;x 
+MAPMODE_TRADE_ZONES;§YTrade Zones§!;;;;;;;;;x 
+#MAPMODE_TRADE_ZONES_DESC;All Trade Zones, separated by their owner.;;;;;;;;;x 
+TRADEZONE_OWNER_REPUBLIC;This Trade Zone is owned by the §Y$FAMILY$§! Family of §YThe $REPUBLIC$§!;;;;;;;;;x 
+TRADEZONE_OWNER;This Trade Zone is owned by §Y$HOLDING$§!;;;;;;;;;x 
+tut_2c_9;Spymaster - Scheme, build spy network, study technology.;;;;;;;;;x 
+tut_2c_10;Court Chaplain - Proselytize, research cultural tech, improve religious relations.;;;;;;;;;x 
+#PROVINCE_EXTEND_DESC;Forts and Trade Posts;;;;;;;;;x 
+MAKE_CONSORT_INTERACTION_LONG_DESC;You can have up to three concubines in addition to your wife. Concubines are not truly married, but will bear their liege's legitimate children. A woman who is the prisoner of a ruler can be forced to become his concubine, even if she is already married.;;;;;;;;;x 
+TECH_DESC_NOMAD_CAPITAL;Advancements in your Capital Holding of $NAME$;;;;;;;;;x 
+SPREAD_FROM_NOMAD_CAPITAL;Nomad Capital Bonus;;;;;;;;;x 
+SPREAD_TO_NOMAD_CAPITAL;Province Bonus;;;;;;;;;x 
+TECH_GROWTH_NOMAD_CAPITAL_SETUP;Advancement in Nomad Capital;;;;;;;;;x 
+TECH_GROWTH_NOMAD_CAPITAL_LOG;Local knowledge of $TECH$ in $NAME$ increased to level §Y$LEVEL$§!;;;;;;;;;x 
+TECH_GROWTH_PROG_NOMAD_CAPITAL_SETUP;Advancement Progress in Nomad Capital;;;;;;;;;x 
+TECH_GROWTH_PROG_NOMAD_CAPITAL_LOG;Local progress of $TECH$ advancement in $NAME$ increased to §Y$PROG$§!;;;;;;;;;x 
+RULER_CANNOT_MOVE_CAPITAL_AT_WAR;You can only move your Capital during peacetime.;;;;;;;;;x 
+faction_overthrow;Overthrow Khan;;;;;;;;;x 
+faction_overthrow_title;Overthrow Khan;;;;;;;;;x 
+faction_overthrow_desc;Members desire §Y[From.GetBestName]§! as the new leader for the §Y[This.GetFullName]§!. When sufficiently powerful, §Y[From.GetBestName]§! may present an ultimatum to §Y[From.Liege.GetBestName]§!;;;;;;;;;x 
+#CB_NAME_INSTALLKHAN;Install $ATTACKER$ as Khan of $SECOND$;;;;;;;;;x 
+WAR_NAME_INSTALLKHAN;Install $ATTACKER$ as Khan of $SECOND$;;;;;;;;;x 
+EVTDESC8210;You have shown yourself weak and I speak for all the clans when I say that it is time for you to hand over the bridle to someone more worthy.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTDESC8211;The weak Khan has agreed to our demands and have to surrender himself to us.;;;;;;;;;x 
+EVTDESC8212;A faction led by disgruntled Clan-Chiefs have ended without bloodshed as the previous Khan surrendered.;;;;;;;;;x 
+EVTDESC8213;I surrender myself to you [Root.GetTitledName] and only beg of you to have mercy upon me and my house...;;;;;;;;;x 
+EVTOPTA8213;Your clan has served us well, you shall live for now...;;;;;;;;;x 
+EVTOPTB8213;Cowards like you have no place among us!;;;;;;;;;x 
+NOMAD_TECH_LEECH;Tributary tech contribution;;;;;;;;;x 
+IMPRISON_INTERACTION_FORCED;Because of their different way of governance, none of your Clans will object to the imprisonment of this outsider.;;;;;;;;;x 
+EXECUTE_INTERACTION_FORCED;Because of their different way of governance, none of your Clans will object to the execution of this outsider.;;;;;;;;;x 
+EXILE_INTERACTION_FORCED;Because of their different way of governance, none of your Clans will object to the exile of this outsider.;;;;;;;;;x 
+PILLAGE_DESTROY_BUILDINGS;Pillaging this land will result in buildings being destroyed!\n;;;;;;;;;x 
+burnt_the_land;Burned the Land;;;;;;;;;x 
+recently_burnt_the_land;Recently burned the Land;;;;;;;;;x 
+pillage_settlement;Pillage Holding;;;;;;;;;x 
+pillage_settlement_desc;Pillage Holding;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_LARGE_NOMAD;Since this ruler has a larger realm than us we can revoke some of their land with just cause.;;;;;;;;;x 
+faction_overthrow_ultimatum;Overthrow Khan;;;;;;;;;x 
+faction_overthrow_ultimatum_desc;Present an ultimatum to §Y[Root.Liege.GetBestName]§!, demanding [Root.Liege.GetHerHim] to step down from the throne and install you as the new khan. If [Root.Liege.GetSubjectPronoun] refuses to comply, your Faction will rise in revolt.;;;;;;;;;x 
+#;;;;;;;;;;x 

@@ -1,0 +1,18 @@
+20.1.1={
+	active = no
+}
+1066.1.1={
+	law = succ_ultimogeniture
+        law = feudal_tax_1
+}
+1160.1.1={
+	holder=93055
+	active=yes
+}
+1171.1.1={
+	holder=125501
+}
+1206.1.1={
+        holder=0
+        active = no
+}

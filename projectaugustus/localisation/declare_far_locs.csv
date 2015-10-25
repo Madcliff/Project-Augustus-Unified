@@ -1,0 +1,5 @@
+#CODE;ENGLISH;;;;;;;;;x 
+declare_rival;Declare Rival;;;;;;;;;x 
+declare_rival_desc;[Root.GetFirstName] and I are sufficiently at odds enough to declare each other rivals.;;;;;;;;;x 
+declare_friend;Declare Friend;;;;;;;;;x 
+declare_friend_desc;[Root.GetFirstName] and I get along enough to consider ourselves friends.;;;;;;;;;x 

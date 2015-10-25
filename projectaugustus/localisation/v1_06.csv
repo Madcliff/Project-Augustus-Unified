@@ -1,0 +1,1180 @@
+#CODE;ENGLISH;;;;;;;;;x 
+PLOT_POWER_CONTRIB_LOWER_THAN;Contribution to $PLOTTER$'s plot to $PLOT$ less than §Y$POWER$%§!\n;;;;;;;;;x 
+PLOT_POWER_CONTRIB_AT_LEAST;Contribution to $PLOTTER$'s plot to $PLOT$ at least §Y$POWER$%§!\n;;;;;;;;;x 
+#INTERACTION_CANNOT_JOIN_VASSAL_WAR;We cannot join our vassals' wars (except for Crusades/Jihads);;;;;;;;;x 
+KILLER;Killer;;;;;;;;;x 
+ANY_SPOUSE_STARTS;Any Spouse;;;;;;;;;x 
+IS_MAIN_SPOUSE;Is the First Spouse;;;;;;;;;x 
+IS_NOT_MAIN_SPOUSE;Is NOT the First Spouse;;;;;;;;;x 
+CONQUEST_CULTURE_EFFECT;Subjugated by §Y$CULTURE$§! Culture\n;;;;;;;;;x 
+CONQUEST_CULTURE_EFFECT_FREED;Freed from the §Y$CULTURE$§! yoke\n;;;;;;;;;x 
+MAKE_PRIMARY_SPOUSE_EFFECT;$WHO$ is made the First Spouse of $SPOUSE$.\n;;;;;;;;;x 
+MAKE_NOT_PRIMARY_SPOUSE_EFFECT;$WHO$ is no longer the First Spouse of $SPOUSE$.\n;;;;;;;;;x 
+HAVE_CONQUEST_CULTURE;Is subjugated by §Y$CULTURE$§! Culture\n;;;;;;;;;x 
+HAVNT_CONQUEST_CULTURE;Is NOT subjugated by §Y$CULTURE$§! Culture\n;;;;;;;;;x 
+DISMISS_ALLOW_DESCRIPTION;Can be dismissed if the following is true:\n;;;;;;;;;x 
+DIPLO_OF_POPE;Religious Head Diplomacy;;;;;;;;;x 
+INTERACTION_REQUIRES_FEWER_WIVES;§Y$CHAR$§W has fewer than §Y$NUM$§W wives;;;;;;;;;x 
+INTERACTION_REQUIRES_NO_OTHER_MARRIAGE;§Y$CHAR$§W is unmarried;;;;;;;;;x 
+INTERACTION_REQUIRES_NO_TRUCE_OR_REV_REASON;Must have a special revoke reason if we have a Truce;;;;;;;;;x 
+INTERACTION_VALID_REASON;Since you have a valid reason, no one will care.;;;;;;;;;x 
+tribal_invasion_desc;We do not need to bother with just causes - might makes right! §Y$CLAIMANT$§! can invade the lands of §Y$TARGET$§!. If successful, the titles to all currently occupied holdings will be seized and all vassals will become our vassals.;;;;;;;;;x 
+decadence_invasion_desc;We do not need to bother with just causes - might makes right! §Y$CLAIMANT$§! can invade the lands of §Y$TARGET$§!.;;;;;;;;;x 
+title_food_taster;Food Taster;;;;;;;;;x 
+title_food_taster_desc;Food tasters have the dubious pleasure of trying all dishes before their master has a bite...;;;;;;;;;x 
+title_court_calligrapher;Court Calligrapher;;;;;;;;;x 
+title_court_calligrapher_desc;Islamic suspicion of figurative art makes skilled calligraphers highly respected.;;;;;;;;;x 
+title_court_musician;Court Musician;;;;;;;;;x 
+title_court_musician_desc;The Court Musician is always ready to entertain with soothing or stirring music.;;;;;;;;;x 
+title_court_poet;Court Poet;;;;;;;;;x 
+title_court_poet_desc;Islamic poets enjoy a great deal of respect and prestige, often religious, but sometimes pushing the limits of what is acceptable under Islam.;;;;;;;;;x 
+title_chief_architect;Chief Architect;;;;;;;;;x 
+title_chief_architect_desc;The Chief Architect is responsible for designing and overseeing the construction of palaces, mosques and grand monuments.;;;;;;;;;x 
+title_chief_qadi;Chief Qadi;;;;;;;;;x 
+title_chief_qadi_desc;The Chief Qadi is the supreme judge and authority of the Law (Sharia) in the realm. The most prestigious of all Muslim honorary titles, it is only open to characters with a proper religious education.;;;;;;;;;x 
+title_court_dwarf;Court Dwarf;;;;;;;;;x 
+title_court_dwarf_desc;Dwarves are objects of fascination and curiosity. Having one at court is a matter of prestige.;;;;;;;;;x 
+job_spiritual_muslim;Court Imam;;;;;;;;;x 
+job_spiritual_shiite;Court Mullah;;;;;;;;;x 
+job_chancellor_iranian;Grand Vizier;;;;;;;;;x 
+job_chancellor_turkish;Grand Vizier;;;;;;;;;x 
+PROV911;Timbuktu;;;;;;;;;x 
+PROV912;Aoudaghost;;;;;;;;;x 
+PROV913;Ghana;;;;;;;;;x 
+PROV914;Gao;;;;;;;;;x 
+PROV915;Djenné;;;;;;;;;x 
+PROV916;Taghaza;;;;;;;;;x 
+PROV917;Araouane;;;;;;;;;x 
+PROV918;Sijilmasa;;;;;;;;;x 
+PROV919;Oualata;;;;;;;;;x 
+PROV920;Ouadane;;;;;;;;;x 
+PROV921;Idjil;;;;;;;;;x 
+PROV922;Tadmekka;;;;;;;;;x 
+PROV923;Adrar Plateau;;;;;;;;;x 
+PROV924;Western Sahara;;;;;;;;;x 
+PROV925;Mali;;;;;;;;;x 
+PROV926;Bambuk;;;;;;;;;x 
+PROV927;Zarma;;;;;;;;;x 
+PROV928;Gurma;;;;;;;;;x 
+TITLE_CREATION_EMPEROR_DESC;You need to control §Y$REQ_PERC$%§! of its de jure Counties to create this title. Currently, you control $PERC$ ($HELD$/§Y$ALL$§!). Creating this title would give you §G$PRESTIGE$§! Prestige and cost you §R$GOLD$§! Gold and §R$PIETY$§! $PIETYNAME$.;;;;;;;;;x 
+c_ifni_adj;Taroudanti;;;;;;;;;x 
+c_tharasset_adj;Tamdoulti;;;;;;;;;x 
+e_persia;Persian Empire;;;;;;;;;x 
+e_persia_adj;Persian;;;;;;;;;x 
+e_arabia;Arabian Empire;;;;;;;;;x 
+e_arabia_adj;Arabian;;;;;;;;;x 
+k_volga_bulgaria;Volga Bulgaria;;;;;;;;;x 
+k_volga_bulgaria_adj;Volga Bulgarian;;;;;;;;;x 
+k_perm;Perm;;;;;;;;;x 
+k_perm_adj;Permian;;;;;;;;;x 
+k_taurica;Taurica;;;;;;;;;x 
+k_taurica_adj;Taurican;;;;;;;;;x 
+k_alania;Alania;;;;;;;;;x 
+k_alania_adj;Alanian;;;;;;;;;x 
+k_khiva;Khiva;;;;;;;;;x 
+k_khiva_adj;Khivan;;;;;;;;;x 
+e_britannia;Britannia;;;;;;;;;x 
+e_britannia_adj;British;;;;;;;;;x 
+e_spain;Hispania;;;;;;;;;x 
+e_spain_adj;Hispanian;;;;;;;;;x 
+west_african;West African;;;;;;;;;x 
+manden;Mandé;;;;;;;;;x 
+k_byzantium;Greece;;;;;;;;;x 
+k_byzantium_adj;Greek;;;;;;;;;x 
+k_anatolia;Anatolia;;;;;;;;;x 
+k_anatolia_adj;Anatolian;;;;;;;;;x 
+k_ruthenia;Ruthenia;;;;;;;;;x 
+k_ruthenia_adj;Ruthenian;;;;;;;;;x 
+e_russia;Russia;;;;;;;;;x 
+e_russia_adj;Russian;;;;;;;;;x 
+e_scandinavia;Scandinavia;;;;;;;;;x 
+e_scandinavia_adj;Scandinavian;;;;;;;;;x 
+e_france;Francia;;;;;;;;;x 
+e_france_adj;French;;;;;;;;;x 
+mujahid;Mujahid;;;;;;;;;x 
+mujahid_desc;This character is a veteran of a Jihad.;;;;;;;;;x 
+hajjaj;Hajajj;;;;;;;;;x 
+hajjaj_desc;This character has made the Hajj - the pilgrimage to Mecca.;;;;;;;;;x 
+on_hajj;On Hajj;;;;;;;;;x 
+on_hajj_desc;This character is on a pilgrimage to Mecca.;;;;;;;;;x 
+faqih;Faqih;;;;;;;;;x 
+faqih_desc;This character is formally schooled in Islamic jurisprudence.;;;;;;;;;x 
+hafiz;Hafiz;;;;;;;;;x 
+hafiz_desc;This character has completely memorized the Qur'an.;;;;;;;;;x 
+sayyid;Sayyid;;;;;;;;;x 
+sayyid_desc;This character is patrilineally descended from the Prophet Muhammad's uncles al-Abbas and Abu Talib, or from the sons of his daughter Fatimah - Hasan ibn Ali and Husain ibn Ali.;;;;;;;;;x 
+mirza;Mirza;;;;;;;;;x 
+mirza_desc;The mother of this character is a Sayyida (patrilineally descended from the Prophet Muhammad).;;;;;;;;;x 
+scarred;Scarred;;;;;;;;;x 
+scarred_desc;Old wounds have left this character visibly scarred.;;;;;;;;;x 
+pilgrim;Pilgrim;;;;;;;;;x 
+pilgrim_desc;The character has completed a great pilgrimage.;;;;;;;;;x 
+MUSLIM_VIEW;$TRAIT$: $VALUE$;;;;;;;;;x 
+AIREASON_IS_HIGHER_RANK_SPOUSE;§Y[GetTitledFirstName]§! is my Spouse and higher ranked;;;;;;;;;x 
+AIREASON_WILL_NOT_MARRY_INFIDELS;§Y[GetTitledFirstName]§! must not marry an infidel;;;;;;;;;x 
+FIGHTING_ANOTHER_WAR;Busy fighting another war;;;;;;;;;x 
+empire;Empire;;;;;;;;;x 
+kingdom;Kingdom;;;;;;;;;x 
+duchy;Duchy;;;;;;;;;x 
+county;County;;;;;;;;;x 
+barony;Barony;;;;;;;;;x 
+city_empire;Principality;;;;;;;;;x 
+city_kingdom;Most Serene Republic;;;;;;;;;x 
+city_duchy;Republic;;;;;;;;;x 
+city_county;Grand City;;;;;;;;;x 
+city_barony;City;;;;;;;;;x 
+temple_kingdom_catholic;Theocracy;;;;;;;;;x 
+temple_kingdom_orthodox;Patriarchate;;;;;;;;;x 
+temple_kingdom_pagan_group;Theocracy;;;;;;;;;x 
+temple_duchy_christian;Prince-Archbishopric;;;;;;;;;x 
+temple_duchy_pagan_group;Theocracy;;;;;;;;;x 
+temple_county_christian;Prince-Bishopric;;;;;;;;;x 
+temple_county_pagan_group;Theocracy;;;;;;;;;x 
+temple_barony_christian;Bishopric;;;;;;;;;x 
+temple_barony_pagan_group;Temple;;;;;;;;;x 
+count_arabic_female;Shaykhah;;;;;;;;;x 
+empire_altaic;Khaganate;;;;;;;;;x 
+kingdom_altaic;Khanate;;;;;;;;;x 
+barony_arabic;Wilayah;;;;;;;;;x 
+county_arabic;Sheikhdom;;;;;;;;;x 
+duchy_arabic;Emirate;;;;;;;;;x 
+kingdom_arabic;Sultanate;;;;;;;;;x 
+barony_turkish;Timar;;;;;;;;;x 
+county_turkish;Beylik;;;;;;;;;x 
+duchy_turkish;Beylerbeylik;;;;;;;;;x 
+kingdom_turkish;Sultanate;;;;;;;;;x 
+barony_mongol;Taishi;;;;;;;;;x 
+county_mongol;Chiefdom;;;;;;;;;x 
+duchy_mongol;High Chiefdom;;;;;;;;;x 
+baron_west_african;Wâli;;;;;;;;;x 
+barony_of_west_african;Wilayah of;;;;;;;;;x 
+barony_west_african;Wilayah;;;;;;;;;x 
+count_west_african;Farin;;;;;;;;;x 
+count_female_west_african;Farina;;;;;;;;;x 
+county_of_west_african;Sheikhdom of;;;;;;;;;x 
+county_west_african;Sheikhdom;;;;;;;;;x 
+duke_west_african;Farbas;;;;;;;;;x 
+duke_female_west_african;Farba;;;;;;;;;x 
+duchy_of_west_african;Emirate of;;;;;;;;;x 
+duchy_west_african;Emirate;;;;;;;;;x 
+king_west_african;Mansa;;;;;;;;;x 
+king_female_west_african;Sultana;;;;;;;;;x 
+kingdom_of_west_african;Sultanate of;;;;;;;;;x 
+kingdom_west_african;Sultanate;;;;;;;;;x 
+alert_high_decadence_instant;§YHigh Decadence§!;;;;;;;;;x 
+alert_high_decadence_delayed;Your dynasty is seen as hopelessly decadent. There is a risk of a massive revolt.;;;;;;;;;x 
+PRETENDER_TO;Pretender and Claimant to the $TITLE$;;;;;;;;;x 
+one_celibate;Pleasures in the after-life: Celibacy;;;;;;;;;x 
+one_hedonist;Pleasures in life: Hedonism;;;;;;;;;x 
+opinion_adopted_foreign_ways;Adopted Foreign Ways;;;;;;;;;x 
+opinion_nomuslim;Not a True Believer;;;;;;;;;x 
+opinion_brother_muslim;My Brother;;;;;;;;;x 
+opinion_half_brother_muslim;My Half-Brother;;;;;;;;;x 
+imam_appreciates;The Imams Approve;;;;;;;;;x 
+pious_imams;Money-loving Imams;;;;;;;;;x 
+unfunny_imam;Disregards Blasphemy;;;;;;;;;x 
+NOT_ALLOWED_PLAY_LOWBORN;Not allowed to play §YLowborn§!;;;;;;;;;x 
+NOT_ALLOWED_PLAY_LOWBORN_MP;§Y$PLAYER$§! not allowed to play §YLowborn§!;;;;;;;;;x 
+light_foot_leader;Light Foot Leader;;;;;;;;;x 
+light_foot_leader_desc;This character has proven to be a capable commander when leading light infantry into battle.;;;;;;;;;x 
+heavy_infantry_leader;Heavy Infantry Leader;;;;;;;;;x 
+heavy_infantry_leader_desc;This character is skilled at leading heavily armored infantry into battle.;;;;;;;;;x 
+cavalry_leader;Cavalry Leader;;;;;;;;;x 
+cavalry_leader_desc;This character excels at leading men to war on horseback.;;;;;;;;;x 
+inspiring_leader;Inspiring Leader;;;;;;;;;x 
+inspiring_leader_desc;This character has a way of reaching directly into the hearts and minds of the soldiers on the battlefield, and not just with a sword.;;;;;;;;;x 
+trickster;Trickster;;;;;;;;;x 
+trickster_desc;This character is skilled at misdirection, and will often feint an attack from one direction only to suddenly charge from another.;;;;;;;;;x 
+organizer;Organizer;;;;;;;;;x 
+organizer_desc;This character is a skillful organizer in matters of logistics and in overcoming the challenges of moving a large body of men from one point to another.;;;;;;;;;x 
+defensive_leader;Defender;;;;;;;;;x 
+defensive_leader_desc;This character has a reputation as a stalwart defender, standing like a stone wall alongside the men no matter what force hurls itself against them.;;;;;;;;;x 
+experimenter;Unpredictable Leader;;;;;;;;;x 
+experimenter_desc;This character is known to be an unpredictable element on the battlefield. The enemy won't see it coming, and neither will you!;;;;;;;;;x 
+flanker;Flanker;;;;;;;;;x 
+flanker_desc;This character fights best when positioned on the flank of an army, striking deeply at the chinks in the enemy's armor.;;;;;;;;;x 
+aggressive_leader;Aggressive Leader;;;;;;;;;x 
+aggressive_leader_desc;This character does not shy away from battle, and will show no mercy to opponents who attempt to quit the field.;;;;;;;;;x 
+EVTDESC6071;The cough disappeared, thank [Root.Religion.GetRandomGodName]! I still feel a bit weak but the coughing, the chest pain and the shortness of breath are gone.;;;;;;;;;x 
+EVTOPTD76041;Your father sinned when he fathered you;;;;;;;;;x 
+EVTOPTB61146;[Root.Religion.GetRandomGodNameCap] help us when that [Root.Liege.GetLadLass] sits on the throne...;;;;;;;;;x 
+EVTOPTB61226;By [Root.Religion.GetRandomGodName], ye shan't leave this field alive.;;;;;;;;;x 
+EVTOPTB61223;By [Root.Religion.GetRandomGodName], what have I gotten myself into? I will have no part in this madness.;;;;;;;;;x 
+EVTDESC7509;I assume this is yet another poor attempt at humor, my liege. I shan't surrender that which is rightfully mine, no matter who demands it, by [Root.Religion.GetRandomGodName]!\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTB3636;A forkful of animal excrement!;;;;;;;;;x 
+EVTTOOLTIP3638;[Root.GetTitledFirstName] has choosen the weapon for the duel: a forkful of animal excrement;;;;;;;;;x 
+EVTDESC3638;I could not believe my ears when [From.GetTitledFirstName]'s second told me what kind of weapon we would use in the duel: a forkful of animal excrement!;;;;;;;;;x 
+EVTOPTB3638;I will not touch animal excrement!;;;;;;;;;x 
+EVTDESC3639;It came as no suprise to me when [From.GetTitledFirstName]'s second told me to bring my sword to the duel, I was just glad I didn't have to fight with a sledgehammer, or, [Root.Religion.GetName] forbide, something disgusting as animal excrement!;;;;;;;;;x 
+EVTNAME60100;The Mongols sack Kiev!;;;;;;;;;x 
+EVTDESC60100;The Mongol scourge has poured through the Golden Gates of Kiev and sacked the once proud trading hub. The city has been left a smoldering ruin and the Dnieper now runs red with the blood of its former inhabitants.;;;;;;;;;x 
+EVTOPTA60100;Perhaps the stories were true...;;;;;;;;;x 
+EVTNAME60101;The Mongols sack Novgorod!;;;;;;;;;x 
+EVTDESC60101;Novgorod has been stormed by the Tartar horde and both the city and its population are now suffering beyond measure. The Cathedral of Saint Sophia is engulfed in flames as the steppe warriors loot that which can be carried away and put the rest to the torch.;;;;;;;;;x 
+EVTOPTA60101;Perhaps their bloodlust has been sated now.;;;;;;;;;x 
+EVTNAME60102;The Mongols sack Krakow!;;;;;;;;;x 
+EVTDESC60102;The Mongols continue their push beyond the Vistula and into Poland. Krakow has now fallen to the invaders, and it is said that at night the flames from the burning city can be seen from untold leagues away.;;;;;;;;;x 
+EVTOPTA60102;They must be stopped!;;;;;;;;;x 
+EVTNAME60103;The Mongols sack Aachen!;;;;;;;;;x 
+EVTDESC60103;Even Aachen, the former seat of Charlemagne's great Carolingian empire, has fallen under the shadow of the Mongol scourge. His spirit must surely be weeping at the atrocities now being committed within the city's walls.;;;;;;;;;x 
+EVTOPTA60103;Barbarians!;;;;;;;;;x 
+EVTNAME60104;The Mongols sack Paris!;;;;;;;;;x 
+EVTDESC60104;Like a swarm of locusts, the unstoppable Mongols have descended upon Paris and sacked the city. The still unfinished Notre Dame Cathedral is quickly set on fire and with the light provided by the rest of the burning city, the Mongol warriors can continue looting and murdering well into the night.;;;;;;;;;x 
+EVTOPTA60104;There seems to be no reprieve from these accursed Tartars.;;;;;;;;;x 
+EVTNAME60105;The Mongols sack London!;;;;;;;;;x 
+EVTDESC60105;Not even the sea has proved a formidable enough barrier to halt the Mongol advance. London has fallen to their vanguard and the city is now the scene of a slaughter on a scale unrivaled since the days of Queen Boudica and her rebellion. ;;;;;;;;;x 
+EVTOPTA60105;God save us all.;;;;;;;;;x 
+EVTNAME60106;The Mongols sack Rome!;;;;;;;;;x 
+EVTDESC60106;Once more Rome suffers at the cruel hands of eastern barbarians. The Mongols have breached the Aurelian Walls, and their horses are now grazing on the field of the Circus Maximus while they raise their yurts on the Palatine Hill. As expected, no mercy is shown to those Romans who have not yet fled the city.;;;;;;;;;x 
+EVTOPTA60106;Is this the end of days?;;;;;;;;;x 
+EVTNAME60107;The Mongols sack Venice!;;;;;;;;;x 
+EVTDESC60107;The canals of Venice have been blocked by the bloated corpses of the dead as the city is sacked by frenzied Mongol warriors. Those few fortunate enough to have escaped the slaughter claim the bodies are packed tightly enough in the Venetian Lagoon for the Mongols to ride to and from the mainland as they please.;;;;;;;;;x 
+EVTOPTA60107;Surely that can't be true!;;;;;;;;;x 
+EVTNAME60108;The Mongols sack Constantinople!;;;;;;;;;x 
+EVTDESC60108;The Theodosian Walls have not been enough to spare Constantinople from the vile touch of the Tartar scourge. The great imperial capital has been sacked, its citizens butchered or enslaved, the Hagia Sophia defiled and the Great Palace of the emperors put to the torch.;;;;;;;;;x 
+EVTOPTA60108;May God have mercy on their souls.;;;;;;;;;x 
+EVTNAME60109;The Mongols sack Lisbon!;;;;;;;;;x 
+EVTDESC60109;The Mongols have now reached as far west as Lisbon in their conquests. While the city burns at their touch, the steppe warriors look out over the great blue expanse of the Atlantic. Who can tell where they will turn next?;;;;;;;;;x 
+EVTOPTA60109;Is there no place beyond their reach?;;;;;;;;;x 
+EVTNAME60110;The Mongols sack Smolensk!;;;;;;;;;x 
+EVTDESC60110;Smolensk has been swallowed up by the Mongol hordes as they continue their relentless advance to the west. When the great host finally moves on, little remains of the city but ashes and charred rubble, and those lucky few inhabitants who somehow escaped the notice of the rampaging horsemen.;;;;;;;;;x 
+EVTOPTA60110;Such butchery will not go unpunished.;;;;;;;;;x 
+EVTNAME60111;The Mongols sack Prague!;;;;;;;;;x 
+EVTDESC60111;The city of Prague has become a beacon of light in an otherwise dark world, as the Mongol barbarians move from house to house and set fire to everything not yet looted. A flood of refugees spread horrific tales about the cruelty of the bloodthirsty Tartar horsemen to every corner of Europe.;;;;;;;;;x 
+EVTOPTA60111;Have they no regard for culture?;;;;;;;;;x 
+EVTNAME60112;The Mongols sack Vienna!;;;;;;;;;x 
+EVTDESC60112;Vienna, a city of growing importance on the Danube river, has become the latest victim of the Mongol hordes as they continue to pillage and burn their way across Europe. The smoking ruins and arrow-riddled corpses they leave behind when they move on do not lend much faith in the city's future prospects.;;;;;;;;;x 
+EVTOPTA60112;There will come a time of reckoning.;;;;;;;;;x 
+EVTNAME60113;The Mongols sack Esztergom!;;;;;;;;;x 
+EVTDESC60113;The Mongols have reached beyond the Carpathians and fanned out across the Great Hungarian Plain. Now the city of Esztergom has fallen to the murderous host and is the scene of indiscriminate slaughter. Those that attempt to flee on foot are cut down without mercy by the fast horsemen as dark, billowing smoke rises towards the sky above the city.;;;;;;;;;x 
+EVTOPTA60113;May it be the last city the Tartars take!;;;;;;;;;x 
+EVTNAME60114;The Mongols sack Athens!;;;;;;;;;x 
+EVTDESC60114;The ancient city of Athens has fallen to the Mongols, and they now rampage unchecked behind its walls. Great monuments and artifacts dating back to the dawn of Western Civilisation are lost forever in a cultural desecration that will surely be felt by future generations thousands of years from now.;;;;;;;;;x 
+EVTOPTA60114;This time they have gone too far!;;;;;;;;;x 
+EVTNAME60115;The Mongols sack Belgrade!;;;;;;;;;x 
+EVTDESC60115;The "White City" has turned red as the Mongol invaders seize Belgrade and massacre the inhabitants without exception. After several days of slaughter and looting, the smell of death and rotting flesh proves too much even for the Mongols to bear and they move their camp upwind from the scorched ruins of the city.;;;;;;;;;x 
+EVTOPTA60115;They will be the end of us all!;;;;;;;;;x 
+opinion_refused_abdicate_title;Refused to abdicate title;;;;;;;;;x 
+plot_gain_indie_title_title;Fabricate a claim on the [This.GetFullBaseName];;;;;;;;;x 
+plot_gain_indie_title_desc;Rally support amongst the vassals of [This.Holder.GetTitledName] in an attempt to fabricate a claim on the [This.GetFullBaseName]. God willing, you may some day become their new liege.;;;;;;;;;x 
+plot_gain_indie_title_decision_100;[Root.GetPlot];;;;;;;;;x 
+plot_gain_indie_title_decision_100_desc;Put the plot into motion by attempting to fabricate a claim on the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;x 
+plot_gain_indie_title_decision_75;[Root.GetPlot];;;;;;;;;x 
+plot_gain_indie_title_decision_75_desc;Put the plot into motion by attempting to fabricate a claim on the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;x 
+plot_gain_liege_title_title;Fabricate a claim on the [This.GetFullBaseName];;;;;;;;;x 
+plot_gain_liege_title_desc;Rally support amongst the other vassals of [This.Holder.GetTitledName] in an attempt to fabricate a claim on the [This.GetFullBaseName]. God willing, you may some day become their new liege.;;;;;;;;;x 
+plot_gain_liege_title_decision_100;[Root.GetPlot];;;;;;;;;x 
+plot_gain_liege_title_decision_100_desc;Put the plot into motion by attempting to fabricate a claim on the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;x 
+plot_gain_liege_title_decision_75;[Root.GetPlot];;;;;;;;;x 
+plot_gain_liege_title_decision_75_desc;Put the plot into motion by attempting to fabricate a claim on the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;x 
+plot_gain_fellow_vassal_title_title;Fabricate a claim on the [This.GetFullBaseName];;;;;;;;;x 
+plot_gain_fellow_vassal_title_desc;Rally support amongst the other vassals of [This.Holder.Liege.GetTitledName] in an attempt to fabricate a claim on the [This.GetFullBaseName]. God willing, you may some day rightfully take the title from [This.Holder.GetTitledFirstName].;;;;;;;;;x 
+plot_gain_fellow_vassal_title_decision_100;[Root.GetPlot];;;;;;;;;x 
+plot_gain_fellow_vassal_title_decision_100_desc;Put the plot into motion by attempting to fabricate a claim on the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;x 
+plot_gain_fellow_vassal_title_decision_75;[Root.GetPlot];;;;;;;;;x 
+plot_gain_fellow_vassal_title_decision_75_desc;Put the plot into motion by attempting to fabricate a claim on the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;x 
+EVTTOOLTIP7600;successfully fabricating a claim.;;;;;;;;;x 
+EVTTOOLTIP7601;failing to fabricate a claim.;;;;;;;;;x 
+EVTDESC7600;With the aid of your fellow conspirators, you have managed to fabricate a claim on the [Root.PlotTargetTitle.GetFullBaseName].;;;;;;;;;x 
+EVTOPTA7600;Excellent.;;;;;;;;;x 
+EVTDESC7601;Not only have you failed to fabricate a claim on the [Root.PlotTargetTitle.GetFullBaseName], but your efforts have been discovered. [Root.PlotTarget.GetTitledFirstName] is none too pleased...;;;;;;;;;x 
+EVTOPTA7601;This will take some explaining...;;;;;;;;;x 
+#ca_culture_group_north_germanic_1;Small Housecarl Training Ground;;;;;;;;;x 
+#ca_culture_group_north_germanic_2;Housecarl Training Ground;;;;;;;;;x 
+#ca_culture_group_north_germanic_3;Large Housecarl Training Ground;;;;;;;;;x 
+#ca_culture_group_north_germanic_4;Great Housecarl Training Ground;;;;;;;;;x 
+ca_culture_group_north_germanic_1;Housecarl Training Ground;;;;;;;;;x 
+ca_culture_group_north_germanic_2;Housecarl Training Ground;;;;;;;;;x 
+ca_culture_group_north_germanic_3;Housecarl Training Ground;;;;;;;;;x 
+ca_culture_group_north_germanic_4;Housecarl Training Ground;;;;;;;;;x 
+#ca_culture_hungarian_1;Small Hussar Training Ground;;;;;;;;;x 
+#ca_culture_hungarian_2;Hussar Training Ground;;;;;;;;;x 
+#ca_culture_hungarian_3;Large Hussar Training Ground;;;;;;;;;x 
+#ca_culture_hungarian_4;Great Hussar Training Ground;;;;;;;;;x 
+ca_culture_hungarian_1;Hussar Training Ground;;;;;;;;;x 
+ca_culture_hungarian_2;Hussar Training Ground;;;;;;;;;x 
+ca_culture_hungarian_3;Hussar Training Ground;;;;;;;;;x 
+ca_culture_hungarian_4;Hussar Training Ground;;;;;;;;;x 
+#ca_culture_group_arabic_1;Small Camel Riding Ground;;;;;;;;;x 
+#ca_culture_group_arabic_2;Camel Riding Ground;;;;;;;;;x 
+#ca_culture_group_arabic_3;Large Camel Riding Ground;;;;;;;;;x 
+#ca_culture_group_arabic_4;Great Camel Riding Ground;;;;;;;;;x 
+ca_culture_group_arabic_1;Camel Riding Ground;;;;;;;;;x 
+ca_culture_group_arabic_2;Camel Riding Ground;;;;;;;;;x 
+ca_culture_group_arabic_3;Camel Riding Ground;;;;;;;;;x 
+ca_culture_group_arabic_4;Camel Riding Ground;;;;;;;;;x 
+#ca_culture_group_byzantine_1;Small Cataphract Training Ground;;;;;;;;;x 
+#ca_culture_group_byzantine_2;Cataphract Training Ground;;;;;;;;;x 
+#ca_culture_group_byzantine_3;Large Cataphract Training Ground;;;;;;;;;x 
+#ca_culture_group_byzantine_4;Great Cataphract Training Ground;;;;;;;;;x 
+ca_culture_group_byzantine_1;Cataphract Training Ground;;;;;;;;;x 
+ca_culture_group_byzantine_2;Cataphract Training Ground;;;;;;;;;x 
+ca_culture_group_byzantine_3;Cataphract Training Ground;;;;;;;;;x 
+ca_culture_group_byzantine_4;Cataphract Training Ground;;;;;;;;;x 
+#ca_culture_irish_1;Small Gallowglass Training Ground;;;;;;;;;x 
+#ca_culture_irish_2;Gallowglass Training Ground;;;;;;;;;x 
+#ca_culture_irish_3;Large Gallowglass Training Ground;;;;;;;;;x 
+#ca_culture_irish_4;Great Gallowglass Training Ground;;;;;;;;;x 
+ca_culture_irish_1;Gallowglass Training Ground;;;;;;;;;x 
+ca_culture_irish_2;Gallowglass Training Ground;;;;;;;;;x 
+ca_culture_irish_3;Gallowglass Training Ground;;;;;;;;;x 
+ca_culture_irish_4;Gallowglass Training Ground;;;;;;;;;x 
+#ca_culture_ethiopian_1;Small Ethiopian Drilling Grounds;;;;;;;;;x 
+#ca_culture_ethiopian_2;Ethiopian Drilling Grounds;;;;;;;;;x 
+#ca_culture_ethiopian_3;Large Ethiopian Drilling Grounds;;;;;;;;;x 
+#ca_culture_ethiopian_4;Great Ethiopian Drilling Grounds;;;;;;;;;x 
+ca_culture_ethiopian_1;Ethiopian Drilling Grounds;;;;;;;;;x 
+ca_culture_ethiopian_2;Ethiopian Drilling Grounds;;;;;;;;;x 
+ca_culture_ethiopian_3;Ethiopian Drilling Grounds;;;;;;;;;x 
+ca_culture_ethiopian_4;Ethiopian Drilling Grounds;;;;;;;;;x 
+#ca_culture_group_south_slavic_1;Small Gusar Training Ground;;;;;;;;;x 
+#ca_culture_group_south_slavic_2;Gusar Training Ground;;;;;;;;;x 
+#ca_culture_group_south_slavic_3;Large Gusar Training Ground;;;;;;;;;x 
+#ca_culture_group_south_slavic_4;Great Gusar Training Ground;;;;;;;;;x 
+ca_culture_group_south_slavic_1;Gusar Training Ground;;;;;;;;;x 
+ca_culture_group_south_slavic_2;Gusar Training Ground;;;;;;;;;x 
+ca_culture_group_south_slavic_3;Gusar Training Ground;;;;;;;;;x 
+ca_culture_group_south_slavic_4;Gusar Training Ground;;;;;;;;;x 
+#ca_culture_dutch_1;Small Goedendag Militia Quarters;;;;;;;;;x 
+#ca_culture_dutch_2;Goedendag Militia Quarters;;;;;;;;;x 
+#ca_culture_dutch_3;Large Goedendag Militia Quarters;;;;;;;;;x 
+#ca_culture_dutch_4;Great Goedendag Militia Quarters;;;;;;;;;x 
+ca_culture_dutch_1;Goedendag Militia Quarters;;;;;;;;;x 
+ca_culture_dutch_2;Goedendag Militia Quarters;;;;;;;;;x 
+ca_culture_dutch_3;Goedendag Militia Quarters;;;;;;;;;x 
+ca_culture_dutch_4;Goedendag Militia Quarters;;;;;;;;;x 
+d_sunni;The Sunni Caliphate;;;;;;;;;x 
+d_sunni_adj;Caliphal;;;;;;;;;x 
+d_shiite;The Shia Caliphate;;;;;;;;;x 
+d_shiite_adj;Caliphal;;;;;;;;;x 
+k_dacia;Wallachia;;;;;;;;;x 
+k_dacia_adj;Wallachian;;;;;;;;;x 
+b_sijilmasa;Sijilmasa;;;;;;;;;x 
+b_merzouga;Merzouga;;;;;;;;;x 
+b_tanamouste;Tanamouste;;;;;;;;;x 
+b_ertoud;Ertoud;;;;;;;;;x 
+b_merzane;Merzane;;;;;;;;;x 
+b_hannabou;Hannabou;;;;;;;;;x 
+b_tadaout;Tadaout;;;;;;;;;x 
+b_tisserdmine;Tisserdmine;;;;;;;;;x 
+k_mali;Mali;;;;;;;;;x 
+e_mali;Mali;;;;;;;;;x 
+d_armenia_minor_adj_armenian;Armenian;;;;;;;;;x 
+e_abyssinia;Abyssinia;;;;;;;;;x 
+e_abyssinia_adj;Abyssinian;;;;;;;;;x 
+d_timbuktu;Timbuktu;;;;;;;;;x 
+b_timbuktu;Timbuktu;;;;;;;;;x 
+b_alafia;Alafia;;;;;;;;;x 
+b_salam;Salam;;;;;;;;;x 
+b_lafia;Lafia;;;;;;;;;x 
+b_ber;Ber;;;;;;;;;x 
+b_boureminaly;Bourem-Inaly;;;;;;;;;x 
+b_toya;Toya;;;;;;;;;x 
+b_aglal;Aglal;;;;;;;;;x 
+b_oualata;Oualata;;;;;;;;;x 
+b_tiguiguil;Tiguiguil;;;;;;;;;x 
+b_neiguiat;Neïguiat;;;;;;;;;x 
+b_konou;Konou;;;;;;;;;x 
+b_birnsara;Bir Nsara;;;;;;;;;x 
+b_tizert;Tizert;;;;;;;;;x 
+b_tarhalet;Tarhalet;;;;;;;;;x 
+b_fassekra;Fassekra;;;;;;;;;x 
+b_araouane;Araouane;;;;;;;;;x 
+b_tessalit;Tessalit;;;;;;;;;x 
+b_aguelhok;Aguelhok;;;;;;;;;x 
+b_abalessa;Abalessa;;;;;;;;;x 
+b_tinzaouten;Tinzaouten;;;;;;;;;x 
+b_guezzam;Guezzam;;;;;;;;;x 
+b_tamanrasset;Tamanrasset;;;;;;;;;x 
+b_tazrouk;Tazrouk;;;;;;;;;x 
+b_taghaza;Taghaza;;;;;;;;;x 
+b_kerzaz;Kerzaz;;;;;;;;;x 
+b_metarta;Metarta;;;;;;;;;x 
+b_reggane;Reggane;;;;;;;;;x 
+b_adrar;Adrar;;;;;;;;;x 
+b_aougrout;Aougrout;;;;;;;;;x 
+b_charouine;Charouine;;;;;;;;;x 
+b_alouarta;El Ouarta;;;;;;;;;x 
+d_ghana;Ghana;;;;;;;;;x 
+b_el_ghaba;El Ghaba;;;;;;;;;x 
+b_koumbi_saleh;Koumbi Saleh;;;;;;;;;x 
+b_silla;Silla;;;;;;;;;x 
+b_singhanah;Singhanah;;;;;;;;;x 
+b_samakanda;Sámakanda;;;;;;;;;x 
+b_ras_elma;Ras el Má;;;;;;;;;x 
+b_tirka;Tírka;;;;;;;;;x 
+b_kughah;Kúghah;;;;;;;;;x 
+b_aoudaghost;Aoudaghost;;;;;;;;;x 
+b_tichitt;Tichitt;;;;;;;;;x 
+b_moudjeria;Moudjeria;;;;;;;;;x 
+b_ksarelbarka;Ksar-el-Barka;;;;;;;;;x 
+b_ouadane;Ouadane;;;;;;;;;x 
+b_wadan;Wadan;;;;;;;;;x 
+b_azuggi;Azuggi;;;;;;;;;x 
+b_ksaralkiali;Ksar-al-Kiali;;;;;;;;;x 
+b_idjil;Idjil;;;;;;;;;x 
+b_zouerat;Zouérat;;;;;;;;;x 
+b_tazadit;Tazadit;;;;;;;;;x 
+b_rouessa;Rouessa;;;;;;;;;x 
+b_fderick;Fdérick;;;;;;;;;x 
+d_mali;Mali;;;;;;;;;x 
+b_boure;Boure;;;;;;;;;x 
+b_niani;Niani;;;;;;;;;x 
+b_bamako;Bamako;;;;;;;;;x 
+b_safo;Safo;;;;;;;;;x 
+b_baguineda;Baguineda;;;;;;;;;x 
+b_dialakoro;Dialakoro;;;;;;;;;x 
+b_bougouni;Bougouni;;;;;;;;;x 
+b_soussa;Soussa;;;;;;;;;x 
+b_bambuk;Bambuk;;;;;;;;;x 
+b_kiffa;Kiffa;;;;;;;;;x 
+b_kankossa;Kankossa;;;;;;;;;x 
+b_boumdeid;Boumdeid;;;;;;;;;x 
+b_guerou;Guerou;;;;;;;;;x 
+b_aftout;Aftout;;;;;;;;;x 
+b_djenne;Djenne;;;;;;;;;x 
+b_macina;Macina;;;;;;;;;x 
+b_fakala;Fakala;;;;;;;;;x 
+b_kewa;Kewa;;;;;;;;;x 
+b_ouroali;Ouro Ali;;;;;;;;;x 
+b_pondori;Pondori;;;;;;;;;x 
+b_femaye;Femaye;;;;;;;;;x 
+b_derary;Derary;;;;;;;;;x 
+d_songhay;Songhay;;;;;;;;;x 
+b_gao;Gao;;;;;;;;;x 
+b_sarnah;Sarnah;;;;;;;;;x 
+b_gaosaney;Gao-Saney;;;;;;;;;x 
+b_bourem;Bourem;;;;;;;;;x 
+b_ansongo;Ansongo;;;;;;;;;x 
+b_menaka;Ménaka;;;;;;;;;x 
+b_gabero;Gabero;;;;;;;;;x 
+b_anchawadi;Anchawadi;;;;;;;;;x 
+b_tadmekka;Tadmekka;;;;;;;;;x 
+b_agades;Agades;;;;;;;;;x 
+b_takedda;Takedda;;;;;;;;;x 
+b_essako;Essako;;;;;;;;;x 
+b_kidal;Kidal;;;;;;;;;x 
+c_gurma;Gurma;;;;;;;;;x 
+c_gurma_adj;Gurman;;;;;;;;;x 
+b_gurma;Gurma;;;;;;;;;x 
+b_zorgho;Zorgho;;;;;;;;;x 
+b_hounde;Houndé;;;;;;;;;x 
+c_zarma;Zarma;;;;;;;;;x 
+c_zarma_adj;Zarman;;;;;;;;;x 
+b_bura;Bura;;;;;;;;;x 
+b_ouallam;Ouallam;;;;;;;;;x 
+b_tera;Téra;;;;;;;;;x 
+d_susa;Susa;;;;;;;;;x 
+d_susa_adj;Susan;;;;;;;;;x 
+d_latium;Latium;;;;;;;;;x 
+d_latium_adj;Latin;;;;;;;;;x 
+c_aprutium_adj;Aprutian;;;;;;;;;x 
+b_foligno;Foligno;;;;;;;;;x 
+b_avezzano;Avezzano;;;;;;;;;x 
+b_pescara;Pescara;;;;;;;;;x 
+b_teramo;Teramo;;;;;;;;;x 
+b_atri;Atri;;;;;;;;;x 
+b_aprutium_penne;Penne;;;;;;;;;x 
+b_ciconia;Ciconia;;;;;;;;;x 
+b_paganica;Paganica;;;;;;;;;x 
+ANY_POT_TRIBAL_COUNTY_STARTS;Any Potential Tribal County;;;;;;;;;x 
+ALL_POT_TRIBAL_COUNTY_STARTS;All Potential Tribal Counties;;;;;;;;;x 
+ANY_TRAIT_HOLDER_STARTS;Any Character with trait ;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_2F;Our Imperial administration allows us to revoke Duchies without objections from the aristocracy.;;;;;;;;;x 
+DISTANCE_LESS_THAN;Distance less than ;;;;;;;;;x 
+DISTANCE_AT_LEAST;Distance at least ;;;;;;;;;x 
+RANDOM_ROLL_LESS_THAN;Random Roll less than ;;;;;;;;;x 
+RANDOM_ROLL_AT_LEAST;Random Roll at least ;;;;;;;;;x 
+EVTOPTD37055;You are already married, remember? To [From.Spouse.GetTitledFirstName]?;;;;;;;;;x 
+opinion_sadaqah;Gave Sadaqah;;;;;;;;;x 
+reckless_charge_tactic;Reckless Charge Tactic;;;;;;;;;x 
+timid_advance_tactic;Timid Advance Tactic;;;;;;;;;x 
+confused_orders_tactic;Confused Orders;;;;;;;;;x 
+hesitant_commander_tactic;Hesitant Commander;;;;;;;;;x 
+charging_own_skirmishers_tactic;Charging Through Own Skirmishers;;;;;;;;;x 
+inspired_defense_tactic;Inspired Defense Tactic;;;;;;;;;x 
+heroic_countercharge_tactic;Heroic Counter-Charge Tactic;;;;;;;;;x 
+clever_ambush_tactic;Clever Ambush Tactic;;;;;;;;;x 
+religious_fervour_tactic;Gripped by Religious Fervour;;;;;;;;;x 
+retreat_and_ambush_tactic;Retreat and Ambush Tactic;;;;;;;;;x 
+berserker_charge_tactic;Berserker Charge;;;;;;;;;x 
+schiltron_formation_tactic;Schiltron Formation;;;;;;;;;x 
+pike_column_advance_tactic;Pike Column Advance;;;;;;;;;x 
+massive_longbow_volley_tactic;Massive Longbow Volley Tactic;;;;;;;;;x 
+couched_lance_charge_tactic;Couched Lance Charge;;;;;;;;;x 
+desert_ambush_tactic;Desert Ambush;;;;;;;;;x 
+embolon_charge_formation_tactic;Embolon Charge Formation;;;;;;;;;x 
+muslim_hedonist;Tasting the forbidden wine of Hedonism;;;;;;;;;x 
+muslim_poet;Making the world more poetic;;;;;;;;;x 
+DECADENCE_MOD;Decadence;;;;;;;;;x 
+CURRENT_DECADENCE;Current;;;;;;;;;x 
+EFFECTS;Effects;;;;;;;;;x 
+DEMESNE_INCOME;Demesne Income;;;;;;;;;x 
+MONTHLY_COMBAT_DEC_CHANGE;Change due to combat this month;;;;;;;;;x 
+BATTLES;Battles;;;;;;;;;x 
+MONTHLY_UNLANDED;§YChange due to jobless sons:§!;;;;;;;;;x 
+DYNASTIC_DECADENCE;Dynastic Decadence;;;;;;;;;x 
+JOBLESS_SON; ( $NUM_SONS$ jobless son );;;;;;;;;x 
+JOBLESS_SONS; ( $NUM_SONS$ jobless sons );;;;;;;;;x 
+REL_FIRSTWIFE;First Wife;;;;;;;;;x 
+MUSLIM_TAX_PENALTY;Lack of Jizya Tax Penalty: ;;;;;;;;;x 
+JIZYA_BONUS;Jizya Tax Bonus: ;;;;;;;;;x 
+claim_all_desc;§Y$CLAIMANT$§! can declare war on §Y$TARGET$§! with several strong claims (weak claims do not count.);;;;;;;;;x 
+alert_can_press_weak_claims_instant;§Y$NUM$ Weak Claim(s) can be pressed§!;;;;;;;;;x 
+alert_can_press_weak_claims_delayed;The following Weak Claims can be pressed:\n$LIST$;;;;;;;;;x 
+MORALE_DEMESNE_TROOPS;Morale of Demesne Troops;;;;;;;;;x 
+HAS_LOWER_DECADENCE_THAN;Has a lower Decadence than ;;;;;;;;;x 
+HAS_HIGHER_DECADENCE_THAN;Has a Decadence of at least ;;;;;;;;;x 
+DECADENCE_EFFECT;$DIRECTION$ $VALUE$ decadence.\n;;;;;;;;;x 
+DESTROY;Destroy;;;;;;;;;x 
+TITLE_DESTROYED_SETUP;Title Destroyed;;;;;;;;;x 
+TITLE_DESTROYED_LOG;§Y$DESTROYER$§! has destroyed the title §Y$TITLE$§!.;;;;;;;;;x 
+CHAR_REL_DIVORCED_SETUP;Divorce Granted;;;;;;;;;x 
+CHAR_REL_DIVORCED_LETTER;Dear $SPOUSE$, our marriage just is not working anymore. Therefore, §Y$REL_HEAD$§! has graciously granted us a divorce.\n\n$ACTOR$;;;;;;;;;x 
+CHAR_REL_DIVORCED_LOG;§Y$REL_HEAD$§! has granted §Y$ACTOR$§! a divorce from §Y$VICTIM$§!.;;;;;;;;;x 
+CHAR_DIVORCED_SETUP;Divorce Arranged;;;;;;;;;x 
+CHAR_DIVORCED_LETTER;Dear $SPOUSE$, our marriage just is not working anymore. Therefore, I have decided to divorce you. Sorry.\n\n$ACTOR$;;;;;;;;;x 
+CHAR_DIVORCED_LOG;§Y$ACTOR$§! has divorced §Y$VICTIM$§!;;;;;;;;;x 
+CONFIRM_TITLE_DESTRUCTION;Destroy the title to the $TITLE$?;;;;;;;;;x 
+TITLE_DESTRUCTION_COST_DESC;Destroying this title would cost you §R$PRESTIGE$§! Prestige. All de jure vassals of the $TITLE$ will be upset (§R$OPINION$§! Opinion).;;;;;;;;;x 
+opinion_destroyed_dj_liege_title;Destroyed Liege Title;;;;;;;;;x 
+CANNOT_DESTROY_BELOW_DUKE;Cannot destroy counties or baronies;;;;;;;;;x 
+CANNOT_DESTROY_PRIMARY_TITLE;Cannot destroy your primary title;;;;;;;;;x 
+CANNOT_DESTROY_SPECIAL_TITLE;Cannot destroy special title;;;;;;;;;x 
+CANNOT_AFFORD_DESTRUCTION;Must have §R$PRESTIGE$§! Prestige;;;;;;;;;x 
+DOES_NOT_HAVE_REGENT;Does NOT have a Regent;;;;;;;;;x 
+HAS_REGENT;Has a Regent;;;;;;;;;x 
+ISNT_CONTESTED_TITLE;Is NOT being contested by claimants;;;;;;;;;x 
+IS_CONTESTED_TITLE;Is being contested by claimants;;;;;;;;;x 
+STRONG_CLAIM_TITLE;§YStrong Claim on the $TITLE$§W;;;;;;;;;x 
+WEAK_CLAIM_TITLE;§YWeak Claim on the $TITLE$§W;;;;;;;;;x 
+STRONG_CLAIM_DESC;On succession, Strong Claims are only given to children who are second or third in the line of succession.;;;;;;;;;x 
+WEAK_CLAIM_DESC;On succession, Weak Claims are given to children who are not second or third in the line of succession. Weak Claims can only be pressed against:\n§Y* Female Rulers if the claimant is male\n* Regencies\n* Titles already being contested in a Claim or Succession War\n* Titles the claimant is second or third in line to inherit§!;;;;;;;;;x 
+HAS_NOT_STRONG_CLAIM;Does NOT have a Strong Claim on $TITLE$;;;;;;;;;x 
+HAS_STRONG_CLAIM;Has Strong Claim on $TITLE$;;;;;;;;;x 
+HAS_NOT_WEAK_CLAIM;Does NOT have a Weak Claim on $TITLE$;;;;;;;;;x 
+HAS_WEAK_CLAIM;Has Weak Claim on $TITLE$;;;;;;;;;x 
+GAIN_CLAIM_ON;$WHO$ gets a Strong Claim on §Y$TITLE$§!.\n;;;;;;;;;x 
+GAIN_WEAK_CLAIM_ON;$WHO$ gets a Weak Claim on §Y$TITLE$§!.\n;;;;;;;;;x 
+iddah_period;Iddah Period;;;;;;;;;x 
+opinion_chief_qadi;Chief Qadi;;;;;;;;;x 
+opinion_merciful_qadi;Merciful Chief Qadi;;;;;;;;;x 
+opinion_arbitrary_qadi;Arbitrary Chief Qadi;;;;;;;;;x 
+LAW_NORMAL_CHANGE_MUSLIM_PIETY_COST;It costs $PIETY$ $PIETYNAME$ for Muslims to change Demesne Laws;;;;;;;;;x 
+LAW_DE_JURE_CHANGE_MUSLIM_PIETY_COST;It costs $PIETY$ $PIETYNAME$ for Muslims to change Crown Laws;;;;;;;;;x 
+CB_NAME_COUNTY_CONQUEST;Conquest of [Title.GetBaseName];;;;;;;;;x 
+WAR_NAME_COUNTY_CONQUEST;$ORDER$$FIRST_ADJ$ Conquest of $OTHER_TITLE$;;;;;;;;;x 
+EVTTOOLTIPB3538;[Root.GetTitledFirstName] has nothing but contempt for [This.GetTitledFirstName]'s idiotic flagellation;;;;;;;;;x 
+EVTDESC55000;The [Root.Culture.GetName] populace in [Root.GetName] have embraced [Root.Holder.Culture.GetName] culture.;;;;;;;;;x 
+EVTDESC55001;The [Root.Culture.GetName] populace in [Root.GetName] resent me as a ruler and feel that I am a foreigner, yet I depend on these selfsame people to collect my taxes and man my army. This simply will not do. I think it is time to bring some boys from back home over to help out here.;;;;;;;;;x 
+EVTDESC55010;My roots may be [Root.Culture.GetName], but I identify more with the [Root.Capital.Culture.GetName] people I rule.;;;;;;;;;x 
+EVTOPTA55010;[Root.Capital.Culture.GetName] customs are superior!;;;;;;;;;x 
+EVTOPTB55010;Never, I am still [Root.Culture.GetName]!;;;;;;;;;x 
+EVTDESC55011;[From.GetTitledName] has adopted the foreign ways of [From.Capital.GetName], behaving more like a petty [From.Capital.Culture.GetName] burgher than a proper [Root.Culture.GetName] lord.;;;;;;;;;x 
+EVTOPTA55011;Troubling news;;;;;;;;;x 
+PROV420;Vilnius;;;;;;;;;x 
+PROV423;Trakai;;;;;;;;;x 
+PROV424;Grodno;;;;;;;;;x 
+PROV496;Constantinople;;;;;;;;;x 
+PROV632;Tus;;;;;;;;;x 
+PROV696;Samarra;;;;;;;;;x 
+PROV702;Khliat;;;;;;;;;x 
+PROV727;Bostra;;;;;;;;;x 
+PROV729;Al-Sukhnah;;;;;;;;;x 
+PROV929;Aprutium;;;;;;;;;x 
+c_tadmor_adj;Al-Sukhnahn;;;;;;;;;x 
+c_syria_adj;Bostrian;;;;;;;;;x 
+c_mesopotamia_adj;Khliatian;;;;;;;;;x 
+c_euphrates_adj;Samarrian;;;;;;;;;x 
+c_tus_adj;Tusian;;;;;;;;;x 
+c_aukshayts_adj;Vilnian;;;;;;;;;x 
+c_sudovia_adj;Trakian;;;;;;;;;x 
+c_jacwiez_adj;Grodnian;;;;;;;;;x 
+c_byzantion_adj;Constantinopian;;;;;;;;;x 
+d_hashshashin;Hashshashin;;;;;;;;;x 
+GRANDHEADMASTER;Grand Headmaster;;;;;;;;;x 
+GRANDHEADMASTER_FOA;Your Excellency;;;;;;;;;x 
+DEATH_MURDER_HASHSHASHIN;died at the hands of the Hashshashin;;;;;;;;;x 
+EXPECTED_TO_HAVE_MORE_WIVES;Fewer than §Y$NUM$§W wives: §R$PRESTIGE$§W;;;;;;;;;x 
+EXPECTED_TO_HAVE_FEWER_WIVES;More than §Y$NUM$§W wives: §G+$PRESTIGE$§W;;;;;;;;;x 
+#tp_wall_q_1_muslim;Mosque Moat;;;;;;;;;x 
+#tp_wall_q_2_muslim;Mosque Gatehouse;;;;;;;;;x 
+#tp_wall_q_3_muslim;Mosque Portcullis;;;;;;;;;x 
+#tp_wall_q_4_muslim;Deep Mosque Moat;;;;;;;;;x 
+#tp_wall_q_5_muslim;Mosque Barbicans;;;;;;;;;x 
+#tp_wall_1_muslim;Mosque Palisade;;;;;;;;;x 
+#tp_wall_2_muslim;Small Mosque Wall;;;;;;;;;x 
+#tp_wall_3_muslim;Medium Mosque Wall;;;;;;;;;x 
+#tp_wall_4_muslim;Large Mosque Wall;;;;;;;;;x 
+#tp_wall_5_muslim;Huge Mosque Wall;;;;;;;;;x 
+#tp_monastery_1_muslim;Musalla;;;;;;;;;x 
+#tp_monastery_2_muslim;Small Mosque;;;;;;;;;x 
+tp_monastery_1_muslim;Mosque;;;;;;;;;x 
+tp_monastery_2_muslim;Mosque;;;;;;;;;x 
+tp_monastery_3_muslim;Mosque;;;;;;;;;x 
+#tp_monastery_4_muslim;Large Mosque;;;;;;;;;x 
+tp_monastery_4_muslim;Great Mosque;;;;;;;;;x 
+tp_monastery_5_muslim;Great Mosque;;;;;;;;;x 
+tp_monastery_6_muslim;Great Mosque;;;;;;;;;x 
+#tp_monastery_6_muslim;Grand Mosque;;;;;;;;;x 
+#tp_barracks_1_muslim;Mosque Militia Quarters;;;;;;;;;x 
+#tp_barracks_2_muslim;Small Mosque Militia Grounds;;;;;;;;;x 
+#tp_barracks_3_muslim;Medium Mosque Militia Grounds;;;;;;;;;x 
+#tp_barracks_4_muslim;Large Mosque Militia Grounds;;;;;;;;;x 
+#tp_barracks_5_muslim;Great Mosque Militia Grounds;;;;;;;;;x 
+#tp_barracks_6_muslim;Huge Mosque Militia Grounds;;;;;;;;;x 
+#tp_elite_barracks_1_muslim;Mosque Guard Quarters;;;;;;;;;x 
+#tp_elite_barracks_2_muslim;Small Mosque Barracks;;;;;;;;;x 
+#tp_elite_barracks_3_muslim;Medium Mosque Barracks;;;;;;;;;x 
+#tp_elite_barracks_4_muslim;Large Mosque Barracks;;;;;;;;;x 
+#tp_elite_barracks_5_muslim;Great Mosque Barracks;;;;;;;;;x 
+#tp_elite_barracks_6_muslim;Huge Mosque Barracks;;;;;;;;;x 
+#tp_town_1_muslim;Mosque Village;;;;;;;;;x 
+tp_town_1_muslim;Mosque Town;;;;;;;;;x 
+tp_town_2_muslim;Mosque Town;;;;;;;;;x 
+tp_town_3_muslim;Mosque Town;;;;;;;;;x 
+tp_town_4_muslim;Mosque Town;;;;;;;;;x 
+tp_town_5_muslim;Mosque Town;;;;;;;;;x 
+tp_town_6_muslim;Mosque Town;;;;;;;;;x 
+#tp_town_3_muslim;Large Mosque Town;;;;;;;;;x 
+#tp_town_4_muslim;Mosque City;;;;;;;;;x 
+#tp_town_5_muslim;Large Mosque City;;;;;;;;;x 
+tp_school_1_muslim;Madrasah Islamic School;;;;;;;;;x 
+tp_school_2_muslim;Madrasah Islamic School;;;;;;;;;x 
+#tp_school_2_muslim;Large Madrasah Islamic School;;;;;;;;;x 
+#ca_keep_1_muslim;Castle Ribat;;;;;;;;;x 
+#ca_keep_2_muslim;Castle Qasbah;;;;;;;;;x 
+#ca_keep_3_muslim;Expanded Qasbah;;;;;;;;;x 
+#ca_keep_4_muslim;Large Qasbah;;;;;;;;;x 
+#ca_keep_5_muslim;Great Qasbah;;;;;;;;;x 
+#ca_keep_6_muslim;Epic Qasbah;;;;;;;;;x 
+#ct_marketplace_1_muslim;Town Bazaar;;;;;;;;;x 
+#ct_marketplace_2_muslim;City Bazaar;;;;;;;;;x 
+ct_marketplace_3_muslim;Souq Market District;;;;;;;;;x 
+ct_marketplace_4_muslim;Medina Quarter;;;;;;;;;x 
+ct_marketplace_5_muslim;Medina Quarter;;;;;;;;;x 
+ct_marketplace_6_muslim;Grand Bazaar;;;;;;;;;x 
+ct_university_1_muslim;Maktab School;;;;;;;;;x 
+ct_university_2_muslim;Madrasah University;;;;;;;;;x 
+ct_university_3_muslim;Madrasah University;;;;;;;;;x 
+#ct_university_3_muslim;Large Madrasah University;;;;;;;;;x 
+opinion_good_work;Good work!;;;;;;;;;x 
+opinion_committed_zina;Committed Zina (sexual intercourse with other man/woman than spouse);;;;;;;;;x 
+ignored_muslim_sins;Averted my eyes from the sins of others;;;;;;;;;x 
+opinion_court_calligrapher;Court Calligrapher;;;;;;;;;x 
+opinion_disappointed_calligrapher;Disappointed in Court Calligrapher;;;;;;;;;x 
+opinion_grateful_calligrapher;Grateful for the Court Calligrapher's good work;;;;;;;;;x 
+mod_satisfied_work_calligrapher;Satisfactory Calligraphy Work;;;;;;;;;x 
+mod_bad_work_calligrapher;Bad Calligraphy Work;;;;;;;;;x 
+FURUSIYYATITLE;Furusiyya;;;;;;;;;x 
+furusiyya_invite;Let all who profess martial ability be invited;;;;;;;;;x 
+FAM_FORMER_HUSBANDS;Former Husbands;;;;;;;;;x 
+FAM_SECONDARY_WIVES;Secondary Wives;;;;;;;;;x 
+FAM_FORMER_WIVES;Former Wives;;;;;;;;;x 
+CHURCH_NAME;The $RELIGION$ Faith;;;;;;;;;x 
+diligent_poet;Diligent Poet;;;;;;;;;x 
+diligent_musician;Diligent Musician;;;;;;;;;x 
+diligent_architect;Diligent Chief Architect;;;;;;;;;x 
+RAMADANTITLE;Ramadan;;;;;;;;;x 
+observed_ramadan;Observed Ramadan;;;;;;;;;x 
+plot_kill_character_desc;[From.GetTitledFirstName] has decided it is time for [This.GetTitledFirstName] to depart this world. [From.GetTitledFirstName] and [From.GetPossPronoun] backers will look for opportunities to kill [This.GetTitledFirstName] - the higher the Plot Power, the more likely they are to find openings.;;;;;;;;;x 
+EVTDESC8150;Seeing [Root.PlotTarget.GetTitledName] with [Root.PlotTarget.GetPossPronoun] nose deep in the cup, it suddenly struck me that all I need to get rid of [Root.PlotTarget.GetObjectPronoun] is a fine poison...;;;;;;;;;x 
+EVTOPTA8150;My co-conspirators will provide...;;;;;;;;;x 
+EVTOPTB8150;Buy a rare poison;;;;;;;;;x 
+EVTOPTC8150;Hemlock goes well with the Red...;;;;;;;;;x 
+EVTOPTD8150;Too expensive - I will bide my time;;;;;;;;;x 
+EVTTOOLTIP8155;Poison [This.GetTitledName] at the feast next month;;;;;;;;;x 
+EVTDESC8151;Suddenly, it hit me - poison! Surely the safest way to get rid of troublesome... pests.;;;;;;;;;x 
+EVTOPTB8151;Ask the Plot head for funds;;;;;;;;;x 
+EVTTOOLTIP8160;Tell [This.GetTitledName] of the idea to kill [This.PlotTarget.GetTitledName];;;;;;;;;x 
+EVTTOOLTIP8152;Ask [This.GetTitledName] for funds to kill [This.PlotTarget.GetTitledName];;;;;;;;;x 
+EVTDESC8152;My co-conspirator, [From.GetTitledName], is asking for funds to poison [Root.PlotTarget.GetTitledName] at an upcoming banquet...;;;;;;;;;x 
+EVTOPTA8152;Very well - too bad I will not see it!;;;;;;;;;x 
+EVTOPTB8152;Even [Root.PlotTarget.GetHerHis] death is not worth it.;;;;;;;;;x 
+EVTTOOLTIP8153;[This.GetTitledName] receives the funds;;;;;;;;;x 
+EVTTOOLTIP8154;Inform [This.GetTitledName] that I will not pay;;;;;;;;;x 
+EVTDESC8153;[From.GetTitledName] has sent me the necessary funds to poison [From.PlotTarget.GetTitledName]...;;;;;;;;;x 
+EVTDESC8154;[From.GetTitledName] has refused to fund the rare poison needed to off [From.PlotTarget.GetTitledName].;;;;;;;;;x 
+EVTOPTA8154;I will pay for it myself!;;;;;;;;;x 
+EVTOPTB8154;Forget it;;;;;;;;;x 
+EVTDESC8155;What a merry feast, surrounded by my friends and loved ones... I feel a thirst coming on. Page, more wine!;;;;;;;;;x 
+EVTOPTA8155;Aaah, that's the stuff!;;;;;;;;;x 
+EVTOPTB8155;Wait, this doesn't smell right!;;;;;;;;;x 
+EVTDESC8156;Poison! My body is growing numb, but as my sight fades, I die loudly cursing my killer's name!;;;;;;;;;x 
+EVTOPTA8156;A million deaths for [FromFrom.GetTitledFirstName]!;;;;;;;;;x 
+EVTDESC8157;Poison! My body is growing numb. Someone, please help me! [Root.Religion.GetRandomGodNameCap]...;;;;;;;;;x 
+EVTOPTA8157;Who would hate me so?;;;;;;;;;x 
+EVTDESC8158;Poisoned wine? How cliché. These amateurs will be brought to justice!;;;;;;;;;x 
+EVTOPTA8158;[FromFrom.GetTitledFirstName] is surely guilty!;;;;;;;;;x 
+EVTDESC8159;I could feel Death breathing down my neck... Who would want me dead?;;;;;;;;;x 
+EVTOPTA8159;I fear I shall never know;;;;;;;;;x 
+EVTDESC8160;My co-conspirator, [From.GetTitledName], has let me know that [Root.PlotTarget.GetTitledName] will die by poisoned wine at an upcoming banquet...;;;;;;;;;x 
+EVTOPTA8160;Classic!;;;;;;;;;x 
+EVTTOOLTIP8161;Approve the plan;;;;;;;;;x 
+EVTDESC8161;[From.GetTitledName] approves of my idea to poison [From.PlotTarget.GetTitledName]. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTOPTA8161;Make the preparations;;;;;;;;;x 
+EVTDESC8162;[From.GetTitledName] has let me know that the plot to kill [From.PlotTarget.GetTitledName] is proceeding well. [From.PlotTarget.GetSubjectPronounCap] will die by poisoned wine at a feast in one month.;;;;;;;;;x 
+EVTOPTA8162;Classic!;;;;;;;;;x 
+EVTDESC8163;Success! [From.GetTitledName] died of the poisoned wine. Unfortunately, my complicity was discovered.;;;;;;;;;x 
+EVTOPTA8163;Good. But... bad.;;;;;;;;;x 
+EVTDESC8164;Success! It seems the wine did not agree with [From.GetTitledName]. [From.GetSubjectPronounCap] died not knowing the name of [From.GetPossPronoun] killer.;;;;;;;;;x 
+EVTOPTA8164;I think I will celebrate with... beer.;;;;;;;;;x 
+EVTDESC8165;Failure! [From.GetTitledName] did not drink the wine and my complicity was discovered.;;;;;;;;;x 
+EVTOPTA8165;This is bad...;;;;;;;;;x 
+EVTDESC8166;Failure! [From.GetTitledName] did not drink the wine, but was unable to uncover the conspiracy.;;;;;;;;;x 
+EVTOPTA8166;We will just have to try again;;;;;;;;;x 
+EVTDESC8170;Seeing the cook's son fall from a tree, I had a flash of inspiration. Children are such foolish and clumsy creatures - how tragic if [Root.PlotTarget.GetTitledName] were to fall off the parapets...;;;;;;;;;x 
+EVTOPTA8170;My co-conspirators will know someone...;;;;;;;;;x 
+EVTOPTB8170;Bribe a guard;;;;;;;;;x 
+EVTOPTC8170;I know the perfect man for the job!;;;;;;;;;x 
+EVTTOOLTIP8175;[This.GetTitledName] will try [This.GetPossPronoun] wings next month;;;;;;;;;x 
+EVTDESC8171;Ah, children, how they hurt themselves. How rare to see one without a bruise, a bump or a scab. Hmm, what if someone were to take a rather long fall?;;;;;;;;;x 
+EVTOPTB8171;Ask the Plot head for funds;;;;;;;;;x 
+EVTDESC8172;My co-conspirator, [From.GetTitledName], is asking for funds to arrange a tragic falling accident for [Root.PlotTarget.GetTitledName]. Certain retainers need to be bribed...;;;;;;;;;x 
+EVTOPTA8172;Expensive, but worthwhile!;;;;;;;;;x 
+EVTDESC8173;[From.GetTitledName] has sent me enough money to bribe someone to give [From.PlotTarget.GetTitledName] a gentle push off the parapets.;;;;;;;;;x 
+EVTDESC8174;[From.GetTitledName] has refused to give me the necessary bribes to have [From.PlotTarget.GetTitledName] fall off the parapets.;;;;;;;;;x 
+EVTDESC8175;I love the thrill of heights, running on the castle walls and looking down at the little people below. If I reach out, maybe I can reach that bird's nest...;;;;;;;;;x 
+EVTOPTA8175;Almost there...;;;;;;;;;x 
+EVTOPTB8175;Wait, who's that behind me?!;;;;;;;;;x 
+EVTDESC8176;AAAH, someone pushed me! I'm falling! NOOO!;;;;;;;;;x 
+EVTOPTA8176;Death to [FromFrom.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA8177;Why? Who? [Root.Religion.GetRandomGodNameCap]...;;;;;;;;;x 
+EVTDESC8178;He was going to push me! I will find out who bribed him and why!;;;;;;;;;x 
+EVTOPTA8178;[FromFrom.GetTitledFirstName] must be behind this!;;;;;;;;;x 
+EVTDESC8179;Was that scullery maid going to push me off the wall? Who would want me dead?;;;;;;;;;x 
+EVTOPTA8179;I guess I'll never know...;;;;;;;;;x 
+EVTDESC8180;Good news! My co-conspirator, [From.GetTitledName], has let me know that [Root.PlotTarget.GetTitledName] will soon have a tragic fall off the castle parapets...;;;;;;;;;x 
+EVTOPTA8180;Fly, little bird, fly!;;;;;;;;;x 
+EVTDESC8181;[From.GetTitledName] approves of my scheme to push [From.PlotTarget.GetTitledName] of a wall. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC8182;[From.GetTitledName] has let me know that the plot to kill [From.PlotTarget.GetTitledName] is proceeding well. [From.PlotTarget.GetSubjectPronounCap] will soon fall off the castle walls. Such tragedy!;;;;;;;;;x 
+EVTDESC8183;Success! [From.GetTitledName] flew off those walls like an ostrich! Unfortunately, the assassin was caught and my complicity was discovered.;;;;;;;;;x 
+EVTDESC8184;Success! It seems little [From.GetTitledName] had not yet learned how to fly. [From.GetSubjectPronounCap] died a quick and presumably painless death.;;;;;;;;;x 
+EVTOPTA8184;Chicken for lunch today, I think;;;;;;;;;x 
+EVTDESC8185;Failure! [From.GetTitledName] dodged the assassin and ran off. My complicity was discovered.;;;;;;;;;x 
+EVTOPTA8185;Curses!;;;;;;;;;x 
+EVTDESC8186;Failure! The hired assassin did not get a chance to push [From.GetTitledName] off the walls, and will likely not get another. At least the plot remains unknown...;;;;;;;;;x 
+opinion_beautiful_poem;Beautiful Poem;;;;;;;;;x 
+opinion_beautiful_song;Beautiful Song;;;;;;;;;x 
+opinion_seduce_spouse;Tried to seduce spouse;;;;;;;;;x 
+beautiful_hilya;Beautiful Hilya;;;;;;;;;x 
+mod_dissatisfied_calligrapher;Dissatisfying Calligraphic Designs;;;;;;;;;x 
+mod_perfect_work_calligrapher;Perfect Calligraphic Designs;;;;;;;;;x 
+SPECIAL_EVENTOPTION_0;This option is available due to your high §YDiplomacy§! skill;;;;;;;;;x 
+SPECIAL_EVENTOPTION_1;This option is available due to your high §YMartial§! skill;;;;;;;;;x 
+SPECIAL_EVENTOPTION_2;This option is available due to your high §YStewardship§! skill;;;;;;;;;x 
+SPECIAL_EVENTOPTION_3;This option is available due to your high §YIntrigue§! skill;;;;;;;;;x 
+SPECIAL_EVENTOPTION_4;This option is available due to your high §YLearning§! skill;;;;;;;;;x 
+SPECIAL_EVENTOPTION_TRAIT;This option is available because you have the §Y$TRAITNAME$§! trait;;;;;;;;;x 
+DECADENCE_TITLE;Dynastic Decadence;;;;;;;;;x 
+COMBAT_MODIFIER_DESC;§YCombat Modifier§!\nThis modifies any flank led by this character\n\n;;;;;;;;;x 
+EVTDESC38304;The voices are whispering to me, telling me what to do... horrible, horrible things they want me to do... I have gained the Lunatic trait.;;;;;;;;;x 
+architect_improvements;Chief Architect Improvements;;;;;;;;;x 
+EVTNAME89500;The Travels of Marco Polo;;;;;;;;;x 
+EVTDESC89500;The Venetian merchant Marco Polo has finally returned to Europe after many years of travel in the Far East with his father and uncle. An account of their journey has been published as "The Travels of Marco Polo," describing, among other things, the distant lands of Cathay and Manji. Readers are provided a rare glimpse of the world beyond Europe, but there are those who discount the entire chronicle as a fabrication...;;;;;;;;;x 
+EVTOPTA89500;A stunning tale, nonetheless!;;;;;;;;;x 
+EVTNAME89501;The Voyages of Zheng He;;;;;;;;;x 
+EVTDESC89501;A great fleet from the distant lands of China has appeared in the Arabian Sea. Commanded by the eunuch explorer Zheng He, or Hajji Mahmud Shamsuddin as he is known in Arabic, the fleet's colossal treasure ships are of a size never before seen in these waters. Despite its formidable strength, the expedition does not seem bent on conquest and will soon depart to explore other lands.;;;;;;;;;x 
+EVTOPTA89501;Safe journey.;;;;;;;;;x 
+EVTNAME60116;The Mongols sack Baghdad!;;;;;;;;;x 
+EVTDESC60116;The great city of Baghdad, one of the world's foremost centers of learning, has succumbed to the ravenous Mongol hordes after a siege. Nothing can sate their appetite for destruction it seems. The Tigris river runs not only red with blood, but black with the ink of priceless and irreplaceable tomes from the House of Wisdom and the city's other great libraries.;;;;;;;;;x 
+EVTOPTA60116;Like raging wolves...;;;;;;;;;x 
+EVTOPTB60116;Let us pray the Mongols are swallowed up by the desert now.;;;;;;;;;x 
+EVTNAME60117;The Mongols sack Damascus!;;;;;;;;;x 
+EVTDESC60117;Damascus, the ancient City of Jasmine, has been sacked by the advancing Mongols. They have gathered a colossal pile of severed heads on a field just outside the city walls, now renamed "burj al-ru'us" by the massacre's few survivors - the Tower of Heads.;;;;;;;;;x 
+EVTOPTA60117;May they suffer a thousand deaths for their crimes!;;;;;;;;;x 
+EVTOPTB60117;It will fall on those of the True Faith to stop the Tartar scourge.;;;;;;;;;x 
+EVTNAME60118;The Mongols sack Jerusalem!;;;;;;;;;x 
+EVTDESC60118;The Tartar infidels have sacked Jerusalem, spurring a moment of rare solidarity between members of all the city's different religions as they suffer equal horrors under the cruel yoke of the pagans.;;;;;;;;;x 
+EVTOPTA60118;Infidels!;;;;;;;;;x 
+EVTOPTB60118;Heathens!;;;;;;;;;x 
+EVTNAME60119;The Mongols sack Alexandria!;;;;;;;;;x 
+EVTDESC60119;Not content with their vast empire surpassing Alexander the Great's in sheer size, the Mongol hordes are now laying waste to the city that is his namesake as well. Pompey's Pillar has been toppled, but at least the Pharos Lighthouse is spared when the Mongols deem it not worth the great effort it would require to raze it to the ground.;;;;;;;;;x 
+EVTOPTA60119;May they suffer an eternity of pain!;;;;;;;;;x 
+EVTOPTB60119;Would that I could follow in Alexander's footsteps...;;;;;;;;;x 
+EVTNAME60120;The Mongols sack Cairo!;;;;;;;;;x 
+EVTDESC60120;Riding through the fertile Nile Delta, the Tartar hordes have arrived at the Great Pyramids of Giza and breached the gates of Cairo. Surely even the cruelest Pharaoh would be given pause by the pain and misery now inflicted on the city's hapless population.;;;;;;;;;x 
+EVTOPTA60120;Have they no shame?;;;;;;;;;x 
+EVTOPTB60120;But who is left to tax?;;;;;;;;;x 
+EVTNAME60121;The Mongols sack Mecca!;;;;;;;;;x 
+EVTDESC60121;The Holy City of Mecca now burns at the cruel touch of the Mongol infidels. Pilgrims journeying from distant lands to show their submission to Allah are met only with death when approaching the city gates. This unforgivable desecration will be remembered for ages to come.;;;;;;;;;x 
+EVTOPTA60121;Not a single infidel taking part in this affront will escape justice;;;;;;;;;x 
+EVTOPTB60121;God forbid this scourge continues west...;;;;;;;;;x 
+EVTOPTB60100;They will not come here, Inshallah;;;;;;;;;x 
+EVTOPTB60101;May the snows of the frozen north claim them;;;;;;;;;x 
+EVTOPTB60102;These horsemen know how to fight!;;;;;;;;;x 
+EVTOPTB60103;Their walls were not strong enough...;;;;;;;;;x 
+EVTOPTB60104;Not even the Franks deserve such a fate;;;;;;;;;x 
+EVTOPTB60105;Impressive;;;;;;;;;x 
+EVTOPTB60106;So not even fabled Rome can stand against them;;;;;;;;;x 
+EVTOPTB60107;A city floating on water?;;;;;;;;;x 
+EVTOPTB60108;Ar-Rum is no longer a threat...;;;;;;;;;x 
+EVTOPTB60109;Their reach seems unlimited...;;;;;;;;;x 
+EVTOPTB60110;Disconcerting...;;;;;;;;;x 
+EVTOPTB60111;A waste, by the Prophet;;;;;;;;;x 
+EVTOPTB60112;Is this what we can expect?;;;;;;;;;x 
+EVTOPTB60113;Interesting;;;;;;;;;x 
+EVTOPTB60114;Unfortunate;;;;;;;;;x 
+EVTOPTB60115;Barbaric;;;;;;;;;x 
+EVTOPTB39010;No, wait. On second thought...;;;;;;;;;x 
+#EVTDESC88000;Word is spreading that a Shiite missionary, Hassan-i Sabbah, has founded a religious order known as the "Hashshashin" somewhere in western Persia. Using trickery and guile, this mysterious cult of trained killers has seized control of the mountain fortress of Alamut and converted it into their headquarters. Already a string of violent murders can be traced back to Hassan's devoted and fearless disciples...;;;;;;;;;x 
+EVTNAME88000;Birth of the Assassins;;;;;;;;;x 
+EVTOPTA88000;These hashish smokers are harmless...;;;;;;;;;x 
+EVTDESC88001;The Hashshashin, the elusive Order of Assassins, have expanded their influence into Syria. A branch of their sect has established itself in the mountain fortress of Masyaf, from where they control the surrounding countryside. All across the Holy Land, the Assassins are now hunting those they see as obstacles to their obscure plans...;;;;;;;;;x 
+EVTNAME88001;The Assassins Spread to Syria;;;;;;;;;x 
+EVTOPTA88001;Perhaps these Hashshashin should be taken seriously...;;;;;;;;;x 
+EVTDESC88002;With the fall of their last fortress, the Hashshashin - the notorious Assassin Order - has been scattered to the winds. The few remaining members of the order have gone into hiding, biding their time in the vain hope that they will one day be able to resume their work.;;;;;;;;;x 
+EVTNAME88002;The Assassins Scatter!;;;;;;;;;x 
+EVTOPTA88002;Their demise was inevitable.;;;;;;;;;x 
+EVTDESC88003;The Hashshashin have returned! Somehow, throughout the years, their surviving members have managed to rebuild a measure of their order's former strength. Striking from the shadows, they have retaken one of their old mountain fortresses and now their trained killers are once again hounding those who would act against their interests...;;;;;;;;;x 
+EVTNAME88003;The Assassins Resurface!;;;;;;;;;x 
+EVTOPTA88003;Surely they wouldn't dare strike at me.;;;;;;;;;x 
+EVTDESC88004;The Hashshashin are no more. As their fortresses and mountain hideouts burn, the last members of the once feared Assassin Order are hunted like animals and cut down without mercy or compassion when found. Their legacy now survives only in the legends and stories spawned from their exploits.;;;;;;;;;x 
+EVTNAME88004;The Assassins are Destroyed!;;;;;;;;;x 
+EVTOPTA88004;Good riddance!;;;;;;;;;x 
+EVTDESC88007;The word is spreading like wildfire across the lands of the East! Members of the Hashshashin have killed the great warlord [From.GetTitledName]. They stabbed him at his camp in full view of his men, and though the assassins outlived the [From.GetTitle] by only a few seconds, their mission was accomplished. His men swear vengeance against the Assassin Order!;;;;;;;;;x 
+EVTNAME88007;The [From.GetTitle] is Dead!;;;;;;;;;x 
+EVTOPTA88007;By the Prophet!;;;;;;;;;x 
+EVTDESC88009;Not even the dreaded Hashshashin have been able to give pause to the Mongols in their bid to conquer the world. Several of their members have been killed in a failed attempt on the life of [From.GetTitledName]. He and his men now swear revenge against the hated Order of Assassins.;;;;;;;;;x 
+EVTNAME88009;The [From.GetTitle] Foils Assassins!;;;;;;;;;x 
+EVTOPTA88009;By the Prophet!;;;;;;;;;x 
+EVTDESC88010;You wake suddenly in cold sweat with a strong sensation that something is amiss. The flickering candlelight in your tent reveals a plate of hot biscuits and a note pinned by a poisoned dagger next to your bed. It reads: "Mend your decadent ways before it is too late, [Root.GetFirstName]. The Hashshashin are watching.";;;;;;;;;x 
+EVTOPTA88010;Perhaps the time for change has come...;;;;;;;;;x 
+EVTDESC88011;Master, terrible news! Your faithful servant, [From.GetTitledName], has been found dead in [From.GetHerHis] home, no doubt at the hands of the vile Hashshashin. Carved by knife into [From.GetHerHis] chest were the words: "[Root.GetFirstName] - You were warned.";;;;;;;;;x 
+EVTOPTA88011;How dare they?!;;;;;;;;;x 
+EVTDESC88012;As you turn a street corner in [Root.Location.GetName], a strange whistling sound swishes past your ear. Your bodyguards topple over, knives in their throats, and before you can react you are surrounded by robed Hashshashin. Their leader approaches you with a sad look on his face. "May you find what you seek in the life hereafter, friend.";;;;;;;;;x 
+EVTOPTA88012;But... but I am not ready!;;;;;;;;;x 
+EVTDESC88016;[From.GetTitledName] staggers past your guards, bleeding profusely from a dozen stab-wounds. As [From.GetSheHe] collapses in a pool of blood at your feet, [From.GetSheHe] gasps with [From.GetHerHis] last breath: "The H-Hashshashin...";;;;;;;;;x 
+EVTOPTA88016;Oh my.;;;;;;;;;x 
+EVTDESC88017;Your guards bring in a covered basket left just outside your palace. Believing it to be confections from one of your subjects, you hungrily pull away the covering blanket only to reveal the severed, gaping head of [From.GetTitledName]. The mark of the Hashshashin has been carved into the forehead.;;;;;;;;;x 
+EVTOPTA88017;I think I've lost my appetite...;;;;;;;;;x 
+EVTDESC88018;As you stroll through your palace garden with [From.GetTitledFirstName], you see the brief glint of reflected sunlight on metal as a thrown dagger flashes past and buries itself in your friend's throat. Your bodyguards rush you to safety, but you glimpse a robed assassin scurrying over the palace walls...;;;;;;;;;x 
+EVTOPTA88018;The Hashshashin! Was I the intended target?;;;;;;;;;x 
+EVTDESC88019;You wake suddenly in cold sweat with a strong sensation that something is amiss. The flickering candlelight in your tent reveals a plate of hot biscuits and a note pinned by a poisoned dagger next to your bed. It reads: "There are a thousand ways to kill a [Root.GetManWoman], [Root.GetFirstName]. The Hashshashin know them all.";;;;;;;;;x 
+EVTOPTA88019;Guards! Search the area!;;;;;;;;;x 
+EVTDESC7700;[Root.PlotTarget.GetTitledName] is due to tour [Root.PlotTarget.Location.GetName] in an open carriage to receive the accolades and adulation of the common folk. There is bound be an escort, but what if a few archers were placed on the [Root.PlotTarget.GetTitle]'s path on certain key rooftops...;;;;;;;;;x 
+EVTOPTA7700;My co-conspirators will find some good men...;;;;;;;;;x 
+EVTOPTB7700;Hire bowmen;;;;;;;;;x 
+EVTOPTC7700;I know just the men for this job...;;;;;;;;;x 
+#EVTDESC7701;Through my sources I have learned that [Root.PlotTarget.GetTitledName] will be touring [Root.PlotTarget.Location.GetName] in an open carriage. The guards will keep a close watch on the streets, but will they expect bowmen on the rooftops?;;;;;;;;;x 
+EVTDESC7702;My co-conspirator, [From.GetTitledName], has asked for coin to hire some bowmen to ambush [Root.PlotTarget.GetTitledName] as [Root.PlotTarget.GetSheHe] tours [Root.PlotTarget.Location.GetName] in an open carriage...;;;;;;;;;x 
+EVTOPTA7702;Make it happen.;;;;;;;;;x 
+EVTDESC7703;[From.GetTitledFirstName] has sent me sufficient coin to hire some skilled archers to greet [From.PlotTarget.GetTitledFirstName] with as [From.PlotTarget.GetSheHe] tours the streets of [Root.PlotTarget.Location.GetName].;;;;;;;;;x 
+EVTDESC7704;[From.GetTitledFirstName] has refused to grant me the coin necessary to hire skilled bowmen to skewer [From.PlotTarget.GetTitledFirstName].;;;;;;;;;x 
+EVTDESC7705;I decided to tour [Root.Location.GetName] to receive the adulation of my subjects, but as my open carriage took a turn past the scroll depository I suddenly heard the whizzing sound of an arrow flying past mere inches from my head.;;;;;;;;;x 
+EVTOPTA7705;My God. They're going to kill us all!;;;;;;;;;x 
+EVTOPTB7705;Did that come from the grassy knoll?;;;;;;;;;x 
+EVTTOOLTIP7705;Ambush [This.GetTitledFirstName] with an arrow barrage next month.;;;;;;;;;x 
+EVTDESC7706;I have been caught in a deadly crossfire! One of the arrows digs into my shoulder, and as I struggle to remove it, the final blow is delivered - an arrow strikes my temple, and my head is thrown back and to the left...;;;;;;;;;x 
+EVTOPTA7706;This was no lone bowman. [FromFrom.GetTitledFirstName] orchestrated this!;;;;;;;;;x 
+EVTOPTA7707;Back and to the left...;;;;;;;;;x 
+EVTDESC7708;My carriage was bombarded with arrows, but thanks to what must surely have been the intervention of [Root.Religion.GetRandomGodName], I miraculously emerged unscathed!;;;;;;;;;x 
+EVTOPTA7708;[FromFrom.GetTitledFirstName] has conspired to kill me!;;;;;;;;;x 
+EVTOPTA7709;Who were those bowmen working for?;;;;;;;;;x 
+EVTDESC7710;I have received word from my co-conspirator, [From.GetTitledFirstName], that the bowmen are in place and waiting for the right moment to strike at [Root.PlotTarget.GetTitledFirstName].;;;;;;;;;x 
+EVTOPTA7710;We are committed then.;;;;;;;;;x 
+EVTDESC7711;[From.GetTitledFirstName] approves of my plan to ambush [From.PlotTarget.GetTitledFirstName] with archers from the rooftops of [From.PlotTarget.Location.GetName]. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC7712;[From.GetTitledFirstName] has let me know that the plot to kill [From.PlotTarget.GetTitledFirstName] is proceeding well. [From.PlotTarget.GetSubjectPronounCap] will soon be skewered by arrows while touring [From.PlotTarget.Location.GetName].;;;;;;;;;x 
+EVTDESC7713;Success! [From.GetTitledFirstName] was caught in a deadly arrow crossfire between the scroll depository and a grassy knoll. Unfortunately, the scapegoat we had arranged to take the blame spilled my name.;;;;;;;;;x 
+EVTDESC7714;Success! [From.GetTitledFirstName] was caught in a deadly arrow crossfire between the scroll depository and a grassy knoll. The story we concocted about a "lone bowman" seems to be working perfectly.;;;;;;;;;x 
+EVTOPTA7714;One less threat to the establishment.;;;;;;;;;x 
+EVTDESC7715;Failure! [From.GetTitledFirstName] escaped the arrow barrage unharmed, and one of the captured bowmen revealed my name.;;;;;;;;;x 
+EVTOPTA7715;Go to damage control!;;;;;;;;;x 
+EVTDESC7716;Failure! [From.GetTitledFirstName] escaped the arrow barrage unharmed, but at least all of the hired bowmen made a quiet escape and the conspiracy remains uncovered.;;;;;;;;;x 
+EVTDESC7720;Watching the animal pens outside [Root.Location.GetName] gave me an idea in how to deal with [Root.PlotTarget.GetTitledName]. Concentrated manure can be a very explosive substance, and if enough is gathered in a single place and ignited, the blast could prove lethal...;;;;;;;;;x 
+EVTOPTA7720;My co-conspirators will procure the necessary manure...;;;;;;;;;x 
+EVTOPTB7720;Buy vast amounts of manure;;;;;;;;;x 
+EVTOPTC7720;I know a farmer who has what I need...;;;;;;;;;x 
+EVTDESC7722;My co-conspirator, [From.GetTitledName], has asked for coin to buy copious amounts of explosive manure with which to blow [Root.PlotTarget.GetTitledName] sky high.;;;;;;;;;x 
+EVTOPTA7722;It might just be crazy enough to work...;;;;;;;;;x 
+EVTDESC7723;[From.GetTitledFirstName] has provided the money I need to procure enough manure to see to the end of [From.PlotTarget.GetTitledFirstName]...;;;;;;;;;x 
+EVTDESC7724;[From.GetTitledFirstName] has refused to provide enough money to procure the manure needed for an explosion, calling it a "hare-brained scheme.";;;;;;;;;x 
+EVTDESC7725;Riding through the countryside together with my escort, I come upon a lonely inn. It is empty aside from a nervous-looking innkeeper who nevertheless promises food and wine at a very reasonable price. My party and I sit down at a table.;;;;;;;;;x 
+EVTOPTA7725;Innkeeper! Bring us the best you have to offer!;;;;;;;;;x 
+EVTOPTB7725;By [Root.Religion.GetRandomGodName], what is that infernal smell?!;;;;;;;;;x 
+EVTTOOLTIP7725;Prepare manure to blow [This.GetTitledFirstName] into the heavens next month.;;;;;;;;;x 
+EVTDESC7726;Soon after the innkeeper disappears into the kitchen, we notice a foul odor emanating from somewhere below the floorboards. One of my escort pulls open a loose board to reveal... a massive manure pit. Before we can react further to this bizarre find, the floor explodes beneath my feet...;;;;;;;;;x 
+EVTOPTA7726;Very clever, [FromFrom.GetTitledFirstName]...;;;;;;;;;x 
+EVTOPTA7727;KABOOOOOOOM!!!;;;;;;;;;x 
+EVTDESC7728;My guards detain the innkeeper and pull open the floorboards to reveal a massive pit of manure beneath the inn. The innkeeper confesses to having been paid to ignite the manure once we were seated, blowing everyone to kingdom come.;;;;;;;;;x 
+EVTOPTA7728;So this was the work of [FromFrom.GetTitledFirstName]...;;;;;;;;;x 
+EVTDESC7729;My guards detain the innkeeper and pull open the floorboards to reveal a massive pit of manure beneath the inn. The innkeeper confesses to having been paid to ignite the manure once we were seated, blowing everyone to kingdom come, but his employer concealed his or her identity.;;;;;;;;;x 
+EVTOPTA7729;Perhaps this wretch was working alone. Off with his head!;;;;;;;;;x 
+EVTDESC7730;[From.GetTitledFirstName], my co-conspirator, has sent word that a massive pit of manure has been prepared under the floorboards of an abandoned inn on a path [Root.PlotTarget.GetTitledFirstName] will travel with [Root.PlotTarget.GetHerHis] escort. Once they are seated at a table...;;;;;;;;;x 
+EVTOPTA7730;...KABOOM!;;;;;;;;;x 
+EVTDESC7731;[From.GetTitledFirstName] approves of my plan to blow [From.PlotTarget.GetTitledFirstName] sky high with copious amounts of manure. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC7732;[From.GetTitledFirstName] informs me that [From.PlotTarget.GetTitledFirstName] will soon perish. A pit of manure has been prepared under the floorboards of an abandoned inn where [From.PlotTarget.GetSheHe] will soon be dining. A single spark will send our little problem kingdom come...;;;;;;;;;x 
+EVTDESC7733;Success! [From.GetTitledFirstName] perished in the manure explosion! Unfortunately, the farmer who provided the manure revealed my name...;;;;;;;;;x 
+EVTDESC7734;Success! [From.GetTitledFirstName] perished in the manure explosion! There is no trace of my complicity to be found amongst the rubble.;;;;;;;;;x 
+EVTOPTA7734;[From.GetFirstName] went out with a bang.;;;;;;;;;x 
+EVTDESC7735;Failure! [From.GetTitledFirstName] discovered the manure and avoided the explosion. My complicity was revealed.;;;;;;;;;x 
+EVTOPTA7735;What was I thinking? Manure...;;;;;;;;;x 
+EVTDESC7736;Failure! [From.GetTitledFirstName] discovered the manure and avoided the explosion. Thankfully, my role in this remains unknown...;;;;;;;;;x 
+EVTDESC7740;If that whelp [Root.PlotTarget.GetTitledName] is to die, we will need to buy the loyalty of someone unscrupulous nearby, like a maid or a guard.;;;;;;;;;x 
+EVTOPTA7740;My co-conspirators will procure the necessary funds...;;;;;;;;;x 
+EVTOPTB7740;Bribe maid;;;;;;;;;x 
+EVTOPTC7740;I know who we can approach...;;;;;;;;;x 
+#EVTDESC7741;If that whelp [Root.PlotTarget.GetTitledName] is to die, we will need to buy the loyalty of someone unscrupulous nearby, like a maid or a guard.;;;;;;;;;x 
+EVTDESC7742;My co-conspirator, [From.GetTitledName], has requested funds to buy the loyalty of a serving maid close to [Root.PlotTarget.GetTitledFirstName]. She will see to it that the child ceases to be a problem... ceases to be altogether, in fact.;;;;;;;;;x 
+EVTOPTA7742;I cannot think of a more worthy cause. Send the money!;;;;;;;;;x 
+EVTDESC7743;[From.GetTitledFirstName] has given me the coin I need to bribe one of the serving maids working near [Root.PlotTarget.GetTitledFirstName].;;;;;;;;;x 
+EVTDESC7744;[From.GetTitledFirstName] will not give me the coin I need to bribe one of the serving maids working near [Root.PlotTarget.GetTitledFirstName].;;;;;;;;;x 
+EVTDESC7745;As you lie in your crib, staring up at the ceiling and contemplating your future exploits, an adult enters the room. You recognize her as one of the maids, but this time there is something very cold and distant in her eyes. She approaches you with a pillow in her hands...;;;;;;;;;x 
+EVTOPTA7745;Gaga...?;;;;;;;;;x 
+EVTOPTB7745;*emit ear-shattering wail*;;;;;;;;;x 
+EVTTOOLTIP7745;Arrange for [This.GetTitledFirstName] to be murdered next month.;;;;;;;;;x 
+EVTDESC7746;The maid puts the pillow over your face and the world grows dark. With luck perhaps you will be reborn in a gentler era...;;;;;;;;;x 
+EVTOPTA7746;[FromFrom.GetTitledFirstName] had my short life cut shorter!;;;;;;;;;x 
+EVTOPTA7747;Who put her up to this?;;;;;;;;;x 
+EVTDESC7748;As the maid draws near, you take a deep breath and produce a piercing wail that echoes through the nearby hallways. The startled maid drops the pillow and runs away before someone comes to investigate.;;;;;;;;;x 
+EVTOPTA7748;[FromFrom.GetTitledFirstName] put her up to this!;;;;;;;;;x 
+EVTOPTA7749;Why would she harm me?;;;;;;;;;x 
+EVTDESC7750;My co-conspirator, [From.GetTitledFirstName], has managed to get to one of the maids near [Root.PlotTarget.GetTitledFirstName]. For a princely sum, she has agreed to solve our little problem for us.;;;;;;;;;x 
+EVTOPTA7750;Fabulous!;;;;;;;;;x 
+EVTDESC7751;[From.GetTitledFirstName] approves of my efforts to bribe a maid to end the life of young [From.PlotTarget.GetTitledFirstName].;;;;;;;;;x 
+EVTDESC7752;[From.GetTitledFirstName] tells me that the short life of young [From.PlotTarget.GetTitledFirstName] will soon come to an end. A maid close to the child has been bought, and will be solving our mutual problem.;;;;;;;;;x 
+EVTDESC7753;Success! [From.GetTitledFirstName] was smothered with a pillow by the maid we had bribed! Unfortunately, the maid was caught and revealed my complicity in this matter before she hanged.;;;;;;;;;x 
+EVTDESC7754;Success! [From.GetTitledFirstName] was smothered with a pillow by the maid we had bribed! She wasn't caught, and no one has any reason place blame on me.;;;;;;;;;x 
+EVTOPTA7754;This world is too cruel for children.;;;;;;;;;x 
+EVTDESC7755;Failure! [From.GetTitledFirstName] frightened off the maid with [From.GetHerHis] wailing, but she was caught and exposed my involvement.;;;;;;;;;x 
+EVTOPTA7755;Oh dear.;;;;;;;;;x 
+EVTDESC7756;Failure! [From.GetTitledFirstName] frightened off the maid with [From.GetHerHis] wailing, but at least she made a clean escape and no one suspects my involvement.;;;;;;;;;x 
+EVTDESC7760;The fact that [Root.PlotTarget.GetTitledName] is in prison can work to our advantage. If we can get someone on the inside to kill [Root.PlotTarget.GetHerHim] and make it look like a failed escape attempt...;;;;;;;;;x 
+EVTOPTA7760;My co-conspirators will find the man needed...;;;;;;;;;x 
+EVTOPTB7760;Hire professional killer;;;;;;;;;x 
+EVTOPTC7760;I know just the man for this...;;;;;;;;;x 
+EVTDESC7762;My co-conspirator, [From.GetTitledName], has requested funds to arrange for [Root.PlotTarget.GetTitledName] to die tragically in a botched escape attempt from the prison [Root.PlotTarget.GetSheHe] is in.;;;;;;;;;x 
+EVTOPTA7762;Yes, prison can be very dangerous to your health.;;;;;;;;;x 
+EVTDESC7763;[From.GetTitledFirstName] has given me the funds I sought to place a man on the inside of the prison where [Root.PlotTarget.GetTitledFirstName] is jailed.;;;;;;;;;x 
+EVTDESC7764;[From.GetTitledFirstName] has refused me the money I needed to place a man on the inside of the prison where [Root.PlotTarget.GetTitledFirstName] is jailed.;;;;;;;;;x 
+EVTDESC7765;While languishing in my prison cell, a new prisoner approached me with a plan to escape this forsaken hellhole. Concealed amongst the many tattoos on his back is a crude map of the entire dungeon!;;;;;;;;;x 
+EVTOPTA7765;We can use this to escape!;;;;;;;;;x 
+EVTOPTB7765;Wait a second... that's not a real tattoo!;;;;;;;;;x 
+EVTTOOLTIP7765;Arrange for [This.GetTitledFirstName] to perish in a botched escape attempt next month.;;;;;;;;;x 
+EVTDESC7766;Using the map, we enter a hidden passageway behind the cells. Working our way to the dungeon's outer walls, we climb carefully on the parapet to avoid sentries. Suddenly, the cold hand of treachery makes itself felt as my "friend" pulls hard on my ankle and I lose my grip...;;;;;;;;;x 
+EVTOPTA7766;You... you're working for [FromFrom.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA7767;Who sent you to kill me?!;;;;;;;;;x 
+EVTDESC7768;The map is not a tattoo - it been carefully painted onto the prisoner's back. When confronted, he grudgingly admits that he was paid to help me escape while making certain I suffer a fatal accident in the attempt...;;;;;;;;;x 
+EVTOPTA7768;So [FromFrom.GetTitledFirstName] put you up to this.;;;;;;;;;x 
+EVTDESC7769;The map is not a tattoo - it been carefully painted onto the prisoner's back. When confronted, he grudgingly admits that he was paid to help me escape while making certain I suffer a fatal accident in the attempt. He claims he never saw the face or learned the name of the person who hired him.;;;;;;;;;x 
+EVTOPTA7769;You expect me to believe that?;;;;;;;;;x 
+EVTDESC7770;[From.GetTitledFirstName], my co-conspirator, tells me that a man is now on the inside of the prison where [Root.PlotTarget.GetTitledFirstName] sits. He will arrange an escape attempt in which one of the prisoners will sadly suffer a tragic and very fatal accident...;;;;;;;;;x 
+EVTOPTA7770;No one will expect foul play on our part.;;;;;;;;;x 
+EVTDESC7771;[From.GetTitledFirstName] approves of my plan to arrange for [From.PlotTarget.GetTitledFirstName] to perish in a botched prison escape attempt.;;;;;;;;;x 
+EVTDESC7772;I have been told by [From.GetTitledFirstName] that the days of [From.PlotTarget.GetTitledFirstName] are numbered. A man on the inside of the prison where [From.PlotTarget.GetSheHe] is will arrange a prison break that will sadly result in a fatality.;;;;;;;;;x 
+EVTDESC7773;Success! [From.GetTitledFirstName] was killed while attempting to escape from prison! Unfortunately, the man on the inside who made this happen mentioned my name when he was captured...;;;;;;;;;x 
+EVTDESC7774;Success! [From.GetTitledFirstName] was killed while attempting to escape from prison! No fingers will be pointed my way.;;;;;;;;;x 
+EVTOPTA7774;Sentence commuted!;;;;;;;;;x 
+EVTDESC7775;Failure! [From.GetTitledFirstName] refused to take the bait and attempt an escape. My role in this plot was inadvertently revealed by our man on the inside...;;;;;;;;;x 
+EVTOPTA7775;Damnation!;;;;;;;;;x 
+EVTDESC7776;Failure! [From.GetTitledFirstName] refused to take the bait and attempt an escape. At least no one suspects my role in this.;;;;;;;;;x 
+EVTDESC7780;[Root.PlotTarget.GetTitledName] may be a drooling, incapable mess, but [Root.PlotTarget.GetSheHe] is still very much alive. Every month servants give [Root.PlotTarget.GetHerHim] a sorely needed bath, during which so many things could go wrong... especially if those servants were in our employ.;;;;;;;;;x 
+EVTOPTA7780;My co-conspirators will talk to the servants...;;;;;;;;;x 
+EVTOPTB7780;Bribe servants;;;;;;;;;x 
+EVTOPTC7780;Arrange for the servants to be replaced with your own.;;;;;;;;;x 
+EVTDESC7782;I have received a request from my co-conspirator, [From.GetTitledName], to provide funds necessary to bribe the servants giving [Root.PlotTarget.GetTitledName] [Root.PlotTarget.GetHerHis] monthly bath. If paid, they will arrange for a tragic accident...;;;;;;;;;x 
+EVTOPTA7782;Devious. I like it.;;;;;;;;;x 
+EVTDESC7783;[From.GetTitledFirstName] has provided, and now I have the funds needed to bribe the servants giving [Root.PlotTarget.GetTitledFirstName] [Root.PlotTarget.GetHerHis] monthly bath.;;;;;;;;;x 
+EVTDESC7784;[From.GetTitledFirstName] refuses to provide the funds needed to bribe the servants giving [Root.PlotTarget.GetTitledFirstName] [Root.PlotTarget.GetHerHis] monthly bath.;;;;;;;;;x 
+EVTDESC7785;The stench of the drooling, incapable mass that is your body troubles even you, and to the delight of everyone around, the time of your monthly bath has finally arrived. Servants lower you into your bathtub and begin the long, arduous process of scrubbing away your filth...;;;;;;;;;x 
+EVTOPTA7785;*relieve yourself in the bathtub*;;;;;;;;;x 
+EVTOPTB7785;W-wait... t-those servants look unfamiliar...;;;;;;;;;x 
+EVTTOOLTIP7785;Arrange for [This.GetTitledFirstName] to be drowned during [This.GetHerHis] monthly bath.;;;;;;;;;x 
+EVTDESC7786;The servants suddenly push your head under the surface and hold you down. You flail your arms about desperately with what little motor function you still possess, but it is to no avail. As the water rushes into your lungs and your life fades away, you regret lost opportunities, harsh words to loved ones and most importantly: relieving yourself in the bathtub.;;;;;;;;;x 
+EVTOPTA7786;[FromFrom.GetTitledName] bribed these servants...;;;;;;;;;x 
+EVTOPTA7787;Who bribed these servants?;;;;;;;;;x 
+EVTDESC7788;The servants suddenly try to push your head below the water! You muster what little energy you have and trash about wildly, causing enough of a ruckus to attract the attention of a guard. The servants are detained and reveal under torture who bribed them to end your life.;;;;;;;;;x 
+EVTOPTA7788;So it was [FromFrom.GetTitledName]!;;;;;;;;;x 
+EVTDESC7789;The servants suddenly try to push your head below the water! You muster what little energy you have and trash about wildly, causing enough of a ruckus to attract the attention of a guard. The servants flee before they can be caught.;;;;;;;;;x 
+EVTOPTA7789;Who bribed them to kill me?;;;;;;;;;x 
+EVTDESC7790;The servants who will give [Root.PlotTarget.GetTitledFirstName] [Root.PlotTarget.GetHerHis] monthly bath have been bribed by my co-conspirator, [From.GetTitledFirstName]. They will see to it that this bath is [Root.PlotTarget.GetHerHis] last...;;;;;;;;;x 
+EVTOPTA7790;Commendable initiative!;;;;;;;;;x 
+EVTDESC7791;[From.GetTitledFirstName] lends his full support behind my initiative to bribe the servants giving [From.PlotTarget.GetTitledFirstName] [From.PlotTarget.GetHerHis] bath.;;;;;;;;;x 
+EVTDESC7792;[From.GetTitledFirstName] sends word that the servants giving the incapable [From.PlotTarget.GetTitledFirstName] [From.PlotTarget.GetHerHis] bath have been bribed and will see to it that it is [From.PlotTarget.GetHerHis] last.;;;;;;;;;x 
+EVTDESC7793;Success! [From.GetTitledFirstName] was drowned in [From.GetHerHis] bathtub! Unfortunately, the servants we bribed for the deed revealed my complicity under torture.;;;;;;;;;x 
+EVTDESC7794;Success! [From.GetTitledFirstName] was drowned in [From.GetHerHis] bathtub! No one suspects the conspiracy behind this deed.;;;;;;;;;x 
+EVTOPTA7794;Yet another argument against taking baths.;;;;;;;;;x 
+EVTDESC7795;Failure! Even incapable, [From.GetTitledFirstName] managed to ward off the clumsy attempts of the servants to drown [From.GetHerHim]. The servants revealed my name under torture.;;;;;;;;;x 
+EVTOPTA7795;Well, that's no good.;;;;;;;;;x 
+EVTDESC7796;Failure! Even incapable, [From.GetTitledFirstName] managed to ward off the clumsy attempts of the servants to drown [From.GetHerHim]. At least they had the good sense to avoid getting caught.;;;;;;;;;x 
+DEATH_YESTERDAY_FLANK;Yesterday's losses on this Flank;;;;;;;;;x 
+NO_PRESTIGE_MUSLIM_MARRIAGE;Muslims do not receive or lose prestige for marriages;;;;;;;;;x 
+CIW_GOTODIPLO;Go to diplomacy\nRight-click to open Submenu;;;;;;;;;x 
+CIW_GOTOCHAR;Go to character\nRight-click to open Submenu;;;;;;;;;x 
+OFFER_MARRIGE_INTERACTION_MUSLIM;Propose that §Y[ActorExtra.GetTitledFirstName]§W and §Y[RecipientExtra.GetTitledFirstName]§W get married.;;;;;;;;;x 
+EVTDESC7800;Whispers have reached my ears that [Root.PlotTarget.GetTitledName] is due to embark on a little boat trip. I have it on good authority that [Root.PlotTarget.GetSheHe], like many children, has not yet learned to swim. If the boat was to flounder... well, these things happen all the time, don't they?;;;;;;;;;x 
+EVTOPTA7800;My co-conspirators will find some good men...;;;;;;;;;x 
+EVTOPTB7800;Hire men to sabotage the boat;;;;;;;;;x 
+EVTOPTC7800;I know just the men for this job...;;;;;;;;;x 
+EVTDESC7802;My co-conspirator, [From.GetTitledName], is requesting funds to hire a few carpenters who will sabotage a boat that [Root.PlotTarget.GetTitledName] is soon to take a trip onboard. The child does not know how to swim...;;;;;;;;;x 
+EVTOPTA7802;Send the money... and I really must learn how to swim some day.;;;;;;;;;x 
+EVTDESC7803;[From.GetTitledFirstName] has sent me the money I asked for to hire carpenters. They will prepare the boat before [From.PlotTarget.GetTitledFirstName] boards it.;;;;;;;;;x 
+EVTDESC7804;[From.GetTitledFirstName] will not give me the necessary coin to hire carpenters. They were needed to prepare the boat before [From.PlotTarget.GetTitledFirstName] boards it.;;;;;;;;;x 
+EVTDESC7805;It is a beautiful day as you make your way down to the local harbor with a handful of servants. You will be going on a short boat trip today, something that has you very excited. The vessel awaits at the dock, ready to take you on.;;;;;;;;;x 
+EVTOPTA7805;This is going to be great!;;;;;;;;;x 
+EVTOPTB7805;Is... is that thing seaworthy?;;;;;;;;;x 
+EVTTOOLTIP7805;Sabotage the boat [This.GetTitledFirstName] is due to travel on.;;;;;;;;;x 
+EVTDESC7806;The little boat sails off and you spend some time alone by the railing, staring down into the deep, murky water. Suddenly there is shouting behind you and the boat flounders, sending you into the cold water! You desperately try to stay afloat, but without knowing how to swim, you soon sink beneath the waves...;;;;;;;;;x 
+EVTOPTA7806;The boat was sabotaged by [FromFrom.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA7807;Someone sabotaged the boat...;;;;;;;;;x 
+EVTDESC7808;Upon closer inspection at your request, the sailors find that the boat has been tampered with! Had it set sail, it would surely have floundered, taking you with it below the waves.;;;;;;;;;x 
+EVTOPTA7808;[FromFrom.GetTitledFirstName] had his men sabotage the boat!;;;;;;;;;x 
+EVTOPTA7809;Who is responsible?;;;;;;;;;x 
+EVTDESC7810;My co-conspirator, [From.GetTitledFirstName], has let me know that everything has been prepared for a little boating accident [Root.PlotTarget.GetTitledFirstName] is soon to be the victim of.;;;;;;;;;x 
+EVTOPTA7810;Ship ahoy!;;;;;;;;;x 
+EVTDESC7811;[From.GetTitledFirstName] sends [From.GetHerHis] approval for the sabotage of the boat that will carry [From.PlotTarget.GetTitledFirstName] to [From.PlotTarget.GetHerHis] watery grave. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC7812;[From.GetTitledFirstName] has informed me that the plot to kill [From.PlotTarget.GetTitledFirstName] is moving forward according to plan. A month from now [From.PlotTarget.GetSheHe] will be lost forever in an unfortunate boating accident...;;;;;;;;;x 
+EVTDESC7813;Success! [From.GetTitledFirstName] sank like a stone when the boat [From.GetSheHe] was on suffered an unfortunate "accident"! Sadly, it has become obvious the boat suffered sabotage, and all the evidence leads back to me...;;;;;;;;;x 
+EVTDESC7814;Success! [From.GetTitledFirstName] sank like a stone when the boat [From.GetSheHe] was on suffered an unfortunate "accident"! All evidence of my complicity went down with the ship!;;;;;;;;;x 
+EVTOPTA7814;Man overboard!;;;;;;;;;x 
+EVTDESC7815;Failure! Somehow [From.GetTitledFirstName] discovered the sabotage and the boat never left port. That meddlesome child has linked the evidence back to me...;;;;;;;;;x 
+EVTOPTA7815;It would have worked...;;;;;;;;;x 
+EVTDESC7816;Failure! Somehow [From.GetTitledFirstName] discovered the sabotage and the boat never left port. At least the foolish child has no reason to suspect my involvement.;;;;;;;;;x 
+EVTDESC7820;There are snakes out there who can fell a grown man instantly with a single bite. If such a one was to visit [Root.PlotTarget.GetTitledName] in [Root.PlotTarget.GetHerHis] bedchambers at night...;;;;;;;;;x 
+EVTOPTA7820;My co-conspirators will procure the snake...;;;;;;;;;x 
+EVTOPTB7820;Buy snake;;;;;;;;;x 
+EVTOPTC7820;I know where to get this snake...;;;;;;;;;x 
+EVTDESC7822;My co-conspirator, [From.GetTitledName], has asked for coin to buy a rare and extremely lethal snake. If purchased, it will pay [Root.PlotTarget.GetTitledName] a little nightly visit.;;;;;;;;;x 
+EVTOPTA7822;Give [From.GetHerHim] the money. That serpent could be the answer to our prayers.;;;;;;;;;x 
+EVTDESC7823;I have received the money from [From.GetTitledFirstName] to buy the snake. I will soon be introducing it to [From.PlotTarget.GetTitledFirstName]...;;;;;;;;;x 
+EVTDESC7824;[From.GetTitledFirstName] says [From.GetSheHe] will not be sending the coin I need to procure this rare snake!;;;;;;;;;x 
+EVTDESC7825;It has been a long day and it is with some relief that you retreat to your bedchamber for the night. Your bed is warm and just as you are about to drift off into sleep, you hear a strange hissing sound...;;;;;;;;;x 
+EVTOPTA7825;A carpenter will need to look at this bed tomorrow.;;;;;;;;;x 
+EVTOPTB7825;A snake!;;;;;;;;;x 
+EVTTOOLTIP7825;Unleash a poisonous snake on [This.GetTitledFirstName] next month.;;;;;;;;;x 
+EVTDESC7826;Something cold and scaly brushes past your naked leg, and as you sit up, you feel a sharp pain in your upper thigh. Pulling back the covers reveals a vicious, hissing snake! You stumble out of bed, but already your sight grows dimmer as the intense pain spreads throughout your body...;;;;;;;;;x 
+EVTOPTA7826;That... that serpent belongs to [FromFrom.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTA7827;I hate snakes!;;;;;;;;;x 
+EVTDESC7828;You immediately roll out of bed before the vile serpent has a chance to strike. The beast recoils and disappears beneath the covers as you run out to fetch the guard.;;;;;;;;;x 
+EVTOPTA7828;That snake belongs to [FromFrom.GetTitledFirstName]...;;;;;;;;;x 
+EVTOPTA7829;Who brought that snake here?!;;;;;;;;;x 
+EVTDESC7830;My co-conspirator, [From.GetTitledFirstName], has procured a poisonous viper, and sends word that it will soon dig its fangs into [Root.PlotTarget.GetTitledFirstName].;;;;;;;;;x 
+EVTOPTA7830;Just don't point that thing at me.;;;;;;;;;x 
+EVTDESC7831;[From.GetTitledFirstName] is delighted to learn that [From.PlotTarget.GetTitledFirstName] is soon to be the victim of a savage snake attack. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC7832;[From.GetTitledName] has let me know that the plot to kill [From.PlotTarget.GetTitledName] is proceeding well. Within a month an extremely poisonous snake will be slipped into [From.PlotTarget.GetHerHis] bedchambers.;;;;;;;;;x 
+EVTDESC7833;Success! The snake performed its duty with aplomb and pumped [From.GetTitledFirstName] full of its deadly venom. Unfortunately, the serpent was caught and the seller has revealed my complicity.;;;;;;;;;x 
+EVTDESC7834;Success! The snake performed its duty with aplomb and pumped [From.GetTitledFirstName] full of its deadly venom. It slipped away into the night, and the guards are now too busy contending with a string of lethal snake attacks to search for those responsible.;;;;;;;;;x 
+EVTOPTA7834;I could kiss that snake! Well, maybe not...;;;;;;;;;x 
+EVTDESC7835;Failure! [From.GetTitledFirstName] managed to evade the snake, and the guards caught the serpent as it tried to slither away. The seller was identified and has revealed my complicity...;;;;;;;;;x 
+EVTOPTA7835;I hate snakes.;;;;;;;;;x 
+EVTDESC7836;Failure! [From.GetTitledFirstName] managed to evade the snake which slipped away into the darkness. A massive snake-hunt is now underway, but at least no one suspects my involvement.;;;;;;;;;x 
+EVTDESC7840;[Root.PlotTarget.GetTitledName] likes to take in the morning air on [Root.PlotTarget.GetHerHis] balcony. The fall would be a long one indeed if someone was to take a tumble from there... perhaps the railing could be "adjusted" slightly.;;;;;;;;;x 
+EVTOPTA7840;My co-conspirators will find someone who can get this done...;;;;;;;;;x 
+EVTOPTB7840;Hire carpenter;;;;;;;;;x 
+EVTOPTC7840;I know someone who can get this done...;;;;;;;;;x 
+EVTDESC7842;My co-conspirator, [From.GetTitledName], is asking for funds to hire a specialist who will weaken the railing on a balcony that [Root.PlotTarget.GetTitledName] is known to frequent. The fall will be a long one...;;;;;;;;;x 
+EVTOPTA7842;Make it happen!;;;;;;;;;x 
+EVTDESC7843;[From.GetTitledFirstName] has sent the funds I needed. I can now hire a specialist to weaken the balcony's railing.;;;;;;;;;x 
+EVTDESC7844;[From.GetTitledFirstName] refuses to provide the funds needed for hiring a specialist to weaken the balcony's railing.;;;;;;;;;x 
+EVTDESC7845;Every morning, especially when the weather is as splendid as it is today, you like to go out on your balcony, lean against the railing and take in a deep breath of fresh air. The view from up here is spectacular.;;;;;;;;;x 
+EVTOPTA7845;The people below look like ants!;;;;;;;;;x 
+EVTOPTB7845;That railing doesn't look right...;;;;;;;;;x 
+EVTTOOLTIP7845;Arrange for [This.GetTitledFirstName] to fall from [This.GetHerHis] balcony.;;;;;;;;;x 
+EVTDESC7846;As you lean forward on the railing, you suddenly hear the sound of splintering wood as it gives way completely and you tumble over the edge. While plummeting towards the ground, you spend your last moments reflecting on the gravity of the situation.;;;;;;;;;x 
+EVTOPTA7846;[FromFrom.GetTitledFirstName] had someone sabotage that railing!;;;;;;;;;x 
+EVTOPTA7847;I will haunt the carpenter who built that railing...;;;;;;;;;x 
+EVTDESC7848;You inspect the railing only to discover that someone has sawed through its supports! The slightest nudge would have been enough to make the whole thing topple over the side. Had you leaned against it as usual...;;;;;;;;;x 
+EVTOPTA7848;[FromFrom.GetTitledFirstName] had someone sabotage that railing!;;;;;;;;;x 
+EVTOPTA7849;Who would have done such a thing... and why?;;;;;;;;;x 
+EVTDESC7850;My co-conspirator, [From.GetTitledFirstName], has hired someone to saw through the supports of the railing on a balcony [Root.PlotTarget.GetTitledFirstName] is known to frequent. Someone may soon take a bit of a tumble...;;;;;;;;;x 
+EVTOPTA7850;Look out below!;;;;;;;;;x 
+EVTDESC7851;[From.GetTitledName] approves of my idea to send [From.PlotTarget.GetTitledFirstName] flying off a balcony. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC7852;[From.GetTitledName] has let me know that the plot to kill [From.PlotTarget.GetTitledName] is proceeding well. The supports of the railing on a balcony [Root.PlotTarget.GetTitledFirstName] is known to frequent have been critically weakened.;;;;;;;;;x 
+EVTDESC7853;Success! [From.GetTitledFirstName] fell to the ground like a piece of rotten fruit when the balcony railing gave way. Unfortunately, the carpenter who weakened it had second thoughts and revealed my involvement.;;;;;;;;;x 
+EVTDESC7854;Success! [From.GetTitledFirstName] fell to the ground like a piece of rotten fruit when the balcony railing gave way. A tragic accident, as far as anyone is concerned.;;;;;;;;;x 
+EVTOPTA7854;Gravity can be a cruel mistress.;;;;;;;;;x 
+EVTDESC7855;Failure! [From.GetTitledFirstName] discovered the sabotage that had been done on the railing. The carpenter we used was detained and revealed my involvement under torture...;;;;;;;;;x 
+EVTOPTA7855;I can't be blamed for building code violations...;;;;;;;;;x 
+EVTDESC7856;Failure! [From.GetTitledFirstName] discovered the sabotage that had been done on the railing. At least [From.GetSheHe] is clueless as to who deserves the blame for this.;;;;;;;;;x 
+EVTDESC7860;Young [Root.PlotTarget.GetTitledName] will soon be going on hunting trip to learn about the majesty of the wilds. With hounds and other dangerous beasts running around, not to mention arrows flying in every direction, so many things could go wrong during a hunt...;;;;;;;;;x 
+EVTOPTA7860;My co-conspirators will bribe a hunter...;;;;;;;;;x 
+EVTOPTB7860;Bribe hunter;;;;;;;;;x 
+EVTOPTC7860;I have some leverage on one of the hunters...;;;;;;;;;x 
+EVTDESC7862;My co-conspirator, [From.GetTitledName], has requested funds to bribe one of the hunters taking young [Root.PlotTarget.GetTitledName] on a hunting trip. An accident will be arranged...;;;;;;;;;x 
+EVTOPTA7862;Very good. Send the money.;;;;;;;;;x 
+EVTDESC7863;[From.GetTitledFirstName] has given me the gold I needed to bribe one of the hunters going out with [Root.PlotTarget.GetTitledName].;;;;;;;;;x 
+EVTDESC7864;For some reason [From.GetTitledFirstName] refuses to provide the gold needed to bribe one of the hunters going out with [Root.PlotTarget.GetTitledFirstName].;;;;;;;;;x 
+EVTDESC7865;You are very excited to be going on your first hunting trip! A skilled hunter will be taking you under his wing and teaching you how to hunt and survive in the wilds. The next couple of days will be one big adventure!;;;;;;;;;x 
+EVTOPTA7865;I can't wait!;;;;;;;;;x 
+EVTOPTB7865;Why is that hunter so nervous?;;;;;;;;;x 
+EVTTOOLTIP7865;Arrange for [This.GetTitledFirstName] to perish in a hunting accident.;;;;;;;;;x 
+EVTDESC7866;The hunter tracks a rabbit and gives you the first shot. As quietly as possible, you draw your bow, take aim and send an arrow into the small animal's flank. Filled with pride you turn around, only to see the hunter aiming his own bow at you, fully drawn. "I am sorry," he whispers before sending the arrow into your throat.;;;;;;;;;x 
+EVTOPTA7866;Gghh... [FromFrom.GetTitledFirstName] got to you...;;;;;;;;;x 
+EVTOPTA7867;W-why?;;;;;;;;;x 
+EVTDESC7868;As the hunter's behavior becomes increasingly nervous and erratic you decide to confront him about it. Weeping he admits to having been paid a handsome sum to kill you during the hunt and make it look like an accident.;;;;;;;;;x 
+EVTOPTA7868;So you were paid by [FromFrom.GetTitledFirstName]...;;;;;;;;;x 
+EVTOPTA7869;And you say you never saw the face of your employer?;;;;;;;;;x 
+EVTDESC7870;My co-conspirator, [From.GetTitledFirstName], has bribed a hunter taking [Root.PlotTarget.GetTitledFirstName] on a trip into the wilds to quietly dispatch the child and make it look like an accident. ;;;;;;;;;x 
+EVTOPTA7870;They call it the wilds for a reason.;;;;;;;;;x 
+EVTDESC7871;[From.GetTitledFirstName] is pleased to learn that [From.PlotTarget.GetTitledFirstName] will soon meet [From.GetHerHis] end in the wilds. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC7872;[From.GetTitledName] has let me know that the plot to kill [From.PlotTarget.GetTitledName] is proceeding well. A hunter taking the [From.PlotTarget.GetLadLass] on a trip to the wilds has been generously bribed to cause a tragic hunting accident.;;;;;;;;;x 
+EVTDESC7873;Success! The hunter did what he was paid for and made sure [From.GetTitledFirstName] never returned from the hunting trip. Unfortunately, he later lost his nerve and told everyone willing to listen about my involvement as he drank away his sorrows.;;;;;;;;;x 
+EVTDESC7874;Success! The hunter did what he was paid for and made sure [From.GetTitledFirstName] never returned from the hunting trip. He will keep quiet about his ghastly deed to save his own skin if nothing else.;;;;;;;;;x 
+EVTOPTA7874;To hunt a man is truly the greatest sport...;;;;;;;;;x 
+EVTDESC7875;Failure! That fool hunter lost his nerve and refused to kill [From.GetTitledFirstName]! What is more, he told the [From.PlotTarget.GetLadLass] everything about the conspiracy - including my involvement!;;;;;;;;;x 
+EVTOPTA7875;I knew we couldn't trust him!;;;;;;;;;x 
+EVTDESC7876;Failure! That fool hunter lost his nerve and refused to kill [From.GetTitledFirstName]! At least he has decided to keep quiet about the conspiracy to hide the shame of his own involvement.;;;;;;;;;x 
+EVTDESC7880;[Root.PlotTarget.GetTitledName] will soon travel by carriage on an isolated road. Perhaps if we gathered some mercenaries and disguised them as highwaymen... crime is on the rise, after all.;;;;;;;;;x 
+EVTOPTA7880;My co-conspirators will hire the mercenaries...;;;;;;;;;x 
+EVTOPTB7880;Hire mercenaries;;;;;;;;;x 
+EVTOPTC7880;I know the men for this job...;;;;;;;;;x 
+EVTDESC7882;My co-conspirator, [From.GetTitledName], has asked for gold to hire some mercenaries. They will ambush [Root.PlotTarget.GetTitledName] disguised as highwaymen.;;;;;;;;;x 
+EVTOPTA7882;Excellent idea! The gold is yours.;;;;;;;;;x 
+EVTDESC7883;[From.GetTitledFirstName] has granted me the gold I asked for to hire mercenaries.;;;;;;;;;x 
+EVTDESC7884;[From.GetTitledFirstName] will not be providing the gold I need to hire the mercenaries.;;;;;;;;;x 
+EVTDESC7885;You are travelling by carriage in the countryside of [Root.Location.GetName] when it comes to a sudden halt. The road has been blocked by a fallen tree, and the coachman explains that you will have to make a slight detour on an isolated smaller path.;;;;;;;;;x 
+EVTOPTA7885;Very well, but this had better not delay us!;;;;;;;;;x 
+EVTOPTB7885;No, you fool! It's a trap!;;;;;;;;;x 
+EVTTOOLTIP7885;Arrange for [This.GetTitledFirstName] to die in a roadside ambush.;;;;;;;;;x 
+EVTDESC7886;After less than half a league on the small path, you are ambushed and surrounded by highwaymen! They send your driver on his way, explaining that their interest lies with you alone. You offer the belongings you carry with you, but they merely laugh at this - it is your blood they want.;;;;;;;;;x 
+EVTOPTA7886;I see. Disguised mercenaries working for [FromFrom.GetTitledFirstName]...;;;;;;;;;x 
+EVTOPTA7887;Y-you're not highwaymen!;;;;;;;;;x 
+EVTDESC7888;You force your way through the improvised barricade, narrowly avoiding an ambush by highwaymen! They send an accurate volley of arrows after your carriage as it speeds away, missing it by mere inches.;;;;;;;;;x 
+EVTOPTA7888;Only mercenaries in the employ of [FromFrom.GetTitledFirstName] are so precise...;;;;;;;;;x 
+EVTOPTA7889;Too accurate for highwaymen. Only mercenaries are so precise...;;;;;;;;;x 
+EVTDESC7890;My co-conspirator, [From.GetTitledFirstName], has assembled a party of mercenaries who will ambush [Root.PlotTarget.GetTitledFirstName] disguised as highwaymen. I am assured [Root.PlotTarget.GetSheHe] will not survive the encounter.;;;;;;;;;x 
+EVTOPTA7890;Yes, the roads just aren't safe anymore...;;;;;;;;;x 
+EVTDESC7891;[From.GetTitledFirstName] has communicated [From.GetHerHis] support for my plan to ambush [From.PlotTarget.GetTitledFirstName] with mercenaries disguised as highwaymen. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC7892;[From.GetTitledName] has let me know that the plot to kill [From.PlotTarget.GetTitledName] is proceeding well. A party of mercenaries in [From.GetHerHis] employ will ambush [From.PlotTarget.GetFirstName] disguised as mercenaries within a month.;;;;;;;;;x 
+EVTDESC7893;Success! The mercenaries ambushed the carriage of [From.GetTitledFirstName] and made short work of [From.GetHerHim]. Unfortunately, the driver survived and saw through their disguises. My involvement is now public knowledge...;;;;;;;;;x 
+EVTDESC7894;Success! The mercenaries ambushed the carriage of [From.GetTitledFirstName] and made short work of [From.GetHerHim]. They let the driver go, and he is convinced the attack was carried out by highwaymen.;;;;;;;;;x 
+EVTOPTA7894;Oh, those nasty bandits!;;;;;;;;;x 
+EVTDESC7895;Failure! [From.GetTitledFirstName] got away from the ambush, and [From.GetSheHe] saw through the disguises of the mercenaries, identifying them as men in my employ!;;;;;;;;;x 
+EVTOPTA7895;The plan looked good on paper...;;;;;;;;;x 
+EVTDESC7896;Failure! [From.GetTitledFirstName] got away from the ambush, but at least the disguises of the mercenaries held up, concealing my involvement.;;;;;;;;;x 
+EVTDESC7900;[Root.PlotTarget.GetTitledName] will soon embark on a lengthy journey by carriage, during which so many things could go wrong. If we could buy the loyalty of the carriage driver...;;;;;;;;;x 
+EVTOPTA7900;My co-conspirators will bribe the driver...;;;;;;;;;x 
+EVTOPTB7900;Bribe driver;;;;;;;;;x 
+EVTOPTC7900;I know how to persuade the driver...;;;;;;;;;x 
+EVTDESC7902;My co-conspirator, [From.GetTitledName], wants money to bribe the driver of the carriage taking [Root.PlotTarget.GetTitledName] on a lengthy journey. An accident will be arranged along the way...;;;;;;;;;x 
+EVTOPTA7902;The money will be sent.;;;;;;;;;x 
+EVTDESC7903;I have received the money from [From.GetTitledFirstName]. It is enough to bribe the driver!;;;;;;;;;x 
+EVTDESC7904;[From.GetTitledFirstName] has decided not to send me the money I needed to bribe the carriage driver...;;;;;;;;;x 
+EVTDESC7905;You are going on a lengthy journey by closed carriage in [Root.Location.GetName] together with some of your trusted bodyguards. As you travel down a steep slope overlooking a ravine, you notice that you have begun to pick up quite a bit of speed.;;;;;;;;;x 
+EVTOPTA7905;Excellent, we shall make good time.;;;;;;;;;x 
+EVTOPTB7905;Everybody out!;;;;;;;;;x 
+EVTTOOLTIP7905;Arrange for [This.GetTitledFirstName] perish in a carriage accident.;;;;;;;;;x 
+EVTDESC7906;The speed of the carriage picks up even more as it hurtles down the slope. Looking through the rear window you see a waving man holding the reins of two familiar-looking horses far behind on the road. Only when the carriage flies over the edge of the ravine do you realize who it was the man reminded you of - your driver...;;;;;;;;;x 
+EVTOPTA7906;[FromFrom.GetTitledFirstName] must have bribed him!;;;;;;;;;x 
+EVTOPTA7907;That rat!;;;;;;;;;x 
+EVTDESC7908;You and your guards throw yourself out of the carriage before it flies over the edge of the ravine. Far behind is your fleeing driver with the horses, but your guards catch up with and detain the man. He admits to having been paid generously to see you suffer a fatal accident during the journey.;;;;;;;;;x 
+EVTOPTA7908;Paid by [FromFrom.GetTitledFirstName], you say?;;;;;;;;;x 
+EVTOPTA7909;And you don't know by whom? You will hang for this.;;;;;;;;;x 
+EVTDESC7910;My co-conspirator, [From.GetTitledFirstName], has sent word that the carriage [Root.PlotTarget.GetTitledFirstName] is travelling on will soon suffer an unfortunate accident leaving no survivors.;;;;;;;;;x 
+EVTOPTA7910;Those things are deathtraps...;;;;;;;;;x 
+EVTDESC7911;[From.GetTitledFirstName] approves of my scheme to have [From.PlotTarget.GetTitledFirstName] perish in an unfortunate carriage accident. May [Root.Religion.GetRandomGodName] forgive me!;;;;;;;;;x 
+EVTDESC7912;[From.GetTitledName] has let me know that the plot to kill [From.PlotTarget.GetTitledName] is proceeding well. A tragic carriage accident will claim [From.PlotTarget.GetHerHis] life a month from now...;;;;;;;;;x 
+EVTDESC7913;Success! The carriage was sent flying over the edge of a cliff with [From.GetTitledFirstName] still in it. Unfortunately, the driver I bribed was caught and my involvement was revealed during his torture...;;;;;;;;;x 
+EVTDESC7914;Success! The carriage was sent flying over the edge of a cliff with [From.GetTitledFirstName] still in it. The driver I bribed has also been dealt with, leaving no loose ends that can tie me to this event.;;;;;;;;;x 
+EVTOPTA7914;Shame on such a nice carriage, though.;;;;;;;;;x 
+EVTDESC7915;Failure! The carriage was sent flying into a ravine, but [From.GetTitledFirstName] jumped out moments earlier. The driver was caught and has revealed my complicity in this plot.;;;;;;;;;x 
+EVTOPTA7915;That spineless little...;;;;;;;;;x 
+kurdish;Kurdish;;;;;;;;;x 
+EVTDESC7916;Failure! The carriage was sent flying into a ravine, but [From.GetTitledFirstName] jumped out moments earlier. At least the driver was killed by [From.GetHerHis] guards before my involvement could be exposed.;;;;;;;;;x 
+ENDGAME_TEXT_THEOCRACY;You have become the ruler of a Theocracy and are therefore no longer allowed to continue playing. ;;;;;;;;;x 
+ENDGAME_TEXT_REPUBLIC;You have become the ruler of a Republic and are therefore no longer allowed to continue playing. ;;;;;;;;;x 
+ENDGAME_TEXT_MUSLIM;You have become a Muslim and are therefore no longer allowed to continue playing. ;;;;;;;;;x 
+EVTOPTB69060;Expose the courtier as not Christian enough;;;;;;;;;x 
+EVTDESC100110;I want that job, and I want it bad! There's no way [Root.Liege.GetTitledFirstName] will give it to me just because I want to become a councillor, I need to work hard to get it.;;;;;;;;;x 
+EVTTOOLTIP100111;[Root.GetTitledFirstName] plans to become friends with [This.GetTitledFirstName] to eventually gain the [This.GetJobTitle] job...;;;;;;;;;x 
+EVTDESC100111;It's no big secret [From.GetTitledFirstName] is after my job as [Root.GetJobTitle], but [From.GetSheHe] did surprise me when [From.GetSheHe] asked me outright for help. Should I really teach [From.GetTitledFirstName] the secrets of my trade only to make it easier for [From.GetHerHim] to steal my position as [Root.GetJobTitle] in [Root.Liege.GetTitledFirstName]'s court?;;;;;;;;;x 

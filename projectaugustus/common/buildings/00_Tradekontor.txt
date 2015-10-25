@@ -1,0 +1,19 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+
+trade_post = {
+
+	tr_kontor = {
+		desc = tr_kontor_desc
+		trigger = { TECH_TRADE_PRACTICES = 0 }
+                prerequisites = { tr_port_3 tr_enclave_3 tr_garrison_3 }
+		gold_cost = 1000
+		build_time = 3650
+		ai_creation_factor = 80
+		
+		max_tradeposts = 1
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	
+}

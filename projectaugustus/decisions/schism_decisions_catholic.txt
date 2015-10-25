@@ -1,0 +1,556 @@
+###########################################
+#
+# Schism Decisions for Catholics
+#
+###########################################
+
+# Written by Hansol "LumberKing" Lee
+decisions = {
+	mend_great_schism_catholic = {
+		is_high_prio = yes
+		
+		from_potential = {
+			has_dlc = "Legacy of Rome"
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+			NOT = { has_character_flag = attempted_to_mend_schism }
+			OR = {
+				any_vassal = { has_landed_title = k_papal_state }
+				any_vassal = { has_landed_title = k_fraticelli }
+				any_vassal = { has_landed_title = k_arian }
+				has_landed_title = k_papal_state
+				has_landed_title = k_fraticelli
+				has_landed_title = k_arian
+			}
+			OR = {
+				religion = catholic
+				religion = fraticelli
+				religion = arian
+			}
+			is_heretic = no
+			OR = {
+				e_byzantium = {
+					has_holder = yes
+					holder_scope = {
+						religion = orthodox
+					}
+				}
+				e_roman_empire = {
+					has_holder = yes
+					holder_scope = {
+						religion = orthodox
+					}
+				}
+			}
+			e_latin_empire = {
+				has_holder = no
+			}
+			d_latin_constantinople = {
+				has_holder = no
+			}
+			k_orthodox = {
+				holder_scope = {
+					is_heretic = no # If the Ecumenical Patriarch (and thus Orthodoxy) is heretical, mending the schism is no longer possible
+				}
+			}
+		}
+		allow = {
+			FROM = {
+				piety = 2000
+				religion_authority = 0.9		
+			}
+		}
+		effect = {
+			set_character_flag = attempted_to_mend_schism
+			hidden_tooltip = {
+				any_playable_ruler = {
+					limit = {
+						OR = {
+							has_landed_title = e_byzantium
+							has_landed_title = e_roman_empire
+						}
+					}
+				narrative_event = { id = SHS.101 tooltip = EVTTOOLTIPSHS.101 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	enforce_chalcedon_catholic = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Legacy of Rome"
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+			NOT = { has_character_flag = attempted_to_enforce_chalcedon }
+			has_global_flag = schism_mended
+			OR = {
+				any_vassal = { has_landed_title = k_papal_state }
+				any_vassal = { has_landed_title = k_fraticelli }
+				any_vassal = { has_landed_title = k_arian }
+				has_landed_title = k_papal_state
+				has_landed_title = k_fraticelli
+				has_landed_title = k_arian
+			}
+			OR = {
+				religion = catholic
+				religion = fraticelli
+				religion = arian
+			}
+			is_heretic = no
+			d_latin_alexandria = {
+				has_holder = no
+			}
+			k_miaphysite = {
+				holder_scope = {
+					is_heretic = no # If the Coptic Pope (and thus Miaphysitism) is heretical, mending the schism is no longer possible
+				}
+			}
+		}
+		allow = {
+			piety = 2000
+			religion_authority = 0.9
+			completely_controls = c_alexandria
+		}
+		effect = {
+			set_character_flag = attempted_to_enforce_chalcedon
+			hidden_tooltip = {
+				any_playable_ruler = {
+					limit = {
+						has_landed_title = k_miaphysite
+					}
+				narrative_event = { id = SHS.103 tooltip = EVTTOOLTIPSHS.103 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	enforce_ephesus_catholic = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Legacy of Rome"
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+			NOT = { has_character_flag = attempted_to_enforce_ephesus }
+			has_global_flag = schism_mended
+			OR = {
+				has_landed_title = e_byzantium
+				has_landed_title = e_hre
+				has_landed_title = e_latin_empire
+				has_landed_title = e_roman_empire
+				has_landed_title = k_jerusalem
+				has_landed_title = k_papal_state
+				has_landed_title = k_fraticelli
+				has_landed_title = k_arian
+			}
+			OR = {
+				religion = catholic
+				religion = fraticelli
+				religion = arian
+			}
+			is_heretic = no
+			d_nestorian = {
+				holder_scope = {
+					is_heretic = no # If the Patriarch of the East (and thus Nestorianism) is heretical, mending the schism is no longer possible
+				}
+			}
+		}
+		allow = {
+			piety = 2000
+			religion_authority = 0.9
+			completely_controls = c_antiocheia
+			completely_controls = c_baghdad
+		}
+		effect = {
+			set_character_flag = attempted_to_enforce_ephesus
+			hidden_tooltip = {
+				any_playable_ruler = {
+					limit = {
+						has_landed_title = k_nestorian
+					}
+				narrative_event = { id = SHS.105 tooltip = EVTTOOLTIPSHS.105 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	establish_latin_constantinople = {
+		is_high_prio = yes
+	
+		potential = {
+			religion = catholic
+			OR = {
+                tier = emperor
+				has_landed_title = e_byzantium
+				has_landed_title = e_latin_empire
+				has_landed_title = e_roman_empire
+			}
+			completely_controls = b_hagiasophia
+			d_latin_constantinople = { 
+                                has_holder = no
+                        }
+		}
+		
+		allow = {
+			piety = 1000
+			OR = {
+				owns = 496 # Constantinople
+				any_realm_lord = {
+					owns = 496
+				}
+			}
+		}
+		
+		effect = {
+			activate_title = { title = d_latin_constantinople status = yes }
+			hidden_tooltip = {
+				create_random_priest = {
+					dynasty = none
+					random_traits = yes
+				}
+				new_character = {
+					d_latin_constantinople = {
+						grant_title = PREV
+					}
+					b_hagiasophia = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+					wealth = 500
+					opinion = {
+						who = ROOT
+						modifier = opinion_creator_of_rel_heal
+					}
+				}
+				
+				religion_authority = {
+					modifier = patriarchy_instituted
+					years = 20
+				}
+			}
+			piety = 500
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	establish_latin_alexandria = {
+		is_high_prio = yes
+	
+		potential = {
+			religion = catholic
+			has_landed_title = k_jerusalem
+			completely_controls = b_alexandria
+			d_latin_alexandria = { 
+                                has_holder = no
+                        }
+		}
+		
+		allow = {
+			piety = 1000
+			OR = {
+				owns = 802 # Alexandria
+				any_realm_lord = {
+					owns = 802
+				}
+			}
+		}
+		
+		effect = {
+			activate_title = { title = d_latin_alexandria status = yes }
+			hidden_tooltip = {
+				create_random_priest = {
+					dynasty = none
+					random_traits = yes
+				}
+				new_character = {
+					d_latin_alexandria = {
+						grant_title = PREV
+					}
+					b_alexandria = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+					wealth = 500
+					opinion = {
+						who = ROOT
+						modifier = opinion_creator_of_rel_heal
+					}
+				}
+				
+				religion_authority = {
+					modifier = patriarchy_instituted
+					years = 20
+				}
+			}
+			piety = 500
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	establish_latin_antioch = {
+		is_high_prio = yes
+	
+		potential = {
+			religion = catholic
+			has_landed_title = k_syria
+			completely_controls = b_antiocheia
+			d_latin_antioch = { 
+                                has_holder = no
+                        }
+		}
+		
+		allow = {
+			piety = 1000
+			OR = {
+				owns = 764 # Antioch
+				any_realm_lord = {
+					owns = 764
+				}
+			}
+		}
+		
+		effect = {
+			activate_title = { title = d_latin_antioch status = yes }
+			hidden_tooltip = {
+				create_random_priest = {
+					dynasty = none
+					random_traits = yes
+				}
+				new_character = {
+					d_latin_antioch = {
+						grant_title = PREV
+					}
+					b_antiocheia = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+					wealth = 500
+					opinion = {
+						who = ROOT
+						modifier = opinion_creator_of_rel_heal
+					}
+				}
+				
+				religion_authority = {
+					modifier = patriarchy_instituted
+					years = 20
+				}
+			}
+			piety = 500
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	establish_latin_jerusalem = {
+		is_high_prio = yes
+	
+		potential = {
+			religion = catholic
+			has_landed_title = k_jerusalem
+			completely_controls = b_jerusalem
+			d_latin_jerusalem = { 
+                                has_holder = no
+                        }
+		}
+		
+		allow = {
+			piety = 1000
+			OR = {
+				owns = 774 # Jerusalem
+				any_realm_lord = {
+					owns = 774
+				}
+			}
+		}
+		
+		effect = {
+			activate_title = { title = d_latin_jerusalem status = yes }
+			hidden_tooltip = {
+				create_random_priest = {
+					dynasty = none
+					random_traits = yes
+				}
+				new_character = {
+					d_latin_jerusalem = {
+						grant_title = PREV
+					}
+					b_jerusalem = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+					wealth = 500
+					opinion = {
+						who = ROOT
+						modifier = opinion_creator_of_rel_heal
+					}
+				}
+				
+				religion_authority = {
+					modifier = patriarchy_instituted
+					years = 20
+				}
+			}
+			piety = 500
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unify_christendom = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Legacy of Rome"
+			has_dlc = "Sons of Abraham"
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+			OR = {
+				religion = catholic
+				religion = fraticelli
+				religion = arian
+			}
+			is_heretic = no
+			NOT = { has_global_flag = schism_mended }
+			d_latin_constantinople = {
+				has_holder = yes
+			}
+			d_latin_alexandria = {
+				has_holder = yes
+			}
+			d_latin_antioch = {
+				has_holder = yes
+			}
+			d_latin_jerusalem = {
+				has_holder = yes
+			}
+			k_orthodox = {
+				holder_scope = {
+					is_heretic = no # If the Ecumenical Patriarch (and thus Orthodoxy) is heretical, mending the schism is no longer possible
+				}
+			}
+			k_miaphysite = {
+				holder_scope = {
+					is_heretic = no # If the Coptic Pope (and thus Miaphysitism) is heretical, mending the schism is no longer possible
+				}
+			}
+			k_nestorian = {
+				holder_scope = {
+					is_heretic = no # If the Catholicos-Patriarch (and thus Nestorianism) is heretical, mending the schism is no longer possible
+				}
+			}
+		}
+		allow = {
+			piety = 5000
+			religion_authority = 1.0
+			completely_controls = k_jerusalem
+			b_koln = {
+				holder_scope = {
+					OR = {
+						religion = catholic
+						religion = fraticelli
+				                religion = arian
+					}
+					is_heretic = no
+				}
+			}
+			b_roma = {
+				holder_scope = {
+					OR = {
+						religion = catholic
+						religion = fraticelli
+				                religion = arian
+					}
+					is_heretic = no
+				}
+			}
+			b_santiago = {
+				holder_scope = {
+					OR = {
+						religion = catholic
+						religion = fraticelli
+				                religion = arian
+					}
+					is_heretic = no
+				}
+			}
+			b_canterbury = {
+				holder_scope = {
+					OR = {
+						religion = catholic
+						religion = fraticelli
+				                religion = arian
+					}
+					is_heretic = no
+				}
+			}
+			completely_controls = c_ephesos
+			completely_controls = c_byzantion
+			completely_controls = c_chalkidike
+			completely_controls = c_antiocheia
+			completely_controls = c_dwin
+			completely_controls = c_alexandria
+			completely_controls = c_aksum
+			completely_controls = c_baghdad
+			completely_controls = c_qalqut
+		}
+		effect = {
+			#narrative_event = { id = xxx.x tooltip = EVTTOOLTIPxxx.x}
+			if = {
+				limit = { religion = catholic }
+				set_parent_religion = { religion = orthodox parent = catholic }
+				set_parent_religion = { religion = miaphysite parent = catholic }
+				set_parent_religion = { religion = nestorian parent = catholic }
+			}
+			if = {
+				limit = { religion = fraticelli }
+				set_parent_religion = { religion = orthodox parent = fraticelli }
+				set_parent_religion = { religion = miaphysite parent = fraticelli }
+				set_parent_religion = { religion = nestorian parent = fraticelli }
+			}
+
+			set_global_flag = schism_mended
+			give_nickname = nick_the_saint
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

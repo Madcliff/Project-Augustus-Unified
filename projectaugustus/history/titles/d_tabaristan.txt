@@ -1,0 +1,16 @@
+755.1.1={
+	set_tribute_suzerain = { who = e_sunni percentage = 0.10 }
+	holder = 160290 # Surkhab Bavand II
+}
+866.1.1={
+	holder = 163131
+}
+868.1.1={
+    clear_tribute_suzerain = e_sunni
+}
+866.1.1={
+	holder = 163131
+}
+951.1.1={
+	holder=0
+}

@@ -1,0 +1,46 @@
+#CODE;ENGLISH;;;;;;;;;x 
+EVTNAME62951;Ragnarr's Curse;;;;;;;;;x 
+EVTDESC62951;The cowardly king Ælla is kneeling before me in the mud, refusing to meet my eyes. The men call out for various punishments - some more creative than others. I call for silence and a hush descends as the raven banner flutters eagerly above the doomed man. It is time to exact revenge for my dead father, Ragnarr...;;;;;;;;;x 
+EVTOPTA62951;Carve the Blood Eagle!;;;;;;;;;x 
+EVTOPTB62951;Sacrifice him to Odin!;;;;;;;;;x 
+EVTOPTC62951;Four balls for the Ravens!;;;;;;;;;x 
+EVTOPTD62951;I have other plans for Ælla...;;;;;;;;;x 
+EVTDESC62952;The last thing I saw before the heathen savages carved out my eyes was the horrible grin on [From.GetFirstName]'s face. I tried to curl up as they prepared to unman me...;;;;;;;;;x 
+EVTOPTA62952;ARRRRGH!;;;;;;;;;x 
+AIREASON_IN_OTHER_WAR;In Other War;;;;;;;;;x 
+AIREASON_BUSY_RAIDING;Raiding;;;;;;;;;x 
+WRONG_RELIGION_MODIFIER;Wrong Religion;;;;;;;;;x 
+WRONG_CULTURE_MODIFIER;Wrong Culture;;;;;;;;;x 
+opinion_infidel_tribal_liege;Infidel;;;;;;;;;x 
+opinion_heretic_tribal_liege;Heretic;;;;;;;;;x 
+opinion_related_religion_tribal_liege;Religious Differences;;;;;;;;;x 
+AIREASON_TRIBAL_VASSAL_PRESTIGE_HIT;Would cost me too much prestige;;;;;;;;;x 
+opinion_granted_other_vice_royalty;Feudal opinion of granted Viceroyalties;;;;;;;;;x 
+GRANT_VICE_ROYALTY_INTERACTION_8;Granting a Viceroyalty will lower all of your feudal duke and king subjects' opinion of you by §R$OPINION$§!.;;;;;;;;;x 
+NOT_ANY_PREVIOUS_HOLDER_STARTS;No Previous Holder;;;;;;;;;x 
+tribal_build_zeal_ARMY_OF;$RELIGION$ Zealots of $CHARACTER$;;;;;;;;;x 
+tribal_organize_raid_ARMY_OF;Raiders of $CHARACTER$;;;;;;;;;x 
+tribal_build_legend_ARMY_OF;Warriors of $CHARACTER$;;;;;;;;;x 
+tribal_build_zeal_ARMY;$RELIGION$ Zealots;;;;;;;;;x 
+tribal_organize_raid_ARMY;Raiders;;;;;;;;;x 
+tribal_build_legend_ARMY;Warriors;;;;;;;;;x 
+expel_saint_anthony;Expel the Order of Saint Anthony;;;;;;;;;x 
+expel_saint_anthony_desc;I can drive the Order of Saint Anthony from my realm and seize their castles. However, it is a very impious thing to do...;;;;;;;;;x 
+ISNT_CROWN_LAW_TITLE;Is not a Crown Law title;;;;;;;;;x 
+IS_CROWN_LAW_TITLE;Is a Crown Law title;;;;;;;;;x 
+LAW_UNLOCKS;Laws unlocked: ;;;;;;;;;x 
+DECISION_UNLOCKS;Decisions unlocked: ;;;;;;;;;x 
+ALLOW_FREE_DUCHY_REVOKATION_ON;Revocation of duchy titles free.\n;;;;;;;;;x 
+ALLOW_FREE_DUCHY_REVOKATION_OFF;Revocation of duchy titles no longer free.\n;;;;;;;;;x 
+LIEGE_LEVY_DESC_VICE_ROY;\n   Viceroyalty: $VALUE$;;;;;;;;;x 
+TITLE_NOT_VICE_ROYALTY;Title is not a Viceroyalty;;;;;;;;;x 
+tribal_king_female;Queen;;;;;;;;;x 
+tribal_emperor_female;Empress;;;;;;;;;x 
+AIREASON_SAME_RELIGION_AS_REGENT;Same religion as me;;;;;;;;;x 
+expel_the_haruriyyah;Expel the Haruriyyah;;;;;;;;;x 
+expel_the_haruriyyah_desc;I can drive the Haruriyyah from my realm and seize their castles. However, it is a very impious thing to do...;;;;;;;;;x 
+borrow_money_haruriyyah;Borrow 300¤ from the Haruriyyah;;;;;;;;;x 
+borrow_money_haruriyyah_desc;I can borrow money from the Haruriyyah and pay back the same sum at any time. However, while I'm in their debt, the Grand Master can make various requests, like one of my sons joining their ranks.;;;;;;;;;x 
+not_shia_caliphate_revolt_ongoing;No ongoing revolt to create the Shia Caliphate;;;;;;;;;x 
+shia_creation_independent;Either independent or all lieges Shia\n;;;;;;;;;x 
+sunni_creation_independent;Either independent or all lieges Sunni\n;;;;;;;;;x 

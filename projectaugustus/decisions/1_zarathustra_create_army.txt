@@ -1,0 +1,57 @@
+title_decisions = {
+
+	create_imperial_army = {
+		filter = sub_realm_owned
+		ai_target_filter = sub_realm_owned
+
+		from_potential = {
+		primary_title = {
+			tier = EMPEROR
+		}		
+		has_law = standing_army_1		
+		
+		}
+
+		
+		potential = {
+			tier = KING
+			owner = {
+				same_realm = FROM
+			}
+			empire = {
+				owner = {
+					character = FROM
+				}
+			}
+		}		
+	
+		allow = {
+			has_siege = no
+			FROM = {
+				wealth = 2000
+				prestige = -1000
+			}
+			NOT = {
+				location = {
+					has_province_modifier = founded_imperial_legion
+				}
+			}
+		}
+	
+		effect = {
+		 location = {
+				add_province_modifier = { name = founded_imperial_legion years = 50 } 
+			}
+			
+			FROM = {
+				character_event = { id = imperial_army.1 days = 1 }	
+				wealth = -2000
+				prestige = -1000
+			}
+		}
+  
+		revoke_allowed = {
+			always = no
+		}
+	}
+}

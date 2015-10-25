@@ -1,0 +1,33 @@
+100.1.1={
+	pentarch = b_hagiasophia
+}
+1224.4.1=
+{
+law = crown_authority_4
+law = cognatic_succession
+law = succ_primogeniture
+law = centralization_3
+law = imperial_administration
+law = degraded_theme_system
+law = vassal_wars_2
+law = feudal_tax_1
+}
+1224.1.1={
+holder=215514
+}
+1230.3.9=
+{
+holder=215516
+}
+1237.1.1=
+{
+holder=125711
+}
+1244.1.1=
+{
+holder=125714
+}
+1246.1.1=
+{
+holder=0
+}

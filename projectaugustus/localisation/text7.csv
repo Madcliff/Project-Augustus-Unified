@@ -1,0 +1,65 @@
+#CODE;ENGLISH;;;;;;;;;x 
+WIKIPEDIA_LINK;§YWikipedia Link§W;;;;;;;;;x 
+WIKIPEDIA_LINK_DESC;Opens a browser to the Wikipedia page for this character;;;;;;;;;x 
+WIKIPEDIA_LINK_MISSING;§YThis character has no Wikipedia link§W;;;;;;;;;x 
+WIKIPEDIA_LINK_DISABLED;Wikipedia Links are disabled;;;;;;;;;x 
+AIREASON_TARGET_HAS_REPENTED_SINS;§Y[GetBestName]§! has recently repented [GetPossPronoun] sins;;;;;;;;;x 
+OL_DISABLED_ALERTS;Disabled Alerts;;;;;;;;;x 
+alert_deficits_name;Deficits;;;;;;;;;x 
+alert_country_at_war_name;Country at war;;;;;;;;;x 
+alert_casus_belli_will_expire_name;Temporary Casus belli;;;;;;;;;x 
+alert_allies_not_called_in_name;We can call in allies;;;;;;;;;x 
+alert_build_province_improvement_name;Can build province improvements;;;;;;;;;x 
+alert_troops_in_foreign_territory_name;Troops in foreign territory;;;;;;;;;x 
+alert_revoltrisk_in_provinces_name;Revolts possible;;;;;;;;;x 
+alert_available_decision_name;Important Decisions;;;;;;;;;x 
+alert_noheir_name;No heir;;;;;;;;;x 
+alert_court_not_filled_name;Open council positions;;;;;;;;;x 
+alert_lose_title_on_succ_name;Title loss on succession;;;;;;;;;x 
+alert_should_nominate_heir_name;Succession nomination;;;;;;;;;x 
+alert_you_can_create_titles_name;Can create titles;;;;;;;;;x 
+alert_you_can_usurp_titles_name;Can usurp titles;;;;;;;;;x 
+alert_ruler_should_marry_name;Ruler unmarried;;;;;;;;;x 
+alert_heir_should_marry_name;Heir unmarried;;;;;;;;;x 
+alert_should_appoint_guardian_name;Children lack guardian;;;;;;;;;x 
+alert_demesne_too_big_name;Demesne too big;;;;;;;;;x 
+alert_adult_sons_notitle_name;Unlanded sons;;;;;;;;;x 
+alert_betrothed_should_marry_name;Betrothed can marry;;;;;;;;;x 
+alert_can_imprison_name;Righteous imprisonment;;;;;;;;;x 
+alert_titles_may_pass_from_realm_name;Vassal inheritance warning;;;;;;;;;x 
+alert_can_call_vassals_to_arms_name;Can call vassals of former liege;;;;;;;;;x 
+alert_available_plot_name;New plots available;;;;;;;;;x 
+alert_vassal_levies_raised_long_name;Vassal levies raised too long;;;;;;;;;x 
+alert_owns_wrong_settlement_type_name;Wrong type of holding in demesne;;;;;;;;;x 
+alert_no_ambition_name;Pick an ambition;;;;;;;;;x 
+alert_dejure_claim_name;Can press de jure claim;;;;;;;;;x 
+alert_truce_expiring_name;Truces are expiring;;;;;;;;;x 
+OPINION_OF_ME;Opinion of Me;;;;;;;;;x 
+MY_OPINION_OF_CHAR;My Opinion of $CHAR$;;;;;;;;;x 
+ALERT_DISABLED;Disabled;;;;;;;;;x 
+ALERT_DISABLED_TOOLTIP;Disabled\n§YClick to reenable§!;;;;;;;;;x 
+ALERT_DISMISSED;Dismissed;;;;;;;;;x 
+ALERT_DISMISSED_TOOLTIP;Dismissed\n§YClick to reenable§!;;;;;;;;;x 
+SAME_GUARDIAN_AS;Same Guardian as ;;;;;;;;;x 
+NOT_SAME_GUARDIAN_AS;NOT Same Guardian as ;;;;;;;;;x 
+GARRISON_REINFORCE_PROVINCEVIEW_TOOLTIP;Reinforcement: §Y+$NUM$§!/month;;;;;;;;;x 
+NO_LEVY_REINF_GARRISON;§RLevy will not reinforce until the garrison is full§!;;;;;;;;;x 
+d_ghilman;Ghilman;;;;;;;;;x 
+d_ghilman_adj;Ghilman;;;;;;;;;x 
+county_isolated;Isolated County;;;;;;;;;x 
+TITLE_TIER_IS_LOWER;§Y$NAME$'s§! rank is lower than §Y$RANK$§!\n;;;;;;;;;x 
+TITLE_TIER_IS_NOT_LOWER;§Y$NAME$'s§! rank is NOT lower than §Y$RANK$§!\n;;;;;;;;;x 
+TITLE_TIER_IS_HIGHER;§Y$NAME$'s§! rank is higher than §Y$RANK$§!\n;;;;;;;;;x 
+TITLE_TIER_IS_NOT_HIGHER;§Y$NAME$'s§! rank is NOT higher than §Y$RANK$§!\n;;;;;;;;;x 
+MSG_SETTING_PRIO6;Will pause the game.;;;;;;;;;x 
+MSG_SETTING_CLOSE_COL;This column controls the behavior of this message when regarding you or close and unlanded family members;;;;;;;;;x 
+MSG_SETTING_OTHER_COL;This column controls the behavior of this message when regarding other characters of message interest;;;;;;;;;x 
+MSG_SETTING_INTEREST_COL;This column controls the behavior of this message when regarding characters set as special interest;;;;;;;;;x 
+MSG_SETTING_CLOSE_BUT;This button shows settings for messages when regarding you or close and unlanded family members;;;;;;;;;x 
+MSG_SETTING_INTEREST_BUT;This button shows settings for messages when regarding characters set as special interest;;;;;;;;;x 
+MSG_SETTING_OTHER_BUT;This button shows settings for messages when regarding other characters of message interest;;;;;;;;;x 
+SPECIAL_INTEREST_CHARACTERS;Characters of Special Interest;;;;;;;;;x 
+CIW_MESSAGES;§YToggle Special Interest§!;;;;;;;;;x 
+CIW_MESSAGES_DEL;Characters of special interest are listed in the Outliner and have their own message settings;;;;;;;;;x 
+EVTDESC24503;The rest of my sons are nowhere near the abilities of [From.GetTitledFirstName]. He knew how to handle a sword, and would have been a great [From.GetTitle] after my death.;;;;;;;;;x 
+EVTOPTD50006;But... didn't I release you?;;;;;;;;;x 

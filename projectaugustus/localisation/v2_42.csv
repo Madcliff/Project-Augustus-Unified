@@ -1,0 +1,10 @@
+#CODE;ENGLISH;;;;;;;;;x 
+create_aragon_desc;I can begin a new era in these lands by founding the Kingdom of Aragon.;;;;;;;;;x 
+create_portugal_desc;I can begin a new era in these lands by founding the Kingdom of Portugal.;;;;;;;;;x 
+create_castille_desc;I can begin a new era in these lands by founding the Kingdom of Castille.;;;;;;;;;x 
+EVTDESC_39617;To the [GetFromRootCompliment] [Root.GetTitledFirstName],\n\nOur Liege, the [GetRootFromCompliment] [From.GetTitledNameWithNick] has, in [From.GetHerHis] great wisdom, decided to adopt the [From.Religion.GetName] faith. As [From.GetHerHis] [From.GetLordSpiritualName], I would suggest that you consider doing the same.\n\nIn service of [From.Religion.GetRandomGodName],\n[convert_lord_spiritual.GetBestName], [From.GetLordSpiritualName] of  [From.PrimaryTitle.GetName];;;;;;;;;x 
+EVTOPTA_39617;Very well, I shall embrace this new faith!;;;;;;;;;x 
+EVTOPTB_39617;No, I will stand by [Root.Religion.GetRandomGodName]!;;;;;;;;;x 
+EVTOPTC_39617;I spit on your gods!;;;;;;;;;x 
+
+

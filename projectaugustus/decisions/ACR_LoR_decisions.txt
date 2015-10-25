@@ -1,0 +1,51 @@
+decisions = {
+
+	catholic_mend_great_schism = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Legacy of Rome"
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+			OR = {
+				has_landed_title = k_papal_state
+				has_landed_title = e_hre
+				has_landed_title = e_latin_empire
+				has_landed_title = e_western
+				has_landed_title = e_byzantium
+				has_landed_title = e_roman_empire
+				AND = {
+					NOT = { e_hre = { owner = { religion = catholic } } }
+					NOT = { e_latin_empire = { owner = { religion = catholic } } }
+					NOT = { e_western = { owner = { religion = catholic } } }
+					NOT = { e_byzantium = { owner = { religion = catholic } } }
+					NOT = { e_roman_empire = { owner = { religion = catholic } } }
+					tier = emperor
+				}
+			}
+			religion = catholic
+			NOT = { has_global_flag = schism_mended }
+		}
+		allow = {
+			piety = 2000
+			religion_authority = 0.9
+			completely_controls = c_byzantion
+			b_hagiasophia = { holder_scope = { religion = catholic } }
+			completely_controls = c_antiocheia
+			b_antiocheia = { holder_scope = { religion = catholic } }
+			completely_controls = c_jerusalem
+			b_jerusalem = { holder_scope = { religion = catholic } }
+			completely_controls = c_alexandria
+			b_alexandria = { holder_scope = { religion = catholic } }
+			completely_controls = c_roma
+			b_roma = { holder_scope = { religion = catholic } }
+		}
+		effect = {
+			narrative_event = { id = ancrel.2210 tooltip = EVTTOOLTIPLoR.210}
+			set_global_flag = schism_mended
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

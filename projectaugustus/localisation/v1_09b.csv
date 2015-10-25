@@ -1,0 +1,104 @@
+#CODE;ENGLISH;;;;;;;;;x 
+d_venetian_navy;Adriatic Galleys;;;;;;;;;x 
+d_venetian_navy_adj;Adriatic;;;;;;;;;x 
+d_genoese_navy;Ligurian Galleys;;;;;;;;;x 
+d_genoese_navy_adj;Ligurian;;;;;;;;;x 
+d_hanseatic_navy;Baltic Cogs;;;;;;;;;x 
+d_hanseatic_navy_adj;Baltic;;;;;;;;;x 
+d_frisian_navy;North Sea Cogs;;;;;;;;;x 
+d_frisian_navy_adj;North Sea;;;;;;;;;x 
+d_finnish_band;Finnish Band;;;;;;;;;x 
+d_finnish_band_adj;Finnish;;;;;;;;;x 
+d_lappish_band;Lappish Band;;;;;;;;;x 
+d_lappish_band_adj;Lappish;;;;;;;;;x 
+d_lithuanian_band;Lithuanian Band;;;;;;;;;x 
+d_lithuanian_band_adj;Lithuanian;;;;;;;;;x 
+d_abyssinian_band;Abyssinian Band;;;;;;;;;x 
+d_abyssinian_band_adj;Abyssinian;;;;;;;;;x 
+d_scottish_band;Scottish Band;;;;;;;;;x 
+d_scottish_band_adj;Scottish;;;;;;;;;x 
+d_irish_band;Irish Band;;;;;;;;;x 
+d_irish_band_adj;Irish;;;;;;;;;x 
+d_alan_band;Alan Riders;;;;;;;;;x 
+d_alan_band_adj;Alan;;;;;;;;;x 
+d_nubian_band;Nubian Band;;;;;;;;;x 
+d_nubian_band_adj;Nubian;;;;;;;;;x 
+k_genoa;Genoa;;;;;;;;;x 
+k_genoa_adj;Genoese;;;;;;;;;x 
+k_pisa;Pisa;;;;;;;;;x 
+k_pisa_adj;Pisan;;;;;;;;;x 
+d_somerset_adj_norman;Somersetian;;;;;;;;;x 
+d_somerset_adj_english;Somersetian;;;;;;;;;x 
+d_bedford_adj_norman;Bedforder;;;;;;;;;x 
+d_bedford_adj_english;Bedforder;;;;;;;;;x 
+d_hereford_adj_norman;Herefordian;;;;;;;;;x 
+d_hereford_adj_english;Herefordian;;;;;;;;;x 
+d_norfolk_adj_norman;Norfolkian;;;;;;;;;x 
+d_norfolk_adj_english;Norfolkian;;;;;;;;;x 
+d_gloucester_adj_norman;Gloucesterian;;;;;;;;;x 
+d_gloucester_adj_english;Gloucesterian;;;;;;;;;x 
+d_lancaster_adj_welsh;Rhegedian;;;;;;;;;x 
+title_patrician_heir;Designated Heir;;;;;;;;;x 
+title_patrician_heir_desc;This character has been chosen to succeed a Patrician in running the family business.;;;;;;;;;x 
+ANY_TRADE_POST_STARTS;Any Trade Post;;;;;;;;;x 
+religious_cb_succ_tip;§Y[Root.GetTitledFirstName]§! vassalizes lords of [Root.GetPossPronoun] religion and takes all other titles in the §Y[This.GetFullBaseName]§!.\n;;;;;;;;;x 
+ultimogeniture;Ultimogeniture;;;;;;;;;x 
+succ_ultimogeniture;Ultimogeniture;;;;;;;;;x 
+succ_ultimogeniture_desc;This succession law is the opposite of the far more common Primogeniture. With Ultimogeniture, the youngest child inherits.;;;;;;;;;x 
+tanistry;Tanistry;;;;;;;;;x 
+succ_tanistry;Tanistry;;;;;;;;;x 
+succ_tanistry_desc;The ruler and all vassals at one and two ranks below can nominate an heir - the Tanist - from among the members of the ruler's dynasty. Vassals will tend to favor older members from other branches of the family, especially claimants.;;;;;;;;;x 
+title_tanist;Tanist;;;;;;;;;x 
+TRIGGER_ULTIMOGENITURE_HEIR;The Ultimogeniture Heir;;;;;;;;;x 
+PATRICIAN_WEALTH_PRESTIGE;Patrician Treasury: $GOLD$;;;;;;;;;x 
+CANT_BUILD_TRADEPOST_HOSTILE;Is not Hostile to $WHO$;;;;;;;;;x 
+ca_con_wall_6;Theodosian Walls;;;;;;;;;x 
+ca_con_wall_6_desc;The Theodosian Walls were built during the reign of Emperor Theodosius II in the early 5th century, but they still remain some of the most formidable fortifications ever built by human hands.;;;;;;;;;x 
+#ct_rep_arsenal_1;Small Arsenal;;;;;;;;;x 
+ct_rep_arsenal_1_desc;A small collection of shipyards and armories centered around the docks of the Republic's capital.;;;;;;;;;x 
+ct_rep_arsenal_1;Arsenal;;;;;;;;;x 
+ct_rep_arsenal_2;Arsenal;;;;;;;;;x 
+ct_rep_arsenal_3;Arsenal;;;;;;;;;x 
+ct_rep_arsenal_2_desc;A heavily fortified collection of shipyards and armories centered around the docks of the Republic's capital.;;;;;;;;;x 
+#ct_rep_arsenal_3;Great Arsenal;;;;;;;;;x 
+#ct_rep_arsenal_3_desc;This heavily fortified collection of shipyards and armories is nothing less than an industrial complex centered around the docks of the Republic's capital.;;;;;;;;;x 
+usurp_tp;Usurp Trade Posts from Patrician;;;;;;;;;x 
+usurp_tp_desc;As [Root.GetTitle], use the powers of your office to usurp Trade Posts from a rival family.;;;;;;;;;x 
+petition_doge_for_tp;Petition [Root.Liege.GetTitle] for Trade Posts;;;;;;;;;x 
+petition_doge_for_tp_desc;Petition the [Root.Liege.GetTitle] for some Trade Posts in the name of equity.;;;;;;;;;x 
+forbid_daughter_tooltip;You order your daughter to end this disgraceful affair.;;;;;;;;;x 
+EVTTOOLTIP_REP_500;Your petition is heard.;;;;;;;;;x 
+EVTDESC_REP_500;The [From.GetOnlyDynastyName] family has so little, while the wealth of the other patrician families grows ever larger. Surely this unfair distribution of wealth cannot be in the Republic's best interest. Would you consider transferring some Trade Posts from another family into our capable hands?\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_500;This is not a charity.;;;;;;;;;x 
+EVTOPTB_REP_500;Very well, let's see what we can do...;;;;;;;;;x 
+EVTDESC_REP_501;Your petition is denied. If you want more Trade Posts, you will have to build them yourself. I won't let you steal the spoils of other people's hard work.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_501;But... but...;;;;;;;;;x 
+EVTTOOLTIP_REP_502;You inform the Patrician that he will have to part with some of his Trade Posts.;;;;;;;;;x 
+EVTDESC_REP_502;The [FromFrom.GetOnlyDynastyName] family is not doing well, to the detriment of the Republic as a whole. As such, I consider it my duty as [From.GetTitle] to get them back on their feet. Regretfully, this means granting them a few of your many Trade Posts. I am sure you understand the necessity of these measures.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_502;This is outrageous!;;;;;;;;;x 
+EVTTOOLTIP_REP_503;You have no choice but to grant his request.;;;;;;;;;x 
+EVTDESC_REP_503;It seems I am left with little choice. I am sure the Trade Posts will suffer under their incompetent rule, but if you think this is best, I will transfer them over to this family of paupers and malcontents.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_503;Very good.;;;;;;;;;x 
+EVTTOOLTIP_REP_504;You inform the Patrician that his request has been granted.;;;;;;;;;x 
+EVTDESC_REP_504;Your petition has some merit, and I have decided to grant you several Trade Posts that previously belonged to the [FromFrom.GetOnlyDynastyName] family. Use them well.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_504;Thank you, most honored [From.GetTitle]!;;;;;;;;;x 
+EVTOPTA_REP_505;I see...;;;;;;;;;x 
+EVTDESC_REP_508;While I don't deny that your request has some merit, it seems there just aren't any Trade Posts available for transfer to your family. I forwarded a request on your behalf to another patrician, but he wasn't entirely... cooperative. Nevertheless, I wish you the best of luck in any future endeavors, old friend.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_508;Thanks for nothing...;;;;;;;;;x 
+EVTTOOLTIP_REP_508;You inform the Patrician that you did your best.;;;;;;;;;x 
+EVTTOOLTIP_REP_510;You present your demand for several Trade Posts.;;;;;;;;;x 
+EVTDESC_REP_510;In my continuing efforts to safeguard the security of the Republic, I think it best if my family assumed direct control over several strategic Trade Posts currently owned by House [Root.GetOnlyDynastyName]. Thank you for your understanding.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_510;The audacity!;;;;;;;;;x 
+EVTOPTB_REP_510;I think not.;;;;;;;;;x 
+EVTOPTC_REP_510;Surely this behavior is beneath a [From.GetTitle].;;;;;;;;;x 
+EVTOPTD_REP_510;Let's not be hasty, my dear [From.GetFirstName]...;;;;;;;;;x 
+EVTDESC_REP_511;Very well. Take the Trade Posts and be damned, but know this: one day the boot will be on the other foot. Enjoy this while it lasts, my dear [Root.GetTitle].\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_511;Good man.;;;;;;;;;x 
+EVTTOOLTIP_REP_512;With your high level of stewardship, you can easily prove that the Trade Posts will do far better under your continued rule.;;;;;;;;;x 
+EVTDESC_REP_512;As much as I would like to comply with your demand, these Trade Posts will serve the Republic far better under my enlightened stewardship. If you wish, I can provide ample evidence of how I have improved their management. I cannot in good conscience transfer them away from my control.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA_REP_512;You win this round, [From.GetFirstName]...;;;;;;;;;x 
+EVTTOOLTIP_REP_513;You use your diplomatic skill to point out the folly of this request, and how it threatens the very foundation of the Republic.;;;;;;;;;x 
+EVTDESC_REP_513;My dear [Root.GetFirstName], permit me to share some of my insights into the art of diplomacy. As [Root.GetTitle], you depend on the continued goodwill of the other patricians. How do you think they will react if it becomes public knowledge that you might arbitrarily confiscate their property?\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTTOOLTIP_REP_514;With your skill at intrigue, you have already taken steps to ensure the continued loyalty of the men serving at these Trade Posts.;;;;;;;;;x 
+EVTDESC_REP_514;I'm afraid those Trade Posts will do you little good, [Root.GetTitle]. Through various means of intrigue, I have ensured the complete loyalty of all men stationed within them. They have orders to burn them to the ground if [Root.GetOnlyDynastyName] rule over them is ever threatened...\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+SongsOfProsperityDLC;Songs of Prosperity;;;;;;;;;x 

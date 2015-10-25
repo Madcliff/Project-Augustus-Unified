@@ -1,0 +1,53 @@
+#CODE;ENGLISH;;;;;;;;;x 
+TITLE_EMPIRE_CREATION_PIETY_COST;You need §R$COST$§! $PIETYNAME$ to create an Empire.;;;;;;;;;x 
+muslim_invasion_desc;§Y$TARGET$§! is not of the True Faith - which is all the cause §Y$CLAIMANT$§! needs to invade the §Y$TITLE$§!. If successful, everything §Y$TARGET$§! controls within the §Y$TITLE$§! will be taken or vassalized.;;;;;;;;;x 
+duke_female_iranian;Emira;;;;;;;;;x 
+count_female_iranian;Shaykhah;;;;;;;;;x 
+baron_female_iranian;Wâlia;;;;;;;;;x 
+count_female_arabic;Shaykhah;;;;;;;;;x 
+baron_female_arabic;Wâlia;;;;;;;;;x 
+king_female_turkish;Sultana;;;;;;;;;x 
+duke_female_turkish;Beylerbayan;;;;;;;;;x 
+count_female_turkish;Bayan;;;;;;;;;x 
+baron_female_turkish;Timariota;;;;;;;;;x 
+job_chancellor_west_african;Grand Vizier;;;;;;;;;x 
+emperor_arabic;Badshah;;;;;;;;;x 
+CALIPHA;Calipha;;;;;;;;;x 
+MUSLIM_LAW_PASSED_SETUP;Muslim Law Instituted;;;;;;;;;x 
+MUSLIM_LAW_PASSED_LOG;§Y$RULER$§! has instituted the §Y$LAW$§! Law in §Y$TITLE$§!.;;;;;;;;;x 
+DISBAND_EVENT_FORCES;Event spawned troops disband;;;;;;;;;x 
+iqta_contract;Iqta Levies;;;;;;;;;x 
+iqta_contract_desc;Iqta Levy Laws control the proportion of their levies that Muslim vassal lords nominally have to provide their liege.;;;;;;;;;x 
+iqta_contract_0;Minimal Iqta Levies;;;;;;;;;x 
+iqta_contract_0_option;Min;;;;;;;;;x 
+iqta_contract_0_desc;Vassal lords must only provide you with a majority of their levies.;;;;;;;;;x 
+iqta_contract_1;Small Iqta Levies;;;;;;;;;x 
+iqta_contract_1_option;Small;;;;;;;;;x 
+iqta_contract_1_desc;Vassal lords may retain a significant portion of their levies for themselves.;;;;;;;;;x 
+iqta_contract_2;Normal Iqta Levies;;;;;;;;;x 
+iqta_contract_2_option;Normal;;;;;;;;;x 
+iqta_contract_2_desc;Vassal lords retain small mobile retinues in addition to their garrisons.;;;;;;;;;x 
+iqta_contract_3;Maximum Iqta Levies;;;;;;;;;x 
+iqta_contract_3_option;Max;;;;;;;;;x 
+iqta_contract_3_desc;Vassal lords are obliged to provide their entire levy.;;;;;;;;;x 
+iqta_tax;Iqta Taxation;;;;;;;;;x 
+iqta_tax_desc;Unlike Christian Feudal lords, Muslim vassal lords are not tax exempt, but they do pay less than burghers.;;;;;;;;;x 
+iqta_tax_0;Minimal Iqta Tax;;;;;;;;;x 
+iqta_tax_0_option;None;;;;;;;;;x 
+iqta_tax_0_desc;Vassal lords are exempted from taxation - they like this state of affairs.;;;;;;;;;x 
+iqta_tax_1;Small Iqta Tax;;;;;;;;;x 
+iqta_tax_1_option;Small;;;;;;;;;x 
+iqta_tax_1_desc;Vassal lords are expected to make a small financial contribution towards the greater good of the realm. They expect this.;;;;;;;;;x 
+iqta_tax_2;Large Iqta Tax;;;;;;;;;x 
+iqta_tax_2_option;Large;;;;;;;;;x 
+iqta_tax_2_desc;Vassal lords are expected to make a substantial financial contribution towards the greater good of the realm. They are mildly disappointed by this.;;;;;;;;;x 
+iqta_tax_3;Harsh Iqta Tax;;;;;;;;;x 
+iqta_tax_3_option;Harsh;;;;;;;;;x 
+iqta_tax_3_desc;Vassal lords are expected to make a large financial contribution towards the greater good of the realm. They are very displeased with this.;;;;;;;;;x 
+controls_mecca_medina;Controls §YMecca§! and §YMedina§!\n;;;;;;;;;x 
+controls_jerusalem_damascus_baghdad;Controls §YJerusalem§!, §YDamascus§! and §YBaghdad§!\n;;;;;;;;;x 
+controls_kaliopolis_thrake;Controls §YKaliopolis§! and §YThrake§!\n;;;;;;;;;x 
+jizya_tax;Jizya Tax;;;;;;;;;x 
+desc_jizya_tax;A Tax on the non-Muslim population, this tax is larger than the Zakat tax payed by Muslims and therefore increases the total tax income;;;;;;;;;x 
+INTERACTION_CANNOT_TRANSFER_DUKES_TO_NON_DJ;Dukes and above can only be transferred to their De Jure liege;;;;;;;;;x 
+ARRANGE_BETROTHAL_INTERACTION_MUSLIM;Propose that §Y[ActorExtra.GetTitledFirstName]§W and §Y[RecipientExtra.GetTitledFirstName]§W get betrothed.;;;;;;;;;x 

@@ -1,0 +1,42 @@
+#CODE;ENGLISH;;;;;;;;;x 
+NAME_W_NICK;$TITLE$ $NAME$ '$NICK$';;;;;;;;;x 
+#VASSAL_RETRACTION_SETUP;A Vassal has been retracted;;;;;;;;;x 
+VASSAL_RETRACTION_LOG;$TOP_LIEGE$ has retracted the vassalage of $VASSAL$ from $OLD_LIEGE$;;;;;;;;;x 
+opinion_retracted_my_vassal;Retracted my Vassal;;;;;;;;;x 
+opinion_retracted_my_de_jure_vassal;Retracted my de jure Vassal;;;;;;;;;x 
+opinion_retracted_a_vassal;Retracted a Vassal;;;;;;;;;x 
+opinion_retracted_a_de_jure_vassal;Retracted a de jure Vassal;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_TITLE;Retract Vassalage;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_DESC;Retract a vassal from §Y[Recipient.GetBestName]§!.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_LONG_DESC;You can retract a vassal from one of your direct vassals. They will not be happy about this, especially if it is their de jure vassal.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_0;Select a vassal to retract from §Y[Recipient.GetTitledFirstName]§W.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_1;Make §Y[ThirdPartyCharacter.GetBestName]§W your direct vassal, decreasing §Y[Recipient.GetTitledFirstName]§W's opinion of you by §R$OPINION$§W.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_2;Thanks to the crown authority in the §Y$CROWN_TITLE$§!, our vassals cannot object.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_2B;Since §Y[Recipient.GetTitledFirstName]§! is a traitor, our vassals will not object.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_2C;Since §Y[Recipient.GetTitledFirstName]§! is a filthy §Y[Recipient.Religion.GetName]§!, our vassals will not object.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_2D;This is a breach of the feudal contract and will upset your other vassals (§R$OPINION$§!).;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_2E;Our Imperial administration allows us to retract vassals without objections from the aristocracy.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_ACCEPT_SETUP;Vassal Retracted;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W has transferred the vassalage of §Y[ThirdPartyCharacter.GetBestName]§W from §Y[Recipient.GetBestName]§W;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_LETTER;We have decided to retract the vassalage of [ThirdPartyCharacter.GetBestName]. Failure to accept will lead to war.;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_DECLINE_SETUP;Vassal Retraction Refused;;;;;;;;;x 
+RETRACT_VASSAL_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W refused the retraction of the vassal §Y[ThirdPartyCharacter.GetBestName]§W, demanded by §Y[Actor.GetBestName]§W;;;;;;;;;x 
+EVTDESC274;My liege, I accept your decision to retract my vassal, [Root.GetBestName], though it grieves me deeply.;;;;;;;;;x 
+EVTDESC275;Your breach of the feudal contract is unacceptable, I will not give up my vassals without a fight!;;;;;;;;;x 
+CANNOT_DESTROY_GAVELKIND_TITLE;Cannot destroy titles under Gavelkind succession;;;;;;;;;x 
+INTERACTION_REQUIRES_PIETY;§Y[Actor.GetBestName]§! can afford to lose §Y$COST$§W [Player.Religion.GetPietyName];;;;;;;;;x 
+INTERACTION_REQUIRES_MONEY;§Y[Actor.GetBestName]§! can pay §Y$COST$§W¤;;;;;;;;;x 
+INTERACTION_REQUIRES_PRESTIGE;§Y[Actor.GetBestName]§! can afford to lose §Y$COST$§W Prestige;;;;;;;;;x 
+CelticUnitPackDLC;Celtic Unit Pack;;;;;;;;;x 
+CelticPortraitsDLC;Celtic Portraits;;;;;;;;;x 
+broken_spirit;Broken Spirit;;;;;;;;;x 
+opinion_subjugated_other_rel;Subjugated;;;;;;;;;x 
+d_meath_adj_irish;Taran;;;;;;;;;x 
+d_ghanan_band;Ghanan Band;;;;;;;;;x 
+d_ghanan_band_adj;Ghanan;;;;;;;;;x 
+AIREASON_CONSORT_CLAIMANT;Is Claimant;;;;;;;;;x 
+#RULER_HAS_BECOME_KING_AMBITION;With the ambition to become king of §Y[PrimaryTitle.GetName]§!, §Y[GetTitovledFirstName]§! is not allowed to move the capital outside the de jure kingdom.;;;;;;;;;x 
+pagan_DESC;Since the dawn of history, both Europe and the Middle East has been home to countless Pagan religions and cults unrelated to the Abrahamic faiths. Defining features in-game:\n§Y*§! Rulers are limited to Gavelkind Succession\n§Y*§! Rulers cannot declare Holy Wars\n§Y*§! Inferior at conversion and vulnerable to non-pagan missionaries;;;;;;;;;x 
+d_aztec_reformed;The Aztec Church;;;;;;;;;x 
+job_spiritual_pagan;Diviner;;;;;;;;;x 
+#pagan_subjugation_desc;Pagans are allowed to subjugate other pagan rulers once in their lifetime. (With the 'Become King' ambition, there is no such time limit against targets within the kingdom.) Free men are always willing to follow the mightiest ruler...;;;;;;;;;x 

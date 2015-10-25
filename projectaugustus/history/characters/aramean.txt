@@ -1,0 +1,51 @@
+145292 = {
+	name="Simon"
+	religion="catholic"
+	culture="aramean"
+	trait="diligent"
+	trait="patient"
+	trait="zealous"
+	trait="mastermind_theologian"
+	3.1.1={
+		birth="3.1.1"
+	}
+	30.1.1={
+	name = "Peter"
+	# AKA: Simon
+	}
+	64.10.13={
+		death="64.10.13"
+	}
+}
+
+70599 = {  	
+	name="Andrew"
+	# AKA: Andreas 'the Apostle'
+	dynasty=8661
+	martial=3
+	diplomacy=9
+	intrigue=9
+	stewardship=9
+	religion="orthodox"
+	culture="aramean"
+	trait="trusting"
+	trait="brave"
+	trait="mastermind_theologian"
+	give_nickname=nick_the_apostle
+	8.1.1={
+		birth="8.1.1"
+	}
+	65.1.1={
+		death="65.1.1"
+	}
+}
+2000000038 = {
+    name="Yeshua"
+	religion="orthodox"
+	culture="aramean"
+	trait="divine"
+	give_nickname=nick_christ
+	1.1.1={
+	    birth="1.1.1."
+	}
+}

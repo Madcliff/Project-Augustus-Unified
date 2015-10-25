@@ -1,0 +1,1531 @@
+#CODE;ENGLISH;;;;;;;;;x 
+LEDGER_SORT_DELAYED;§GClick to sort using this column§W;;;;;;;;;x 
+show_true_humility;Showed his true humility;;;;;;;;;x 
+shown_true_humility;Likes our humility;;;;;;;;;x 
+talent_recognized;Recognizes my talent;;;;;;;;;x 
+honest_neg_small;Envies honesty given;;;;;;;;;x 
+slothful_ruler;Slothful Ruler;;;;;;;;;x 
+nick_the_lisp_and_lame;the Lisp and Lame;;;;;;;;;x 
+ANY_WARD_STARTS;Any ward;;;;;;;;;x 
+TITLE_CANNOT_USURP_BEFORE;Cannot usurp this title before §Y$DATE$§!;;;;;;;;;x 
+fair;Attractive;;;;;;;;;x 
+c_grassland_cheremisa_adj;Kerzhenetsian;;;;;;;;;x 
+c_mountain_cheremisa_adj;Cheremisan;;;;;;;;;x 
+PROV589;Kerzhenets;;;;;;;;;x 
+PROV591;Cheremisa;;;;;;;;;x 
+black_honor;Breaking Feudal Obligations;;;;;;;;;x 
+EVTOPTF40020;Expose the assassins employer!;;;;;;;;;x 
+EVTTOOLTIP40026;will be exposed as an employer of assassins.;;;;;;;;;x 
+EVTDESC40026;Not only did our assassin get discovered, he also managed to implicate that we were behind it.  Now [From.GetBestName] is showing proofs to everyone in the [Root.PrimaryTitle.GetFullName] that we have broken our feudal contract with a vassal.;;;;;;;;;x 
+EVTOPTA40026;This is bad news...;;;;;;;;;x 
+deceitful_martial;Appearing Martial;;;;;;;;;x 
+deceitful_stewardship;Faking Stewardship;;;;;;;;;x 
+deceitful_diplomacy;Appearing Diplomatic;;;;;;;;;x 
+deceitful_learning;Faking Learning;;;;;;;;;x 
+EVTDESC3260;I am not the most martial of rulers and sometimes it appears as if I am almost incompetent when it comes to behaving like a knight. Luckily, I know how to manipulate people...;;;;;;;;;x 
+EVTOPTA3260;Talk the talk and Talk the talk..;;;;;;;;;x 
+EVTOPTB3260;Let [Root.job_marshal.GetTitledFirstName] get the blame.;;;;;;;;;x 
+EVTDESC3261;I simply can not keep up with handling the day to day business of my demesne. I rely on others, but manipulate them to believe that I am doing the harder things.;;;;;;;;;x 
+EVTOPTA3261;Talk the talk and Talk the talk..;;;;;;;;;x 
+EVTOPTB3261;Let [Root.job_treasurer.GetTitledFirstName] get the hard work.;;;;;;;;;x 
+EVTDESC3262;Sometimes the niceties of diplomacy pass me by and puts me in awkward positions. However, by careful manipulation of my court, I've managed to let my courtiers take the blame when things go bad.;;;;;;;;;x 
+EVTOPTA3262;They serve me after all..;;;;;;;;;x 
+EVTOPTB3262;Let [Root.job_chancellor.GetTitledFirstName] get the blame.;;;;;;;;;x 
+EVTDESC3263;I am not a bookish person and if it weren't for some careful comments in some discussions this would become obvious to my court.;;;;;;;;;x 
+EVTOPTA3263;Talk the talk and Talk the talk..;;;;;;;;;x 
+EVTOPTB3263;[Root.job_spiritual.GetTitledFirstName] is not happy with it.;;;;;;;;;x 
+#;;;;;;;;;;x 
+EVTDESC73200;It is sad that [Root.Liege.GetTitledFirstName] is employing [Root.job_marshal.GetTitledFirstName] as [Root.Liege.GetHerHis] marshal. I am more competent and would be a better marshal!;;;;;;;;;x 
+EVTOPTA73200;I will petition my liege!;;;;;;;;;x 
+EVTTOOLTIP73201;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+EVTDESC73201;[From.GetBestName] claims that [From.GetSheHe] would be a better marshal than [Root.job_marshal.GetTitledFirstName], and petitions that [From.GetSheHe] should be given the title of Marshal of the [Root.PrimaryTitle.GetFullName].;;;;;;;;;x 
+EVTOPTA73201;[From.GetSheHeCap] is now my new Marshal;;;;;;;;;x 
+EVTOPTB73201;Give [Root.job_marshal.GetFirstName] a chance!;;;;;;;;;x 
+EVTTOOLTIP73202;will hear of our patience.;;;;;;;;;x 
+EVTOPTC73201;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+EVTDESC73202;My liege [From.GetBestName] is not entirely happy with our performance as Marshal of the [Root.PrimaryTitle.GetFullName], and is considering our replacement..;;;;;;;;;x 
+EVTOPTA73202;I must prove myself!;;;;;;;;;x 
+EVTOPTB73202;What can I do?;;;;;;;;;x 
+EVTDESC73203;Enough time has passed, I deserve to become Marshal of the [Root.PrimaryTitle.GetFullName], and [Root.Liege.GetTitledFirstName] will make me it!;;;;;;;;;x 
+EVTOPTA73203;I await [Root.Liege.GetHerHis] reply eagerly.;;;;;;;;;x 
+EVTTOOLTIP73204;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+#EVTDESC73204;I promised [From.GetBestName] that [From.GetSheHe] had a chance to become Marshal of the [Root.PrimaryTitle.GetFullName]. Now [From.GetSheHe] is petionioning me again about it.;;;;;;;;;x 
+EVTOPTA73204;[From.GetSheHeCap] is now my new Marshal;;;;;;;;;x 
+EVTOPTC73204;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+EVTDESC73205;My dear and trustworthy [This.GetBestName].\nI hereby grant you the title as Marshal of the [Root.PrimaryTitle.GetFullName].\n\n[From.GetBestName];;;;;;;;;x 
+EVTOPTA73205;Its what I deserve..;;;;;;;;;x 
+#;;;;;;;;;;x 
+EVTDESC73210;It is sad that [Root.Liege.GetTitledFirstName] is employing [Root.job_spymaster.GetTitledFirstName] as [Root.Liege.GetHerHis] Spymaster. I am more competent and would be a better Spymaster!;;;;;;;;;x 
+EVTOPTA73210;I will petition my liege!;;;;;;;;;x 
+EVTTOOLTIP73211;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+EVTDESC73211;[From.GetBestName] claims that [From.GetSheHe] would be a better Spymaster than [Root.job_spymaster.GetTitledFirstName], and petitions that [From.GetSheHe] should be given the title of Spymaster of the [Root.PrimaryTitle.GetFullName].;;;;;;;;;x 
+EVTOPTA73211;[From.GetSheHeCap] is now my new Spymaster;;;;;;;;;x 
+EVTOPTB73211;Give [Root.job_spymaster.GetTitledFirstName] a chance!;;;;;;;;;x 
+EVTTOOLTIP73212;will hear of our patience.;;;;;;;;;x 
+EVTOPTC73211;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+EVTDESC73212;My liege [From.GetBestName] is not entirely happy with our performance as Spymaster of the [Root.PrimaryTitle.GetFullName], and is considering our replacement..;;;;;;;;;x 
+EVTOPTA73212;I must prove myself!;;;;;;;;;x 
+EVTOPTB73212;What can I do?;;;;;;;;;x 
+EVTDESC73213;Enough time has passed, I deserve to become Spymaster of the [Root.PrimaryTitle.GetFullName], and [Root.Liege.GetTitledFirstName] will make me it!;;;;;;;;;x 
+EVTOPTA73213;I await [Root.Liege.GetHerHis] reply eagerly.;;;;;;;;;x 
+EVTTOOLTIP73214;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+#EVTDESC73214;I promised [From.GetBestName] that [From.GetSheHe] had a chance to become Spymaster of the [Root.PrimaryTitle.GetFullName]. Now [From.GetSheHe] is petionioning me again about it.;;;;;;;;;x 
+EVTOPTA73214;[From.GetSheHeCap] is now my new Spymaster;;;;;;;;;x 
+EVTOPTC73214;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+EVTDESC73215;My dear and trustworthy [This.GetBestName].\nI hereby grant you the title as Spymaster of the [Root.PrimaryTitle.GetFullName].\n\n[From.GetBestName];;;;;;;;;x 
+EVTOPTA73215;Its what I deserve..;;;;;;;;;x 
+#;;;;;;;;;;x 
+EVTDESC73220;It is sad that [Root.Liege.GetTitledFirstName] is employing [Root.job_treasurer.GetTitledFirstName] as [Root.Liege.GetHerHis] Steward. I am more competent and would be a better Steward!;;;;;;;;;x 
+EVTOPTA73220;I will petition my liege!;;;;;;;;;x 
+EVTTOOLTIP73221;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+EVTDESC73221;[From.GetBestName] claims that [From.GetSheHe] would be a better Steward than [Root.job_treasurer.GetTitledFirstName], and petitions that [From.GetSheHe] should be given the title of Steward of the [Root.PrimaryTitle.GetFullName].;;;;;;;;;x 
+EVTOPTA73221;[From.GetSheHeCap] is now my new Steward;;;;;;;;;x 
+EVTOPTB73221;Give [Root.job_treasurer.GetFirstName] a chance!;;;;;;;;;x 
+EVTTOOLTIP73222;will hear of our patience.;;;;;;;;;x 
+EVTOPTC73221;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+EVTDESC73222;My liege [From.GetBestName] is not entirely happy with our performance as Steward of the [Root.PrimaryTitle.GetFullName], and is considering our replacement..;;;;;;;;;x 
+EVTOPTA73222;I must prove myself!;;;;;;;;;x 
+EVTOPTB73222;What can I do?;;;;;;;;;x 
+EVTDESC73223;Enough time has passed, I deserve to become Steward of the [Root.PrimaryTitle.GetFullName], and [Root.Liege.GetTitledFirstName] will make me it!;;;;;;;;;x 
+EVTOPTA73223;I await [Root.Liege.GetHerHis] reply eagerly.;;;;;;;;;x 
+EVTTOOLTIP73224;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+#EVTDESC73224;I promised [From.GetBestName] that [From.GetSheHe] had a chance to become Steward of the [Root.PrimaryTitle.GetFullName]. Now [From.GetSheHe] is petionioning me again about it.;;;;;;;;;x 
+EVTOPTA73224;[From.GetSheHeCap] is now my new Steward;;;;;;;;;x 
+EVTOPTC73224;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+EVTDESC73225;My dear and trustworthy [This.GetBestName].\nI hereby grant you the title as Steward of the [Root.PrimaryTitle.GetFullName].\n\n[From.GetBestName];;;;;;;;;x 
+#EVTOPTA73225;Its what I deserve..;;;;;;;;;x 
+#;;;;;;;;;;x 
+#EVTDESC73230;It is sad that [Root.Liege.GetTitledFirstName] is employing [Root.job_spiritual.GetTitledFirstName] as [Root.Liege.GetHerHis] Lord Spiritual. I am more competent and would be a better Lord Spiritual!;;;;;;;;;x 
+EVTOPTA73230;I will petition my liege!;;;;;;;;;x 
+EVTTOOLTIP73231;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+#EVTDESC73231;[From.GetBestName] claims that [From.GetSheHe] would be a better Lord Spiritual than [Root.job_spiritual.GetTitledFirstName], and petitions that [From.GetSheHe] should be given the title of Lord Spiritual of the [Root.PrimaryTitle.GetFullName].;;;;;;;;;x 
+#EVTOPTA73231;[From.GetSheHeCap] is now my new Lord Spiritual;;;;;;;;;x 
+EVTOPTB73231;Give [Root.job_spiritual.GetTitledFirstName] a chance!;;;;;;;;;x 
+EVTTOOLTIP73232;will hear of our patience.;;;;;;;;;x 
+EVTOPTC73231;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+#EVTDESC73232;My liege [From.GetBestName] is not entirely happy with our performance as Lord Spiritual of the [Root.PrimaryTitle.GetFullName], and is considering our replacement..;;;;;;;;;x 
+EVTOPTA73232;I must prove myself!;;;;;;;;;x 
+EVTOPTB73232;What can I do?;;;;;;;;;x 
+#EVTDESC73233;Enough time has passed, I deserve to become Lord Spiritual of the [Root.PrimaryTitle.GetFullName], and [Root.Liege.GetTitledFirstName] will make me it!;;;;;;;;;x 
+EVTOPTA73233;I await [Root.Liege.GetHerHis] reply eagerly.;;;;;;;;;x 
+EVTTOOLTIP73234;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+#EVTDESC73234;I promised [From.GetBestName] that [From.GetSheHe] had a chance to become Lord Spiritual of the [Root.PrimaryTitle.GetFullName]. Now [From.GetSheHe] is petionioning me again about it.;;;;;;;;;x 
+#EVTOPTA73234;[From.GetSheHeCap] is now my new Lord Spiritual;;;;;;;;;x 
+EVTOPTC73234;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+#EVTDESC73235;My dear and trustworthy [This.GetBestName].\nI hereby grant you the title as Lord Spiritual of the [Root.PrimaryTitle.GetFullName].\n\n[From.GetBestName];;;;;;;;;x 
+EVTOPTA73235;Its what I deserve..;;;;;;;;;x 
+#;;;;;;;;;;x 
+EVTDESC73240;It is sad that [Root.Liege.GetTitledFirstName] is employing [Root.job_chancellor.GetTitledFirstName] as [Root.Liege.GetHerHis] [Root.GetChancellorName]. I am more competent and would be a better [Root.GetChancellorName]!;;;;;;;;;x 
+EVTOPTA73240;I will petition my liege!;;;;;;;;;x 
+EVTTOOLTIP73241;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+EVTDESC73241;[From.GetBestName] claims that [From.GetSheHe] would be a better [Root.GetChancellorName] than [Root.job_chancellor.GetTitledFirstName], and petitions that [From.GetSheHe] should be given the title of [Root.GetChancellorName] of the [Root.PrimaryTitle.GetFullName].;;;;;;;;;x 
+EVTOPTA73241;[From.GetSheHeCap] is now my new [Root.GetChancellorName];;;;;;;;;x 
+EVTOPTB73241;Give [Root.job_chancellor.GetTitledFirstName] a chance!;;;;;;;;;x 
+EVTTOOLTIP73242;will hear of our patience.;;;;;;;;;x 
+EVTOPTC73241;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+EVTDESC73242;My liege [From.GetBestName] is not entirely happy with our performance as [Root.GetChancellorName] of the [Root.PrimaryTitle.GetFullName], and is considering our replacement..;;;;;;;;;x 
+EVTOPTA73242;I must prove myself!;;;;;;;;;x 
+EVTOPTB73242;What can I do?;;;;;;;;;x 
+EVTDESC73243;Enough time has passed, I deserve to become [Root.GetChancellorName] of the [Root.PrimaryTitle.GetFullName], and [Root.Liege.GetTitledFirstName] will make me it!;;;;;;;;;x 
+EVTOPTA73243;I await [Root.Liege.GetHerHis] reply eagerly.;;;;;;;;;x 
+EVTTOOLTIP73244;will listen to our petition and hopefully make a wise choice;;;;;;;;;x 
+#EVTDESC73244;I promised [From.GetBestName] that [From.GetSheHe] had a chance to become [Root.GetChancellorName] of the [Root.PrimaryTitle.GetFullName]. Now [From.GetSheHe] is petionioning me again about it.;;;;;;;;;x 
+EVTOPTA73244;[From.GetSheHeCap] is now my new [Root.GetChancellorName];;;;;;;;;x 
+EVTOPTC73244;I rule in the [Root.PrimaryTitle.GetFullName]!;;;;;;;;;x 
+EVTDESC73245;My dear and trustworthy [This.GetBestName].\nI hereby grant you the title as [Root.GetChancellorName] of the [Root.PrimaryTitle.GetFullName].\n\n[From.GetBestName];;;;;;;;;x 
+EVTOPTA73245;Its what I deserve..;;;;;;;;;x 
+#;;;;;;;;;;x 
+EVTOPTB3220;Pride comes before fall...;;;;;;;;;x 
+EVTOPTA3237;I do not need [From.GetHerHis] advice anyway.;;;;;;;;;x 
+EVTDESC3140;I know I am not the best warrior in the realm, but I so wish I was. There are men who appear to be better than me, and I wish I was like them!;;;;;;;;;x 
+EVTOPTA3140;Insult one of them.;;;;;;;;;x 
+EVTOPTB3140;Befriend one of them.;;;;;;;;;x 
+EVTOPTC3140;Attempt to emulate them.;;;;;;;;;x 
+EVTDESC3141;Those that talk to sweetly at court are great at diplomacy. I begrudge them their ability, and I covet it for myself.;;;;;;;;;x 
+EVTOPTA3141;Insult one of them.;;;;;;;;;x 
+EVTOPTB3141;Befriend one of them.;;;;;;;;;x 
+EVTOPTC3141;Attempt to emulate them.;;;;;;;;;x 
+EVTDESC3142;I covet the stewardship ability of some of the people at court. I deserve to be better at managing my economy.;;;;;;;;;x 
+EVTOPTA3142;Insult one of them.;;;;;;;;;x 
+EVTOPTB3142;Befriend one of them.;;;;;;;;;x 
+EVTOPTC3142;Attempt to emulate them.;;;;;;;;;x 
+EVTDESC3143;There are so many great manipulators in the court, and I almost admire their skills if it weren't for the fact that I wish I had what they have.;;;;;;;;;x 
+EVTOPTA3143;Insult one of them.;;;;;;;;;x 
+EVTOPTB3143;Befriend one of them.;;;;;;;;;x 
+EVTOPTC3143;Attempt to emulate them.;;;;;;;;;x 
+EVTDESC3144;There are people in the court that are so dedicated to learning. I wish I was more like them, and it vexes me that I am not.;;;;;;;;;x 
+EVTOPTA3144;Insult one of them.;;;;;;;;;x 
+EVTOPTB3144;Befriend one of them.;;;;;;;;;x 
+EVTOPTC3144;Attempt to emulate them.;;;;;;;;;x 
+EVTDESC3145;I am still childless, and there are women at court with children who are younger than me. I should be the one with a young and healthy son in my arms.;;;;;;;;;x 
+EVTOPTA3145;Tell one of them how fat she is!;;;;;;;;;x 
+EVTOPTB3145;Befriend one of them;;;;;;;;;x 
+EVTOPTC3145;Try to look more attractive to my man;;;;;;;;;x 
+EVTDESC3115;One of the priests seems to have noticed that I fell asleep during his sermons this Sunday. I simply can't understand why slothfulness is not considered to be a virtue..;;;;;;;;;x 
+EVTOPTA3115;I don't think [From.Religion.GetRandomGodName] minds...;;;;;;;;;x 
+EVTTOOLTIP3116;[This.GetTitledFirstName] is upset;;;;;;;;;x 
+EVTDESC3116;I was greatly upset when the slothful [From.GetTitledFirstName] fell asleep during my sermon!;;;;;;;;;x 
+EVTOPTA3116;[From.GetSheHeCap] will burn in everlasting hellfire...;;;;;;;;;x 
+EVTTOOLTIP3117;will hear my scolding!;;;;;;;;;x 
+EVTDESC3117;It seems that [From.GetTitledFirstName] is upset about me falling asleep during [From.GetHerHis] sermon. Now [From.GetSheHe] is giving me a long lecture about dedication to the Church.;;;;;;;;;x 
+EVTOPTA3117;Ignore [From.GetHerHim]....;;;;;;;;;x 
+EVTOPTB3110;Make an effort;;;;;;;;;x 
+EVTOPTB3100;I don't even have time for church.;;;;;;;;;x 
+EVTDESC3280;There is just so many sinners at court. I am just too honest a person to keep quiet when I see someone with a vice.;;;;;;;;;x 
+EVTOPTA3280;Speak my mind!;;;;;;;;;x 
+EVTOPTB3280;Keep quiet!;;;;;;;;;x 
+EVTTOOLTIP3281;is utterly embarrassed.;;;;;;;;;x 
+EVTDESC3281;[From.GetBestName] has utterly embarrassed me in front of the entire court. [From.GetSheHeCap] is claiming that I am sinful and full of vice.;;;;;;;;;x 
+EVTOPTA3281;I don't like [From.GetHerHim] anymore..;;;;;;;;;x 
+EVTDESC3282;I am torn between my honesty and my ability to intrigue. It is stressful to attempt to be both, and I simply do not know how I should behave at times.;;;;;;;;;x 
+EVTOPTA3282;I should be more of a diplomat.;;;;;;;;;x 
+EVTOPTB3282;Honesty be damned!;;;;;;;;;x 
+EVTDESC3283;I know when someone is a good ruler, and my liege, [Root.Liege.GetTitledFirstName] is a [Root.Liege.GetManWoman] with virtues. [Root.Liege.GetSheHeCap] deserves praise and respect.;;;;;;;;;x 
+EVTOPTA3283;Praise [Root.Liege.GetHerHim] publicly!;;;;;;;;;x 
+EVTTOOLTIP3284;will learn of our speech.;;;;;;;;;x 
+EVTOPTB3283;Send a private letter to [Root.Liege.GetTitledFirstName].;;;;;;;;;x 
+EVTTOOLTIP3285;will read our letter...;;;;;;;;;x 
+EVTDESC3284;My faithful vassal, [From.GetBestName] is rather honest, and have publicly spoken about my virtues. This has radicalized my vassals, where some agree and some do not.;;;;;;;;;x 
+EVTOPTA3284;Oh well..;;;;;;;;;x 
+EVTDESC3285;My dear [This.GetTitle], I wanted to thank you for your virtuous rule. You are an inspiration to me.\n\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA3285;This was unexpected...;;;;;;;;;x 
+EVTDESC3286;There are vassals we have that deserve praise for their virtues. I can not keep quiet about it, and I need to give the proper respect, or I am not an honest person anymore.;;;;;;;;;x 
+EVTOPTA3286;Praise publicly;;;;;;;;;x 
+EVTTOOLTIP3287;will hear our proclamation.;;;;;;;;;x 
+EVTOPTB3286;Reward in private..;;;;;;;;;x 
+EVTTOOLTIP3288;will get our sack of gold.;;;;;;;;;x 
+EVTDESC3287;My dear [This.GetTitle], you are a role model for my realm. Your virtues is exactly what I require from a [This.GetTitle].\n\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA3287;Thank you!;;;;;;;;;x 
+EVTDESC3288;My dear [This.GetTitle], I wanted to thank you for your virtuous rule as my vassal. Maybe this sack of gold will help you feel rewarded.\n\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA3288;Thank you!;;;;;;;;;x 
+EVTOPTB3485;It was YOU!;;;;;;;;;x 
+EVTDESC3495;There are so many people out to get me. Their eyes are staring at me constantly, and I am sure they are plotting against me in open sight.;;;;;;;;;x 
+EVTOPTA3495;Avoid open spaces, they are dangerous;;;;;;;;;x 
+EVTOPTB3495;Accuse everyone publicly!;;;;;;;;;x 
+EVTOPTE40020;Execute [FromFrom.GetHerHim]!;;;;;;;;;x 
+EVTDESC3240;True humility is about showing humility when it is against our desires. A humble [Root.GetManWoman] submits to proper authority, even if [Root.GetSheHe] dislikes his lawful liege.;;;;;;;;;x 
+EVTOPTA3240;Submit to [Root.Liege.GetTitledFirstName]!;;;;;;;;;x 
+EVTOPTB3240;I will never bend my knee;;;;;;;;;x 
+EVTTOOLTIP3241;will hear of our submission;;;;;;;;;x 
+EVTDESC3241;My dear [This.GetTitle], I am your humble servant, and while I may not have always viewed you as favourably as I should, I sincerely regret my behavior.\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA3241;Good News!;;;;;;;;;x 
+EVTDESC3242;True humility is about showing humility when it is against our desires. A humble [Root.GetManWoman] submits to God, even if [Root.GetSheHe] may dislike the Pope himself.;;;;;;;;;x 
+EVTOPTA3242;Submit to the Throne of St. Peter;;;;;;;;;x 
+EVTOPTB3242;Never!;;;;;;;;;x 
+EVTDESC3243;Recognising virtues and talents that other possess is truly a virtue. I am truly blessed by having a Marshal that is more formidable warrior than I could ever dream of being.;;;;;;;;;x 
+EVTOPTA3243;Honor [Root.job_marshal.GetHerHim] for [Root.job_marshal.GetHerHis] skill!;;;;;;;;;x 
+EVTTOOLTIP3244;is honored for [This.GetHerHis] skill;;;;;;;;;x 
+#EVTOPTB3243;Thank God for my marshal [Root.job_marshal.GetTitledFirstName];;;;;;;;;x 
+EVTDESC3244;My dear [This.GetTitle]. I just wished to inform you of how much I appreciate your talent and recognize that it beyond my own.\n[From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTA3244;Thank you;;;;;;;;;x 
+EVTDESC3258;I am very ambitious, but I also know that I am not great at everything. Being humble means I can recognize the limit of my talent, and not reach for what is beyond my grasp.;;;;;;;;;x 
+EVTOPTA3258;I must be humble.;;;;;;;;;x 
+EVTOPTB3258;Ambitions are more important!;;;;;;;;;x 
+EVTDESC3245;Recognising virtues and talents that other possess is a virtue. I am truly blessed by having a [Root.GetChancellorName] who is a marvel at diplomacy.;;;;;;;;;x 
+EVTDESC3246;Recognising virtues and talents that other possess is truly a virtue. I am truly blessed by having a Spymaster who is brilliant in rooting out plots.;;;;;;;;;x 
+EVTDESC3247;Recognising virtues and talents that other possess is truly a virtue. I am truly blessed by having a [Root.GetLordSpiritualName] who is a devout teacher.;;;;;;;;;x 
+EVTDESC3248;Recognising virtues and talents that other possess is truly a virtue. I am truly blessed by having a Steward that truly knows how to govern a realm.;;;;;;;;;x 
+EVTOPTA3248;Reward my Steward!;;;;;;;;;x 
+EVTOPTB3248;Thank God for my Steward;;;;;;;;;x 
+opinion_ignore_patriarch_request;Ignored Patriarch's request;;;;;;;;;x 
+buy_indulgence_for_sins;Buy Indulgence for my sins;;;;;;;;;x 
+indulgence_ask;The Holy Father will hear our plea for salvation.;;;;;;;;;x 
+bought_indulgences;Bought Indulgences;;;;;;;;;x 
+refused_indulgences;Refused Indulgences;;;;;;;;;x 
+EVTDESC39250;An emissary comes from [From.GetBestName], with hopes of buying indulgences to clean [From.GetHerHis] sins. While [From.GetSheHe] has committed some very grave sins, this shows sincere regret.;;;;;;;;;x 
+EVTOPTA39250;Grant absolution;;;;;;;;;x 
+EVTTOOLTIP39251;will cry tears of joy at our reply.;;;;;;;;;x 
+EVTDESC39251;The Holy Father has granted us absolution!;;;;;;;;;x 
+EVTOPTA39251;Glory to God!;;;;;;;;;x 
+opinion_defended_me;Defended me against the Pope;;;;;;;;;x 
+pope_heathen_removal_approve;Banishing heathens!;;;;;;;;;x 
+pope_heathen_removal_approve_2;Imprisoning heathens!;;;;;;;;;x 
+EVTDESC39230;A procession of monks have arrived at our castle, protesting that we are keeping a Bishop in our prison. They claim that we are sinning against the law of God!;;;;;;;;;x 
+EVTOPTA39230;Acknowledge their demands.;;;;;;;;;x 
+EVTOPTB39230;Disperse the rabble.;;;;;;;;;x 
+EVTDESC39240;There are rumors that one of the rulers of Christendom is employing a heathen in their court. This is not acceptable to the Church, and this earthly lord will surely be damned unless we intervene.;;;;;;;;;x 
+EVTOPTA39240;Demand adherence to the Throne of St. Peter!;;;;;;;;;x 
+EVTOPTB39240;It is not our concern.;;;;;;;;;x 
+EVTTOOLTIP392401;will hear the Papal emissary.;;;;;;;;;x 
+EVTDESC39241;An emissary from [From.GetTitledFirstName] has arrived in our court. According to the emissary, the Holy Father is concerned about our employment of heathens as advisors.  The Pope is asking of me to remove them from position.;;;;;;;;;x 
+EVTOPTB39241;Imprison the heathen!;;;;;;;;;x 
+EVTOPTC39241;I rule in my realm!;;;;;;;;;x 
+EVTDESC39243;An emissary has returned from [From.GetBestName] bearing glorious news. The emissary says that [From.GetTitledFirstName] has agreed to imprison a heathen that was in [From.GetHerHis] court.;;;;;;;;;x 
+EVTOPTA39243;Glory to God!;;;;;;;;;x 
+EVTDESC39244;This is a day that the has caused cries of joy to rise up from the pits of hell. An emissary from  [From.GetBestName] is stating that [From.GetSheHe] refuse to follow our demands.;;;;;;;;;x 
+EVTOPTA39244;My God, why have you forsaken me?;;;;;;;;;x 
+EVTDESC39260;There are rumors that one of the rulers of Christendom is employing a heathen in their court. This is not acceptable to the Church, and this earthly lord will surely be damned unless we intervene.;;;;;;;;;x 
+EVTOPTA39260;Demand adherence to the True Faith!;;;;;;;;;x 
+EVTOPTB39260;It is not our concern.;;;;;;;;;x 
+EVTTOOLTIP39261;will listen to our emissary.;;;;;;;;;x 
+EVTDESC39261;An emissary from [From.GetTitledFirstName] has arrived in our court. According to the emissary, [From.GetSheHe] is concerned about our employment of heathens as advisors.  The Patriarch is asking of me to remove them from position.;;;;;;;;;x 
+EVTOPTA39261;Banish the heathen from our realm.;;;;;;;;;x 
+EVTOPTB39261;Imprison the heathen!;;;;;;;;;x 
+EVTOPTC39261;I rule in my realm!;;;;;;;;;x 
+EVTDESC39262;An emissary has returned from [From.GetBestName] bearing glorious news. The emissary says that [From.GetTitledFirstName] has agreed to banish a heathen that was in [From.GetHerHis] court.;;;;;;;;;x 
+EVTOPTA39262;Glory to God!;;;;;;;;;x 
+EVTDESC39263;An emissary has returned from [From.GetBestName] bearing glorious news. The emissary says that [From.GetTitledFirstName] has agreed to imprison a heathen that was in [From.GetHerHis] court.;;;;;;;;;x 
+EVTOPTA39263;Glory to God!;;;;;;;;;x 
+EVTDESC39264;This is a day that the has caused cries of joy to rise up from the pits of hell. An emissary from  [From.GetBestName] is stating that [From.GetSheHe] refuse to follow our demands.;;;;;;;;;x 
+EVTOPTA39264;My God, why have you forsaken me?;;;;;;;;;x 
+EVTDESC39270;There is an errant bishop in one of the catholic realms. Rumours speak of him pledging allegiance to his earthly master ahead of God.;;;;;;;;;x 
+EVTOPTA39270;Send an emissary to have him replaced.;;;;;;;;;x 
+EVTOPTB39270;Its not my concern;;;;;;;;;x 
+EVTTOOLTIP39271;will listen to our emissary.;;;;;;;;;x 
+EVTDESC39271;The Holy Father is most concerned about the loyalties of the bishops of our realm. [From.GetBestName] is asking for us to replace one of them with a bishop.;;;;;;;;;x 
+EVTOPTA39271;Follow the Papal Demands;;;;;;;;;x 
+EVTOPTB39271;Ignore the emissary;;;;;;;;;x 
+EVTDESC39272;An emissary has returned from [From.GetBestName] bearing glorious news. The errant bishop is no longer in a position of authority.;;;;;;;;;x 
+EVTOPTA39272;Non nobis Domine!;;;;;;;;;x 
+EVTDESC39273;Our emissary has returned from [From.GetBestName]. The news he bring is dire indeed, as [From.GetBestName] is refusing to follow our demands.;;;;;;;;;x 
+EVTOPTA39273;Tears in Heaven!;;;;;;;;;x 
+EVTDESC39275;We have loyal bishops in other realms. Perhaps we should return them to their de-jure rulers, so that they can guide their earthly lieges.;;;;;;;;;x 
+EVTOPTA39275;On Earth as in Heaven.;;;;;;;;;x 
+EVTOPTB39275;Direct control is preferable.;;;;;;;;;x 
+EVTDESC39276;The Holy Father wishes to inform us that we will now also obey an early liege.;;;;;;;;;x 
+EVTOPTA39276;Ok;;;;;;;;;x 
+EVTDESC39277;The Holy Father has granted you the [From.PrimaryTitle.GetFullName]. We will serve you faithfully as a vassal, and guide your rule in a Christian way.;;;;;;;;;x 
+EVTOPTA39277;Non nobis...;;;;;;;;;x 
+pti;Mare incognitum;;;;;;;;;x 
+PTI;Mare incognitum;;;;;;;;;x 
+d_mamluks;Mamluks;;;;;;;;;x 
+d_mamluks_adj;Mamluk;;;;;;;;;x 
+IMPRISON_INTERACTION_1;Using this option is viewed as tyrannical, and will lower all of your subjects' opinion of you by §R$OPINION$§!.;;;;;;;;;x 
+EXECUTE_IMPRISONED_INTERACTION_1;Using this option is viewed as tyrannical, and will lower all of your vassals' opinion of you by §R$OPINION$§!.;;;;;;;;;x 
+other_dejure_county_claim_desc;The §Y$TITLE$§! is, de jure, a vassal of §Y$CLAIMANT$'s§!, which is cause enough for war.;;;;;;;;;x 
+other_dejure_barony_claim_desc;The §Y$TITLE$§! is, de jure, a vassal of §Y$CLAIMANT$'s§!, which is cause enough for war.;;;;;;;;;x 
+TERRA_INCOGNITA;Mare incognitum;;;;;;;;;x 
+CLEARREVOLT_EFFECT;The rebels disperse\n;;;;;;;;;x 
+EVTDESC80053;Tired of their old ruler [From.GetTitledName], the peasant rebels of [Root.GetName] have defected and sworn allegiance to me!;;;;;;;;;x 
+EVTOPTA80053;Excellent! Or is it...?;;;;;;;;;x 
+LEADER_APP_NEEDS_LAW_NO_CROWN_TITLE;Your nobles are too autonomous to accept being replaced as leaders.\n(Crown Authority is too low.);;;;;;;;;x 
+CHAR_EXCOM_SETUP;Character Excommunicated;;;;;;;;;x 
+CHAR_EXCOM_LOG;§Y$REL_HEAD$§! has excommunicated §Y$VICTIM$§! at the behest of §Y$ACTOR$§!!;;;;;;;;;x 
+CHAR_EXCOM_LIFTED_SETUP;Excommunication Lifted;;;;;;;;;x 
+CHAR_EXCOM_LIFTED_LOG;§Y$REL_HEAD$§! has lifted the excommunication of §Y$VICTIM$§! at the behest of §Y$ACTOR$§!!;;;;;;;;;x 
+b_cueta;Ceuta;;;;;;;;;x 
+NOT_ALLOWED_TO_PLAY_MP;§Y$PLAYER$§! not allowed to play §Y$TYPE$§W!;;;;;;;;;x 
+INTERACTION_REQUIRES_ACTOR_NOT_EXCOMMUNICATED;[Actor.GetBestName] is not excommunicated;;;;;;;;;x 
+HAS_RAISED_MY_LEVIES;Has Raised my Levies;;;;;;;;;x 
+HAS_NOT_RAISED_MY_LEVIES;Has NOT Raised my Levies;;;;;;;;;x 
+PROV647;Ahvaz;;;;;;;;;x 
+c_avhaz_adj;Ahvazian;;;;;;;;;x 
+WAR_INVALID_SETUP;War becomes invalid;;;;;;;;;x 
+CANNOT_DISBAND_IN_COMBAT;§R(In combat, cannot be disbanded)§!;;;;;;;;;x 
+plot_gain_title_title;Acquire the [This.GetFullName];;;;;;;;;x 
+plot_gain_title_desc;[From.GetBestName] is plotting to become ruler of the [This.GetFullName].;;;;;;;;;x 
+FE_CONFIRM_LOAD_OLD_TITLE;Old Save Warning;;;;;;;;;x 
+FE_CONFIRM_LOAD_OLD_DESC;The selected savegame is from version: $VERSION$, the current version is: $CURRVERSION$. \nLoading this file could result in odd behavior and even crashes. Load anyway?;;;;;;;;;x 
+UNKNOWN;Unknown;;;;;;;;;x 
+EVTDESC4075;The day did not bring any game at all, it had been a futile hunting trip with my guests and my face still burned with shame when the gamekeeper told me about deer parks.;;;;;;;;;x 
+EVTDESC4105;The Summer Fair brings all kinds of entertainers to [Root.Location.GetName] and a puppet show got my attention when I heard the giggles, laughter and wolf-whistles from its audience. After watching the show for a while, I realized that one of the characters was supposed to be me!;;;;;;;;;x 
+EVTDESC72009;When I opened the door I saw no one but as I stepped aside to close it a group of acrobats cartwheeled, somersaulted and tumbled in. They performed all sorts of tricks and everyone watching exploded into applause when they finished.;;;;;;;;;x 
+EVTOPTA72009;You would be perfect for my feast!;;;;;;;;;x 
+EVTOPTB72009;Get out! What do you think you are doing?!;;;;;;;;;x 
+EVTDESC4160;The acrobats performed somersaults, cartwheels and tumbles with great skill during the course of my feast. One of them arrived in a chest seemingly too small to hold a person but he showed us how he, by distorting his body, could fit into the chest...;;;;;;;;;x 
+EVTDESC72115;I almost forgot to eat when I saw the acrobats performing during [From.GetTitledFirstName] and I was the first one to start applauding when their performance was done, wishing they would do just one more somersault, or cartwheel, or even tumble...;;;;;;;;;x 
+EVTOPTA72115;Bravo! Wonderful!;;;;;;;;;x 
+EVTDESC72116;[From.GetTitledFirstName]'s plate was still almost full when the acrobats had finished their performance and [From.GetSheHe] applauded almost frantically with a blissed look in [From.GetHerHis] eyes.;;;;;;;;;x 
+EVTOPTA72116;So [From.GetSheHe] liked the acrobats...?;;;;;;;;;x 
+EVTDESC4170;Its ragged fur and sorrowful eyes made the bear look pitiful, but when its trainer started playing his flute the bear started dancing. The dancing bear and his trainer travelled from fair to fair and this year they came to the Summer Fair in [Root.Location.GetName].;;;;;;;;;x 
+EVTDESC24510;I died while I was serving [Root.Liege.GetTitledFirstName], now I hope [Root.Liege.GetSheHe] will honor my last wish and bury me properly...;;;;;;;;;x 
+EVTOPTA24510;Keep your promise or I will haunt you, forever!;;;;;;;;;x 
+EVTTOOLTIP4140;[This.GetTitledFirstName] keeps [This.GetHerHis] promise to [Root.GetTitledFirstName];;;;;;;;;x 
+EVTDESC4140;[From.GetTitledFirstName] had made me promise I would bury [From.GetHerHim] properly and I keep my promises. I walked beside [From.GetHerHis] coffin to [From.GetTitledFirstName]'s last rest and the wailing of the mourners was almost more than I could bear. [From.GetSheHeCap] died too young!;;;;;;;;;x 
+EVTOPTC4140;I should help [From.GetHerHis] widow;;;;;;;;;x 
+NOT_SELECT;§Y$PLAYER$§! must select a character to play!;;;;;;;;;x 
+OUTLINER_BUILDING_DESC;Building a $BUILDING$ in $SETTLEMENT$\n$DAYS$ days remaining;;;;;;;;;x 
+LOADING_TIP_15;Right-click a received message to change its priority or appearance.;;;;;;;;;x 
+LOADING_TIP_19;Press F10 to save a snapshot of the mapmode you currently have selected.;;;;;;;;;x 
+LOADING_TIP_21;Press F11 to save a screenshot of the game.;;;;;;;;;x 
+EVTDESC20133;My liege, my work in [FromFrom.Location.GetName] seem to have come to fruition. By bribing, cajoling, extorting, threatening and forging documents, I have managed to fabricate a claim on the [FromFrom.Location.Duchy.GetFullName] presently held by [From.GetTitledName]. I leave it up to you whether to press it or not.\n\nYour humble [Root.GetChancellorName],\n[FromFrom.GetTitledName];;;;;;;;;x 
+action_fabricate_claims_desc;Send your [GetChancellorName] to fabricate claims on landed titles held by local rulers. Highly skilled [GetChancellorName]s may even fabricate a claim on a duchy.;;;;;;;;;x 
+EVTDESC3440;I stumbled into a courtier eating cookies outside the kitchen. The courtier apologised several times and then offered me a cookie as an apology for being in my path and the cynic in me got the best of me. I lost myself in cynical comments about how the courtier was trying to poison me with baked goods, probably spoken out loud.;;;;;;;;;x 
+TECH_AVG_YEARS_TO_PROGRESS;Average number of years until increase: §G$YEARS$§!;;;;;;;;;x 
+MAKE_PRIMARY;Make Primary;;;;;;;;;x 
+MAKE_PRIMARY_DESC;I can declare this my primary title;;;;;;;;;x 
+TITLE_MADE_PRIMARY_SETUP;Title made the Primary Title;;;;;;;;;x 
+TITLE_MADE_PRIMARY_LOG;§Y$CHAR$§! has made the §Y$TITLE$§! $PRONOUN$ primary title.;;;;;;;;;x 
+LOADSHIP_UNIT_FAILDESC;No navies present which are large enough to transport army;;;;;;;;;x 
+LOADSHIP_UNIT_FAILDESC2;Cannot embark a retreating or fighting army;;;;;;;;;x 
+holding_large_feast;Holding a large Feast;;;;;;;;;x 
+high_taxes;High Taxes;;;;;;;;;x 
+title_court_jester_desc;The court Jester is kept around to provide general entertainment to the court. Also know as a fool it is generally not considered to be the most prestigious office at court.;;;;;;;;;x 
+title_master_of_the_horse_desc;This office dates all the way back the Roman Republic, and, in this era where a horse is a symbol of power, it is still very important. Although the Master of the Horse delegates the actual day to day running of the actual stables, much of the prestige of this office comes from the responsibility for the stud.;;;;;;;;;x 
+title_master_of_the_hunt_desc;In an era when hunting was an opportunity to demonstrate horsemanship and martial prowess, the hunt was serious business. The master of the hunt was a position of importance.;;;;;;;;;x 
+title_master_of_the_hounds_desc;With hunting considered the main pastime of the higher nobility, the hounds employed for the some of the hunts are thus important.;;;;;;;;;x 
+title_high_almoner_desc;The handing out of alms was an integral part of rulership and religious observance. The one responsible for this task is a very important personage.;;;;;;;;;x 
+title_seneschal_desc;Originally responsible for the organization of feasts and domestic entertainment. Although left mainly in the hands of deputies, the key role at such major occasions makes the post prestigious.;;;;;;;;;x 
+d_amman;Damman;;;;;;;;;x 
+d_amman_adj;Dammani;;;;;;;;;x 
+LOADING_TIP_3;Right-click on a holding in your realm to access a quick menu for it.;;;;;;;;;x 
+RAISE_NO_TROOPS_ALIVE;There are no troops left to raise.;;;;;;;;;x 
+RAISE_NO_SHIPS_ALIVE;There are no ships left to raise.;;;;;;;;;x 
+overthrow_ruler_no_calls_desc;§Y$CLAIMANT$§! has risen in revolt after a failed arrest attempt by §Y$TARGET$§!.;;;;;;;;;x 
+CB_NAME_OVERTHROWRULER_NC;Overthrow Ruler;;;;;;;;;x 
+WAR_NAME_OVERTHROWRULER_NC;$ORDER$Revolt against the rule of $DEFENDER$;;;;;;;;;x 
+holding_summer_fair;Holding a Summer Fair;;;;;;;;;x 
+teenage_infatuation;Teenage Infatuation;;;;;;;;;x 
+lovers_retreat;Lovers Retreat;;;;;;;;;x 
+lovers_entertainment;Entertainment from my lover;;;;;;;;;x 
+childhood_sweetheart;Childhood Sweetheart;;;;;;;;;x 
+love_scorned;Love Scorned;;;;;;;;;x 
+EVTDESC64010;[Root.GetSheHeCapOpp] is so funny and, above all, so beautiful! I think I am falling for [Root.GetHerHimOpp]...;;;;;;;;;x 
+EVTOPTA64010;I'll try and talk to [Root.GetHerHimOpp]...;;;;;;;;;x 
+EVTTOOLTIPA64011;[Root.GetFirstName] and [This.GetFirstName] has a wonderful time together;;;;;;;;;x 
+EVTTOOLTIPB64011;[This.GetFirstName] scorns [Root.GetFirstName];;;;;;;;;x 
+EVTOPTB64010;[Root.GetSheHeCapOpp]'s not that pretty anyway...;;;;;;;;;x 
+EVTDESC64011;No matter what I was doing or where I was, [From.GetTitledFirstName] always seemed to find me but seemed tongue-tied and shy. I was alone in the library, reading, when [From.GetSheHe] finally got the courage to talk to me...;;;;;;;;;x 
+EVTOPTA64011;You are so sweet! I like you too...;;;;;;;;;x 
+EVTTOOLTIP64012;[Root.GetFirstName] and [This.GetFirstName] becomes infatuated with each other;;;;;;;;;x 
+EVTOPTB64011;Go away! I don't like you...;;;;;;;;;x 
+EVTTOOLTIP64013;[Root.GetFirstName] scares [This.GetFirstName] away with [Root.GetHerHis] scornful reply;;;;;;;;;x 
+EVTDESC64012;[From.GetTitledFirstName] and I talked for hours and soon became inseparable. If there was a chore, a homework or anything we could do together, we did it. If it weren't for my nanny then we would have slept in the same bed too.;;;;;;;;;x 
+EVTOPTA64012;Is this how it is when you are in love?;;;;;;;;;x 
+EVTDESC64013;I fled from [From.GetTitledFirstName]'s scornful reply and [From.GetHerHis] laughter that followed me down the stairs. How could I ever have felt anything for that, that... idiot?!;;;;;;;;;x 
+EVTOPTA64013;I have to accept that I'm a failure;;;;;;;;;x 
+EVTOPTB64013;Who dares, wins;;;;;;;;;x 
+EVTDESC64015;My wife [Root.Spouse.GetFirstName] has grown old and less-than-attractive. Maybe a young mistress will bring some excitement to my life?;;;;;;;;;x 
+EVTOPTA64015;I'm sure my wife will allow me to indulge myself;;;;;;;;;x 
+EVTTOOLTIP64017;[Root.GetTitledFirstName] tries to seduce [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB64015;My wife will probably not find out;;;;;;;;;x 
+EVTOPTC64015;No, adultery is a sin;;;;;;;;;x 
+EVTDESC64016;I have noticed how [From.GetFirstName] has stopped looking at me the way [From.GetSheHe] used to do, with a kind of burning desire for me and my body. These days, [From.GetSheHe] looks at the young courtiers with high bosoms and slender waists with the look that used to be reserved for me...;;;;;;;;;x 
+EVTOPTA64016;So [From.GetSheHe] did not think I would notice?!;;;;;;;;;x 
+EVTTOOLTIP64020;[Root.GetTitledFirstName] makes sure [This.GetTitledFirstName] understands [Root.GetHerHis] feelings about [This.GetHerHim] looking at other women;;;;;;;;;x 
+EVTDESC64017;[From.GetTitledFirstName]'s wife is a frail old thing who probably used to be beautiful. No wonder [From.GetSheHe] has started eyeing us lovelier ladies at court...;;;;;;;;;x 
+EVTOPTA64017;[From.GetSheHeCap] is not too hard on the eyes...;;;;;;;;;x 
+EVTTOOLTIP64018;[Root.GetTitledFirstName] encourages [This.GetTitledFirstName]'s advances;;;;;;;;;x 
+EVTOPTB64017;I deserve someone better than [From.GetTitledFirstName];;;;;;;;;x 
+EVTTOOLTIP64019;[Root.GetTitledFirstName] scorns [This.GetTitledFirstName]'s advances;;;;;;;;;x 
+EVTDESC64018;[From.GetTitledFirstName] responded to my advances and soon we were... engaging in a very stimulating activity. In short: the love-making was amazing!;;;;;;;;;x 
+EVTOPTA64018;I think I am in love...;;;;;;;;;x 
+EVTDESC64019;The scorn I was met by when I tried to talk [From.GetTitledFirstName] into meeting me somewhere more private really hurt. [From.GetSheHeCap] actually laughed at my advances and told me I was both too old and too ugly for [From.GetHerHim].;;;;;;;;;x 
+EVTOPTA64019;I was taken aback by [From.GetTitledFirstName]'s scorn;;;;;;;;;x 
+EVTDESC64020;[From.GetFirstName] had noticed how I had started looking at the other women at court and the whispers about me flirting with the beautiful ladies at court made [From.GetHerHim] draw some conclusions [From.GetSheHe] obviously did not appreciate. I was yelled at for hours, or so it felt, about the 'sinfulness of adultery' and 'why don't you think I am attractive anymore?'.;;;;;;;;;x 
+EVTOPTA64020;I think [From.GetFirstName] is angry about me flirting with the ladies...;;;;;;;;;x 
+EVTDESC64025;It is as if I see [Root.Spouse.GetFirstName] for the first time: [Root.Spouse.GetHerHis] good-natured spirit, the interesting and funny quirks [Root.Spouse.GetSheHe] has and how lovely [Root.Spouse.GetSheHe] really is. Could it be that I love my [Root.Spouse.GetFirstName]?;;;;;;;;;x 
+EVTOPTA64025;Embrace the love I feel for [Root.Spouse.GetFirstName];;;;;;;;;x 
+EVTOPTB64025;Deny the love;;;;;;;;;x 
+EVTDESC64030;I have finally gotten a chance to do something special with my special someone and there are so many things I want to do! Should I try to entertain [Root.GetHerHimOpp] at the court, or maybe we should spend some time in my isolated country cottage?;;;;;;;;;x 
+EVTOPTA64030;I shall take [Root.GetHerHimOpp] to my isolated country cottage;;;;;;;;;x 
+EVTOPTB64030;I'll sponsor entertainment at the local court;;;;;;;;;x 
+EVTOPTC64030;Nah, I'll spend the time with my friends instead;;;;;;;;;x 
+EVTDESC64035;No matter what I do, my sweetheart never seems happy, complaining that we never do anything exciting together and sulks when I tell [Root.GetHerHimOpp] I have too much to do to be able to entertain [Root.GetHerHimOpp] all the time. Having a lover is more hard work than I thought!;;;;;;;;;x 
+EVTOPTA64035;Throw a big party for [Root.GetHerHisOpp] entertainment;;;;;;;;;x 
+EVTOPTB64035;Take [Root.GetHerHimOpp] to do something dangerous, like hunting;;;;;;;;;x 
+EVTOPTC64035;[Root.GetSheHeCapOpp] gets what [Root.GetSheHeOpp] deserves;;;;;;;;;x 
+EVTDESC64040;I caught them together in our own bed, [Root.Spouse.GetFirstName] and [Root.Spouse.GetHerHis] lover! I screamed for [Root.Spouse.GetHerHis] lover to get out and then confronted [Root.Spouse.GetFirstName] about this...;;;;;;;;;x 
+EVTOPTA64040;In our own bed?!;;;;;;;;;x 
+EVTTOOLTIP64041;[Root.GetTitledFirstName] confronts [This.GetTitledFirstName] about [This.GetHerHis] lover;;;;;;;;;x 
+EVTDESC64041;I thought [From.GetFirstName] would be gone for several hours, so when [From.GetSheHe] opened the door to the bedroom and caught my lover and I in a rather embarrassing embrace and, after [From.GetHerHis] initial surprise, shouted at my lover to get out I was speechless. [From.GetSheHeCap] demanded that I stopped seeing my lover, or else...;;;;;;;;;x 
+EVTOPTA64041;I won't break it up!;;;;;;;;;x 
+EVTOPTB64041;Anything for the sake of domestic peace!;;;;;;;;;x 
+EVTDESC64045;I don't know what has happened lately, no matter what my lover does I feel irritated and have actually started to avoid [Root.GetHerHimOpp]. Our relationship brings me only irritation, it is as if we have grown apart...;;;;;;;;;x 
+EVTOPTA64045;I don't love [Root.GetHerHimOpp] anymore;;;;;;;;;x 
+EVTDESC64046;[From.GetTitledFirstName] has avoided me for some time, and the rare occasions when we meet have turned from the love-filled evenings I remember to hours of arguing and disagreement. It did not come as a shock when [From.GetTitledFirstName] told me [From.GetSheHe] wanted to end our relationship but it hurt more than I thought it would.;;;;;;;;;x 
+EVTOPTA64046;In the end we parted as friends...;;;;;;;;;x 
+EVTDESC64050;Since we were small, we had always felt there was something between us, something that made certain situations more awkward than they should have been. Our teenage infatuation has deepened and grown into something more, something that is hard to explain...;;;;;;;;;x 
+EVTOPTA64050;Our infatuation has turned into love;;;;;;;;;x 
+EVTTOOLTIP64051;Does [This.GetTitledFirstName] feel the same as I do?;;;;;;;;;x 
+EVTOPTB64050;This was just something for us growing up;;;;;;;;;x 
+EVTTOOLTIP64052;Has the teenage infatuation turned into affection between [This.GetTitledFirstName] and [Root.GetTitledFirstName]?;;;;;;;;;x 
+EVTDESC64051;The teenage infatuation I felt for [From.GetTitledFirstName] has turned into something more, maybe love, and I know [From.GetTitledFirstName] feels the same way as I do.;;;;;;;;;x 
+EVTOPTA64051;So this is love...?;;;;;;;;;x 
+EVTDESC64052;[From.GetTitledFirstName] and I used to have a... teenage crush on each other and I met [From.GetHerHim] today and the old feelings welled up. Before I could say something embarrassing, [From.GetTitledFirstName] laughed away our teenage infatuation and told me that [From.GetSheHe] is still fond of me.;;;;;;;;;x 
+EVTOPTA64052;Yes, it was only a teenage infatuation...;;;;;;;;;x 
+EVTOPTB64052;But I loved you...;;;;;;;;;x 
+IMAM;Imam;;;;;;;;;x 
+IMAM_FOA;Your Highness;;;;;;;;;x 
+LOADING_TIP_22;Children are born with a fraction of their parents' dynasties' total Prestige.;;;;;;;;;x 
+LOADING_TIP_23;Agnatic Succession means only males can inherit.;;;;;;;;;x 
+LOADING_TIP_24;Agnatic-Cognatic (a.k.a. Male Preference) Succession means females can inherit only if there are no valid males.;;;;;;;;;x 
+LOADING_TIP_25;Under Seniority Succession, the oldest member of the dynasty inherits.;;;;;;;;;x 
+LOADING_TIP_26;Under Primogeniture Succession, the oldest legitimate child inherits.;;;;;;;;;x 
+LOADING_TIP_27;Under Gavelkind Succession, the inheritance is divided among the children.;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_LETTER;We have decided to immediately revoke your title as [ThirdPartyTitle.GetFullName]. Failure to hand it over peacefully will lead to war.;;;;;;;;;x 
+EVTDESC20111;My liege, I have tried to make [From.GetBestName] realize what a benevolent and peaceful ruler you really are, but sinister forces at [From.GetHerHis] court have been hard at work to discredit my every move and distort my every word. I am afraid that in the end the visit seems to have done more harm than good.\n\nYour humble [Root.GetChancellorName],\n[Root.job_chancellor.GetTitledName];;;;;;;;;x 
+CHAR_OPINION_OF_CHAR;§Y$CHAR1$'s§! opinion of §Y$CHAR2$§!;;;;;;;;;x 
+CHAR_IMPRISONED_SETUP;Character Imprisoned;;;;;;;;;x 
+CHAR_IMPRISONED_LOG;§Y$VICTIM$§! has been imprisoned by §Y$ACTOR$§!;;;;;;;;;x 
+CHAR_RELEASED_SETUP;Character Released from Prison;;;;;;;;;x 
+CHAR_RELEASED_LOG;§Y$VICTIM$§! has been released from §Y$ACTOR$'s§! dungeon;;;;;;;;;x 
+CHAR_BANISHED_SETUP;Character Banished;;;;;;;;;x 
+CHAR_BANISHED_LOG;§Y$VICTIM$§! has been banished from §Y$ACTOR$'s§! lands;;;;;;;;;x 
+ASSIGNED_JOB_ACTION_SETUP;Character Assigned a Job Action;;;;;;;;;x 
+ASSIGNED_JOB_ACTION_LOG;§Y$CHAR$§! has been sent to §Y$JOB$§! in §Y$COUNTY$§!;;;;;;;;;x 
+ATTRITION_WEIGHT;Total troops in province: §Y$VALUE$§!;;;;;;;;;x 
+TITLE_ONLY_FEUDAL_CREATE_KING;Republics and theocracies cannot create kingdoms!;;;;;;;;;x 
+#TODO: THESE EVENTS MUST HAVE DESC!;;;;;;;;;;x 
+opinion_beheaded_dynasty_member;Beheaded a member of my dynasty!;;;;;;;;;x 
+love_poem;Love Poem;;;;;;;;;x 
+beautiful_flower;Beautiful Flower;;;;;;;;;x 
+precious_item;Precious Item;;;;;;;;;x 
+EVTDESC64055;My child shows every sign of being infatuated with a courtier and follows the person in question everywhere.;;;;;;;;;x 
+EVTOPTA64055;Aw, how sweet...;;;;;;;;;x 
+EVTOPTB64055;Maybe it will pass;;;;;;;;;x 
+EVTOPTC64055;Separate them;;;;;;;;;x 
+EVTDESC64060;My love is married to another [Root.GetManWoman] and it pains my soul I will never be able to marry [Root.GetHerHimOpp] myself. Oh, how cruel love can be!;;;;;;;;;x 
+EVTOPTA64060;I will write a poem of my pain;;;;;;;;;x 
+EVTOPTB64060;Wine will cure my pains;;;;;;;;;x 
+EVTOPTC64060;I shall seek help from prayer;;;;;;;;;x 
+EVTOPTD64060;[Root.GetSheHeCapOpp]'s married, I should forget [Root.GetHerHimOpp];;;;;;;;;x 
+EVTDESC38286;I drink to forget and remember my trouble no more. I have gained the Drunkard trait.;;;;;;;;;x 
+EVTDESC64065;The unsatisfying relationship with a married [Root.GetManWomanOpp] is really becoming irksome. I wish I could love [Root.GetHerHimOpp] openly, without fearing everyone's scorn...;;;;;;;;;x 
+EVTOPTA64065;And thus it ends...;;;;;;;;;x 
+EVTOPTB64065;Maybe it can still work...;;;;;;;;;x 
+EVTOPTC64065;No, I will make it work!;;;;;;;;;x 
+EVTDESC64070;Seeing another [Root.GetManWomanOpp] behind my spouse's back is becoming quite troublesome for me, the lies tear at my soul and my longing to be with my lover is almost too much.;;;;;;;;;x 
+EVTOPTA64070;It's time to end such affairs and settle down;;;;;;;;;x 
+EVTOPTB64070;It will work out if I give it a bit more effort;;;;;;;;;x 
+EVTOPTC64070;I don't care for my spouse;;;;;;;;;x 
+EVTDESC64075;I am planning a special occasion with my lover, but my wife is quite insistent on alternate plans. Who is more important to me, my lover or my wife?;;;;;;;;;x 
+EVTOPTA64075;Ignore my wife, and go visit my lover;;;;;;;;;x 
+EVTOPTB64075;Arrange a ball and invite my lover;;;;;;;;;x 
+EVTTOOLTIP64076;Your wife [This.GetFirstName] meets your lover at the ball and learns about your adulterous relationship;;;;;;;;;x 
+EVTOPTC64075;Spend time with my wife instead;;;;;;;;;x 
+EVTTOOLTIP64045;You have lost that loving feeling for your lover;;;;;;;;;x 
+EVTDESC64076;I was glad [From.GetFirstName] wanted to arrange a ball and I invited all my friends for a night I would never forget. The ball was wonderful, until I met my husband [From.GetFirstName]'s lover.;;;;;;;;;x 
+EVTOPTA64076;How could [From.GetSheHe] do that to me?;;;;;;;;;x 
+EVTTOOLTIP64077;[Root.GetTitledFirstName] hates [This.GetTitledFirstName] for who [This.GetSheHe] invited to the ball;;;;;;;;;x 
+EVTDESC64077;My wife [From.GetTitledFirstName] came up to me, slapped me and left the ball. My lover came running after her and gave me a look that meant trouble ahead. My wife [From.GetFirstName] and my lover had met and my wife had learnt about our adulterous relationship.;;;;;;;;;x 
+EVTOPTA64077;And now she hates me;;;;;;;;;x 
+EVTDESC64080;My wife has retired to the convent for a short while, to gather her thoughts and find some peace, maybe even God.;;;;;;;;;x 
+EVTOPTA64080;Perfect occasion to spend time with my lover!;;;;;;;;;x 
+EVTOPTB64080;Be discreet about spending time with my lover;;;;;;;;;x 
+EVTOPTC64080;Only see my lover on friendship terms;;;;;;;;;x 
+EVTOPTD64080;Spend the time working instead;;;;;;;;;x 
+EVTDESC64085;I love [Root.GetHerHimOpp] and [Root.GetSheHeOpp] loves me, we are both adults and nothing or nobody will stop us getting married!;;;;;;;;;x 
+EVTOPTA64085;We elope to get married;;;;;;;;;x 
+EVTTOOLTIP64086;Our eloping caught the attention of [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC64086;Two people eloped, got married without anyone's consent except their own and it falls to me as their liege to either accept the marriage or do something about it.;;;;;;;;;x 
+EVTOPTA64086;Order them seized;;;;;;;;;x 
+EVTTOOLTIP64087;The elopers are caught and imprisoned;;;;;;;;;x 
+EVTTOOLTIP64088;The elopers are caught and banished;;;;;;;;;x 
+EVTOPTB64086;Accept their marriage;;;;;;;;;x 
+EVTDESC64087;[From.GetTitledFirstName] could not accept our marriage and now my [Root.Spouse.GetFirstName] and I finds ourselves in the prison of [From.GetTitledFirstName].;;;;;;;;;x 
+EVTOPTA64087;Curse you, [From.GetTitledFirstName]!;;;;;;;;;x 
+EVTDESC64088;I almost regret eloping with [Root.Spouse.GetTitledFirstName] as it caused us to be banished by [From.GetTitledFirstName]. But they say love conquers all and at least I have my [Root.Spouse.GetFirstName] with me in my misery.;;;;;;;;;x 
+EVTOPTA64088;Banishing us for getting married? That's low even for you!;;;;;;;;;x 
+EVTDESC64090;We both want children, [Root.Spouse.GetFirstName] and I, but we haven't been blessed with any yet. What do we do wrong?;;;;;;;;;x 
+EVTOPTA64090;Ask for [Root.Religion.GetRandomGodName]'s help with our childless marriage;;;;;;;;;x 
+EVTOPTB64090;Meet with [Root.Spouse.GetTitledFirstName] every night;;;;;;;;;x 
+EVTDESC64100;I had a fiery row with my wife [Root.Spouse.GetFirstName], worse than any we ever had before. My lover is eager to comfort me and I could really use some comfort right now.;;;;;;;;;x 
+EVTOPTA64100;Retire to the country manor with my lover for a while;;;;;;;;;x 
+EVTOPTB64100;I can have my lover in my castle;;;;;;;;;x 
+EVTTOOLTIP64102;Your adulterous affair is discovered by your wife [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTC64100;I am strong, I don't need comfort!;;;;;;;;;x 
+EVTDESC64101;The 'comfort' my lover offered me has resulted in her being pregnant!;;;;;;;;;x 
+EVTOPTA64101;How wonderful!;;;;;;;;;x 
+EVTDESC64102;Still fuming with anger after the fiery row with [From.GetTitledFirstName], I saw [From.GetHerHim] kiss another woman in the garden and then take her by the hand, leading her somewhere more private I am sure.;;;;;;;;;x 
+EVTOPTA64102;I hate him!;;;;;;;;;x 
+EVTDESC64105;The constant quarrels with [From.GetTitledFirstName] and [From.GetHerHis] adulterous affairs has brought me to a boiling point. If I ever loved [From.GetHerHim], that love has disappeared with this latest betrayal.;;;;;;;;;x 
+EVTOPTA64105;I loathe, no, I hate [From.GetTitledFirstName];;;;;;;;;x 
+EVTTOOLTIP64105;has a fallout with [This.GetHerHis] spouse [This.Spouse.GetTitledFirstName];;;;;;;;;x 
+EVTDESC64110;No matter how discreet I have been with my lover, my [Root.Spouse.GetFirstName] still manages to grow suspicious of my behavior. I think I might have tried too hard to be inconspicuous...;;;;;;;;;x 
+EVTOPTA64110;Tell [Root.Spouse.GetHerHim] it's none of [Root.Spouse.GetHerHis] business;;;;;;;;;x 
+EVTOPTB64110;Tell [Root.Spouse.GetHerHim] you do important things;;;;;;;;;x 
+EVTOPTC64110;Make empty promises to [Root.Spouse.GetHerHim] about spending more time;;;;;;;;;x 
+EVTOPTD64110;Spend more time at home as [Root.Spouse.GetSheHe] wishes;;;;;;;;;x 
+EVTDESC64115;My lover accused me of loving my spouse [Root.Spouse.GetTitledFirstName] more than [Root.GetHerHimOpp].;;;;;;;;;x 
+EVTOPTA64115;Buy [Root.GetHerHimOpp] an expensive gift to prove my love;;;;;;;;;x 
+EVTOPTB64115;Take [Root.GetHerHimOpp] to my country manor for some quality time;;;;;;;;;x 
+EVTOPTC64115;Assure [Root.GetHerHimOpp] of [Root.GetHerHisOpp] importance by words only;;;;;;;;;x 
+EVTOPTD64115;Tell [Root.GetHerHimOpp] that [Root.GetSheHeOpp] is absolutely correct;;;;;;;;;x 
+EVTDESC64120;I heard the news from my lover first, then the whole court was buzzing with the news. My spouse [Root.Spouse.GetTitledFirstName] had made my adulterous affair public!;;;;;;;;;x 
+EVTOPTA64120;Disown the affair;;;;;;;;;x 
+EVTOPTB64120;Disregard [Root.Spouse.GetHerHis] talks;;;;;;;;;x 
+EVTDESC64125;My spouse [Root.Spouse.GetTitledFirstName] has humiliated me publicly! [Root.Spouse.GetSheHeCap] kissed [Root.Spouse.GetHerHis] lover in public and now everyone knows about their adulterous affair!;;;;;;;;;x 
+EVTOPTA64125;Bear it stoically;;;;;;;;;x 
+EVTOPTB64125;Arrest [Root.Spouse.GetHerHis] lover;;;;;;;;;x 
+EVTOPTC64125;Arrest [Root.Spouse.GetHerHim];;;;;;;;;x 
+EVTOPTD64125;Arrest both of them;;;;;;;;;x 
+EVTDESC64126;I was arrested and imprisoned by [From.GetTitledFirstName] when [From.GetSheHe] saw me kiss [From.Spouse.GetTitledFirstName] in public, revealing to everyone our adulterous affair.;;;;;;;;;x 
+EVTOPTA64126;That was a bit careless...;;;;;;;;;x 
+EVTDESC64127;I hadn't exactly surmised that my spouse [From.GetTitledFirstName] would have me arrested and imprisoned for kissing my lover and making our affair public.;;;;;;;;;x 
+EVTOPTA64127;I should've been more discreet with the affair;;;;;;;;;x 
+EVTDESC64130;I am married to a [Root.Spouse.GetManWoman] I love and it is such a blissful state! I wish everyone could experience love such as ours!;;;;;;;;;x 
+EVTOPTA64130;It's such a stress-relief;;;;;;;;;x 
+EVTOPTB64130;It makes you feel so healthy;;;;;;;;;x 
+EVTDESC64135;I want to give a special surprise to my loved one, what shall it be? A poem, telling of my deep love for [Root.GetHerHimOpp], finding the most beautiful flower in the forest to prove my love or maybe find a small trinket in the market for [Root.GetHerHimOpp] to treasure for ever?;;;;;;;;;x 
+EVTOPTA64135;I shall craft a love poem;;;;;;;;;x 
+EVTOPTB64135;I shall find the most beautiful flower in the forest;;;;;;;;;x 
+EVTOPTC64135;I shall buy something nice in the market;;;;;;;;;x 
+EVTDESC64140;This war is a necessary one, but the heart is aching worse than any wounds the war might inflict upon me, simply by being separated from my love. The camp has no lack in women willing to embrace those men who seek them out, and they might be able ease my pain, although for just a short while...;;;;;;;;;x 
+EVTOPTA64140;This war will deepen my love;;;;;;;;;x 
+EVTOPTB64140;I will resist Satan's temptations;;;;;;;;;x 
+EVTOPTC64140;Visiting some camp-followers should ease my pain;;;;;;;;;x 
+EVTTOOLTIP72052;You refusing more wine insults [This.GetTitledFirstName];;;;;;;;;x 
+EVTDESC72052;Everyone drank and were happy, except [From.GetTitledFirstName] who refused more wine! This insulting gesture means that [From.GetSheHe] does not appreciate my hospitality!;;;;;;;;;x 
+EVTOPTA72052;How dare [From.GetTitledFirstName] insult me!;;;;;;;;;x 
+EVTDESC72036;The duel was over when I reached them, [From.GetTitledFirstName]'s opponent lay wounded at his feet.;;;;;;;;;x 
+EVTOPTA72036;What on Earth have you done!;;;;;;;;;x 
+EVTOPTB72036;Excellent work!;;;;;;;;;x 
+EVTOPTC72036;Leave, now!;;;;;;;;;x 
+EVTTOOLTIP72036;[This.GetTitledFirstName] is notified about wounded opponent;;;;;;;;;x 
+EVTDESC72037;[From.GetTitledFirstName]'s maimed opponent tried to stand up when I reached them, but collapsed once again at [From.GetTitledFirstName]'s feet.;;;;;;;;;x 
+EVTOPTA72037;Don't just stand there, help him!;;;;;;;;;x 
+EVTOPTB72037;Your opponent surely deserved it;;;;;;;;;x 
+EVTOPTC72037;Leave my feast, now!;;;;;;;;;x 
+EVTTOOLTIP72037;[This.GetTitledFirstName] is notified about maimed opponent;;;;;;;;;x 
+EVTOPTA24505;Someone suspects I did not die naturally!;;;;;;;;;x 
+EVTTOOLTIP24506;reacts to the strange circumstances of [Root.GetTitledFirstName]'s death;;;;;;;;;x 
+#tp_wall_q_1;Church Moat;;;;;;;;;x 
+AT_WAR_WITH;At war with: ;;;;;;;;;x 
+ISNT_PRIMARY_HOLDER_TITLE_TIER;Is not same tier as primary title.;;;;;;;;;x 
+IS_PRIMARY_HOLDER_TITLE_TIER;Is same tier as primary title.;;;;;;;;;x 
+INTERACTION_REQUIRES_TPC_IS_ADULT;[ThirdPartyCharacter.GetBestName] must be an adult;;;;;;;;;x 
+EVTOPTA20370;Then use it as you see fit;;;;;;;;;x 
+EVTOPTB20370;It is just a rumor, let it be;;;;;;;;;x 
+EVTDESC70028;I was at the tournament and although I did not have an opportunity to distinguish myself in the melee, I was sitting around and listening to two knights plot together to advantage themselves in the next bought. I offered some advice, how was I supposed to know?;;;;;;;;;x 
+EVTOPTA70028;Oops;;;;;;;;;x 
+EVTDESC70001;It is time to let the tournament begin and for the next 2 months let all show their martial brilliance.;;;;;;;;;x 
+EVTDESC76000;Being male, unmarried and almost handsome in a court filled with young women who all seek your attention is not half bad. A particularly young wench, almost irresistible, desires the pleasure of my company...;;;;;;;;;x 
+EVTOPTA76000;Surely one night's passion won't tarnish my soul?;;;;;;;;;x 
+EVTOPTB76000;I won't soil my soul with a night of passion!;;;;;;;;;x 
+EVTDESC38287;My actions has killed a close relative of mine! I have gained the Kinslayer trait.;;;;;;;;;x 
+EVTDESC76005;My unwed daughter has been... indiscreet. She has been hiding her pregnancy from me and now presents me with her child.;;;;;;;;;x 
+EVTOPTA76005;Pay heavily to deal with it quietly;;;;;;;;;x 
+EVTTOOLTIP76006;Spymaster [Root.job_spymaster.GetTitledFirstName] advises you on how to deal with your daughter's bastard child;;;;;;;;;x 
+EVTOPTB76005;The child is of my blood and I will take care of both of them;;;;;;;;;x 
+EVTOPTC76005;Punish her harshly and give away the child!;;;;;;;;;x 
+EVTDESC76006;There are several ways to deal with this unfortunate situation,' Spymaster [Root.job_spymaster.GetTitledFirstName] told me when I asked [Root.job_spymaster.GetHerHim] for advice on how to deal with my daughter's bastard child...;;;;;;;;;x 
+EVTOPTA76006;Keep her hidden, then dispose of the child';;;;;;;;;x 
+EVTOPTB76006;Slay the father and take the child away';;;;;;;;;x 
+EVTOPTC76006;I don't want to know, just deal with it...;;;;;;;;;x 
+EVTTOOLTIP76007;Spymaster [This.GetTitledFirstName] takes care of the situation with your daughter's bastard child;;;;;;;;;x 
+EVTDESC76007;My liege [From.GetTitledFirstName] came to me, dragging [From.GetHerHis] daughter with [From.GetHerHim] with a newborn child in her arms.\n'I trust you to deal with my daughter's bastard child discreetly', [From.GetTitledFirstName] told me coldly and left [From.GetHerHis] daughter and her bastard child with me.;;;;;;;;;x 
+EVTOPTA76007;This is just part of my job;;;;;;;;;x 
+EVTTOOLTIP76008;[Root.GetTitledFirstName] failed to cover up [This.GetTitledFirstName]'s daughter's unwanted pregnancy.;;;;;;;;;x 
+EVTOPTB76007;What an interesting opportunity...;;;;;;;;;x 
+opinion_saved_me_and_child;Saved me and my child;;;;;;;;;x 
+EVTTOOLTIP76009;[Root.GetTitledFirstName] saved [This.GetTitledFirstName]'s daughter and her bastard child;;;;;;;;;x 
+EVTDESC76008;I trusted Spymaster [From.GetTitledFirstName] to deal with my daughter and her bastard child in a discreet manner but [From.GetSheHe] failed miserably!;;;;;;;;;x 
+EVTOPTA76008;Accuse Spymaster [From.GetTitledFirstName] of treason and imprison [From.GetHerHim];;;;;;;;;x 
+EVTOPTB76008;I confess my part of this blunder;;;;;;;;;x 
+EVTOPTC76008;I pardon everyone;;;;;;;;;x 
+EVTDESC76009;Despite my clear instructions on how to deal with my daughter and her bastard child, Spymaster [From.GetTitledFirstName] let them live!;;;;;;;;;x 
+EVTOPTA76009;As long as I don't get involved, again...;;;;;;;;;x 
+EVTDESC76010;'A bastard can cause a lot of trouble', insisted [Root.GetSpymasterName] [Root.job_spymaster.GetTitledFirstName] and advised me of a possible opportunity to get rid of the bastard in the court.;;;;;;;;;x 
+EVTOPTA76010;Go ahead, see if your plan works;;;;;;;;;x 
+EVTOPTB76010;I doubt the bastard child will cause any trouble;;;;;;;;;x 
+EVTDESC76015;A bastard son of mine petitioned me to recognize him as a legitimate heir.;;;;;;;;;x 
+EVTOPTA76015;Not a chance;;;;;;;;;x 
+EVTOPTB76015;I'm not sure you're worthy;;;;;;;;;x 
+EVTOPTC76015;I welcome you with open arms!;;;;;;;;;x 
+EVTDESC76020;Am I not all that any child could be? I should ask my father to be included in the succession!;;;;;;;;;x 
+EVTOPTA76020;I'll ask him right now;;;;;;;;;x 
+EVTTOOLTIP76021;[Root.GetTitledFirstName] asks [Root.GetHerHis] father [This.GetTitledFirstName] to legitimise [Root.GetHerHim];;;;;;;;;x 
+EVTOPTB76020;Why bother?;;;;;;;;;x 
+EVTDESC76021;My illegitimate [GetFromRelation] [From.GetTitledFirstName] asked me to acknowledge [From.GetHerHim] as my [GetFromRelation] and thus include [From.GetHerHim] in the succession.;;;;;;;;;x 
+EVTOPTA76021;Unthinkable!;;;;;;;;;x 
+EVTOPTB76021;I agree. You are a worthy heir;;;;;;;;;x 
+EVTDESC76022;I waited silently and patiently for my father [From.GetTitledFirstName] to answer my request to acknowledge me and include me in the succession. Finally, [From.GetTitledFirstName] answered...;;;;;;;;;x 
+EVTOPTA76022;...that it was unthinkable!;;;;;;;;;x 
+EVTOPTB76022;...that [From.GetSheHe] agreed and would legitimise me as [From.GetHerHis] child;;;;;;;;;x 
+opinion_crestfallen;Crestfallen;;;;;;;;;x 
+#EVTDESC5042;We started early, the sun had barely risen above the horizon. There was plenty of prey, the dogs caught many rabbits and I slew one great boar before he killed my horse and myself.;;;;;;;;;x 
+obj_become_exalted_desc;[This.GetTitledFirstName] wants [This.GetHerHis] name to live forever in the annals of history.;;;;;;;;;x 
+EVTDESC76025;Raising a child on your own is hard, but raising a bastard child is even harder. We are an embarrassment to our family and very few of them are willing to help us.;;;;;;;;;x 
+EVTOPTA76025;My father might be able to help us;;;;;;;;;x 
+EVTTOOLTIP76026;[Root.GetTitledFirstName]'s asks her father [This.GetTitledFirstName] to help her;;;;;;;;;x 
+EVTOPTB76025;I keep quiet and toil hard;;;;;;;;;x 
+EVTDESC76026;The embarrassment and black stain on our dynasty that is my daughter [From.GetTitledFirstName] and her bastard child asked me today to help her. I refuse to do this, blaming  the embarrassment that has been brought upon the family on...;;;;;;;;;x 
+EVTOPTA76026;...my daughter [From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB76026;...my daughter's bastard child;;;;;;;;;x 
+EVTOPTC76026;...the father of my daughter's bastard child;;;;;;;;;x 
+EVTTOOLTIP76027;The father, [This.GetTitledFirstName], is blamed;;;;;;;;;x 
+EVTTOOLTIP76028;The Grandfather, [This.GetTitledFirstName], is blamed for not raising his son properly;;;;;;;;;x 
+EVTDESC76027;[From.GetTitledFirstName] blames me for the difficult situation [From.GetHerHis] daughter is in, what with me being the father of her bastard child...;;;;;;;;;x 
+EVTOPTA76027;I am guilty;;;;;;;;;x 
+EVTOPTB76027;That has nothing to do with me!;;;;;;;;;x 
+EVTDESC76028;[From.GetTitledFirstName] blames me for the hopeless situation [From.GetHerHis] daughter is in, what with my son being the father of her bastard child...;;;;;;;;;x 
+EVTOPTA76028;I will take care of it;;;;;;;;;x 
+EVTOPTB76028;That has nothing to do with me, or my son!;;;;;;;;;x 
+EVTDESC76030;A dream is born and a sword sharpened...;;;;;;;;;x 
+EVTOPTA76030;The seed is planted;;;;;;;;;x 
+EVTDESC76035;The other children at court tease me relentlessly because I don't have a real father. I'm a bastard and they know it!;;;;;;;;;x 
+EVTOPTA76035;Fight them back!;;;;;;;;;x 
+EVTOPTB76035;Hide from them;;;;;;;;;x 
+EVTOPTC76035;Try to become friendly with them;;;;;;;;;x 
+EVTOPTD76035;Try to do bad things to them when they can't notice it's you;;;;;;;;;x 
+opinion_despised_fighting_bastard;Despised fighting bastard;;;;;;;;;x 
+opinion_despised_hiding_bastard;Despised hiding bastard;;;;;;;;;x 
+despised_bastard;Despised bastard;;;;;;;;;x 
+EVTDESC76040;People keep telling me I am a bastard but no one explains what it is! Maybe [Root.Guardian.GetTitledFirstName] knows?;;;;;;;;;x 
+EVTOPTA76040;What does 'bastard' means?;;;;;;;;;x 
+EVTTOOLTIP76041;[Root.GetTitledFirstName] asks [Root.GetHerHis] guardian [This.GetTitledFirstName] what being a bastard means;;;;;;;;;x 
+EVTDESC76041;[From.GetTitledFirstName] asked me while looking seriously at me with [From.GetHerHis] big, innocent eyes what being a 'bastard' actually means.;;;;;;;;;x 
+EVTOPTA76041;You are an abomination in the eyes of God;;;;;;;;;x 
+EVTOPTB76041;You will not inherit anything;;;;;;;;;x 
+EVTOPTC76041;You will make your own way in the world!;;;;;;;;;x 
+EVTDESC39000;The [Root.Religion.GetName] heresy has reared its ugly head in the province of [Root.GetName]!;;;;;;;;;x 
+EVTDESC39400;The [From.Religion.GetName] heresy has appeared in the province of [From.GetName]!;;;;;;;;;x 
+EVTOPTA39400;Horrible!;;;;;;;;;x 
+EVTDESC39401;Disturbing news! Heresy apparently appeared in a catholic province over two years ago and the ruler has done nothing!;;;;;;;;;x 
+EVTOPTA39401;Horrible! I will write to him.;;;;;;;;;x 
+EVTDESC20001;My [Root.GetTitle], I am pleased to report that the majority of the population in [From.Location.GetName] has been converted to the [From.Religion.GetName] faith!\nYour humble vassal\n[From.GetTitledName];;;;;;;;;x 
+EVTDESC39402;To find that you have a province in your demesne that has turned heretic is bad enough. But I am shocked to learn that you have let this situation be for over two years! This heresy must be rooted out.;;;;;;;;;x 
+EVTOPTA39402;I shall redouble my efforts;;;;;;;;;x 
+pope_disappointed_over_heretic_province;Allowing Heretic Province;;;;;;;;;x 
+demand_liege_title;Demand Duchy from Liege;;;;;;;;;x 
+demand_liege_title_desc;My liege holds a duchy that should rightfully be mine. I can present my demand, though it could be risky...;;;;;;;;;x 
+AIREASON_GOT_NO_REASON_TO_MOVE;No reason to move;;;;;;;;;x 
+NOT_PLAYER_HEIR_DESC;§Y$HEIR$§! is not §Y$RULER$'s§! Dynastic Heir. For players, this means Game Over.;;;;;;;;;x 
+DYNASTIC_HEIR;§YDynastic Heir§!;;;;;;;;;x 
+NOT_DYNASTIC_HEIR;§RNot Dynastic Heir!§!;;;;;;;;;x 
+PLAYER_HEIR_DESC;The Dynastic Heir is the legal successor to a character. If a player has no Dynastic Heir, the game will end. On succession, the Prestige and [Player.Religion.GetPietyName] of a character is carried over to the Heir in the form of Score.;;;;;;;;;x 
+BECOMES_EXCOMMUNICATED_EFFECT;Becomes Excommunicated\n;;;;;;;;;x 
+EXCOMMUNICATION_LIFTED_EFFECT;Excommunication Lifted\n;;;;;;;;;x 
+SUPPLY_TOTAL_MODIFIED;Final supply(rounded down): §Y$VALUE$§!;;;;;;;;;x 
+GAIN_ALL_OCCUPIED_TITLES_EFFECT;Takes occupied titles from $HOLDER$;;;;;;;;;x 
+TITLE_CREATION_KING_DESC;You need to control §Y$REQ_PERC$%§! of its de jure Counties to create this title. Currently, you control $PERC$ ($HELD$/§Y$ALL$§!). Creating this title would give you §G$PRESTIGE$§! Prestige and cost you §R$GOLD$§! Gold and §R$PIETY$§! $PIETYNAME$.;;;;;;;;;x 
+TITLE_CREATION_KING_COST_DESC;Creating this title would give you §G$PRESTIGE$§! Prestige and cost you §R$GOLD$§! Gold and §R$PIETY$§! $PIETYNAME$.;;;;;;;;;x 
+AMBITION_OPINION;Ambitious: $VALUE$;;;;;;;;;x 
+EVTDESC39403;Heresy has appeared in a catholic province. I will encourage the local ruler to swiftly deal with it.;;;;;;;;;x 
+EVTOPTA39403;I will write to him immediately.;;;;;;;;;x 
+EVTDESC39404;Troubling news have reached me about a heretic province in your demesne. I urge you to swiftly deal with this problem as this heresy must be rooted out!;;;;;;;;;x 
+EVTOPTA39404;I will strike at these heretics!;;;;;;;;;x 
+EVTOPTB39404;Peaceful conversion is a better way;;;;;;;;;x 
+#force_converting;Force Converting;;;;;;;;;x 
+heretic_stronghold;Heretic Stronghold;;;;;;;;;x 
+pope_heretic_removal_approve;Removed Heretic Advisor;;;;;;;;;x 
+pope_heretic_removal_disapprove;Refused to Remove Heretic Advisor;;;;;;;;;x 
+EVTDESC39410;There are rumors that one of the rulers of Christendom is employing a heretic in their court. This is not acceptable to the Church, and this earthly lord will surely be damned unless we intervene.;;;;;;;;;x 
+EVTOPTA39410;Demand that this advisor be imprisoned!;;;;;;;;;x 
+EVTDESC39441;I am most concerned that you allow heretics as your advisors. They should immediately be removed from position their position.;;;;;;;;;x 
+EVTOPTA39441;Imprison the heretic;;;;;;;;;x 
+EVTOPTB39441;I rule in my realm!;;;;;;;;;x 
+opinion_liege_has_heretic_advisor;Liege has Heretic Advisor;;;;;;;;;x 
+EVTDESC39445;My liege has a heretic as one of [Root.Liege.GetHerHis] advisors!;;;;;;;;;x 
+EVTOPTA39445;Shocking! I must send a complaint!;;;;;;;;;x 
+EVTOPTB39445;It is not of my concern;;;;;;;;;x 
+EVTDESC39446;My liege, I am shocked to find that you have appointed a heretic as one of your advisors.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTOPTA39446;That is too bad;;;;;;;;;x 
+AIREASON_POSITIVE_OPINION;Positive Opinion of §Y[GetTitledFirstName]§!;;;;;;;;;x 
+AIREASON_NEGATIVE_OPINION;Negative Opinion of §Y[GetTitledFirstName]§!;;;;;;;;;x 
+AIREASON_FREE_VS_PAPAL_INVEST;Target has Papal Investiture and you do not;;;;;;;;;x 
+INCLUDE_ALL_VASSALS;Include Lower Titles;;;;;;;;;x 
+opinion_repented_sins;Repented Sins;;;;;;;;;x 
+UNDER_CONSTRUCTION;Under Construction;;;;;;;;;x 
+UPGRADING_TO;Upgrading To:;;;;;;;;;x 
+CONSTRUCTION_STALLED;§RConstruction has stalled due to enemy occupation§!;;;;;;;;;x 
+GRANT_LANDED_TITLE_INTERACTION_6;Grant the §Y[ThirdPartyTitle.GetFullName]§W and all titles under it to §Y[Recipient.GetTitledFirstName]§W, increasing [Recipient.GetPossPronoun] opinion of you by §G$OPINION$§W.;;;;;;;;;x 
+desc_job_chancellor;The §Y$JOB$§! is your advisor on matters of diplomacy. The position is traditionally considered the highest on the council.;;;;;;;;;x 
+desc_job_marshal;The §Y$JOB$§! is the councillor in charge of the military. When the ruler cannot or will not command armies, the §Y$JOB$§! will do it.;;;;;;;;;x 
+desc_job_treasurer;The §Y$JOB$§! helps you collect taxes and administer your demesne.;;;;;;;;;x 
+desc_job_spymaster;§Y$JOB$§! is an unofficial position on the council. The office holder is responsible for all matters of intrigue and skullduggery.;;;;;;;;;x 
+desc_job_spiritual;The §Y$JOB$§! is your personal advisor on matters of the faith, but does not necessarily have to belong to the clergy.;;;;;;;;;x 
+job_spiritual_pagan_group;Chief Diviner;;;;;;;;;x 
+job_spiritual_christian;Court Chaplain;;;;;;;;;x 
+job_chancellor_arabic;Grand Vizier;;;;;;;;;x 
+EVTTOOLTIP63053;is set free;;;;;;;;;x 
+religious_tension;Religious Tension;;;;;;;;;x 
+PEACE_DEMAND;Enforce Demands;;;;;;;;;x 
+PEACE_WHITEPEACE;Offer White Peace;;;;;;;;;x 
+REL_HEAD_SUCCESSION_SETUP;A New Religious Head;;;;;;;;;x 
+ANTI_POPE_CREATION_SETUP;An Anti-Pope;;;;;;;;;x 
+ANTI_POPE_CESSATION_SETUP;Anti-Papacy Ends;;;;;;;;;x 
+WE_JOIN_A_WAR_SETUP;We join a War;;;;;;;;;x 
+CHAR_EDUCATED_LOG;§Y$NAME$§! is now of legal age. $PRONOUN$ became a §Y$TRAIT$§!.;;;;;;;;;x 
+BASE_TROOP_VALUE;Base Levy size: $VALUE$;;;;;;;;;x 
+MODIFIED_TROOP_VALUE;Final Levy size: §Y$VALUE$§!;;;;;;;;;x 
+BASE_TROOP_VALUE_TYPE;Base $TYPE$: $VALUE$;;;;;;;;;x 
+FINAL_TROOP_VALUE_TYPE;Final $TYPE$: §Y$VALUE$§!;;;;;;;;;x 
+FINAL_TROOP_VALUE_TYPE_TOTAL;Final $TYPE$ based on Levy size($LEVY$): §Y$VALUE$§!;;;;;;;;;x 
+EVTDESC70032;I was simply passing time at the tournament when I saw two knights argue over honor. I knew straight away that the argument was spurious and the result would be unnecessary bloodshed. I attempted to mediate the dispute and they told me that at least one of the knights should survive the resulting duel.;;;;;;;;;x 
+stop_commerce;Stopped commerce in all Church Squares;;;;;;;;;x 
+prima_noctae;Prima Noctae;;;;;;;;;x 
+peasants_forbidden_sale;Peasants are forbidden to sell goods within City walls;;;;;;;;;x 
+clergy_extra_tithe;The Church collect an extra tithe on free peasants;;;;;;;;;x 
+LAW_CHANGE_NO_CIVIL_WAR;Not in a Civil War;;;;;;;;;x 
+#EVTOPTA75031;Give a stern talking to [Root.GetChancellorName] [This.GetTitledFirstName];;;;;;;;;x 
+c_carcassonne_adj;Carcassonian;;;;;;;;;x 
+EVTDESC77000;Fish! Fresh fish straight from the river!' 'Fruits and vegetables, a day or two old!\n\nThe clergy in [Root.GetName] is not happy about the merchants setting up stalls in all the Church squares, and demands that it be forbidden.;;;;;;;;;x 
+EVTOPTA77000;I agree;;;;;;;;;x 
+EVTOPTB77000;They do no harm, let them stay;;;;;;;;;x 
+EVTDESC77001;The burghers of [Root.GetName] demand that city law be set higher than canonical laws but the bishops protest, declaring that the law of the Church should supersede the law of the city.;;;;;;;;;x 
+EVTOPTA77001;I agree with the burghers;;;;;;;;;x 
+EVTOPTB77001;The laws should be equal;;;;;;;;;x 
+EVTDESC77002;An old legal right, almost forgotten by all but the barons, called Prima Noctae or Droit du Seigneur, is the subject of a heated debate. The barons in [Root.GetName] claim that it is their right to take the virginity of their serfs' maiden daughters and the serfs are protesting against 'such a barbaric right!'.;;;;;;;;;x 
+EVTOPTA77002;Let the barons have some fun;;;;;;;;;x 
+EVTOPTB77002;That isn't and shouldn't be legal. I forbid it;;;;;;;;;x 
+EVTDESC77003;They come from smaller farms, some with a goat or a pig to sell, some with only a bushel of vegetables or fruits, others with a whole wagon of produce. The peasants sell their produce inside the city walls but the burghers protest against it and want to forbid it.;;;;;;;;;x 
+EVTOPTA77003;The peasants always cause trouble. Don't let them in!;;;;;;;;;x 
+EVTOPTB77003;They should be able to sell their produce inside the city;;;;;;;;;x 
+EVTDESC77004;The forest is not big enough for the barons. They demand hunting rights on the Church lands after chasing all the game to the Church's side of the forest and having to stop the hunt unless they'd risk the anger of the Church.;;;;;;;;;x 
+EVTOPTA77004;It's not a big deal. Let them hunt on the Church land.;;;;;;;;;x 
+EVTOPTB77004;Stay on your side of the forest!;;;;;;;;;x 
+EVTDESC77005;The clergy is not satisfied with collecting a tithe from all free peasants, they demand the right to collect an extra tithe! A tithe is a tenth of the peasant's harvest or a tenth of the craftsmen's production, if the priests were allowed to collect another tithe it would double the taxes and thus make the peasants protest wildly.;;;;;;;;;x 
+EVTOPTA77005;An extra tithe? Sure!;;;;;;;;;x 
+EVTOPTB77005;The peasants would starve, I won't allow it;;;;;;;;;x 
+EVTDESC77006;Rich merchants want to buy titles and the Barons protest, saying their titles are priceless. Mere merchant should not be allowed to gain the noble rights just because they can afford it!;;;;;;;;;x 
+EVTOPTA77006;As long as I get paid, I couldn't care less;;;;;;;;;x 
+EVTOPTB77006;Titles cannot be bought;;;;;;;;;x 
+EVTDESC77007;The Burghers, the Clergy and the barons all claim the right to spoils from shipwrecks that capsize outside of [Root.GetName]. The rights to the spoils will be given to...;;;;;;;;;x 
+EVTOPTA77007;...the Church;;;;;;;;;x 
+EVTOPTB77007;...the Commoners;;;;;;;;;x 
+EVTOPTC77007;...the Nobility;;;;;;;;;x 
+EVTOPTD77007;...the Crown;;;;;;;;;x 
+EVTDESC72120;The travelling dancers first danced for us and, while dancing to a fast and glad tune which made me want to dance, invited everyone to join them. I danced until I panted and my face was red, then I had to sit down and rest for a while, watching the dancers and the courtiers having more fun than in a long time...;;;;;;;;;x 
+EVTOPTA72120;I'd like to hire you for my feast!;;;;;;;;;x 
+EVTOPTB72120;Great fun, but my guests are too old for this;;;;;;;;;x 
+e_timurids;Timurids;;;;;;;;;x 
+e_timurids_adj;Timurid;;;;;;;;;x 
+TITLE_CANNOT_GAIN_INDEPENDENCE;Cannot create or usurp a title of the same or higher rank as our liege's;;;;;;;;;x 
+HAS_CROWN_LAW_TITLE;Affected by a Crown Law title;;;;;;;;;x 
+HAS_NOT_CROWN_LAW_TITLE;NOT Affected by a Crown Law title;;;;;;;;;x 
+EVTNAME60003;The Iron Khan;;;;;;;;;x 
+EVTDESC60003;My liege, the great Khan Timur has gathered many of the horse clans of Central Asia under his banner, intent on creating an empire to rival that of the legendary Genghis Khan himself. His fearsome horde has been sighted in Khiva, poised to overrun the ancient realm of Persia.;;;;;;;;;x 
+EVTOPTB60003;Is there no end to these steppe warriors?;;;;;;;;;x 
+amphibious_landing;Amphibious landing;;;;;;;;;x 
+ACHIEVEMENTS_ENABLED;Achievements enabled;;;;;;;;;x 
+ACHIEVEMENTS_DISABLED;Achievements disabled;;;;;;;;;x 
+MORALE_EFFECT;$SIDE$ troops gets $PERC$ morale.\n;;;;;;;;;x 
+REINFORCE_EFFECT;$SIDE$ troops are reinforced by $PERC$.\n;;;;;;;;;x 
+INVERTREINFORCE_EFFECT;$SIDE$ troops take $PERC$ losses.\n;;;;;;;;;x 
+FLANK_SIDE_ATTACKER;Attacking;;;;;;;;;x 
+FLANK_SIDE_DEFENDER;Defending;;;;;;;;;x 
+CANNOT_ACTUALLY_CALL_DESC_3;$CHAR$ cannot join any of the current wars fought by $CALLER$;;;;;;;;;x 
+ASK_FOR_INVASION_INTERACTION_DESC;Ask §Y[Recipient.RelHead.GetTitledFirstName]§W for permission to invade the realm of §Y[Recipient.GetTitledFirstName]§W. This will cost you §R[GetPietyCost]§W [Player.Religion.GetPietyName], but will allow you to start a war for control of the §Y[Recipient.PrimaryTitle.GetFullName]§W.;;;;;;;;;x 
+ASK_FOR_INVASION_INTERACTION_0;Ask §Y[Recipient.GetTitledFirstName]§W for permission to invade the realm of §Y[ThirdPartyCharacter.GetTitledFirstName]§W. This will cost you §R[GetPietyCost]§W [Player.Religion.GetPietyName], but will allow you to start a war for control of the §Y[ThirdPartyCharacter.PrimaryTitle.GetFullName]§W.;;;;;;;;;x 
+OTHER_WAR_ENDS_SETUP;A War you were NOT part of ends;;;;;;;;;x 
+OTHER_WAR_ENDS_LOG;The §Y$WAR$§! has ended: $OUTCOME$;;;;;;;;;x 
+CONFIRM_CANCEL_AMBITION_TITLE;Abandon Ambition;;;;;;;;;x 
+CONFIRM_CANCEL_AMBITION_DESC;Abandon the ambition to $PLOT$?;;;;;;;;;x 
+#CONFIRM_CANCEL_PLOT_TITLE;Cancel Plot;;;;;;;;;x 
+#CONFIRM_CANCEL_PLOT_DESC;Cancel my plot to $PLOT$?;;;;;;;;;x 
+CANNOT_CANCEL_ACTIVE_PLOT;§RCannot cancel a plot that has been set in motion!§!;;;;;;;;;x 
+EVTDESC3085;We are taught that to uphold the virtue of charity, we have to ransom our prisoners, and to forgive offenses willingly. I have prisoners in my dungeons...;;;;;;;;;x 
+EVTDESC69071;I gave a small shriek when [From.GetTitledFirstName] touched my arm, which didn't really help when I tried to defend myself from [From.GetHerHis] accusations about my cowardice...;;;;;;;;;x 
+CANNOT_CHANGE_ANOTHER_LAW;$RULER$ cannot change another regular Law in $TITLE$ until $DATE$;;;;;;;;;x 
+#EVTDESC20061;My liege, my mission to [FromFrom.Location.GetName] has so far been a success! During my visit to the court of [From.GetBestName], I seem to have managed to make [From.GetHerHim] understand what a benevolent and pious ruler you really are and [From.GetSheHe] sends [From.GetHerHis] regards.\n\nYour humble Lord Spiritual,\n[Root.job_spiritual.GetTitledName];;;;;;;;;x 
+#LOADING_TIP_28;Sending gifts to Bishops will increase your Piety.;;;;;;;;;x 
+LOADING_TIP_29;You gain more Prestige in battle as an ally than as a primary participant.;;;;;;;;;x 
+LOADING_TIP_30;Hold down shift while giving orders to a unit to create a custom path.;;;;;;;;;x 
+alert_allies_not_called_in_instant;§YWe can call in Allies§!;;;;;;;;;x 
+alert_allies_not_called_in_delayed;We can ask the following allies to support us:\n$LIST$;;;;;;;;;x 
+alert_vassal_levies_raised_long_instant;§YVassal Levies Raised too Long§!;;;;;;;;;x 
+alert_vassal_levies_raised_long_delayed;The following Vassals are upset about their levies:\n$LIST$;;;;;;;;;x 
+alert_owns_wrong_settlement_type_instant;§YWrong type of Holding in Demesne§!;;;;;;;;;x 
+alert_owns_wrong_settlement_type_delayed;The following Holdings are of the wrong type:\n$LIST$;;;;;;;;;x 
+PREV_PROVINCE;Switch to the previous holding in this demesne;;;;;;;;;x 
+NEXT_PROVINCE;Switch to the next holding in this demesne;;;;;;;;;x 
+OUTLINER_BUTTON_CONFIG;Open outliner category configuration;;;;;;;;;x 
+OUTLINER_BUTTON_LOCK;Lock/Unlock outliner openness;;;;;;;;;x 
+OUTLINER_BUTTON_TOGGLE;Toggle the outliner open/close;;;;;;;;;x 
+#OPINION_CHANGE;§Y$ACTIVE$'s§! opinion of §Y$PASSIVE$§! changed by $MUCH$.\n;;;;;;;;;x 
+opinion_increased_authority;Increased Crown Authority;;;;;;;;;x 
+ALL_DE_JURE_VASSALS;All De Jure Vassals;;;;;;;;;x 
+ALL_DE_JURE_VASSAL_TITLES;All De Jure Vassal Titles;;;;;;;;;x 
+NOT_WHILE_HOSTILE;They are our enemies!;;;;;;;;;x 
+d_capua;Capua;;;;;;;;;x 
+d_capua_adj;Capuan;;;;;;;;;x 
+AI_WE_HAVE_TOTAL_VICTORY;'I have won a complete victory';;;;;;;;;x 
+AI_GOOD_FOR_US;'I like the way you're thinking';;;;;;;;;x 
+AI_WE_HAVE_WON;'I have won the war!';;;;;;;;;x 
+AI_WE_ARE_WINNING;'I'm winning the war';;;;;;;;;x 
+AI_WE_ARE_STALEMATE;'The war is indecisive';;;;;;;;;x 
+AI_WE_WONT_GIVEUP_YET;'I still have untouched armies and holdings';;;;;;;;;x 
+#AI_WE_ARE_LOSING;'I'm losing, but won't give up yet...';;;;;;;;;x 
+AI_WE_ARE_ACCEPTING_WHITEPEACE;'I accept your offer of a white peace';;;;;;;;;x 
+AI_WE_ARE_BEATEN;'I have lost the war...';;;;;;;;;x 
+ATTACKTHEM_LOG;We have attacked the enemy in $PROVINCE$.;;;;;;;;;x 
+ATTACKUS_LOG;We have been attacked in $PROVINCE$.;;;;;;;;;x 
+SIEGEUS_LOG;Our holding in $PROVINCE$ is under siege.;;;;;;;;;x 
+SIEGETHEM_LOG;We have laid siege to the holding in $PROVINCE$.;;;;;;;;;x 
+CONFIRM_DISBAND_DESC2;Due to enemy presence in our homelands, only $NUM$ of $TOTAL$ troops will be able to return home.;;;;;;;;;x 
+CONFIRM_DISBAND_DESC5;Due to not being in friendly territory, only $NUM$ of $TOTAL$ troops will be able to return home.;;;;;;;;;x 
+CONFIRM_DISBAND_DESC3;Due to not being in a friendly port, only $NUM$ of $TOTAL$ ships will be able to return home.;;;;;;;;;x 
+CONFIRM_DISBAND_DESC4;The $NAME$ will stand down and all ships will return home.;;;;;;;;;x 
+RULER_STEWARDSHIP_BONUS;Ruler Stewardship Bonus;;;;;;;;;x 
+EVTDESC3525;I tried to not show how flattering it was to be asked about celibacy and if I had some sort of advice. Unfortunately, I had not the time to talk about right now...;;;;;;;;;x 
+EVTOPTA3525;Maybe tomorrow?;;;;;;;;;x 
+EVTOPTB3525;...or ever!;;;;;;;;;x 
+EVTOPTC3525;I only do it because I fear God's wroth!;;;;;;;;;x 
+EVTDESC3530;A celibate life can be hard, but I fear life is harder for one of my courtiers whose sins our confessor often attack during his sermons. The poor sod's vices and lusts is controlling him and I don't envy him his time in purgatory.;;;;;;;;;x 
+EVTOPTA3530;I should be a good [Root.Religion.GetName] and help him;;;;;;;;;x 
+EVTOPTB3530;His sins are his own, no one can help him;;;;;;;;;x 
+EVTOPTA3531;Not one more time!!;;;;;;;;;x 
+the_flagellant;The Flagellant;;;;;;;;;x 
+the_flagellant_desc;Flagellants mortify their own flesh by whipping it;;;;;;;;;x 
+EVTDESC3535;Every other day, processions with people singing, carrying crosses and whipping themselves are marching through [Root.Location.GetName]. They ask to be forgiven for sins they have committed and believe the flagellation to work better than any other penance.;;;;;;;;;x 
+EVTOPTA3535;I will join them and my sins will be forgiven!;;;;;;;;;x 
+EVTTOOLTIP3536;will join the flagellants;;;;;;;;;x 
+EVTOPTB3535;Isn't there a less painful way to be forgiven?;;;;;;;;;x 
+EVTDESC3536;We walked through the village, lashing our skins with whips for every step we took. As a [Root.GetTitle] this felt slightly humiliating but I stood tall and continued my pilgrimage together with my fellow flagellants.;;;;;;;;;x 
+EVTOPTA3536;I deserve this;;;;;;;;;x 
+EVTTOOLTIP3537;note [Root.GetTitledFirstName]'s attempt at penance;;;;;;;;;x 
+EVTDESC3537;[From.GetTitledFirstName] walked together with the others through the streets of [From.Location.GetName], praying and flagellating [From.GetHerselfHimself] with a cattail whip made of knotted cords.;;;;;;;;;x 
+EVTOPTA3537;What an admirable [From.GetManWoman]!;;;;;;;;;x 
+EVTTOOLTIPA3538;[This.GetTitledFirstName] is admired by [Root.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB3537;That's idiotic!;;;;;;;;;x 
+EVTDESC3538;Even before [From.GetTitledFirstName] opened [From.GetHerHis] mouth, I knew [From.GetSheHe] would comment on the pilgrimage I took while flagellating myself.;;;;;;;;;x 
+EVTOPTA3538;[From.GetSheHeCap] thinks I'm admirable!;;;;;;;;;x 
+EVTOPTB3538;[From.GetSheHeCap] thinks I'm an idiot!;;;;;;;;;x 
+#ct_training_grounds_1;Primitive Militia Training Grounds;;;;;;;;;x 
+EVTOPTD3550;I'll sell those books I've already read;;;;;;;;;x 
+EVTOPTA3555;My [Root.Spouse.GetFirstName] of course!;;;;;;;;;x 
+EVTDESC3559;[From.GetTitledFirstName] had a huge rose pinned to [From.GetHerHis] clothes and as soon as I saw it I realized it couldn't have come from any place else than [Root.Spouse.GetFirstName]'s garden. I wanted to rip the rose off [From.GetTitledFirstName] and yell at [From.GetHerHim] for having an affair with my spouse, but I controlled myself and turned away.;;;;;;;;;x 
+EVTOPTA3559;I have had enough!;;;;;;;;;x 
+EVTOPTB3559;Why didn't [Root.Spouse.GetFirstName] give the rose to me?;;;;;;;;;x 
+EVTOPTC3559;It hurts, but [Root.Spouse.GetSheHe] didn't intend it to be a token of love. I hope...;;;;;;;;;x 
+EVTDESC38188;[FromFrom.GetTitledFirstName] has lost the joy of life. [FromFrom.GetSheHeCap] has gained the Depressed trait.;;;;;;;;;x 
+EVTDESC38288;I have lost the joy of life. I have gained the Depressed trait.;;;;;;;;;x 
+EVTDESC38289;My lovely garden does not bring me as much joy as it used to do. I have lost the Gardener trait.;;;;;;;;;x 
+EVTDESC38190;[FromFrom.GetTitledFirstName] is feverish and has a headache. [FromFrom.GetSheHeCap] has gained the Ill trait.;;;;;;;;;x 
+EVTDESC38290;I don't feel so good. I have gained the Ill trait.;;;;;;;;;x 
+EVTDESC74050;I have given the order that a summer fair should be held in [Root.Capital.GetName] this summer!;;;;;;;;;x 
+EVTOPTA3568;Might be easier to remove it if I ask someone to help me;;;;;;;;;x 
+EVTOPTB3568;I'll ask my child to help me;;;;;;;;;x 
+EVTOPTC3568;[Root.Spouse.GetFirstName] can help me;;;;;;;;;x 
+EVTTOOLTIP3569;[This.GetTitledFirstName] is asked to help remove the beehive;;;;;;;;;x 
+EVTOPTD3568;I'll do it myself. This might hurt...;;;;;;;;;x 
+EVTDESC3569;I was asked by [From.GetTitledFirstName] to help [From.GetHerHim] remove a beehive and I reluctantly followed [From.GetHerHim] to take a look at it before I made any rash promises.;;;;;;;;;x 
+EVTOPTA3569;It looks rather harmless. I'll help you;;;;;;;;;x 
+EVTOPTB3569;This is as close as I'll get to that monstrosity!;;;;;;;;;x 
+EVTDESC3670;With [From.GetTitledFirstName]'s help it was easy to remove the beehive, until we dropped it on the ground...;;;;;;;;;x 
+EVTOPTA3670;None of us were harmed but the bees wasn't happy...;;;;;;;;;x 
+EVTOPTB3670;The bees managed to sting [From.GetTitledFirstName] several times!;;;;;;;;;x 
+EVTOPTC3670;The bee sting made [From.GetTitledFirstName] ill;;;;;;;;;x 
+EVTDESC3671;I had to remove the beehive all by myself when [From.GetTitledFirstName] refused to go near it. It looked harmless but [From.GetTitledFirstName] was sweating and looked as if [From.GetSheHe] would faint at any time.;;;;;;;;;x 
+EVTOPTA3671;Coward! It's your fault if the bees sting me;;;;;;;;;x 
+EVTDESC3585;My alchemy 'kit' arrived with a small book, containing instructions for how to mix different substances without causing things to explode or start burning. It might be a good idea to read the book before fiddling with the alchemical ingredients...;;;;;;;;;x 
+EVTOPTA3585;Nah, I start fiddling with it at once;;;;;;;;;x 
+EVTTOOLTIPA3586;starts fiddling with alchemy without any prior knowledge;;;;;;;;;x 
+EVTOPTB3585;Read up on alchemy first;;;;;;;;;x 
+EVTTOOLTIPB3586;researches alchemy before fiddling with it;;;;;;;;;x 
+EVTOPTC3585;I should be careful. I still remember what happened to my uncle...;;;;;;;;;x 
+EVTDESC3586;The liquid dripped through the labyrinth of glass bottles blown in various forms and sizes. As it reached the end of the funnel, a drop of the liquid quivered on the edge before it slowly fell towards the awaiting bowl.;;;;;;;;;x 
+EVTOPTA3586;Careful now...;;;;;;;;;x 
+EVTTOOLTIP3587;Exploding Experiment!;;;;;;;;;x 
+EVTTOOLTIP3588;Lead and Gold!;;;;;;;;;x 
+EVTDESC3587;As the liquid slowly but steadily dripped into the bowl I waited eagerly for the substance to cool down. When finally every last drop was in the bowl darkness enveloped the castle and I had to light a candle to properly examine the liquid, which exploded.;;;;;;;;;x 
+EVTOPTA3587;What will [Root.Spouse.GetFirstName] say when [Root.Spouse.GetSheHe] sees my face?;;;;;;;;;x 
+EVTOPTB3587;My eyebrows!;;;;;;;;;x 
+EVTDESC3588;The disappointment I felt when the liquid solidified was quickly replaced by joy when I realized that, instead of a Philosopher's Stone, I had created...;;;;;;;;;x 
+EVTOPTA3588;Gold! I have created gold!;;;;;;;;;x 
+EVTDESC3590;This illness is slowly killing me, sucking the life out of my bones and brain. Being a mystic I have knowledge of a potion rumored to cure any illness but even as I prepare the potion I fear it might kill me instead of curing me...;;;;;;;;;x 
+EVTOPTB3590;I throw the potion away. I trust [Root.Religion.GetRandomGodName] will cure me!;;;;;;;;;x 
+EVTOPTC3590;A real doctor should be able to make me better;;;;;;;;;x 
+EVTDESC3594;I am desperate for a cure, the sickness seems to get worse for every day. I heard [From.GetTitledFirstName] had concocted something that [From.GetSheHe] said could cure all illnesses.;;;;;;;;;x 
+EVTOPTB3593;My child is sick, the potion might cure it;;;;;;;;;x 
+EVTOPTC3593;My spouse [Root.Spouse.GetFirstName] is sick...;;;;;;;;;x 
+EVTOPTD3593;I don't dare let anyone try it;;;;;;;;;x 
+EVTOPTA3610;So be it!;;;;;;;;;x 
+EVTTOOLTIP3611;[This.GetTitledFirstName] is threatened with torture;;;;;;;;;x 
+EVTDESC75065;[Root.job_treasurer.GetTitledFirstName]'s justice has brought peace to a troubled province. Fewer crimes are committed and fewer complaints are heard in the province. The peasants have never been happier!;;;;;;;;;x 
+opinion_count_wrong_gov_vs_liege;Wrong Government Type;;;;;;;;;x 
+opinion_excom_lifted;Lifted Excommunication;;;;;;;;;x 
+CHAR_RELATION_CLOSE_DYNASTY;§Y$NAME$§! is a close member (§Y$REL$§!) of your Dynasty;;;;;;;;;x 
+opinion_discovered_plotting;Discovered Backing a Plot;;;;;;;;;x 
+STOP_BACKING_AMBITION_INTERACTION_0;Ask that §Y[Recipient.GetBestName]§W stop backing a plot.;;;;;;;;;x 
+STOP_BACKING_AMBITION_INTERACTION_1;Ask that §Y[Recipient.GetTitledFirstName]§! stop backing §Y[ThirdPartyCharacter.GetTitledFirstName]'s§! plot to §Y$PLOT_NAME$§!.;;;;;;;;;x 
+STOP_BACKING_AMBITION_INTERACTION_2;If [Recipient.GetSubjectPronoun] refuses, we have a reason to imprison [Recipient.GetObjectPronoun].;;;;;;;;;x 
+temple_tax_0_option;None;;;;;;;;;x 
+feudal_tax_1;Small Feudal Tax;;;;;;;;;x 
+feudal_tax_2;Large Feudal Tax;;;;;;;;;x 
+feudal_tax_3;Harsh Feudal Tax;;;;;;;;;x 
+EVTOPTA70021;Glory to me;;;;;;;;;x 
+EVTOPTA20291;I must report this to my liege!;;;;;;;;;x 
+EVTOPTA20292;Expose [FromFrom.GetHerHim] immediately!;;;;;;;;;x 
+EVTOPTA3657;[From.GetTitledFirstName] was not impressed;;;;;;;;;x 
+EVTOPTB3657;[From.GetTitledFirstName] was really scared!;;;;;;;;;x 
+EVTOPTC3657;[From.GetTitledFirstName] was angry at me!;;;;;;;;;x 
+EVTDESC3607;It was horrifying but oddly satisfying to watch [From.GetTitledFirstName] demonstrate [From.GetHerHis] skills on a recently captured traitor. After demonstrating how much pain [From.GetSheHe] could cause before the man passed out, [From.GetSheHe] taught me how to cause maximum pain and damage but still keep the victim alive for several days, or even weeks.;;;;;;;;;x 
+EVTOPTB3610;A great opportunity to test the brazen bull!;;;;;;;;;x 
+EVTOPTC3610;What is wrong with me? This isn't who I am!;;;;;;;;;x 
+EVTDESC38291;I am no longer able to torture another human being, no matter the reason. I have lost the Impaler trait.;;;;;;;;;x 
+EVTOPTC3611;No, no, not the brazen bull!;;;;;;;;;x 
+EVTOPTD3611;Not even the brazen bull can make me confess!;;;;;;;;;x 
+EVTOPTB3615;...or maybe we should share a less bloody interest;;;;;;;;;x 
+EVTDESC38292;I used to love the clang of a sword's blade against another and the satisfaction I felt after defeating my opponent. Not anymore. I have lost the Duelist trait;;;;;;;;;x 
+EVTOPTA3625;Do you dare accept this challenge to a duel?;;;;;;;;;x 
+EVTOPTB3625;I'm sorry! I don't want to fight!;;;;;;;;;x 
+EVTOPTB3630;I have tired of this. Next time, I won't accept the challenge!;;;;;;;;;x 
+EVTOPTB3635;Please don't hit me!;;;;;;;;;x 
+EVTOPTC3625;Marshal [Root.job_marshal.GetTitledFirstName], take care of this duel for me!;;;;;;;;;x 
+EVTDESC38293;The animals in the forest will from now on be safe from my bloodlust. I have lost the Hunter trait.;;;;;;;;;x 
+EVTOPTD3650;I'll ask my son to take care of the boar;;;;;;;;;x 
+EVTDESC3655;I overheard a conversation between two courtiers, they discussed how some in the court feared the Wild Hunt and laughed at how superstitious some can be. I decided to look into this and find out who this superstitious mind belonged to. Maybe I can have some fun with this fear of the Wild Hunt?;;;;;;;;;x 
+EVTOPTF3655;A child of mine is afraid of the Wild Hunt!;;;;;;;;;x 
+SAVEQUIT_TITLE;Save & Quit;;;;;;;;;x 
+SAVEQUIT_DESC;Are you sure you want to Save & Quit to desktop?;;;;;;;;;x 
+MENU_BAR_SAVE_AND_EXIT;Save & Quit;;;;;;;;;x 
+MENU_BAR_SAVE_AND_EXIT_DEL;Does a Quick Save and then quits the game;;;;;;;;;x 
+FE_EXIT;Quit;;;;;;;;;x 
+NO_CREATE_BARON;Can only create barons in owned, minor baronies;;;;;;;;;x 
+tut_0a_4;The realm view is where you can get a quick overview of your realm. Your vassals, economy, history and more. Click on the shield next to the portrait to find it. You can click the 'De Jure' checkbox to see the regions that are tied to your title by bonds that will never break.;;;;;;;;;x 
+tut_0a_13;Piety. How the church sees you. Hover over the sum to see monthly gain or loss. Hover longer to see exactly what the sources are. You can also gain or lose piety from actions.;;;;;;;;;x 
+tut_0a_17;Score. This is your dynasty's total score. The score is calculated by adding the prestige and piety of each of your rulers at the time of their death. This will determine your final rank.;;;;;;;;;x 
+tut_0a_23;For different types of information, there are different map modes. We are in the terrain map mode right now. The independent map mode paints the name of the countries neatly over the map. If you zoom further in, the name of the individual provinces will pop up instead. Switch to the independent realms map mode now to see more defined borders.;;;;;;;;;x 
+tut_0a_25;The game starts paused. You can do all of the aforementioned actions while the game is paused or unpaused. However, nothing will actually happen until you unpause.;;;;;;;;;x 
+tut_0a_31;Alerts. These round icons show important things that need an action from you. It can be related to, for example, succession or diplomacy. Keeping an eye on them can make or break your fortunes, so ignore at your peril!;;;;;;;;;x 
+#tut_1a_3;Provinces owned by religious holders, like bishops, will only give you money if their opinions of you are higher than their opinion of the Pope. Otherwise the money goes to him. Vassals other than bishops will always give you money, but you will get more if they like you.;;;;;;;;;x 
+tut_2a_2;A ruler does not rule alone. You have access to five types of advisors that help you. The first advisor is the chancellor, who assists your ruler in the diplomatic field. Further you have the marshal, who is your resident military expert. Then you have the steward, who is in charge of your economy. The spymaster is responsible for keeping you safe from internal as well as external intrigue, and the chaplain is your guide in everything spiritual.;;;;;;;;;x 
+tut_2a_3;These vassals can perform missions for you. The chancellor can for example forge claims on foreign lands, while the steward can bolster taxes, all for the benefit of your dynasty! They also add their stats to yours.;;;;;;;;;x 
+tut_3a_2;Succession laws are what determines who you will play as next and what they will inherit. The most common start is that your eldest son will inherit most of your titles while your younger son(s) also gets their share. This kind of inheritance is called gavelkind.;;;;;;;;;x 
+#tut_4a_4;To get started, right click your half-brother, Earl Miles of Atholl. You will find him at the bottom left of the family tab, under the header 'siblings'. You will see two icons. The left one will take you to his character screen. The right one is for diplomacy actions though, so click that. (The portrait you see here is just an example, not the actual Earl.);;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+#tut_1b_3;To prevent this from happening, make sure you keep under your demesne limit by handing out landed titles to your vassals. Click the realm view to continue.;;;;;;;;;x 
+#tut_1b_4;Realm View;;;;;;;;;x 
+#tut_1b_4;Settlements;;;;;;;;;x 
+#tut_1b_4;Now, click a province to continue.;;;;;;;;;x 
+#tut_1b_4;Settlements;;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+tut_4a_2;Diplomacy is what we call the interactions between characters. It can be to start wars or send a child off to be educated. Now, to find a number of characters who you can use different diplomatic options on, click the ruler portrait to continue.;;;;;;;;;x 
+#tut_4a_4;To get started, right click your brother, Earl Máel Muire of Atholl. You will see two icons. The left one will take you to his character screen. The right one is for diplomacy related actions though, so click that. (The portrait you see here is just an example, no the actual Earl.);;;;;;;;;x 
+#tut_4c_9;The first one, Mathilde, is a duchess of Toscana, duchess of Spoleto and heir to the county of Firenze. Not too shabby, let's go with her. Click her portrait to continue.;;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+tut_5a_9;This time, also let's raise some levies from a vassal. If you were going to war, you'd probably like to raise all available levies using the button towards the top. For this exercise we just need a few though, so raise the personal levies of the Earl of Fife.;;;;;;;;;x 
+tut_5a_11;To gather them all in one place, select the new troops by clicking their shield and move them to the first troop by right clicking on the province. Unpause to continue.;;;;;;;;;x 
+tut_5a_12;Merge;;;;;;;;;x 
+#tut_5a_13; As soon as the second troop arrives, select both of them by clicking on one side and dragging a box around them. You'll first need to close the army details screen to see them both. Now you have a merge button over the info screen for the two armies. Click that to create one bigger army. ;;;;;;;;;x 
+tut_5a_14;Fleet;;;;;;;;;x 
+tut_5a_15;We also have ships available. Click the military tab.;;;;;;;;;x 
+#tut_5a_16;To the right you can see a tab named Fleets. Click that and select to raise your personal fleet.;;;;;;;;;x 
+tut_5a_17;Onto the Ships?;;;;;;;;;x 
+tut_5a_18;To load your troops onto the ships, select the army and in the top bar you can see an embark button. ;;;;;;;;;x 
+tut_5a_19;Right now that button is grey though. To find out why, click your ships.;;;;;;;;;x 
+tut_5a_20;Ships;;;;;;;;;x 
+#tut_5a_21;You have the organization bar, the disband unit button and the split (create new unit) button. Then you have information on the number of ships, and towards the bottom we have the load capacity. This is how many troops will fit on the ships in this fleet. 300 is unfortunately a smaller number than the number of men in your current army, so select the army again. ;;;;;;;;;x 
+tut_5a_22;Splitting Troops;;;;;;;;;x 
+tut_5a_23;Click the button to create a new unit. Click the transfer button on one of the troops to move it. ;;;;;;;;;x 
+tut_5a_24;Onto the Ships;;;;;;;;;x 
+#tut_5a_25;Now select one of the troops. The embark button is blue and useable, so click it. Ships move exactly like armies, so move this fleet to the neighboring sea province to the north, Moray Firth, to continue. Unpause after placing the move order and increase the speed to maximum to hasten the process.;;;;;;;;;x 
+tut_5a_26;Off the Ships;;;;;;;;;x 
+tut_5a_27;As soon as your ships arrive, let's offload the troops in the Moray province.;;;;;;;;;x 
+tut_5a_28;Landing;;;;;;;;;x 
+tut_5a_29;Make sure you have the ships selected, then click on the tab to the upper right to select the army. Now you can click on Moray to have the troops go ashore there.;;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+tut_menu_6;War;;;;;;;;;x 
+tut_menu_6_description;Learn about claims, casus bellis, peace outcomes and war score;;;;;;;;;x 
+tut_menu_5;Military and Combat;;;;;;;;;x 
+tut_menu_5_description;Learn about units, levies, mercenaries, battles and sieges;;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+#tut_6a_6;Innse Gall to the east of Ross seems like a good target. It would be a nice addition to our border, plus his maximum numbers of levy is not very impressive. Click on the province.;;;;;;;;;x 
+tut_6a_8;After reviewing the province stats, open the council screen.;;;;;;;;;x 
+#tut_6a_10;Now let's send our chancellor out on a secret mission to fabricate claims. Click the fabricate claims button, then click on Søroyar to place the chancellor there.;;;;;;;;;x 
+tut_6a_10a;Job Done;;;;;;;;;x 
+tut_6a_10b;Now you got an event pop-up. It says you now have a claim on the province which means you can go to war over it. Read it and click 'Press the claim' to continue. ;;;;;;;;;x 
+#tut_6a_12;Now it is time to actually declare war. So click on Søroyar again. Right click the portrait of their ruler and choose to go to diplomacy.;;;;;;;;;x 
+tut_6a_14;Click on declare war. Now you'll see the casus belli we just arranged for. Click on claim Søroyar and hit send.;;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+tut_7a_2;Plotting allows you to pursue goals in a less confrontational way than direct war. Other people can also plot against you though, so you always need to be prepared. Click the intrigue tab to continue.;;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+tut_8a_2;Religion with all that implies, can have a big impact on what happens in your game. Crusades, piety and your own religious vassals will all play their part. The church head, which will be either a Pope, Caliph or an Ecumenical Patriarch, is the religious power for each of their religions. The Pope can not just start holy wars, he is also the one who can grant you a divorce for example. Click the religion tab to continue.;;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+tut_9b_2;The hierarchy in Crusader Kings is strict, and those down the chain of authority provide troops and taxes to the ones above them, regulated by laws. Click next to continue.;;;;;;;;;x 
+######################################################################;;;;;;;;;;x 
+EVTDESC3316;I found [From.GetTitledFirstName] in [From.GetHerHis] bedchamber, hiding from the sound of soldiers practising their sword fighting. I could not help but scorn [From.GetHerHis] cowardice.;;;;;;;;;x 
+PLOT_UNCOVERED_LETTER;I have discovered a plot where $PLOTTER$ seeks to $PLOTNAME$.\n\nYour humble spymaster,\n$SPYMASTER$;;;;;;;;;x 
+MINOR_PLOT_UNCOVERED_LETTER;I have discovered a plot where $PLOTTER$ seeks to $PLOTNAME$.\n\nYour humble spymaster,\n$SPYMASTER$;;;;;;;;;x 
+EVTDESC3665;I was deeply absorbed in writing an ode to a nightingale when I was approached and asked if I could recite some of my poems for the court. Everyone had gathered inside to ride out the storm that had hit [Root.Location.GetName] so I had a fairly large audience.;;;;;;;;;x 
+EVTOPTA3665;This is a poem about courtly love... *ahem*;;;;;;;;;x 
+EVTOPTB3665;I think this poem about a sinful character will be entertaining...;;;;;;;;;x 
+EVTOPTC3665;The life of a saint is always good material for poetry...;;;;;;;;;x 
+EVTOPTD3665;You wouldn't appreciate my poems;;;;;;;;;x 
+opinion_mildly_disappointed;Mildly disappointed;;;;;;;;;x 
+opinion_liar;Liar;;;;;;;;;x 
+opinion_sad;Sad;;;;;;;;;x 
+CALL_ALLY_INTERACTION_LETTER_2;If we accept, we will be part of $WARLIST$;;;;;;;;;x 
+EVTDESC38294;I cannot get the words to flow as they used to and the idea to write my thoughts in poetry has ceased to be a necessity. I have lost the Poet trait.;;;;;;;;;x 
+EVTDESC3675;You must help me!' the courtier said, 'I need a poem for my sweetheart and I have no time to write it myself. Can you please help me?';;;;;;;;;x 
+EVTOPTA3675;Of course! What kind do you want? An ode, a sonnet?;;;;;;;;;x 
+EVTOPTB3675;For a small sum I would be happy to provide you with a love poem;;;;;;;;;x 
+EVTOPTC3675;You should give your sweetheart a poem of your own!;;;;;;;;;x 
+EVTDESC3676;[From.GetTitledFirstName] gave a piece of paper to one of the courtiers, who gave [From.GetHerHim] a kiss on the cheek before running of. Did my spouse [From.GetFirstName] just give a love poem to a courtier?;;;;;;;;;x 
+EVTOPTA3676;It probably does not mean anything;;;;;;;;;x 
+EVTOPTB3676;Why do I never get poems from [From.GetFirstName]?;;;;;;;;;x 
+EVTTOOLTIP3677;[Root.GetTitledFirstName] misunderstood the situation;;;;;;;;;x 
+EVTDESC3677;I hadn't really thought about the implications of giving a love poem to a courtier, no matter what that courtier would do with it. My [From.GetFirstName] misunderstand and believed it to have more significance than it had.;;;;;;;;;x 
+EVTOPTA3677;Honey, the poem was for the courtier's sweetheart, no one else;;;;;;;;;x 
+EVTOPTB3677;Do these earrings prove my love for you?;;;;;;;;;x 
+EVTDESC3680;I gave the poem to my sweetheart and [Root.GetSheHeOpp] read it slowly while I waited patiently for [Root.GetHerHisOpp] reaction. The poem was lovely and my only regret was that I hadn't written it myself...;;;;;;;;;x 
+EVTOPTA3680;[Root.GetSheHeCapOpp] kissed me when [Root.GetSheHeOpp] had read 'my' poem!;;;;;;;;;x 
+EVTTOOLTIP3681;The real poet finds out about your little lie;;;;;;;;;x 
+EVTOPTB3680;I had to tell [Root.GetHerHim] wherefrom I got the poem...;;;;;;;;;x 
+EVTDESC3681;It took me a while to realize the poem everyone talked about was one of mine, [From.GetTitledFirstName] had mislead everyone and managed to seduce someone with the poem.;;;;;;;;;x 
+EVTOPTA3681;Confront [From.GetTitledFirstName];;;;;;;;;x 
+EVTTOOLTIP3682;is confronted about lying about the poem by [Root.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB3681;[From.GetSheHeCap] seduced my little girl!;;;;;;;;;x 
+EVTOPTC3681;[From.GetSheHeCap] seduced my wife!;;;;;;;;;x 
+EVTOPTD3681;Forgive [From.GetTitledFirstName];;;;;;;;;x 
+EVTDESC3682;[From.GetTitledFirstName] confronted me about me telling people I had written the poem and I told [From.GetHerHim] I hadn't exactly told anyone I had written the poem. People had just assumed that because I had given the love poem to my sweetheart I had written it.;;;;;;;;;x 
+EVTOPTA3682;I'm sorry, but I would do it again if I could!;;;;;;;;;x 
+EVTDESC3683;I landed face first in the mud that covered the cell floor and tried to get up before the door closed. 'I did not give you that poem so you could go around seducing people with the help of it!', [From.GetTitledFirstName] snarled.;;;;;;;;;x 
+EVTOPTA3683;Is this about your daughter? I'm sorry!;;;;;;;;;x 
+EVTOPTB3683;I did not seduce your wife, she threw herself at me!;;;;;;;;;x 
+EVTDESC3685;No matter how hard I try, I cannot think of anything that rhymes with orange! I must have lost my muse, my inspiration is absolutely gone. Oh woe is me, what shall I do?;;;;;;;;;x 
+EVTOPTA3685;I will find a new muse!;;;;;;;;;x 
+EVTTOOLTIP3686;finds a new muse for [This.GetHerHis] poetry;;;;;;;;;x 
+EVTOPTB3685;My inspiration is gone, possibly forever!;;;;;;;;;x 
+EVTOPTC3685;I... just... have to work harder!;;;;;;;;;x 
+EVTDESC3686;A muse is something more than just inspiration, you must learn to love and cherish your muse or else [Root.GetSheHeOpp] will leave you and take the inspiration with [Root.GetHerHimOpp]. I found my muse when I set my eyes upon...;;;;;;;;;x 
+EVTOPTA3686;...a courtier!;;;;;;;;;x 
+EVTTOOLTIP3687;is approached by [Root.GetTitledFirstName] and asked to become [Root.GetHerHis] muse;;;;;;;;;x 
+EVTOPTB3686;...my [Root.Spouse.GetFirstName]!;;;;;;;;;x 
+EVTTOOLTIP64025;have fallen in love with [This.Spouse.GetFirstName];;;;;;;;;x 
+EVTOPTC3686;No... I cannot live with [Root.GetHerHimOpp] as my muse...;;;;;;;;;x 
+EVTDESC3687;Your eyes are... are like the sea a rainy day!' [From.GetTitledFirstName] told me and scribbled furiously with [From.GetHerHis] quill on the already ink stained paper.\n'You are my inspiration, my muse. I will cherish our love forever!' [From.GetTitledFirstName] added after finishing 'the greatest poem ever! For now, at least'.;;;;;;;;;x 
+EVTOPTA3687;Well thank you!;;;;;;;;;x 
+EVTOPTB3687;You disgust me!;;;;;;;;;x 
+EVTDESC3688;My new muse [From.GetTitledFirstName] almost makes my quills burn with all the poems that want to be released unto paper!;;;;;;;;;x 
+EVTOPTA3688;Keep my inspiration flowing and I'll love you forever!;;;;;;;;;x 
+EVTDESC3689;No matter how many poems I wrote for [From.GetTitledFirstName] [From.GetSheHe] just scowled at me and claims I 'disgust [From.GetHerHim]'. I feel my inspiration run short for every rejection and I have to admit to myself: [From.GetTitledFirstName] is not the muse I am looking for.;;;;;;;;;x 
+EVTOPTA3689;I'll have to find inspiration from somewhere else;;;;;;;;;x 
+EVTDESC3690;I had just mounted my horse and was reaching for my bird when [Root.Spouse.GetTitledFirstName] asked me to bring one of our children with me on the hunt.;;;;;;;;;x 
+EVTOPTA3690;Yes, yes. Just hurry up, I'm eager to hunt!;;;;;;;;;x 
+EVTTOOLTIP3691;goes hunting with [Root.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB3690;Do I really have to?;;;;;;;;;x 
+EVTOPTC3690;I don't want to, and you can't make me!;;;;;;;;;x 
+EVTOPTD3690;Why don't you both join me?;;;;;;;;;x 
+EVTTOOLTIP3697;A family day with falconing;;;;;;;;;x 
+EVTDESC3691;I saddled my horse as fast as I could, not wanting to wait for the clumsy stable boy to do it, and took my bird from the falconer. My [GetFromRelation] smiled at me and then gave the signal to let the hunt begin.;;;;;;;;;x 
+EVTOPTA3691;Let's go hunt some hares!;;;;;;;;;x 
+EVTOPTB3691;Wait, I am not ready for this...;;;;;;;;;x 
+EVTTOOLTIP3698;[Root.GetTitledFirstName] does not follow [This.GetTitledFirstName] on the hunt;;;;;;;;;x 
+EVTDESC3692;I galloped to catch up with the hunting party but when I saw my [GetFromRelation] [From.GetFirstName] frown at me, clearly upset with me joining the hunting party, I almost turned my horse around and galloped back to the castle. Why was I told [From.GetFirstName] wanted me to join [From.GetHerHis] hunting party when [From.GetSheHe] didn't want me there?;;;;;;;;;x 
+EVTOPTA3692;I ignore [From.GetHerHim] and try to think on the hunt only;;;;;;;;;x 
+EVTOPTB3692;I'd better turn around, [From.GetSheHe] will be relived when I'm not around;;;;;;;;;x 
+EVTTOOLTIP3693;has a good hunt with [Root.GetTitledFirstName];;;;;;;;;x 
+EVTTOOLTIP3694;[Root.GetTitledFirstName] shames [This.GetTitledFirstName];;;;;;;;;x 
+EVTTOOLTIP3695;impresses [This.GetTitledFirstName] during the hunt;;;;;;;;;x 
+EVTTOOLTIP3696;thinks [Root.GetTitledFirstName] has strange priorities during the hunt;;;;;;;;;x 
+EVTDESC3693;It was a great day for falconing, the sky was blue and the game was plentiful. My child [From.GetTitledFirstName], although maybe a bit unused to having to gut and skin the hunted prey, did very good and [From.GetSheHe] did not complain once.;;;;;;;;;x 
+EVTOPTA3693;I think it was good for both of us to do this together;;;;;;;;;x 
+EVTDESC3694;[From.GetTitledFirstName] refused to gut and skin the hunted prey the falcon brought, and it was pure luck my huntsman managed to grab the bird when [From.GetSheHe] panicked and let go of the tethers when the bird tried to fly off. The day went from bad to worse and I was not very happy when we got back home.;;;;;;;;;x 
+EVTOPTA3694;This was shameful! How could you disappoint me like this?;;;;;;;;;x 
+EVTDESC3695;The wager [From.GetTitledFirstName] and I agreed on was that the one who managed to catch the most prey wouldn't need to gut and skin any of it. I lost and, although I usually would rather not spend a whole hour gutting and skinning hares, this time I was too proud of [From.GetTitledFirstName] to really care about the slimy, gut-wrenching feel of intestines sliding through my hands...;;;;;;;;;x 
+EVTOPTA3695;I am impressed! No one has ever killed so many hares!;;;;;;;;;x 
+EVTDESC3696;[From.GetTitledFirstName] was more interested in flowers and herbs than the prey the birds hunted. When it was time to skin and gut the hares [From.GetHerHis] face literally went green and we had to stand back when [From.GetSheHe] lost [From.GetHerHis] lunch.;;;;;;;;;x 
+EVTOPTA3696;[From.GetTitledFirstName], you have to get used to this!;;;;;;;;;x 
+EVTDESC3697;I had a lovely day hunting with my birds, [Root.Spouse.GetFirstName] and one of our children.;;;;;;;;;x 
+EVTOPTA3697;We will do this again, soon;;;;;;;;;x 
+EVTDESC3698;[From.GetTitledFirstName], although already in the saddle and with a bird perched on the pommel of the saddle, chose to leave the hunting party and ride back home.;;;;;;;;;x 
+EVTOPTA3698;Why did [From.GetSheHe] do that?;;;;;;;;;x 
+INTERACTION_MALE_LOWBORN_MUST_MARRY_MATRI;Lowborn males must marry noble women Matrilineally!;;;;;;;;;x 
+INTERACTION_FEMALE_LOWBORN_MUST_MARRY_REGULARLY;Lowborn females cannot marry noble men Matrilineally!;;;;;;;;;x 
+HAS_ACTIVE_PLOT;Has Active Plot;;;;;;;;;x 
+HAS_NOT_ACTIVE_PLOT;Does NOT have an active Plot;;;;;;;;;x 
+EXILE_FROM_PLAYER_LOG;§Y$NAME$§! has left your court for the §Y$TARGET$§!;;;;;;;;;x 
+EVTDESC20131;My liege, my work in [FromFrom.Location.GetName] seems to have come to fruition. By bribing, cajoling, extorting, threatening and forging documents, I have managed to fabricate a claim on the [FromFrom.Location.County.GetFullName] presently held by [From.GetTitledName]. I leave it up to you whether to use it or not.\n\nYour humble [Root.GetChancellorName],\n[FromFrom.GetTitledName];;;;;;;;;x 
+EVTDESC24501;I keep thinking about [From.GetTitledFirstName]. She was the best of wives, and without her, I do so struggle to be a [Root.GetTitle]. Oh, how I miss her....;;;;;;;;;x 
+EVTDESC20175;My lord, your [Root.GetChancellorName] [FromFrom.GetTitledName] has been trying to create unrest among the nobles in [From.Location.GetName] and tried to encourage me to turn against my liege [From.Liege.GetTitledName]! He failed miserably and I can assure you that this shameless act will not go by without consequences.\n\nSigned,\n[From.GetTitledName];;;;;;;;;x 
+EVTDESC50002;Using a smuggled in rope, [From.GetBestName] almost managed to escape from custody, but the guards caught [From.GetHerHim] in time!;;;;;;;;;x 
+EVTOPTA50002;Return [From.GetHerHim] to [From.GetHerHis] quarters;;;;;;;;;x 
+EVTOPTB50002;Throw [From.GetHerHim] back in the dungeon;;;;;;;;;x 
+EVTOPTC50002;Throw [From.GetHerHim] in the Oubliette!;;;;;;;;;x 
+EVTDESC3465;My zeal and religious beliefs have led me to become more respected and given me more prestige.;;;;;;;;;x 
+opinion_agog;Agog;;;;;;;;;x 
+EVTDESC3700;Would you mind help me with my new hunting bird?'\n\nI was asked to take a look and maybe help train a new falcon for a friend.;;;;;;;;;x 
+EVTOPTA3700;I lie and tell my friend it is useless, then offer to buy it;;;;;;;;;x 
+EVTTOOLTIP3701;The falcon is easy to train and fun to hunt with;;;;;;;;;x 
+EVTTOOLTIP3702;The falcon is useless and wounds [This.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB3700;For a coin or two I might be able to help you;;;;;;;;;x 
+EVTOPTC3700;The bird will be easy to train;;;;;;;;;x 
+EVTOPTD3700;I'll show you all my tricks;;;;;;;;;x 
+EVTDESC3701;The falcon was easy to train and it didn't take long before I could take it out hunting without fearing it would try to escape or make a messy kill of its prey.;;;;;;;;;x 
+EVTOPTA3701;I should keep it;;;;;;;;;x 
+EVTTOOLTIP3704;The former owner,[This.GetTitledFirstName] finds out about what happened to the falcon;;;;;;;;;x 
+EVTOPTB3701;I will train it some more and then sell it;;;;;;;;;x 
+EVTOPTC3701;The owner will be glad!;;;;;;;;;x 
+EVTTOOLTIP3707;The owner,[This.GetTitledFirstName] finds out about what happens to the falcon;;;;;;;;;x 
+EVTDESC3702;No matter what I did, the falcon was hard to train and did not respond in the same way as the birds I kept myself. I was already prepared to give up when something frightened the bird and it attacked me!;;;;;;;;;x 
+EVTOPTA3702;I have to tell my friend this bird cannot be trained;;;;;;;;;x 
+EVTTOOLTIPA3705;The owner, [This.GetTitledFirstName], gets the bad news about the falcon;;;;;;;;;x 
+EVTTOOLTIPB3705;The former owner, [This.GetTitledFirstName], gets the bad news about the falcon;;;;;;;;;x 
+EVTOPTB3702;Before I knew it, I managed to kill the falcon;;;;;;;;;x 
+EVTOPTC3702;My friend have to take it back!;;;;;;;;;x 
+EVTOPTD3702;I will wring your neck!;;;;;;;;;x 
+EVTDESC3703;I had put down many hours training my friend's falcon, and how was I rewarded? By my friend taking credit for the well-trained falcon and bragging about how easy it was!;;;;;;;;;x 
+EVTOPTA3703;To the prison with you!;;;;;;;;;x 
+EVTOPTB3703;Let my friend brag, I do not care;;;;;;;;;x 
+EVTOPTC3703;How could my friend do this to me?;;;;;;;;;x 
+EVTTOOLTIP3706;is confronted by [Root.GetTitledFirstName] when [This.GetSheHe] bragged about how simple it was to train the falcon;;;;;;;;;x 
+EVTDESC3704;[From.GetTitledFirstName] offered to buy the falcon [From.GetSheHe] had deemed useless and I was happy to get rid of it. Now, a couple of weeks later I understand [From.GetTitledFirstName] lied to me: the bird wasn't useless, [From.GetSheHe] only wanted me to sell it cheap to [From.GetHerHim]!;;;;;;;;;x 
+EVTOPTA3704;You lied to me!;;;;;;;;;x 
+EVTOPTB3704;[From.GetTitledFirstName] then sold the 'useless' bird with profit!;;;;;;;;;x 
+EVTDESC3705;The falcon managed to wound [From.GetTitledFirstName] when [From.GetSheHe] tried to train it and apparently confirmed [From.GetHerHis] suspicion that the bird was useless.;;;;;;;;;x 
+EVTOPTA3705;That's too bad. I have to put it down then;;;;;;;;;x 
+EVTOPTB3705;[From.GetTitledFirstName] killed the bird!;;;;;;;;;x 
+EVTOPTC3705;The useless bird was killed by [From.GetTitledFirstName];;;;;;;;;x 
+EVTOPTD3705;[From.GetTitledFirstName] forced me to take the bird back!;;;;;;;;;x 
+EVTDESC3706;[From.GetTitledFirstName] helped me train my new falcon and was not glad when I started bragging to other people about how easy it had been to train the bird. [From.GetSheHeCap] confronted me and told me [From.GetSheHe] would never help me train another bird, ever again!;;;;;;;;;x 
+EVTOPTA3706;What, never again?;;;;;;;;;x 
+EVTDESC3707;I watched with awe when [From.GetTitledFirstName] released my falcon and it swooped down from the sky, killing the hare almost immediately. Despite the fact that [From.GetSheHe] had never trained a falcon before, it hadn't taken long before the falcon was a well-trained death machine.;;;;;;;;;x 
+EVTOPTA3707;Thank you so much!;;;;;;;;;x 
+EVTDESC3070;My friend and I had planned to go hunting together but when he broke his leg I realized I either had to find someone else to accompany me or cancel it altogether.;;;;;;;;;x 
+EVTOPTA3070;Anyone?;;;;;;;;;x 
+EVTOPTB3070;I'll just wait until my friend is better;;;;;;;;;x 
+EVTTOOLTIP3071;[This.GetTitledFirstName] willingly joins [Root.GetTitledFirstName] for the hunt;;;;;;;;;x 
+EVTDESC3071;When [From.GetTitledFirstName] asked me if I wanted to go hunting with [From.GetHerHim], I gladly accepted. Sadly, the hunt was ruined by [From.GetHerHis] greed.;;;;;;;;;x 
+EVTOPTA3071;Unacceptable!;;;;;;;;;x 
+EVTTOOLTIP3072;[Root.Liege.GetTitledFirstName] should know I will not tolerate this!;;;;;;;;;x 
+EVTDESC3072;We managed to kill too much prey when I went hunting with [From.GetTitledFirstName], so we decided to sell some of the meat. When we had sold everything we got in an argument over the money.;;;;;;;;;x 
+EVTOPTA3072;We hunted in my forest, I should get more than you!;;;;;;;;;x 
+COMBATEND_ATTACKERS;Attackers;;;;;;;;;x 
+COMBATEND_DEFENDERS;Defenders;;;;;;;;;x 
+COMBATEND_LEFT_AS_GARRISON;Left as garrison;;;;;;;;;x 
+FE_VASSALS;Vassals:;;;;;;;;;x 
+EVTDESC3662;Roses are red\nViolets are blue\nThe sun shows its beauty - But true beauty is in you...'\nAstonished, I noticed the tears in [From.GetTitledFirstName] as [From.GetSheHe] told me there was nothing more left for [From.GetHerHim] to teach me.;;;;;;;;;x 
+#EVTDESC3165;Small random acts of kindness, giving a beggar some food and a place in the stable to sleep, making sure an orphan gets a new home or helping a widow by chopping up some wood for her fireplace, all these things makes me feel good.;;;;;;;;;x 
+EVTOPTA3165;It is truly rewarding;;;;;;;;;x 
+EVTDESC3170;Villagers are starving in [Root.Location.GetName] and a small group of representatives has dared set foot in my castle to petition for help...;;;;;;;;;x 
+EVTOPTA3170;Of course! Take whatever you need!;;;;;;;;;x 
+EVTOPTB3170;Refuse to help them;;;;;;;;;x 
+EVTDESC3175;One of the courtiers always treat the servants with contempt and if I hadn't interfered the courtier would likely have beaten one of the servants! I reprimanded the courtier and said: 'Kindness is a virtue, and you should show empathy and trust without prejudice even if your servant is a commoner.'.;;;;;;;;;x 
+EVTOPTA3175;I hope the courtier listened and understood me!;;;;;;;;;x 
+EVTTOOLTIP3176;The kindness in [Root.GetTitledFirstName]'s heart cannot melt the ice in others;;;;;;;;;x 
+EVTDESC3176;A clumsy servant almost spilled wine all over me and I was about to slap him for his incompetence when [From.GetTitledFirstName] dragged me aside and told me: 'Kindness is a virtue, and you should show empathy and trust without prejudice even if your servant is a commoner.'.;;;;;;;;;x 
+EVTOPTA3176;That's preposterous and I told [From.GetHerHim] that!;;;;;;;;;x 
+EVTTOOLTIP3177;[This.GetSheHeCap] will hear what [Root.GetTitledFirstName] thinks about this!;;;;;;;;;x 
+EVTDESC3177;No matter what I told [From.GetTitledFirstName], [From.GetSheHe] wouldn't listen and refused to accept kindness as a virtue, not a weakness.;;;;;;;;;x 
+EVTOPTA3177;That's... unfortunate;;;;;;;;;x 
+EVTOPTB5041;I should try falconry instead;;;;;;;;;x 
+EVTOPTB5043;I'll try hunting instead;;;;;;;;;x 
+EVTOPTB5051;I'll have a look at that poetry book instead;;;;;;;;;x 
+EVTOPTB5053;Poetry is safer, let's try that instead;;;;;;;;;x 
+b_laspedroneras;Las Pedroñeras;;;;;;;;;x 
+b_ucles;Ucles;;;;;;;;;x 
+b_sisante;Sisante;;;;;;;;;x 
+EVTOPTA72007;You must perform at my feast!;;;;;;;;;x 
+EVTOPTA30058;My wife [Root.Spouse.GetFirstName] is right, I should pursue the title!;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_DECLINE_SETUP;Title Revocation Refused;;;;;;;;;x 
+REVOKE_TITLE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W refused the revocation of §Y[ThirdPartyTitle.GetFullName]§W, requested by §Y[Actor.GetBestName]§W;;;;;;;;;x 
+#ct_university_1;Small University;;;;;;;;;x 
+ct_university_1;University;;;;;;;;;x 
+ct_university_2;University;;;;;;;;;x 
+ct_university_3;University;;;;;;;;;x 
+#ct_university_3;Large University;;;;;;;;;x 
+tp_school_1;Monastic School;;;;;;;;;x 
+tp_school_2;Cathedral School;;;;;;;;;x 
+EVTDESC1000;A pretty wench is throwing herself at you.;;;;;;;;;x 
+EVTOPTA1000;I can't resist her;;;;;;;;;x 
+EVTOPTB1000;Mind over body, mind over body...;;;;;;;;;x 
+EVTDESC1001;The cook has prepared a fine meal, but the priest preached about temperance...;;;;;;;;;x 
+EVTOPTA1001;I try to eat modestly but the food is too good!;;;;;;;;;x 
+EVTOPTB1001;I satisfy my hunger with bread and water;;;;;;;;;x 
+EVTDESC1003;After giving my advice on a delicate matter, the courtier asked me to accept a small gift of gold as thanks for my help;;;;;;;;;x 
+EVTOPTA1003;I accept the gift reluctantly;;;;;;;;;x 
+EVTOPTB1003;Wasn't my advice worth more than a couple pennies?;;;;;;;;;x 
+EVTDESC1004;Work can be tedious and when one problem is solved another one pops up. I tire of having to complete the same tasks over and over again.;;;;;;;;;x 
+EVTOPTA1004;Let someone else do this!;;;;;;;;;x 
+EVTOPTB1004;I can rest in Heaven;;;;;;;;;x 
+EVTDESC1005;Her hair is always perfect, men love her charm and looks but she is also intelligent and well-spoken. She has been blessed with beauty, intelligence and success in all things.;;;;;;;;;x 
+EVTOPTA1005;Why was [Root.GetSheHe] blessed and not I?;;;;;;;;;x 
+EVTOPTB1005;It's hard not to envy her, but I am perfect as I am;;;;;;;;;x 
+EVTDESC1006;It feels like everyone is trying to trump me! My huntsman killed more prey than I, my councillors found a better solution to the rebellious peasants than mine and I started to feel that everyone was better than me, no matter what.;;;;;;;;;x 
+EVTOPTA1006;If they are better than me, then I have to accept that;;;;;;;;;x 
+EVTOPTB1006;I envy them all!;;;;;;;;;x 
+EVTDESC1007;I don't think it was meant to hurt me, but the criticism still stung harder than it should have.;;;;;;;;;x 
+EVTOPTA1007;An eye for an eye!;;;;;;;;;x 
+EVTOPTB1007;I'll turn the other cheek;;;;;;;;;x 
+EVTDESC1008;I took a good look at myself and thought about my weaknesses and strengths. After many hours of soul-searching, I realized:;;;;;;;;;x 
+EVTOPTA1008;I have nothing to be ashamed of!;;;;;;;;;x 
+EVTOPTB1008;I have many strengths, but more weaknesses;;;;;;;;;x 
+EVTDESC1009;It was one of those situations where you didn't want to tell the truth in case it would hurt the person, but in the same time, honesty is a virtue...;;;;;;;;;x 
+EVTOPTA1009;Lie and don't hurt anyone;;;;;;;;;x 
+EVTOPTB1009;Be honest and tell it as it is;;;;;;;;;x 
+#EVTDESC1010;The situation became even more intimidating with an outcome that could mean life or death. I swallowed hard and chose to...;;;;;;;;;x 
+EVTOPTA1010;Run awaaaayyy!;;;;;;;;;x 
+EVTOPTB1010;Stay put and fight!;;;;;;;;;x 
+EVTDESC1011;It started as an uneasiness around guests and strangers, then evolved into awkwardness and a strong feeling of discomfort.;;;;;;;;;x 
+EVTOPTA1011;I don't want to meet any new people;;;;;;;;;x 
+EVTOPTB1011;I'll just have to try to be more gregarious;;;;;;;;;x 
+EVTDESC1012;I could strive to become better, or I can be satisfied with who I am and what I have.;;;;;;;;;x 
+EVTOPTA1012;I will never be satisfied!;;;;;;;;;x 
+EVTOPTB1012;I am content;;;;;;;;;x 
+EVTDESC1013;If my opinion ruled, the world would be a more chaotic but fun place. If I keep following the laws, the world would have less chaos but also be less fun.;;;;;;;;;x 
+EVTOPTA1013;Let my rule begin!;;;;;;;;;x 
+EVTOPTB1013;Justice should always prevail!;;;;;;;;;x 
+EVTDESC1014;If there is a God, why is the world filled with hardships, grief and heretics?;;;;;;;;;x 
+EVTOPTA1014;God has a plan for everything and everyone;;;;;;;;;x 
+EVTOPTB1014;God is as clueless as I am;;;;;;;;;x 
+EVTDESC1015;The court is filled with young, beautiful men and the attention they give me is making it hard for me to refuse them. Who wouldn't want one of them in their bed?;;;;;;;;;x 
+EVTOPTA1015;Give in, have some fun!;;;;;;;;;x 
+EVTOPTB1015;A woman should suppress her worldly urges;;;;;;;;;x 
+EVTDESC1016;Lately I have become afraid that someone might want to hurt me. I am thinking about hiring a, no, two food-tasters and... maybe a bodyguard would be a good idea?;;;;;;;;;x 
+EVTOPTA1016;Food-tasters, bodyguards, anything that can save me!;;;;;;;;;x 
+EVTOPTB1016;I won't let fear rule my life!;;;;;;;;;x 
+EVTDESC1017;After I had made another courtier cry, the third one in a short week, I felt a bit embarrassed. Is this really who I am, a cruel [Root.GetManWoman] who likes to hurt people?;;;;;;;;;x 
+EVTOPTA1017;Who am I kidding? I love this!;;;;;;;;;x 
+EVTOPTB1017;Oh [Root.Religion.GetRandomGodName], what have I done? Forgive me, please!;;;;;;;;;x 
+EVTDESC1018;Men have never interested me, and my awkward attempts to find out if another woman feels like I do has always ended with insulted or apprehensive looks. But today, a woman tried to seduce me!;;;;;;;;;x 
+EVTOPTA1018;...and she's irresistible!;;;;;;;;;x 
+EVTOPTB1018;As tempting as it is, I really shouldn't;;;;;;;;;x 
+EVTDESC1019;I realized when I was rather young that I would never find a woman attractive. The comfort and love I saw couples share felt out of my reach, until I met a man who felt as I did...;;;;;;;;;x 
+EVTOPTA1019;...and he's irresistible!;;;;;;;;;x 
+EVTOPTB1019;I cannot give in to these feelings!;;;;;;;;;x 
+ALL_TROOPS;troops;;;;;;;;;x 
+RELATIVETROOP_LESS_THAN;Flank has less than §Y$PERCENT$% $TROOP$§! relative to$ENEMY$§Y$MAXTROOP$§!;;;;;;;;;x 
+RELATIVETROOP_AT_LEAST;Flank has at least §Y$PERCENT$% $TROOP$§! relative to$ENEMY$§Y$MAXTROOP$§!;;;;;;;;;x 
+despise_drunkard;Despise drunkard;;;;;;;;;x 
+opinion_denied_advice;Denied advice;;;;;;;;;x 
+opinion_satisfied;Satisfied;;;;;;;;;x 
+opinion_glad;Glad;;;;;;;;;x 
+opinion_bragger;Bragger;;;;;;;;;x 
+opinion_disapprove;Disapprove;;;;;;;;;x 
+opinion_refused_council;Refused Council;;;;;;;;;x 
+dynastic_refused_claim;Refused Claim;;;;;;;;;x 
+dynastic_refused_war;Refused War;;;;;;;;;x 
+opinion_denied_marriage;Denied Marriage;;;;;;;;;x 
+opinion_sent_to_church;Sent to church;;;;;;;;;x 
+opinion_not_participating_in_crusade_bishop;Not Participating in Crusade;;;;;;;;;x 
+opinion_not_participating_in_crusade_vassal;Not Participating in Crusade;;;;;;;;;x 
+EVTDESC80054;The peasant rebels of [From.GetName] have defected and sworn allegiance to [From.County.Holder.GetTitledName]!;;;;;;;;;x 
+EVTOPTA80054;Damn these peasants!;;;;;;;;;x 
+EVTDESC80055;The people in [From.GetName] will no longer let themselves be ruled by someone of another religion! The peasant rebels controlling the province have defected and sworn allegiance to [From.County.Holder.GetTitledName]!;;;;;;;;;x 
+EVTDESC80056;Feeling estranged due to cultural differences in [FromFrom.Holder.Liege.PrimaryTitle.GetName], the peasant rebels of [FromFrom.GetName] have defected and sworn allegiance to [From.County.Holder.GetTitledName]!;;;;;;;;;x 
+#EVTDESC80057;Feeling little loyalty to the far off ruler of [FromFrom.Holder.Liege.PrimaryTitle.GetName], the peasant rebels of [FromFrom.GetName] have defected and sworn allegiance to [From.County.Holder.GetTitledName]!;;;;;;;;;x 
+EVTDESC80060;The people in [Root.GetName] will no longer let themselves be ruled by someone of another religion! The peasant rebels controlling the province have defected and sworn allegiance to another ruler!;;;;;;;;;x 
+#EVTOPTA80060;Outrages!;;;;;;;;;x 
+EVTDESC80061;Feeling estranged due to cultural differences in [Root.Holder.Liege.PrimaryTitle.GetName], the peasant rebels of [Root.GetName] have defected and sworn allegiance to another ruler!;;;;;;;;;x 
+#EVTDESC80062;Feeling little loyalty to the far off ruler of [Root.Holder.Liege.PrimaryTitle.GetName], the peasant rebels of [Root.GetName] have defected and sworn allegiance to another ruler!;;;;;;;;;x 
+EVTDESC80058;Tired of their old ruler, the peasant rebels of [Root.GetName] have defected and sworn allegiance to me!;;;;;;;;;x 
+EVTOPTA80058;Excellent! Or is it...?;;;;;;;;;x 
+EVTDESC2100;My [GetFromRelation] [From.GetTitledFirstName] is turning into an arrogant little braggart. I might have to rein [From.GetHerHim] in a bit.;;;;;;;;;x 
+EVTOPTA2100;No, [From.GetSheHe] has reason to be proud;;;;;;;;;x 
+EVTOPTB2100;That will be cured by the birch.;;;;;;;;;x 
+EVTOPTC2100;Tell [From.GetHerHim], 'Pride goeth before fall';;;;;;;;;x 
+#EVTOPTD2100;] will cure [From.GetHerHim] of [From.GetHerHis] sin!;;;;;;;;;x 
+EVTOPTB2060;Beat some respect into [From.GetHerHim]!;;;;;;;;;x 
+EVTOPTC2060;Talk to [From.GetHerHim] about kindness;;;;;;;;;x 
+EVTDESC3436;It was a rather trivial matter that I wanted [From.GetTitledFirstName] to solve, an argument between a lowly farmer and myself. The farmer claimed I should pay for the damage caused to his house by my cow.;;;;;;;;;x 
+REBELS_SPAWNED_SETUP;Rebels appeared in a province;;;;;;;;;x 
+REBELS_SPAWNED_LOG;The peasants have revolted in $PROV$;;;;;;;;;x 
+EVTNAME62000;Successful Sally by the Defender;;;;;;;;;x 
+EVTNAME62001;Successful Sally by the Defender;;;;;;;;;x 
+EVTNAME62002;Failed Sally by the Defender;;;;;;;;;x 
+EVTNAME62003;Failed Sally by the Defender;;;;;;;;;x 
+EVTNAME62004;Intrigue Slows down Siege;;;;;;;;;x 
+EVTNAME62005;Intrigue Advances Siege;;;;;;;;;x 
+EVTNAME62006;Disease strikes the Besieging Army;;;;;;;;;x 
+EVTNAME62007;Hunger Strikes the Fastness under Siege;;;;;;;;;x 
+EVTNAME62008;Food smuggled in lengthens the Siege;;;;;;;;;x 
+EVTNAME62009;Raiders hit the camp;;;;;;;;;x 
+EVTNAME62010;Tuscan Raiders;;;;;;;;;x 
+#EVTNAME62011;Miracle saves us from the Pagan menace;;;;;;;;;x 
+#EVTNAME62012;Miracle saves us from the Muslim menace;;;;;;;;;x 
+#EVTNAME62013;Miracle saves us from the Christian menace;;;;;;;;;x 
+EVTNAME62014;I lead Assault;;;;;;;;;x 
+EVTNAME62015;I need to decide if I should lead the assault;;;;;;;;;x 
+#TECH_DEM_INC_K_E;§G+$AMOUNT$§! demesne size for Kings & Emperors;;;;;;;;;x 
+#TECH_DEM_INC_D;§G+$AMOUNT$§! demesne size for Dukes;;;;;;;;;x 
+#TECH_DEM_INC_C;§G+$AMOUNT$§! demesne size for Counts;;;;;;;;;x 
+#TECH_DEM_INC_B;§G+$AMOUNT$§! demesne size for Barons;;;;;;;;;x 
+STAT_WEALTH_DESC;This is your personal wealth;;;;;;;;;x 
+LEDGER_FORTLEVEL;Fortlevel;;;;;;;;;x 
+LEDGER_PROVINCE_MAXSETTLEMENTS;Max;;;;;;;;;x 
+LEDGER_OPINION;Opinion;;;;;;;;;x 
+#LEDGER_TOME;Payed To Me;;;;;;;;;x 
+LEDGER_TOTALTAX;Total Tax;;;;;;;;;x 
+LEDGER_CHARACTER_DEMSIZE;Demesne Size;;;;;;;;;x 
+LEDGER_POSSIBLE_INHERITANCES;Possible Inheritances;;;;;;;;;x 
+LEDGER_OUR_TITLES;Our Titles;;;;;;;;;x 
+LEDGER_CURRENT_HOLDER;Current Holder;;;;;;;;;x 
+LEDGER_OUR_POSITION;Our Position;;;;;;;;;x 
+LEDGER_CURRENT_HEIR;Heir;;;;;;;;;x 
+LEDGER_CLAIMANTS;Claimants;;;;;;;;;x 
+UPGRADING;Upgrading;;;;;;;;;x 
+EVTDESC38295;I no longer find it hard or awkward to talk to people. I have lost the Shy trait.;;;;;;;;;x 
+EVTDESC38296;I no longer fear the world, I embrace it and feel safe. I have lost the Craven trait.;;;;;;;;;x 
+EVTDESC78000;A ward of mine complained and called my court inferior, at least in comparison to the child's father's court.;;;;;;;;;x 
+EVTOPTA78000;Try to improve your court to impress the child;;;;;;;;;x 
+EVTOPTB78000;For a simple [Root.GetTitle], my court is nothing to be ashamed of!;;;;;;;;;x 
+EVTOPTC78000;Have the child sweep the stables;;;;;;;;;x 
+EVTOPTD78000;Birch the child;;;;;;;;;x 
+EVTDESC78005;To be a ward in [Root.Guardian.GetTitledFirstName]'s court is improving my stature. I had no idea how different a [Root.Father.GetTitle]'s court and a [Root.Guardian.GetTitle]'s court could be!;;;;;;;;;x 
+EVTOPTA78005;What else can I learn?;;;;;;;;;x 
+EVTTOOLTIP78006;s child [Root.GetFirstName] is thriving under [Root.Guardian.GetTitledFirstName]'s care;;;;;;;;;x 
+EVTDESC78006;My [GetFromRelation] [From.GetFirstName] told me how much [From.GetSheHe] enjoyed being in the court of [From.Guardian.GetTitledFirstName] and how [From.GetHerHis] stature had improved!;;;;;;;;;x 
+EVTOPTA78006;I'm proud of you, [From.GetFirstName]!;;;;;;;;;x 
+EVTDESC78010;My child was lured into stealing cookies and smearing jam all over the kitchen by one of my wards! The cook gave them a hearty scolding and then sent them to me, both still smeared with jam and covered in cookie crumbs.;;;;;;;;;x 
+EVTOPTA78010;Punish the fosterling, forgive my child;;;;;;;;;x 
+EVTOPTB78010;You will both clean the stables for a whole week!;;;;;;;;;x 
+EVTOPTC78010;I forgive you, but promise me this won't happen again!;;;;;;;;;x 
+EVTOPTD78010;Punish my own child for being so impressionable!;;;;;;;;;x 
+EVTDESC78015;I have seen the looks on my wife [Root.Spouse.GetFirstName]'s face every time she looks at my ward. The longing on her face tells me she wants to have children of her own, and I'll gladly help her with that.;;;;;;;;;x 
+EVTOPTA78015;Shall we try some more?;;;;;;;;;x 
+EVTDESC78020;My ward came running for me, tears streaming down its face and snot creeping towards its mouth.\n'[Root.GetFirstName], please help me! The other children are not nice to me!';;;;;;;;;x 
+EVTOPTA78020;Why should I care?;;;;;;;;;x 
+EVTOPTB78020;You will grow strong from that;;;;;;;;;x 
+EVTOPTC78020;I'll punish the main bully, don't you worry;;;;;;;;;x 
+EVTDESC78025;A foreign court can teach a child all kinds of important lessons to a child, everything from respecting to understanding and even adapting to other people's traditions and culture. My ward has learnt several important lessons of life in my court, as foreign as it may be from its father's court.;;;;;;;;;x 
+EVTOPTA78025;Its father will be pleased;;;;;;;;;x 
+EVTTOOLTIP78026;s child is thriving under [Root.GetTitledFirstName]'s care;;;;;;;;;x 
+EVTDESC78026;I knew I had made a good decision when I sent my child to [From.GetTitledFirstName]'s court. The life lessons learnt from a foreign court is worth its weight in gold and my child have learnt to respect and understand other people's traditions and culture.;;;;;;;;;x 
+EVTOPTA78026;Good, good;;;;;;;;;x 
+EVTDESC78030;No matter how many questions I ask, [Root.Guardian.GetTitledFirstName] always has an answer and is ever so patient with me! Our relationship has grown and I feel as if I have formed a strong mentor-relationship with [Root.Guardian.GetTitledFirstName].;;;;;;;;;x 
+EVTOPTA78030;This will be good to me;;;;;;;;;x 
+EVTTOOLTIP78031;has formed a strong relationship with [This.GetHerHis] ward [Root.GetTitledFirstName];;;;;;;;;x 
+EVTOPTB78030;I can handle things on my own;;;;;;;;;x 
+EVTDESC78031;My ward [From.GetFirstName] is inquisitive and asks so many questions it is hard to answer them all. I try my best and for every answer I give, [From.GetFirstName] seems to like me even more.;;;;;;;;;x 
+EVTOPTA78031;I think we have become friends!;;;;;;;;;x 
+EVTDESC20353;My liege [From.GetTitledFirstName] seems to have lost interest in this noble and wants me to forget the whole thing.;;;;;;;;;x 
+EVTOPTA20353;As [From.GetSheHe] wish.;;;;;;;;;x 
+EVTDESC2020;I watched my [GetFromRelation] [From.GetFirstName] at play with another child yesterday and noticed that [From.GetSheHe] didn't want to share [From.GetHerHis] toys.;;;;;;;;;x 
+EVTOPTA2020;This is how children learn thrift!;;;;;;;;;x 
+EVTOPTB2020;[From.GetSheHeCap] needs the birch!;;;;;;;;;x 
+EVTOPTC2020;[From.GetSheHeCap] needs a lecture on charity!;;;;;;;;;x 
+#EVTOPTD2020;] will save [From.GetHerHim] from Hell!!!;;;;;;;;;x 
+opinion_hatred;Hatred;;;;;;;;;x 
+EVTDESC3320;I knew there was a huge bear somewhere near the caves in [Root.Location.GetName] and a courtier of mine had insisted to come along when my men and I went hunting for the bear.;;;;;;;;;x 
+EVTDESC20361;It seems [From.GetTitledName] does not care if I spread the rumor or not. I think [From.GetSheHe] will regret [From.GetHerHis] choice.;;;;;;;;;x 
+EVTDESC20372;My liege seems to have lost interest in this noble and wants me to forget the whole thing.;;;;;;;;;x 
+EVTOPTA20372;As [From.GetSheHe] wish;;;;;;;;;x 
+EVTOPTD36000;It would look really good above my fireplace;;;;;;;;;x 
+mercy_to_sinners;Mercy to Sinners;;;;;;;;;x 
+b_augsburg;Augsburg;;;;;;;;;x 
+opinion_stubborn;Stubborn;;;;;;;;;x 
+opinion_lost_respect;Lost Respect;;;;;;;;;x 
+opinion_gained_respect;Gained Respect;;;;;;;;;x 
+EVTDESC3710;It hasn't escaped me that a vassal of mine does not like nor support me. My decisions are scoffed at, my suggestions ignored and the vassal takes any chance to show how little I matter.;;;;;;;;;x 
+EVTOPTA3710;I'll charm the vassal with my brilliant wits!;;;;;;;;;x 
+EVTTOOLTIP3711;is approached by [Root.GetTitledFirstName] in an effort from [Root.GetHerHim] to settle their differences;;;;;;;;;x 
+EVTOPTB3710;Too bad for the vassal I'm the one who rules here!;;;;;;;;;x 
+EVTDESC3711;I had done my best to show [From.GetTitledFirstName] that I do not like nor want to support [From.GetHerHim]. Finally, [From.GetTitledFirstName] realized this and talked to me about my problem with [From.GetHerHim], trying to win my support.;;;;;;;;;x 
+EVTOPTA3711;I don't change my mind that easily!;;;;;;;;;x 
+EVTTOOLTIPA3712;is told [Root.GetTitledFirstName] will not support [This.GetHerHim];;;;;;;;;x 
+EVTOPTB3711;I relent, you have my support!;;;;;;;;;x 
+EVTTOOLTIPB3712;is told [Root.GetTitledFirstName] will support [This.GetHerHim];;;;;;;;;x 
+EVTDESC3712;We talked and talked, [From.GetTitledFirstName] and I, trying to resolve our issues with each other. I thought I had gotten through to [From.GetHerHim] and [From.GetSheHe] told me...;;;;;;;;;x 
+EVTOPTA3712;...that I will never have [From.GetHerHis] support;;;;;;;;;x 
+EVTOPTB3712;...that [From.GetSheHe] will support me!;;;;;;;;;x 
+EVTDESC3715;My child is not gregarious like me, whenever I see someone I don't know I always take the chance to talk to them but my child is shy and would rather hide or disappear through the ground when someone tries to strike up a conversation.;;;;;;;;;x 
+EVTOPTA3715;Show my child how great it is to talk to people!;;;;;;;;;x 
+EVTOPTB3715;The world is a dangerous place and my child knows it;;;;;;;;;x 
+EVTOPTC3715;I'll leave my shy child alone;;;;;;;;;x 
+EVTDESC3720;I don't usually like gossip but I couldn't help agree with the gossiper. That proud courtier sure needs to get a grip on reality!;;;;;;;;;x 
+EVTOPTA3720;I'll talk to the courtier about the gossip;;;;;;;;;x 
+EVTTOOLTIP3721;[Root.GetTitledFirstName] talks to [This.GetTitledFirstName] about the sin of pride;;;;;;;;;x 
+EVTOPTB3720;I don't want to upset anyone, I'll keep quiet;;;;;;;;;x 
+EVTOPTC3720;It is not nice to talk about people behind their back!;;;;;;;;;x 
+EVTDESC3721;People are gossiping about you and your pride,' [From.GetTitledFirstName] told me and then continued talking about 'the sin of pride' and how I should 'mend my ways'...;;;;;;;;;x 
+EVTOPTA3721;I don't know what you are talking about!;;;;;;;;;x 
+EVTTOOLTIPA3722;is dismayed when [Root.GetTitledFirstName] denies knowledge about being sinful;;;;;;;;;x 
+EVTOPTB3721;Help me free myself from my vices!;;;;;;;;;x 
+EVTTOOLTIPB3722;is glad [Root.GetTitledFirstName] decided to mend [Root.GetHerHis] ways;;;;;;;;;x 
+EVTDESC3722;After I told [From.GetTitledFirstName] about the gossip about [From.GetHerHim], I had to wait a while for [From.GetHerHis] reaction...;;;;;;;;;x 
+EVTOPTA3722;[From.GetSheHeCap] didn't know what I was talking about!;;;;;;;;;x 
+EVTOPTB3722;[From.GetSheHeCap] asked me to help [From.GetHerHim] be free of this vice;;;;;;;;;x 
+EVTDESC3725;I'd like to think of myself as a magnanimous person but I have started to feel uneasy while talking to servants. The courtiers clearly does not find it fitting for a [Root.GetTitle] to consort with the servants.;;;;;;;;;x 
+EVTOPTA3725;To hell with them!;;;;;;;;;x 
+EVTOPTB3725;Fine! I'll stop talking to the servants;;;;;;;;;x 
+EVTOPTC3725;What the courtiers don't know...;;;;;;;;;x 
+EVTDESC38297;People no longer interests me as much as they used to do and I never voluntarily start a conversation with anyone anymore. I have lost the Gregarious trait;;;;;;;;;x 
+EVTDESC38298;It can be fun digging into work and see how your effort makes a difference. I have lost the Slothful trait.;;;;;;;;;x 
+EVTDESC38300;There are people in the world that deserves my respect. I have lost the Proud trait.;;;;;;;;;x 
+#EVTDESC20421;My liege, I have bad news from [FromFrom.Location.GetName]. My attempts to increase the province levy has met with nothing but failure and the reason behind this is [From.GetTitledName]! [From.GetSheHeCap] has been nohting but trouble since I arrived and has used [From.GetHerHis] wide influence in [FromFrom.Location.GetName] to hinder all my initiatives.\n\nYour humble Marshal,\n[Root.job_marshal.GetTitledFirstName];;;;;;;;;x 
+opinion_killed_merrymen;Killed the leader of the Merry Men;;;;;;;;;x 
+opinion_ignored_merrymen;Ignored the Merry Men;;;;;;;;;x 
+modifier_outfoxed;Outfoxed by the Merry Men;;;;;;;;;x 
+clever_deceive;Clever deception;;;;;;;;;x 
+met_merry_men;Met the Merry Men;;;;;;;;;x 
+EVTTOOLTIP68030;Highway Robber Band appears in province;;;;;;;;;x 
+EVTNAME10000;The Merry Men of [Root.Location.GetName];;;;;;;;;x 
+EVTDESC10000;My sheriff came to me today, looking harried and limping slightly.\n\n'My lord, I fear I have grave news: A band of robbers and poachers calling themselves the Merry Men of [Root.Location.GetName] are on the loose in your forest. I have tried to find them but alas, to no avail. They chased me out of the forest several times, the last time an arrow hit me straight in my buttocks!';;;;;;;;;x 
+EVTOPTA10000;Bwahahaha... Sorry, do go on;;;;;;;;;x 
+EVTOPTB10000;We need to set a trap for them!;;;;;;;;;x 
+EVTTOOLTIP10001;The Merry Men makes a move...;;;;;;;;;x 
+EVTOPTC10000;Just ignore them;;;;;;;;;x 
+EVTNAME10001;The harassing of a noblewoman;;;;;;;;;x 
+EVTDESC10001;An indignant but blushing woman stormed into my great hall. She told me how a band of green-clad men had overpowered her, taken her to their hideout and forced her to yield her jewels and gold to them, everything except a simple locket. They treated her courteously and even escorted her to the edge of the forest when she had handed over her jewelry. Her shining eyes, blushing cheeks and furtive smile told me she enjoyed it.;;;;;;;;;x 
+EVTOPTA10001;Give her some gold and send her away;;;;;;;;;x 
+EVTOPTB10001;Something must be done!;;;;;;;;;x 
+EVTNAME10002;The harassing of a nobleman;;;;;;;;;x 
+EVTDESC10002;An indignant and fuming man stormed into my great hall. He told me how a band of green-clad men had overpowered him, manhandled him when he tried to resist and taken him to their hideout where they had forced him to yield every valuable trinket he owned, even his horse! When he had stopped resisting, they treated him courteously and even escorted him to the edge of the forest after they had taken his valuables. He demanded that I would do something about 'those Merry Men in green'.;;;;;;;;;x 
+EVTOPTA10002;Give him some gold and send him away;;;;;;;;;x 
+EVTOPTB10002;This is outrageous!;;;;;;;;;x 
+EVTNAME10003;It's a trap!;;;;;;;;;x 
+EVTDESC10003;My sheriff and I discussed what we should do about the outlaws and came up with two ideas. Every man and woman who had been harassed by the bandits, including the sheriff, have been told about the leader's skill with the bow. An archery contest might lure him out of his beloved forest. Another option would be to use a disguise to find the villain and bring them to court.;;;;;;;;;x 
+EVTOPTA10003;Too risky;;;;;;;;;x 
+EVTOPTB10003;An archery contest, of course!;;;;;;;;;x 
+EVTTOOLTIP10010;An archery contest will be held;;;;;;;;;x 
+EVTOPTC10003;A clever disguise should work;;;;;;;;;x 
+EVTNAME10010;Archery Contest;;;;;;;;;x 
+EVTDESC10010;The day was perfect for an archery contest. The sun hid between clouds, a small breeze cooled the nervous and everyone seemed happy. The targets were set and ready, all that was needed now was my signal.;;;;;;;;;x 
+EVTOPTA10010;Let the contest... BEGIN!;;;;;;;;;x 
+EVTTOOLTIP10011;Let us see who we capture!;;;;;;;;;x 
+EVTTOOLTIP10012;This might not work;;;;;;;;;x 
+EVTNAME10011;The green-clad stranger;;;;;;;;;x 
+EVTDESC10011;Over there! Yes, there! That's him alright. What do we do now?' The sheriff pointed at a man clad in green with a great bow in his hands. I watched him as he won effortlessly against every person foolish enough to try and match their skill against his. The man's skill with his great bow amazed me. 'This man is a great archer, too bad he's a lawless poacher living off my venison.';;;;;;;;;x 
+EVTOPTA10011;Arrest and hang him!;;;;;;;;;x 
+EVTOPTB10011;Perhaps I could hire him and his Merry Men as gamekeepers;;;;;;;;;x 
+EVTNAME10012;The Old Man;;;;;;;;;x 
+EVTDESC10012;The other contestants and I laughed hard as the old man tried to draw the bow with shaking hands. After several attempts, he finally succeeded. He closed one of his runny eyes and THUD!... It hit the bullseye. Everyone's chin hit the ground as the old man defeated his contestants one by one. The poacher we had set the trap for was nowhere to be seen, so I had to grumpily give the old man his admittedly well-earned prize: a golden arrow.;;;;;;;;;x 
+EVTOPTA10012;What happened?;;;;;;;;;x 
+EVTTOOLTIP10013;The archery contest was a success and a failure;;;;;;;;;x 
+EVTNAME10013;That didn't work;;;;;;;;;x 
+EVTDESC10013;Frustration swept through my veins as the archery contest proved unsuccessful in luring and trapping the elusive poacher. Perhaps we should try something else?;;;;;;;;;x 
+EVTOPTA10013;Leave him and his gang alone;;;;;;;;;x 
+EVTOPTB10013;A smelly peasant should not arouse their suspicion;;;;;;;;;x 
+EVTTOOLTIP10020;A Devil in Disguise;;;;;;;;;x 
+EVTNAME10020;Devil in Disguise;;;;;;;;;x 
+EVTDESC10020;I removed my beautiful fur-lined cloaks and reluctantly eased myself into a peasant's stinking clothes. A woolen tunic, a small hat and muddy boots completed my disguise. Now, me own ma wouldn't even recognize me.;;;;;;;;;x 
+EVTOPTA10020;Let's see how this works...;;;;;;;;;x 
+EVTOPTB10020;Is this really befitting a [Root.GetTitle]?;;;;;;;;;x 
+EVTTOOLTIP10021;Disguise revealed!;;;;;;;;;x 
+EVTTOOLTIP10022;Stumbles upon the Merry Men;;;;;;;;;x 
+EVTTOOLTIP10023;A stranger in green;;;;;;;;;x 
+EVTNAME10021;Disguise revealed!;;;;;;;;;x 
+EVTDESC10021;I had not even taken one step into the great forest before an arrow burrowed itself into the ground just in front of my toes. I froze for a short second before I started struggling to get my sword out of its hiding place. When I had finally freed my sword, a man clad in green stood before me. He held the greatest bow I ever seen with an arrow on its string aimed at me. 'Leave', he said and I obeyed immediately. Behind me, the forest echoed with thunderous laughter.;;;;;;;;;x 
+EVTOPTA10021;Blast!;;;;;;;;;x 
+EVTNAME10022;Meet the Merry Men;;;;;;;;;x 
+EVTDESC10022;My stomach growled louder than the wolves howling in the distance. My search for the lawless men had taken me farther into the forest than I had imagined it would. Just a couple of hours had passed since I broke my fast but it felt like days. I kept walking and reached a small brook. As I bent down for a drink, I heard laughter and faint voices of many people coming towards me. Before I could hide, they were upon me. After a thorough interrogation where I pretended to be naïve or downright stupid, they allowed me to follow them to their camp.;;;;;;;;;x 
+EVTOPTA10022;H-hello...;;;;;;;;;x 
+EVTOPTB10022;I'll run away now, bye!;;;;;;;;;x 
+EVTTOOLTIP10030;Meet the Merry Men;;;;;;;;;x 
+EVTNAME10023;A stranger in green;;;;;;;;;x 
+EVTDESC10023;My bad mood did not improve when I arrived at a small bridge across a shallow creek and a man large in stature demanded that I pay a toll to cross the bridge. I laughed in his face and he challenged me, even though I bore a sword and he nothing but a wooden staff.;;;;;;;;;x 
+EVTOPTA10023;Easy as pie!;;;;;;;;;x 
+EVTTOOLTIP10024;You win the fight;;;;;;;;;x 
+EVTTOOLTIP10025;You lose the fight;;;;;;;;;x 
+EVTTOOLTIP10026;Your real identity is revealed;;;;;;;;;x 
+EVTOPTB10023;If I promise to never return, will you let me go then?;;;;;;;;;x 
+EVTNAME10024;A stranger defeated;;;;;;;;;x 
+EVTDESC10024;It did not seem fair to fight the man with a sword when he had a wooden staff, so I carved myself a staff before we commenced. After receiving several blows, I dodged his attack and drove the tip of my staff into his left side and as he doubled up, I hit him with all my strength. With a sigh he lost consciousness and fell into the creek. I feared he might drown so I poked at him with my staff. With a roar he exploded out of the river and up on the embankment. He grumpily admitted defeat after some persuasion and with a grimace and a limp he took me to his lawless brothers.;;;;;;;;;x 
+EVTOPTA10024;As I said, easy as pie!;;;;;;;;;x 
+EVTNAME10025;A stranger victorious;;;;;;;;;x 
+EVTDESC10025;I carved myself a wooden staff as it did not seem fair to use a sword against a man armed only with a staff. We exchanged blows and he was both stronger and faster than I had thought him to be. He did not seem to tire and when I lowered my staff to admit defeat, he delivered a hard blow that sent me over the bridge and into the muddy water. Roaring with laughter, he helped me get up on the bridge and slapped me so hard I coughed up the last mouthful of water I had swallowed. He insisted I would follow him and meet his gang.;;;;;;;;;x 
+EVTOPTA10025;I couldn't say no to him;;;;;;;;;x 
+EVTNAME10026;A stranger suspicious;;;;;;;;;x 
+EVTDESC10026;In the heat of battle, I somehow revealed to the green-clad man who I was. I tried to parry his fierce blows but I was too slow. I heard rather than felt the staff smash into my skull. When I woke up my sword, purse and opponent were long gone.;;;;;;;;;x 
+EVTOPTA10026;Now I will never catch him, nor the Merry Men!;;;;;;;;;x 
+EVTNAME10030;Meet the Merry Men;;;;;;;;;x 
+EVTDESC10030;As I approached their hideout, songs, laughter and people talking reached my ears. It was more a small village hiding beneath and up in the trees rather than a lawless gang's lair. Women cooked, tended to children and babbled with the men who practiced their skills with bows and swords. A woman clothed in green and as skilled as any man with a bow caught my eye but before I could approach her, I was introduced to their leader who seemed restless and asked me hundreds of questions. In order to gain their trust, I had to prove myself to him and his gang.;;;;;;;;;x 
+EVTOPTA10030;Really?;;;;;;;;;x 
+EVTTOOLTIP10031;Steal from the rich and give to the poor;;;;;;;;;x 
+EVTOPTB10030;Let's see what adventure we can find;;;;;;;;;x 
+EVTTOOLTIP10032;Adventure ahead!;;;;;;;;;x 
+EVTOPTC10030;This is enough!;;;;;;;;;x 
+EVTTOOLTIP10040;Arrest the leader of the Merry Men;;;;;;;;;x 
+EVTOPTD10026;This is as far as I dare take it;;;;;;;;;x 
+EVTNAME10031;Steal from the rich;;;;;;;;;x 
+EVTDESC10031;Praying he would not recognize me, I stepped out in front of my old friend and demanded he would surrender his purse. The way he looked at me, disgust mixed with fear, could only mean he did not recognize me. I had to threaten to kill him to make him let go of the purse, and I made a silent vow to try and compensate him should I be able to ever return to my castle. His purse was heavy and so was my heart as I returned to the bandit leader.;;;;;;;;;x 
+EVTOPTA10031;This has gone too far!;;;;;;;;;x 
+EVTOPTB10031;Time to leave;;;;;;;;;x 
+EVTOPTC10031;Now I know where to find them;;;;;;;;;x 
+EVTTOOLTIP10041;Betray the Merry Men;;;;;;;;;x 
+EVTNAME10032;Adventure!;;;;;;;;;x 
+EVTDESC10032;I insisted that the leader and I would go looking for adventure together, without any of the other Merry Men. They grumbled a bit but was silenced by the leader who thought it to be an excellent idea. As we walked down the road, we saw a man clad in horse-skin leaning against a tree. I wanted to confront the horse-man myself but the stubborn leader did not listen. While he talked to horse-man, I was attacked and tied to a tree by one of my own sheriffs! The leader of the Merry Men returned, saw me tied to the tree and killed my sheriff before he cut my ropes.;;;;;;;;;x 
+EVTOPTA10032;This has gone too far!;;;;;;;;;x 
+EVTOPTB10032;Now what?;;;;;;;;;x 
+EVTOPTC10032;This was... fun?;;;;;;;;;x 
+EVTTOOLTIP10033;Leave the Merry Men;;;;;;;;;x 
+EVTOPTD10032;Time to leave and leave them alone;;;;;;;;;x 
+EVTNAME10033;Leave the Merry Men;;;;;;;;;x 
+EVTDESC10033;I slunk away from the Merry Men after having had adventures, venison and flirted with the green-clad maid. I had great fun together with the outlaws and feel no need to try and change their ways, as long as their shenanigans do not affect me. They seemed rather harmless, content to hide in their forest and occasionally robbing someone who will not suffer from losing a little gold.;;;;;;;;;x 
+EVTOPTA10033;Fare thee well!;;;;;;;;;x 
+EVTNAME10040;Time to make a decision;;;;;;;;;x 
+EVTDESC10040;What should I do about the green-clad Merry Men and their leader?;;;;;;;;;x 
+EVTOPTA10040;I'll hang them!;;;;;;;;;x 
+EVTOPTB10040;I'll hire them as gamekeepers;;;;;;;;;x 
+EVTNAME10041;Ambush!;;;;;;;;;x 
+EVTDESC10041;When the snores of the Merry Men echoed throughout the forest, I snuck back home and rallied my troops. I led them straight to the band of robbers and thieves. We caught every one of the bandits, the women and children were spared and set free.;;;;;;;;;x 
+EVTOPTA10041;Kill them all!;;;;;;;;;x 
+EVTOPTB10041;If their leader becomes my gamekeeper I will spare their lives;;;;;;;;;x 
+EVTTOOLTIP10042;The wedding between lady Marion and Robin;;;;;;;;;x 
+EVTNAME10042;The Wedding;;;;;;;;;x 
+EVTDESC10042;The wedding between lady Marion and Robin was held in the forest, venison was served at the wedding feast but I let it slip, for now. The bridal couple had only eyes for each other and when the fat monk started playing a slow, beautiful song about love they joined hands and danced, still gazing into each other eyes. They did not even notice when the song turned faster and the rest of the dancers followed the rhythm, but continued dancing slowly until the stars started sparkling on the clear sky.;;;;;;;;;x 
+EVTOPTA10042;I wish them good luck with all my heart;;;;;;;;;x 

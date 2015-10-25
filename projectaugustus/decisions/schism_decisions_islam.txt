@@ -1,0 +1,98 @@
+###########################################
+#
+# Schism Decisions for Muslims
+#
+###########################################
+
+# Written by Hansol "LumberKing" Lee
+
+decisions = {
+
+	unify_islam = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Sword of Islam"
+			has_dlc = "Legacy of Rome"
+			has_dlc = "Sons of Abraham"
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+			OR = {
+				religion = sunni
+				religion = shiite
+				religion = hurufi
+				religion = ibadi
+				religion = kharijite
+			}
+			controls_religion = yes
+			is_heretic = no
+			NOT = { has_global_flag = islam_united }
+		}
+		allow = {
+			piety = 5000
+			religion_authority = 1.0
+			completely_controls = c_cordoba	
+			178 = {
+				religion = ROOT # Cordoba
+			}
+			completely_controls = c_messina
+			339 = {
+				religion = ROOT # Messina
+			}
+			completely_controls = c_palermo
+			340 = {
+				religion = ROOT # Palermo
+			}
+			completely_controls = c_byzantion	
+			496 = {
+				religion = ROOT # Byzantion
+			}
+			completely_controls = c_tabriz
+			667 = {
+				religion = ROOT # Tabriz
+			}
+			completely_controls = c_medina
+			718 = {
+				religion = ROOT # Medina
+			}
+			completely_controls = c_mecca
+			719 = {
+				religion = ROOT # Mecca
+			}
+			completely_controls = c_semender
+			675 = {
+				religion = ROOT # Semender
+			}
+			completely_controls = c_damascus
+			728 = {
+				religion = ROOT # Damascus
+			}
+			completely_controls = c_ifni
+			846 = {
+				religion = ROOT # Ifni
+			}
+			completely_controls = c_aden
+			858 = {
+				religion = ROOT # Aden
+			}
+			completely_controls = c_muscat
+			868 = {
+				religion = ROOT # Muscat
+			}
+			completely_controls = c_samarkand
+			903 = {
+				religion = ROOT # Samarkand
+			}
+			completely_controls = c_debul
+			1297 = {
+				religion = ROOT # Debul
+			}
+		}
+		effect = {
+			narrative_event = { id = SHS.101 tooltip = EVTTOOLTISHS.101}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

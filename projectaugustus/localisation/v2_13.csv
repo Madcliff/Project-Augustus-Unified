@@ -1,0 +1,6 @@
+#CODE;ENGLISH;;;;;;;;;x 
+EVTDESC91369;[From.GetBestName] has failed in [From.GetPossPronoun] attempts to get the decadent [FromFrom.GetBestName] to straighten up. He is a kafir and can be imprisoned freely by all rulers of our shamed dynasty.;;;;;;;;;x 
+EVTOPTA91369;A shoe on his head!;;;;;;;;;x 
+EVTDESC91370;Your [GetFromRelation], [From.GetBestName], has become Decadent, bringing shame to the House of [Root.GetOnlyDynastyName]!;;;;;;;;;x 
+EVTOPTA91370;The ingrate!;;;;;;;;;x 
+GRANT_LANDED_TITLE_INTERACTION_7;Decadence lost from grant to dynasty member: §G$DECADENCE$%§! (the effect is relative to the dynasty's current Decadence.);;;;;;;;;x 

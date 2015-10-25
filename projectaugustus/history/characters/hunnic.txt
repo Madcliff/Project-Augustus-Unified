@@ -1,0 +1,321 @@
+200000008 = {
+        name="Attila"
+        dynasty=591
+	martial=8
+        intrigue=6
+        diplomacy=4
+        stewardship=4
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000023
+	trait="brilliant_strategist"
+        trait="aggressive_leader"
+        trait="cavalry_leader"
+        trait="ambitious"
+        trait="diligent"
+        trait="hunter"
+        trait="cruel"
+        trait="proud"
+        trait="brave"
+        406.1.1={
+                birth=yes
+        }
+        434.1.1={
+                give_nickname=nick_attila
+        }
+        453.3.1={
+                death=yes
+        }
+}
+200000009 = {
+        name="Ellac"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        trait="misguided_warrior"
+        father=200000008
+        425.1.1={
+                birth=yes
+        }
+        456.1.1={
+                death=yes
+        }
+}
+200000010 = {
+        name="Tuldia"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        trait="tough_soldier"
+        father=200000008
+        430.1.1={
+                birth=yes
+        }
+        456.1.1={
+                death=yes
+        }
+}
+200000011 = {
+        name="Dengizich"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        trait="tough_soldier"
+        trait="brave"
+        father=200000008
+        426.1.1={
+                birth=yes
+        }
+        469.1.1={
+                death=yes
+        }
+}
+200000012 = {
+        name="Ernak"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        trait="skilled_tactician"
+        trait="diligent"
+        trait="brave"
+        father=200000008
+        428.1.1={
+                birth=yes
+        }
+        476.1.1={
+                death=yes
+        }
+}
+200000013 = {
+        name="Djurash"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000012
+        448.1.1={
+                birth=yes
+        }
+        505.1.1={
+                death=yes
+        }
+}
+200000014 = {
+        name="Gordas"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000012
+        460.1.1={
+                birth=yes
+        }
+        528.1.1={
+                death=yes
+        }
+}
+200000015 = {
+        name="Zelorbes"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000014
+        520.1.1={
+                birth=yes
+        }
+        580.1.1={
+                death=yes
+        }
+}
+200000016 = {
+        name="Tatra"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000013
+        480.1.1={
+                birth=yes
+        }
+        545.1.1={
+                death=yes
+        }
+}
+200000017 = {
+        name="Boyan-Chelbir"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000016
+        530.1.1={
+                birth=yes
+        }
+        590.1.1={
+                death=yes
+        }
+}
+200000018 = {
+        name="Tubdjak"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000017
+        540.1.1={
+                birth=yes
+        }
+        605.1.1={
+                death=yes
+        }
+}
+200000019 = {
+        name="Alburi"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000018
+        570.1.1={
+                birth=yes
+        }
+        632.1.1={
+                death=yes
+        }
+}
+200000020 = {
+        name="Avarius"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000015
+        540.1.1={
+                birth=yes
+        }
+        592.1.1={
+                death=yes
+        }
+}
+200000021 = {
+        name="Chaganus"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000020
+        560.1.1={
+                birth=yes
+        }
+        611.1.1={
+                death=yes
+        }
+}
+200000022 = {
+        name="Schzarus"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000021
+        580.1.1={
+                birth=yes
+        }
+        611.1.1={
+                death=yes
+        }
+}
+200000023 = {
+        name="Mundzuk"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000027
+        390.1.1={
+                birth=yes
+        }
+        434.1.1={
+                death=yes
+        }
+}
+200000024 = {
+        name="Octar"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000027
+        380.1.1={
+                birth=yes
+        }
+        430.1.1={
+                death=yes
+        }
+}
+200000025 = {
+        name="Rugila"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000027
+        382.1.1={
+                birth=yes
+        }
+        434.1.1={
+                death=yes
+        }
+}
+200000026 = {
+        name="Bleda"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        father=200000023
+        trait="skilled_tactician"
+        trait="diligent"
+        trait="cruel"
+        trait="brave"
+        trait="wroth"
+        408.1.1={
+                birth=yes
+        }
+        445.1.1={
+                death=yes
+        }
+}
+200000027 = {
+        name="Kuridak"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        350.1.1={
+                birth=yes
+        }
+        411.1.1={
+                death=yes
+        }
+}
+200000028 = {
+        name="Sengilac"
+        dynasty=591
+        religion="tengri_pagan"
+        culture="hunnic"
+        trait="tough_soldier"
+        father=200000008
+        423.1.1={
+                birth=yes
+        }
+        455.1.1={
+                death=yes
+        }
+}
+200000029 = {
+        name="Sunigila"
+        dynasty=591
+        female=yes
+        religion="arian"
+        culture="german"
+        father=200000028
+        443.1.1={
+                birth=yes
+        }
+        458.1.1={
+                add_spouse=200000031
+        }
+        493.3.15={
+		death = {
+			death_reason = death_murder
+			killer = 168775
+		}
+        }
+}
