@@ -337,77 +337,91 @@ saxon_band_composition = {
 }
 
 imperial_order_composition = {
+ levy_size = 5
 	knights = 3200
-        light_cavalry = 800
+ light_cavalry = 800
 }
 
 tagmata_composition = {
+levy_size = 5
 	knights = 3200
-        light_cavalry = 800
+ light_cavalry = 800
 }
 
 tagmata2_composition = {
+levy_size = 5
 	knights = 6400
-        light_cavalry = 1600
+ light_cavalry = 1600
 }
 
 scholae_composition = {
+levy_size = 5
 	knights = 6400
-        light_cavalry = 1600
+ light_cavalry = 1600
 }
 
 archon_composition = {
+levy_size = 5
 	knights = 1600
-        horse_archers = 400
+ horse_archers = 400
 }
 
 archon2_composition = {
+levy_size = 5
 	knights = 3200
         horse_archers = 800
 }
 
 nobiles_composition = {
+levy_size = 5
 	knights = 3200
         horse_archers = 800
 }
 
 sacred_band_composition = {
+levy_size = 5
 	knights = 400
 	pikemen = 4600
 	archers = 1000
 }
 
 varangian_guard_composition = {
+levy_size = 5
 	knights = 400
 	heavy_infantry = 4600
 	archers = 1000
 }
 
 foederati_composition = {
+levy_size = 5
 	knights = 800
 	heavy_infantry = 4000
 	archers = 1200
 }
 
 heroes_composition = {
+levy_size = 5
 	knights = 800
 	heavy_infantry = 4000
 	archers = 1200
 }
 
 nokkor_composition = {
+	levy_size = 5
 	horse_archers = 8000
         light_cavalry = 2000
 }
 
 
 golden_band_composition = {
+	levy_size = 5
 	knights = 400
 	heavy_infantry = 4600
 	archers = 1000
 }
 
 chosen_composition = {
+	levy_size = 5
 	knights = 2000
         light_cavalry = 1200
 	heavy_infantry = 3000
@@ -416,30 +430,36 @@ chosen_composition = {
 }
 
 arsiyah_composition = {
+	levy_size = 5
 	knights = 400
 	heavy_infantry = 2400
 	archers = 1200
 }
 
 kheshig_composition = {
+ levy_size = 5
 	horse_archers = 8000
-        light_cavalry = 2000
+ light_cavalry = 2000
 }
 
 companions_composition = {
-        light_cavalry = 1000
+levy_size = 5
+ light_cavalry = 1000
 	knights = 3000
 }
 
 imperial_fleet_composition = {
+levy_size = 5
 	galleys = 100
 }
 
 syrian_fleet_composition = {
+ levy_size = 5
 	galleys = 100
 }
 
 alexandrian_fleet_composition = {
+ levy_size = 5
 	galleys = 100
 }
 
@@ -450,12 +470,14 @@ paladins_composition = {
 }
 
 pushtigban_composition = {
+ levy_size = 5
 	horse_archers = 1000
 	light_cavalry = 2000
 	knights = 4000
 }
 
 mamluks_composition = {
+levy_size = 5
 	horse_archers = 2000
 	light_cavalry = 4000
 	archers = 1500
@@ -464,6 +486,7 @@ mamluks_composition = {
 }
 
 ghilman_composition = {
+levy_size = 5
 	archers = 1500
 	horse_archers = 1000
 	light_cavalry = 1500
@@ -472,6 +495,7 @@ ghilman_composition = {
 }
 
 janissaries_composition = {
+levy_size = 5
 	horse_archers = 500
 	light_cavalry = 1000
 	archers = 1000
