@@ -1,0 +1,11 @@
+# No previous file for PROV1575
+title = c_rutog
+
+# Settlements
+
+max_settlements = 2
+b_rutog = tribal
+
+culture = tibetan
+religion = vajrayana_buddhist
+terrain = hills

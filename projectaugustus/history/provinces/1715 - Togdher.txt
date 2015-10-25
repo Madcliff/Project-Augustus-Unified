@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_togdher
+# Settlements
+max_settlements = 4
+b_togdher = castle
+
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

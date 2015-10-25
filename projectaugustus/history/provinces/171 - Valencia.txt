@@ -15,10 +15,14 @@ b_alacuas = castle
 #b_torrent = castle
 
 # Misc
-culture = hispanic
+culture = iberian
 religion = catholic
 
 # History
+700.1.1 = { 
+	b_gandia = ct_jewish_community_1
+	b_gandia = ct_jewish_community_2
+}
 
 944.1.1 = { 
 	culture = andalusian_arabic

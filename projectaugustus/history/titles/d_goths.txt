@@ -1,0 +1,15 @@
+450.1.1 = {	
+	holder = 1000256134 
+	liege=e_hunnicia
+}
+620.1.1 = {
+	holder = 1000215012
+	liege=0
+}
+645.1.1 = {
+	holder = 1000215013
+}
+675.1.1 = {
+	holder = 0
+	liege = 0
+}

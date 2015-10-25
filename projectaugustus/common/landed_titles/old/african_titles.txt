@@ -1,0 +1,525 @@
+e_kanem = {
+	color={ 255 120 0 }
+	color2={ 255 255 255 }
+	capital = 944 # Kanem
+	short_name = yes
+	muslim = 25 # Crusade target weight
+	allow = {
+		FROM = {
+			OR = {
+				culture = bedouin_arabic
+				culture = maghreb_arabic
+				culture_group = central_african
+			}
+		}
+	}
+	
+	k_kanem = {
+		color={ 165 90 160 }
+		color2={ 0 0 0 }
+		muslim = 25 # Crusade target weight
+		capital = 944 # Kanem
+		allow = {
+			FROM = {
+				culture_group = central_african
+			}
+		}
+		
+		d_tibesti = {
+			color={ 90 10 100 }
+			color2={ 0 0 0 }
+			
+			c_murzuq = {
+				color={ 190 80 10 }
+				b_murzuk = {
+				}
+				b_zizau = {
+				}
+				b_zadam = {
+				}
+			}
+			c_tibesti = {
+				color={ 190 80 30 }
+				b_bardai = {
+				}
+				b_yebbi_souma = {
+				}
+			}
+			c_awbari = {
+				color={ 80 80 20 }
+				b_awbari = {
+				}
+				b_germa = {
+				}
+			}
+			c_sabha = {
+				color={ 10 70 70 }
+				b_sabha = {
+				}
+				b_samnu = {
+				}
+			}
+			c_jawf = {
+				color={ 70 10 70 }
+				b_jawf = {
+				}
+				b_buzema = {
+				}
+			}
+		}
+		d_borku = {
+			color={ 10 90 100 }
+			color2={ 0 0 0 }
+			
+			c_borkou = {
+				color={ 190 100 20 }
+				b_borku = {
+				}
+				b_am_galakka = {
+				}
+			}
+			c_fada = {
+				color={ 255 115 40 }
+				b_fada = {
+				}
+				b_tokou = {
+				}
+			}
+			c_toubou = {
+				color={ 190 100 40 }
+				b_tobou = {
+				}
+				b_abada = {
+				}
+			}
+		}
+		d_kanem = {
+			color={ 160 80 150 }
+			color2={ 0 0 0 }
+			
+			c_kanem = {
+				color={ 200 120 90 }
+				b_mao = {
+				}
+				b_kekedina = {
+				}
+				b_nokou = {
+				}
+			}
+			c_salal = {
+				color={ 200 120 60 }
+				b_salal = {
+				}
+				b_moussoro = {
+				}
+			}
+			c_fitri = {
+				color={ 200 120 30 }
+				b_yao = {
+				}
+				b_am_djamena = {
+				}
+				b_barda = {
+				}
+			}
+			c_batha = {
+				color={ 200 120 0 }
+				b_ati = {
+				}
+				b_oum_hadjer = {
+				}
+			}
+		}
+		d_ouaddai = {
+			color={ 170 60 150 }
+			color2={ 0 0 0 }
+			
+			c_sila = {
+				color={ 230 120 20 }
+				b_koukou_angarana = {
+				}
+				b_tissi = {
+				}
+			}
+			c_dar_tama = {
+				color={ 255 115 20 }
+				b_kolonga = {
+				}
+				b_sirim_birke = {
+				}
+			}
+			c_assoungha = {
+				color={ 230 120 40 }
+				b_hadjer_hadid = {
+				}
+				b_borota = {
+				}
+			}
+			c_ouara = {
+				color={ 230 120 60 }
+				b_ouara = {
+				}
+				b_abdi = {
+				}
+			}
+			c_ade = {
+				color={ 20 165 200 }
+				color2={ 255 255 255 }
+				
+				b_ade = {
+				}
+				b_dokan = {
+				}
+			}
+		}
+		d_ennedi = {
+			color={ 150 50 160 }
+			color2={ 0 0 0 }
+			
+			c_ennedi = {
+				color={ 210 150 60 }
+				b_bidadi = {
+				}
+				b_faya = {
+				}
+			}
+			c_fashir = { # Semegonda
+				color={ 65 150 215 }
+				color2={ 255 255 255 }
+				
+				b_fashir = {
+				}
+				b_kabkabiya = {
+				}
+			}
+			c_gaoga = {
+				color={ 70 70 10 }
+				b_gaoga = {
+				}
+				b_naba = {
+				}
+			}
+			c_fezzan = {
+				color={ 210 150 30 }
+				b_tajarhi = {
+				}
+				b_qatrun = {
+				}
+			}
+			c_bahai = {
+				color={ 255 115 60 }
+				b_bahai = {
+				}
+				b_est = {
+				}
+				b_dahal = {
+				}
+			}
+		}
+		
+		d_daju = {
+			color={ 18 70 17 }
+			color2={ 0 0 0 }
+
+	
+			c_geneina = {
+				color={ 30 90 90 }
+				b_geneina = {
+				}
+				b_geneine = {
+				}
+			}
+			c_tunjur = {
+				color={ 20 70 70 }
+				b_tunjur = {
+				}
+				b_tunjure = {
+				}
+			}
+			c_daju = {
+				color={ 100 20 70 }
+				b_daju = {
+				}
+				b_dajue = {
+				}
+			}
+		}		
+	}
+	
+	k_bornu = {
+		color={ 90 135 165 }
+		color2={ 0 0 0 }
+		capital = 941 # Borno
+		muslim = 25 # Crusade target weight
+		allow = {
+			FROM = {
+				culture_group = central_african
+				}
+			}
+			
+		d_wadi_fira = { # Ghat
+			color={ 180 70 170 }
+			color2={ 0 0 0 }
+			
+			c_bilma = {
+				color={ 30 90 90 }
+				b_bilma = {
+				}
+				b_dirkou = {
+				}
+			}
+			c_ghat = {
+				color={ 20 70 70 }
+				b_ghat = {
+				}
+				b_shatii = {
+				}
+			}
+			c_djanet = {
+				color={ 100 20 70 }
+				b_djanet = {
+				}
+				b_azjar = {
+				}
+			}
+		}		
+		d_arlit = {
+			color={ 180 100 170 }
+			color2={ 0 0 0 }
+			
+			c_arlit = {
+				color={ 90 90 30 }
+				b_arlit = {
+				}
+				b_elmiki = {
+				}
+			}
+			c_agadez = {
+				color={ 190 80 20 }
+				b_agadez = {
+				}
+				b_debaga = {
+				}
+			}
+			c_abardok = {
+				color={ 90 30 90 }
+				b_abardok = {
+				}
+				b_takazanza = {
+				}
+			}
+		}
+	d_mandara = {
+		color = { 200 120 70 }
+		color2 = { 255 255 255 }
+		capital = 962
+	
+		c_mandara = {
+			color = { 200 120 70 }
+			b_mandara = {
+			}
+			b_amidala = {
+			}
+		}
+		c_ngarangou = {
+			color = { 200 100 70 }
+			b_ngarangou = {
+			}
+			b_nadu = {
+			}
+		}
+		c_nguigmi = {
+			color = { 200 80 70 }
+			b_nguigmi = {
+			}
+			b_kaouar = {
+			}
+		}
+	}
+	d_kukava = {
+		color = { 150 120 50 }
+		color2 = { 255 255 255 }
+		capital = 965
+	
+		c_kukava = {
+			color = { 150 100 50 }
+			b_kukava = {
+			}
+			b_daban = {
+			}
+		}
+		c_nagazargamu = {
+			color = { 150 80 50 }
+			b_nagazargamu = {
+			}
+			b_dala = {
+			}
+		}
+		c_diffa = {
+			color = { 150 60 50 }
+			b_diffa = {
+			}
+			b_chetimari = {
+			}
+		}
+	}
+		d_borno = {
+			color={ 100 10 90 }
+			color2={ 0 0 0 }
+			
+			c_borno = {
+				color={ 190 50 40 }
+				b_gidimbari = {
+				}
+				b_kukawa = {
+				}
+				b_uba = {
+				}
+			}
+			c_merse = {
+				color={ 190 60 30 }
+				b_merse = {
+				}
+				b_chakata = {
+				}
+				b_defarna = {
+				}
+			}
+			c_lac = {
+				color={ 190 70 20 }
+				b_mamdi = {
+				}
+				b_kangalam = {
+				}
+				b_liwa = {
+				}
+			}
+		}
+	}
+}
+
+k_hausa = { # Kingdom of Kano or Hausaland or Hausa States
+	color={ 165 90 135 }
+	color2={ 0 0 0 }
+	capital = 969
+	muslim = 25 # Crusade target weight
+	allow = {
+		FROM = {
+			OR = {
+				culture_group = central_african
+				culture_group = west_african
+				}
+			}
+		}
+
+	d_kano = {
+		color = { 160 100 80 }
+		color2 = { 255 255 255 }
+		capital = 965
+	
+		c_kano = {
+			color = { 150 100 50 }
+			b_kano = {
+			}
+			b_tofa = {
+			}
+			b_rano = {
+			}
+		}
+		c_katsina = {
+			color = { 60 100 50 }
+			b_katsina = {
+			}
+			b_maradi = {
+			}
+		}
+		c_biramas = {
+			color = { 150 80 50 }
+			b_biramas = {
+			}
+			b_samu = {
+			}
+		}
+	}
+	d_daura = {
+		color = { 100 130 50 }
+		color2 = { 255 255 255 }
+	
+		c_daura = {
+			color = { 100 100 50 }
+			b_daura = {
+			}
+			b_umara = {
+			}
+		}
+		c_kazaure = {
+			color = { 150 60 50 }
+			b_kazaure = {
+			}
+			b_jigawa = {
+			}
+		}
+		c_mutum = {
+			color = { 50 80 90 }
+			b_mutum = {
+			}
+			b_babura = {
+			}
+		}
+	}
+	d_gobir = { # Sokoto
+		color = { 80 150 50 }
+		color2 = { 255 255 255 }
+		
+		c_sokoto = {
+			color = { 80 90 30 }
+			b_sokoto = {
+			}
+			b_argurgu = {
+			}
+			b_kebi = {
+			}
+		}	
+		c_gobir = {
+			color = { 80 100 50 }
+			b_alkalawa = {
+			}
+			b_birni = {
+			}
+		}
+		c_cibiri = {
+			color = { 100 60 50 }
+			b_cibiri = {
+			}
+			b_karba = {
+			}
+		}
+	}
+	d_zamfara = {
+		color = { 50 130 30 }
+		color2 = { 255 255 255 }
+	
+		c_zamfara = {
+			color = { 80 170 50 }
+			b_zamfara = {
+			}
+			b_gusau = {
+			}
+		}
+		c_jauri = {
+			color = { 90 100 30 }
+			b_jauri = {
+			}
+			b_busa = {
+			}
+		}
+		c_gvari = {
+			color = { 80 60 20 }
+			b_gvari = {
+			}
+			b_kontagora = {
+			}
+		}
+	}
+}
+

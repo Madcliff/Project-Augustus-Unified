@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_meidob
+# Settlements
+max_settlements = 4
+b_meidob = castle
+
+
+# Misc
+culture = nubian
+religion = nilotic_pagan 
+
+# History

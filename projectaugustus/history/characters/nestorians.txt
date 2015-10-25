@@ -1,0 +1,474 @@
+#Nestorian Characters ID 1.000.448.300 - 1.000.448.399
+#Counties of Deir, Kirkuk, Oromeih, Rayy, Luristan
+
+#Deir
+1000448300 = {
+	name=Barba'shimin
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Kirkuk
+1000448301 = {
+	name=Chanina
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Oromieh
+1000448302 = {
+	name=Ma'na
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Rayy
+1000448303 = {
+	name=Sava
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Luristan
+1000448304 = {
+	name=Marabokht
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Duchy of Syria, Jazira, Edessa, Antioch, Aleppo, and Tripoli
+
+#Duchy of Syria (Assyrian)
+1000448305 = {
+	name=Abahu
+	dynasty=random
+	female=no
+	religion=orthodox
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Bostra
+1000448305 = {
+	name=Abahu
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=assyrian
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Al-Sukhnah
+1000448306 = {
+	name=Shem'on
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=assyrian
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Suwaida
+1000448307 = {
+	name=Qayyoma
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=assyrian
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Druz
+1000448308 = {
+	name=Mari
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Duchy of Aleppo (Aramean)
+1000448309 = {
+	name=Chuma
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Homs
+1000448309 = {
+	name=Chuma
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Hama
+1000448310 = {
+	name=Lazare
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Aleppo
+1000448311 = {
+	name=Raziel
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Duchy of Jazira (Aramean)
+1000448312 = {
+	name=Talmai
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Amida
+1000448312 = {
+	name=Talmai
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Nisibin
+1000448313 = {
+	name=Th'amhais
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Al Jazira
+1000448314 = {
+	name=Yunanis
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Bira
+1000448315 = {
+	name=Shamir
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Duchy of Edessa (Aramean)
+1000448316 = {
+	name=Lebbaeus
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Edessa
+1000448316 = {
+	name=Lebbaeus
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Tell Bashir
+1000448317 = {
+	name=Moqli
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Aintab
+1000448318 = {
+	name=Mikha'il
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Duchy of Antioch (Aramean)
+1000448319 = {
+	name=Kaiapha
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Alexandretta
+1000448319 = {
+	name=Kaiapha
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+#Antioch
+1000448320 = {
+	name=Petros
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+		
+#Duchy of Tripoli (Aramean)
+1000448322 = {
+	name=Dunanu
+	dynasty=random
+	female=no
+	religion=monothelite
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+	
+	
+#Baalbek
+1000448323 = {
+	name=Lebbaeus
+	dynasty=random
+	female=no
+	religion=catholic
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Tortosa
+1000448324 = {
+	name=Nechunya
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+#Archa
+1000448321 = {
+	name=Rubil
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+10048321 = {
+	name="Rubil" 
+	dynasty=random
+	martial=4
+	diplomacy=6
+	intrigue=5
+	stewardship=4
+	religion=nestorian
+	culture="assyrian"
+	trait="detached_priest"
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+

@@ -1,0 +1,444 @@
+vassal_decisions = {
+
+	execute_peasant_rebel_leader_decision = {
+		
+			potential = {
+				prisoner = yes
+				has_character_flag = peasant_rebel_leader
+				host = { character = FROM }
+			}
+			
+			allow = {
+				prisoner = yes
+			}
+			
+			effect = {
+				FROM = {
+				random_list = {
+				90 = {
+				custom_tooltip = { text = TOOLTIPSCAREPEASANTS }
+				add_character_modifier = { 
+					name = executed_peasant_leader
+					days = 3650
+					hidden = yes
+						
+				}
+				}
+				10 = {
+				custom_tooltip = { text = TOOLTIPMAKEMARTYR }
+				add_character_modifier = { 
+					name = martyred_peasant_leader
+					days = 3650
+					hidden = yes
+						
+				}
+				}
+				}
+				prestige = 30
+				piety = -10
+				if = { 
+				limit = { trait = kind }
+						random = {
+						chance = 50
+					remove_trait = kind
+					}
+				}
+				if = { 
+				limit = { NOT = {trait = cruel} }
+						random = {
+						chance = 10
+					add_trait = cruel
+					}
+				}
+				}
+				death = {
+					death_reason = death_execution
+					killer = FROM
+				}
+			}
+							
+			revoke_allowed = {
+				always = no
+			}
+			ai_will_do = {
+				factor = 0
+				
+				}
+	}
+	
+	cruel_execute_peasant_rebel_leader_decision = {
+		
+			potential = {
+				prisoner = yes
+				has_character_flag = peasant_rebel_leader
+				host = { character = FROM }
+				OR = {
+				FROM = {trait = cruel}
+				FROM = {trait = wroth}
+				FROM = {trait = impaler}
+				}
+			}
+			
+			allow = {
+				prisoner = yes
+			}
+			
+			effect = {
+				FROM = {
+				random_list = {
+				70 = {
+				custom_tooltip = { text = TOOLTIPSCAREPEASANTS }
+				add_character_modifier = { 
+					name = cruel_executed_peasant_leader
+					days = 3650
+					hidden = yes
+						
+				}
+				}
+				30 = {
+				custom_tooltip = { text = TOOLTIPMAKEGREATMARTYR }
+				add_character_modifier = { 
+					name = crual_martyred_peasant_leader
+					days = 7000
+					hidden = yes
+						
+				}
+				}
+				}
+				prestige = 50
+				piety = -50
+				if = { 
+				limit = { trait = kind }
+						random = {
+						chance = 80
+					remove_trait = kind
+					}
+				}
+				if = { 
+				limit = { NOT = {trait = cruel} }
+						random = {
+						chance = 50
+					add_trait = cruel
+					}
+				}
+				if = { 
+				limit = { 
+				trait = cruel 
+				NOT = {trait = impaler}
+				}
+						random = {
+						chance = 50
+					add_trait = impaler
+					}
+				}
+				}
+				death = {
+					death_reason = death_execution
+					killer = FROM
+				}
+			}
+							
+			revoke_allowed = {
+				always = no
+			}
+			ai_will_do = {
+				factor = 0
+				
+				}
+	}
+	
+	execute_religious_peasant_rebel_leader_decision = {
+		
+			potential = {
+				prisoner = yes
+				has_character_flag = religion_peasant_rebel_leader
+				host = { character = FROM }
+			}
+			
+			allow = {
+				prisoner = yes
+			}
+			
+			effect = {
+				FROM = {
+				random_list = {
+				60 = {
+				custom_tooltip = { text = TOOLTIPSCAREPEASANTS }
+				add_character_modifier = { 
+					name = executed_peasant_leader
+					days = 3650
+					hidden = yes
+						
+				}
+				}
+				30 = {
+				custom_tooltip = { text = TOOLTIPMAKEMARTYR }
+				add_character_modifier = { 
+					name = martyred_peasant_leader
+					days = 7000
+					hidden = yes
+						
+				}
+				}
+				}
+				prestige = 30
+				piety = -10
+				if = { 
+				limit = { trait = kind }
+						random = {
+						chance = 50
+					remove_trait = kind
+					}
+				}
+				if = { 
+				limit = { NOT = {trait = cruel} }
+						random = {
+						chance = 10
+					add_trait = cruel
+					}
+				}
+				}
+				death = {
+					death_reason = death_execution
+					killer = FROM
+				}
+			}
+							
+			revoke_allowed = {
+				always = no
+			}
+			ai_will_do = {
+				factor = 0
+				
+				}
+	}
+	
+	cruel_execute_religious_peasant_rebel_leader_decision = {
+		
+			potential = {
+				prisoner = yes
+				has_character_flag = religion_peasant_rebel_leader
+				host = { character = FROM }
+				OR = {
+				FROM = {trait = cruel}
+				FROM = {trait = wroth}
+				FROM = {trait = impaler}
+				}
+			}
+			
+			allow = {
+				prisoner = yes
+			}
+			
+			effect = {
+				FROM = {
+				random_list = {
+				70 = {
+				custom_tooltip = { text = TOOLTIPSCAREPEASANTS }
+				add_character_modifier = { 
+					name = cruel_executed_peasant_leader
+					days = 3650
+					hidden = yes
+						
+				}
+				}
+				30 = {
+				custom_tooltip = { text = TOOLTIPMAKEGREATMARTYR }
+				add_character_modifier = { 
+					name = crual_martyred_peasant_leader
+					days = 7000
+					hidden = yes
+						
+				}
+				}
+				}
+				prestige = 50
+				piety = -50
+				if = { 
+				limit = { trait = kind }
+						random = {
+						chance = 80
+					remove_trait = kind
+					}
+				}
+				if = { 
+				limit = { NOT = {trait = cruel} }
+						random = {
+						chance = 50
+					add_trait = cruel
+					}
+				}
+				if = { 
+				limit = { 
+				trait = cruel 
+				NOT = {trait = impaler}
+				}
+						random = {
+						chance = 50
+					add_trait = impaler
+					}
+				}
+				}
+				death = {
+					death_reason = death_execution
+					killer = FROM
+				}
+			}
+							
+			revoke_allowed = {
+				always = no
+			}
+			ai_will_do = {
+				factor = 0
+				
+				}
+	}
+	
+	execute_liberation_peasant_rebel_leader_decision = {
+		
+			potential = {
+				prisoner = yes
+				has_character_flag = liberation_peasant_rebel_leader
+				host = { character = FROM }
+			}
+			
+			allow = {
+				prisoner = yes
+			}
+			
+			effect = {
+				FROM = {
+				random_list = {
+				80 = {
+				custom_tooltip = { text = TOOLTIPSCAREPEASANTS }
+				add_character_modifier = { 
+					name = executed_peasant_leader
+					days = 3650
+					hidden = yes
+						
+				}
+				}
+				20 = {
+				custom_tooltip = { text = TOOLTIPMAKEMARTYR }
+				add_character_modifier = { 
+					name = martyred_peasant_leader
+					days = 3650
+					hidden = yes
+						
+				}
+				}
+				}
+				prestige = 30
+				piety = -10
+				if = { 
+				limit = { trait = kind }
+						random = {
+						chance = 50
+					remove_trait = kind
+					}
+				}
+				if = { 
+				limit = { NOT = {trait = cruel} }
+						random = {
+						chance = 10
+					add_trait = cruel
+					}
+				}
+				}
+				death = {
+					death_reason = death_execution
+					killer = FROM
+				}
+			}
+							
+			revoke_allowed = {
+				always = no
+			}
+			ai_will_do = {
+				factor = 0
+				
+				}
+	}
+	
+	cruel_execute_liberation_peasant_rebel_leader_decision = {
+		
+			potential = {
+				prisoner = yes
+				has_character_flag = liberation_peasant_rebel_leader
+				host = { character = FROM }
+				OR = {
+				FROM = {trait = cruel}
+				FROM = {trait = wroth}
+				FROM = {trait = impaler}
+				}
+			}
+			
+			allow = {
+				prisoner = yes
+			}
+			
+			effect = {
+				FROM = {
+				random_list = {
+				70 = {
+				custom_tooltip = { text = TOOLTIPSCAREPEASANTS }
+				add_character_modifier = { 
+					name = cruel_executed_peasant_leader
+					days = 3650
+					hidden = yes
+						
+				}
+				}
+				30 = {
+				custom_tooltip = { text = TOOLTIPMAKEGREATMARTYR }
+				add_character_modifier = { 
+					name = crual_martyred_peasant_leader
+					days = 7000
+					hidden = yes
+						
+				}
+				}
+				}
+				prestige = 50
+				piety = -50
+				if = { 
+				limit = { trait = kind }
+						random = {
+						chance = 80
+					remove_trait = kind
+					}
+				}
+				if = { 
+				limit = { NOT = {trait = cruel} }
+						random = {
+						chance = 50
+					add_trait = cruel
+					}
+				}
+				if = { 
+				limit = { 
+				trait = cruel 
+				NOT = {trait = impaler}
+				}
+						random = {
+						chance = 50
+					add_trait = impaler
+					}
+				}
+				}
+				death = {
+					death_reason = death_execution
+					killer = FROM
+				}
+			}
+							
+			revoke_allowed = {
+				always = no
+			}
+			ai_will_do = {
+				factor = 0
+				
+				}
+	}
+	
+	}

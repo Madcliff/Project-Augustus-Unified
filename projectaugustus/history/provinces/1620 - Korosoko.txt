@@ -1,0 +1,15 @@
+# 792 - Nubia
+
+# County Title
+title = c_korosoko
+
+# Settlements
+max_settlements = 3
+b_korosoko = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

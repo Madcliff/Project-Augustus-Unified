@@ -1,3 +1,6 @@
+600.1.1 = {
+	holder = 91010173
+}
 750.1.1 = {
 	holder = 194122
 	liege = d_bjarmia

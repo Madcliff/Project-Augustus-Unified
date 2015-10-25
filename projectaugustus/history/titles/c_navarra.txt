@@ -1,3 +1,27 @@
+470.1.1={
+	liege="k_navarra"
+	holder=1428119
+}
+475.1.1 = {
+	holder=10600991 
+}
+
+
+620.1.1 = {
+	holder = 1000250400
+	liege = d_navarra
+	name = PAMPLONA
+	adjective = PAMPLONA_ADJ
+}
+
+475.1.1 = {
+	law = cognatic_succession
+	holder=10600991 
+}
+
+660.1.1 = {
+	holder = 0
+}
 766.1.1={
 	holder=200042 # Hakam Hakamid
 	liege=e_umayyad

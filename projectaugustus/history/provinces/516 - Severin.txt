@@ -19,15 +19,14 @@ b_ursova = temple
 #b_bals = castle
 
 # Misc
-culture = dacian
+culture = daco_roman
 religion = tengri_pagan
 
 # History
-
-900.1.1 = { 
-culture = romanian
-religion = orthodox 
+870.1.1 = {
+	religion = orthodox
 }
+900.1.1 = { culture = romanian }
 
 
 

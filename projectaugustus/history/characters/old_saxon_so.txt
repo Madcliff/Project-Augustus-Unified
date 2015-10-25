@@ -1,0 +1,373 @@
+14423791 = {
+	name="Caser"
+	dynasty=104
+	religion="german_pagan"
+	culture="saxon"
+	345.1.1 = {
+		birth="345.1.1"
+	}
+	395.2.1 = {
+		death="395.2.1"
+	}
+}
+
+14423891 = {
+	name="Tyttman"
+	dynasty=104
+	religion="german_pagan"
+	culture="saxon"
+	father=14423791
+	370.1.1 = {
+		birth="370.1.1"
+	}
+	420.8.7 = {
+		death="420.8.7"
+	}
+}
+
+98991 = {
+	name="Trygil"
+	dynasty=104
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=8
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="honest"
+	add_trait="grey_eminence"
+	father=14423891
+	400.1.7={
+		birth="400.1.7"
+	}
+	450.7.8={
+		death="450.7.8"
+	}
+}
+
+99991 = {
+	name="Hrothmund"
+	dynasty=104
+	martial=15
+	diplomacy=12
+	intrigue=14
+	stewardship=15
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="brave"
+	add_trait="proud"
+	add_trait="skilled_tactician"
+	father=98991
+	426.1.1={
+		birth="426.1.1"
+	}
+	480.3.18={
+		death="480.3.18"
+	}
+}
+
+100991 = {
+	name="Hrype"
+	dynasty=104
+	martial=14
+	diplomacy=16
+	intrigue=14
+	stewardship=12
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="honest"
+	add_trait="tough_soldier"
+	father = 99991
+	455.1.1={
+		birth="455.1.1"
+	}
+	527.7.17={
+		death="527.7.17"
+	}
+}
+
+101991 = {
+	name="Wehta"
+	dynasty=106
+	martial=6
+	diplomacy=4
+	intrigue=8
+	stewardship=8
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="envious"
+	add_trait="fortune_builder"
+	340.1.2={
+		birth="340.1.2"
+	}
+	391.1.22={
+		death="391.1.22"
+	}
+}
+
+102991 = {
+	name="Witta"
+	dynasty=106
+	martial=9
+	diplomacy=7
+	intrigue=5
+	stewardship=4
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="honest"
+	add_trait="tough_soldier"
+	father=101991
+	370.1.2={
+		birth="370.1.2"
+	}
+	421.1.22={
+		death="421.1.22"
+	}
+}
+
+105991 = {
+	name="Wihtgils"
+	dynasty=106
+	martial=8
+	diplomacy=5
+	intrigue=7
+	stewardship=8
+	father=102991
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="flamboyant_schemer"
+	390.1.2={
+		birth="390.1.2"
+	}
+	452.1.9={
+		death="452.1.9"
+	}
+}
+
+106991 = {
+	name="Hengist"
+	dynasty=106
+	martial=16
+	diplomacy=8
+	intrigue=13
+	stewardship=10
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="brave"
+	add_trait="ambitious"
+	add_trait="wounded"
+	add_trait="twin"
+	add_trait="skilled_tactician"
+	father=105991
+	422.6.6={
+		birth="422.6.6"
+	}
+	488.4.23={
+		death="488.4.23"
+	}
+}
+
+107991 = {
+	name="Horsa"
+	dynasty=106
+	martial=8
+	diplomacy=13
+	intrigue=10
+	stewardship=16
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="brave"
+	add_trait="temperate"
+	add_trait="charitable"
+	add_trait="twin"
+	add_trait="grey_eminence"
+	father=105991
+	422.6.6={
+		birth="422.6.6"
+	}
+	488.4.23={
+		death="488.4.23"
+	}
+}
+
+108991 = {
+	name="Oisc"
+	dynasty=106
+	martial=16
+	diplomacy=8
+	intrigue=13
+	stewardship=10
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="strong"
+	add_trait="misguided_warrior"
+	father=106991
+	451.1.2={
+		birth="451.1.2"
+	}
+	512.2.3={
+		death="512.2.3"
+	}
+}
+
+
+110991 = {
+	name="Winta"
+	dynasty=103
+	martial=8
+	diplomacy=12
+	intrigue=8
+	stewardship=14
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="diligent"
+	add_trait="greedy"
+	add_trait="temperate"
+	add_trait="scholar"
+	446.1.1={
+		birth="446.1.1"
+	}
+	517.8.30={
+		death="517.8.30"
+	}
+}
+
+111991 = {
+	name="Wermund"
+	dynasty=26
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=6
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="thrifty_clerk"
+	365.1.1={
+		birth="365.1.1"
+	}
+	420.1.2={
+		death="420.1.2"
+	}
+}
+
+112991 = {
+	name="Offa" # 
+	dynasty=26
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="tough_soldier"
+	father=111
+	400.1.1={
+		birth="400.1.1"
+	}
+	456.1.1={
+		death="456.1.1"
+	}
+}
+
+113991 = {
+	name="Angeltheow"
+	dynasty=26
+	martial=10
+	diplomacy=8
+	intrigue=7
+	stewardship=9
+	religion="norse_pagan"
+	culture="saxon"
+	add_trait="brave"
+	add_trait="hunter"
+	add_trait="skilled_tactician"
+	father=112991
+	427.1.2={
+		birth="427.1.2"
+	}
+	495.1.2={
+		death="495.1.2"
+	}
+}
+
+114991 = {
+	name="Eomer"
+	# AKA: Eomer son of Angeltheow
+	dynasty=26
+	martial=5
+	diplomacy=4
+	intrigue=7
+	stewardship=5
+	religion="norse_pagan"
+	culture="saxon"
+	add_trait="strong"
+	add_trait="wroth"
+	add_trait="tough_soldier"
+	father=113991
+	457.1.1={
+		birth="457.1.1"
+	}
+	536.1.5={
+		death="536.1.5"
+	}
+}
+
+115991 = {
+	name="Wlenca"
+	dynasty=118
+	martial=6
+	diplomacy=3
+	intrigue=4
+	stewardship=6
+	religion="german_pagan"
+	culture="german"
+	add_trait="tough_soldier"
+	420.1.1={
+		birth="420.1.1"
+	}
+	485.1.2={
+		death="485.1.2"
+	}
+}
+
+116991 = {
+	name="Aelle"
+	dynasty=118
+	father=115991
+	martial=10
+	diplomacy=9
+	intrigue=6
+	stewardship=7
+	religion="german_pagan"
+	culture="saxon"
+	add_trait="brave"
+	add_trait="ambitious"
+	add_trait="tough_soldier"
+	450.1.1={
+		birth="450.1.1"
+	}
+	475.1.1={
+		add_claim=c_sussex
+	}
+	514.1.2={
+		death="514.1.2"
+	}
+}
+
+120991 = {
+	name="Ket"
+	dynasty=209
+	martial=6
+	diplomacy=4
+	intrigue=8
+	stewardship=7
+	religion="german_pagan"
+	culture="old_saxon"
+	add_trait="fortune_builder"
+	425.1.2={
+		birth="425.1.2"
+	}
+	495.1.2={
+		death="495.1.2"
+	}
+}

@@ -1,0 +1,88 @@
+85018991 = {
+	name="Erc"
+	dynasty=100
+	religion="druidic"
+	culture="pictish"
+	370.1.2={
+		birth="370.1.2"
+	}
+	420.1.1={
+		death="420.1.1"
+	}
+}
+
+972991 = {  	
+	name="Drust"
+	dynasty=100
+	religion="druidic"
+	culture="pictish"
+	father=85018991 
+	390.1.2={
+		birth="390.1.2"
+	}
+	453.1.2={
+		death="453.1.2"
+	}
+}
+
+974991 = {  	
+	name="Talorg"
+	dynasty=100
+	martial=8
+	diplomacy=5
+	intrigue=7
+	stewardship=7
+	religion="orthodox"
+	culture="pictish"
+	father=972991 
+	418.1.2={
+		birth="418.1.2"
+	}
+	456.1.2={
+		death="456.1.2"
+	}
+}
+
+976991 = {  	
+	name="Nechtan"
+	dynasty=100
+	martial=8
+	diplomacy=7
+	intrigue=4
+	stewardship=7
+	religion="druidic"
+	culture="pictish"
+	add_trait="patient"
+	add_trait="diligent"
+	add_trait="tough_soldier"
+	father=85018991 
+	397.1.2={
+		birth="397.1.2"
+	}
+	415.1.1={
+		religion="orthodox"
+	}
+	480.1.2={
+		death="480.1.2"
+	}
+}
+
+978991 = {  	
+	name="Drust"
+	dynasty=101
+	martial=8
+	diplomacy=4
+	intrigue=4
+	stewardship=7
+	religion="orthodox"
+	culture="pictish"
+	add_trait="slothful"
+	add_trait="misguided_warrior"
+	445.1.2={
+		birth="445.1.2"
+	}
+	510.1.2={
+		death="510.1.2"
+	}
+}
+

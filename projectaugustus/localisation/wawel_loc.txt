@@ -1,0 +1,2 @@
+wawel_desc;Cracow Cathedral was the centre of worship of St Stanisław, the bishop of Krakow. The grave of the bishop became a destination for pilgrims from all over Poland and neighbouring countries. The veneration of this saint was associated with the idea of the unification of the Polish Kingdom;;x
+wawel_cathedral;Wawel Cathedral;;x

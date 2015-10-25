@@ -1,0 +1,49 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+emperor_chinese;Huangdi;;;;;;;;;;;x
+emperor_female_chinese;Huanghou;Huanghou;;;;;;;;;;;;x
+king_chinese;Wang;Wang;;;;;;;;;;;;x
+king_female_chinese;Wanghou;;;;;;;;;;;;;x
+kingdom_of_chinese;Guo of;Guo of;;;;;;;;;;;;x
+duke_chinese;Jiedushi;Jiedushi;;;;;;;;;;;;x
+duke_female_chinese;Furen;Furen;;;;;;;;;;;;x
+duchy_of_chinese;Jun of;;;;;;;;;;; Jun;;;;;;;;;;;; Jun;x
+count_chinese;Cishi;Cishi;;;;;;;;;;;x
+count_female_chinese;Furen;Furen;;;;;;;;;;;x
+county_of_chinese;Zhou of;;;;;;;;;;; Zhou;;;;;;;;;;;; Zhou;x
+baron_chinese;Xianling;Xianling;;;;;;;;;;;;x
+baron_female_chinese;Furen;Furen;;;;;;;;;;;;x
+barony_of_chinese;Xian of;;;;;;;;;;; Xian;;;;;;;;;;;; Xian;x
+title_regent_chinese;Regent;Regent;;;;;;;;;;;;x
+title_queen_mother_chinese;Taihou;Taihou;;;;;;;;;;;;x
+emperor_title_queen_mother_female_chinese;Huangtaihou;Huangtaihou;;;;;;;;;;;;x
+title_prince_chinese;Gongzi;Gongzi;;;;;;;;;;;;x
+title_prince_female_chinese;Gongzhu;Gongzhu;;;;;;;;;;;;x
+#####################################################à
+job_chancellor_chinese;Zhangshi;Zhangshi;;;;;;;;;;;;x
+job_marshal_chinese;Sima;Sima;;;;;;;;;;;;x
+job_treasurer_chinese;Siku;Siku;;;;;;;;;;;;x
+job_spiritual_chinese;Guoshi;Guoshi;;;;;;;;;;;;x
+job_spymaster_chinese;Canjun; ;;;;;;;;;;;;x
+job_chancellor_of_chinese;Zhangshi of;Zhangshi of;;;;;;;;;;;;x
+job_marshal_of_chinese;Sima of;Sima of;;;;;;;;;;;;x
+job_treasurer_of_chinese;Siku of;Siku of;;;;;;;;;;;;x
+job_spiritual_of_chinese;Guoshi of;Guoshi of;;;;;;;;;;;;x
+job_spymaster_of_chinese;Canjun of;Canjun of;;;;;;;;;;;;x
+#################
+chinese;Chinese;;;;;;;;;;;;;x
+han;Han;;;;;;;;;;;;;x
+tangut;Tangut;;;;;;;;;;;;;x
+k_tangut;Xia;Xia;;;;;;;;;;;;x
+PROV1726;Shazhou;;;;;;;;;;;;;x
+PROV1728;Guazhou;;;;;;;;;;;;;x
+d_guiyijun;Guiyi;Guiyi;;;;;;;;;;;;x
+emperor_uyghur;Tngrikhan;;;;;;;;;;;;;x
+duke_uyghur;idiqut;;;;;;;;;;;;;x
+duchy_of_uighur;Khanate of;;;;;;;;;;;;;x
+d_hexi;Hexi;Hexi;;;;;;;;;;;;x
+d_anxi;Anxi;Anxi;;;;;;;;;;;;x
+d_beiting;Beiting;Beiting;;;;;;;;;;;;x
+b_qiuci;Qiucizhen;Qiuci;;;;;;;;;;;;x
+b_yutian;Yutianzhen;Yutian;;;;;;;;;;;;x
+b_yanqi;Yanqizhen;Yanqi;;;;;;;;;;;;x
+b_shule;Shulezhen;Shule;;;;;;;;;;;;x

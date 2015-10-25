@@ -1,0 +1,20 @@
+# County Title
+title = c_lumbini
+
+# Settlements
+max_settlements = 6
+b_gulmi = castle
+b_arghakhanchi = temple
+b_kapilvastu = city
+b_palpa = castle
+b_rupandehi = temple
+
+
+
+# Misc
+culture = nepali
+religion = vajrayana_buddhist 
+
+
+# History
+

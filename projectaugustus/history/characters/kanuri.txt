@@ -1,0 +1,36 @@
+1000085017 = {
+	name="Tanko"
+	dynasty=1000032004
+	religion="pagan"
+	culture="kanuri"
+	1010.1.1 = {
+		birth="1010.1.1"
+	}
+	1100.1.1 = {
+		death="1100.1.1"
+	}
+}
+1000085015 = {
+	name="Danasabe"
+	dynasty=1000032014
+	religion="pagan"
+	culture="kanuri"
+	1016.1.1 = {
+		birth="1016.1.1"
+	}
+	1076.1.1 = {
+		death="1076.1.1"
+	}
+}
+1000085016 = {
+	name="Yelwa"
+	dynasty=1000032016
+	religion="pagan"
+	culture="kanuri"
+	1026.1.1 = {
+		birth="1026.1.1"
+	}
+	1084.1.1 = {
+		death="1084.1.1"
+	}
+}

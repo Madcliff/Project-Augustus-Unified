@@ -1,0 +1,57 @@
+keep_it;Your Banner has been raised here.;;;;;;;;;x 
+vassalize_baron;Distribute Baronies;;;;;;;;;x 
+vassalize_baron_desc;Grants baronies to newly created vassals.;;;;;;;;;x 
+vassalize_baron_tooltip;Hand out your baronies.;;;;;;;;;x 
+vassalize_priest;Distribute Bishoprics;;;;;;;;;x 
+vassalize_priest_desc;Grants bishoprics to newly created vassals.;;;;;;;;;x 
+vassalize_priest_tooltip;Hand out your bishoprics.;;;;;;;;;x 
+vassalize_mayor;Distribute Cities;;;;;;;;;x 
+vassalize_mayor_desc;Grants cities to newly created vassals.;;;;;;;;;x 
+vassalize_mayor_tooltip;Hand out your cities.;;;;;;;;;x 
+vassalize_count;Distribute Counties;;;;;;;;;x 
+vassalize_count_desc;Grants counties (province primary holdings) you hold to newly created vassals. Cannot be used until you have distributed all lower titles and have Raised Your Banner on at least one province.;;;;;;;;;x 
+vassalize_count_tooltip;Hand out your counties.;;;;;;;;;x 
+vassalize_baron_enatic;Distribute Baronies;;;;;;;;;x 
+vassalize_baron_enatic_desc;Grants baronies to newly created vassals.;;;;;;;;;x 
+vassalize_baron_enatic_tooltip;Hand out your baronies.;;;;;;;;;x 
+vassalize_priest_enatic;Distribute Bishoprics;;;;;;;;;x 
+vassalize_priest_enatic_desc;Grants bishoprics to newly created vassals.;;;;;;;;;x 
+vassalize_priest_enatic_tooltip;Hand out your bishoprics.;;;;;;;;;x 
+vassalize_mayor_enatic;Distribute Cities;;;;;;;;;x 
+vassalize_mayor_enatic_desc;Grants cities to newly created vassals.;;;;;;;;;x 
+vassalize_mayor_enatic_tooltip;Hand out your cities.;;;;;;;;;x 
+vassalize_count_enatic;Distribute Counties;;;;;;;;;x 
+vassalize_count_enatic_desc;Grants counties (province primary holdings) you hold to newly created vassals. Cannot be used until you have distributed all lower titles and have Raised Your Banner on at least one province.;;;;;;;;;x 
+vassalize_count_enatic_tooltip;Hand out your counties.;;;;;;;;;x 
+flag_province;Raise Your Banner;;;;;;;;;x 
+flag_province_desc;Prevents the primary holding here from being distributed.;;;;;;;;;x 
+flag_province_tooltip;Raise Your Banner;;;;;;;;;x 
+unflag_province;Lower Your Banner;;;;;;;;;x 
+unflag_province_desc;Allows the primary holding here to be distributed.;;;;;;;;;x 
+unflag_province_tooltip;Lower your banner;;;;;;;;;x 
+flag_province_marshal;Marshal Raises Banner;;;;;;;;;x 
+flag_province_marshal_desc;Have the Marshal raise your banner at his location. Prevents the primary holding there from being distributed.;;;;;;;;;x 
+flag_province_marshal_tooltip;Marshal raises your banner.;;;;;;;;;x 
+unflag_province_marshal;Marshal Lowers Banner;;;;;;;;;x 
+unflag_province_marshal_desc;Have the Marshal lower your banner at his location. Allows the primary holding there to be distributed.;;;;;;;;;x 
+unflag_province_marshal_tooltip;Marshal lowers your banner.;;;;;;;;;x 
+flag_province_p_event.250001.desc;Your banners unfurl in the wind. The knights intimidate the peasants until they cheer for you.;;;;;;;;;x 
+flag_province_p_event.250001.opta;You bask in your glory.;;;;;;;;;x 
+unflag_province_p_event.250001.desc;Your steward gathers up your belongings and the peasants cheer as you ride out the gate.;;;;;;;;;x 
+You don't really get it until later.;Your steward gathers up your belongings and the peasants cheer as you ride out the gate.;;;;;;;;;x 
+You don't really get it until later.;Your steward gathers up your belongings and the peasants cheer as you ride out the gate.;;;;;;;;;x 
+You don't really get it until later.;;;;;;;;;;x 
+You don't really get it until later.;;;;;;;;;;x 
+unflag_province_p_event.250001.opta;This castle was a bit drafty anyway.;;;;;;;;;x 
+flag_province_marshal.250001.desc;Your Marshal has claimed a province in your name.;;;;;;;;;x 
+flag_province_marshal.250001.opta;I'll be sure to thank him.;;;;;;;;;x 
+unflag_province_marshal.250001.desc;At your bidding, the Marshal has instructed for your banners to be brought down and the castle vacated.;;;;;;;;;x 
+unflag_province_marshal.250001.opta;Time to find another ungrateful vassal to give it to.;;;;;;;;;x 
+vassalize_mayor.250001.desc;You order your courtiers to draw straws and hand out your cities accordingly.;;;;;;;;;x 
+vassalize_mayor.250001.opta;They are given "The Pocket Guide to Pacifying Peasants" as they go.;;;;;;;;;x 
+vassalize_priest.250001.desc;Your definition of "Holy Man" is a bit wanting and your drive to seek them out nonexistent. You wager your bishoprics on games of chance, satisfied once all have been lost.;;;;;;;;;x 
+vassalize_priest.250001.opta;Who knew ruling could be this easy.;;;;;;;;;x 
+vassalize_baron.250001.desc;You send for your knights and host a drinking contest. The last men standing are too far gone to realize you've bestowed a barony on each of them.;;;;;;;;;x 
+vassalize_baron.250001.opta;All in a day's work.;;;;;;;;;x 
+vassalize_count.250001.desc;You divide the conquered lands amongst your nobles and hire bards to compose ballads of your skill and cunning.;;;;;;;;;x 
+vassalize_count.250001.opta;My ambition cannot be slaked!;;;;;;;;;x 

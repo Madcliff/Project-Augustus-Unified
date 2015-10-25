@@ -14,12 +14,14 @@ b_pempton = city
 b_vlanga = city
 
 # Misc
-culture = greek
+culture = hellene
 religion = orthodox
 
 # History
 
-
+100.1.1 = {
+	b_galata = ct_jewish_community_1
+}
 
 769.1.1 = { 
 	b_constantinople = ca_keep_1

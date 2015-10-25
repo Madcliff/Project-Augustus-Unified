@@ -1,0 +1,45 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+crushed_revolt;Crushed Revolt Level 1!;;;;;;;;;;x
+crushed_revolt_2;Crushed Revolt Level 2!;;;;;;;;;;x
+crushed_revolt_3;Crushed Revolt Level 3!;;;;;;;;;;x
+crushed_revolt_4;Crushed Revolt Level 4!;;;;;;;;;;x
+crushed_revolt_5;Crushed Revolt Level 5!;;;;;;;;;;x
+crushed_major_revolt;Crushed Major Revolt Level 1!;;;;;;;;;;x
+crushed_major_revolt_2;Crushed Major Revolt Level 2!;;;;;;;;;;x
+crushed_major_revolt_3;Crushed Major Revolt Level 3!;;;;;;;;;;x
+crushed_major_revolt_4;Crushed Major Revolt Level 4!;;;;;;;;;;x
+crushed_major_revolt_5;Crushed Major Revolt Level 5!;;;;;;;;;;x
+EVTDESCTOG.1195;I have put the upstart peasants in their place!;;;;;;;;;;x
+EVTOPTATOG.1195;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTBTOG.1195;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTCTOG.1195;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTDTOG.1195;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTETOG.1195;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTFTOG.1195;I don't think I can oppress them any more than I have!;;;;;;;;;;x
+EVTDESCTOG.1196;I have put the upstart peasants in their place!;;;;;;;;;;x
+EVTOPTATOG.1196;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTBTOG.1196;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTCTOG.1196;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTDTOG.1196;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTETOG.1196;Shut up and be ruled!;;;;;;;;;;x
+EVTOPTFTOG.1196; don't think I can oppress them any more than I have!;;;;;;;;;;x
+execute_peasant_rebel_leader_decision;Execute Revolt Leader [This.GetBestName];;;;;;;;;;x
+execute_peasant_rebel_leader_decision_desc;Perhaps I can shock some sense into the people by publicly executing [This.GetBestName]. However, this could backfire and make a martyr of him.;;;;;;;;;;x
+execute_religious_peasant_rebel_leader_decision;Execute Revolt Leader [This.GetBestName];;;;;;;;;;x
+execute_religious_peasant_rebel_leader_decision_desc;Perhaps I can shock some sense into the people by publicly executing [This.GetBestName]. However, this could backfire and make a martyr of him.;;;;;;;;;;x
+execute_liberation_peasant_rebel_leader_decision;Execute Revolt Leader [This.GetBestName];;;;;;;;;;x
+execute_liberation_peasant_rebel_leader_decision_desc;Perhaps I can shock some sense into the people by publicly executing [This.GetBestName]. However, this could backfire and make a martyr of him.;;;;;;;;;;x
+cruel_execute_peasant_rebel_leader_decision;Brutally Execute Revolt Leader [This.GetBestName];;;;;;;;;;x
+cruel_execute_peasant_rebel_leader_decision_desc;I must show the "people" what will happen to them if they keep getting in my way...;;;;;;;;;;x
+cruel_execute_religious_peasant_rebel_leader_decision;Brutally Execute Revolt Leader [This.GetBestName];;;;;;;;;;x
+cruel_execute_religious_peasant_rebel_leader_decision_desc;I must show the "people" what will happen to them if them if they keep getting in my way...;;;;;;;;;;x
+cruel_execute_liberation_peasant_rebel_leader_decision;Brutally Execute Revolt Leader [This.GetBestName];;;;;;;;;;x
+cruel_execute_liberation_peasant_rebel_leader_decision_desc;I must show the "people" what will happen to them if them if they keep getting in my way;;;;;;;;;;x
+executed_peasant_leader;Executed Revolt Leader;;;;;;;;;;x
+cruel_executed_peasant_leader;Brutally Executed Revolt Leader;;;;;;;;;;x
+martyred_peasant_leader;Martyred Revolt Leader;;;;;;;;;;x
+cruel_martyred_peasant_leader;Brutally Martyred Revolt Leader;;;;;;;;;;x
+TOOLTIPSCAREPEASANTS;the public execution succeeds in frightening the peasants into obeying;;;;;;;;;;x
+TOOLTIPMAKEMARTYR;the public execution only makes a martyr and incites hatred at your tyranny;;;;;;;;;;x
+TOOLTIPMAKEGREATMARTYR;the public execution makes a martyr and incites hatred at your cruelty as revolutionary ferver spreads through your realm;;;;;;;;;;;x
+TOOLTIPPEASANTSCOWED;Public support for revolts are lowered by your defeat of the rebels;;;;;;;;;;x

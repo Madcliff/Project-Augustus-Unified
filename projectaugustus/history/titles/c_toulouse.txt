@@ -1,3 +1,18 @@
+451.1.1 = {
+	liege="k_visigoth"
+}
+451.1.2 = {
+	holder = 1438178
+}
+
+632.1.1 = {
+	holder = 1000153033
+	liege = d_pyrenees
+}
+660.1.1 = {
+	holder = 0
+	liege = 0
+}
 769.1.1={
 	holder = 190514 #Guillaume
 }

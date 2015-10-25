@@ -13,6 +13,10 @@ b_fecamp = temple
 culture = gallic
 religion = catholic
 
+700.1.1 = {
+	b_arques = ct_jewish_community_1
+}
+
 # History
 790.1.1 = { culture = frankish }
 911.1.1 = { # Viking takeover

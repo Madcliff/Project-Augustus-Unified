@@ -1,5 +1,18 @@
+600.1.1 = {
+	holder = 1000254544
+	liege = e_persia
+}
+613.1.1 = {
+	holder = 1000254545
+}
+651.1.1 = {
+	liege = 0
+}
+660.1.1 = {
+	holder = 1000254546
+}
 755.1.1={
-	set_tribute_suzerain = { who = e_sunni percentage = 0.10 }
+	set_tribute_suzerain = { who = e_sunni percentage = 0.40 }
 	holder = 160290 # Surkhab Bavand II
 }
 866.1.1={

@@ -1,0 +1,201 @@
+# The Parsi Melting Pot
+character_event = {
+	id = MAZ.100
+	desc = "MAZ.100"
+	picture = GFX_evt_throne_room
+	
+	trigger = {
+		OR = {
+			culture = persian
+			culture = palhavi
+		}
+		religion = zoroastrian
+
+		
+		any_demesne_province = {
+			kingdom = {
+				title = k_gujarat 
+			}
+			OR = {
+				culture = gujurati
+				culture = sindhi
+				culture = persian
+				culture = palhavi
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240		
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 1 }
+		}		
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 2 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 4 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 6 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 7 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 8 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			learning = 11
+		}		
+		modifier = {
+			factor = 0.95
+			learning = 12
+		}	
+		modifier = {
+			factor = 0.95
+			learning = 13
+		}	
+		modifier = {
+			factor = 0.95
+			learning = 14
+		}	
+		modifier = {
+			factor = 0.95
+			learning = 15
+		}
+		modifier = {
+			factor = 0.95
+			learning = 16
+		}
+		modifier = {
+			factor = 0.95
+			learning = 17
+		}	
+		modifier = {
+			factor = 0.95
+			learning = 18
+		}
+		modifier = {
+			factor = 0.95
+			learning = 19
+		}
+		modifier = {
+			factor = 0.95
+			learning = 20
+		}
+		modifier = {
+			factor = 0.95
+			learning = 21
+		}
+		modifier = {
+			factor = 0.95
+			learning = 22
+		}
+		modifier = {
+			factor = 0.95
+			learning = 23
+		}
+		modifier = {
+			factor = 0.95
+			learning = 24
+		}
+		modifier = {
+			factor = 0.95
+			learning = 25
+		}
+	}
+
+	option = {
+		name = "EVTOPTMAZ.100"
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					title = k_gujarat 
+					}
+			OR = {
+				culture = gujurati
+				culture = sindhi
+				culture = persian
+				culture = palhavi
+			     }
+			}
+			culture = parsi
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = MAZ.101
+	desc = "EVTDESCMAZ.101"
+	picture = GFX_evt_throne_room
+	
+	trigger = {
+		or = {
+			culture = persian
+			culture = parsi
+			culture = palhavi
+		}
+		any_demesne_province = {
+			kingdom = {
+				title = k_gujarat 
+			}
+			OR = {
+				culture = gujurati
+				culture = sindhi
+				culture = persian
+				culture = palhavi
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 0.5
+			year = 1150
+		}
+		modifier = {
+			factor = 0.5
+			year = 1200
+		}
+	}
+
+	option = {
+		name = "EVTOPTAMAZ.101"
+		random_demesne_province = {
+			limit = {
+				kingdom = {
+					title = k_gujarat 
+				}
+				OR = {	
+				culture = gujurati
+				culture = sindhi
+				culture = persian
+				culture = palhavi
+				}
+			}
+			culture = parsi
+		}
+	}
+}

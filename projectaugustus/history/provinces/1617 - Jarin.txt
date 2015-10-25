@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_jarin
+# Settlements
+max_settlements = 4
+b_jarin = castle
+
+
+# Misc
+culture = beja
+religion = egyptian_pagan 
+
+# History

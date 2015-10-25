@@ -1,8 +1,16 @@
-337.1.1 = { 
-	de_jure_liege="d_pressburg"
+470.1.1 = {
+	holder = 11055091
+}
+620.1.1 = {
+	holder = 1000250307
+	liege = e_avaria
+}
+660.1.1 = {
+	holder = 146154
 }
 685.1.1 = {
 	liege="e_avaria"
+        de_jure_liege="d_pressburg"
 	holder=146154
 }
 701.1.1 = {

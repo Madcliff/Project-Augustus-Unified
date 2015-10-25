@@ -6,25 +6,20 @@ title = c_turnu
 # Settlements
 max_settlements = 5
 
-b_turnu = castle
-b_giurgiu = temple
-#b_bucuresti = city
+b_turnu = tribal
 
-b_dristra = city
 #b_strehaia = temple
 #b_rosiorriidevede = castle
 #b_oltenita = city
 #b_corabia = castle
 
 # Misc
-culture = dacian
+culture = daco_roman
 religion = tengri_pagan
 
 # History
-
-900.1.1 = { 
-culture = romanian
-religion = orthodox 
-}
+780.1.1 = { b_giurgiu = temple }
+780.1.1 = { b_dristra = city }
+900.1.1 = { religion = orthodox culture = romanian }
 
 

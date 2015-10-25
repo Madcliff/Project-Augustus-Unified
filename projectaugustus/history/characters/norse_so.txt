@@ -1,0 +1,164 @@
+10050991 = {
+	name="Angantyr"
+	dynasty=499
+	martial=8
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	religion="norse_pagan"
+	culture="swedish"
+	add_trait="diligent"
+	add_trait="skilled_tactician"
+	450.1.2={
+		birth="450.1.2"
+	}
+	515.1.5={
+		death="515.1.5"
+	}
+}
+
+10050191 = {
+	name="Hrethel"
+	dynasty=175
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=7
+	religion="norse_pagan"
+	culture="swedish"
+	add_trait="kind"
+	add_trait="charitable"
+	add_trait="tough_soldier"
+	438.1.2={
+		birth="438.1.2"
+	}
+	505.1.13={
+		death="505.1.13"
+	}
+}
+
+10050291 = {
+	name="Herebeald"
+	dynasty=175
+	martial=9
+	diplomacy=6
+	intrigue=5
+	stewardship=8
+	religion="norse_pagan"
+	culture="swedish"
+	add_trait="strong"
+	add_trait="skilled_tactician"
+	father=10050191 
+	456.1.2={
+		birth="456.1.2"
+	}
+	504.1.12={
+		death="504.1.12"
+	}
+}
+
+10050391 = {
+	name="Hæthcyn"
+	dynasty=175
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	religion="norse_pagan"
+	culture="swedish"
+	add_trait="deceitful"
+	add_trait="flamboyant_schemer"
+	father=10050191 
+	459.1.2={
+		birth="459.1.2"
+	}
+	510.1.2={
+		death="510.1.2"
+	}
+}
+
+10050491 = {
+	name="Hygelac"
+	dynasty=175
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	religion="norse_pagan"
+	culture="swedish"
+	add_trait="ambitious"
+	add_trait="tough_soldier"
+	father=10050191
+	461.1.2={
+		birth="461.1.2"
+	}
+	516.1.2={
+		death="516.1.2"
+	}
+}
+
+100505 = {
+	name="Beowinga"
+	female=yes
+	dynasty=175
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=8
+	religion="norse_pagan"
+	culture="swedish"
+	add_trait="brave"
+	add_trait="misguided_warrior"
+	father=10050191
+	458.1.2={
+		birth="458.1.2"
+	}
+	505.1.2={
+		death="505.1.2"
+	}
+}
+
+10050691 = {
+	name="Ecgtheow"
+	dynasty=178
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=8
+	religion="norse_pagan"
+	culture="swedish"
+	add_trait="strong"
+	add_trait="wroth"
+	add_trait="tough_soldier"
+	453.1.2={
+		birth="458.1.2"
+	}
+	474.1.3={
+		add_spouse="10050591"
+	}
+	502.1.2={
+		death="502.1.2"
+	}
+}
+
+10050891 = {
+	name="Beowulf"
+	dynasty=175
+	martial=6
+	diplomacy=6
+	intrigue=5
+	stewardship=8
+	religion="norse_pagan"
+	culture="swedish"
+	add_trait="strong"
+	add_trait="brave"
+	add_trait="tough_soldier"
+	father=10050691
+	mother=10050591
+	475.1.2={
+		birth="475.1.2"
+	}
+	565.1.2={
+		death="565.1.2"
+	}
+}

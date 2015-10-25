@@ -1,3 +1,19 @@
+470.1.1={
+	liege="k_navarra"
+	holder=1428119
+}
+475.1.1 = {
+	holder=10600991 
+}
+
+
+626.1.1 = {
+	holder = 1000256210
+	liege = d_gascogne
+}
+638.1.1 = {
+	holder = 0
+}
 735.1.1={
 	holder = 190483 #Hatto
 }

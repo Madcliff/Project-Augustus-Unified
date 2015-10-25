@@ -210,7 +210,7 @@
 
 161508 = {
 	name="Kyril" #I
-	religion="catholic"
+	religion="chalcendonian"
 	culture="coptic"
 	376.1.1={
 		birth="376.1.1"
@@ -333,7 +333,7 @@
 
 161518 = {
 	name="Markos" #I
-	religion="catholic"
+	religion="chalcendonian"
 	culture="coptic"
 	10.1.1={
 		birth="10.1.1"
@@ -358,7 +358,7 @@
 
 161520 = {
 	name="Athanasios" #I
-	religion="catholic"
+	religion="chalcendonian"
 	culture="coptic"
 	296.1.1={
 		birth="296.1.1"
@@ -413,17 +413,5 @@
 	}
 	661.1.3={
 		death="661.1.3"
-	}
-}
-
-168592 = {
-	name="Shenouda" 
-	religion="miaphysite"
-	culture="coptic"
-	820.1.1={
-		birth=yes
-	}
-	880.1.1={
-		death=yes
 	}
 }

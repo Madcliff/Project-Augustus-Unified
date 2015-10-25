@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_shilluk
+# Settlements
+max_settlements = 4
+b_shilluk = castle
+
+
+# Misc
+culture = luo
+religion = nilotic_pagan 
+
+# History

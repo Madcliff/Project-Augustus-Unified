@@ -1,0 +1,142 @@
+
+e_protectorate = {
+	color = { 100 139 139 }	
+	
+  capital = 1444 # Kara-khorum
+	
+# Cannot be held as a secondary title
+	primary = yes
+
+	title = "Protector General"
+	
+	allow = {
+		always = no
+	}
+	duchy_revokation = yes
+	culture = han
+}
+k_protectorate = {
+	color = { 100 139 139 }	
+	
+  capital = 1444 # Kara-khorum
+	
+# Cannot be held as a secondary title
+	primary = yes
+
+	title = "Protector General"
+	
+	allow = {
+		always = no
+	}
+	duchy_revokation = yes
+	culture = han
+}
+
+k_liao = {
+	color = { 0 139 139 }	
+	
+  capital = 1457 # Kara-khorum
+	
+# Cannot be held as a secondary title
+	primary = yes
+	
+	allow = {
+		always = no
+	}
+	
+	culture = khitan
+	religion = buddhist
+}
+k_khitan = {
+	color = { 0 139 139 }
+	color2={ 255 255 255 }
+	
+	capital = 1424 # Chuy
+	
+# Cannot be held as a secondary title
+	primary = yes
+	
+	allow = {
+		always = no
+			}
+	
+	culture = khitan
+	religion = buddhist
+	dignity = 100 # Counted as having this many more counties than it does
+}
+d_guiyijun = {
+	color = { 65 105 225 }
+	
+	dignity = 100	
+
+	capital = 1448 # Shazhou
+	
+	duchy_revokation = yes
+	
+	allow = {
+		always = no
+	}
+	
+	culture = han
+	religion = buddhist
+}
+
+k_tangut = {
+
+	capital = 1448 # Shazhou
+
+	culture = tangut
+	religion = buddhist
+  
+# Cannot be held as a secondary title
+	primary = yes
+  
+	allow = {
+		always = no
+	}
+
+	color={ 187 128 129 }
+	color2={ 255 255 255 }
+}
+d_hexi = {
+	color = { 65 105 225 }
+
+	capital = 1448 # Shazhou
+	
+	duchy_revokation = yes
+	
+	allow = {
+		always = no
+	}
+	
+	culture = han
+	religion = buddhist
+}
+d_anxi = {
+	color = { 80 160 195 }
+
+	capital = 1444 # Qiuci
+	
+	duchy_revokation = yes
+	
+	allow = {
+		always = no
+	}
+	
+	culture = han
+	religion = buddhist
+}
+d_beiting = {
+	color = { 130 172 240 }
+
+	capital = 1452 # Tingzhou
+	
+	duchy_revokation = yes
+	
+	allow = {
+		always = no
+	}
+	
+	culture = han
+	religion = buddhist
+}

@@ -1,0 +1,17 @@
+# 1597 - Ramleh
+
+# County Title
+title = c_ramleh
+
+# Settlements
+max_settlements = 4
+b_ramleh8 = castle
+b_placeholder9 = city
+
+# Misc
+culture = aramean
+religion = orthodox
+
+# History
+
+1187.1.1 = { b_placeholder10 = temple }

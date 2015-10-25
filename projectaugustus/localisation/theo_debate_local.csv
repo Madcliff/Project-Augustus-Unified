@@ -1,0 +1,92 @@
+win_theo_debate;Won a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lose_theo_debate;Lost a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+u_win_theo_debate;Won a Theological Debate Convincingly;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+u_lose_theo_debate;Lost a Theological Debate Convincingly;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+a_win_theo_debate;Dominated a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+a_lose_theo_debate;Was Obliterated in a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+decline_theo_debate;Declined a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+theo_decision;Engage in a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+theo_decision_desc;Engage in a theological debate with this character. The outcome of this debate will circulate throughout the known world and it will affect the Religious Moral Authority of your religion.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+theo_tooltip_cd;Had NOT Attempted to Engage in a Theological Debate Recently\n;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+theo_tooltip_not_before;Had NOT Attempted to Engage in a Theological Debate with this Character Before\n;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+theo_challenge;Engaged in a Heated Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+theo_convert;Convinced Me to Convert during a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD100;A courtier has arrived from [FromFrom.GetTitledFirstName]'s court. [FromFrom.GetTitledFirstName] believes [Root.Religion.GetName] is a fairy tail made up by barbaric nomads. [FromFrom.GetTitledFirstName] questions the very existence of [Root.Religion.GetRandomGodName] and is willing to engage you in a very public theological debate.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD100A;I accept! (And I will study all night for this debate).;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD100B;I accept! I only require my wits!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD100C;I... I... I have no time for this nonsense!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD102;[Root.GetTitledFirstName], I simply do not have time for your "debates".;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD102A;That feeble minded fool!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD101;[From.GetTitledFirstName] has made a solid arguments by emphasising [From.Religion.GetName]'s religious moral authority and moral teachings in [From.Religion.GetScriptureName]. It is now your turn to find fault in [From.GetHerHis] reasoning and solidify your own arguments.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD101A;Boast about [Root.Religion.GetName]'s moral authority.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD101B;Quote a phrase from [Root.Religion.GetScriptureName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD101C;Use your wit!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+absolute_theo_win;You absolutely dominate [From.GetTitledFirstName] in the theological debate.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+absolute_theo_lose;You are obliterated by [From.GetTitledFirstName]'s arguments.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+utter_theo_win;You win the debate convincingly.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+utter_theo_lose;You lose the debate convincingly.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+theo_win;You win the theological debate.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+theo_lose;You lose the theological debate.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD103;[Root.Religion.GetName] had won. The majority of onlookers cheered on for you. You could see the envy in [From.GetTitledFirstName]'s eyes. It was no longer about religion for [From.GetHerHim]. [From.GetTitledFirstName] was angry - angry not because the [From.Religion.GetName] name was tarnished but angry because [From.GetSheHe] was not able to outwit you.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD103A;I was right and you were wrong.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD104;[From.Religion.GetName] had won. [From.GetTitledFirstName] sneered at you - [From.GetTitledFirstName] had the audacity to gloat just because a small group of people agreed with [From.GetHerHim].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD104A;You will feel the wrath of [Root.Religion.GetRandomGodName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD105;[From.Religion.GetName] had won. [From.GetTitledFirstName] sneered at you - [From.GetTitledFirstName] had the audacity to gloat just because a small group of people agreed with [From.GetHerHim].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD105A;You will feel the wrath of [Root.Religion.GetRandomGodName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD106;[Root.Religion.GetName] had won. The majority of onlookers cheered on for you. You could see the envy in [From.GetTitledFirstName]'s eyes. It was no longer about religion for [From.GetHerHim]. [From.GetTitledFirstName] was angry - angry not because the [From.Religion.GetName] name was tarnished but angry because [From.GetSheHe] was not able to outwit you.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD106A;I was right and you were wrong.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD107;Every single person watching the debate cheered for [Root.Religion.GetName]. [From.GetTitledFirstName] looked defeated - you could tell [From.GetTitledFirstName] was questioning [From.Religion.GetScriptureName]. Perhaps, [From.GetTitledFirstName] is frightened of the fact that [From.GetSheHe] had wasted [From.HerHis] whole life following a scripture that was not true.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD107A;People are blinded by the world they have never seen.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD108;Every single person watching the debate cheered for [From.Religion.GetName]. The whole thing felt so wrong. You start to question not just [Root.Religion.GetName] but religion as a whole. What if there are no gods and no afterlife? Wouldn't this world be the same?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD108A;I have never been so scared in my whole life.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD109;Every single person watching the debate cheered for [From.Religion.GetName]. The whole thing felt so wrong. You start to question not just [Root.Religion.GetName] but religion as a whole. What if there are no gods and no afterlife? Wouldn't this world be the same?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD109A;I have never been so scared in my whole life.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD110;Every single person watching the debate cheered for [Root.Religion.GetName]. [From.GetTitledFirstName] looked defeated - you could tell [From.GetTitledFirstName] was questioning [From.Religion.GetScriptureName]. Perhaps, [From.GetTitledFirstName] is frightened of the fact that [From.GetSheHe] had wasted [From.HerHis] whole life following a scripture that was nothing but a folktale.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD110A;People are blinded by the world they have never seen.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+
+THD111;At no point in your life, you have dominated your opponent like this in a debate. It is not easy making a person nod to your every word, however, today [From.GetTitledFirstName] nodded to every syllable that left your mouth like a puppy obeying its master.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD111A;Yes, first step is to admit that you were wrong.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD112;[From.GetTitledFirstName] had made a convincing argument. You realise now that you were wrong. You are not even angry - you realise now that you were misguided by a false religion. You hear what [From.GetTitledFirstName] has to say and you nod in agreement.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD112A;I admit it, I was wrong.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD113;[From.GetTitledFirstName] had made a convincing argument. You realise now that you were wrong. You are not even angry - you realise now that you were misguided by a false religion. You hear what [From.GetTitledFirstName] has to say and you nod in agreement.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD113A;I admit it, I was wrong.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD114;At no point in your life, you have dominated your opponent like this in a debate. It is not easy making a person nod to your every word, however, today [From.GetTitledFirstName] nodded to every syllable that left your mouth like a puppy obeying its master.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD114A;Yes, first step is to admit that you were wrong.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+THD115;After winning a theological debate, you realise you have become a lot wiser. You are now slowly becoming a scholar only found in myth and legends.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THD115A;Heed my words!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+theo_anger;Rivalry - Humilated Me in a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+theo_sneer;Rivalry - Terrible at Theological Debates;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+thpr;Prepared for a Theological Debate;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+thpr_desc;This character is well prepared for a theological debate.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+theo_tooltip_accept;Let the Theological Debate Commence!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+theo_tooltip_decline;Rumours about [Root.Religion.GetName]'s decline spreads.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_tselemti
+# Settlements
+max_settlements = 4
+b_tselemti = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

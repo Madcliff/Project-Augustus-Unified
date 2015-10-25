@@ -1,0 +1,226 @@
+##Character setting for 1066 start.
+
+#dynasty="Xixia"
+
+870109 = {
+  name="Deming"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  980.5.7={
+    birth="980.5.7"
+  }
+  1022.7.3={
+    death="1022.7.3"
+  }
+}
+# Xixia
+
+870110 = {
+  name="Yuanhao"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870109
+  1004.3.21={
+    birth="1004.3.21"
+  }
+  1048.1.1={
+    death="945.1.1"
+  }
+}
+870120 = {
+  name="Liangzuo"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870110
+  1047.4.20={
+    birth="1047.4.20"
+  }
+  1067.5.8={
+    death="1067.5.8"
+  }
+}
+870130 = {
+  name="Bingchang"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870120
+  1060.4.23={
+    birth="1060.4.23"
+  }
+  1086.11.30={
+    death="1086.11.30"
+  }
+}
+870131 = {
+  name="Binggui"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870120
+  1061.5.23={
+    birth="1061.5.23"
+  }
+  1088.5.30={
+    death="1088.5.30"
+  }
+}
+870140 = {
+  name="Qianshun"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870130
+  1084.1.21={
+    birth="1084.1.21"
+  }
+  1139.5.22={
+    death="1139.5.22"
+  }
+}
+870141 = {
+  name="Zheng"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870131
+  1085.4.21={
+    birth="1085.4.21"
+  }
+  1135.5.22={
+    death="1135.5.22"
+  }
+}
+870150 = {
+  name="Renxiao"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870140
+  1124.3.26={
+    birth="1124.3.26"
+  }
+  1193.9.20={
+    death="1193.9.20"
+  }
+}
+870151 = {
+  name="Rende"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870140
+  1128.8.3={
+    birth="1128.8.3"
+  }
+  1188.12.30={
+    death="1188.12.30"
+  }
+}
+870152 = {
+  name="Rengui"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870141
+  1105.8.3={
+    birth="1105.8.3"
+  }
+  1145.12.30={
+    death="1145.12.30"
+  }
+}
+870160 = {
+  name="Chunyou"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870150
+  1177.7.22={
+    birth="1177.7.22"
+  }
+  1206.5.12={
+    death="1206.5.12"
+  }
+}
+870170 = {
+  name="Anquan"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870151
+  1169.8.28={
+    birth="1169.8.28"
+  }
+  1211.11.21={
+    death="1211.11.21"
+  }
+}
+870171 = {
+  name="Yanzong"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870152
+  1135.8.29={
+    birth="1135.8.29"
+  }
+  1203.4.1={
+    death="1203.4.1"
+  }
+}
+870180 = {
+  name="Zunsuo"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870171
+  1162.9.20={
+    birth="1162.9.20"
+  }
+  1226.5.8={
+    death="1226.5.8"
+  }
+}
+870190 = {
+  name="Dewang"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870180
+  1181.10.23={
+    birth="1181.10.23"
+  }
+  1226.7.7={
+    death="1226.7.7"
+  }
+}
+870191 = {
+  name="Decai"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870180
+  1180.7.23={
+    birth="1180.7.23"
+  }
+  1226.7.7={
+    death="1226.7.7"
+  }
+}
+871100 = {
+  name="Xian"
+  dynasty=1090026
+  religion=buddhist
+  culture=tangut
+  father=870191
+  1201.7.21={
+    birth="1201.7.21"
+  }
+  1227.8.4={
+    death="1227.8.4"
+  }
+}

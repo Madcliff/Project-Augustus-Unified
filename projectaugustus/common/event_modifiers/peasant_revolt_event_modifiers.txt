@@ -1,0 +1,60 @@
+#new modifiers
+
+crushed_revolt_2 = {
+	icon = 13
+	global_revolt_risk = -0.01
+}
+
+crushed_revolt_3 = {
+	icon = 13
+	global_revolt_risk = -0.01
+}
+
+crushed_revolt_4 = {
+	icon = 13
+	global_revolt_risk = -0.01
+}
+
+crushed_revolt_5 = {
+	icon = 13
+	global_revolt_risk = -0.01
+}
+
+crushed_major_revolt_2 = {
+	icon = 13
+	global_revolt_risk = -0.02
+}
+
+crushed_major_revolt_3 = {
+	icon = 13
+	global_revolt_risk = -0.02
+}
+
+crushed_major_revolt_4 = {
+	icon = 13
+	global_revolt_risk = -0.02
+}
+
+crushed_major_revolt_5 = {
+	icon = 13
+	global_revolt_risk = -0.02
+}
+
+executed_peasant_leader = {
+	icon = 13
+	global_revolt_risk = -0.005
+}
+cruel_executed_peasant_leader = {
+	icon = 13
+	global_revolt_risk = -0.01
+}
+
+martyred_peasant_leader = {
+	icon = 13
+	global_revolt_risk = 0.02
+}
+cruel_martyred_peasant_leader = {
+	icon = 13
+	global_revolt_risk = 0.03
+}
+

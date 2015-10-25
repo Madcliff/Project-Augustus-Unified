@@ -1,0 +1,14 @@
+624.1.1 = {
+	holder = 189167121 
+	liege = k_lanka
+}
+769.1.1={
+	holder = 189007
+	liege = k_lanka
+}
+866.1.1={
+	holder = 175010
+}
+929.1.1={
+	holder=189019
+}

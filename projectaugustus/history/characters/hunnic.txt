@@ -319,3 +319,23 @@
 		}
         }
 }
+
+2066499 = {
+	name="Candac"
+	# Candac 1	?Scyrian chief M/L V
+	dynasty=85
+	martial=6
+	diplomacy=4
+	intrigue=6
+	stewardship=8
+	religion="tengri_pagan"
+	culture="hunnic"
+	add_trait="gregarious"
+	add_trait="misguided_warrior"
+	434.1.1={
+		birth="434.1.1"
+	}
+	498.1.1={
+		death="498.1.1"
+	}
+}

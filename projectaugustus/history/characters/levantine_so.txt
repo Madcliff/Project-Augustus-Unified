@@ -1,0 +1,21 @@
+1438000 = {
+	name="Maras"
+	dynasty=76
+	martial=5
+	diplomacy=8
+	intrigue=7
+	stewardship=7
+	religion="orthodox"
+	culture="levantine"
+	add_trait="kind"
+	add_trait="charitable"
+	add_trait="humble"
+	add_trait="just"
+	add_trait="midas_touched"
+	423.1.1={
+		birth="423.1.1"
+	}
+	493.1.1={
+		death="493.1.1"
+	}
+}

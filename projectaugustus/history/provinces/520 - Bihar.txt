@@ -16,8 +16,13 @@ b_bihar = tribal
 #b_elesd = castle
 
 # Misc
-culture = avar
-religion = tengri_pagan
+culture = gepid
+religion = arian
+
+700.1.1 = {
+	culture = avar
+	religion = tengri_pagan
+}
 
 # History
 890.1.1 = {

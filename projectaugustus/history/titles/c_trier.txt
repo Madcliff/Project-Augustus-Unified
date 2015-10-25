@@ -1,3 +1,11 @@
+460.1.1=
+{
+	liege="d_alemannia"
+}
+
+632.1.1 = {
+	liege = d_alsace
+}
 758.1.1 = {
 	holder = 190570 #Wermad
 }

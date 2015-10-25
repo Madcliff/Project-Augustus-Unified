@@ -1,5 +1,12 @@
+450.1.1 = {
+	holder = 1000256124 
+}
 20.1.1 = {
 	historical_nomad = yes
+}
+600.1.1 = {
+	holder = 74003 
+	liege=d_itil
 }
 716.1.1={
 	liege=d_itil
@@ -52,13 +59,9 @@ holder=228030
 {
 holder=34958
 }
-1227.2.1=
-{
-holder=34911
-}
 1227.12.2=
 {
-
+holder=34959
 liege=k_golden_horde
 }
 1255.1.1=

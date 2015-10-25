@@ -1,3 +1,17 @@
+470.1.1 = {
+	liege = e_eftal
+}
+
+620.1.1={
+	holder = 188700 # Zunbil founder
+	liege = d_kabul
+}
+662.1.1={
+	holder = 1000258900
+}
+691.1.1={
+	holder = 188717 # Khorasan Tegin Shah
+}
 740.1.1={
 	liege=0
 	holder=188570 # Bamiyan

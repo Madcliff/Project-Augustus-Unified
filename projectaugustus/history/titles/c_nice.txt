@@ -1,3 +1,22 @@
+100.1.1 = {
+	liege = e_western
+}
+
+475.1.1 = {
+	holder=1000256105 
+}
+476.1.1=
+{
+liege=k_italy
+holder=1438108
+}
+608.1.1 = {
+	holder = 1000255002 #Claudius, mayor of the Palace of Burgundy (608-613) aprox.
+	liege = d_provence
+}
+635.1.1 = {
+	holder = 0
+}
 756.1.1={
 	liege=k_lombardy
         de_jure_liege = d_susa

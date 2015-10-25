@@ -1,0 +1,13 @@
+188595 = {
+	name="Torkasbatha"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="choresmian"
+	father=188594
+	740.1.1={
+		birth=yes
+	}
+	790.1.1={
+		death=yes
+	}
+}

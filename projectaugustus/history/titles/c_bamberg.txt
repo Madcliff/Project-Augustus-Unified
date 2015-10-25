@@ -1,3 +1,30 @@
+460.1.1=
+{
+	liege="d_alemannia"
+}
+
+477.1.1={
+	holder = 190376 #Fisud
+}
+500.1.1={
+	holder = 190378 #Baderic
+}
+531.1.1={
+	holder = 190379 #Hermanfred
+}
+534.1.1={
+	holder = 190381 #Berthar
+}
+539.1.1={
+	holder = 190382 #Chamar
+}
+588.1.1={
+	holder = 190383 #Radulf
+}
+633.1.1={
+	holder = 190384 #Chamar
+}
+
 637.1.1={
 	liege=k_germany
 }

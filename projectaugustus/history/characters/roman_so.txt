@@ -1,0 +1,2980 @@
+1438100 = {
+	name="Romulus"
+	# Romulus Augustulus
+	dynasty=1027034
+	martial=5
+	diplomacy=6
+	intrigue=5
+	stewardship=5
+	religion = orthodox
+	culture="roman"
+	father = 1438101
+	add_trait="craven"
+	add_trait="weak"
+	add_trait="shy"
+	add_trait="trusting"
+	add_trait="fair"
+	add_trait="naive_appeaser"
+	461.1.1 = {
+		birth="461.1.1"
+	}
+	475.10.1 = {
+		wealth = -100 #The Roman state was bankrupt since the 460s.
+	}
+	501.10.29 = {
+		death="501.10.29"
+	}
+}
+
+1438101 = {
+	name="Orestes"
+	# the father of Romulus Augustulus
+	dynasty=1027034
+	martial=7
+	diplomacy=8
+	intrigue=13
+	stewardship=15
+	religion = orthodox
+	culture="roman"
+	add_trait="ambitious"
+	add_trait="hunter"
+	add_trait="greedy"
+	add_trait="deceitful"
+	add_trait="flamboyant_schemer"
+	father = 1438102
+	429.1.1 = {
+		birth="429.1.1"
+	}
+	475.10.31 = {
+		employer = 1438100
+		give_job_title=job_chancellor
+	}
+	476.8.28 = {
+		death="476.8.28"
+	}
+}
+
+1438102 = {
+	name="Tatulus"
+	# father of orestes
+	dynasty=1027034
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	religion="continental_pagan"
+	culture="hunnic"
+	add_trait="hunter"
+	394.1.1 = {
+		birth="394.1.1"
+	}
+	448.7.7 = {
+		death="448.7.7" #arbitrary date
+	}
+}
+
+1438103 = {
+	name="Julius"
+	# Julius Nepos
+	dynasty=1027035
+	martial=8
+	diplomacy=7
+	intrigue=4
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	father = 1438104
+	add_trait="gregarious"
+	add_trait="proud"
+	add_trait="diligent"
+	add_trait="trusting"
+	add_trait="charismatic_negotiator"
+	430.1.1 = {
+		birth="430.1.1"
+	}
+	470.1.1 = {
+		add_spouse=1438115
+	}
+	475.10.31 = {
+		add_claim = e_wre
+		add_claim = k_italy
+	}
+	480.1.1 = {
+		death="480.1.1"
+	}
+}
+1438104 = {
+	name="Nepotianus"
+	# Father of Julius Nepos
+	dynasty=1027035
+	martial=5
+	diplomacy=4
+	intrigue=5
+	stewardship=3
+	religion = orthodox
+	culture="roman"
+	add_trait="brave"
+	add_trait="tough_soldier"
+	401.1.1 = {
+		birth="401.1.1"
+	}
+	465.1.1 = {
+		death="465.1.1"
+	}
+}
+1438105 = {
+	name="Jadis"
+	# Jadis of Charn. GET IT?
+	dynasty=1027037
+	martial=8
+	diplomacy=9
+	intrigue=9
+	stewardship=9
+	religion = orthodox
+	culture="roman"
+	female = yes
+	add_trait="brave"
+	add_trait="quick"
+	add_trait="impaler"
+	add_trait="ambitious"
+	add_trait="cruel"
+	add_trait="fair"
+	add_trait="wounded"
+	add_trait="grey_eminence"
+	452.1.1 = {
+		birth="452.1.1"
+	}
+	511.10.29 = {
+		death="511.11.29"
+	}
+}
+
+1438106 = {
+	name="Ambrosinus"
+	# The Saenii lived near Siena, but there's no specific names to work with
+	dynasty=1027036
+	martial=10
+	diplomacy=7
+	intrigue=9
+	stewardship=11
+	religion = orthodox
+	culture="roman"
+	add_trait="gluttonous"
+	add_trait="midas_touched"
+	439.1.1 = {
+		birth="439.1.1"
+	}
+	500.1.9 = {
+		death="500.1.9"
+	}
+}
+
+1438107 = {
+	name="Maurus"
+	dynasty=1027038
+	martial=12
+	diplomacy=8
+	intrigue=11
+	stewardship=10
+	religion = orthodox
+	culture="roman"
+	add_trait="zealous"
+	add_trait="arbitrary"
+	add_trait="scholarly_theologian"
+	435.1.1 = {
+		birth="435.1.1"
+	}
+	501.10.29 = {
+		death="501.10.29"
+	}
+}
+
+7769 = {
+	name="Acacius"
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	religion = orthodox
+	culture="roman"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="zealous"
+	add_trait="charismatic_negotiator"
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	483.3.10 = {
+	name="Felix"
+	# AKA: Acacius
+	}
+	492.1.1 = {
+		death="492.1.1"
+	}
+}
+
+7770 = {
+	name="Castinus"
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	religion = orthodox
+	culture="roman"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="zealous"
+	add_trait="charismatic_negotiator"
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	468.2.28 = {
+	name="Simplicius"
+	# AKA: Castinus
+	}
+	483.3.10 = {
+		death="483.3.10"
+	}
+}
+
+1438110 = {
+	name="Aegidius"
+	dynasty=1027040
+	martial=16
+	diplomacy=13
+	intrigue=14
+	stewardship=13
+	religion = orthodox
+	culture="galloroman"
+	add_trait="brave"
+	add_trait="honest"
+	add_trait="falconer"
+	add_trait="cynical"
+	add_trait="skilled_tactician"
+	403.1.1 = {
+		birth="403.1.1"
+	}
+	465.1.1 = {
+		death="465.1.1"
+	}
+}
+1438111 = {
+	name="Syagrius"
+	dynasty=1027040
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=10
+	religion = orthodox
+	culture="galloroman"
+	father = 1438110
+	add_trait="wounded"
+	add_trait="ambitious"
+	add_trait="just"
+	add_trait="tough_soldier"
+	441.9.21 = {
+		birth="441.9.21"
+	}
+	487.1.1 = {
+		death="487.1.1"
+	}
+}
+1438112 = {
+	name="Remigius"
+	martial=8
+	diplomacy=10
+	intrigue=6
+	stewardship=10
+	religion = orthodox
+	culture="galloroman"
+	add_trait="zealous"
+	add_trait="gregarious"
+	add_trait="chaste"
+	add_trait="temperate"
+	add_trait="charitable"
+	add_trait="kind"
+	add_trait="scholar"
+	add_trait="mastermind_theologian"
+	437.1.1 = {
+		birth="437.1.1"
+	}
+	533.1.1 = {
+		death="533.1.1"
+	}
+}
+1438113 = {
+	name="Nicetas"
+	martial=13
+	diplomacy=9
+	intrigue=9
+	stewardship=12
+	religion = orthodox
+	culture="roman"
+	add_trait="cynical"
+	add_trait="wroth"
+	add_trait="martial_cleric"
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	485.1.1 = {
+		death="485.1.1"
+	}
+}
+
+1438114 = {
+	name="Glycerius"
+	# glycerius, Emperor of the WRE 473-474
+	dynasty=1027041 #of Salona, because I don't know what else otherwise
+	martial=6
+	diplomacy=11
+	intrigue=10
+	stewardship=11
+	religion = orthodox
+	culture="roman"
+	add_trait="weak"
+	add_trait="deceitful"
+	add_trait="gardener"
+	add_trait="paranoid"
+	add_trait="envious"
+	add_trait="martial_cleric"
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	474.6.1 = {
+		add_claim = e_wre
+	}
+	480.1.1 = {
+		death="480.1.1"
+	}
+}
+
+1438115 = {
+	name="Leona"
+	# wife of Julius Nepos, actual given name unknown
+	dynasty=1027033
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	female=yes
+	religion = orthodox
+	culture="roman"
+	add_trait="shy"
+	add_trait="temperate"
+	add_trait="fair"
+	add_trait="generous"
+	add_trait="indulgent_wastrel"
+	451.2.7 = {
+		birth="451.2.7"
+		add_weak_claim=e_byzantium
+	}
+	511.1.1 = {
+		death="511.1.1" #arbitrary date
+	}
+}
+1438116 = {
+	name="Januarinus"
+	dynasty=1027043
+	martial=13
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	religion = orthodox
+	culture="roman"
+	add_trait="brave"
+	add_trait="ambitious"
+	add_trait="just"
+	add_trait="chaste"
+	add_trait="tough_soldier"
+	446.1.2 = {
+		birth="446.1.2"
+	}
+	511.1.1 = {
+		death="511.1.1" #arbitrary date
+	}
+}
+1438117 = {
+	name="Sidonius"
+	# Sidonius Apollinaris
+	dynasty=1027046
+	martial=10
+	diplomacy=14
+	intrigue=8
+	stewardship=13
+	religion = orthodox
+	culture="galloroman"
+	father = 1438118
+	add_trait="gregarious"
+	add_trait="poet"
+	add_trait="gluttonous"
+	add_trait="trusting"
+	add_trait="naive_appeaser"
+	430.1.1 = {
+		birth="430.1.1"
+	}
+	474.1.3={
+		add_claim=d_auvergne
+		add_claim=c_auvergne
+	}
+	455.1.1 = {
+		add_spouse=1438160
+	}
+	475.1.1 = {
+		employer = 1428100
+	}
+	489.1.2 = {
+		death="489.1.2"
+	}
+}
+1438118 = {
+	name="Apollinaris"
+	#Apollinaris
+	dynasty=1027046
+	martial=5
+	diplomacy=4
+	intrigue=5
+	stewardship=3
+	religion = orthodox
+	culture="galloroman"
+	395.1.1 = {
+		birth="395.1.1"
+	}
+	465.1.2 = {
+		death="465.1.2"
+	}
+}
+1438119 = {
+	name="Apollinaris"
+	# son of Sidonius Apollinaris
+	dynasty=1027046
+	martial=12
+	diplomacy=4
+	intrigue=5
+	stewardship=3
+	religion = orthodox
+	culture="galloroman"
+	father = 1438117
+	add_trait="strong"
+	add_trait="hunter"
+	add_trait="trusting"
+	add_trait="martial_cleric"
+	457.1.1 = {
+		birth="457.1.1"
+	}
+	515.1.2 = {
+		death="515.1.2"
+	}
+}
+1438120 = {
+	name="Valerianus"
+	martial=10
+	diplomacy=11
+	intrigue=8
+	stewardship=13
+	religion = orthodox
+	culture="galloroman"
+	add_trait="zealous"
+	add_trait="ambitious"
+	add_trait="master_theologian"
+	411.1.1 = {
+		birth="411.1.1"
+	}
+	490.1.2 = {
+		death="490.1.2"
+	}
+}
+1438121 = {
+	name="Seronatus"
+	#Vicarii quinque (postea Septem) Provinciarum, 469
+	dynasty=3
+	martial=10
+	diplomacy=7
+	intrigue=11
+	stewardship=12
+	religion = orthodox
+	culture="galloroman"
+	add_trait="content"
+	add_trait="humble"
+	add_trait="tough_soldier"
+	441.1.1 = {
+		birth="441.1.1"
+	}
+	514.1.2 = {
+		death="514.1.2"
+	}
+}
+1438122 = {
+	name="Faustus"
+	dynasty=4
+	martial=8
+	diplomacy=7
+	intrigue=10
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	add_trait="envious"
+	add_trait="proud"
+	add_trait="wrath"
+	add_trait="duelist"
+	add_trait="fortune_builder"
+	447.1.1 = {
+		birth="447.1.1"
+	}
+	508.1.2 = {
+		death="508.1.2"
+	}
+}
+1438123 = {
+	name="Leontius"
+	dynasty=5
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	religion = orthodox
+	culture="roman"
+	add_trait="envious"
+	add_trait="proud"
+	add_trait="wrath"
+	add_trait="duelist"
+	add_trait="silent_webweaver"
+	425.1.1 = {
+		birth="425.1.1"
+	}
+	490.1.2 = {
+		death="490.1.2"
+	}
+}
+1438124 = {
+	name="Caesarius"
+	dynasty=6
+	religion = orthodox
+	culture="roman"
+	add_trait="zealous"
+	468.1.1 = {
+		birth="468.1.1"
+	}
+	542.1.2 = {
+		death="542.1.2"
+	}
+}
+1438125 = {
+	name="Hilarianus"
+	# Patrician of Thessalonica, 473, actual nomen/dynasty unknown
+	dynasty=11
+	martial=7
+	diplomacy=8
+	intrigue=13
+	stewardship=15
+	religion = orthodox
+	culture="roman"
+	add_trait="humble"
+	add_trait="paranoid"
+	add_trait="brave"
+	add_trait="content"
+	add_trait="tough_soldier"
+	435.1.1 = {
+		birth="435.1.1"
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+1438126 = {
+	name="Basiliscus"
+	# Byzantine Emperor
+	dynasty=1027033
+	martial=7
+	diplomacy=4
+	intrigue=11
+	stewardship=5
+	religion = monophysite
+	culture="greek"
+	add_trait="greedy"
+	add_trait="zealous"
+	add_trait="deceitful"
+	add_trait="trusting"
+	add_trait="craven"
+	add_trait="proud"
+	add_trait="amateurish_plotter"
+	439.1.1 = {
+		birth="439.1.1"
+	}
+	460.1.2={
+		add_spouse=1438127
+	}
+	475.1.9={
+		holder=70515
+		give_nickname=nick_the_usurper
+		add_claim=e_byzantium
+	}
+
+	477.1.2 = {
+		death="477.1.2"
+	}
+}
+1438127 = {
+	name="Zenonis"
+	martial=3
+	diplomacy=8
+	intrigue=11
+	stewardship=9
+	religion="monophysite"
+	culture="greek"
+	add_trait="zealous"
+	add_trait="trusting"
+	female=yes
+	443.1.1 = {
+		birth="443.1.1"
+	}
+	477.1.2 = {
+		death="477.1.2"
+	}
+}
+1438128 = {
+	name="Marcus"
+	dynasty=1027033
+	religion="monophysite"
+	culture="greek"
+	add_trait="trusting"
+	add_trait="weak"
+	father=1438126
+	463.1.1 = {
+		birth="463.1.1"
+	}
+	477.1.2 = {
+		death="477.1.2"
+	}
+}
+1438129 = {
+	name="Armatus"
+	dynasty=1027033
+	martial=10
+	diplomacy=8
+	intrigue=6
+	stewardship=11
+	religion="monophysite"
+	culture="greek"
+	add_trait="proud"
+	add_trait="greedy"
+	add_trait="fair"
+	453.1.1 = {
+		birth="453.1.1"
+	}
+	477.1.2 = {
+		death="477.1.2"
+	}
+}
+1438130 = {
+	name="Calminius"
+	dynasty=13
+	martial=12
+	diplomacy=9
+	intrigue=7
+	stewardship=11
+	religion = orthodox
+	culture="galloroman"
+	add_trait="proud"
+	add_trait="deceitful"
+	add_trait="trusting"
+	438.1.1 = {
+		birth="438.1.1"
+	}
+	475.12.30 = {
+		death="475.12.30"
+	}
+}
+1438131 = {
+	name="Victorius"
+	dynasty=1027046
+	martial=10
+	diplomacy=9
+	intrigue=7
+	stewardship=10
+	religion = orthodox
+	culture="galloroman"
+	add_trait="gregarious"
+	add_trait="kind"
+	add_trait="gluttonous"
+	add_trait="tough_soldier"
+	441.1.1 = {
+		birth="441.1.1"
+	}
+	480.1.2 = {
+		death="480.1.2"
+	}
+}
+
+1438132 = {
+	name="Vincentius"
+	# Vincentius, a Dux of Hispania in the service of the Visigoths in the 470s. Actual dynasty unknown. "Cessetanius" comes from "Cessetani", the tribe that used to inhabit the Tarragona area.
+	dynasty=14
+	martial=8
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="hispanoroman"
+	add_trait="strong"
+	add_trait="craven"
+	add_trait="cynical"
+	add_trait="fortune_builder"
+	445.1.1 = {
+		birth="445.1.1"
+	}
+	473.1.2 = {
+		death="473.1.2"
+	}
+}
+1438133 = {
+	name="Augustinus"
+	# Fictional. Placeholder for ruler of Sabaria
+	dynasty=15
+	martial=8
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	religion = orthodox
+	culture="hispanoroman"
+	add_trait="proud"
+	add_trait="greedy"
+	add_trait="mystic"
+	440.1.1 = {
+		birth="440.1.1"
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+1438134 = {
+	name="Emilianus"
+	# Fictional member of the very-real Cantabri family of Coimbra.
+	dynasty=17
+	martial=8
+	diplomacy=6
+	intrigue=7
+	stewardship=8
+	religion = orthodox
+	culture="hispanoroman"
+	add_trait="honest"
+	add_trait="envious"
+	add_trait="craven"
+	426.1.1 = {
+		birth="426.1.1"
+	}
+	466.6.6={
+		add_claim=c_coimbra
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+1438135 = {
+	name="Lusidius"
+	# Historic figure, actual gens unknown. Made a member of the Cantabri for the sake of drama.
+	dynasty=17
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	religion = orthodox
+	culture="hispanoroman"
+	add_trait="deceitful"
+	add_trait="greedy"
+	add_trait="impaler"
+	add_trait="flamboyant_schemer"
+	429.1.1 = {
+		birth="429.1.1"
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+1438136 = {
+	name="Olybrius"
+	# Anicius olybrius, W. Roman Emperor from Spring 472 to Fall 472
+	dynasty=4
+	martial=6
+	diplomacy=7
+	intrigue=4
+	stewardship=4
+	religion = orthodox
+	culture="roman"
+	add_trait="weak"
+	add_trait="zealous"
+	add_trait="chaste"
+	add_trait="martial_cleric"
+	431.1.1 = {
+		birth="431.1.1"
+	}
+	472.11.2 = {
+		death="472.11.2"
+	}
+}
+1438137 = {
+	name="Petronius Maximus"
+	# Flavius Petronius Maximus, potentially a member of the Anicii family.
+	dynasty=4
+	martial=3
+	diplomacy=6
+	intrigue=10
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	add_trait="envious"
+	add_trait="proud"
+	add_trait="deceitful"
+	add_trait="flamboyant_schemer"
+	397.1.1 = {
+		birth="397.1.1"
+	}
+	455.5.31 = {
+		death="455.5.31"
+	}
+}
+1438138 = {
+	name="Palladius"
+	# Son of Petronius Maximus
+	dynasty=4
+	religion = orthodox
+	culture="roman"
+	father=1438137
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	455.5.31 = {
+		death="455.5.31"
+	}
+}
+1438139 = {
+	name="Arbogast"
+	# From a german family that was heavily Romanized, potentially a warlord of Trier according to the letters of Sidonius Apollinaris
+	dynasty=21
+	martial=7
+	diplomacy=9
+	intrigue=8
+	stewardship=10
+	religion = arian
+	culture="galloroman"
+	add_trait="scholar"
+	add_trait="ambitious"
+	add_trait="zealous"
+	add_trait="misguided_warrior"
+	430.1.1 = {
+		birth="430.1.1"
+	}
+	486.1.1 = {
+		death="486.1.1"
+	}
+}
+1438140 = {
+	name="Hubaldus"
+	# "pagan tyrant" of rouen
+	dynasty=22
+	martial=9
+	diplomacy=7
+	intrigue=7
+	stewardship=8
+	religion="hellenic_pagan"
+	culture="galloroman"
+	add_trait="cruel"
+	add_trait="paranoid"
+	add_trait="arbitrary"
+	add_trait="tough_soldier"
+	432.1.1 = {
+		birth="432.1.1"
+	}
+	486.1.1 = {
+		death="486.1.1"
+	}
+}
+1438141 = {
+	name="Ioannes"
+	# Comes Castrodunensis
+	dynasty=23
+	martial=11
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	religion = orthodox
+	culture="galloroman"
+	add_trait="gregarious"
+	add_trait="fair"
+	add_trait="charismatic_negotiator"
+	451.1.1 = {
+		birth="451.1.1"
+	}
+	471.1.1 = {
+		add_spouse=1438142
+	}
+	490.1.1 = {
+		death="490.1.1"
+	}
+}
+1438142 = {
+	name="Agnes"
+	# Daughter of the count of Blois
+	dynasty=23
+	martial=5
+	diplomacy=8
+	intrigue=9
+	stewardship=8
+	female=yes
+	religion = orthodox
+	culture="galloroman"
+	add_trait="kind"
+	add_trait="fair"
+	455.1.1 = {
+		birth="455.1.1"
+	}
+	500.1.1 = {
+		death="500.1.1"
+	}
+}
+1438143 = {
+	name="Solemnis"
+	dynasty=23
+	martial=11
+	diplomacy=12
+	intrigue=7
+	stewardship=8
+	religion = orthodox
+	culture="galloroman"
+	father=1438141
+	mother=1438142
+	472.1.1 = {
+		birth="472.1.1"
+	}
+	534.1.1 = {
+		death="534.1.1"
+	}
+}
+1438144 = {
+	name="Aventinus"
+	dynasty=23
+	martial=11
+	diplomacy=12
+	intrigue=7
+	stewardship=8
+	religion = orthodox
+	culture="galloroman"
+	add_trait="gregarious"
+	add_trait="fair"
+	add_trait="thrifty_clerk"
+	father=1438141
+	mother=1438142
+	474.1.1 = {
+		birth="474.1.1"
+	}
+	525.1.1 = {
+		death="525.1.1"
+	}
+}
+1438145 = {
+	name="Perpetuus"
+	martial=9
+	diplomacy=11
+	intrigue=9
+	stewardship=13
+	religion = orthodox
+	culture="galloroman"
+	add_trait="charitable"
+	add_trait="temperate"
+	add_trait="chaste"
+	add_trait="zealous"
+	422.1.1 = {
+		birth="422.1.1"
+	}
+	490.12.30 = {
+		death="490.12.30"
+	}
+}
+1438146 = {
+	name="Paulus"
+	# Accounts related to Aegidius and Syagrius mention a "Count Paulus"
+	dynasty=24
+	martial=12
+	diplomacy=9
+	intrigue=8
+	stewardship=8
+	religion = orthodox
+	culture="galloroman"
+	add_trait="brave"
+	add_trait="hedonist"
+	add_trait="thrifty_clerk"
+	432.1.1 = {
+		birth="432.1.1"
+	}
+	490.12.30 = {
+		death="490.12.30"
+	}
+}
+1438147 = {
+	name="Joannis"
+	dynasty=23
+	religion = orthodox
+	culture="galloroman"
+	father=1438141
+	mother=1438142
+	female=yes
+	473.1.1 = {
+		birth="473.1.1"
+	}
+	535.1.1 = {
+		death="535.1.1"
+	}
+}
+1438148 = {
+	name="Agnes"
+	dynasty=23
+	religion = orthodox
+	culture="galloroman"
+	father=1438141
+	mother=1438142
+	female=yes
+	475.1.1 = {
+		birth="473.1.1"
+	}
+	535.1.1 = {
+		death="535.1.1"
+	}
+}
+1438149 = {
+	name="Lupus"
+	martial=3
+	diplomacy=9
+	intrigue=8
+	stewardship=9
+	religion = orthodox
+	culture="galloroman"
+	add_trait="chaste"
+	add_trait="zealous"
+	add_trait="celibate"
+	383.1.1 = {
+		birth="383.1.1"
+	}
+	478.1.1 = {
+		death="478.1.1"
+	}
+}
+1438150 = {
+	name="Gentilis"
+	dynasty=28 #Aelius Gentilis, Volsinii, V/VI centuries, died age 78, buried alongside his kids
+	martial=5
+	diplomacy=8
+	intrigue=8
+	stewardship=10
+	religion = orthodox
+	culture="roman"
+	add_trait="kind"
+	add_trait="charitable"
+	425.1.1 = {
+		birth="383.1.1"
+	}
+	503.1.1 = {
+		death="478.1.1"
+	}
+}
+1438151 = {
+	name="Hildefons"
+	# Tell no-one I put Don Quixote in here
+	dynasty=31
+	martial=5
+	diplomacy=7
+	intrigue=5
+	stewardship=7 #Don Quixote had some wisdom in that crazed noggin.
+	religion = orthodox #A highly-romanized Visigoth
+	culture="visigoth"
+	add_trait="brave"
+	add_trait="temperate"
+	add_trait="humble"
+	add_trait="kind"
+	add_trait="charitable"
+	add_trait="lunatic"
+	add_trait="indulgent_wrastrel"
+	414.1.1 = {
+		birth="414.1.1"
+	}
+	489.1.2 = {
+		death="489.1.2"
+	}
+}
+1438152 = {
+	name="Sanctius"
+	# Santcius Pansa, Hildefons' loyal Hispano-Roman companion
+	dynasty=32
+	martial=6
+	diplomacy=8
+	intrigue=4
+	stewardship=6
+	religion = orthodox
+	culture="hispanoroman"
+	add_trait="trusting"
+	add_trait="kind"
+	add_trait="gluttonous"
+	add_trait="humble"
+	437.1.1 = {
+		birth="437.1.1"
+	}
+	475.1.1 = {
+		employer = 1438151
+		give_job_title=job_chancellor
+	}
+	518.1.2 = {
+		death="518.1.2"
+	}
+}
+1438153 = {
+	name="Hieronymus"
+	# Fictional
+	dynasty=17
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="hispanoroman"
+	add_trait="proud"
+	add_trait="wroth"
+	431.1.1 = {
+		birth="431.1.1"
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+1438154 = {
+	name="Abydus"
+	# (AC)HOLIVS ABYDVS, praefectus annonae V/VI
+	dynasty=43
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	add_trait="content"
+	437.1.1 = {
+		birth="437.1.1"
+	}
+	511.1.2 = {
+		death="511.1.2"
+	}
+}
+1438155 = {
+	name="Acilius"
+	# (A)CILIVUS 1 senator (Rome) ?476/483
+	dynasty=44
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	religion = orthodox
+	culture="roman"
+	add_trait="hedonist"
+	427.1.1 = {
+		birth="427.1.1"
+	}
+	491.1.2 = {
+		death="491.1.2"
+	}
+}
+1438156 = {
+	name="Adabrandus"
+	# primicerius scutatorium V/VI -- 484?
+	martial=9
+	diplomacy=7
+	intrigue=5
+	stewardship=6
+	religion = orthodox
+	culture="roman"
+	add_trait="tough_soldier"
+	436.1.1 = {
+		birth="436.1.1"
+	}
+	475.10.31 = {
+		employer = 1438100
+		give_job_title=job_marshal
+	}
+	496.1.2 = {
+		death="496.1.2"
+	}
+}
+1438157 = {
+	name="Aemilianus"
+	# AEMI(LI(AN)VS?) 4 	senator (at Rome) ?476/483
+	dynasty=44
+	martial=6
+	diplomacy=8
+	intrigue=8
+	stewardship=6
+	religion = orthodox
+	culture="roman"
+	add_trait="gluttonous"
+	429.1.1 = {
+		birth="429.1.1"
+	}
+	496.1.2 = {
+		death="496.1.2"
+	}
+}
+1438158 = {
+	name="Aemilianus"
+	# MARIVS PROCVLVS AEMILIANVS 7	senator (at Rome) ?476/483. "Aemilianus Marius Proculus"?
+	dynasty=46
+	martial=7
+	diplomacy=9
+	intrigue=8
+	stewardship=6
+	religion = orthodox
+	culture="roman"
+	add_trait="hunchback"
+	add_trait="mystic"
+	add_trait="detatched_priest"
+	429.1.1 = {
+		birth="429.1.1"
+	}
+	496.1.2 = {
+		death="496.1.2"
+	}
+}
+1438205 = {
+	name="Aeneas"
+	# Aeneas 2 CJ VII 37.2a (a law of Zeno).
+	dynasty=44
+	martial=8
+	diplomacy=7
+	intrigue=6
+	stewardship=10
+	religion = orthodox
+	culture="roman"
+	add_trait="just"
+	add_trait="scholar"
+	add_trait="fortune_builder"
+	429.1.1 = {
+		birth="429.1.1"
+	}
+	475.1.9 = {
+		employer = 70515
+		give_job_title=job_treasurer
+	}
+	496.1.2 = {
+		death="496.1.2"
+	}
+}
+1438159 = {
+	name="Agricola"
+	# Agricola 2	vir inlustris (West); (later) cleric	L V/E VI
+	dynasty=47
+	martial=8
+	diplomacy=8
+	intrigue=6
+	stewardship=9
+	religion = orthodox
+	culture="galloroman"
+	father=1438162
+	mother=1438163
+	add_trait="poet"
+	add_trait="martial_cleric"
+	438.1.1 = {
+		birth="438.1.1"
+	}
+	496.1.2 = {
+		death="496.1.2"
+	}
+}
+1438160 = {
+	name="Papianilla"
+	# Papianilla 2 (Sidonius' wife)
+	female = yes
+	dynasty=47
+	martial=5
+	diplomacy=9
+	intrigue=7
+	stewardship=9
+	father=1438162
+	mother=1438163
+	religion = orthodox
+	culture="galloroman"
+	add_trait="greedy"
+	add_trait="midas_touched"
+	437.1.1 = {
+		birth="437.1.1"
+	}
+	496.1.2 = {
+		death="496.1.2"
+	}
+}
+1438161 = {
+	name="Ecdicius"
+	# Ecdicius 3
+	dynasty=47
+	martial=8
+	diplomacy=8
+	intrigue=6
+	stewardship=9
+	religion = orthodox
+	culture="galloroman"
+	father=1438162
+	mother=1438163
+	add_trait="zealous"
+	add_trait="skilled_tactician"
+	435.1.1 = {
+		birth="435.1.1"
+	}
+	482.1.2 = {
+		death="482.1.2"
+	}
+}
+1438162 = {
+	name="Avitus"
+	# WRE Emperor
+	dynasty=47
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="galloroman"
+	385.1.1 = {
+		birth="385.1.1"
+	}
+	415.1.1 = {
+		add_spouse = 1438163
+	}
+	457.1.2 = {
+		death="475.1.2"
+	}
+}
+1438163 = {
+	name="Avita"
+	# fictional wife
+	female = yes
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	392.1.1 = {
+		birth="392.1.1"
+	}
+	460.1.2 = {
+		death="460.1.2"
+	}
+}
+1438164 = {
+	name="Abureius"
+	#ABVREIVS		v.c. (at Rome) ?476/483
+	dynasty=4
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	add_trait="arbitrary"
+	447.1.1 = {
+		birth="447.1.1"
+	}
+	502.1.2 = {
+		death="502.1.2"
+	}
+}
+
+1438165 = {
+	name="Agroecius"
+	#Agroecius 3		author; ?bishop of Sens 470-- possibly Agroecius 2?
+	dynasty=55
+	martial=6
+	diplomacy=9
+	intrigue=6
+	stewardship=7
+	religion = orthodox
+	culture="galloroman"
+	add_trait="greedy"
+	add_trait="gregarious"
+	add_trait="chaste"
+	add_trait="scholar"
+	add_trait="detatched_priest"
+	419.1.1 = {
+		birth="419.1.1"
+	}
+	487.1.2 = {
+		death="487.1.2"
+	}
+}
+1438166 = {
+	name="Faustus"
+	#(?Faustus) Albinus iunior 9	cos. 493; PPO ?500/503; patricius. Possibly called "Faustus Albinus". Of the Decii noble family.
+	dynasty=56
+	martial=5
+	diplomacy=8
+	intrigue=7
+	stewardship=9
+	religion = orthodox
+	culture="roman"
+	father=1438167
+	add_trait="diligent"
+	add_trait="trusting"
+	add_trait="indulgent_wrastrel"
+	451.1.1 = {
+		birth="451.1.1"
+	}
+	510.1.2 = {
+		death="510.1.2"
+	}
+}
+1438167 = {
+	name="Maximus Basilius"
+	#Father of Albinus iunior 9
+	dynasty=56
+	martial=6
+	diplomacy=9
+	intrigue=6
+	stewardship=7
+	religion = orthodox
+	culture="galloroman"
+	add_trait="lustful"
+	add_trait="duellist"
+	add_trait="thrift_clerk"
+	418.1.1 = {
+		birth="418.1.1"
+	}
+	482.1.2 = {
+		death="482.1.2"
+	}
+}
+1438168 = {
+	name="Avienus"
+	#Brother of Albinus iunior 9
+	dynasty=56
+	martial=7
+	diplomacy=6
+	intrigue=5
+	stewardship=10
+	religion = orthodox
+	culture="roman"
+	father=1438167
+	add_trait="honest"
+	add_trait="detatched_priest"
+	447.1.1 = {
+		birth="447.1.1"
+	}
+	499.6.2 = {
+		death="499.6.2"
+	}
+}
+1438169 = {
+	name="Theodorus"
+	#Brother of Albinus iunior 9
+	dynasty=56
+	martial=9
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	father=1438167
+	add_trait="strong"
+	add_trait="zealous"
+	449.1.1 = {
+		birth="449.1.1"
+	}
+	485.1.2 = {
+		death="485.1.2"
+	}
+}
+1438170 = {
+	name="Inportunus"
+	#Brother of Albinus iunior 9
+	dynasty=56
+	martial=9
+	diplomacy=6
+	intrigue=10
+	stewardship=9
+	religion = orthodox
+	culture="roman"
+	father=1438167
+	add_trait="ugly"
+	add_trait="shy"
+	add_trait="envious"
+	450.1.1 = {
+		birth="450.1.1"
+	}
+	502.7.2 = {
+		death="502.7.2"
+	}
+}
+
+1438171 = {
+	name="Marcia"
+	#daughter of Emperor Marcian
+	female=yes
+	dynasty=28
+	martial=5
+	diplomacy=8
+	intrigue=6
+	stewardship=9
+	religion = orthodox
+	culture="greek"
+	father=70518
+	mother=70531
+	add_trait="trusting"
+	430.1.1= {
+		birth="430.1.1"
+	}
+	476.7.2 = {
+		death="476.7.2"
+	}
+}
+
+1438172 = {
+	name="Anthemius"
+	#Emperor Anthemius
+	dynasty=57
+	martial=9
+	diplomacy=7
+	intrigue=5
+	stewardship=7
+	religion = orthodox
+	culture="greek"
+	add_trait="trusting"
+	add_trait="zealous"
+	add_trait="brave"
+	add_trait="misguided_warrior"
+	420.1.1= {
+		birth="420.1.1"
+	}
+	449.1.1={
+		add_spouse=1438171
+	}
+	472.7.11 = {
+		death="472.7.11"
+	}
+}
+1438173 = {
+	name="Alypia"
+	#daughter of Emperor Anthemius
+	female=yes
+	dynasty=57
+	martial=5
+	diplomacy=8
+	intrigue=6
+	stewardship=9
+	religion = orthodox
+	culture="roman"
+	father=1438172
+	mother=1438171
+	add_trait="trusting"
+	450.8.1= {
+		birth="450.8.1"
+	}
+	513.1.2 = {
+		death="513.1.2"
+	}
+}
+1438174 = {
+	name="Anthemiolus"
+	#son of Emperor Anthemius
+	dynasty=57
+	martial=5
+	diplomacy=8
+	intrigue=6
+	stewardship=9
+	religion = orthodox
+	culture="roman"
+	father=1438172
+	mother=1438171
+	add_trait="misguided_warrior"
+	449.10.1= {
+		birth="449.10.1"
+	}
+	471.1.2 = {
+		death="471.1.2"
+	}
+}
+1438175 = {
+	name="Marcianus"
+	#son of Emperor Anthemius
+	dynasty=57
+	martial=5
+	diplomacy=8
+	intrigue=6
+	stewardship=9
+	religion = orthodox
+	culture="greek"
+	father=1438172
+	mother=1438171
+	add_trait="misguided_warrior"
+	452.1.1= {
+		birth="452.1.1"
+	}
+	484.1.1 = {
+		add_claim = "e_byzantium"
+	}
+	485.1.2 = {
+		death="485.1.2"
+	}
+}
+1438176 = {
+	name="Anthemius"
+	#son of Emperor Anthemius
+	dynasty=57
+	martial=7
+	diplomacy=9
+	intrigue=5
+	stewardship=9
+	religion = orthodox
+	culture="greek"
+	father=1438172
+	mother=1438171
+	add_trait="stutter"
+	add_trait="quick"
+	add_trait="naive_appeaser"
+	454.1.1= {
+		birth="454.1.1"
+	}
+	522.1.2 = {
+		death="522.1.2"
+	}
+}
+1438177 = {
+	name="Romulus"
+	#son of Emperor Anthemius
+	dynasty=57
+	martial=8
+	diplomacy=7
+	intrigue=8
+	stewardship=7
+	religion = orthodox
+	culture="greek"
+	father=1438172
+	mother=1438171
+	add_trait="flamboyant_schemer"
+	456.1.1= {
+		birth="456.1.1"
+	}
+	522.1.2 = {
+		death="522.1.2"
+	}
+}
+1438178 = {
+	name="Elaphius"
+	#ELAPHIVS 3	(v.c.) L V. Friend of Sidonius Apollinaris.
+	dynasty=66
+	martial=5
+	diplomacy=7
+	intrigue=6
+	stewardship=7
+	religion = orthodox
+	culture="galloroman"
+	add_trait="charitable"
+	add_trait="greedy"
+	add_trait="humble"
+	add_trait="martial_cleric"
+	429.1.1= {
+		birth="429.1.1"
+	}
+	475.1.1 = {
+		employer = 1428100
+		give_job_title=job_treasurer
+	}
+	496.1.2 = {
+		death="496.1.2"
+	}
+}
+1438179 = {
+	name="Lectorius"
+	#LECTORIVS		governor of Baleares; comes  E V
+	dynasty=68 #No idea what the actual family name was
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=7
+	religion="jewish"
+	culture="hispanoroman"
+	add_trait="content"
+	add_trait="cynical"
+	add_trait="elusive_shadow"
+	431.1.1= {
+		birth="431.1.1"
+	}
+	493.1.2 = {
+		death="493.1.2"
+	}
+}
+1438180 = {
+	name="Arthemisia"
+	female=yes
+	dynasty=68 #No idea what the actual family name was
+	religion="jewish"
+	culture="hispanoroman"
+	father=1438179
+	462.1.1= {
+		birth="462.1.1"
+	}
+	479.1.1={
+		religion=hispanoroman
+	}
+	528.1.2 = {
+		death="528.1.2"
+	}
+}
+1438181 = {
+	name="Callinicus"
+	#grandfather of Severianus 2. Roman family with roots in Alexandrian, hence the "Alexandriensis" dynasty.
+	dynasty=75
+	religion = orthodox
+	culture="roman"
+	372.1.1= {
+		birth="372.1.1"
+	}
+	440.1.2 = {
+		death="440.1.2"
+	}
+}
+1438182 = {
+	name="Auxentius"
+	dynasty=75
+	religion = orthodox
+	culture="roman"
+	father=1438181
+	399.1.1= {
+		birth="399.1.1"
+	}
+	445.1.2 = {
+		death="445.1.2"
+	}
+}
+1438183 = {
+	name="Severianus"
+	#SEVERIANVS 2	?provincial governor (east)	?453/466
+	dynasty=68 #
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	father=1438182
+	add_trait="cruel"
+	add_trait="ambitious"
+	add_trait="charitable"
+	add_trait="falconer"
+	add_trait="fortune_builder"
+	427.1.1= {
+		birth="427.1.1"
+	}
+	#florit 453-466
+	488.1.2 = {
+		death="488.1.2"
+	}
+}
+
+1438184 = {
+	name="Opilio"
+	#Opilio 2		in Spain 467
+	dynasty=77 #envoy from the Aunonenses
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	religion = orthodox
+	culture="roman"
+	add_trait="cruel"
+	add_trait="ambitious"
+	add_trait="charitable"
+	add_trait="falconer"
+	add_trait="fortune_builder"
+	427.1.1= {
+		birth="427.1.1"
+	}
+	#florit 453-466
+	488.1.2 = {
+		death="488.1.2"
+	}
+}
+
+1438185 = {
+	name="Opilio"
+	#Opilio 3	CSL (in Italy) 476/490 under Odovacer, died before 524.
+	#Dunno his dynasty, not going to bother making one up.
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="hispanoroman"
+	add_trait="greedy"
+	add_trait="gardener"
+	add_trait="fortune_builder"
+	442.1.1= {
+		birth="442.1.1"
+	}
+	475.1.1 = {
+		employer = 1438108
+		give_job_title=job_treasurer
+	}
+	523.1.2 = {
+		death="523.1.2"
+	}
+}
+
+1438186 = {
+	name="Leo"
+	#Leo 5	v.s.p. 460/468; consiliarius of Euric and Alaric 475/484
+	dynasty = 78 #descendant of Fronto, so... "Frontulus"? That means "little Fronto", right?
+	martial=4
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="galloroman"
+	add_trait="gregarious"
+	add_trait="scholar"
+	add_trait="cynical" #"went blind after removing the upper part of the basilica of St. Felix at Narbo"
+	add_trait="grey_eminence"
+	442.1.1= {
+		birth="442.1.1"
+	}
+	475.1.1 = {
+		employer = 1428100
+		give_job_title=job_chancellor
+	}
+	523.1.2 = {
+		death="523.1.2"
+	}
+}
+
+
+1438187 = {
+	name="Claudius"
+	#Claudius 2
+	dynasty = 81 #Fulgentius 2, born at Thelepte in Byzacium
+	religion = orthodox
+	culture="roman"
+	420.1.1= {
+		birth="420.1.1"
+	}
+	458.1.1 = {
+		add_spouse = 1438188
+	}
+	469.1.2 = {
+		death="469.1.2"
+	}
+}
+
+1438188 = {
+	name="Mariana"
+	dynasty = 81
+	female = yes
+	martial=3
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	add_trait="kind"
+	add_trait="temperate"
+	add_trait="detatched_priest"
+	441.1.1= {
+		birth="441.1.1"
+	}
+	501.1.2 = {
+		death="501.1.2" #No idea when she died.
+	}
+}
+
+1438189 = {
+	name="Fulgentius"
+	#Fulgentius 2
+	dynasty = 81 #Fulgentius 2, born at Thelepte in Byzacium
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	mother = 1438188
+	father = 1438187
+	add_trait="diligent"
+	add_trait="greedy"
+	add_trait="zealous"
+	add_trait="martial_cleric"
+	467.1.1= {
+		birth="467.1.1"
+	}
+	532.1.2 = {
+		death="532.1.2"
+	}
+}
+
+1438190 = {
+	name="Burdunelus"
+	dynasty = 83
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion = orthodox
+	culture="hispanoroman"
+	add_trait="ambitious"
+	add_trait="wroth"
+	add_trait="proud"
+	add_trait="midguided_warrior"
+	442.1.1= {
+		birth="442.1.1"
+	}
+	497.1.2 = {
+		death="497.1.2"
+	}
+}
+
+1438191 = {
+	name="Boethius"
+	#BOETHIVS 2		praefectus (augustalis) 475/476 -- I'm going with the assumption he's also Boethius 4 of the PLRE
+	dynasty=84 # If Boethius 2 is also Boethius 4, then his full name is Fl. Nar. Manlius Boethius. Dunno what the "Nar." means, going with the "Narius" hypothesis
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	religion="monophysite"
+	culture="roman"
+	add_trait="cynical"
+	430.1.2={
+		birth="430.1.2"
+	}
+	490.3.20={
+		death="490.3.20"
+	}
+}
+
+1438192 = {
+	name="Theodotus"
+	#Theodotus 8 -- Theodotus Octavo, get it
+	dynasty=95 # 
+	religion = orthodox
+	culture="roman"
+	427.1.2={
+		birth="427.1.2"
+	}
+	483.1.2={
+		death="483.1.2"
+	}
+}
+
+1438193 = {
+	name="Cassiodorus"
+	#Cassiodorus 3, father of Cassiodorus 4, Fl. Magnus Aurelius Cassiodorus Senator. Senator was Cassiodorus 4's surname, and so I assume it was likewise for Cassiodorus 3.
+	dynasty=107 #Senator
+	religion = orthodox
+	culture="roman"
+	438.1.2={
+		birth="438.1.2"
+	}
+	517.1.2={
+		death="517.1.2"
+	}
+}
+
+1438194 = {
+	name="Therasius"
+	#THERASIVS	governor of Augustamnica E/M V
+	dynasty=108
+	religion="arian"
+	culture="roman"
+
+	412.1.2={
+		birth="412.1.2"
+	}
+	479.1.2={
+		death="479.1.2"
+	}
+}
+
+1438195 = {
+	name="Rogatianus Petronius"
+	#Rogatianus	459 April 17
+	dynasty=117
+	religion = orthodox
+	culture="roman"
+	428.1.2={
+		birth="428.1.2"
+	}
+	487.1.2={
+		death="487.1.2"
+	}
+}
+
+1438200 = {
+	name="Augustus"
+	dynasty=109
+	religion="hellenic_pagan"
+	culture="roman"
+	1.1.2={
+		birth="1.1.2"
+	}
+	14.8.19={
+		death="14.8.19"
+	}
+}
+
+1438201 = {
+	name="Tiberius"
+	dynasty=109
+	religion="hellenic_pagan"
+	culture="roman"
+	1.1.2={
+		birth="1.1.2"
+	}
+	37.3.16={
+		death="37.3.16"
+	}
+}
+
+1438202 = {
+	name="Caligula"
+	dynasty=109
+	religion="hellenic_pagan"
+	culture="roman"
+	12.8.31={
+		birth="12.8.31"
+	}
+	41.1.24={
+		death="41.1.24"
+	}
+}
+
+1438203 = {
+	name="Claudius"
+	dynasty=109
+	religion="hellenic_pagan"
+	culture="roman"
+	1.1.2={
+		birth="1.1.2"
+	}
+	54.10.13={
+		death="54.10.13"
+	}
+}
+
+1438204 = {
+	name="Nero"
+	dynasty=109
+	religion="hellenic_pagan"
+	culture="roman"
+	37.12.15={
+		birth="37.12.15"
+	}
+	68.10.13={
+		death="68.10.13"
+	}
+}
+
+1438206 = {
+	name="Tullianus"
+	dynasty=161
+	religion = orthodox
+	culture="roman"
+	430.1.1={
+		birth="430.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+
+1438207 = {
+	name="Galba"
+	dynasty=8648 #Augustus
+	religion="hellenic_pagan"
+	culture="roman"
+	1.1.1={
+		birth="1.1.1"
+	}
+	69.1.15={
+		death="69.1.15"
+	}
+}
+
+1438208 = {
+	name="Otho"
+	dynasty=8648 #Augustus
+	religion="hellenic_pagan"
+	culture="roman"
+	32.4.28={
+		birth="32.4.28"
+	}
+	69.4.16={
+		death="69.4.16"
+	}
+}
+
+1438209 = {
+	name="Vitellius"
+	dynasty=8648 #Augustus
+	religion="hellenic_pagan"
+	culture="roman"
+	15.9.24={
+		birth="15.9.24"
+	}
+	69.12.20={
+		death="69.12.20"
+	}
+}
+
+14382110 = {
+	name="Vespasianus"
+	dynasty=110
+	religion="hellenic_pagan"
+	culture="roman"
+	9.11.17={
+		birth="9.11.17"
+	}
+	79.6.24={
+		death="79.6.24"
+	}
+}
+
+14382111 = {
+	name="Titus"
+	dynasty=110
+	religion="hellenic_pagan"
+	culture="roman"
+	father=14382110
+	39.12.30={
+		birth="39.12.30"
+	}
+	81.9.13={
+		death="81.9.13"
+	}
+}
+
+14382112 = {
+	name="Domitianus"
+	father=14382110
+	dynasty=110
+	religion="hellenic_pagan"
+	culture="roman"
+	51.10.24={
+		birth="51.10.24"
+	}
+	96.9.18={
+		death="96.9.18"
+	}
+}
+
+14382113 = {
+	name="Nerva"
+	dynasty=8648 #Augustus
+	religion="hellenic_pagan"
+	culture="roman"
+	30.11.8={
+		birth="30.11.8"
+	}
+	98.1.27={
+		death="98.1.27"
+	}
+}
+
+14382114 = {
+	name="Traianus"
+	dynasty=8648 #Augustus
+	religion="hellenic_pagan"
+	culture="hispanoroman"
+	53.9.18={
+		birth="53.9.18"
+	}
+	117.8.7={
+		death="117.8.7"
+	}
+}
+
+14382115 = {
+	name="Hadrianus"
+	dynasty=8648 #Augustus
+	religion="hellenic_pagan"
+	culture="hispanoroman"
+	76.1.24={
+		birth="76.1.24"
+	}
+	138.7.10={
+		death="138.7.10"
+	}
+}
+
+14382116 = {
+	name="Antoninus"
+	dynasty=8648 #Augustus
+	religion="hellenic_pagan"
+	culture="roman"
+	86.9.19={
+		birth="86.9.19"
+	}
+	161.3.7={
+		death="161.3.7"
+	}
+}
+
+14382117 = {
+	name="Lucius Verus"
+	dynasty=179 # Aurelius
+	religion="hellenic_pagan"
+	culture="roman"
+	130.12.15={
+		birth="130.12.15"
+	}
+	169.3.1={
+		death="169.3.1"
+	}
+}
+
+14382118 = {
+	name="Marcus Aurelius"
+	dynasty=179 # Aurelius
+	religion="hellenic_pagan"
+	culture="roman"
+	121.4.26={
+		birth="121.4.26"
+	}
+	180.3.17={
+		death="180.3.17"
+	}
+}
+
+14382119 = {
+	name="Commodus"
+	father=14382118
+	dynasty=179 # Aurelius
+	religion="hellenic_pagan"
+	culture="roman"
+	161.8.31={
+		birth="161.8.31"
+	}
+	192.12.31={
+		death="192.12.31"
+	}
+}
+
+14382120 = {
+	name="Honorius"
+	dynasty=112
+	religion = orthodox
+	culture="roman"
+	384.9.9={
+		birth="384.9.9"
+	}
+	423.8.15={
+		death="423.8.15"
+	}
+}
+
+14382121 = {
+	name="Constantius"
+	dynasty=8648
+	religion = orthodox
+	culture="roman"
+	370.1.1={
+		birth="370.1.1"
+	}
+	421.9.2={
+		death="421.9.2"
+	}
+}
+
+14382122 = {
+	name="Iohannes"
+	dynasty=8648
+	religion = orthodox
+	culture="roman"
+	380.1.1={
+		birth="380.1.1"
+	}
+	425.7.1={
+		death="425.7.1"
+	}
+}
+
+14382123 = {
+	name="Valentinianus"
+	dynasty=112
+	religion = orthodox
+	culture="roman"
+	419.7.2={
+		birth="419.7.2"
+	}
+	455.4.16={
+		death="455.4.16"
+	}
+}
+
+14382124 = {
+	name="Pertinax"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	126.8.1={
+		birth="126.8.1"
+	}
+	193.3.28={
+		death="193.3.28"
+	}
+}
+
+14382125 = {
+	name="Didius Julianus"
+	dynasty=111
+	religion="hellenic_pagan"
+	culture="roman"
+	133.1.1={
+		birth="133.1.1"
+	}
+	193.6.1={
+		death="193.6.1"
+	}
+}
+
+14382126 = {
+	name="Septimius"
+	dynasty=111
+	religion="hellenic_pagan"
+	culture="roman"
+	145.4.11={
+		birth="145.4.11"
+	}
+	211.2.4={
+		death="211.2.4"
+	}
+}
+
+14382127 = {
+	name="Caracalla"
+	dynasty=111
+	religion="hellenic_pagan"
+	culture="roman"
+	188.4.4={
+		birth="188.4.4"
+	}
+	217.4.8={
+		death="217.4.8"
+	}
+}
+
+14382128 = {
+	name="Geta"
+	dynasty=111
+	religion="hellenic_pagan"
+	culture="roman"
+	189.3.7={
+		birth="189.3.7"
+	}
+	211.12.26={
+		death="211.12.26"
+	}
+}
+
+14382129 = {
+	name="Macrinus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	165.1.1={
+		birth="165.1.1"
+	}
+	218.6.18={
+		death="218.6.18"
+	}
+}
+
+14382130 = {
+	name="Elagabalus"
+	dynasty=111
+	religion="hellenic_pagan"
+	culture="roman"
+	203.1.1={
+		birth="203.1.1"
+	}
+	222.4.11={
+		death="222.4.11"
+	}
+}
+
+14382131 = {
+	name="Severus Alexander"
+	dynasty=111
+	religion="hellenic_pagan"
+	culture="roman"
+	208.10.1={
+		birth="208.10.1"
+	}
+	235.3.18={
+		death="235.3.18"
+	}
+}
+
+14382132 = {
+	name="Maximinus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	173.1.1={
+		birth="173.1.1"
+	}
+	238.4.1={
+		death="238.4.1"
+	}
+}
+
+14382133 = {
+	name="Gordianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	159.1.1={
+		birth="159.1.1"
+	}
+	238.4.12={
+		death="238.4.12"
+	}
+}
+
+14382134 = {
+	name="Gordianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	father=14382133
+	192.1.1={
+		birth="192.1.1"
+	}
+	238.4.12={
+		death="238.4.12"
+	}
+}
+
+14382135 = {
+	name="Pupienus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	178.1.1={
+		birth="178.1.1"
+	}
+	238.7.29={
+		death="238.7.29"
+	}
+}
+
+14382136 = {
+	name="Balbinus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	187.1.1={
+		birth="187.1.1"
+	}
+	238.7.29={
+		death="238.7.29"
+	}
+}
+
+14382137 = {
+	name="Gordianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	225.1.20={
+		birth="225.1.20"
+	}
+	244.2.11={
+		death="244.2.11"
+	}
+}
+
+14382138 = {
+	name="Traianus Decius"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	201.1.1={
+		birth="201.1.1"
+	}
+	251.6.1={
+		death="251.6.1"
+	}
+}
+
+14382139 = {
+	name="Herennius Etruscus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	father=14382138
+	221.1.1={
+		birth="221.1.1"
+	}
+	251.6.1={
+		death="251.6.1"
+	}
+}
+14382140 = {
+	name="Hostilianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	father=14382138
+	222.1.1={
+		birth="222.1.1"
+	}
+	251.9.1={
+		death="251.9.1"
+	}
+}
+14382141 = {
+	name="Trebonianus Gallus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	206.1.1={
+		birth="206.1.1"
+	}
+	253.8.1={
+		death="253.8.1"
+	}
+}
+14382142 = {
+	name="Volusianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	father=14382141
+	224.1.1={
+		birth="224.1.1"
+	}
+	253.8.1={
+		death="253.8.1"
+	}
+}
+14382143 = {
+	name="Aemilianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	207.1.1={
+		birth="207.1.1"
+	}
+	253.10.1={
+		death="253.10.1"
+	}
+}
+14382144 = {
+	name="Valerianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	195.1.1={
+		birth="195.1.1"
+	}
+	260.3.1={
+		death="260.3.1"
+	}
+}
+14382145 = {
+	name="Gallienus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	father=14382144
+	218.1.1={
+		birth="218.1.1"
+	}
+	268.9.1={
+		death="268.9.1"
+	}
+}
+14382146 = {
+	name="Saloninus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	father=14382145
+	242.1.1={
+		birth="242.1.1"
+	}
+	260.7.31={
+		death="260.7.31"
+	}
+}
+14382147 = {
+	name="Claudius Gothicus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	213.5.10={
+		birth="213.5.10"
+	}
+	270.1.1={
+		death="270.1.1"
+	}
+}
+14382148 = {
+	name="Quintillus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	211.1.1={
+		birth="211.1.1"
+	}
+	270.9.1={
+		death="270.9.1"
+	}
+}
+14382149 = {
+	name="Aurelianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	214.9.9={
+		birth="214.9.9"
+	}
+	275.9.25={
+		death="275.9.25"
+	}
+}
+14382150 = {
+	name="Tacitus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	200.1.1={
+		birth="200.1.1"
+	}
+	276.6.1={
+		death="276.6.1"
+	}
+}
+14382151 = {
+	name="Florianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	205.1.1={
+		birth="205.1.1"
+	}
+	276.9.1={
+		death="276.9.1"
+	}
+}
+
+14382152 = {
+	name="Probus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	232.1.1={
+		birth="232.1.1"
+	}
+	282.9.1={
+		death="282.9.1"
+	}
+}
+
+14382153 = {
+	name="Carus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="galloroman"
+	230.1.1={
+		birth="230.1.1"
+	}
+	283.8.1={
+		death="283.8.1"
+	}
+}
+
+14382154 = {
+	name="Numerianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="galloroman"
+	father=14382153
+	250.1.1={
+		birth="250.1.1"
+	}
+	284.1.1={
+		death="284.1.1"
+	}
+}
+
+14382155 = {
+	name="Carinus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="galloroman"
+	father=14382153
+	251.1.1={
+		birth="251.1.1"
+	}
+	284.1.1={
+		death="284.1.1"
+	}
+}
+
+14382156 = {
+	name="Diocletianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	244.12.22={
+		birth="244.12.22"
+	}
+	311.12.3={
+		death="311.12.3"
+	}
+}
+14382157 = {
+	name="Maximianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	250.1.1={
+		birth="250.1.1"
+	}
+	310.1.1={
+		death="310.1.1"
+	}
+}
+
+#Constantius I Chlorus - greek.txt, 70524
+
+14382158 = {
+	name="Galerius"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	260.1.1={
+		birth="260.1.1"
+	}
+	311.1.1={
+		death="311.1.1"
+	}
+}
+
+14382159 = {
+	name="Severus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	260.1.1={
+		birth="260.1.1"
+	}
+	307.9.16={
+		death="307.9.16"
+	}
+}
+14382160 = {
+	name="Maxentius"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	278.1.1={
+		birth="278.1.1"
+	}
+	312.10.28={
+		death="312.10.28"
+	}
+}
+
+14382161 = {
+	name="Vetranio"
+	dynasty=8648
+	religion = orthodox
+	culture="roman"
+	300.1.1={
+		birth="300.1.1"
+	}
+	356.1.1={
+		death="356.1.1"
+	}
+}
+
+14382162 = {
+	name="Julianus"
+	dynasty=8648
+	religion="hellenic_pagan"
+	culture="roman"
+	331.1.1={
+		birth="331.1.1"
+	}
+	363.6.26={
+		death="363.6.26"
+	}
+}
+
+14382163 = {
+	name="Jovianus"
+	dynasty=8648
+	religion = orthodox
+	culture="roman"
+	331.1.1={
+		birth="331.1.1"
+	}
+	364.2.17={
+		death="364.2.17"
+	}
+}
+
+14382164 = {
+	name="Valentinianus"
+	dynasty=8648
+	religion = orthodox
+	culture="roman"
+	321.1.1={
+		birth="321.1.1"
+	}
+	375.11.17={
+		death="375.11.17"
+	}
+}
+14382165 = {
+	name="Valens"
+	dynasty=8648
+	religion="arian"
+	culture="roman"
+	328.1.1={
+		birth="328.1.1"
+	}
+	378.8.9={
+		death="378.8.9"
+	}
+}
+14382166 = {
+	name="Gratianus"
+	dynasty=8648
+	religion = orthodox
+	culture="roman"
+	father=14382164
+	359.4.18={
+		birth="359.4.18"
+	}
+	383.8.25={
+		death="383.8.25"
+	}
+}
+14382174 = {
+	name="Valentinianus"
+	dynasty=8648
+	religion = orthodox
+	culture="roman"
+	father=14382164
+	371.1.1={
+		birth="371.1.1"
+	}
+	392.5.15={
+		death="392.5.15"
+	}
+}
+14382167 = {
+	name="Floridus"
+	dynasty=1027049
+	religion = orthodox
+	culture="roman"
+	442.1.1={
+		birth="442.1.1"
+	}
+	495.1.1={
+		death="495.1.1"
+	}
+}
+14382168 = {
+	name="Julianus"
+	dynasty=1027052 
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	religion = orthodox
+	culture="roman"
+	451.1.1={
+		birth="451.1.1"
+	}
+	510.1.1={
+		death="510.1.1"
+	}
+}
+14382169 = {
+	name="Parecorius"
+	dynasty=1027046
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	religion = orthodox
+	culture="roman"
+	446.1.1={
+		birth="446.1.1"
+	}
+	498.1.1={
+		death="498.1.1"
+	}
+}
+14382170 = {
+	name="Deodatus"
+	dynasty=1027051
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	religion = orthodox
+	culture="roman"
+	429.1.1={
+		birth="429.1.1"
+	}
+	489.1.1={
+		death="489.1.1"
+	}
+}
+14382171 = {
+	name="Julianus"
+	dynasty=1027052
+	religion = orthodox
+	culture="roman"
+	441.1.1={
+		birth="441.1.1"
+	}
+	499.1.1={
+		death="499.1.1"
+	}
+}
+14382172 = {
+	name="Gaudentius"
+	dynasty=1027052
+	religion = orthodox
+	culture="roman"
+	447.1.1={
+		birth="447.1.1"
+	}
+	512.1.1={
+		death="512.1.1"
+	}
+}
+14382173 = {
+	name="Aemilius"
+	dynasty=1027054
+	martial=5
+	diplomacy=4
+	intrigue=5
+	stewardship=7
+	religion = orthodox
+	culture="roman"
+	439.1.1={
+		birth="439.1.1"
+	}
+	496.1.1={
+		death="496.1.1"
+	}
+}
+
+
+

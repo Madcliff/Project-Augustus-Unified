@@ -18,7 +18,13 @@ b_mahalkufa = city
 #Misc
 culture = persian
 religion = zurvanite
+632.1.1 = {
+	culture = parthian
+}
 
+700.1.1 = {
+	culture = persian
+}
 # History
 
 800.1.1 = { religion = sunni }

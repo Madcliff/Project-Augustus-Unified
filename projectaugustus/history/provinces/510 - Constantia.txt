@@ -19,7 +19,7 @@ b_adamclisi = temple
 
 # Misc
 culture = ostrogothic
-religion = tengri_pagan
+religion = chalcendonian
 
 # History
 830.1.1= { culture = bulgarian }

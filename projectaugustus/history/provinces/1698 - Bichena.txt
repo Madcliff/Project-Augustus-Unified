@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_bichena
+# Settlements
+max_settlements = 4
+b_bichena = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

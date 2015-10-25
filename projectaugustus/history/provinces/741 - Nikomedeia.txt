@@ -17,7 +17,7 @@ b_doris = temple
 b_malagina = castle
 
 # Misc
-culture = greek
+culture = demotic
 religion = orthodox
 
 # History

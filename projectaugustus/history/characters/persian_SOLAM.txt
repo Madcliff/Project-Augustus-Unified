@@ -1,0 +1,313 @@
+###More New Persian Characters###
+
+###Ahistorical Characters noted###
+1000151006 = {
+	name="Adhur" #Military Governor (Marzpan) of Sassanid Armenia from 465-481
+	dynasty=1000058008
+	religion="zoroastrian"
+	culture="persian"
+	420.1.1={
+		birth="420.1.1" #arbitrary date
+	}
+	481.1.1={
+		death="481.1.1" #end of reign
+	}
+}
+1000151007 = {
+	name="Zarmihr Sokhra" #nobleman who raised Balash to the throne after death of Peroz I. 
+	dynasty=7511 
+	religion="zoroastrian"
+	culture="persian"
+	430.1.1={
+		birth="430.1.1" #arbitrary dates
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+
+1000151008 = {
+	name="Bakhtiar" #Ahistorical, house of Suren
+	dynasty=1000058002
+	religion="zoroastrian"
+	culture="persian"
+	440.1.1={
+		birth="440.1.1" #arbitrary dates
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+
+1000151009 = {
+	name="Kartir" #placeholder for Moabadan-Moabad
+	dynasty=1000058010
+	religion="zoroastrian"
+	culture="persian"
+	459.1.1={
+		birth="459.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+1000151010 = {
+	name="Artabanus" #Ahistorical, House of Parni
+	dynasty=1000058000
+	religion="zoroastrian"
+	culture="persian"
+	443.1.1={
+		birth="443.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+1000151011 = {
+	name="Zahak" #Ahistorical, House of Aspahbadh
+	dynasty=1000058003
+	religion="zoroastrian"
+	culture="persian"
+	438.1.1={
+		birth="438.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+1000151012 = {
+	name="Mihran" #Historical, House of Mihran. Governor arbitrary?
+	dynasty=1000058001
+	religion="zoroastrian"
+	culture="persian"
+	438.1.1={
+		birth="438.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+1000151013 = {
+	name="Hazaravougd" #General who invaded Armenia in 483 AD
+	dynasty=1000058011
+	religion="zoroastrian"
+	culture="persian"
+	440.1.1={
+		birth="440.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+1000151014 = {
+	name="Reza" #Ahistorical, House of Dahae
+	dynasty=1000058004
+	religion="zoroastrian"
+	culture="persian"
+	460.1.1={
+		birth="460.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+1000151015 = {
+	name="Mihr-Narseh" #Governor of Armenia at some point between 438-457.
+	dynasty=1000058013
+	religion="zoroastrian" #zurvanite heresy?
+	culture="persian"
+	diplomacy = 20 #Chancellor in 476 AD.
+	400.1.1={
+		birth="400.1.1"
+	}
+	480.1.1={
+		death="480.1.1"
+	}
+}
+
+1000151017 = {
+	name="Shabuhr" #nobleman who raised Balash to the throne after death of Peroz I. 
+	dynasty=1000058001
+	religion="zoroastrian"
+	culture="persian"
+	430.1.1={
+		birth="430.1.1" #arbitrary dates
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+
+1000151018 = {
+	name="Gushnaspdad"
+	# AKA: Gousanastades
+	dynasty=142
+	martial=7
+	diplomacy=5
+	intrigue=3
+	stewardship=6
+	religion="zoroastrian"
+	culture="persian"
+	add_trait="thrifty_clerk"
+	441.1.1={
+		birth="441.1.1"
+	}
+	513.1.1={
+		death="513.1.1"
+	}
+}
+
+1000151019 = {
+	name="Adhurgunbadh"
+	# AKA: Adergoudounbades
+	dynasty=143
+	martial=9
+	diplomacy=2
+	intrigue=6
+	stewardship=5
+	religion="zoroastrian"
+	culture="persian"
+	add_trait="skilled_tactician"
+	452.1.1={
+		birth="452.1.1"
+	}
+	530.1.1={
+		death="530.1.1"
+	}
+}
+
+1000151023 = {
+	name="Khush-Newaz" #Hepthalite Monarch in 476. Some sources refer as Khingala instead.
+	dynasty = 1000124569
+	religion = vanuhism 
+	martial=11
+	diplomacy=4
+	intrigue=2
+	stewardship=8
+	culture="bactrian"
+	add_trait="skilled_tactician"
+	add_trait="gregarious"
+	430.1.1={
+		birth="430.1.1"
+	}
+	476.1.1 = {
+		effect = {
+			wealth = 200
+			spawn_unit = {
+				province = 904 #Balkh
+				owner = 1000151023
+				leader = ROOT
+				troops =
+				{
+					horse_archers = { 8500 8500 }
+					light_cavalry = { 3666 3666 }
+					light_infantry = { 1555 1555 }
+					heavy_infantry = { 477 477 }
+					knights = { 250 250 }
+				}
+			}
+		}
+	}
+	490.1.1={
+		death="490.1.1"
+		}
+	
+}
+
+1000151024 = {
+	name="Toramana"
+	father=1000151023
+	dynasty=1000058012
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="tengri_pagan"
+	culture="huna"
+	add_trait="strong"
+	add_trait="elusive_shadow"
+	446.1.2={
+		birth="446.1.2"
+	}
+	515.1.2={
+		death="515.1.2"
+	}
+}
+
+1000151025 = {
+	name="Syavash" #independent ruler of Khiva
+	dynasty=1000058017
+	religion="zoroastrian"
+	culture="persian"
+	430.1.1={
+		birth="430.1.1" #arbitrary dates
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+1000151026 = {
+	name="Babowai" #Patriarch of the East
+	religion="nestorian"
+	culture="persian"
+	430.1.1={
+		birth="430.1.1" #arbitrary dates
+	}
+	484.1.1={
+		death="484.1.1"
+	}
+}
+1000151027 = {
+	name="Barsauma" #Rival of Patriarch of the East
+	religion="nestorian"
+	culture="persian"
+	430.1.1={
+		birth="430.1.1" #arbitrary dates
+	}
+	484.1.1={
+		death="484.1.1"
+	}
+}
+1000151028 = {
+	name="Kavadh" #Ahistorical name
+	dynasty=1000058013
+	religion="zoroastrian"
+	culture="persian"
+	430.1.1={
+		birth="430.1.1" #arbitrary dates
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}
+1000151030 = {
+	name="Mihirakula"
+	father=1000151024
+	dynasty=1000058012
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="tengri_pagan"
+	culture="huna"
+	add_trait="strong"
+	add_trait="elusive_shadow"
+	470.1.1={
+		birth="470.1.1"
+	}
+	528.1.2={
+		death="528.1.2"
+	}
+}
+1000151031 = {
+	name="Yazdegerd" #Ahistorical, House of Aspahbadh
+	dynasty=1000058003
+	religion="zoroastrian"
+	culture="persian"
+	438.1.1={
+		birth="438.1.1"
+	}
+	512.1.1={
+		death="512.1.1"
+	}
+}

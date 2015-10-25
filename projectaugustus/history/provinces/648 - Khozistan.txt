@@ -15,7 +15,7 @@ b_dora = castle
 #b_shadegan = castle
 #b_khorramshahr = castle
 
-culture = mandaic
+culture = mandaeic
 religion = mandean 
 
 # History

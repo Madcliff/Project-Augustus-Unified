@@ -1,0 +1,281 @@
+#Israel Caste Traits by ThePatriot1776
+
+levi = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		yudah
+		manasseh
+		ephraim
+		dan
+		reuven
+		simeon
+		naphatali
+		gad
+		asher
+		issachar
+		zebulun
+		joseph
+		binyamin
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 3
+
+	monthly_character_piety = 0.1
+	
+	liege_opinion = 10
+	church_opinion = 10
+	dynasty_opinion = 10
+	muslim_opinion = -30
+	christian_opinion = -30
+
+}
+
+davidic_line = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		levi
+		binyamin
+		manasseh
+		ephraim
+		dan
+		reuven
+		simeon
+		naphatali
+		gad
+		asher
+		issachar
+		zebulun
+		joseph
+	}
+	
+	agnatic = yes
+
+	caste_tier = 2
+
+	monthly_character_prestige = 0.1
+
+
+}
+
+binyamin = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		levi
+		davidic_line
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+	customizer = yes
+	random = yes
+}
+
+yudah = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		levi
+		binyamin
+		manasseh
+		ephraim
+		dan
+		reuven
+		simeon
+		naphatali
+		gad
+		asher
+		issachar
+		zebulun
+		joseph
+	}
+
+	agnatic = yes
+	
+	caste_tier = 2
+
+	monthly_character_prestige = 0.1
+	
+
+}
+
+manasseh = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+
+	
+}
+
+efrayim = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+	customizer = yes
+	random = yes
+}
+
+dan = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+}
+
+reuven = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+
+}
+
+simeon = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+
+}
+
+naphatali = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+
+}
+
+gad = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+
+}
+
+asher = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+
+}
+
+issachar = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+
+}
+
+zevulun = {	
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+
+}
+
+joseph = {
+	potential = { religion_group = jewish_group }
+	opposites = {
+		davidic_line
+		levi
+	}
+	
+	agnatic = yes
+	
+	caste_tier = 1
+	
+	monthly_character_wealth = 0.03
+	
+
+}

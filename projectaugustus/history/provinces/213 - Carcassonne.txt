@@ -17,7 +17,7 @@ b_alet = temple
 
 #Misc
 religion = catholic
-culture = hispanic
+culture = iberian
 
 # History
 867.1.1 = { culture = occitan }

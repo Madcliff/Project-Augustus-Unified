@@ -1,0 +1,16 @@
+10051991 = {
+	name="Víkar"
+	dynasty=262
+	martial=6
+	diplomacy=7
+	intrigue=4
+	stewardship=4
+	religion="norse_pagan"
+	culture="norse"
+	435.1.2={
+		birth="435.1.2"
+	}
+	500.1.7={
+		death="500.1.7"
+	}
+}

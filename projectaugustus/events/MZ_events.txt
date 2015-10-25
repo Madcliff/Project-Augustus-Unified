@@ -1,0 +1,1079 @@
+##################Zoroastrian events by Maestro Ugo
+#########Random events
+#########Navjote ceremony
+
+namespace = ZOR
+
+#####Help in fighting the local bandits
+character_event = {
+	id = 1000094001
+	title = "EVTNAME1000094001"
+	desc = "EVTDESC1000094001"
+	picture = "GFX_evt_bandits"
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	
+	trigger = {
+		war = no
+		is_ill = no
+		religion_group = zoroastrian_group
+		any_demesne_province = {
+			OR = {
+				has_province_modifier = highway_robber_band
+				has_province_modifier = smugglers_ring
+				has_province_modifier = thieves_guild
+				revolt_risk = 3
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 36
+		
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		
+		modifier = {
+			factor = 0.6
+			owner = { realm_learning = 30 }
+		}
+	}
+	option = {
+		name = "EVTOPTA1000094001"
+		wealth = -30
+		piety = 50
+		random_list = {
+			85 = {}
+			15 = {
+				add_trait = wounded
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB1000094001"
+		wealth = -50
+		prestige = 20
+	}
+	option = {
+		name = "EVTOPTC1000094001"
+		prestige = -10
+		piety = -10
+	}
+}
+
+#####Rebuild a local mosque?
+character_event = {
+	id = 1000094002
+	title = "EVTNAME1000094002"
+	desc = "EVTDESC1000094002"
+	picture = "GFX_evt_burning_house_muslim"
+	
+	trigger = {
+		religion_group = zoroastrian_group
+		any_demesne_province = {
+			religion_group = muslim
+		}
+	}
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.8
+			trait = kind
+		}
+		
+		modifier = {
+			factor = 0.7
+			trait = charitable
+		}
+	}
+	option = {
+		name = "EVTOPTA1000094002"
+		wealth = -75
+		piety = 20
+		add_character_modifier = {
+			name = zoroastrian_tolerance
+			duration = 365
+			}
+	}
+	option = {
+		name = "EVTOPTB1000094002"
+		random_list = {
+			80 = {}
+			20 = {
+				add_trait = cruel
+			}
+		}
+	}
+}
+
+#####Sedreh Pushi ritual - child's event
+character_event = {
+	id = 1000094003
+	title = "EVTNAME1000094003"
+	desc = "EVTDESC1000094003"
+	picture = "GFX_evt_child_bully"
+	
+	is_triggered_only = yes
+	
+	min_age = 6
+	max_age = 16
+
+	trigger = {
+		religion_group = zoroastrian_group
+		father = { is_alive = yes }
+		NOT = {
+				has_character_flag = had_sedreh_pushi
+			}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA1000094003"	
+		set_character_flag = had_sedreh_pushi
+		hidden_tooltip = {
+			father = {
+				character_event = {
+					id = 1000094004
+					days = 3
+				}
+			}
+		}
+	}
+}
+#####Sedreh Pushi ritual - fathher's event
+character_event = {
+	id = 1000094004
+	title = "EVTNAME1000094004"
+	desc = "EVTDESC1000094004"
+	picture = "GFX_evt_guardian"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA1000094004" # Talk to him about Asha – righteousness
+		trigger = {
+			OR = {
+				trait = just
+				trait = kind
+			}
+		}
+		FROM = { piety = 10}
+		FROM = { change_intrigue = -1}
+		FROM = { change_learning = 2}
+	}
+
+	option = {
+		name = "EVTOPTB1000094004" # Talk to him about Khshatr – divine power.
+		trigger = {
+			OR = {
+				trait = brave
+				trait = strong
+			}
+		}
+		FROM = {prestige = 20}
+		FROM = { change_intrigue = -1}
+		FROM = { change_martial = 1}
+	}
+
+	option = {
+		name = "EVTOPTC1000094004" # Talk to him about  Armaiti – devotion.
+		trigger = {
+			OR = {
+				trait = zealous
+				piety = 400
+			}
+		}
+		FROM = {piety = 30}
+		FROM = { change_intrigue = -1}
+		FROM = { change_diplomacy = 1}
+	}
+	
+	option = {
+		name = "EVTOPTD1000094004" # Talk to him about Vohu Manah – holy spirit.
+		trigger = {
+			OR = {
+				trait = diligent
+				piety = 800
+			}
+		}
+		FROM = {piety = 10	prestige = 10}
+		FROM = { change_intrigue = -1}
+		FROM = { change_stewardship = 1}
+	}
+	
+	option = {
+		name = "EVTOPTE1000094004" # I have nothing to teach him.
+		random_list = {
+			50 = {	FROM = { change_learning = 1} }
+			50 = {	FROM = { change_learning = -1} }
+		}
+	}
+}
+
+####Rebuild Persepolis
+province_event = {
+	id = 1000094010
+	title = "EVTNAME1000094010"
+	desc = "EVTDESC1000094010"
+	picture = "GFX_persepolis_ruin"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA1000094010" # Rebuild just the royal palace.
+		wealth = -100
+		capital_scope = {
+			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 730 }
+			}
+		character_event = { id = 1000094011 days = 730}
+	}
+
+	option = {
+		name = "EVTOPTB1000094010" # Rebuild the entire city.
+		wealth = -200
+		capital_scope = {
+			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 1460 }
+			}
+		character_event = { id = 1000094011 days = 1460}
+	}
+
+	option = {
+		name = "EVTOPTC1000094010" # Make it the greatest city there ever was!
+		wealth = -300
+		capital_scope = {
+			add_province_modifier = { name = "rebuilding_persepolis_local" duration = 2920 }
+			}
+		character_event = { id = 1000094011 days = 2920}
+	}
+}
+
+####Rebuild Persepolis 2
+character_event = {
+	id = 1000094011
+	title = "EVTNAME1000094011"
+	desc = "EVTDESC1000094011"
+	picture = "GFX_persepolis_built"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA1000094011" #Library
+		prestige = 500
+		set_global_flag = persepolis_rebuilt
+		b_perozabad = { set_name = Persepolis }
+		capital_scope = {
+			add_province_modifier = { name = "persepolis_library" duration = -1 }
+			}
+	}
+	option = {
+		name = "EVTOPTB1000094011" #Irrigation system
+		prestige = 500
+		set_global_flag = persepolis_rebuilt
+		b_perozabad = { set_name = Persepolis }
+		capital_scope = {
+			add_province_modifier = { name = "persepolis_irrigation" duration = -1 }
+			}
+	}
+	option = {
+		name = "EVTOPTC1000094011" #Gate of all nations
+		prestige = 500
+		set_global_flag = persepolis_rebuilt
+		b_perozabad = { set_name = Persepolis }
+		capital_scope = {
+			add_province_modifier = { name = "persepolis_gate" duration = -1 }
+			}
+	}
+}
+### Nowruz
+
+# Invitation Sent
+character_event = {
+	id = ZOR.500
+	desc =EVTDESC_ZOR_500
+	title =EVTNAME_ZOR_500
+	picture = GFX_evt_roi_throneroom
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_ZOR_500
+		hidden_tooltip = { character_event = { id = ZOR.503 days = 10 } }
+		hidden_tooltip = { character_event = { id = ZOR.506 days = 9 } }
+		hidden_tooltip = { character_event = { id = ZOR.504 days = 12 } }
+		any_vassal = {
+			limit = {
+				religion_group = zoroastrian_group
+				age = 16
+				prisoner = no
+				war = no
+				NOT = { trait = incapable }
+			}
+			character_event = { id = ZOR.501 days = 2 tooltip = EVTTOOLTIP_ZOR_501 }
+		}
+		custom_tooltip = { text = nowruz_invitations_sent }
+
+	}
+}
+
+# Invitation Received
+character_event = {
+	id = ZOR.501
+	title =EVTNAME_ZOR_501
+	desc =EVTDESC_ZOR_501
+	picture = GFX_evt_roi_throneroom
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_ZOR_501
+		ai_chance = {
+			factor = 80
+			modifier  = {
+				factor = 0.1
+				ai = yes
+				trait = in_hiding
+			}
+			modifier = {
+				factor = 0
+				NOT = {	opinion = { who = ROOT value = -20 } }
+			}
+		}
+		custom_tooltip = { text = nowruz_accepted }
+		set_character_flag = attending_nowruz
+		set_character_flag = do_not_disturb
+		hidden_tooltip = { character_event = { id = ZOR.503 days = 8 } }
+		hidden_tooltip = { character_event = { id = ZOR.506 days = 9 } }
+		hidden_tooltip = { character_event = { id = ZOR.599 days = 20 } } # Safety catch flag clearing
+		if = {
+			limit = { trait = in_hiding	}
+			remove_trait = in_hiding
+			add_character_modifier = {
+				name = went_out_of_hiding_timer
+				duration = 180
+				hidden = yes
+			}
+			hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+		}
+	}
+	option = {
+		name = EVTOPTB_ZOR_501
+		ai_chance = {
+			factor = 20
+		}
+		FROM = {
+			opinion = {
+				modifier = opinion_refused_nowruz
+				who = ROOT
+			}
+		}
+		custom_tooltip = { text = nowruz_declined }
+		hidden_tooltip = {
+			FROM = { character_event = { id = ZOR.502 } }
+		}
+	}
+}
+
+# Invitation Refused
+character_event = {
+	id = ZOR.502
+	title =EVTNAME_ZOR_502
+	desc =EVTDESC_ZOR_502
+	picture = GFX_evt_roi_throneroom
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_ZOR_502
+		opinion = {
+			modifier = opinion_refused_nowruz
+			who = FROM
+		}
+	}
+}
+
+# Nowruz Feast Begins
+character_event = {
+	id = ZOR.503
+	title =EVTNAME_ZOR_503
+	desc =EVTDESC_ZOR_503
+	picture = GFX_evt_roi_throneroom
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_ZOR_503
+	}
+}
+
+# Nowruz Feast Ends (Host)
+character_event = {
+	id = ZOR.504
+	title =EVTNAME_ZOR_504
+	desc =EVTDESC_ZOR_504
+	picture = GFX_evt_roi_throneroom
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_ZOR_504
+		any_vassal = {
+			limit = { has_character_flag = attending_nowruz }
+			opinion = {
+				modifier = opinion_nowruz
+				who = ROOT
+			}
+		}
+		hidden_tooltip = {
+			any_vassal = {
+				limit = { has_character_flag = attending_nowruz }
+				character_event = { id = ZOR.505 }
+			}
+		}
+		add_character_modifier = {
+			name = held_nowruz_timer
+			duration = 1825
+			hidden = yes
+		}
+		prestige = 100
+		piety = 100
+		clr_character_flag = holding_nowruz
+		clr_character_flag = do_not_disturb
+	}
+}
+
+# Nowruz Feast Ends (Guest)
+character_event = {
+	id = ZOR.505
+	desc =EVTDESC_ZOR_505
+	picture = GFX_evt_roi_throneroom
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_ZOR_504
+		clr_character_flag = attending_nowruz
+		clr_character_flag = do_not_disturb
+	}
+}
+
+character_event = {	#chaharshanbe_suri
+	id = ZOR.506
+	title =
+	desc =EVTDESC_ZOR_506
+	picture = GFX_evt_roi_throneroom
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_ZOR_504
+		piety =10
+		prestige =10
+		random_list = {
+			10 = { add_trait = wounded }
+			10 = { add_trait = brave }
+			10 = { change_martial = 1 }
+			10 = { add_Trait = zealous }
+			10 = { piety = 20 }
+			10 = { prestige = 20 }
+			10 = { change_learning = 1 }
+			10 = { change_stewardship = 1 }
+		}
+	}
+
+	option = {
+		trigger = {
+			trait = craven
+		}
+		piety =-10
+		prestige =-10
+	}
+}	
+
+###########################################
+# Flag management                         #
+###########################################
+
+# Safety catch - clears character flags and modifiers
+character_event = {
+	id = ZOR.599
+
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = do_not_disturb
+		clr_character_flag = holding_nowruz
+		clr_character_flag = attending_nowruz
+	}
+}
+
+# Great Sacrifice event
+character_event = {
+	id = GoPagan.220 #formerly 1000182159
+	title = "EVTNAME_GoPagan_220"
+	desc = "EVTDESC_GoPagan_220"
+	picture = "GFX_evt_sacrifice"
+	
+	is_triggered_only = yes
+	hide_from = yes	
+	
+	option = {
+		name = "EVTOPTA_GoPagan_220" #To Mithra (War)
+		scaled_wealth = -0.3
+		piety = -30
+		add_character_modifier = {
+			name = zoroastrian_sacrifice_mithra
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVTOPTB_GoPagan_220" #To Parendi (Riches)
+		scaled_wealth = -0.3
+		piety = -30
+		add_character_modifier = {
+			name = zoroastrian_sacrifice_parendi
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVTOPTC_GoPagan_220" #To Chisti (Wisdom)
+		scaled_wealth = -0.3
+		piety = -30
+		add_character_modifier = {
+			name = zoroastrian_sacrifice_chisti
+			duration = 365
+		}
+	}
+	option = {
+		name = "EVTOPTD_GoPagan_220" #To none of them
+		trigger = {
+			ai = no
+		}
+		hidden_tooltip = {
+			clr_character_flag = made_sacrifice_1
+		}
+	}
+}
+
+
+### BEMA FEAST EVENTS
+
+# Invite vassals to festival
+character_event = {
+	id = GoPagan.238
+	desc = EVTDESC_GoPagan_238
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	
+	only_rulers = yes
+	min_age = 16
+	only_capable = yes
+	prisoner = no
+	has_character_flag = planning_bema_feast
+
+	trigger = {
+		war = no
+		NOT = { month = 6 }
+		month = 3
+		NOT = { has_character_modifier = do_not_disturb }
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = EVTOPTA_GoPagan_238
+		clr_character_flag = planning_bema_feast
+		set_character_flag = holding_bema_feast
+		any_vassal = {
+			limit = {
+				prisoner = no
+				war = no
+				NOT = { trait = incapable }
+				religion = manichean
+				is_adult = yes
+				NOT = { has_character_modifier = do_not_disturb }
+			}
+			letter_event = {
+				id = GoPagan.239
+				tooltip = EVTTOOLTIP1_RoI_1000
+			}
+		}
+		hidden_tooltip = { 
+			character_event = { id = GoPagan.241 days = 12 } # Begin Feast
+			character_event = { id = GoPagan.246 days = 4 }  # Fast
+			add_character_modifier = {
+				name = do_not_disturb
+				days = 25
+				hidden = yes
+			}
+		}
+		if = {
+			limit = { trait = in_hiding	}
+			remove_trait = in_hiding
+			add_character_modifier = {
+				name = went_out_of_hiding_timer
+				duration = 180
+				hidden = yes
+			}
+			hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+		}
+	}
+}
+
+# Vassal receives invitation
+letter_event = {
+	id = GoPagan.239
+	desc = EVTDESC_GoPagan_239
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_GoPagan_239 #Travel to the feast
+		ai_chance = {
+			factor = 2
+			modifier  = {
+				factor = 0.1
+				ai = yes
+				trait = in_hiding
+			}
+			modifier  = {
+				factor = 2
+				opinion = { who = from value = -30 }
+			}
+			modifier  = {
+				factor = 5
+				opinion = { who = from value = -15 }
+			}
+			modifier  = {
+				factor = 5
+				opinion = { who = from value = 0 }
+			}
+		}
+		set_character_flag = attending_bema_feast
+		hidden_tooltip = {
+			character_event = { id = GoPagan.242 days = 12 } # Hidden - arrives at feast
+			character_event = { id = GoPagan.245 days = 25 } # Safety event for clearing all flags
+			add_character_modifier = {
+				name = do_not_disturb
+				days = 25
+				hidden = yes
+			}
+		}
+		if = {
+			limit = { trait = in_hiding	}
+			remove_trait = in_hiding
+			add_character_modifier = {
+				name = went_out_of_hiding_timer
+				duration = 180
+				hidden = yes
+			}
+			hidden_tooltip = { character_event = { id = CM.6400 } } # Notify plotters and family
+		}
+	}
+	option = {
+		name = EVTOPTB_GoPagan_239 #Refuse invitation
+		ai_chance = {
+			factor = 1
+			modifier  = {
+				factor = 0
+				opinion = { who = FROM value = 25 }
+				NOT = { trait = in_hiding }
+			}
+		}
+		FROM = {
+			letter_event = { id = GoPagan.240 days = 1 random = 2 tooltip = EVTTOOLTIP1_RoI_2001 }
+		}
+	}
+}
+
+# If vassal refuses to come to the feast
+letter_event = {
+	id = GoPagan.240
+	desc = EVTDESC_GoPagan_240
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_GoPagan_240 
+		opinion = {
+			modifier = opinion_dislike
+			who = FROM
+			years = 2
+		}
+	}
+}
+
+# Festival begins
+character_event = {
+	id = GoPagan.241
+	desc = EVTDESC_GoPagan_241
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	trigger = {
+		prisoner = no
+		NOT = { trait = incapable }
+	}
+	
+	option = {
+		name = EXCELLENT
+		hidden_tooltip = {
+			character_event = { id = GoPagan.243 days = 10 } # End festival
+			character_event = { id = GoPagan.245 days = 20 } # Clearing all flags and modifiers after feast
+			character_event = { id = GoPagan.247 days = 3 } # Singing of Hymns
+			character_event = { id = GoPagan.250 days = 5 } # Feast
+			character_event = { id = GoPagan.251 days = 7 } # Sermon
+			any_courtier = {
+				limit = {
+					prisoner = no
+					is_adult = yes
+					is_ruler = no
+					NOT = { trait = incapable }
+					religion = manichean
+				}
+				set_character_flag = attending_bema_feast
+				character_event = { id = GoPagan.247 days = 3 } 
+				character_event = { id = GoPagan.250 days = 5 } 
+				character_event = { id = GoPagan.251 days = 7 } 
+				character_event = { id = GoPagan.245 days = 20 } # Clearing all flags and modifiers after feast
+			}
+		}
+	}
+}
+
+# Vassal arrives at festival
+character_event = {
+	id = GoPagan.242
+	desc = EVTDESC_GoPagan_242
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	trigger = {
+		FROM = {
+			NOT = { trait = incapable }
+			prisoner = no
+		}
+	}
+	
+	option = {
+		name = EXCELLENT
+		hidden_tooltip = {
+			character_event = { id = GoPagan.247 days = 3 } # Singing of Hymns
+			character_event = { id = GoPagan.250 days = 5 } # Feast
+			character_event = { id = GoPagan.251 days = 7 } # Picture Book
+		}
+	}
+}
+
+# Festival is over - host
+character_event = {
+	id = GoPagan.243
+	desc = EVTDESC_GoPagan_243
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		prestige = 50
+		piety = 50
+		add_character_modifier = {
+			name = held_bema_feast_timer
+			duration = 1825
+			hidden = yes
+		}
+		remove_character_modifier = do_not_disturb
+		clr_character_flag = holding_bema_feast
+		hidden_tooltip = {
+			any_vassal = {
+				limit = { has_character_flag = attending_bema_feast }
+				character_event = { id = GoPagan.244 }
+			}
+			any_courtier = {
+				limit = {
+					is_ruler = no
+					has_character_flag = attending_bema_feast
+				}
+				character_event = { id = GoPagan.244 }
+			}
+		}
+	}
+}
+
+# Festival is over - guest
+character_event = {
+	id = GoPagan.244
+	desc = EVTDESC_GoPagan_243
+	picture = GFX_evt_girl_with_cat
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		opinion = {
+			modifier = opinion_enjoyed_feast
+			who = FROM
+			years = 2
+		}
+		clr_character_flag = attending_bema_feast
+		remove_character_modifier = do_not_disturb
+	}
+}
+
+# Clear all character flags and modifiers - safety catch
+character_event = {
+	id = GoPagan.245
+
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = attending_bema_feast
+		clr_character_flag = holding_bema_feast
+	}
+}
+
+# Ruler begins the ritual fast
+character_event = {
+	id = GoPagan.246
+	desc = EVTDESC_GoPagan_246
+	picture = GFX_evt_garden
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	trigger = {
+		prisoner = no
+		NOT = { trait = incapable }
+	}
+	
+	option = {
+		name = EVTOPTA_GoPagan_246
+		piety = 20
+		prestige = 20
+		random_list = {
+			30 = { health = -1 } 
+			30 = { add_trait = temperate } 
+			40 = {} # No event
+		}
+	}
+	option = {
+		name = EVTOPTB_GoPagan_246
+		piety = 5
+		random_list = {
+			10 = { health = -1 } 
+			10 = { add_trait = temperate } 
+			80 = {} # No event
+		}
+	}
+	option = {
+		name = EVTOPTC_GoPagan_246
+		piety = -20
+		random_list = {
+			30 = { add_trait = gluttonous } 
+			70 = {} # No event
+		}
+	}
+}
+
+# Singing of Hymns
+character_event = {
+	id = GoPagan.247
+	title = EVTNAME_GoPagan_247
+	desc = EVTDESC_GoPagan_247
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	trigger = {
+		prisoner = no
+		NOT = { trait = incapable }
+	}
+	
+	option = {
+		name = EVTOPTA_GoPagan_247
+		piety = 10
+		hidden_tooltip = {
+			random_list = {
+				10 = {
+					modifier = {
+						factor = 10
+						trait = shy
+					}
+					modifier = {
+						factor = 0
+						OR = {
+							diplomacy = 8
+							trait = poet
+							trait = gregarious
+							trait = zealous
+						}
+					}
+					custom_tooltip = { text = CANNOT_SING }
+					if = {
+						limit = { NOT = { trait = shy } }
+						random = {
+							chance = 30
+							add_trait = shy
+						}
+					}
+					prestige = -50
+				}
+				10 = {
+					modifier = {
+						factor = 2
+						trait = poet
+					}
+					modifier = {
+						factor = 0
+						OR = {
+							trait = zealous
+							trait = cynical
+						}
+					}
+					custom_tooltip = { text = TOUCHED_BY_BEAUTY }
+					add_trait = zealous
+				}
+				100 = {} # No event
+			}
+		}
+	}
+}
+
+# Feast
+character_event = {
+	id = GoPagan.250
+	title = EVTNAME_GoPagan_250
+	desc = EVTDESC_GoPagan_250
+	picture = GFX_evt_feast
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	trigger = {
+		prisoner = no
+		NOT = { trait = incapable }
+	}
+	
+	option = {
+		name = EVTOPTA_GoPagan_250
+		piety = 20
+	}
+}
+
+# Read the Arzhang
+character_event = {
+	id = GoPagan.251
+	title = EVTNAME_GoPagan_251
+	desc = EVTDESC_GoPagan_251
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	trigger = {
+		prisoner = no
+		NOT = { trait = incapable }
+	}
+	
+	option = { 
+		name = EVTOPTA_GoPagan_251
+		random_list = {
+			5 = {
+				modifier = {
+					factor = 0
+					OR = {
+						trait = humble
+						trait = proud
+					}
+				}
+				add_trait = humble
+			}
+			5 = {
+				modifier = {
+					factor = 0
+					OR = {
+						trait = humble
+						trait = proud
+					}
+				}
+				add_trait = proud
+			}
+			5 = {
+				modifier = {
+					factor = 0
+					OR = {
+						trait = zealous
+						trait = cynical
+					}
+				}
+				add_trait = cynical
+			}
+			10 = {
+				modifier = {
+					factor = 0
+					OR = {
+						trait = zealous
+						trait = cynical
+					}
+				}
+				add_trait = zealous
+			}
+			10 = {
+				modifier = {
+					factor = 0.5
+					trait = cynical
+				}
+				modifier = {
+					factor = 2
+					trait = zealous
+				}
+				change_learning = 1
+			}
+			30 = {
+				piety = 20
+			}
+			100 = {
+				# No effect
+			}
+		}
+	}
+}
+
+
+

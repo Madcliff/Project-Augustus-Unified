@@ -1,0 +1,27 @@
+# Status of Women on_actions
+
+# When a pagan religion is reformed
+on_reform_religion = {
+	events = {
+		StoW.100
+	}
+}
+
+GRANT_LANDED_TITLE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		StoW.101
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+		StoW.102
+	}
+}
+
+on_startup = {
+	events = {
+		StoW.103
+	}
+}

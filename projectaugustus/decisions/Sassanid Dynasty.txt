@@ -1,0 +1,35 @@
+decisions = {
+	recognize_bavandid = {
+		potential = {
+			has_landed_title = k_governate_persia
+			dyasnty = 1029100
+			is_ruler = yes
+			age = 16
+			prisoner = no
+		}
+		
+		allow = {
+			prestige = 50
+		}
+		
+		effect = {
+			hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					dynasty = 7331 
+				}
+				narrative_event = { id = CHA.4 }
+			}
+		}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0.25
+			
+		}
+	}
+}

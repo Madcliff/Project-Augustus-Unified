@@ -1,0 +1,1133 @@
+# Status of Women Laws
+
+laws = {
+
+	# default status (as vanilla)
+	statusofwomen_0 = {
+		group = status_of_women
+
+		potential = {
+			OR = {
+				# Real conditions
+				holder_scope = {
+					# Audax Validator "." Ignore_1001
+					NOR = {
+						religion = cathar
+						religion = messalian
+						has_law = true_cognatic_succession
+						has_law = statusofwomen_4
+						#has_character_flag = statusofwomen_changed
+					}
+				}
+				# loading save games may end up with no law, unless we're allowed to set the law we already have
+				has_law = statusofwomen_0
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 10		# base
+
+			# general decrease chance
+			modifier = {					# - various lockout
+				factor = 0
+				holder_scope = {
+					OR = {
+						trait    = just
+						trait    = slothful
+						trait    = content
+						culture  = basque
+						AND = {
+							is_female = yes
+							NOT = { trait = cynical }
+							NOT = { trait = zealous }
+						}
+					}
+				}
+			}
+			modifier = {					# + cynical advantage
+				factor = 1.5
+				holder_scope = { trait = cynical }
+			}
+			modifier = {					# + fearful woman
+				factor = 1.5
+				holder_scope = { is_female = yes  trait = craven }
+			}
+			modifier = {
+				factor = 1.5				# + personal...ahem...reasons
+				holder_scope = {
+					trait = deceitful
+					OR = {
+						AND = { is_female = yes NOT = { trait = homosexual } OR = { trait = lustful trait = hedonist } }
+						AND = { is_female = no trait = homosexual OR = { trait = lustful trait = hedonist } }
+					}
+				}
+			}
+
+			# inertia factors
+			modifier = { factor = 10  holder_scope = { trait = lunatic } }
+			modifier = { factor = 1.5 holder_scope = { trait = arbitrary } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.5 } } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.3 } } }
+			modifier = {
+				factor = 0.001	# general slowdown, hopefully enough to stop it always and everywhere going to this
+				always = yes
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			# piety change calculation and tooltip (application of change has to come later to get tooltip and change to both come out right *sigh*)
+			if = { limit = { has_law = statusofwomen_1 }
+				holder_scope = {
+					if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc200 } custom_tooltip = { text = statusofwomen_effect_pietygain_200 } custom_tooltip = { text = statusofwomen_effect_lf } }
+					if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc100 } custom_tooltip = { text = statusofwomen_effect_pietygain_100 } custom_tooltip = { text = statusofwomen_effect_back_discount50_culture  } }
+				}
+			}
+			if = { limit = { has_law = statusofwomen_2 NOT = { holder_scope = { religion_group = pagan_group } } }
+				holder_scope = {
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc600 } custom_tooltip = { text = statusofwomen_effect_pietygain_600 } custom_tooltip = { text = statusofwomen_effect_lf } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc300 } custom_tooltip = { text = statusofwomen_effect_pietygain_300 } custom_tooltip = { text = statusofwomen_effect_back_discount50_culture  } }
+				}
+			}
+			if = { limit = { has_law = statusofwomen_2 holder_scope = { religion_group = pagan_group } }
+				holder_scope = {
+					if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc400 } custom_tooltip = { text = statusofwomen_effect_pietygain_400 } custom_tooltip = { text = statusofwomen_effect_lf } }
+					if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc200 } custom_tooltip = { text = statusofwomen_effect_pietygain_200 } custom_tooltip = { text = statusofwomen_effect_back_discount50_culture  } }
+				}
+			}
+			if = { limit = { has_law = statusofwomen_3 NOT = { holder_scope = { religion_group = pagan_group } } }
+				holder_scope = {
+					if = { limit = { religion = jain }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc1200 } custom_tooltip = { text = statusofwomen_effect_pietygain_1200 } custom_tooltip = { text = statusofwomen_effect_back_discount25_religion } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc600  } custom_tooltip = { text = statusofwomen_effect_pietygain_600  } custom_tooltip = { text = statusofwomen_effect_back_discount625_both    } }
+					}
+					if = { limit = { NOT = { religion = jain } }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc1400 } custom_tooltip = { text = statusofwomen_effect_pietygain_1400 } custom_tooltip = { text = statusofwomen_effect_lf } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc700  } custom_tooltip = { text = statusofwomen_effect_pietygain_700  } custom_tooltip = { text = statusofwomen_effect_back_discount50_culture  } }
+					}
+				}
+			}
+			if = { limit = { has_law = statusofwomen_3 holder_scope = { religion_group = pagan_group } }
+				holder_scope = {
+					if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc1200 } custom_tooltip = { text = statusofwomen_effect_pietygain_1200 } custom_tooltip = { text = statusofwomen_effect_lf } }
+					if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc600  } custom_tooltip = { text = statusofwomen_effect_pietygain_600  } custom_tooltip = { text = statusofwomen_effect_back_discount50_culture     } }
+				}
+			}
+
+			# apply changes
+			hidden_tooltip = {
+				holder_scope = {
+					if = {
+						limit = {
+							NOT = { has_character_flag = statusofwomen_eventchange }
+							NOT = { primary_title = { has_law = statusofwomen_0 } }
+						}
+
+						if = { limit = { has_character_flag = stow_piety_inc1400 } piety = -1400 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc1200 } piety = -1200 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc700  } piety =  -700 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc400  } piety =  -400 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc350  } piety =  -350 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc200  } piety =  -200 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc150  } piety =  -150 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc100  } piety =  -100 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc50   } piety =   -50 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+					}
+					clr_character_flag = statusofwomen_eventchange
+
+					clr_character_flag = stow_piety_inc1400
+					clr_character_flag = stow_piety_inc1200
+					clr_character_flag = stow_piety_inc700
+					clr_character_flag = stow_piety_inc400
+					clr_character_flag = stow_piety_inc350
+					clr_character_flag = stow_piety_inc200
+					clr_character_flag = stow_piety_inc150
+					clr_character_flag = stow_piety_inc100
+					clr_character_flag = stow_piety_inc50
+
+					#set_character_flag = statusofwomen_debug_law0
+					#clr_character_flag = statusofwomen_debug_law1
+					#clr_character_flag = statusofwomen_debug_law2
+					#clr_character_flag = statusofwomen_debug_law3
+					#clr_character_flag = statusofwomen_debug_law4
+				}
+
+				revoke_law = statusofwomen_0
+				revoke_law = statusofwomen_1
+				revoke_law = statusofwomen_2
+				revoke_law = statusofwomen_3
+				revoke_law = statusofwomen_4
+			}
+		}
+	}
+
+	# allow spymaster
+	statusofwomen_1 = {
+		group = status_of_women
+		rel_head_opinion = -5
+
+		potential = {
+			OR = {
+				# Real conditions
+				holder_scope = {
+					NOR = {
+						religion = cathar
+						religion = messalian
+					}
+				}
+				# loading save games may end up with no law, unless we're allowed to set the law we already have
+				has_law = statusofwomen_1
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = statusofwomen_allow_notreassertedtradition
+				holder_scope = { NOT = { has_character_flag = statusofwomen_reassertedtradition } }
+			}
+			OR = {
+				hidden_tooltip = {
+					holder_scope = { has_character_flag = statusofwomen_eventchange }
+				}
+				AND = {
+					custom_tooltip = {
+						text = statusofwomen_allow_increase
+						holder_scope = { has_law = statusofwomen_0 }
+					}
+					OR = {
+						custom_tooltip = {
+							text = statusofwomen_allow_notpreviouslychanged
+							holder_scope = {
+								NOT = { has_character_flag = statusofwomen_changed }
+							}
+						}
+						custom_tooltip = {
+							text = statusofwomen_allow_historicfigure
+							holder_scope = { has_character_flag = statusofwomen_historicfigure }
+						}
+					}
+					custom_tooltip = {
+						text = statusofwomen_allow_haspiety
+						holder_scope = {
+							OR = {
+								trait = lunatic
+								AND = { piety = 100 culture = basque }
+								piety = 200
+							}
+						}
+					}
+				}
+				AND = {
+					custom_tooltip = {
+						text = statusofwomen_allow_decrease
+						holder_scope = { has_law = statusofwomen_2 }
+					}
+					custom_tooltip = {
+						text = statusofwomen_allow_notpreviouslychanged
+						holder_scope = { NOT = { has_character_flag = statusofwomen_changed } }
+					}
+				}
+			}
+			holder_scope = { NOT = { religion_group = pagan_group }	} # pagans already allow female spymasters
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 10		# base
+
+			# lockouts
+			modifier = {
+				factor = 0
+				holder_scope = { OR = { trait = slothful trait = content } }
+			}
+
+			# general increase chance
+			modifier = {					# + justice
+				factor = 1.75
+				has_law = statusofwomen_0
+				holder_scope = { trait = just }
+			}
+			modifier = {					# + zealous about justice
+				factor = 1.75
+				has_law = statusofwomen_0
+				holder_scope = { trait = just trait = zealous }
+			}
+			modifier = {					# + fearless woman
+				factor = 1.75
+				has_law = statusofwomen_0
+				holder_scope = { is_female = yes trait = brave }
+			}
+			modifier = {
+				factor = 1.75				# + personal...ahem...reasons
+				has_law = statusofwomen_0
+				holder_scope = {
+					trait = deceitful
+					OR = {
+						AND = { is_female = no  NOT = { trait = homosexual } OR = { trait = lustful trait = hedonist } }
+						AND = { is_female = yes trait = homosexual OR = { trait = lustful trait = hedonist } }
+					}
+				}
+			}
+			modifier = {					# - succession law
+				factor = 0.5
+				has_law = statusofwomen_0
+				has_law = agnatic_succession
+			}
+
+			# general decrease chance
+			modifier = {					# - justice lockout
+				factor = 0
+				has_law = statusofwomen_2
+				holder_scope = { trait = just }
+			}
+			modifier = {					# + cynical advantage
+				factor = 2
+				has_law = statusofwomen_2
+				holder_scope = { trait = cynical }
+			}
+			modifier = {					# + fearful woman
+				factor = 2
+				has_law = statusofwomen_2
+				holder_scope = { is_female = yes  trait = craven }
+			}
+			modifier = {
+				factor = 2					# + personal...ahem...reasons
+				has_law = statusofwomen_2
+				holder_scope = {
+					trait = deceitful
+					OR = {
+						AND = { is_female = yes NOT = { trait = homosexual } OR = { trait = lustful trait = hedonist } }
+						AND = { is_female = no trait = homosexual OR = { trait = lustful trait = hedonist } }
+					}
+				}
+			}
+			modifier = {					# - succession law
+				factor = 0.75
+				has_law = statusofwomen_2
+				has_law = true_cognatic_succession
+			}
+
+			# inertia factors
+			modifier = { factor = 10  holder_scope = { trait = lunatic } }
+			modifier = { factor = 1.5 holder_scope = { trait = arbitrary } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.5 } } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.3 } } }
+			modifier = {
+				factor = 0.002	# general slowdown, but hopefully not too much given piety constraints
+				always = yes
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			# piety change calculation and tooltip (application of change has to come later to get tooltip and change to both come out right *sigh*)
+				# character flags used rather than variables because variables proved impossible to debug
+			if = { limit = { has_law = statusofwomen_0 }
+				holder_scope = {
+					if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_dec200 } custom_tooltip = { text = statusofwomen_effect_pietyloss_200 } custom_tooltip = { text = statusofwomen_effect_lf } }
+					if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_dec100 } custom_tooltip = { text = statusofwomen_effect_pietyloss_100 } custom_tooltip = { text = statusofwomen_effect_discount50_culture  } }
+				}
+			}
+			if = { limit = { OR = { has_law = statusofwomen_2 has_law = statusofwomen_3 has_law = statusofwomen_4 } }
+				holder_scope = {
+					if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc400 } custom_tooltip = { text = statusofwomen_effect_pietygain_400 } custom_tooltip = { text = statusofwomen_effect_lf } }
+					if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc200 } custom_tooltip = { text = statusofwomen_effect_pietygain_200 } custom_tooltip = { text = statusofwomen_effect_back_discount50_culture  } }
+				}
+			}
+
+			# effects tooltip
+			custom_tooltip = { text = statusofwomen_effect_spymaster_yes }
+			custom_tooltip = { text = statusofwomen_effect_treasurer_no }
+			custom_tooltip = { text = statusofwomen_effect_chancellor_no }
+			custom_tooltip = { text = statusofwomen_effect_marshal_no }
+			holder_scope = {
+				if = { limit = { OR = { religion_group = christian religion_group = pagan_group } }
+					custom_tooltip = { text = statusofwomen_effect_other_no  }
+				}
+				if = { limit = { religion_group = muslim }
+					custom_tooltip = { text = statusofwomen_effect_other_muslimno }
+				}
+				if = { limit = { culture = mongol }
+					custom_tooltip = { text = statusofwomen_effect_other_khatunno }
+				}
+				if = { limit = { OR = { religion_group = muslim religion = tengri_pagan religion = tengri_pagan_reformed is_tribal = yes } }
+					custom_tooltip = { text = statusofwomen_effect_law_muslimlow }
+				}
+				if = { limit = { NOT = { OR = { religion_group = muslim religion = tengri_pagan religion = tengri_pagan_reformed } } culture = basque is_tribal = no }
+					custom_tooltip = { text = statusofwomen_effect_law_basquelow }
+				}
+				if = { limit = { NOT = { OR = { religion_group = muslim religion = tengri_pagan religion = tengri_pagan_reformed } } NOT = { culture = basque } is_tribal = no }
+					custom_tooltip = { text = statusofwomen_effect_law_low }
+				}
+			}
+			custom_tooltip = { text = statusofwomen_effect_separator }
+
+			# set flags and revoke other laws
+			hidden_tooltip = {
+				holder_scope = {
+					if = {
+						limit = {
+							NOT = { has_character_flag = statusofwomen_eventchange }
+							NOT = { primary_title = { has_law = statusofwomen_1 } }
+						}
+
+						if = { limit = { has_character_flag = stow_piety_dec200 } piety = -200 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec100 } piety = -100 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec50  } piety =  -50 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+
+						if = { limit = { has_character_flag = stow_piety_inc400 } piety = 400 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc200 } piety = 200 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc100 } piety = 400 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+					}
+					clr_character_flag = statusofwomen_eventchange
+
+					clr_character_flag = stow_piety_dec200
+					clr_character_flag = stow_piety_dec100
+					clr_character_flag = stow_piety_dec50
+					clr_character_flag = stow_piety_inc400
+					clr_character_flag = stow_piety_inc200
+					clr_character_flag = stow_piety_inc100
+
+					#clr_character_flag = statusofwomen_debug_law0
+					#set_character_flag = statusofwomen_debug_law1
+					#clr_character_flag = statusofwomen_debug_law2
+					#clr_character_flag = statusofwomen_debug_law3
+					#clr_character_flag = statusofwomen_debug_law4
+				}
+
+				revoke_law = statusofwomen_0
+				revoke_law = statusofwomen_1
+				revoke_law = statusofwomen_2
+				revoke_law = statusofwomen_3
+				revoke_law = statusofwomen_4
+			}
+		}
+	}
+
+	# allow treasurer
+	statusofwomen_2 = {
+		group = status_of_women
+		rel_head_opinion = -10
+		female_dynasty_opinion = 5
+
+		potential = {
+			OR = {
+				# Real condition
+				holder_scope = {
+					NOR = {
+						religion = cathar
+						religion = messalian
+					}
+				}
+				# loading save games may end up with no law, unless we're allowed to set the law we already have
+				has_law = statusofwomen_2
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = statusofwomen_allow_notreassertedtradition
+				holder_scope = { NOT = { has_character_flag = statusofwomen_reassertedtradition } }
+			}
+			OR = {
+				hidden_tooltip = { holder_scope = { has_character_flag = statusofwomen_eventchange } }
+				AND = {
+					OR = {
+						custom_tooltip = {
+							text = statusofwomen_allow_increase_nonpagan
+							holder_scope = { has_law = statusofwomen_1 }
+						}
+						custom_tooltip = {
+							text = statusofwomen_allow_increase_pagan
+							AND = {
+								holder_scope = { has_law = statusofwomen_0 }
+								holder_scope = { religion_group = pagan_group }
+							}
+						}
+					}
+					OR = {
+						custom_tooltip = {
+							text = statusofwomen_allow_notpreviouslychanged
+							holder_scope = { NOT = { has_character_flag = statusofwomen_changed } }
+						}
+						custom_tooltip = {
+							text = statusofwomen_allow_historicfigure
+							holder_scope = { has_character_flag = statusofwomen_historicfigure }
+						}
+					}
+					custom_tooltip = {
+						text = statusofwomen_allow_haspiety
+
+						holder_scope = {
+							OR = {
+								trait = lunatic
+								AND = { piety = 200 culture  = basque }
+								piety = 400
+							}
+						}
+					}
+				}
+				AND = {
+					custom_tooltip = {
+						text = statusofwomen_allow_decrease
+						holder_scope = { has_law = statusofwomen_3 }
+					}
+					custom_tooltip = {
+						text = statusofwomen_allow_notpreviouslychanged
+						holder_scope = { NOT = { has_character_flag = statusofwomen_changed } }
+					}
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 10		# base
+
+			# lockouts
+			modifier = {
+				factor = 0
+				holder_scope = { OR = { trait = slothful trait = content } }
+			}
+
+			# general increase chance
+			modifier = {					# + justice
+				factor = 1.75
+				OR = { has_law = statusofwomen_0 has_law = statusofwomen_1 }
+				holder_scope = { trait = just }
+			}
+			modifier = {					# + zealous about justice
+				factor = 1.75
+				OR = { has_law = statusofwomen_0 has_law = statusofwomen_1 }
+				holder_scope = { trait = just trait = zealous }
+			}
+			modifier = {					# + fearless woman
+				factor = 1.75
+				OR = { has_law = statusofwomen_0 has_law = statusofwomen_1 }
+				holder_scope = { is_female = yes trait = brave }
+			}
+			modifier = {
+				factor = 1.75				# + personal...ahem...reasons
+				OR = { has_law = statusofwomen_0 has_law = statusofwomen_1 }
+				holder_scope = {
+					trait = deceitful
+					OR = {
+						AND = { is_female = no  NOT = { trait = homosexual } OR = { trait = lustful trait = hedonist } }
+						AND = { is_female = yes trait = homosexual OR = { trait = lustful trait = hedonist } }
+					}
+				}
+			}
+			modifier = {					# - succession law
+				factor = 0.5
+				OR = { has_law = statusofwomen_0 has_law = statusofwomen_1 }
+				has_law = agnatic_succession
+			}
+
+			# general decrease chance
+			modifier = {					# - justice lockout
+				factor = 0
+				has_law = statusofwomen_3
+				holder_scope = { trait = just }
+			}
+			modifier = {					# + cynical advantage
+				factor = 2
+				has_law = statusofwomen_3
+				holder_scope = { trait = cynical }
+			}
+			modifier = {					# + fearful woman
+				factor = 2
+				has_law = statusofwomen_3
+				holder_scope = { is_female = yes  trait = craven }
+			}
+			modifier = {
+				factor = 2					# + personal...ahem...reasons
+				has_law = statusofwomen_3
+				holder_scope = {
+					trait = deceitful
+					OR = {
+						AND = { is_female = yes NOT = { trait = homosexual } OR = { trait = lustful trait = hedonist } }
+						AND = { is_female = no trait = homosexual OR = { trait = lustful trait = hedonist } }
+					}
+				}
+			}
+			modifier = {					# - succession law
+				factor = 0.75
+				has_law = statusofwomen_3
+				has_law = true_cognatic_succession
+			}
+
+			# inertia factors
+			modifier = { factor = 10  holder_scope = { trait = lunatic } }
+			modifier = { factor = 1.5 holder_scope = { trait = arbitrary } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.5 } } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.3 } } }
+			modifier = {
+				factor = 0.002	# general slowdown, but hopefully not too much given piety constraints
+				always = yes
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			# piety change calculation and tooltip (application of change has to come later to get tooltip and change to both come out right *sigh*)
+				# character flags used rather than variables because variables proved impossible to debug
+			if = { limit = { OR = { has_law = statusofwomen_0 has_law = statusofwomen_1 } }
+				holder_scope = {
+						if = { limit = { NOT = { culture = basque } } set_character_flag = stow_piety_dec400 custom_tooltip = { text = statusofwomen_effect_pietyloss_400 } custom_tooltip = { text = statusofwomen_effect_lf } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_dec200 } custom_tooltip = { text = statusofwomen_effect_pietyloss_200 } custom_tooltip = { text = statusofwomen_effect_discount50_culture  } }
+				}
+			}
+			if = { limit = { OR = { has_law = statusofwomen_3 has_law = statusofwomen_4 } }
+				holder_scope = {
+					if = { limit = { religion = jain }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc600 } custom_tooltip = { text = statusofwomen_effect_pietygain_600 } custom_tooltip = { text = statusofwomen_effect_back_discount25_religion } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc300 } custom_tooltip = { text = statusofwomen_effect_pietygain_300 } custom_tooltip = { text = statusofwomen_effect_back_discount625_both    } }
+					}
+					if = { limit = { NOT = { religion = jain } }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc800 } custom_tooltip = { text = statusofwomen_effect_pietygain_800 } custom_tooltip = { text = statusofwomen_effect_lf } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc400 } custom_tooltip = { text = statusofwomen_effect_pietygain_400 } custom_tooltip = { text = statusofwomen_effect_back_discount50_culture     } }
+					}
+				}
+			}
+
+			# effects tooltip
+			custom_tooltip = { text = statusofwomen_effect_spymaster_yes }
+			custom_tooltip = { text = statusofwomen_effect_treasurer_yes }
+			custom_tooltip = { text = statusofwomen_effect_chancellor_no }
+			custom_tooltip = { text = statusofwomen_effect_marshal_no }
+			holder_scope = {
+				if = { limit = { OR = { religion_group = christian religion_group = pagan_group } }
+					custom_tooltip = { text = statusofwomen_effect_other_yes  }
+				}
+				if = { limit = { religion_group = muslim }
+					custom_tooltip = { text = statusofwomen_effect_other_muslimno }
+				}
+				if = { limit = { culture = mongol }
+					custom_tooltip = { text = statusofwomen_effect_other_khatunyes }
+				}
+				if = { limit = { OR = { religion_group = muslim religion = tengri_pagan religion = tengri_pagan_reformed } }
+					custom_tooltip = { text = statusofwomen_effect_law_muslimlow }
+				}
+				if = { limit = { NOT = { OR = { religion_group = muslim religion = tengri_pagan religion = tengri_pagan_reformed } } culture = basque }
+					custom_tooltip = { text = statusofwomen_effect_law_basquelow }
+				}
+				if = { limit = { NOT = { OR = { religion_group = muslim religion = tengri_pagan religion = tengri_pagan_reformed } } NOT = { culture = basque } }
+					custom_tooltip = { text = statusofwomen_effect_law_low }
+				}
+			}
+			custom_tooltip = { text = statusofwomen_effect_separator }
+
+			# actually apply the required changes
+			hidden_tooltip = {
+				holder_scope = {
+					if = {
+						limit = {
+							NOT = { has_character_flag = statusofwomen_eventchange }
+							NOT = { primary_title = { has_law = statusofwomen_2 } }
+						}
+
+						if = { limit = { has_character_flag = stow_piety_dec400 } piety = -400 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec200 } piety = -200 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec100 } piety = -100 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+
+						if = { limit = { has_character_flag = stow_piety_inc800 } piety = 800 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc600 } piety = 600 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc400 } piety = 400 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc300 } piety = 300 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc200 } piety = 200 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+					}
+					clr_character_flag = statusofwomen_eventchange
+
+					clr_character_flag = stow_piety_dec400
+					clr_character_flag = stow_piety_dec200
+					clr_character_flag = stow_piety_dec100
+					clr_character_flag = stow_piety_inc800
+					clr_character_flag = stow_piety_inc600
+					clr_character_flag = stow_piety_inc400
+					clr_character_flag = stow_piety_inc300
+					clr_character_flag = stow_piety_inc200
+
+					#clr_character_flag = statusofwomen_debug_law0
+					#clr_character_flag = statusofwomen_debug_law1
+					#set_character_flag = statusofwomen_debug_law2
+					#clr_character_flag = statusofwomen_debug_law3
+					#clr_character_flag = statusofwomen_debug_law4
+				}
+
+				revoke_law = statusofwomen_0
+				revoke_law = statusofwomen_1
+				revoke_law = statusofwomen_2
+				revoke_law = statusofwomen_3
+				revoke_law = statusofwomen_4
+			}
+		}
+	}
+
+	# allow chancellor
+	statusofwomen_3 = {
+		group = status_of_women
+		church_opinion = -5
+		rel_head_opinion = -15
+		female_dynasty_opinion = 10
+
+		potential = {
+			OR = {
+				# Real condition
+				holder_scope = {
+					NOR = {
+						religion = cathar
+						religion = messalian
+					}
+				}
+				# loading save games may end up with no law, unless we're allowed to set the law we already have
+				has_law = statusofwomen_3
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = statusofwomen_allow_notreassertedtradition
+				holder_scope = { NOT = { has_character_flag = statusofwomen_reassertedtradition } }
+			}
+			OR = {
+				hidden_tooltip = { holder_scope = { has_character_flag = statusofwomen_eventchange } }
+				AND = {
+					custom_tooltip = {
+						text = statusofwomen_allow_increase
+						holder_scope = { has_law = statusofwomen_2 }
+					}
+					OR = {
+						custom_tooltip = {
+							text = statusofwomen_allow_notpreviouslychanged
+							holder_scope = { NOT = { has_character_flag = statusofwomen_changed } }
+						}
+						custom_tooltip = {
+							text = statusofwomen_allow_historicfigure
+							holder_scope = { has_character_flag = statusofwomen_historicfigure }
+						}
+					}
+					custom_tooltip = {
+						text = statusofwomen_allow_haspiety
+						holder_scope = {
+							OR = {
+								trait = lunatic
+								AND = { piety = 300 religion = jain culture  = basque }
+								AND = { piety = 600 religion = jain }
+								AND = { piety = 400 culture  = basque }
+								piety = 800
+							}
+						}
+					}
+				}
+				AND = {
+					custom_tooltip = {
+						text = statusofwomen_allow_decrease
+						holder_scope = { has_law = statusofwomen_4 }
+					}
+					custom_tooltip = {
+						text = statusofwomen_allow_notpreviouslychanged
+						holder_scope = { NOT = { has_character_flag = statusofwomen_changed } }
+					}
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 10		# base
+
+			# lockouts
+			modifier = {
+				factor = 0
+				holder_scope = { OR = { trait = slothful trait = content }  }
+			}
+
+			# general increase chance
+			modifier = {					# + justice
+				factor = 1.75
+				has_law = statusofwomen_2
+				holder_scope = { trait = just }
+			}
+			modifier = {					# + zealous about justice
+				factor = 1.75
+				has_law = statusofwomen_2
+				holder_scope = { trait = just trait = zealous }
+			}
+			modifier = {					# + fearless woman
+				factor = 1.75
+				has_law = statusofwomen_2
+				holder_scope = { is_female = yes trait = brave }
+			}
+			modifier = {
+				factor = 1.75				# + personal...ahem...reasons
+				has_law = statusofwomen_2
+				holder_scope = {
+					trait = deceitful
+					OR = {
+						AND = { is_female = no  NOT = { trait = homosexual } OR = { trait = lustful trait = hedonist } }
+						AND = { is_female = yes trait = homosexual OR = { trait = lustful trait = hedonist } }
+					}
+				}
+			}
+			modifier = {					# - succession law
+				factor = 0.5
+				has_law = statusofwomen_2
+				has_law = agnatic_succession
+			}
+
+			# general decrease chance
+			modifier = {					# - justice lockout
+				factor = 0
+				has_law = statusofwomen_4
+				holder_scope = { trait = just }
+			}
+			modifier = {					# + cynical advantage
+				factor = 2
+				has_law = statusofwomen_4
+				holder_scope = { trait = cynical }
+			}
+			modifier = {					# + fearful woman
+				factor = 2
+				has_law = statusofwomen_4
+				holder_scope = { is_female = yes  trait = craven }
+			}
+			modifier = {
+				factor = 2					# + personal...ahem...reasons
+				has_law = statusofwomen_4
+				holder_scope = {
+					trait = deceitful
+					OR = {
+						AND = { is_female = yes NOT = { trait = homosexual } OR = { trait = lustful trait = hedonist } }
+						AND = { is_female = no trait = homosexual OR = { trait = lustful trait = hedonist } }
+					}
+				}
+			}
+			modifier = {					# - succession law
+				factor = 0.75
+				has_law = statusofwomen_4
+				has_law = true_cognatic_succession
+			}
+
+			# inertia factors
+			modifier = { factor = 10  holder_scope = { trait = lunatic } }
+			modifier = { factor = 1.5 holder_scope = { trait = arbitrary } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.5 } } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.3 } } }
+			modifier = {
+				factor = 0.002	# general slowdown, but hopefully not too much given piety constraints
+				always = yes
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			# piety change calculation and tooltip (application of change has to come later to get tooltip and change to both come out right *sigh*)
+			hidden_tooltip = { holder_scope = { change_variable = { which = "stow_piety3" value = 0 } } }
+
+			if = { limit = { OR = { has_law = statusofwomen_0 has_law = statusofwomen_1 has_law = statusofwomen_2 } }
+				holder_scope = {
+					if = { limit = { religion = jain }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_dec600 } custom_tooltip = { text = statusofwomen_effect_pietyloss_600 } custom_tooltip = { text = statusofwomen_effect_discount25_religion } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_dec300 } custom_tooltip = { text = statusofwomen_effect_pietyloss_300 } custom_tooltip = { text = statusofwomen_effect_discount625_both    } }
+					}
+					if = { limit = { NOT = { religion = jain } }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_dec800 } custom_tooltip = { text = statusofwomen_effect_pietyloss_800 } custom_tooltip = { text = statusofwomen_effect_lf } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_dec400 } custom_tooltip = { text = statusofwomen_effect_pietyloss_400 } custom_tooltip = { text = statusofwomen_effect_discount50_culture     } }
+					}
+				}
+			}
+			if = { limit = { has_law = statusofwomen_4 }
+				holder_scope = {
+					if = { limit = { NOT = { OR = { religion = hindu religion = norse_pagan religion = norse_pagan_reformed religion = tengri_pagan religion = tengri_pagan_reformed } } }
+						if = { limit = { religion = jain }
+							if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc2400 } custom_tooltip = { text = statusofwomen_effect_pietygain_2400 } custom_tooltip = { text = statusofwomen_effect_back_penalty50_religion  } }
+							if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc1200 } custom_tooltip = { text = statusofwomen_effect_pietygain_1200 } custom_tooltip = { text = statusofwomen_effect_back_discount25_both     } }
+						}
+						if = { limit = { NOT = { religion = jain } }
+							if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc1600 } custom_tooltip = { text = statusofwomen_effect_pietygain_1600 } custom_tooltip = { text = statusofwomen_effect_lf }}
+							if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc800  } custom_tooltip = { text = statusofwomen_effect_pietygain_800  } custom_tooltip = { text = statusofwomen_effect_back_discount50_culture } }
+						}
+					}
+					if = { limit = { OR = { religion = hindu religion = norse_pagan religion = norse_pagan_reformed religion = tengri_pagan religion = tengri_pagan_reformed } }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_inc1200 } custom_tooltip = { text = statusofwomen_effect_pietygain_1200 } custom_tooltip = { text = statusofwomen_effect_back_discount25_religion } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_inc600  } custom_tooltip = { text = statusofwomen_effect_pietygain_600  } custom_tooltip = { text = statusofwomen_effect_back_discount625_both    } }
+					}
+				}
+			}
+
+			# effect tooltip
+			custom_tooltip = { text = statusofwomen_effect_spymaster_yes }
+			custom_tooltip = { text = statusofwomen_effect_treasurer_yes }
+			custom_tooltip = { text = statusofwomen_effect_chancellor_yes }
+			custom_tooltip = { text = statusofwomen_effect_marshal_self }
+			holder_scope = {
+				if = { limit = { OR = { religion_group = christian religion_group = pagan_group } }
+					custom_tooltip = { text = statusofwomen_effect_other_yes  }
+				}
+				if = { limit = { religion_group = muslim }
+					custom_tooltip = { text = statusofwomen_effect_other_muslimyes }
+				}
+				if = { limit = { culture = mongol }
+					custom_tooltip = { text = statusofwomen_effect_other_khatunyes }
+				}
+				if = { limit =         { OR = { religion_group = muslim religion = tengri_pagan religion = tengri_pagan_reformed } }   custom_tooltip = { text = statusofwomen_effect_law_high   } }
+				if = { limit = { NOT = { OR = { religion_group = muslim religion = tengri_pagan religion = tengri_pagan_reformed } } } custom_tooltip = { text = statusofwomen_effect_law_medium } }
+			}
+			custom_tooltip = { text = statusofwomen_effect_separator }
+
+			# apply the required changes
+			hidden_tooltip = {
+				holder_scope = {
+					if = {
+						limit = {
+							NOT = { has_character_flag = statusofwomen_eventchange }
+							NOT = { primary_title = { has_law = statusofwomen_3 } }
+						}
+
+						if = { limit = { has_character_flag = stow_piety_dec800 } piety = -800 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec600 } piety = -600 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec400 } piety = -400 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec300 } piety = -300 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec200 } piety = -200 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+
+						if = { limit = { has_character_flag = stow_piety_inc2400 } piety = 2400 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc1600 } piety = 1600 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc1200 } piety = 1200 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc800  } piety =  800 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc600  } piety =  600 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_inc400  } piety =  400 set_character_flag = statusofwomen_changed character_event = { id = StoW.5 days = 1 } }
+					}
+					clr_character_flag = statusofwomen_eventchange
+
+					clr_character_flag = stow_piety_dec800
+					clr_character_flag = stow_piety_dec600
+					clr_character_flag = stow_piety_dec400
+					clr_character_flag = stow_piety_dec300
+					clr_character_flag = stow_piety_dec200
+					clr_character_flag = stow_piety_inc2400
+					clr_character_flag = stow_piety_inc1600
+					clr_character_flag = stow_piety_inc1200
+					clr_character_flag = stow_piety_inc800
+					clr_character_flag = stow_piety_inc600
+					clr_character_flag = stow_piety_inc400
+
+					#set_character_flag = statusofwomen_debug_law3
+					#clr_character_flag = statusofwomen_debug_law0
+					#clr_character_flag = statusofwomen_debug_law1
+					#clr_character_flag = statusofwomen_debug_law2
+					#clr_character_flag = statusofwomen_debug_law4
+				}
+
+				revoke_law = statusofwomen_4
+				revoke_law = statusofwomen_3
+				revoke_law = statusofwomen_2
+				revoke_law = statusofwomen_1
+				revoke_law = statusofwomen_0
+			}
+		}
+	}
+
+	# allow marshal/lead troops
+	statusofwomen_4 = {
+		group = status_of_women
+		church_opinion = -10
+		rel_head_opinion = -30
+		female_dynasty_opinion = 20
+
+		potential = {
+			OR = {
+				# Real conditions
+				holder_scope = {
+					# Audax Validator "." Ignore_1001
+					AND = {
+						NOR = {
+							religion = cathar
+							religion = messalian
+						}
+						is_merchant_republic = no
+						is_patrician = no
+					}
+				}
+				# loading save games may end up with no law, unless we're allowed to set the law we already have
+				has_law = statusofwomen_4
+			}
+		}
+		allow = {
+			custom_tooltip = {
+				text = statusofwomen_allow_notreassertedtradition
+				holder_scope = { NOT = { has_character_flag = statusofwomen_reassertedtradition } }
+			}
+			custom_tooltip = {
+				text = statusofwomen_allow_increase
+				holder_scope = { has_law = statusofwomen_3 }
+			}
+			OR = {
+				hidden_tooltip = { holder_scope = { has_character_flag = statusofwomen_eventchange } }
+				custom_tooltip = {
+					text = statusofwomen_allow_notpreviouslychanged
+					holder_scope = { NOT = { has_character_flag = statusofwomen_changed } }
+				}
+				custom_tooltip = {
+					text = statusofwomen_allow_historicfigure
+					holder_scope = { has_character_flag = statusofwomen_historicfigure }
+				}
+			}
+			holder_scope = {
+				custom_tooltip = {
+					text = statusofwomen_allow_haspiety
+					OR = {
+						trait = lunatic
+						AND = { piety = 600 religion = hindu     culture  = basque }
+						AND = { piety = 600 OR = { religion = norse_pagan  religion = norse_pagan_reformed  } culture  = basque }
+						AND = { piety = 600 OR = { religion = tengri_pagan religion = tengri_pagan_reformed } culture  = basque }
+						AND = { piety = 1200 religion = jain     culture  = basque }
+						AND = { piety = 800  culture  = basque }
+						AND = { piety = 1200  religion = hindu }
+						AND = { piety = 1200 OR = { religion = norse_pagan  religion = norse_pagan_reformed } }
+						AND = { piety = 1200 OR = { religion = tengri_pagan religion = tengri_pagan_reformed } }
+						AND = { piety = 2400 religion = jain }
+						piety = 1600
+					}
+				}
+				independent = yes
+				is_merchant_republic = no
+				is_patrician = no
+				has_law = true_cognatic_succession
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 10		# base
+
+			# lockouts
+			modifier = {
+				factor = 0
+				holder_scope = { OR = { trait = slothful trait = content } }
+			}
+
+			# general increase chance
+			modifier = {					# + justice
+				factor = 1.75
+				has_law = statusofwomen_3
+				holder_scope = { trait = just }
+			}
+			modifier = {					# + zealous about justice
+				factor = 1.75
+				has_law = statusofwomen_3
+				holder_scope = { trait = just trait = zealous }
+			}
+			modifier = {					# + fearless woman
+				factor = 1.75
+				has_law = statusofwomen_3
+				holder_scope = { is_female = yes trait = brave }
+			}
+			modifier = {
+				factor = 1.75				# + personal...ahem...reasons
+				has_law = statusofwomen_3
+				holder_scope = {
+					trait = deceitful
+					OR = {
+						AND = { is_female = no  NOT = { trait = homosexual } OR = { trait = lustful trait = hedonist } }
+						AND = { is_female = yes trait = homosexual OR = { trait = lustful trait = hedonist } }
+					}
+				}
+			}
+
+			# inertia factors
+			modifier = { factor = 10  holder_scope = { trait = lunatic } }
+			modifier = { factor = 1.5 holder_scope = { trait = arbitrary } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.5 } } }
+			modifier = { factor = 1.5 NOT = { holder_scope = { religion_authority = 0.3 } } }
+			modifier = {
+				factor = 0.002	# general slowdown, but hopefully not too much given piety constraints
+				always = yes
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			# piety change calculation and tooltip (application of change has to come later to get tooltip and change to both come out right *sigh*)
+			holder_scope = {
+				if = { limit = { NOT = { OR = { religion = hindu religion = norse_pagan religion = norse_pagan_reformed religion = tengri_pagan religion = tengri_pagan_reformed } } }
+					if = { limit = { religion = jain }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_dec2400 } custom_tooltip = { text = statusofwomen_effect_pietyloss_2400 } custom_tooltip = { text = statusofwomen_effect_penalty50_religion  } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_dec1200 } custom_tooltip = { text = statusofwomen_effect_pietyloss_1200 } custom_tooltip = { text = statusofwomen_effect_discount25_both     } }
+					}
+					if = { limit = { NOT = { religion = jain } }
+						if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_dec1600 } custom_tooltip = { text = statusofwomen_effect_pietyloss_1600 } custom_tooltip = { text = statusofwomen_effect_lf } }
+						if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_dec800  } custom_tooltip = { text = statusofwomen_effect_pietyloss_800  } custom_tooltip = { text = statusofwomen_effect_discount50_culture } }
+					}
+				}
+				if = { limit = { OR = { religion = hindu religion = norse_pagan religion = norse_pagan_reformed religion = tengri_pagan religion = tengri_pagan_reformed } }
+					if = { limit = { NOT = { culture = basque } } hidden_tooltip = { set_character_flag = stow_piety_dec1200 } custom_tooltip = { text = statusofwomen_effect_pietyloss_1200 } custom_tooltip = { text = statusofwomen_effect_discount25_religion } }
+					if = { limit = {         culture = basque }   hidden_tooltip = { set_character_flag = stow_piety_dec600  } custom_tooltip = { text = statusofwomen_effect_pietyloss_600  } custom_tooltip = { text = statusofwomen_effect_discount625_both    } }
+				}
+			}
+
+			# effects tooltip
+			custom_tooltip = { text = statusofwomen_effect_spymaster_yes }
+			custom_tooltip = { text = statusofwomen_effect_treasurer_yes }
+			custom_tooltip = { text = statusofwomen_effect_chancellor_yes }
+			custom_tooltip = { text = statusofwomen_effect_marshal_yes }
+			if = { limit = { holder_scope = { OR = { religion_group = christian religion_group = pagan_group } } }
+				custom_tooltip = { text = statusofwomen_effect_other_yes }
+			}
+			if = { limit = { holder_scope = { religion_group = muslim } }
+				custom_tooltip = { text = statusofwomen_effect_other_muslimyes }
+			}
+			if = { limit = { holder_scope = { culture = mongol } }
+				custom_tooltip = { text = statusofwomen_effect_other_khatunyes }
+			}
+			custom_tooltip = { text = statusofwomen_effect_law_high }
+			custom_tooltip = { text = statusofwomen_effect_separator }
+
+			# actual application of required effects
+			hidden_tooltip = {
+				holder_scope = {
+					if = {
+						limit = {
+							NOT = { has_character_flag = statusofwomen_eventchange }
+							NOT = { primary_title = { has_law = statusofwomen_4 } }
+						}
+
+						if = { limit = { has_character_flag = stow_piety_dec2400 } piety = -2400 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec1600 } piety = -1600 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec1200 } piety = -1200 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec800  } piety =  -800 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec600  } piety =  -600 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+						if = { limit = { has_character_flag = stow_piety_dec400  } piety =  -400 set_character_flag = statusofwomen_changed character_event = { id = StoW.4 days = 1 } }
+					}
+					clr_character_flag = statusofwomen_eventchange
+
+					clr_character_flag = stow_piety_dec2400
+					clr_character_flag = stow_piety_dec1600
+					clr_character_flag = stow_piety_dec1200
+					clr_character_flag = stow_piety_dec800
+					clr_character_flag = stow_piety_dec600
+					clr_character_flag = stow_piety_dec400
+
+					#set_character_flag = statusofwomen_debug_law4
+					#clr_character_flag = statusofwomen_debug_law0
+					#clr_character_flag = statusofwomen_debug_law1
+					#clr_character_flag = statusofwomen_debug_law2
+					#clr_character_flag = statusofwomen_debug_law3
+				}
+
+				revoke_law = statusofwomen_4
+				revoke_law = statusofwomen_3
+				revoke_law = statusofwomen_2
+				revoke_law = statusofwomen_1
+				revoke_law = statusofwomen_0
+			}
+		}
+	}
+}

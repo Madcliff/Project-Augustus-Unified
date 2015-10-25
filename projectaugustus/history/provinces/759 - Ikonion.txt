@@ -17,7 +17,7 @@ b_isauria = castle
 #b_sauatra = castle
 
 # Misc
-culture = greek
+culture = cappadocian
 religion = orthodox
 
 # History

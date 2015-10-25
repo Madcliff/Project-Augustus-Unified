@@ -1,0 +1,23 @@
+630.1.1 = {
+	holder = 1000153017
+	liege = k_france
+}
+658.1.1 = {
+	holder = 1000153019
+}
+676.1.1 = {
+	holder = 0
+	liege = 0
+}
+933.1.1={
+	liege="k_france"
+	holder = 6444 #Hugues I le Grand
+}
+# 1337.1.1=
+# {
+	# liege="k_france"
+# }
+# 1337.1.1=
+# {
+	# holder=455500
+# }

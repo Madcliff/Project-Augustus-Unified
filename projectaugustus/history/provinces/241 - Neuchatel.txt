@@ -16,11 +16,11 @@ b_stimier = temple
 #b_murten = castle
 
 # Misc
-culture = rhaetian
+culture = rhaeto_roman
 religion = catholic
 
 # History
 
-900.1.1 = {
-culture = romansh
+800.1.1 = { 
+	culture = german
 }

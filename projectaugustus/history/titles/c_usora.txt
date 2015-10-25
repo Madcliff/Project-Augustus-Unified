@@ -1,8 +1,19 @@
-337.1.1={
-    de_jure_liege = "d_croatia"
+470.1.1={
+	liege="k_ostrogoth"
+}
+600.1.1 = {
+	holder = 1000251201
+	liege = d_croatia
+}
+632.1.1 = {
+	holder = 1000251204
+}
+660.1.1 = {
+	holder = 0
 }
 745.1.1={
 	liege = "d_croatia"
+        de_jure_liege = "d_croatia"
 	holder=146005
 }
 758.1.1={

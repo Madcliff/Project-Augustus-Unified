@@ -1,0 +1,15 @@
+namespace = MROA
+
+# When Karaite is reformed
+on_reform_religion = {
+	events = {
+		MROA.100
+	}
+}
+
+# When Rabbinic Judaism is reformed
+on_reform_religion = {
+	events = {
+		MROA.101
+	}
+}

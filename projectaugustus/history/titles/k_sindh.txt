@@ -1,3 +1,6 @@
+620.1.1 = {
+	holder = 188564991 
+}
 711.1.1={
 	liege=e_sunni
 }
@@ -7,7 +10,7 @@
 
 768.1.1={
 	holder=188533 # Hisham ibn 'Amr al-Taghlibi
-        set_tribute_suzerain = { who = e_sunni percentage = 0.10 }
+        set_tribute_suzerain = { who = e_sunni percentage = 0.40 }
         liege = 0
 }
 

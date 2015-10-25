@@ -1,5 +1,18 @@
-330.1.1={
+
+400.1.1=
+{
+	liege="d_thrace"
+}
+473.1.2=
+{
+	holder=1428110
+}
+625.1.1 = {
+	holder = 1000257313
 	liege="d_adrianopolis"
+}
+660.1.1 = {
+	holder = 0
 }
 765.1.1={
 	holder=145798

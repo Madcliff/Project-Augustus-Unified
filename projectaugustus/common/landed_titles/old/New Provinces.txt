@@ -1,0 +1,466 @@
+k_sogdiana = {
+		color = { 150 18 1 }
+		color2={ 255 255 255 }
+		
+		capital	= 903 # Khiva
+		culture = sogdia
+		
+		tengri_pagan_reformed = 50
+		zoroastrian_group = 700 # Crusade target weight
+
+		d_samarkand = {
+			color={ 155 170 132 }
+			color2={ 255 255 255 }
+			
+			capital = 903 # Samarkand
+			
+			c_samarkand = {
+				color={ 157 201 100 }
+				color2={ 255 255 255 }
+				
+				b_afrasiyab = {
+				}
+				b_samarkand = {
+				}
+				b_khokand = {
+				}
+				b_urgut = {
+				}
+				b_koshrabot = {
+				}
+				b_ishtikhon = {
+				}
+				b_ziadin = {
+				}
+				b_laish = {
+				}
+			}
+			
+			c_oshrusana = {
+				color={ 112 217 30 }
+				color2={ 255 255 255 }
+				
+				b_banjikat = {
+				}
+				b_khujand = {
+				}
+				b_oshrusana = {
+				}
+				b_isfana = {
+				}
+				b_kurkat = {
+				}
+				b_nau = {
+				}
+				b_bekobod = {
+				}
+			}
+			
+			c_khuttal = {
+				color={ 175 110 50 }
+				color2={ 255 255 255 }
+				
+				b_munjan = {}
+				b_jauz_gun = {}
+				b_taloqan = {}
+				b_jurm = {}
+				b_dushanbe = {}
+				b_kulob = {}
+				b_vakash = {}
+			}
+			c_fergana = {
+				color={ 90 171 30 }
+				color2={ 255 255 255 }
+				
+				b_fergana = {}
+				b_khavakend = {}
+				b_namangan = {}
+				b_osh = {}
+				b_andijan = {}
+				b_margilan = {}
+				b_rishton = {}
+				b_uzkand = {} # Aka Mavarannahr. Today Uzgen.
+			}
+		}
+
+		d_dushanbe = {
+			color={ 175 110 182 }
+			color2={ 255 255 255 }
+			
+			capital = 1530 # Samarkand
+			
+			c_osh = {
+				color={ 75 108 28 }
+				color2={ 255 255 255 }
+				
+				b_uzgen = { }
+				b_aravan = { }
+				b_nookat = { }
+				b_alay = { }
+			}
+		
+			c_batken = {
+				color={ 17 25 30 }
+				color2={ 255 255 255 }			
+			
+				b_chauvay = { }
+				b_leilik = { }
+				b_kadamjay = { }
+			}
+				
+			c_dushanbe = {
+				color={ 175 108 128 }
+				color2={ 255 255 255 }
+				
+				b_samani = { }
+				b_mansur = { }
+				b_avicenna = { }	
+			}
+		}
+		d_nuristan = {
+			capital = 1528
+			color={ 175 11 18 }
+			color2={ 255 255 255 }
+		
+			c_gorno = {	
+				color={ 175 10 12 }
+				color2={ 255 255 255 }
+
+				b_khorugh = { }
+				b_darwaz = { }
+				b_tashkorgan = { }
+			}
+			
+			c_badakhshan = {
+				color={ 15 20 142 }
+				color2={ 255 255 255 }
+				
+				b_rushan = { }
+				b_pamir = { }
+				b_gharm  = { }
+			}
+			c_nuristan = {
+				color={ 170 15 10 }
+				color2={ 255 255 255 }	
+				
+				b_parun = { }
+				b_mandol = { }
+				b_chapa = { }
+			}
+		}
+	}	
+
+	k_nepal = {
+		color = { 4 160 40 }
+		color2={ 255 255 255 }
+		
+		capital = 1536
+		
+		d_kathmandu = {
+			color = { 4 16 4 }
+			color2={ 255 255 255 }
+			
+			capital = 1536
+		
+			c_kathmandu = {
+				color = { 59 220 35 }
+				color2={ 255 255 255 }
+				
+				b_lalitpur = { }
+				b_kirtipur = { }
+				b_madhyapur = { }
+				b_bhaktapur = { }
+				b_thimi = { }
+			}
+			c_mithilia = {
+				color = { 59 220 85 }
+				color2={ 255 255 255 }
+				
+				b_jankapur = { }
+				b_janaki = { }
+				b_videha = { }
+			}
+			c_triyuga = {
+			
+				color = { 59 20 85 }
+				color2={ 255 255 255 }
+				
+				b_khotang = { }
+				b_saptari = { }
+				b_siraha = { }
+				b_udayapur = { }
+			}
+		}
+		d_lumbini = {
+			color = { 40 6 4 }
+			color2={ 255 255 255 }
+			
+			capital = 1535
+			
+			c_lumbini = {
+				color = { 30 60 4 }
+				color2={ 255 255 255 }	
+			
+				b_gulmi = { }
+				b_arghakhanchi = { }
+				b_kapilvastu = { }
+				b_palpa = { }
+				b_rupandehi = { }
+			}
+			c_tikapur = {
+				color = { 30 62 49 }
+				color2={ 255 255 255 }	
+				
+				b_achham = { }
+				b_bajhangi = { }
+				b_doti = { }
+				b_kailali = { }
+			}
+			c_katti = {
+				color = { 55 15 35 }
+				color2={ 255 255 255 }
+				
+				b_karnali = { }
+				b_bheri = { }
+				b_rapti = { }
+			}
+		}
+	}
+	e_tibet= {
+		color = { 14 10 40 }
+		color2={ 255 255 255 }
+		
+		capital = 1583
+		
+		k_amdo = {
+			color = { 140 10 40 }
+			color2={ 255 255 255 }			
+			
+			capital = 1577
+			
+				d_amdo = {
+					color = { 140 10 40 }
+					color2={ 255 255 255 }	
+					
+					capital = 1577
+						
+						c_amdo = {
+							color = { 1 5 50 }
+							
+							b_amdo = { }
+							b_zharen = { }
+							b_yanshiping = { }
+							b_qangma = { }
+						}
+						
+						c_shuanghu = {
+							color = { 2 100 30 }
+							
+							b_shuanghu = { }
+							b_pana = { }	
+							b_cuoma = { }
+						}
+						c_nyima = {
+							color = { 30 241 212 }
+							
+							b_nyima = { }
+							b_wylie = { }
+							b_nima = { }
+						}
+						c_xainza = {
+							color = { 300 241 212 }
+							
+							b_xainza = { }
+							b_maryo = { }
+							b_mepa = { }
+						}
+						c_baingoin = {
+							color = { 300 21 212 }
+							
+							b_baingoin = { }
+							b_bella = { }
+							b_qinglung = { }						
+						}
+						c_nagqu = {
+							color = { 300 21 212 }
+							
+							b_nagqu = { }
+							b_lhomar = { }
+							b_golug = { }
+							b_shamong = { }
+						}
+						c_lhari = {
+							color = { 245 45 33 }
+							
+							b_lhari = { }
+							b_arza = { }
+							b_lingti = { }
+						}
+						c_baqen = {
+							color = { 321 123 300 }
+							
+							b_baqen = { }
+							b_rdzong = { }
+						}
+					}
+				}
+					
+					k_kham = {
+						color = { 50 80 111 }
+						
+						capital = 1583
+						
+						d_lhasa = {
+							color = { 9 19 90 }
+						
+							capital = 1583
+							
+							c_lhasa = {
+								color = { 50 30 10 }
+								
+								b_lhasa = { }
+								b_dagze = { }
+								b_damxung = { }
+								b_nyemo = { }
+								b_quxu = { }
+								b_lhunzhub = { }
+							}
+							c_lhunze = {
+								color = { 60 40 10 }
+								
+								b_lhunze = { }
+								b_yumai = { }
+								b_longzi = { }
+								b_sangngagqoiling = { }
+							}
+							c_lhozhag = {
+								color = { 100 80 90 }
+								
+								b_lhozhag = { }
+								b_luozha = { }
+								b_nub_qu = { }
+							}
+						}
+						d_xigaze = {
+							color = { 50 40 10 }
+							
+							capital = 1574
+							
+							c_namling = {
+								color = { 180 210 333 }
+								
+								b_namling = { }
+								b_doqoi = { }
+								b_tobgyai = { }
+								b_rindu = { }
+							}
+							c_xaitongmoin = {
+								color = { 90 10 30 }
+							
+								b_xaitongmoin = { }
+								b_namoqe = { }
+								b_qingtu = { }
+							}
+							c_ngamring = {
+								color = { 50 10 40 }
+								
+								b_ngamring = { }
+								b_yagmo = { }
+								b_dobe = { }
+							}
+							
+							c_bainang = { 
+								color = { 200 50 100 }
+								
+								b_bainang = { }
+								b_gadong = { }
+								b_norbu = { }
+							}
+							c_lhatse = {
+								color = { 90 40 100 }
+								
+								b_lhatse = { }
+								b_quxar = { }
+								b_xiqen = { }
+							}
+							c_samzhubze = {
+								color = { 10 33 219 }
+								
+								b_samzhubze = { }
+								b_qurnig = { }
+								b_nar = { }
+								b_nyamo = { }
+								b_lhain = { }
+							}
+							c_dinggye = {
+								color = { 50 111 221 }
+								
+								b_dinggye = { }
+								b_riog = { }
+								b_chentang = { }
+							}
+							c_nyalam = {
+								color = { 50 300 100 }
+								
+								b_nyalam = { }
+								b_dram = { }
+								b_yarleb = { }
+							}
+						}
+					}
+				}
+			
+	
+	k_kashmir = {
+		color = { 40 1 40 }
+		color2={ 255 255 255 }
+		
+		capital = 1549
+		
+		d_jammu = {
+				color = { 85 15 25 }
+				color2={ 255 255 255 }
+				
+				capital = 1549
+				
+				c_jammu = {
+					color = { 5 5 5 }
+					color2={ 255 255 255 }
+				
+					b_jambupora = { }
+					b_jambunagar = { }
+					b_pathankot = { }
+					b_sialkot = { }
+					b_tawi = { }
+					b_bahu = { }
+				}
+				
+				c_kathua = {
+					color = { 50 45 65 }
+					color2={ 255 255 255 }				
+				
+					b_bani = { }
+					b_barnoti = { }
+					b_basholi = { }
+					b_billawar = { }
+					b_duggan = { }
+				}
+				
+				c_doda = {
+					color = { 75 35 95 }
+					color2={ 255 255 255 }	
+					
+					b_kishtwar = { }
+					b_bhaderwah = { }
+					b_deeda = { }
+				}
+				c_mandi = {
+					color = { 125 3 95 }
+					color2={ 255 255 255 } 
+					
+					b_mandav = { }
+					b_nagar = { }
+					b_sahor = { }
+				}
+			}
+		}

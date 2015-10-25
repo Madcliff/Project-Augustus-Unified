@@ -1,0 +1,21 @@
+temple = {
+	wawel_cathedral = {
+		desc = wawel_desc
+		potential = {
+			FROM = { religion_group = christian }
+			FROM = { culture = polish }
+			FROMFROM = { title = b_jedrzejow }
+		}
+		trigger = { TECH_TEMPLE_CONSTRUCTION = 2 }
+		build_cost = 1000
+		build_time = 1460 #4 years
+
+		levy_size = 0.20
+		garrison_size = 0.25
+		ai_creation_factor = 96
+		add_number_to_name = no
+		liege_piety = 0.20
+		monthly_character_prestige = 0.2
+		monthly_charecter_piety = 0.2
+	}
+}

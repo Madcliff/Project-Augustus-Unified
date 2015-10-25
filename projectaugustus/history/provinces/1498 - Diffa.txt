@@ -1,0 +1,17 @@
+# 942 - Diffa
+
+# County Title
+title = c_diffa
+
+# Settlements
+max_settlements = 2
+b_diffa = castle
+#b_chetimari = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

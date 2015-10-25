@@ -17,7 +17,7 @@ b_hamath = temple
 
 # Misc
 culture = aramean 
-religion = orthodox
+religion = syriac
 
 # History
 1016.1.1 = { religion = sunni }

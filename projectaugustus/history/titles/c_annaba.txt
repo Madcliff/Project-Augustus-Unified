@@ -1,3 +1,15 @@
+470.1.1=
+{ 
+liege=k_africa
+}
+610.1.1 = {
+	holder=1000257343 
+	liege=k_africa
+}
+698.1.1 = {
+	owner=0
+	liege=0
+}
 767.1.1={	
 	liege = d_kabylia
 	holder = 210035

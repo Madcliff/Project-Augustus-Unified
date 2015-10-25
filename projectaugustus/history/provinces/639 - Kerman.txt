@@ -17,8 +17,14 @@ b_kerman = temple
 
 # Misc
 culture = persian
-religion = kharijite
+religion = zoroastrian
 
 # History
 
-850.1.1 = { religion = sunni }
+632.1.1 = {
+	culture = parthian
+}
+
+700.1.1 = {
+	culture = persian
+}

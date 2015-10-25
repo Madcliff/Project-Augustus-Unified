@@ -1,0 +1,15 @@
+
+# County Title
+title = c_sabha
+
+# Settlements
+max_settlements = 2
+b_sabha = castle
+
+
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

@@ -1,0 +1,9 @@
+
+
+rabbinic = {
+	icon = 1
+}
+
+karaite = {
+	icon = 1
+}

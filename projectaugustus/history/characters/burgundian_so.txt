@@ -1,0 +1,234 @@
+37500 = {
+	name="Gundahar"
+	dynasty=30
+	religion="arian"
+	culture="german"
+	368.1.1 = {
+		birth="368.1.1"
+	}
+	389.1.1 = {
+		add_spouse=37501
+	}
+	437.1.1 = {
+		death="437.1.1"
+	}
+}
+37501 = {
+	name="Brynhild"
+	dynasty=30
+	female = yes
+	religion="arian"
+	culture="german"
+	372.1.1 = {
+		birth="372.1.1"
+	}
+	412.1.1 = {
+		death="412.1.1"
+	}
+}
+37502 = {
+	name="Gondioc"
+	dynasty=30
+	religion="arian"
+	culture="german"
+	father=37500
+	mother=37501
+	394.1.1 = {
+		birth="394.1.1"
+	}
+	473.1.1 = {
+		death="473.1.1"
+	}
+}
+37503 = {
+	name="Chilperic"
+	dynasty=30
+	martial=5
+	diplomacy=6
+	intrigue=5
+	stewardship=5
+	religion="arian"
+	culture="german"
+	father=37500
+	mother=37501
+	add_trait="weak"
+	add_trait="misguided_warrior"
+	398.1.1 = {
+		birth="398.1.1"
+	}
+	480.1.1 = {
+		death="480.1.1"
+	}
+}
+37504 = {
+	name="Gundobad"
+	dynasty=30
+	martial=7
+	diplomacy=7
+	intrigue=5
+	stewardship=8
+	religion="arian"
+	culture="german"
+	father=37502
+	add_trait="scholar"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="just"
+	add_trait="charismatic_negotiator"
+	452.1.1 = {
+		birth="452.1.1"
+	}
+	473.1.1 = {
+		add_claim="d_liguria"
+	}
+	473.1.2 = {
+		add_claim="k_burgundy"
+	}
+	516.1.1 = {
+		death="516.1.1"
+	}
+}
+37505 = {
+	name="Chilperic"
+	dynasty=30
+	martial=5
+	diplomacy=6
+	intrigue=4
+	stewardship=7
+	religion="arian"
+	culture="german"
+	father=37502
+	add_trait="trusting"
+	add_trait="kind"
+	add_trait="naive_appeaser"
+	450.1.1 = {
+		birth="450.1.1"
+	}
+	493.1.1 = {
+		death="493.1.1"
+	}
+}
+37506 = {
+	name="Gundomar"
+	dynasty=30
+	martial=6
+	diplomacy=5
+	intrigue=6
+	stewardship=6
+	religion="arian"
+	culture="german"
+	father=37502
+	add_trait="shy"
+	add_trait="indulgent_wastrel"
+	453.1.1 = {
+		birth="453.1.1"
+	}
+	486.1.1 = {
+		death="486.1.1"
+	}
+}
+37507 = {
+	name="Godegisel"
+	dynasty=30
+	martial=7
+	diplomacy=7
+	intrigue=5
+	stewardship=8
+	religion="arian"
+	culture="german"
+	father=37502
+	add_trait="patient"
+	add_trait="paranoid"
+	add_trait="flamboyant_schemer"
+	454.1.1 = {
+		birth="454.1.1"
+	}
+	500.1.1 = {
+		death="500.1.1"
+	}
+}
+37508 = {
+	name="Chroma"
+	dynasty=30
+	female=yes
+	martial=4
+	diplomacy=6
+	intrigue=4
+	stewardship=7
+	religion="orthodox"
+	culture="german"
+	father=37505
+	add_trait="zealous"
+	add_trait="celibate"
+	add_trait="detatched_priest"
+	473.1.1 = {
+		birth="473.1.1"
+	}
+	535.1.1 = {
+		death="535.1.1"
+	}
+}
+37509 = {
+	name="Clotilda"
+	dynasty=30
+	female=yes
+	martial=3
+	diplomacy=8
+	intrigue=8
+	stewardship=10
+	religion="orthodox"
+	culture="german"
+	father=37505
+	add_trait="zealous"
+	add_trait="fair"
+	add_trait="martial_cleric"
+	474.1.1 = {
+		birth="474.1.1"
+	}
+	535.1.1 = {
+		death="535.1.1"
+	}
+}
+37510 = {
+	name="Sigismund"
+	dynasty=30
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="arian"
+	culture="german"
+	father=37504
+	add_trait="poet"
+	add_trait="zealous"
+	add_trait="just"
+	add_trait="martial_cleric"
+	471.1.1 = {
+		birth="471.1.1"
+	}
+	500.1.2 = {
+		religion=orthodox
+	}
+	523.1.1 = {
+		death="523.1.1"
+	}
+}
+37511 = {
+	name="Godomar"
+	dynasty=30
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	religion="arian"
+	culture="german"
+	father=37504
+	add_trait="craven"
+	add_trait="naive_appeaser"
+	474.1.1 = {
+		birth="474.1.1"
+	}
+	532.1.1 = {
+		death="532.1.1"
+	}
+}

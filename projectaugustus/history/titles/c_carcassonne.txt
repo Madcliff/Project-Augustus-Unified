@@ -1,3 +1,21 @@
+469.1.1 = {
+	liege = "k_visigoth"
+}
+
+
+593.1.1 = {
+	holder = 200254
+	liege=d_gothia
+}
+639.12.20 = {
+	holder = 200255
+}
+642.4.16 = {
+	holder = 200248
+}
+688.1.1 = {
+	holder = 1000215035
+}
 740.1.1 = {
 	liege=k_austrasia
 	holder=91475 #ADELARD, count of Cavalonensis (Languedoc)

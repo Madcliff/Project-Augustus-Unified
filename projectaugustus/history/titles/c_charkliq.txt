@@ -1,9 +1,18 @@
+470.1.1 = {
+	holder = 1000256130 
+}
+620.1.1 = {
+	liege = e_protectorate
+}
 720.1.1 = {
-	liege = d_kumul
 	holder = 166742
+	liege=0
 }
 764.1.1 = {
 	holder = 166743
+}
+790.1.1 = {
+		liege = d_kumul
 }
 796.1.1 = {
 	holder = 166745

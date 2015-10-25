@@ -17,11 +17,14 @@ b_kula = city
 #b_kucevo = castle
 
 # Misc
-culture = bolghar
-religion = tengri_pagan
+culture = thracian
+religion = orthodox
 
 # History
 
+680.1.1 = {
+	culture = bolghar
+	religion = tengri_pagan
 820.1.1 = {
         culture = bulgarian
 }

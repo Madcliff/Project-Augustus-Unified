@@ -19,8 +19,13 @@ b_ochakiv = tribal
 #b_nikolayev = castle
 
 # Misc
-culture = hungarian
+culture = bolghar
 religion = tengri_pagan
+
+# History
+740.1.1 = { 
+	culture = hungarian
+}
 
 # History
 

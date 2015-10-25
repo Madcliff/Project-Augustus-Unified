@@ -1,5 +1,27 @@
+20.1.1 = {
+	historical_nomad = yes
+}
+480.1.1 = {
+	holder = 1000258132
+}
+521.1.1 = {
+	holder = 1000258133
+}
+556.1.1 = {
+	holder = 1000258134
+}
+597.1.1 = {
+	holder = 1000258135
+}
+629.1.1 = {
+	holder = 1000258136
+}
+633.1.1 = {
+	holder = 0
+}
+
 760.1.1={
-	liege=e_sunni
+	set_tribute_suzerain = { who = e_sunni percentage = 0.40 }
 	holder=188612 # Qutham Abbasid
 }
 
@@ -18,7 +40,7 @@ holder=74041
 holder=34507
 }
 1084.1.1=
-{
+{tru
 holder=34508
 }
 1110.1.1=

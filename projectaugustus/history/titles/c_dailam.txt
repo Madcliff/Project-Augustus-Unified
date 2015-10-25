@@ -1,3 +1,16 @@
+470.1.1 = {
+	holder=180624 # Peroz I
+}
+224.1.1={
+	liege="e_persia"
+}
+605.1.1 = {
+	holder = 1000254563
+	liege = d_daylam
+}
+641.1.1 = {
+	holder = 0
+}
 768.1.1={
 	liege="d_mazandaran"
 	holder = 160291 

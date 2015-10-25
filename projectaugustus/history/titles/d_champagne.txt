@@ -1,6 +1,20 @@
-100.1.1={
-	liege=k_neustria
+#100.1.1={
+#	liege=k_neustria
+#}
+100.1.1 = {
+	liege = "k_france"
+	name = "Novus Campania"
+	adjective = "Campanian"
 }
+610.1.1 = {
+	holder = 1000153007
+}
+641.1.1 = {
+	holder = 0
+	reset_name = yes
+	reset_adjective = yes
+}
+
 #House of Arnulfing
 690.1.1={
 	holder=131719 

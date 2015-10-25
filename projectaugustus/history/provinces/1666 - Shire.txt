@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_shire
+# Settlements
+max_settlements = 4
+b_shire = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

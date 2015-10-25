@@ -1,0 +1,216 @@
+# The English Melting Pot
+character_event = {
+	id = ANI.999991
+	desc = "EVTDESCANI.55002"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1100
+		culture = english
+		primary_title = {
+			title = k_ireland
+		}
+		any_demesne_province = {
+			culture = irish
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "ANI.EVTOPTA55002"
+		culture = anglo_irish
+		random_demesne_province = {
+			limit = {
+				culture = irish
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = anglo_irish
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = ANI.2
+	desc = "EVTDESCANI.55003"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1100
+		culture = anglonorse
+		any_demesne_province = {
+			OR = {
+				culture = irish
+				culture = english
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTA55003"
+		random_demesne_province = {
+			limit = {
+				OR = {	
+					culture = english
+					culture = irish
+				}
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = anglo_irish
+		}
+	}
+}
+
+#Make my court speak English
+character_event = {
+	id = ANI.3
+	desc = "EVTDESCANI.55004"
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+
+	trigger = {
+		year = 1100
+		culture = anglo_irish
+		independent = no
+		top_liege = {
+			primary_title = {
+				title = k_ireland
+			}
+		}
+		any_courtier = {
+			OR = {
+				culture = english
+				culture = irish
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTAANI.55004"
+		random_courtier = {
+			limit = {
+				OR = {	
+					culture = english
+					culture = irish
+				}
+			}
+			culture = anglo_irish
+			hidden_tooltip = {
+				character_event = { id = ANI.5 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak English
+character_event = {
+	id = ANI.4
+	desc = "EVTDESCANI.55005"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1100
+		culture = anglo_irish
+		independent = no
+		top_liege = {
+			primary_title = {
+				title = k_ireland
+			}
+		}
+		any_vassal = {
+			OR = {
+				culture = english
+				culture = irish
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTAANI.55005"
+		random_vassal = {
+			limit = {
+				OR = {	
+					culture = english
+					culture = irish
+				}
+			}
+			culture = anglo_irish
+			hidden_tooltip = {
+				character_event = { id = ANI.5 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = ANI.5
+	desc = "EVTDESCANI.55006"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTAANI.55006"
+		culture = anglo_irish
+	}
+}

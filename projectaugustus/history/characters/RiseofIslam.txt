@@ -1,0 +1,5936 @@
+#Rise of Islam
+
+# Mod Characters
+# Alan: 1.000.250.000 - 1.000.250.099
+1000250000 = {
+	name="Ella"
+	dynasty=1000124441
+	culture = alan
+	religion = arian
+	590.1.1 = {
+		birth = yes
+	}
+	654.1.1 = {
+		death = yes
+	}
+}
+
+1000250001 = {
+	name="Ardabur"
+	dynasty = 1000124477
+	culture = alan
+	religion = arian
+	390.1.1 = {
+		birth = yes
+	}
+	459.1.1 = {
+		death = yes
+	}
+}
+
+1000250002 = {
+	name="Aspar"
+	dynasty = 1000124477
+	culture = alan
+	religion = arian
+	father = 1000250001
+	407.1.1 = {
+		birth = yes
+	}
+	459.1.1 = {
+		add_spouse = 1000256814
+	}
+	471.1.1 = {
+		death = yes
+	}
+}
+
+# Mod Characters
+# Aramean 1.000.257.900 - 1.000.257.999
+1000257900 = {
+	name = Taddeus
+	dynasty = 1000124525
+	culture = aramean
+	religion = monophysite
+	590.1.1 = {
+		birth = yes
+	}
+	653.1.1 = {
+		death = yes
+	}
+}
+1000257901 = {
+	name = Petros
+	dynasty = 1000124526
+	culture = aramean
+	religion = orthodox
+	600.1.1 = {
+		birth = yes
+	}
+	637.1.1 = {
+		death = yes
+	}
+}
+1000257902 = {
+	name = Benyamin
+	dynasty = 1000124527
+	culture = aramean
+	religion = jewish
+	587.1.1 = {
+		birth = yes
+	}
+	628.3.1 = {
+		religion = orthodox
+	}
+	639.1.1 = {
+		death = yes
+	}
+}
+1000257903 = {
+	name = Hazar
+	dynasty = 1000124529
+	culture = aramean
+	religion = orthodox
+	600.1.1 = {
+		birth = yes
+	}
+	637.1.1 = {
+		religion = sunni
+	}
+	667.1.1 = {
+		death = yes
+	}
+}
+1000257904 = {
+	name = Haddad
+	dynasty = 1000124529
+	father = 1000257903
+	culture = aramean
+	religion = orthodox
+	621.1.1 = {
+		birth = yes
+	}
+	637.1.1 = {
+		religion = sunni
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+
+# Mod Characters
+# Armenian: 1.000.250.200 - 1.000.250.299
+
+1000250200 = {
+	name = "Vasak"
+	dynasty = 101743
+	religion = "orthodox"
+	culture = "armenian"
+	father = 41554
+	982.1.1 = {
+		birth = "982.1.1"
+	}
+	1019.1.1 = {
+		death = "1019.1.1"
+	}
+}
+
+1000250201 = {
+	name = "Isaac"
+	dynasty = 1029099
+	mother = 159931
+	culture = armenian
+	religion = miaphysite
+	590.1.1 = {
+		birth = yes
+	}
+	645.1.1 = {
+		death = yes
+	}
+}
+
+1000250202 = {
+	name = "Valentinos"
+	dynasty = 1000124516
+	culture = armenian
+	religion = orthodox
+	599.1.1 = {
+		birth = yes
+	}
+	644.1.1 = {
+		death = yes
+	}
+}
+
+1000250203 = {
+	name = "Atat"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	360.1.1 = {
+		birth = yes
+	}
+	427.1.1 = {
+		death = yes
+	}
+}
+
+1000250204 = {
+	name = "Atom"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250203
+	390.1.1 = {
+		birth = yes
+	}
+	448.1.1 = {
+		death = yes
+	}
+}
+
+1000250205 = {
+	name = "Vahan"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250204
+	430.1.1 = {
+		birth = yes
+	}
+	474.1.1 = {
+		death = yes
+	}
+}
+
+1000250206 = {
+	name = "Atom"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250205
+	450.1.1 = {
+		birth = yes
+	}
+	502.1.1 = {
+		death = yes
+	}
+}
+
+1000250207 = {
+	name = "Arastom"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250205
+	460.1.1 = {
+		birth = yes
+	}
+	516.1.1 = {
+		death = yes
+	}
+}
+
+1000250208 = {
+	name = "Mzhezh"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250207
+	490.1.1 = {
+		birth = yes
+	}
+	548.1.1 = {
+		death = yes
+	}
+}
+
+1000250209 = {
+	name = "Gushnasp"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250208
+	515.1.1 = {
+		birth = yes
+	}
+	578.1.1 = {
+		death = yes
+	}
+}
+
+1000250210 = {
+	name = "Vachagan"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250209
+	535.1.1 = {
+		birth = yes
+	}
+	593.1.1 = {
+		death = yes
+	}
+}
+
+1000250211 = {
+	name = "Varazdat"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250210
+	555.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+
+1000250212 = {
+	name = "Mzhezh"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250211
+	584.1.1 = {
+		birth = yes
+	}
+	638.1.1 = {
+		death = yes
+	}
+}
+
+1000250213 = {
+	name = "Mzhezh"
+	dynasty = 1000124521
+	culture = armenian
+	religion = miaphysite
+	father = 1000250212
+	610.1.1 = {
+		birth = yes
+	}
+	669.1.1 = {
+		death = yes
+	}
+}
+
+1000250214 = {
+	name = "Bat"
+	dynasty = 1000124522
+	culture = armenian
+	religion = miaphysite
+	380.1.1 = {
+		birth = yes
+	}
+	445.1.1 = {
+		death = yes
+	}
+}
+
+1000250215 = {
+	name = "Karen"
+	dynasty = 1000124522
+	culture = armenian
+	religion = miaphysite
+	father = 1000250214
+	410.1.1 = {
+		birth = yes
+	}
+	476.1.1 = {
+		death = yes
+	}
+}
+
+1000250216 = {
+	name = "Qadchadch"
+	dynasty = 1000124522
+	culture = armenian
+	religion = miaphysite
+	father = 1000250215
+	440.1.1 = {
+		birth = yes
+	}
+	501.1.1 = {
+		death = yes
+	}
+}
+
+1000250217 = {
+	name = "Vachagan"
+	dynasty = 1000124522
+	culture = armenian
+	religion = miaphysite
+	father = 1000250216
+	480.1.1 = {
+		birth = yes
+	}
+	543.1.1 = {
+		death = yes
+	}
+}
+
+1000250218 = {
+	name = "Davit"
+	dynasty = 1000124522
+	culture = armenian
+	religion = miaphysite
+	father = 1000250217
+	515.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+
+1000250219 = {
+	name = "Karen"
+	dynasty = 1000124522
+	culture = armenian
+	religion = miaphysite
+	father = 1000250218
+	540.1.1 = {
+		birth = yes
+	}
+	606.1.1 = {
+		death = yes
+	}
+}
+
+1000250220 = {
+	name = "Davit"
+	dynasty = 1000124522
+	culture = armenian
+	religion = miaphysite
+	father = 1000250219
+	590.1.1 = {
+		birth = yes
+	}
+	646.1.1 = {
+		death = yes
+	}
+}
+
+1000250223 = {
+	name = "Jalinos"
+	dynasty = 1000124550
+	culture = armenian
+	religion = zoroastrian
+	590.1.1 = {
+		birth = yes
+	}
+	636.1.1 = {
+		death = yes
+	}
+}
+
+
+1000250003 = {
+	name="Ardabur"
+	dynasty = 1000124477
+	culture = alan
+	religion = arian
+	father = 1000250002
+	435.1.1 = {
+		birth = yes
+	}
+	471.1.1 = {
+		death = yes
+	}
+}
+
+1000250004 = {
+	name="Julius Patricius"
+	dynasty = 1000124477
+	culture = alan
+	religion = arian
+	father = 1000250002
+	436.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		religion = orthodox
+	}
+	490.1.1 = {
+		death = yes
+	}
+}
+
+1000250005 = {
+	name="Ermanaric"
+	dynasty = 1000124477
+	culture = alan
+	religion = arian
+	father = 1000250002
+	mother = 1000256814
+	460.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+1000250006 = {
+	name="Boz"
+	dynasty = 1000124505
+	culture = alan
+	religion = tengri_pagan
+	590.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+
+1000250007 = {
+	name="Buriberdi"
+	dynasty = 1000124505
+	culture = alan
+	religion = tengri_pagan
+	father = 1000250006
+	608.1.1 = {
+		birth = yes
+	}
+	665.1.1 = {
+		death = yes
+	}
+}
+
+##Begin mod characters
+1000250300 = {
+	name = Dengizikh
+	dynasty = 1000124493
+	religion = tengri_pagan
+	culture = avar
+	480.1.1 = {
+		birth = yes
+	}
+	554.1.1 = {
+		death = yes
+	}
+}
+
+1000250301 = {
+	name = Kandik
+	dynasty = 1000124493
+	religion = tengri_pagan
+	culture = avar
+	father = 1000250300
+	502.1.1 = {
+		birth = yes
+	}
+	559.1.1 = {
+		death = yes
+	}
+}
+
+1000250302 = {
+	name = Zabergan
+	dynasty = 1000124493
+	religion = tengri_pagan
+	culture = avar
+	father = 1000250301
+	522.1.1 = {
+		birth = yes
+	}
+	562.1.1 = {
+		death = yes
+	}
+}
+
+1000250303 = {
+	name = Bayan
+	dynasty = 1000124493
+	religion = tengri_pagan
+	culture = avar
+	father = 1000250302
+	542.1.1 = {
+		birth = yes
+	}
+	602.1.1 = {
+		death = yes
+	}
+}
+
+1000250304 = {
+	name = Bayan
+	dynasty = 1000124493
+	religion = tengri_pagan
+	culture = avar
+	father = 1000250303
+	560.1.1 = {
+		birth = yes
+	}
+	617.1.1 = {
+		death = yes
+	}
+}
+
+1000250305 = {
+	name = Bu-Yurgan
+	dynasty = 1000124493
+	religion = tengri_pagan
+	culture = avar
+	father = 1000250304
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+1000250306 = {
+	name = Gostun
+	dynasty = 1000124493
+	religion = tengri_pagan
+	culture = avar
+	father = 1000250305
+	610.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+
+1000250307 = {
+	name="Khunzhakal"
+	dynasty=9570
+	religion="tengri_pagan"
+	culture="avar"
+	600.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
+
+1000250308 = {
+	name="Buta"
+	dynasty = 1000124494
+	religion = tengri_pagan
+	culture = avar
+	575.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+
+1000250309 = {
+	name="Buta-ul"
+	dynasty = 1000124494
+	religion = tengri_pagan
+	culture = avar
+	father = 1000250308
+	595.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1000250310 = {
+	name="Buyla"
+	dynasty = 1000124494
+	religion = tengri_pagan
+	culture = avar
+	father = 1000250309
+	615.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+
+# Mod Characters
+# Basque: 1.000.250.400 - 1.000.250.499
+
+1000250400 = {
+	name="Jimeno"
+	dynasty = 1000124446
+	religion = pagan #later will be basque_pagan
+	culture = basque
+	600.1.1 = {
+		birth = yes
+		add_trait = strong
+	}
+	630.1.1 = {
+		give_nickname = nick_the_strong
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+1000250401 = {
+	name="Sicorius"
+	dynasty = 1000124447
+	religion = celtic_pagan
+	culture = basque
+	590.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1000250402 = {
+	name="Tuentius"
+	dynasty = 1000124447
+	religion = celtic_pagan
+	culture = basque
+	father = 1000250401
+	610.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+1000256209 = {
+	name = Chnodemarus
+	dynasty = 1000124411
+	culture="bavarian"
+	religion = norse_pagan
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+
+#
+#1000258103 - 1000258111 moved to omani.txt
+#
+
+
+1000250609 = {
+	name = "Predislav"
+	dynasty = 1000124490
+	religion = slavic_pagan
+	culture = bohemian
+	600.1.1 = {
+		birth = yes
+	}
+	654.1.1 = {
+		death = yes
+	}
+}
+1000250610 = {
+	name = "Javan"
+	dynasty = 1000124491
+	religion = slavic_pagan
+	culture = bohemian
+	560.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+1000250611 = {
+	name = "Cech"
+	dynasty = 1000124491
+	religion = slavic_pagan
+	culture = bohemian
+	father = 1000250610
+	590.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+1000250612 = {
+	name = "Krok"
+	dynasty = 1000124491
+	religion = slavic_pagan
+	culture = bohemian
+	father = 1000250611
+	620.1.1 = {
+		birth = yes
+	}
+	686.1.1 = {
+		death = yes
+	}
+}
+1000250613 = {
+	name = "Cech"
+	dynasty = 1000124491
+	religion = slavic_pagan
+	culture = bohemian
+	father = 1000250612
+	655.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
+##Begin mod characters
+1000250700 = {
+	name = Ernakh
+	dynasty = 591
+	religion = tengri_pagan
+	culture = hunnic #hunnic
+#	father = #ID OF ATTILA THE HUN
+	434.1.1 = {
+		birth = yes
+	}
+	503.1.1 = {
+		death = yes
+	}
+}
+
+1000250701 = {
+	name = Grod
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar #hunnic
+	father = 1000250700
+	464.1.1 = {
+		birth = yes
+	}
+	528.1.1 = {
+		death = yes
+	}
+}
+
+1000250702 = {
+	name = Mugel
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	father = 1000250700
+	465.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+
+1000250703 = {
+	name = Shaush
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	father = 1000250702
+	495.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+
+1000250704 = {
+	name = Sandilk
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	father = 1000250703
+	535.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+
+1000250705 = {
+	name = Khudbaad
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	father = 1000250704
+	555.1.1 = {
+		birth = yes
+	}
+	601.1.1 = {
+		death = yes
+	}
+}
+
+1000250706 = {
+	name = Khinialon
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	father = 1000250702
+	497.1.1 = {
+		birth = yes
+	}
+	551.1.1 = {
+		death = yes
+	}
+}
+
+1000250707 = {
+	name = Sinnion
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	father = 1000250706
+	535.1.1 = {
+		birth = yes
+	}
+	591.1.1 = {
+		death = yes
+	}
+}
+
+1000250708 = {
+	name = Karidach
+	dynasty = 591
+	religion = tengri_pagan
+	culture = bolghar
+	father = 1000250707
+	575.1.1 = {
+		birth = yes
+	}
+	631.1.1 = {
+		death = yes
+	}
+}
+
+1000250807 = {
+	name = "Avan"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 311
+	father = 1000250803
+	mother = 1000250804
+	992.1.1 = {
+		birth = "992.1.1"
+	}
+	1037.1.1 = {
+		death = "1037.1.1"
+	}
+}
+1000256600 = {
+	name = Willebad
+	dynasty = 1000124415
+	culture = burgundian
+	religion = catholic
+	590.1.1 = {
+		birth = yes
+	}
+	643.1.1 = {
+		death = yes
+	}
+}
+
+
+#begin mod-added characters
+1000251200 = {
+	name = "Igor"
+	religion = "catholic"
+	culture = "croatian"
+	dynasty = 1000124157
+	970.1.1 = {
+		birth = "970.1.1"
+	}
+	1005.1.1 = {
+		death = "1005.1.1"
+	}
+}
+1000251201 = {
+	name = "Borko"
+	dynasty = 1000124476
+	culture = croatian
+	religion = slavic_pagan
+	580.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+1000251202 = {
+	name = "Hrvat"
+	dynasty = 1000124476
+	culture = croatian
+	religion = slavic_pagan
+	father = 1000251201
+	600.1.1 = {
+		birth = yes
+	}
+	657.1.1 = {
+		death = yes
+	}
+}
+1000251203 = {
+	name = "Borko"
+	dynasty = 1000124476
+	culture = croatian
+	religion = slavic_pagan
+	father = 1000251202
+	630.1.1 = {
+		birth = yes
+	}
+	684.1.1 = {
+		death = yes
+	}
+}
+1000251204 = {
+	name = "Kluk"
+	dynasty = 1000124476
+	culture = croatian
+	religion = slavic_pagan
+	father = 1000251201
+	605.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+1000251205 = {
+	name = "Lobel"
+	dynasty = 1000124476
+	culture = croatian
+	religion = slavic_pagan
+	father = 1000251201
+	606.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+1000251206 = {
+	name = "Zvonimir"
+	dynasty = 1000124501
+	culture = croatian
+	religion = slavic_pagan
+	590.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+1000251207 = {
+	name = "Liutjomisl"
+	dynasty = 1000124501
+	culture = croatian
+	religion = slavic_pagan
+	father = 1000251206
+	615.1.1 = {
+		birth = yes
+	}
+	675.1.1 = {
+		death = yes
+	}
+}
+1000251208 = {
+	name = "Mihaj"
+	dynasty = 1000124476
+	culture = croatian
+	religion = slavic_pagan
+	father = 1000251201
+	607.1.1 = {
+		birth = yes
+	}
+	664.1.1 = {
+		death = yes
+	}
+}
+1000251209 = {
+	name = "Kosjenc"
+	dynasty = 1000124476
+	culture = croatian
+	religion = slavic_pagan
+	father = 1000251201
+	610.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+1000251210 = {
+	name = "Budimir"
+	dynasty = 1000124476
+	culture = croatian
+	religion = slavic_pagan
+	father = 1000251203
+	650.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+
+
+1000256201 = {
+	name="Audulf" #King of the Frisians
+	dynasty = 246
+	religion = german_pagan
+	culture = frisian
+	590.1.1 = {
+		birth = yes
+	}
+	646.1.1 = {
+		death = yes
+	}
+}
+
+# Begin Mod Characters
+
+1000252100 = {
+	name = "Mirdat"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	321.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+
+1000252101 = {
+	name = "Baraz-Bakur"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252100
+	340.1.1 = {
+		birth = yes
+	}
+	395.1.1 = {
+		death = yes
+	}
+}
+
+1000252102 = {
+	name = "Mirdat" #fictional, made to create a link between Baraz-Bakur and Gubazes I
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252101
+	361.1.1 = {
+		birth = yes
+	}
+	419.1.1 = {
+		death = yes
+	}
+}
+
+1000252103 = {
+	name = "Malaz" #fictional, made to create a link between Baraz-Bakur and Gubazes I
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252102
+	390.1.1 = {
+		birth = yes
+	}
+	449.1.1 = {
+		death = yes
+	}
+}
+
+1000252104 = {
+	name = "Gubazes"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252103
+	410.1.1 = {
+		birth = yes
+	}
+	466.1.1 = {
+		death = yes
+	}
+}
+
+1000252105 = {
+	name = "Mirdat" #Unnamed son of Gubazes I
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252104
+	431.1.1 = {
+		birth = yes
+	}
+	488.1.1 = {
+		death = yes
+	}
+}
+
+1000252106 = {
+	name = "Damnazes"
+	dynasty = 1000124558
+	religion = zoroastrian
+	culture = georgian
+	father = 1000252104
+	450.1.1 = {
+		birth = yes
+	}
+	522.1.1 = {
+		death = yes
+	}
+}
+
+1000252107 = {
+	name = "Tzath"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252106
+	480.1.1 = {
+		birth = yes
+	}
+	539.1.1 = {
+		death = yes
+	}
+}
+
+1000252108 = {
+	name = "Opsites"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252106
+	490.1.1 = {
+		birth = yes
+	}
+	551.1.1 = {
+		death = yes
+	}
+}
+
+1000252109 = {
+	name = "Gubazes"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252107
+	502.1.1 = {
+		birth = yes
+	}
+	555.10.1 = {
+		death = yes
+	}
+}
+
+1000252110 = {
+	name = "Terdetes"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252109
+	520.1.1 = {
+		birth = yes
+	}
+	564.1.1 = {
+		death = yes
+	}
+}
+
+1000252111 = {
+	name = "Tzath"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252107
+	505.1.1 = {
+		birth = yes
+	}
+	561.1.1 = {
+		death = yes
+	}
+}
+
+1000252112 = {
+	name = "Tzath"
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252111
+	540.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+
+1000252113 = {
+	name = "Opsites" #fictional
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252112
+	580.1.1 = {
+		birth = yes
+	}
+	639.1.1 = {
+		death = yes
+	}
+}
+
+1000252114 = {
+	name = "Gubazes" #fictional
+	dynasty = 1000124558
+	religion = orthodox
+	culture = georgian
+	father = 1000252114
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+1000257700 = {
+	name = Munichis
+	dynasty = 1000124495
+	culture = gepid
+	religion = arian
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+1000257701 = {
+	name = Oza
+	dynasty = 1000124495
+	culture = gepid
+	religion = arian
+	father = 1000257700
+	620.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+
+1000257702 = {
+	name = Ardaric
+	dynasty = 1000124496
+	culture = gepid
+	religion = arian
+	410.1.1 = {
+		birth = yes
+	}
+	464.1.1 = {
+		death = yes
+	}
+}
+
+1000257703 = {
+	name = Gunderit
+	dynasty = 1000124496
+	culture = gepid
+	religion = arian
+	father = 1000257702
+	435.1.1 = {
+		birth = yes
+	}
+	481.1.1 = {
+		death = yes
+	}
+}
+
+1000257704 = {
+	name = Trapstila
+	dynasty = 1000124496
+	culture = gepid
+	religion = arian
+	father = 1000257703
+	453.1.1 = {
+		birth = yes
+	}
+	494.1.1 = {
+		death = yes
+	}
+}
+
+1000257705 = {
+	name = Trasaric
+	dynasty = 1000124496
+	culture = gepid
+	religion = arian
+	father = 1000257704
+	473.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+
+1000257706 = {
+	name = Mundonus
+	dynasty = 1000124496
+	culture = gepid
+	religion = arian
+	father = 1000257705
+	490.1.1 = {
+		birth = yes
+	}
+	512.1.1 = {
+		death = yes
+	}
+}
+
+1000257707 = {
+	name = Elemund
+	dynasty = 1000124497
+	culture = gepid
+	religion = arian
+	480.1.1 = {
+		birth = yes
+	}
+	548.1.1 = {
+		death = yes
+	}
+}
+
+1000257710 = {
+	name = Austrigusa
+	dynasty = 1000124497
+	culture = gepid
+	religion = arian
+	father = 1000257707
+	female = yes
+	496.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+
+1000257709 = {
+	name = Faramund #Elemund's unnamed son
+	dynasty = 1000124497
+	culture = gepid
+	religion = arian
+	father = 1000257707
+	497.1.1 = {
+		birth = yes
+	}
+	565.1.1 = {
+		death = yes
+	}
+}
+
+1000257710 = {
+	name = Ostrogotha
+	dynasty = 1000124497
+	culture = gepid
+	religion = arian
+	father = 1000257707
+	female = yes
+	500.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+
+1000257711 = {
+	name = Thurisind
+	dynasty = 1000124498
+	culture = gepid
+	religion = arian
+	500.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+1000257712 = {
+	name = Thurismod
+	dynasty = 1000124498
+	culture = gepid
+	religion = arian
+	father = 1000257711
+	517.1.1 = {
+		birth = yes
+	}
+	551.1.1 = {
+		death = yes
+	}
+}
+
+1000257713 = {
+	name = Cunimund
+	dynasty = 1000124498
+	culture = gepid
+	religion = arian
+	father = 1000257711
+	520.1.1 = {
+		birth = yes
+	}
+	567.1.1 = {
+		death = yes
+	}
+}
+
+1000257714 = {
+	name = Reptila
+	dynasty = 1000124498
+	culture = gepid
+	religion = arian
+	father = 1000257712
+	535.1.1 = {
+		birth = yes
+	}
+	589.1.1 = {
+		death = yes
+	}
+}
+
+1000257715 = {
+	name = Thurismod #fictional
+	dynasty = 1000124498
+	culture = gepid
+	religion = arian
+	father = 1000257714
+	565.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+
+1000257716 = {
+	name = Ardaric #fictional
+	dynasty = 1000124498
+	culture = gepid
+	religion = arian
+	father = 1000257715
+	590.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1000257717 = {
+	name = Cunimund #fictional
+	dynasty = 1000124498
+	culture = gepid
+	religion = arian
+	father = 1000257716
+	615.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+
+1000257718 = {
+	name = Eraric #fictional
+	dynasty = 1000124499
+	culture = gepid
+	religion = arian
+	600.1.1 = {
+		birth = yes
+	}
+	665.1.1 = {
+		death = yes
+	}
+}
+
+1000257719 = {
+	name = Visimar #fictional
+	dynasty = 1000124500
+	culture = gepid
+	religion = arian
+	610.1.1 = {
+		birth = yes
+	}
+	675.1.1 = {
+		death = yes
+	}
+}
+
+
+1000257200 = {
+	name = Lethuc
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	380.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+
+1000257201 = {
+	name = Aldihoc
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	father = 1000257200
+	400.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+
+1000257202 = {
+	name = Godehoc
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	father = 1000257201
+	425.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+
+1000257203 = {
+	name = Claffo
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	father = 1000257202
+	443.1.1 = {
+		birth = yes
+	}
+	490.1.1 = {
+		death = yes
+	}
+}
+
+1000257204 = {
+	name = Tato
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	father = 1000257203
+	460.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		death = yes
+		death = {
+			death_reason = death_murder
+			killer = 1000257207
+		}
+	}
+}
+
+1000257205 = {
+	name = Ildchis
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	father = 1000257204
+	480.1.1 = {
+		birth = yes
+	}
+	535.1.1 = {
+		death = yes
+	}
+}
+
+1000257206 = {
+	name = Unichis
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	father = 1000257203
+	465.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+1000257207 = {
+	name = Waldchis
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	father = 1000257206
+	485.1.1 = {
+		birth = yes
+	}
+	539.1.1 = {
+		death = yes
+	}
+}
+
+1000257208 = {
+	name = Walthari
+	dynasty = 1000124448
+	religion = german_pagan
+	culture = lombard
+	father = 1000257207
+	530.1.1 = {
+		birth = yes
+	}
+	546.1.1 = {
+		death = yes
+		death = {
+			death_reason = death_murder
+			killer = 190122
+		}
+	}
+}
+
+1000257209 = {
+	name = Gaidoald
+	dynasty = 1000124449
+	religion = catholic
+	culture = lombard
+	575.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+1000257210 = {
+	name = Taso
+	dynasty = 1000124450
+	religion = catholic
+	culture = lombard
+	590.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+1000257211 = {
+	name = Tato #Fictional count of Siena
+	dynasty = 1000124451
+	religion = arian
+	culture = lombard
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1000257212 = {
+	name = Mauritus #First bishop of Orbetello, couldn't find anything on him, but due to lack of characters in the area he's in.
+	dynasty = 1000124452
+	religion = catholic
+	culture = lombard
+	610.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+1000257213 = {
+	name = Godepert #Fictional duke of Ivrea
+	dynasty = 1000124453
+	religion = arian
+	culture = lombard
+	600.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+
+1000257214 = {
+	name = Burkhard #Fictional duke of Verona
+	dynasty = 1000124454
+	religion = german_pagan
+	culture = lombard
+	590.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1000257215 = {
+	name = Rando #Fictional duke of Persiceto
+	dynasty = 1000124455
+	religion = arian
+	culture = lombard
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+1000257216 = {
+	name = Garibald #Fictional duke of Parma
+	dynasty = 1000124456
+	religion = arian
+	culture = lombard
+	610.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+1000257217 = {
+	name = Faroald #Faroald I duke of Spoleto
+	dynasty = 1000124457
+	religion = arian
+	culture = lombard
+	540.1.1 = {
+		birth = yes
+	}
+	584.1.1 = {
+		death = yes
+	}
+}
+
+1000257218 = {
+	name = Ariulf #Ariulf duke of Spoleto
+	dynasty = 1000124457
+	religion = catholic
+	culture = lombard
+	father = 1000257217
+	557.1.1 = {
+		birth = yes
+	}
+	602.1.1 = {
+		death = yes
+	}
+}
+
+1000257219 = {
+	name = Theudelap #Theudelap duke of Spoleto
+	dynasty = 1000124457
+	religion = arian
+	culture = lombard
+	father = 1000257217
+	561.1.1 = {
+		birth = yes
+	}
+	641.1.1 = {
+		death = yes
+	}
+}
+
+1000257220 = {
+	name = Atto #Atto duke of Spoleto
+	dynasty = 1000124457
+	religion = arian
+	culture = lombard
+	father = 1000257219
+	600.1.1 = {
+		birth = yes
+	}
+	665.1.1 = {
+		death = yes
+	}
+}
+
+1000257221 = {
+	name = Thrasamund #Thrasamund duke of Spoleto
+	dynasty = 1000124457
+	religion = arian
+	culture = lombard
+	father = 1000257220
+	630.1.1 = {
+		birth = yes
+	}
+	646.1.1 = {
+		religion = catholic
+	}
+	703.1.1 = {
+		death = yes
+	}
+}
+
+1000257222 = {
+	name = Wachilap #brother of Thrasamund duke of Spoleto
+	dynasty = 1000124457
+	religion = arian
+	culture = lombard
+	father = 1000257220
+	635.1.1 = {
+		birth = yes
+	}
+	651.1.1 = {
+		religion = catholic
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+
+1000257223 = {
+	name = Faroald #Faroald II duke of Spoleto
+	dynasty = 1000124457
+	religion = catholic
+	culture = lombard
+	father = 1000257221
+	660.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
+1000257224 = {
+	name = Thrasamund #Thrasamund II duke of Spoleto
+	dynasty = 1000124457
+	religion = catholic
+	culture = lombard
+	father = 1000257223
+	690.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+1000257225 = {
+	name = Hilderic #Hilderic duke of Spoleto
+	dynasty = 1000124458
+	religion = catholic
+	culture = lombard
+	690.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+		death = {
+			death_reason = death_murder
+			killer = 1000257224
+		}
+	}
+}
+
+1000257226 = {
+	name = Lupus #Lupus duke of Spoleto
+	dynasty = 1000124458
+	religion = catholic
+	culture = lombard
+	father = 1000257225
+	707.1.1 = {
+		birth = yes
+	}
+	751.1.1 = {
+		death = yes
+	}
+}
+
+1000257227 = {
+	name = Unnolf #Unnolf duke of Spoleto
+	dynasty = 1000124459
+	religion = catholic
+	culture = lombard
+	593.1.1 = {
+		birth = yes
+	}
+	752.1.1 = {
+		death = yes
+	}
+}
+
+1000257228 = {
+	name = Alboin #Alboin duke of Spoleto
+	dynasty = 1000124459
+	religion = catholic
+	culture = lombard
+	father = 1000257227
+	710.1.1 = {
+		birth = yes
+	}
+	759.1.1 = {
+		death = yes
+	}
+}
+1000257229 = {
+	name = Gisulf #Gisulf duke of Spoleto
+	dynasty = 1000124459
+	religion = catholic
+	culture = lombard
+	father = 1000257228
+	729.1.1 = {
+		birth = yes
+	}
+	763.1.1 = {
+		death = yes
+	}
+}
+
+1000257230 = {
+	name = Adalgard #Fictional count of Capua
+	dynasty = 1000124460
+	religion = arian
+	culture = lombard
+	610.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+#Begin mod added characters
+1000254100 = {
+	name = "Palnatoke"
+	religion = norse_pagan
+	culture = norse
+	trait = tough_soldier
+	trait = brave
+	trait = strong
+	trait = zealous
+	trait = hunter
+	trait = wroth
+	trait = berserker
+	950.1.1 = {
+		birth = "950.1.1"
+	}
+	1059.1.1 = {
+		death = "1059.1.1"
+
+	}
+}
+1000254101 = {
+	name = "Swertig"
+	dynasty = 1000124392
+	religion = norse_pagan
+	culture = norse
+	426.1.1 = {
+		birth = yes
+	}
+	475.1.1 = {
+		death = yes
+	}
+}
+1000254102 = {
+	name = "Hrethel"
+	dynasty = 1000124392
+	religion = norse_pagan
+	culture = norse
+	father = 1000254101
+	450.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+1000254103 = {
+	name = "Herebeald"
+	dynasty = 1000124392
+	religion = norse_pagan
+	culture = norse
+	father = 1000254102
+	472.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+1000254104 = {
+	name = "Hæthcyn"
+	dynasty = 1000124392
+	religion = norse_pagan
+	culture = norse
+	father = 1000254102
+	476.1.1 = {
+		birth = yes
+	}
+	514.1.1 = {
+		death = yes
+	}
+}
+1000254105 = {
+	name = "Hygelac"
+	dynasty = 1000124392
+	religion = norse_pagan
+	culture = norse
+	father = 1000254102
+	480.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		add_spouse = 1000254106
+	}
+	521.1.1 = {
+		death = yes
+	}
+}
+1000254106 = {
+	name = "Hygd"
+#	dynasty = 1000124392
+	religion = norse_pagan
+	culture = norse
+	female = yes
+	490.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		add_spouse = 1000254105
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+1000254107 = {
+	name = "Heardred"
+	dynasty = 1000124392
+	religion = norse_pagan
+	culture = norse
+	father = 1000254105
+	mother = 1000254106
+	500.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+1000254108 = {
+	name = "Wægmund"
+	dynasty = 1000124393
+	religion = norse_pagan
+	culture = norse
+	430.1.1 = {
+		birth = yes
+	}
+	485.1.1 = {
+		death = yes
+	}
+}
+1000254109 = {
+	name = "Ælfhere"
+	dynasty = 1000124393
+	religion = norse_pagan
+	culture = norse
+	father = 1000254108
+	440.1.1 = {
+		birth = yes
+	}
+	498.1.1 = {
+		death = yes
+	}
+}
+1000254110 = {
+	name = "Ecgþeow"
+	dynasty = 1000124393
+	religion = norse_pagan
+	culture = norse
+	father = 1000254109
+	460.1.1 = {
+		birth = yes
+	}
+	505.1.1 = {
+		death = yes
+	}
+}
+1000254111 = {
+	name = "Weohstan"
+	dynasty = 1000124393
+	religion = norse_pagan
+	culture = norse
+	father = 1000254110
+	495.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+1000254112 = {
+	name = "Beowulf"
+	dynasty = 1000124393
+	religion = norse_pagan
+	culture = norse
+	father = 1000254110
+	485.1.1 = {
+		birth = yes
+	}
+	581.1.1 = {
+		death = yes
+	}
+}
+1000254113 = {
+	name = "Wiglaf"
+	dynasty = 1000124393
+	religion = norse_pagan
+	culture = norse
+	father = 1000254111
+	540.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+1000254114 = {
+	name = "Helm"
+	dynasty = 821
+	religion = norse_pagan
+	culture = norse
+	590.1.1 = {
+		birth = yes
+	}
+	645.1.1 = {
+		death = yes
+	}
+}
+1000254115 = {
+	name = "Helgi"
+	dynasty = 821
+	religion = norse_pagan
+	culture = norse
+	father = 1000254114
+	630.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+1000254116 = {
+	name = "Hjörmund"
+	dynasty = 821
+	religion = norse_pagan
+	culture = norse
+	father = 1000254115
+	670.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+1000254117 = {
+	name = "Halfdan"
+	dynasty = 1000124394
+	religion = norse_pagan
+	culture = norse
+	460.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+1000254118 = {
+	name = "Heorogar"
+	dynasty = 1000124394
+	religion = norse_pagan
+	culture = norse
+	father = 1000254117
+	480.1.1 = {
+		birth = yes
+	}
+	515.1.1 = {
+		death = yes
+	}
+}
+1000254119 = {
+	name = "Helgi"
+	dynasty = 1000124394
+	religion = norse_pagan
+	culture = norse
+	father = 1000254117
+	483.1.1 = {
+		birth = yes
+	}
+	545.1.1 = {
+		death = yes
+	}
+}
+1000254120 = {
+	name = "Hrothgar"
+	dynasty = 1000124394
+	religion = norse_pagan
+	culture = norse
+	father = 1000254117
+	486.1.1 = {
+		birth = yes
+	}
+	525.1.1 = {
+		death = yes
+	}
+}
+1000254121 = {
+	name = "Hroþulf"
+	dynasty = 1000124394
+	religion = norse_pagan
+	culture = norse
+	father = 1000254119
+	509.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+1000254122 = {
+	name = "Hoþr"
+	dynasty = 1000124394
+	religion = norse_pagan
+	culture = norse
+	father = 1000254121
+	535.1.1 = {
+		birth = yes
+	}
+	598.1.1 = {
+		death = yes
+	}
+}
+1000254123 = {
+	name = "Harald"
+	dynasty = 1045002
+	religion = norse_pagan
+	culture = norse
+	568.1.1 = {
+		birth = yes
+	}
+	632.1.1 = {
+		give_nickname = nick_the_old
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+1000254124 = {
+	name = "Halfdan"
+	dynasty = 1045002
+	religion = norse_pagan
+	culture = norse
+	father = 1000254123
+	620.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+1000254125 = {
+	name = "Froði"
+	dynasty = 1000124395
+	religion = norse_pagan
+	culture = norse
+	450.1.1 = {
+		birth = yes
+	}
+	515.1.1 = {
+		death = yes
+	}
+}
+1000254126 = {
+	name = "Ingjald"
+	dynasty = 1000124395
+	religion = norse_pagan
+	culture = norse
+	father = 1000254125
+	480.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+1000254127 = {
+	name = "Rærecus"
+	dynasty = 1000124395
+	religion = norse_pagan
+	culture = norse
+	father = 1000254126
+	510.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+1000254128 = {
+	name = "Froði"
+	dynasty = 1000124395
+	religion = norse_pagan
+	culture = norse
+	father = 1000254127
+	545.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+1000254129 = {
+	name = "Olaf"
+	dynasty = 1000124395
+	religion = norse_pagan
+	culture = norse
+	father = 1000254128
+	585.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+1000254130 = {
+	name = "Harald"
+	dynasty = 1000124396
+	religion = norse_pagan
+	culture = norse
+	570.1.1 = {
+		birth = yes
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+1000254131 = {
+	name = "Vikar"
+	dynasty = 1000124396
+	religion = norse_pagan
+	culture = norse
+	father = 1000254130
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+1000254132 = {
+	name = "Herjorf"
+	dynasty = 1043305
+	religion = norse_pagan
+	culture = norse
+	590.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+1000254133 = {
+	name = "Nidud"
+	dynasty = 1000124397
+	culture = norse
+	religion = norse_pagan
+	560.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+1000254134 = {
+	name = "Olof"
+	dynasty = 1000124397
+	culture = norse
+	religion = norse_pagan
+	father = 1000254133
+	580.1.1 = {
+		birth = yes
+	}
+	636.1.1 = {
+		death = yes
+	}
+}
+1000254135 = {
+	name = "Sporsnjall"
+	dynasty = 1000124397
+	culture = norse
+	religion = norse_pagan
+	father = 1000254134
+	600.1.1 = {
+		birth = yes
+	}
+	645.1.1 = {
+		death = yes
+	}
+}
+1000254136 = {
+	name = "Frithjof"
+	dynasty = 1000124400 # Nordling
+	culture = norse
+	religion = norse_pagan
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+1000254137 = {
+	name = "Gorn"
+	dynasty = 1000124401 # Tronding
+	culture = norse
+	religion = norse_pagan
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+1000254138 = {
+	name = "Herðorf"
+	dynasty = 1000124402 # Jemtling
+	culture = norse
+	religion = norse_pagan
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+1000254139 = {
+	name = "Hroðulf"
+	dynasty = 1000124403
+	culture = norse
+	religion = norse_pagan
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1000252000 = {
+	name="Adalgisel"
+	dynasty = 1000124404
+	religion = catholic
+	culture = old_frankish
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1000252001 = {
+	name="Bobo"
+	dynasty = 1000124404
+	religion = catholic
+	culture = old_frankish
+	father = 1000252000
+	620.1.1 = {
+		birth = yes
+	}
+	656.1.1 = {
+		death = yes
+	}
+}
+1000252002 = {
+	name="Uro"
+	dynasty = 1000124412
+	religion = catholic
+	culture = old_frankish
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+1000252003 = {
+	name="Otto"
+	dynasty = 1000124412
+	religion = catholic
+	culture = old_frankish
+	father = 1000252002
+	600.1.1 = {
+		birth = yes
+	}
+	644.1.1 = {
+		death = yes
+	}
+}
+1000253004 = {
+	name="Gundoland"
+	dynasty = 1000124413
+	religion = catholic
+	culture = old_frankish
+	550.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+1000253005 = {
+	name="Landric"
+	dynasty = 1000124413
+	religion = catholic
+	culture = old_frankish
+	father = 1000253004
+	570.1.1 = {
+		birth = yes
+	}
+	613.1.1 = {
+		death = yes
+	}
+}
+1000253006 = {
+	name="Gundoland"
+	dynasty = 1000124413
+	religion = catholic
+	culture = old_frankish
+	father = 1000253004
+	580.1.1 = {
+		birth = yes
+	}
+	639.1.1 = {
+		death = yes
+	}
+}
+1000153007 = {
+	name="Aega"
+	dynasty = 1000124414
+	religion = catholic
+	culture = old_frankish
+	590.1.1 = {
+		birth = yes
+	}
+	641.1.1 = {
+		death = yes
+	}
+}
+1000153008 = {
+	name="Flaochad"
+	dynasty = 1000124416
+	religion = catholic
+	culture = old_frankish
+	600.1.1 = {
+		birth = yes
+	}
+	642.1.1 = {
+		death = yes
+	}
+}
+1000153009 = {
+	name="Waldo"
+	dynasty = 1000124417
+	religion = catholic
+	culture = old_frankish
+	540.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+1000153010 = {
+	name="Eustacius"
+	dynasty = 1000124417
+	religion = catholic
+	culture = old_frankish
+	father = 1000153009
+	560.1.1 = {
+		birth = yes
+	}
+	629.1.1 = {
+		death = yes
+		nickname = nick_the_saint
+	}
+}
+1000153011 = {
+	name="Waldelenus"
+	dynasty = 1000124417
+	religion = catholic
+	culture = old_frankish
+	father = 1000153009
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+1000153012 = {
+	name="Waldebert"
+	dynasty = 1000124417
+	religion = catholic
+	culture = old_frankish
+	father = 1000153009
+	590.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		nickname = nick_the_saint
+	}
+	668.1.1 = {
+		death = yes
+	}
+}
+1000153013 = {
+	name="Donatus"
+	dynasty = 1000124417
+	religion = catholic
+	culture = old_frankish
+	father = 1000153011
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+1000153014 = {
+	name="Chramnelenus"
+	dynasty = 1000124417
+	religion = catholic
+	culture = old_frankish
+	father = 1000153011
+	605.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+1000153015 = {
+	name="Waldelenus"
+	dynasty = 1000124417
+	religion = catholic
+	culture = old_frankish
+	father = 1000153014
+	640.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+1000153016 = {
+	name="Abbo"
+	dynasty = 1000124417
+	religion = catholic
+	culture = old_frankish
+	father = 1000153014
+	680.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+1000153017 = {
+	name="Erchinoald"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	father = 1000153032
+	605.1.1 = {
+		birth = yes
+	}
+	631.1.1 = {
+		add_spouse = 1000153018
+	}
+	658.1.1 = {
+		death = yes
+	}
+}
+1000153018 = {
+	name="Leutsinde"
+	famale = yes
+	religion = catholic
+	culture = old_frankish
+	615.1.1 = {
+		birth = yes
+	}
+	631.1.1 = {
+		add_spouse = 1000153017
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+1000153019 = {
+	name="Leudesius"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	father = 1000153017
+	mother = 1000153018
+	632.1.1 = {
+		birth = yes
+	}
+	676.1.1 = {
+		death = yes
+	}
+}
+1000153020 = {
+	name="Radobert"
+	dynasty = 1000124420
+	religion = catholic
+	culture = old_frankish
+	610.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+1000153021 = {
+	name="Wisimar"
+	dynasty = 1000124421
+	religion = catholic
+	culture = old_frankish
+	600.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+1000153022 = {
+	name="Warato"
+	dynasty = 1000124421
+	religion = catholic
+	culture = old_frankish
+	father = 1000153021
+	620.1.1 = {
+		birth = yes
+	}
+	646.1.1 = {
+		add_spouse = 1000153024
+	}
+	686.1.1 = {
+		death = yes
+	}
+}
+1000153023 = {
+	name="Ebroin"
+	dynasty = 1000124421
+	religion = catholic
+	culture = old_frankish
+	father = 1000153021
+	630.1.1 = {
+		birth = yes
+	}
+	681.1.1 = {
+		death = yes
+	}
+}
+1000153024 = {
+	name="Ansfled"
+	religion = catholic
+	culture = old_frankish
+	female = yes
+	630.1.1 = {
+		birth = yes
+	}
+	646.1.1 = {
+		add_spouse = 1000153022
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+1000153025 = {
+	name="Giselmar"
+	dynasty = 1000124421
+	religion = catholic
+	culture = old_frankish
+	father = 1000153022
+	mother = 1000153024
+	640.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+1000153026 = {
+	name="Anstrudis"
+	dynasty = 1000124421
+	religion = catholic
+	culture = old_frankish
+	father = 1000153022
+	mother = 1000153024
+	645.1.1 = {
+		birth = yes
+	}
+	661.1.1 = {
+		add_spouse = 1000153028
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+1000153027 = {
+	name="Adalgard"
+	dynasty = 1000124422
+	religion = catholic
+	culture = old_frankish
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+1000153028 = {
+	name="Berchar"
+	dynasty = 1000124422
+	religion = catholic
+	culture = old_frankish
+	father = 1000153027
+	620.1.1 = {
+		birth = yes
+	}
+	661.1.1 = {
+		add_spouse = 1000153026
+	}
+	688.1.1 = {
+		death = yes
+	}
+}
+1000153029 = {
+	name="Adaltrudis"
+	dynasty = 1000124422
+	religion = catholic
+	culture = old_frankish
+	father = 1000153028
+	mother = 1000153026
+	660.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+1000153030 = {
+	name="Arnebert"
+	dynasty = 1000124423
+	religion =  catholic
+	culture = old_frankish
+	580.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+1000153031 = {
+	name="Barontus"
+	dynasty = 1000124425
+	religion = catholic
+	culture = old_frankish
+	600.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+1000153032 = {
+	name="Ansbert"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	580.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+1000153033 = {
+	name="Adabald"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	father = 1000153032
+	600.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		add_spouse = 1000153034
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+1000153034 = {
+	name="Rictrudis"
+	female = yes
+	religion = catholic
+	culture = old_frankish
+	610.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		add_spouse = 1000153033
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+1000153035 = {
+	name="Maurontus"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	father = 1000153033
+	mother = 1000153034
+	632.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+1000153036 = {
+	name="Closendis"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	father = 1000153033
+	mother = 1000153034
+	female = yes
+	635.1.1 = {
+		birth = yes
+	}
+	682.1.1 = {
+		death = yes
+	}
+}
+1000153037 = {
+	name="Eusebia"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	father = 1000153033
+	mother = 1000153034
+	female = yes
+	636.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+1000153038 = {
+	name="Adalsendis"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	father = 1000153033
+	mother = 1000153034
+	female = yes
+	639.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+1000153039 = {
+	name="Sigbert"
+	dynasty = 1000124419
+	religion = catholic
+	culture = old_frankish
+	father = 1000153032
+	610.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+1000153040 = {
+	name="Charibert"
+	dynasty = 1000124426
+	religion = catholic
+	culture = old_frankish
+	570.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+1000153041 = {
+	name="Chrodbert"
+	dynasty = 1000124426
+	religion = catholic
+	culture = old_frankish
+	father = 1000153040
+	590.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+1000153042 = {
+	name="Angadrisma"
+	dynasty = 1000124426
+	religion = catholic
+	culture = old_frankish
+	father = 1000153041
+	female = yes
+	610.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+1000153043 = {
+	name="Haltbert"
+	dynasty = 1000124426
+	religion = catholic
+	culture = old_frankish
+	father = 1000153040
+	595.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+1000153044 = {
+	name="Erlebert"
+	dynasty = 1000124426
+	religion = catholic
+	culture = old_frankish
+	father = 1000153040
+	600.1.1 = {
+		birth = yes
+	}
+	665.1.1 = {
+		death = yes
+	}
+}
+1000153045 = {
+	name="Lambert"
+	dynasty = 1000124426
+	religion = catholic
+	culture = old_frankish
+	father = 1000153044
+	620.1.1 = {
+		birth = yes
+	}
+	675.1.1 = {
+		death = yes
+	}
+}
+
+1000256202 = {
+	name = Berthoald
+	dynasty = 1000124405
+	religion = german_pagan
+	culture = old_saxon
+	590.1.1 = {
+		birth = yes
+	}
+	622.1.1 = {
+		death = yes
+	}
+}
+
+1000256203 = {
+	name = Gelder
+	dynasty = 1000124406
+	religion = german_pagan
+	culture = old_saxon
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+1000256204 = {
+	name = Freawine
+	dynasty = 1000124406
+	culture = old_saxon
+	religion = german_pagan
+	father = 1000256203
+	620.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+1000256205 = {
+	name = Adalwolf
+	dynasty = 1000124407
+	culture = old_saxon
+	religion = german_pagan
+	590.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+1000256206 = {
+	name = Hariulf
+	dynasty = 1000124408
+	culture = old_saxon
+	religion = german_pagan
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+1000256207 = {
+	name = Eraric
+	dynasty = 1000124409
+	culture = old_saxon
+	religion = german_pagan
+	600.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+
+1000256208 = {
+	name = Hulderic
+	dynasty = 1000124410
+	culture = old_saxon
+	religion = german_pagan
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+1000256210 = {
+	name = Aeghyna
+	dynasty = 1000124424
+	culture = old_saxon
+	religion = catholic
+	590.1.1 = {
+		birth = yes
+	}
+	638.1.1 = {
+		death = yes
+	}
+}
+
+1000254518={
+	name="Peroz"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	490.1.1 = {
+		birth = yes
+	}
+	563.1.1 = {
+		death = yes
+	}
+}
+1000254519={
+	name="Bahram"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254518
+	525.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+1000254520={
+	name="Mardanshina"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254519
+	female = yes
+	541.1.1 = {
+		birth = yes
+	}
+	592.1.1 = {
+		death = yes
+	}
+}
+1000254521={
+	name="Shapur"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254519
+	543.1.1 = {
+		birth = yes
+	}
+	599.1.1 = {
+		death = yes
+	}
+}
+1000254522={
+	name="Ardashir"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254521
+	560.1.1 = {
+		birth = yes
+	}
+	621.1.1 = {
+		death = yes
+	}
+}
+1000254523={
+	name="Shahrbaraz"
+	# Emperor of Persia
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254522
+	579.1.1 = {
+		birth = yes
+	}
+	629.6.17 = {
+		death = yes
+	}
+}
+1000254524={
+	name="Shapur"
+	# Emperor of Persia
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254523
+	600.1.1 = {
+		birth = yes
+	}
+	659.1.1 = {
+		death = yes
+	}
+}
+1000254525={
+	name="Niketas"
+	# Niketas "the Persian", son of Shahrbaraz
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254523
+	602.1.1 = {
+		birth = yes
+	}
+	628.1.1 = {
+		religion = orthodox
+		culture = hellene
+	}
+	636.1.1 = {
+		death = yes
+	}
+}
+1000254526={
+	name="Nike"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254523
+	female = yes
+	603.1.1 = {
+		birth = yes
+	}
+	628.1.1 = {
+		religion = orthodox
+		culture = hellene
+	}
+	662.1.1 = {
+		death = yes
+	}
+}
+1000254527={
+	name="Gorduya"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254519
+	female = yes
+	554.1.1 = {
+		birth = yes
+	}
+	607.1.1 = {
+		death = yes
+	}
+}
+1000254528={
+	name="Gordiya"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254519
+	female = yes
+	557.1.1 = {
+		birth = yes
+	}
+	621.1.1 = {
+		death = yes
+	}
+}
+1000254529={
+	name="Mihran"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 180645
+	576.1.1 = {
+		birth = yes
+	}
+	639.1.1 = {
+		death = yes
+	}
+}
+1000254530={
+	name="Shapur"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 180645
+	578.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+1000254531 = {
+	name = "Shapur"
+	dynasty = 1000124523
+	culture = old_azeri
+	religion = miaphysite
+	575.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+
+#Moved these here from armenian.txt
+1000250221 = {
+	name = "Pasagnathes"
+	dynasty = 1000124523
+	culture = old_azeri
+	religion = miaphysite
+	father = 1000254531
+	595.1.1 = {
+		birth = yes
+	}
+	653.1.1 = {
+		death = yes
+	}
+}
+
+1000250222 = {
+	name = "Saborios"
+	dynasty = 1000124523
+	culture = old_azeri
+	religion = miaphysite
+	father = 1000250221
+	625.1.1 = {
+		birth = yes
+	}
+	668.1.1 = {
+		death = yes
+	}
+}
+
+1000254532 = {
+	name="Fayruz"
+	dynasty = 1000124536
+	culture = persian
+	religion = zoroastrian
+	father = 1000254540
+	585.1.1 = {
+		birth = yes
+	}
+	628.1.1 = {
+		religion = sunni
+	}
+	643.1.1 = {
+		death = yes
+	}
+}
+1000254533 = {
+	name="Mihr-Bondad"
+	dynasty = 1000124540
+	culture = persian
+	religion = zoroastrian
+	520.1.1 = {
+		birth = yes
+	}
+	578.1.1 = {
+		death = yes
+	}
+}
+1000254534 = {
+	name="Banegan"
+	dynasty = 1000124540
+	culture = persian
+	religion = zoroastrian
+	father = 1000254533
+	543.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+1000254535 = {
+	name="Azadbeh"
+	dynasty = 1000124540
+	culture = persian
+	religion = zoroastrian
+	father = 1000254534
+	570.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+1000254536 = {
+	name="Shapur" #Unnamed son of Azadbeh
+	dynasty = 1000124540
+	culture = persian
+	religion = zoroastrian
+	father = 1000254535
+	591.1.1 = {
+		birth = yes
+	}
+	633.1.1 = {
+		death = yes
+	}
+}
+1000254537 = {
+	name="Andarzhagar"
+	dynasty = 1000124541
+	culture = persian
+	religion = zoroastrian
+	595.1.1 = {
+		birth = yes
+	}
+	633.1.1 = {
+		death = yes
+	}
+}
+1000254538 = {
+	name="Vahriz"
+	dynasty = 1000124536
+	culture = persian
+	religion = zoroastrian
+	526.1.1 = {
+		birth = yes
+	}
+	582.1.1 = {
+		death = yes
+	}
+}
+1000254539 = {
+	name="Nawzadh"
+	dynasty = 1000124536
+	culture = persian
+	religion = zoroastrian
+	father = 1000254538
+	548.1.1 = {
+		birth = yes
+	}
+	566.1.1 = {
+		death = yes
+	}
+}
+1000254540 = {
+	name="Marzban"
+	dynasty = 1000124536
+	culture = persian
+	religion = zoroastrian
+	father = 1000254538
+	550.1.1 = {
+		birth = yes
+	}
+	613.1.1 = {
+		death = yes
+	}
+}
+1000254541 = {
+	name="Hormozd"
+	dynasty = 1000124542
+	culture = persian
+	religion = zoroastrian
+	573.1.1 = {
+		birth = yes
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+1000254542 = {
+	name="Bahman"
+	dynasty = 1000124542
+	culture = persian
+	religion = zoroastrian
+	father = 1000254541
+	594.1.1 = {
+		birth = yes
+	}
+	636.1.1 = {
+		death = yes
+	}
+}
+1000254543 = {
+	name="Narseh"
+	# Narses, progenitor of the Dabuyids
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=180625
+	500.1.1={
+		birth=yes
+	}
+	567.1.1={
+		death=yes
+	}
+}
+1000254544 = {
+	name="Firuz"
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254543
+	545.1.1={
+		birth=yes
+	}
+	613.1.1={
+		death=yes
+	}
+}
+1000254545 = {
+	name="Gavbara" #Gil Gavbara
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254544
+	601.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
+1000254546 = {
+	name="Dabuya"
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254545
+	630.1.1={
+		birth=yes
+	}
+	712.1.1={
+		death=yes
+	}
+}
+1000254547 = {
+	name="Farrukhan" #Farrukhan the Great, first attested Dabuyid ruler of Tabaristan
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254546
+	654.1.1={
+		birth=yes
+	}
+	728.1.1={
+		death=yes
+	}
+}
+1000254548 = {
+	name="Saruyih"
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254547
+	675.1.1={
+		birth=yes
+	}
+	737.1.1={
+		death=yes
+	}
+}
+1000254549 = {
+	name="Jushnas"
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254548
+	694.1.1={
+		birth=yes
+	}
+	761.1.1={
+		death=yes
+	}
+}
+1000254550 = {
+	name="Farrukhan" #Farrukhan the Little
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254547
+	680.1.1={
+		birth=yes
+	}
+	752.1.1={
+		death=yes
+	}
+}
+1000254551 = {
+	name="Dadhburzmihr"
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254547
+	681.1.1={
+		birth=yes
+	}
+	741.1.1={
+		death=yes
+	}
+}
+1000254552 = {
+	name="Khurshid"
+	dynasty = 1000124544
+	religion="zoroastrian"
+	culture="persian"
+	father=1000254551
+	734.1.1={
+		birth=yes
+	}
+	761.1.1={
+		death=yes
+	}
+}
+1000254553={
+	name="Siyavakhsh"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254529
+	600.1.1 = {
+		birth = yes
+	}
+	651.1.1 = {
+		death = yes
+	}
+}
+1000254554 = {
+	name="Sawar" 
+	dynasty=7511
+	religion="zoroastrian"
+	culture="persian"
+	father=160301
+	605.1.1={
+		birth=yes
+	}
+	664.1.1={
+		death=yes
+	}
+}
+1000254555 = {
+	name="Burzin" 
+	dynasty=7511
+	religion="zoroastrian"
+	culture="persian"
+	father=160301
+	610.1.1={
+		birth=yes
+	}
+	671.1.1={
+		death=yes
+	}
+}
+1000254556 = {
+	name="Hormuzan"
+	dynasty = 1000124546
+	religion = zoroastrian
+	culture = persian
+	595.1.1 = {
+		birth = yes
+	}
+	641.1.1 = {
+		religion = sunni
+	}
+	644.1.1 = {
+		death = yes
+	}
+}
+1000254557 = {
+	name="Razi"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254518
+	530.1.1 = {
+		birth = yes
+	}
+	587.1.1 = {
+		death = yes
+	}
+}
+1000254558 = {
+	name="Bahram"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254557
+	563.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+1000254559 = {
+	name="Mihran"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254558
+	590.1.1 = {
+		birth = yes
+	}
+	637.1.1 = {
+		death = yes
+	}
+}
+1000254560 = {
+	name="Mihrbandad"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254557
+	565.1.1 = {
+		birth = yes
+	}
+	627.1.1 = {
+		death = yes
+	}
+}
+1000254561 = {
+	name="Mihran"
+	dynasty=1042070
+	religion=zoroastrian
+	culture = persian
+	father = 1000254560
+	587.1.1 = {
+		birth = yes
+	}
+	633.1.1 = {
+		death = yes
+	}
+}
+1000254562 = {
+	name="Piruz Khosrow" #Pirus Khosrow
+	dynasty = 1000124547
+	religion = zoroastrian
+	culture = persian
+	581.1.1 = {
+		birth = yes
+	}
+	642.1.1 = {
+		death = yes
+	}
+}
+1000254563 = {
+	name="Muta"
+	dynasty = 1000124536
+	culture = persian
+	religion = zoroastrian
+	father = 1000254540
+	587.1.1 = {
+		birth = yes
+	}
+	642.1.1 = {
+		death = yes
+	}
+}
+1000254564 = {
+	name="Azad"
+	dynasty = 1000124548
+	culture = persian
+	religion = zoroastrian
+	593.1.1 = {
+		birth = yes
+	}
+	633.1.1 = {
+		religion = sunni
+	}
+	647.1.1 = {
+		death = yes
+	}
+}
+1000254565 = {
+	name="Aspad"
+	dynasty = 1000124549
+	culture = persian
+	religion = zoroastrian
+	590.1.1 = {
+		birth = yes
+	}
+	658.1.1 = {
+		death = yes
+	}
+}
+1000254566 = {
+	name="Shahrbaraz"
+	dynasty = 1000124542
+	culture = persian
+	religion = zoroastrian
+	father = 1000254542
+	610.1.1 = {
+		birth = yes
+	}
+	642.1.1 = {
+		death = yes
+	}
+}
+1000254567 = {
+	name="Fadhusfan"
+	dynasty = 1000124547
+	religion = zoroastrian
+	culture = persian
+	father = 1000254562
+	600.1.1 = {
+		birth = yes
+	}
+	669.1.1 = {
+		death = yes
+	}
+}
+
+1000253200 = {
+	name="Caratacus"
+	dynasty=1000124390
+	religion="celtic_pagan"
+	culture="pictish"
+	600.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
+
+1000254608 = {
+	name = "Leszek"
+	dynasty = 1000124491
+	religion = slavic_pagan
+	culture = polish
+	father = 1000250610
+	595.1.1 = {
+		birth = yes
+	}
+	664.1.1 = {
+		death = yes
+	}
+}
+1000254609 = {
+	name = Czibor
+	dynasty = 9127
+	religion = slavic_pagan
+	culture = polish
+	600.1.1 = {
+		birth = yes
+	}
+	664.1.1 = {
+		death = yes
+	}
+}
+1000254610 = {
+	name = Ratibor
+	dynasty = 9127
+	religion = slavic_pagan
+	culture = polish
+	father = 1000254609
+	632.1.1 = {
+		birth = yes
+	}
+	689.1.1 = {
+		death = yes
+	}
+}
+1000254611 = {
+	name = Leszek
+	dynasty = 9127
+	religion = slavic_pagan
+	culture = polish
+	father = 1000254610
+	650.1.1 = {
+		birth = yes
+	}
+	717.1.1 = {
+		death = yes
+	}
+}
+1000254612 = {
+	name = "Wislaw"
+	dynasty = 9127
+	religion = slavic_pagan
+	culture = polish
+	father = 1000254611
+	692.1.1 = {
+		birth = yes
+	}
+	759.1.1 = {
+		death = yes
+	}
+}
+1000254613 = {
+	name = Boguslaw
+	dynasty = 1000124508
+	religion = slavic_pagan
+	culture = polish
+	595.1.1 = {
+		birth = yes
+	}
+	657.1.1 = {
+		death = yes
+	}
+}
+1000254614 = {
+	name = "Witosz"
+	dynasty = 9122
+	religion = slavic_pagan
+	culture = polish
+	593.1.1 = {
+		birth = yes
+	}
+	661.1.1 = {
+		death = yes
+	}
+}
+1000254615 = {
+	name = "Imram"
+	dynasty = 9122
+	religion = slavic_pagan
+	culture = polish
+	father = 1000254614
+	642.1.1 = {
+		birth = yes
+	}
+	709.1.1 = {
+		death = yes
+	}
+}
+1000254616 = {
+	name = "Leszek"
+	dynasty = 9122
+	religion = slavic_pagan
+	culture = polish
+	father = 1000254615
+	690.1.1 = {
+		birth = yes
+	}
+	759.1.1 = {
+		death = yes
+	}
+}
+
+#Begin mod added characters
+1000254700 = {
+	name = "Mstislav"
+	dynasty = 101906
+	religion = "slavic_pagan"
+	culture = "pommeranian"
+	969.1.1 = {
+		birth = "969.1.1"
+	}
+	1019.1.1 = {
+		death = "1019.1.1"
+	}
+}
+1000254701 = {
+	name = "Zurpan"
+	dynasty = 100502
+	religion = slavic_pagan
+	culture = sorbian
+	560.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+1000254702 = {
+	name = "Dervan"
+	dynasty = 100502
+	religion = slavic_pagan
+	culture = sorbian
+	father = 1000254701
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+1000254703 = {
+	name = "Przybyslaw"
+	dynasty = 1042804
+	religion = "slavic_pagan"
+	culture = "sorbian"
+	610.1.1 = {
+		birth = yes
+	}
+	676.1.1 = {
+		death = yes
+	}
+}
+1000254704 = {
+	name = "Swietopelk"
+	dynasty = 1042804
+	religion = "slavic_pagan"
+	culture = "pommeranian"
+	father = 1000254703
+	640.1.1 = {
+		birth = yes
+	}
+	706.1.1 = {
+		death = yes
+	}
+}
+1000254705 = {
+	name = "Mstislav"
+	dynasty = 1042804
+	religion = "slavic_pagan"
+	culture = "pommeranian"
+	father = 1000254704
+	670.1.1 = {
+		birth = yes
+	}
+	729.1.1 = {
+		death = yes
+	}
+}
+1000254706 = {
+	name = "Przybyslaw"
+	dynasty = 1042804
+	religion = "slavic_pagan"
+	culture = "pommeranian"
+	father = 1000254705
+	690.1.1 = {
+		birth = yes
+	}
+	759.1.1 = {
+		death = yes
+	}
+}
+1000254707 = {
+	name = "Prbina"
+	dynasty = 1042800
+	religion = slavic_pagan
+	culture = pommeranian
+	603.1.1 = {
+		birth = yes
+	}
+	659.1.1 = {
+		death = yes
+	}
+}
+1000254708 = {
+	name = "Wlodek"
+	dynasty = 1042800
+	religion = slavic_pagan
+	culture = pommeranian
+	father = 1000254707
+	632.1.1 = {
+		birth = yes
+	}
+	693.1.1 = {
+		death = yes
+	}
+}
+1000254709 = {
+	name = "Przybyslaw"
+	dynasty = 1042800
+	religion = slavic_pagan
+	culture = pommeranian
+	father = 1000254708
+	677.1.1 = {
+		birth = yes
+	}
+	752.1.1 = {
+		death = yes
+	}
+}
+1000254710 = {
+	name = Przemysl
+	dynasty = 1000124509
+	religion = slavic_pagan
+	culture = pommeranian
+	600.1.1 = {
+		birth = yes
+	}
+	657.1.1 = {
+		death = yes
+	}
+}
+1000254711 = {
+	name = Budjnow
+	dynasty = 1000124510
+	religion = slavic_pagan
+	culture = pommeranian
+	604.1.1 = {
+		birth = yes
+	}
+	669.1.1 = {
+		death = yes
+	}
+}
+
+##Mod characters - RoI
+
+1000255100 = {
+	name = "Dauritas" #fl. 577-579, added due to lack of characters
+	dynasty = 1000124502
+	religion = slavic_pagan
+	culture = romanian
+	579.1.1 = {
+		birth = yes
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+
+1000255101 = {
+	name = "Dauritas" #fictional son
+	dynasty = 1000124502
+	religion = slavic_pagan
+	culture = romanian
+	father = 1000255100
+	600.1.1 = {
+		birth = yes
+	}
+	659.1.1 = {
+		death = yes
+	}
+}
+
+1000255102 = {
+	name = "Vlac" #fictional
+	dynasty = 1000124502
+	religion = slavic_pagan
+	culture = romanian
+	father = 1000255101
+	620.1.1 = {
+		birth = yes
+	}
+	681.1.1 = {
+		death = yes
+	}
+}
+
+1000255204 = {
+	name = "Dobragez"
+	dynasty = 1000124503
+	religion = slavic_pagan
+	culture = volhynian
+	495.1.1 = {
+		birth = yes
+	}
+	556.1.1 = {
+		death = yes
+	}
+}
+1000255205 = {
+	name = "Idariz"
+	dynasty = 1000124503
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255204
+	512.1.1 = {
+		birth = yes
+	}
+	563.1.1 = {
+		death = yes
+	}
+}
+1000255206 = {
+	name = "Mezamir"
+	dynasty = 1000124503
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255205
+	528.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+1000255207 = {
+	name = "Kelagast"
+	dynasty = 1000124503
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255205
+	530.1.1 = {
+		birth = yes
+	}
+	584.1.1 = {
+		death = yes
+	}
+}
+1000255208 = {
+	name = "Muzok"
+	dynasty = 1000124504
+	religion = slavic_pagan
+	culture = volhynian
+	549.1.1 = {
+		birth = yes
+	}
+	595.1.1 = {
+		death = yes
+	}
+}
+1000255209 = {
+	name = "Radogost" #Ardagast
+	dynasty = 1000124504
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255208
+	570.1.1 = {
+		birth = yes
+	}
+	623.1.1 = {
+		death = yes
+	}
+}
+1000255210 = {
+	name = "Pirogast"
+	dynasty = 1000124504
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255208
+	574.1.1 = {
+		birth = yes
+	}
+	638.1.1 = {
+		death = yes
+	}
+}
+1000255211 = {
+	name = "Radoslav"
+	dynasty = 1000124504
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255210
+	600.1.1 = {
+		birth = yes
+	}
+	667.1.1 = {
+		death = yes
+	}
+}
+1000255212 = {
+	name = "Ruslav"
+	dynasty = 1000124506
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000250610
+	577.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+1000255213 = {
+	name = "Kyi"
+	dynasty = 1000124506
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255212
+	600.1.1 = {
+		birth = yes
+	}
+	665.1.1 = {
+		death = yes
+	}
+}
+1000255214 = {
+	name = "Shchek"
+	dynasty = 1000124506
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255212
+	614.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+1000255215 = {
+	name = "Khoryv"
+	dynasty = 1000124506
+	religion = slavic_pagan
+	culture = volhynian
+	father = 1000255212
+	620.1.1 = {
+		birth = yes
+	}
+	689.1.1 = {
+		death = yes
+	}
+}
+1000255216 = {
+	name = "Vanislav"
+	dynasty = 1000124511
+	religion = slavic_pagan
+	culture = volhynian
+	590.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+
+1000255423 = {
+	name = "Æthelberght"
+	dynasty = 1000124563
+	religion = "norse_pagan"
+	culture = "saxon"
+	599.1.1 = {
+		birth = "599.1.1"
+	}
+	645.1.1 = {
+		death = "645.1.1"
+	}
+}
+1000255424 = {
+	name = "Æthelwealh"
+	dynasty = 1000124563
+	religion = "norse_pagan"
+	culture = "saxon"
+	father = 1000255423
+	625.1.1 = {
+		birth = "625.1.1"
+	}
+	685.1.1 = {
+		death = "685.1.1"
+	}
+	661.1.1 = {
+		religion = "catholic"
+	}
+}
+
+1000255601 = {
+	name = "Nepoznat" #The Unknown Archon
+	dynasty = 100502
+	religion = slavic_pagan
+	culture = serbian
+	father = 1000254701
+	590.1.1 = {
+		birth = yes
+	}
+	641.1.1 = {
+		death = yes
+	}
+}
+
+1000255602 = {
+	name = "Dervan"
+	dynasty = 100502
+	religion = slavic_pagan
+	culture = serbian
+	father = 1000255601
+	625.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+1000255603 = {
+	name = "Viseslav"
+	dynasty = 100502
+	religion = slavic_pagan
+	culture = serbian
+	father = 1000255601
+	640.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+
+1000255604 = {
+	name = "Vlastimir"
+	dynasty = 100502
+	religion = slavic_pagan
+	culture = serbian
+	father = 1000255603
+	680.1.1 = {
+		birth = yes
+	}
+	752.1.1 = {
+		death = yes
+	}
+}
+
+1000256200 = {
+	name = "Chrodobert"
+	dynasty = 1000124398
+	culture = suebi
+	religion = catholic
+	600.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+1000256211 = {
+	name = "Odovacer"
+	dynasty = 1000124440
+	culture = suebi
+	religion = catholic
+	610.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+
+188700 = {
+	name="Barhatakin"
+	dynasty=1042110 # Zunbil
+	religion="zun_pagan"
+	culture="tocharian"
+	600.1.1={
+		birth=yes
+	}
+	662.1.1={
+		death=yes
+	}
+}
+188701 = {
+	name="Rutbil" # name is more of a title
+	# semi-historical
+	dynasty=1042110 # Zunbil
+	religion="zun_pagan"
+	culture="tocharian"
+	father=188700
+	620.1.1={
+		birth=yes
+	}
+	687.1.1={
+		death=yes
+	}
+}
+1000258900 = {
+	name="Datbar" # name is more of a title
+	# fictional
+	dynasty=1042104 # Nandin
+	religion="zun_pagan"
+	culture="tocharian"
+	father=188700
+	630.1.1={
+		birth=yes
+	}
+	691.1.1={
+		death=yes
+	}
+}
+
+##Visigothic Kings (290-711)
+1000215014 = {
+	name="Amalaric"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215054
+	502.1.1={
+		birth="502.1.1"
+	}
+	531.1.1={
+		death="531.1.1"
+	}
+}
+1000215016 = {
+	name="Theudigisel"
+	dynasty="1000124428"
+	religion="arian"
+	culture="visigothic" #was Norse
+	500.1.1={
+		birth="500.1.1"
+	}
+	549.1.1={
+		death="549.1.1"
+	}
+}
+1000215017 = {
+	name="Agila"
+	dynasty="1000124429"
+	religion="arian"
+	culture="visigothic" #was Norse
+	500.1.1={
+		birth="500.1.1"
+	}
+	554.1.1={
+		death="554.1.1"
+	}
+}
+1000215018 = {
+	name="Athanagild"
+	dynasty="1000124430"
+	religion="arian"
+	culture="visigothic" #was Norse
+	500.1.1={
+		birth="500.1.1"
+	}
+	540.1.1 = {
+		add_spouse = 1000215018
+	}
+	567.1.1={
+		death="567.1.1"
+	}
+}
+1000215019 = {
+	name="Goswintha"
+	female = yes
+	religion="arian"
+	culture="visigothic" #was Norse
+	520.1.1={
+		birth=yes
+	}
+	540.1.1 = {
+		add_spouse = 1000215018
+	}
+	589.1.1={
+		death=yes
+	}
+}
+1000215020 = {
+	name="Galswintha"
+	dynasty="1000124430"
+	female = yes
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215018
+	mother = 1000215019
+	540.1.1={
+		birth=yes
+	}
+	567.1.1={
+		death=yes
+	}
+}
+1000215021 = {
+	name="Brunhild"
+	dynasty="1000124430"
+	female = yes
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215018
+	mother = 1000215019
+	545.1.1={
+		birth=yes
+	}
+	613.1.1={
+		death=yes
+	}
+}
+1000215022 = {
+	name="Ermemberga"
+	female = yes
+	dynasty="1000124431"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000215023
+	585.1.1={
+		birth=yes
+	}
+	613.1.1={
+		death=yes
+	}
+}
+1000215023 = {
+	name="Witteric"
+	dynasty="1000124431"
+	religion="arian"
+	culture="visigothic" #was Norse
+	565.1.1={
+		birth="565.1.1"
+	}
+	610.4.1={
+		death="610.4.1"
+	}
+}
+1000215024 = {
+	name="Gundemar"
+	dynasty="1000124432"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	565.1.1={
+		birth="565.1.1"
+	}
+	612.2.15={
+		death="612.2.15"
+	}
+}
+1000215025 = {
+	name="Sisebut"
+	dynasty="1000124433"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	565.1.1={
+		birth="565.1.1"
+	}
+	621.1.1={
+		death="621.1.1"
+	}
+}
+1000215026 = {
+	name="Reccared"
+	dynasty="1000124433"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000215025
+	617.1.1={
+		birth="617.1.1"
+	}
+	621.2.1={
+		death="621.2.1"
+	}
+}
+#1000215027 = {
+#	name="Theodefred"
+#	dynasty="1000083006"
+#	religion="catholic"
+#	culture="visigothic" #was Norse
+#	father = 1000215031
+#	650.1.1={
+#		birth=yes
+#	}
+#	702.1.1={
+#		death=yes
+#	}
+#}
+1000215028 = {
+	name="Sisinand"
+	dynasty="1000124434"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	605.1.1={
+		birth="605.1.1"
+	}
+	633.1.1={
+		add_trait="excommunicated"
+	}
+	636.1.1={
+		death="636.1.1"
+	}
+}
+1000215029 = {
+	name="Chintila"
+	dynasty="1000124435"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	605.1.1={
+		birth="605.1.1"
+	}
+	640.1.1={
+		death="640.1.1"
+	}
+}
+1000215030 = {
+	name="Tulga"
+	dynasty="1000124435"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000215029
+	625.1.1={
+		birth="625.1.1"
+	}
+	642.1.1={
+		death="642.1.1"
+	}
+}
+1000215031 = {
+	name="Chindaswinth"
+	dynasty="1000083006"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	563.1.1={
+		birth="563.1.1"
+		add_trait="strong"
+	}
+	653.1.1={
+		death="653.1.1"
+	}
+}
+1000215032 = {
+	name="Recceswinth"
+	dynasty="1000083006"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000215031
+	610.1.1={
+		birth="610.1.1"
+	}
+	672.9.1={
+		death="672.9.1"
+	}
+}
+1000215033 = {
+	name="Wamba" #Real First Name Flavius?
+	dynasty="1000124437"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000256709
+	630.1.1={
+		birth="630.1.1"
+	}
+	687.1.1={
+		death="687.1.1"
+	}
+}
+#1000215034 = {
+#	name="Erwig"
+#	#dynasty="1000083004"
+#	religion="catholic"
+#	culture="visigothic" #was Norse
+#	#father = 1000215031
+#	625.1.1={
+#		birth="625.1.1"
+#	}
+#	687.11.14={
+#		death="687.11.14"
+#	}
+#}
+1000215035 = {
+	name="Egica"
+	dynasty="1000124437"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000256709
+	640.1.1={
+		birth="640.1.1"
+	}
+	703.1.1={
+		death="703.1.1"
+	}
+}
+1000215036 = {
+	name="Witiza"
+	dynasty="1000124437"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000215035
+	680.1.1={
+		birth="680.1.1"
+	}
+	711.1.1={
+		death="711.1.1"
+	}
+}
+1000215037 = {
+	name="Achila"
+	dynasty="1000124437"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000215036
+	700.1.1={
+		birth="680.1.1"
+	}
+	721.1.1={
+		death="721.1.1"
+	}
+}
+1000215045 = {
+	name="Theodefred"
+	dynasty="1000083006"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000215031
+	640.1.1={
+		birth="640.1.1"
+	}
+	687.1.1 = {
+		add_spouse = 1000256702
+	}
+	712.1.1={
+		death="712.1.1"
+	}
+}
+1000215046 = {
+	name="Roderic"
+	dynasty="1000083006"
+	religion="catholic"
+	culture="visigothic" #was Norse
+	father = 1000215045
+	690.1.1={
+		birth="690.1.1"
+	}
+	712.1.1={
+		death="712.1.1"
+	}
+}
+1000215047 = {
+	name="Alaric"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000256701
+	370.1.1={
+		birth="370.1.1"
+	}
+	410.1.1={
+		death="410.1.1"
+	}
+}
+1000215048 = {
+	name="Ataulf"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000256701
+	370.1.1={
+		birth="370.1.1"
+	}
+	415.1.1={
+		death="415.1.1"
+	}
+}
+1000215049 = {
+	name="Wallia"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000256701
+	370.1.1={
+		birth="370.1.1"
+	}
+	419.1.1={
+		death="419.1.1"
+	}
+}
+1000215050 = {
+	name="Theoderic"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215047
+	400.1.1={
+		birth="400.1.1"
+		add_trait="bastard"
+	}
+	451.1.1={
+		death="451.1.1"
+	}
+}
+1000215051 = {
+	name="Thorismund"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215050
+	420.1.1={
+		birth="420.1.1"
+	}
+	451.1.1={
+		death="453.1.1"
+	}
+}
+1000215052 = {
+	name="Theoderic"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215050
+	421.1.1={
+		birth="421.1.1"
+	}
+	466.1.1={
+		death="466.1.1"
+	}
+}
+1000215053 = {
+	name="Euric"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215050
+	440.1.1={
+		birth="440.1.1"
+	}
+	484.12.28={
+		death="484.12.28"
+	}
+}
+1000215054 = {
+	name="Alaric"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215048
+	470.1.1={
+		birth="470.1.1"
+	}
+	507.1.1={
+		death="507.1.1"
+	}
+}
+1000215055 = {
+	name="Athanaric"
+	dynasty="1000124427"
+	religion="german_pagan"
+	culture="visigothic" #was Norse
+	father = 1000215059
+	325.1.1={
+		birth="320.1.1"
+	}
+	381.1.1={
+		death="381.1.1"
+	}
+}
+1000215057 = {
+	name="Gesalec"
+	dynasty="1000083002"
+	religion="arian"
+	culture="visigothic" #was Norse
+	father = 1000215054
+	490.1.1={
+		birth="490.1.1"
+		add_trait="bastard"
+	}
+	513.1.1={
+		death="513.1.1"
+	}
+}
+1000215058 = {
+	name="Ariaric"
+	dynasty="1000124427"
+	religion="german_pagan"
+	culture="visigothic" #was Norse
+	270.1.1={
+		birth=yes
+	}
+	335.1.1={
+		death=yes
+	}
+}
+1000215059 = {
+	name="Euric"
+	dynasty="1000124427"
+	religion="german_pagan"
+	culture="visigothic" #was Norse
+	father = 1000215060
+	306.1.1={
+		birth=yes
+	}
+	364.1.1={
+		death=yes
+	}
+}
+1000215060 = {
+	name="Geberich"
+	dynasty="1000124427"
+	religion="german_pagan"
+	culture="visigothic" #was Norse
+	father = 1000215058
+	290.1.1={
+		birth="290.1.1"
+	}
+	350.1.1={
+		death="350.1.1"
+	}
+}
+1000215061 = {
+	name="Fritigern"
+	dynasty="1000124427"
+	religion="german_pagan"
+	culture="visigothic" #was Norse
+	father = 1000215060
+	330.1.1={
+		birth=yes
+	}
+	385.1.1={
+		death=yes
+	}
+}
+1000256700 = {
+	name="Radistis"
+	dynasty="1000083002"
+	religion="german_pagan"
+	culture="visigothic" #was Norse
+	320.1.1={
+		birth=yes
+	}
+	370.1.1={
+		death=yes
+	}
+}
+1000256701 = {
+	name="Atharid"
+	dynasty="1000083002"
+	religion="german_pagan"
+	culture="visigothic" #was Norse
+	father = 1000256700
+	340.1.1={
+		birth=yes
+	}
+	395.1.1={
+		death=yes
+	}
+}
+1000256702 = {
+	name="Ricilo"
+	religion="catholic"
+	culture="visigothic"
+	female = yes
+	660.1.1={
+		birth=yes
+	}
+	687.1.1 = {
+		add_spouse = 1000215045
+	}
+	715.1.1={
+		death=yes
+	}
+}
+1000256703 = {
+	name="Recesvinto"
+	dynasty="1000083006"
+	religion="catholic"
+	culture="visigothic"
+	father = 1000215045
+	mother = 1000256702
+	660.1.1={
+		birth=yes
+	}
+	709.1.1={
+		death=yes
+	}
+}
+1000256704 = {
+	name="Theodefredo"
+	dynasty="1000083006"
+	religion="catholic"
+	culture="visigothic"
+	father = 1000256703
+	680.1.1={
+		birth=yes
+	}
+	740.1.1={
+		death=yes
+	}
+}
+1000256705 = {
+	name="Theodeberga"
+	dynasty="1000083006"
+	religion="catholic"
+	culture="visigothic"
+	father = 1000215045
+	mother = 1000256702
+	female = yes
+	665.1.1={
+		birth=yes
+	}
+	719.1.1={
+		death=yes
+	}
+}
+1000256706 = {
+	name="Bengo"
+	dynasty="1000083006"
+	religion="catholic"
+	culture="visigothic"
+	mother = 1000256705
+	685.1.1={
+		birth=yes
+	}
+	711.1.1={
+		death=yes
+	}
+}
+1000256707 = {
+	name="Olmundo"
+	dynasty="1000124437"
+	religion="catholic"
+	culture="visigothic"
+	father = 1000215036 #Witiza
+	701.1.1={
+		birth=yes
+	}
+	765.1.1={
+		death=yes
+	}
+}
+1000256708 = {
+	name="Ardabasto"
+	dynasty="1000124437"
+	religion="catholic"
+	culture="visigothic"
+	father = 1000215036 #Witiza
+	702.1.1={
+		birth=yes
+	}
+	760.1.1={
+		death=yes
+	}
+}
+1000256709 = {
+	name="Radagaisus"
+	dynasty="1000124437"
+	religion="catholic"
+	culture="visigothic"
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}	
+1000256710 = {
+	name="Dogilano"
+	dynasty = 1000124438
+	religion = catholic
+	culture = visigothic
+	600.1.1 = {
+		birth = yes
+	}
+	653.1.1 = {
+		death = yes
+	}
+}
+1000256711 = {
+	name="Richila"
+	dynasty = 1000124439
+	religion = catholic
+	culture = visigothic
+	580.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+1000256712 = {
+	name="Iudila"
+	dynasty = 1000124443
+	religion = catholic
+	culture = visigothic
+	600.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+1000256713 = {
+	name="Fandila"
+	dynasty = 1000124445
+	religion = catholic
+	culture = visigothic
+	590.1.1 = {
+		birth = yes
+	}
+	655.1.1 = {
+		death = yes
+	}
+}
+
+#Begin mod added characters
+1000256100 = {
+	name = "Nowy"
+	dynasty = 1000124185
+	religion = "catholic"
+	culture = "saxon"
+	father = 159108
+	900.1.1 = {
+		birth = "900.1.1"
+	}
+	970.1.1 = {
+		death = "970.1.1"
+	}
+}
+1000256101 = {
+	name = "Arthfael"
+	dynasty = 1000124185
+	religion = "catholic"
+	culture = "saxon"
+	father = 1000256100
+	925.1.1 = {
+		birth = "925.1.1"
+	}
+	983.1.1 = {
+		death = "983.1.1"
+	}
+}
+1000256102 = {
+	name = "Rodhri"
+	dynasty = 1000124185
+	religion = "catholic"
+	culture = "saxon"
+	father = 1000256101
+	955.1.1 = {
+		birth = "955.1.1"
+	}
+	1015.1.1 = {
+		death = "1015.1.1"
+	}
+}
+1000256103 = {
+	name = Mynyddog
+	dynasty = 1000124391
+	religion = "celtic_pagan"
+#	religion = "catholic" # His religion isn't mentioned (at least in Wikipedia :/ ), pagan for gameplay reasons.
+	culture = "welsh"
+	600.1.1 = {
+		birth = yes
+	}
+	633.1.1 = {
+		death = yes
+	}
+}
+
+1000256104 = {
+	name = Cyrus
+	dynasty = random
+	religion = "monothelite"
+	culture = "syriac"
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+1000256105 = {
+	name = Romulus
+	dynasty = 1000124575 
+	religion = "chalcendonian"
+	culture = "roman"
+	461.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+1000256106 = {
+	name = Hulderic
+	dynasty = random
+	religion = "german_pagan"
+	culture = "old_saxon"
+	461.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+1000256107 = {
+	name = Hariulf
+	dynasty = random
+	religion = "german_pagan"
+	culture = "old_saxon"
+	461.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+1000256108 = {
+	name = Hrane
+	dynasty = random
+	religion = "germanic_pagan"
+	culture = "norse"
+	455.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+1000256109 = {
+	name = Hulderic
+	dynasty = random
+	religion = "german_pagan"
+	culture = "saxon"
+	461.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+1000256110 = {
+	name="Faustus"
+	# AKA:
+	dynasty=random
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	455.1.2={
+		birth="455.1.2"
+	}
+	525.1.2={
+		death="525.1.2"
+	}
+}
+
+11055091= {
+	name = "Athalric"
+	dynasty = random
+	religion = "german_pagan"
+	culture = "heruli"
+	450.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+11052491 = {
+	name="Ardaric"
+	dynasty=1000124576 
+	martial=5
+	diplomacy=6
+	intrigue=6
+	stewardship=8
+	religion="german_pagan"
+	culture="gepid"
+	add_trait="pround"
+	add_trait="quick"
+	add_trait="underhanded_rogue"
+	409.1.1={
+		birth="409.1.1"
+	}
+	460.1.1={
+		death="460.1.1"
+	}
+}
+
+11052591 = {
+	name="Gunderit" 
+	#
+	dynasty=1000124576 
+	martial=8
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	religion="german_pagan"
+	culture="gepid"
+	add_trait="kind"
+	add_trait="proud"
+	add_trait="harelip"
+	add_trait="intricate_webweaver"
+	430.1.1={
+		birth="430.1.1"
+	}
+	488.1.2={
+		death="488.1.2"
+	}
+}
+
+1000256111 = {
+	name = "Predislav"
+	religion = slavic_pagan
+	culture = bohemian
+	450.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+
+1000256112 = {
+	name = "Leszek"
+	dynasty = 1000124491
+	religion = slavic_pagan
+	culture = polish
+	455.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+1000256113 = {
+	name = Czibor
+	dynasty = 9127
+	religion = slavic_pagan
+	culture = polish
+	459.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+
+1000256114 = {
+	name = Ratibor
+	religion = slavic_pagan
+	culture = polish
+	459.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+
+1000256115 = {
+	name = "Mstislav"
+	dynasty = 101906
+	religion = "slavic_pagan"
+	culture = "sorbian"
+	459.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+
+1000256116 = {
+	name = "Przybyslaw"
+	religion = "slavic_pagan"
+	culture = "pommeranian"
+	459.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+
+
+1000256117 = {
+	name = "Prbina"
+	religion = "slavic_pagan"
+	culture = "pommeranian"
+	450.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+
+1000256118 = {
+	name = Berthoald
+	dynasty = "random"
+	religion = german_pagan
+	culture = old_saxon
+	448.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+
+1000256119 = {
+	name = Bagra 
+	dynasty = 101866
+	religion = zoroastrian
+	culture = choresmian 
+	448.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+
+1000256120 = {
+	name="Kumaragupta II"
+	dynasty=1044321 
+	religion="hindu"
+	culture="bengali"
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	430.1.1={
+		birth=yes
+	}
+	478.1.1={
+		death=yes
+	}
+}
+
+1000256121 = {
+	name="Amr"
+	dynasty = 1042181
+	religion = sabaean_pagan  
+	culture = omani_arabic
+	459.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+1000256122 = {
+	name="Nezool"
+	dynasty=7246
+	religion="miaphysite"
+	culture="ethiopian"
+
+	459.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+1000256123 = {
+	name = Dengizikh
+	dynasty = 1000124493
+	religion = tengri_pagan
+	culture = avar
+	450.1.1 = {
+		birth = yes
+	}
+	534.1.1 = {
+		death = yes
+	}
+}
+
+1000256124 = {
+	name="Mënümarót"
+	dynasty=1022382
+	culture="khazar"
+	religion="tengri_pagan"
+
+	451.1.1={
+		birth=yes
+	}
+	530.1.1={
+		death=yes
+	}
+}
+
+1000256125 = {
+	name=Kutan 	#placeholder
+	dynasty=1000124578  # Kimak
+	religion=tengri_pagan
+	culture=karluk
+	454.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+
+1000256126 = {
+	name=Çaka  	#placeholder
+	dynasty=1045105 
+	religion=tengri_pagan
+	culture=turkish
+	454.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+1000256127 = {
+	name=Demir  	#placeholder
+	dynasty=7327
+	religion=tengri_pagan
+	culture=turkish
+	454.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256128 = {
+	name=Aghwrbiy  	#placeholder
+	dynasty=random
+	religion=vainakh_pagan
+	culture=circassian 
+	454.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256129 = {
+	name=Tsats  	#placeholder
+	dynasty=random
+	religion=vainakh_pagan
+	culture=circassian 
+	454.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256130 = {
+	name="Ekasrinke"
+	dynasty=1040059
+	religion="mahayana_buddhist"
+	culture="tocharian"
+	454.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256131 = {
+	name="Cittaraksite"
+	dynasty=random
+	religion="mahayana_buddhist"
+	culture="tocharian"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256132 = {
+	name="Cittaraksite"
+	dynasty=random
+	religion="mahayana_buddhist"
+	culture="Jñanakame"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256133 = {
+	name="Lingzhong"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090023
+	trait="confucianism"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}	
+}
+
+1000256134 = {
+	name="Ermaneric"
+	dynasty="1000083001"
+	religion="german_pagan"
+	culture="ostrogothic"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256135 = {
+	name="Yucheng"
+	dynasty="1000124578 "
+	religion="tengri_pagan"
+	culture="mongol"
+	440.1.1={
+		birth=yes
+	}
+	485.1.1={
+		death=yes
+	}
+}
+
+
+1000256136 = {
+	name="Bayanchur" # or Moyanchur
+	dynasty=1042190 # Uyghurid
+	religion="tengri_pagan"
+	culture="kirghiz" # uyghur
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256137 = {
+	name="Levedi"
+	dynasty=1000124568 
+	religion="tengri_pagan"
+	culture="hungarian"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256138 = {
+	name="Törtogul" # fictional
+	dynasty=852 # Kimak
+	religion="tengri_pagan"
+	culture="cuman"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256139 = {
+	name="Kegen"
+	dynasty=100512
+	martial=6
+	diplomacy=6
+	intrigue=4
+	stewardship=5
+	religion="tengri_pagan"
+	culture="pecheneg"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256140 = {
+	name="Çagri"
+	dynasty=1000124579 
+	religion="tengri_pagan"
+	culture="tiele"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256141 = {
+	name="Eldeçyuk"
+	dynasty=1000124570 
+	religion="tengri_pagan"
+	culture="uyghur"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
+1000256142 = {
+	name="Halil"
+	dynasty=1000124535  
+	religion="arabic_pagan"
+	culture="bedouin_arabic"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+

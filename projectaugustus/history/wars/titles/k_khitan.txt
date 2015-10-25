@@ -1,0 +1,21 @@
+20.1.1 = {
+	historical_nomad = yes
+}
+1141.1.1={
+	holder = 188905 # Yel¨¹-Dashi, Kara Khitan conquest
+}
+1143.1.1={
+	holder = 188907 # Yel¨¹-Yilie
+}
+1163.1.1={
+	holder = 188908 # Pusuwan
+}
+1177.1.1={
+	holder = 188912 # Yel¨¹-Zhilugu
+}
+1211.1.1={
+	holder = 188914 # Kuchlug (de facto)
+}
+1218.1.1={
+	holder=0
+}

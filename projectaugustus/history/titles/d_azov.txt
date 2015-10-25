@@ -1,3 +1,33 @@
+1.1.1 = {
+	de_jure_liege = k_alania
+}
+454.1.1 = {
+	holder = 1000250700
+#	liege = e_huns
+}
+503.1.1 = {
+	holder = 1000250701
+	liege = 0
+}
+528.1.1 = {
+	holder = 1000250702
+}
+530.1.1 = {
+	holder = 1000250703
+}
+540.1.1 = {
+	holder = 1000250704
+}
+580.1.1 = {
+	holder = 1000250705
+}
+601.1.1 = {
+	holder = 159117
+}
+632.1.1 = {
+	liege = k_bulgaria
+}
+
 654.1.1={
 	liege=e_khazaria
 	holder=74004

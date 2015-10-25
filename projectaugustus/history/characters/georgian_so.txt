@@ -1,0 +1,81 @@
+14409991 = {
+	name="Vakhtang"
+	dynasty=121
+	martial=8
+	diplomacy=8
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="georgian"
+	add_trait="ambitious"
+	add_trait="proud"
+	439.1.1={
+		birth="439.1.1"
+	}
+	450.1.1={
+		add_spouse=125719
+	}
+	522.1.1={
+		death="522.1.1"
+	}
+}
+
+14401991 = {
+	name="Varsken"
+	dynasty=122
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	religion="zoroastrian"
+	culture="georgian"
+	add_trait="zealous"
+	435.1.1={
+		birth="435.1.1"
+	}
+	482.1.1={
+		death="482.1.1"
+	}
+}
+
+14456591 = {
+	name="Dachi"
+	dynasty=121
+	martial=7
+	diplomacy=9
+	intrigue=6
+	stewardship=8
+	religion = orthodox
+	culture="georgian"
+	add_trait="kind"
+	add_trait="gregarious"
+	father=14409991 
+	mother=20707
+	460.1.1={
+		birth="460.1.1"
+	}
+	534.1.1={
+		death="534.1.1"
+	}
+}
+
+
+14456592 = {
+	name="Leo"
+	dynasty=123
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=7
+	religion = orthodox
+	culture="georgian"
+	add_trait="content"
+	father=14409991 
+	mother=20707
+	475.9.2={
+		birth="475.9.2"
+	}
+	541.1.31={
+		death="541.1.31"
+	}
+}

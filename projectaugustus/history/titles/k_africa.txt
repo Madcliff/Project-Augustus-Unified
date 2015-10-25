@@ -1,3 +1,20 @@
-100.1.1={
-	pentarch = b_roma
+100.1.1=
+{
+	pentarch = b_alexandria
+}
+
+470.1.1=
+{
+	holder=22000091
+}
+610.1.1 = {
+	holder=1000257343 
+	liege=e_byzantium
+	name = "k_exarch_africa"
+	adjective = "Roman Africa
+}
+
+697.1.1 = {
+	reset_name = yes
+	reset_adjective = yes
 }

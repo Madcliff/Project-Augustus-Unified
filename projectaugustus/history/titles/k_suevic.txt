@@ -1,0 +1,11 @@
+100.1.1=
+{
+	pentarch = b_roma
+}
+
+466.1.1=
+{
+	law = agnatic_succession
+	law = succ_seniority
+	holder=1428116
+}

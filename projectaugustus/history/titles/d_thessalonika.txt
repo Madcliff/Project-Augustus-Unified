@@ -1,8 +1,15 @@
-330.1.1={
-liege = "e_byzantium"
-vice_royalty = yes
+330.1.1 = {
+	liege = "e_byzantium"
+	vice_royalty = yes
+}
+630.1.1 = {
+	holder = 70509
+}
+641.1.1 = {
+	holder = 0
 }
 754.1.1={
+	vice_royalty = yes
 	holder=145814
 }
 855.1.1={
@@ -14,6 +21,7 @@ holder=1744
 }
 1050.1.1=
 {
+vice_royalty = no
 holder=1732
 }
 1067.5.22={
@@ -52,7 +60,6 @@ liege="e_latin_empire"
 }
 1204.8.1=
 {
-vice_royalty = no
 holder=213523 #Bonifazio I
 }
 1207.9.4=
@@ -64,7 +71,6 @@ holder=31346 #Demetrio I
 1224.1.1=
 {
 holder=215514
-vice_royalty = yes
 }
 1224.1.1=
 {
@@ -108,6 +114,7 @@ holder=465521
 }
 1295.5.1=
 {
+vice_royalty = yes
 holder=465501
 }
 1320.10.12=

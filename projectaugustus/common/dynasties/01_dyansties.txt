@@ -1,0 +1,204 @@
+1000154000 = {
+			name = "Malkhut ben Dawid"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 0
+					texture_internal = 0
+					emblem = 1
+					color = 7
+					color = 7
+				}
+			religion=jewish
+			}
+		}
+
+1000154001 = {
+			name = "ben Sha'ul"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 0
+					texture_internal = 4
+					emblem = 4
+					color = 2
+					color = 1
+				}
+				religion=jewish
+			}
+		}
+		
+1000154002 = {
+			name = "ben Yerav'am"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 0
+					texture_internal = 7
+					emblem = 5
+					color = 5
+					color = 2
+				}
+				religion=jewish
+			}
+		}
+
+1000154003 = {
+			name = "ben Ba'asha"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 0
+					texture_internal = 9
+					emblem = 6
+					color = 1
+					color = 0
+				}
+				religion=jewish
+			}
+		}
+
+1000154004 = {
+			name = "ben Zimri"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 2
+					texture_internal = 1
+					emblem = 11
+					color = 0
+					color = 1
+					color = 3
+				}
+				religion=jewish
+			}
+		}
+		
+1000154005 = {
+			name = "ben Omri"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 1
+					texture_internal = 0 
+					emblem = 13
+					color = 0
+					color = 2
+					color = 5
+				}
+				religion=jewish
+			}
+		}
+	
+1000154006 = {
+			name = "ben Yehu"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 1 
+					texture_internal = 15
+					emblem = 23
+					color = 2
+					color = 1
+					color = 3
+				}
+				religion=jewish
+			}
+		}
+
+1000154007 = {
+			name = "ben Shallum"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 0
+					texture_internal = 2
+					emblem = 23
+					color = 5
+					color = 2
+				}
+				religion=jewish
+			}
+		}
+	
+1000154008 = {
+			name = "ben Menahem"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 0
+					texture_internal = 12
+					emblem = 21
+					color = 7
+					color = 5
+				}
+				religion=jewish
+			}
+		}
+		
+1000154009 = {
+			name = "ben Pekah"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 2
+					texture_internal = 0
+					emblem = 18
+					color = 8
+					color = 9
+					color = 10
+				}
+				religion=jewish
+			}
+		}
+
+1000154010 = {
+			name = "ben Levi"
+			culture = "mizrahi"
+			coat_of_arms = {
+				template = 0
+				layer = {
+					texture = 0
+					texture_internal = 0
+					emblem = 24
+					color = 2
+					color = 2
+					color = 2
+				}
+			}
+		}
+200011 = {
+	name = "Arsacid"
+	culture = "palhavi"
+}
+
+200012 = {
+	name = "Narsai"
+	culture = tamil
+}
+
+200013 = { 
+	name = "Mariam"
+	culture = assyrian
+}
+
+200014 = { 
+	name = "Mirza"
+	culture = assyrian
+}
+
+
+200015 = { 
+	name = "Avoir"
+	culture = french
+}

@@ -4,11 +4,11 @@
 title = c_orvieto
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_orvieto = castle
 b_amelia = city
 b_narni = temple
-#b_ciconia = temple
+b_ciconia = temple
 #b_montecastrilli = castle
 #b_alviano = castle
 #b_otricoli = castle

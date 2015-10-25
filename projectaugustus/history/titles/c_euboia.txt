@@ -1,5 +1,15 @@
-330.1.1={
+470.1.1 = {
+holder=70516
+}
+470.1.1 = {
+	liege="e_byzantium"
+}
+630.1.1={
 	liege="d_athens"
+}
+630.1.1={
+	liege="d_athens"
+	holder = 1000094617
 }
 768.1.1={
 	holder=145821

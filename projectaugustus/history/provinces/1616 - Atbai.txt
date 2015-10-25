@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_atbai
+# Settlements
+max_settlements = 3
+b_atbai = castle
+
+
+# Misc
+culture = beja
+religion = egyptian_pagan 
+
+# History

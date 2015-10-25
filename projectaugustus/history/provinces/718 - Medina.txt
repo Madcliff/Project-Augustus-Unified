@@ -20,7 +20,7 @@ culture = bedouin_arabic
 religion = sunni
 
 # History
-
-769.1.1 = {
-        b_medina = tp_prophetsmosque
+700.1.1 = {
+	b_yanbu = ct_jewish_community_1
+	b_yanbu = ct_jewish_community_2
 }

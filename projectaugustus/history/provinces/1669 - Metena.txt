@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_metena
+# Settlements
+max_settlements = 4
+b_metena = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

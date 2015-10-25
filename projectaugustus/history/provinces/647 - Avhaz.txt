@@ -15,7 +15,7 @@ b_helen = temple
 #b_koohrang = castle
 #b_farsan = castle
 
-culture = persian
+culture = lur
 religion = zurvanite
 
 # History

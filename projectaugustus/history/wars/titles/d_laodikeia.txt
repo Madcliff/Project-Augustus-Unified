@@ -1,0 +1,15 @@
+20.1.1 = {
+        active = no
+}
+1204.5.16 = {
+        liege = 0
+        active = yes
+	holder = 232518
+}
+1206.1.1 = {
+        liege = k_rum
+}
+1230.1.1 = {
+         holder = 0
+         active = no
+}

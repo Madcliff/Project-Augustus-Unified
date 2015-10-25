@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_gimbi
+# Settlements
+max_settlements = 4
+b_gimbi = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

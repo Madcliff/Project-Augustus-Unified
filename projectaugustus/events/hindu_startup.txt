@@ -1,0 +1,48 @@
+character_event = {
+
+  id = HIN.999992
+  only_rulers = yes
+  hide_window = yes
+  is_triggered_only = yes
+  immediate = {
+   if  = {
+    limit = {
+     religion_group = indian_group
+      capital_scope = {
+       NOT = { religion = ROOT }
+       religion_group = indian_group
+      }
+     holy_order = no
+    }       
+	capital_scope = {
+				reverse_religion = ROOT
+			}
+   }
+  }
+ }
+ 
+ character_event = {
+
+  id = HIN.999993
+  only_rulers = yes
+  hide_window = yes
+  is_triggered_only = yes
+  immediate = {
+   if  = {
+    limit = {
+     culture = finnish
+      capital_scope = {
+       NOT = { culture = ROOT }
+       culture = karelian
+      }
+     holy_order = no
+    }       
+	capital_scope = {
+				reverse_culture = ROOT
+			}
+   }
+  }
+ }
+    
+
+			

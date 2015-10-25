@@ -20,7 +20,7 @@ culture = avar
 religion = tengri_pagan
 
 # History
-
+815.1.1 = { culture = bohemian }
 815.1.1 = { religion = catholic }
 890.1.1 = {
 	b_komarom = castle

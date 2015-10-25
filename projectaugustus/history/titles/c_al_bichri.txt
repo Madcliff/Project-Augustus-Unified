@@ -1,3 +1,16 @@
+470.1.1 = {
+	holder=180624 # Peroz I
+}
+
+615.1.1 = {
+	liege = d_aleppo
+	holder = 1000257900
+}
+653.1.1 = {
+	holder = 0
+	liege = 0
+}
+
 710.1.1={
 	liege="d_bostra"
 	holder=146067

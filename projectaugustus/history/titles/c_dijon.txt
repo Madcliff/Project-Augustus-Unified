@@ -1,3 +1,14 @@
+463.1.1={
+	liege="k_france"
+}
+
+630.1.1 = {
+	holder = 1000153008
+	liege = "d_burgundy"
+}
+643.1.1 = {
+	holder = 0
+}
 745.1.1={
 	holder = 190511 #Theoderic
 }

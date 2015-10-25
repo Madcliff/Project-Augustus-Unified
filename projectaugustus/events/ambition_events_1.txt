@@ -1,0 +1,278 @@
+namespace = AMB
+#Save
+character_event = {
+	id = AMB.100
+	
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		FROM = {
+			NOT = {religion_group = ROOT}
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			add_character_modifier = {
+				name = vhw
+				months = 24
+				hidden = yes
+			}
+		}
+	}
+
+}
+
+character_event = {
+	id = AMB.101
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		FROM = {
+			NOT = {religion_group = ROOT}
+		}
+	}
+	
+	
+	immediate = {
+		ROOT = {
+			add_character_modifier = {
+				name = vhw
+				months = 24
+				hidden = yes
+			}
+		}
+	}
+
+}
+
+
+character_event = {
+	id = AMB.102
+	desc = EVTDESC6910
+	picture = GFX_evt_battle
+
+	min_age = 16	
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = yes
+		NOT = {num_of_friends = 1}
+		
+		in_battle = yes
+		independent = no
+		NOT = { health_traits = 1 }
+
+		any_vassal = {
+			in_command = yes
+			in_battle = yes
+			at_location = ROOT
+			NOT = { war_with = ROOT }
+			NOT = { health_traits = 1 }
+			NOT = {is_rival = ROOT}
+			#opinion = { who = ROOT value = -30 }
+			#NOT = {	opinion = { who = ROOT value = 30 } }
+		}
+
+
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		
+		modifier = {
+			factor = 0.01
+			has_ambition = obj_friend_vassal
+		}
+		
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 3
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 4
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 5
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 6
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 7
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 8
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 9
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 10
+		}
+	}
+	immediate = {
+
+		random_vassal = {
+			limit = {
+				in_command = yes
+				at_location = ROOT
+				in_battle = yes
+				NOT = { health_traits = 1 }
+				NOT = { war_with = ROOT }
+				NOT = {is_rival = ROOT}
+				#opinion = { who = ROOT value = -30 }
+				#NOT = {	opinion = { who = ROOT value = 30 } }
+			}
+			set_character_flag = campaign_friend
+		}
+
+	}
+	
+	option = {
+		name = EVTOPTA6910
+		if = {
+			limit = {NOT = {trait = brave}}
+			add_trait = brave
+		}
+		random_vassal = {
+			limit = {
+				has_character_flag = campaign_friend
+			}
+			clr_character_flag = campaign_friend
+			prestige = 5
+			
+			opinion = {
+				modifier = saved_on_battlefield
+				who = ROOT
+				months = 1200
+			}
+			
+			add_friend = ROOT
+			hidden_tooltip = {
+				character_event = { id = 6911 days = 1 }
+			}
+		}
+
+	}
+}
+
+
+
+character_event = {
+	id = AMB.103
+	desc = EVTDESC6910
+	picture = GFX_evt_battle
+
+	min_age = 16	
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = yes
+		NOT = {num_of_friends = 1}
+		
+		in_battle = yes
+		independent = no
+		NOT = { health_traits = 1 }
+
+		liege = {
+			in_command = yes
+			in_battle = yes
+			at_location = ROOT
+			NOT = { war_with = ROOT }
+			NOT = { health_traits = 1 }
+			NOT = {is_rival = ROOT}
+			#opinion = { who = ROOT value = -30 }
+			#NOT = {	opinion = { who = ROOT value = 30 } }
+		}
+
+
+	}
+	
+	mean_time_to_happen = {
+		months = 7200
+		
+		modifier = {
+			factor = 0.02
+			has_ambition = obj_friend_liege
+		}
+		
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 3
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 4
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 5
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 6
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 7
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 8
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 9
+		}
+		modifier = {
+			factor = 0.75
+			combat_rating = 10
+		}
+	}
+	
+	option = {
+		name = EVTOPTA6910
+		if = {
+			limit = {NOT = {trait = brave}}
+			add_trait = brave
+		}
+		liege = {
+			prestige = 5
+			
+			opinion = {
+				modifier = saved_on_battlefield
+				who = ROOT
+				months = 1200
+			}
+			
+			add_friend = ROOT
+			hidden_tooltip = {
+				character_event = { id = 6911 days = 1 }
+			}
+		}
+
+	}
+}

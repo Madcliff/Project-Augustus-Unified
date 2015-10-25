@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_hargaya
+# Settlements
+max_settlements = 4
+b_hargaya = castle
+
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

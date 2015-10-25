@@ -1,3 +1,21 @@
+459.1.1={
+	holder = 1438111
+	liege = "k_france"
+}
+
+620.1.1 = {
+	holder = 1000153021
+	liege = d_anjou	
+}
+655.1.1 = {
+	holder = 1000153023
+}
+681.1.1 = {
+	holder = 1000153022
+}
+686.1.1 = {
+	holder = 0
+}
 750.1.1={
 	liege=k_neustria
 	holder = 91478 #BAUGULF, historical count as placeholder

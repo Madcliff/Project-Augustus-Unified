@@ -1,0 +1,10 @@
+20.1.1={
+	active = no
+}
+1360.1.1={
+	active = yes
+        law = tribal_organization_4
+	law = agnatic_succession
+        law = succ_elective_gavelkind
+        law = feudal_tax_1
+}

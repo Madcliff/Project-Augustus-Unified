@@ -16,12 +16,12 @@ b_interlaken = temple
 #b_sursee = castle
 
 # Misc
-culture = rhaetian
+culture = rhaeto_roman
 religion = catholic
 
 # History
 
-900.1.1 = {
-culture = romansh
+800.1.1 = { 
+	culture = german
 }
 1187.1.1 = { b_luzern = city } 

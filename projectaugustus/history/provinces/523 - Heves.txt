@@ -16,11 +16,15 @@ b_eger = temple
 #b_mezokovesd = castle
 
 # Misc
-culture = avar
-religion = tengri_pagan
+culture = gepid
+religion = arian
+
+700.1.1 = {
+	culture = avar
+	religion = tengri_pagan
+}
 
 # History
-
 890.1.1 = {
 	b_heves = castle
 	b_gyongyos = city

@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_maqadishu
+# Settlements
+max_settlements = 4
+b_maqadishu = castle
+
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

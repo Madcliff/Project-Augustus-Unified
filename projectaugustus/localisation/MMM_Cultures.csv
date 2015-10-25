@@ -1,0 +1,231 @@
+albanian;Albanian;Albanian;Albanian;;Albanian;;;;;;;;;x
+norsegaelic;Norse-Gaelic;Norse-Gaelic;Norse-Gaelic;;Norse-Gaelic;;;;;;;;;x
+icelandic;Icelandic;Icelandic;Icelandic;;Icelandic;;;;;;;;;
+cornish;Cornish;Cornouaillais;Kornisch;;Cornualles;;;;;;;;;x
+count_cornish;Earl;Comte;Graf;;Conde;;;;;;;;;x
+hausa;Hausa;Hausa;Hausa;;Hausa;;;;;;;;;x
+kanuri;Kanuri;Kanuri;Kanuri;;Kanuri;;;;;;;;;x
+zaghawa;Zaghawa;Zaghawa;Zaghawa;;Zaghawa;;;;;;;;;x
+baron_hausa;Kadan Cif;Kadan Cif;Kadan Cif;;Kadan Cif;;;;;;;;;x
+count_hausa;Cif;Cif;Cif;;Cif;;;;;;;;;x
+duke_hausa;Shugaban;Shugaban;Shugaban;;Shugaban;;;;;;;;;x
+king_hausa;Babban Shugaban;Babban Shugaban;Babban Shugaban;;Babban Shugaban;;;;;;;;;x
+emperor_hausa;Sarki;Sarki;Sarki;;Sarki;;;;;;;;;x
+baron_pagan_hausa;Kadan Cif;Kadan Cif;Kadan Cif;;Kadan Cif;;;;;;;;;x
+count_pagan_hausa;Cif;Cif;Cif;;Cif;;;;;;;;;x
+duke_pagan_hausa;Shugaban;Shugaban;Shugaban;;Shugaban;;;;;;;;;x
+king_pagan_hausa;Babban Shugaban;Babban Shugaban;Babban Shugaban;;Babban Shugaban;;;;;;;;;x
+emperor_pagan_hausa;Sarki;Sarki;Sarki;;Sarki;;;;;;;;;x
+baron_pagan_kanuri;Kema;Kema;Kema;;Kema;;;;;;;;;x
+count_pagan_kanuri;Kazallah;Kazallah;Kazallah;;Kazallah;;;;;;;;;x
+duke_pagan_kanuri;Kaigama;Kaigama;Kaigama;;Kaigama;;;;;;;;;x
+king_pagan_kanuri;Shehu;Shehu;Shehu;;Shehu;;;;;;;;;x
+emperor_pagan_kanuri;Mai;Mai;Mai;;Mai;;;;;;;;;x
+baron_kanuri;Kema;Kema;Kema;;Kema;;;;;;;;;x
+count_kanuri;Kazallah;Kazallah;Kazallah;;Kazallah;;;;;;;;;x
+duke_kanuri;Kaigama;Kaigama;Kaigama;;Kaigama;;;;;;;;;x
+king_kanuri;Shehu;Shehu;Shehu;;Shehu;;;;;;;;;x
+emperor_kanuri;Mai;Mai;Mai;;Mai;;;;;;;;;x
+baron_pagan_zaghawa;Kema;Kema;Kema;;Kema;;;;;;;;;x
+count_pagan_zaghawa;Kazallah;Kazallah;Kazallah;;Kazallah;;;;;;;;;x
+duke_pagan_zaghawa;Kaigama;Kaigama;Kaigama;;Kaigama;;;;;;;;;x
+king_pagan_zaghawa;Shehu;Shehu;Shehu;;Shehu;;;;;;;;;x
+emperor_pagan_zaghawa;Mai;Mai;Mai;;Mai;;;;;;;;;x
+baron_zaghawa;Kema;Kema;Kema;;Kema;;;;;;;;;x
+count_zaghawa;Kazallah;Kazallah;Kazallah;;Kazallah;;;;;;;;;x
+duke_zaghawa;Kaigama;Kaigama;Kaigama;;Kaigama;;;;;;;;;x
+king_zaghawa;Shehu;Shehu;Shehu;;Shehu;;;;;;;;;x
+emperor_zaghawa;Mai;Mai;Mai;;Mai;;;;;;;;;x
+central_african;Central African;Central African;Central African;;Central African;;;;;;;;;x
+west_african;West African;West African;West African;;West African;;;;;;;;;x
+temple_baron_animism;Shaman;Chaman;Schamane;;Chamán;;;;;;;;;x
+temple_count_animism;Shaman;Chaman;Schamane;;Chamán;;;;;;;;;x
+temple_duke_animism;High Shaman;Chaman;Schamane;;Chamán;;;;;;;;;x
+temple_king_animism;Shaman-King;Chaman;Schamane;;Chamán;;;;;;;;;x
+temple_emperor_animism;Shaman-Emperor;Chaman;Schamane;;Chamán;;;;;;;;;x
+MAI_KING;Mai;Mai;Mai;;Mai;;;;;;;;;x
+MAI_KING_FOA;Mai;Mai;Mai;;Mai;;;;;;;;;x
+emperor_east_african;Negusa Nagest;Negusa Nagest;Negusa Nagest;;Negusa Nagest;;;;;;;;;x
+emperor_female_east_african;Nigiste Negest;Nigiste Negest;Nigiste Negest;;Nigiste Negest;;;;;;;;;x
+emperor_title_ruler_consort_east_african;Negusa Nagest;Negusa Nagest;Negusa Nagest;;Negusa Nagest;;;;;;;;;x
+emperor_title_ruler_consort_female_east_african;Itege;Itege;Itege;;Itege;;;;;;;;;x
+emperor_title_queen_mother_female_east_african;Itege;Itege;Itege;;Itege;;;;;;;;;x
+king_east_african;Negus;Negus;Negus;;Negus;;;;;;;;;x
+king_female_east_african;Nigist;Nigist;Nigist;;Nigist;;;;;;;;;x
+title_regent_east_african;Enderase;Enderase;Enderase;;Enderase;;;;;;;;;x
+title_ruler_consort_east_african;Negus;Negus;Negus;;Negus;;;;;;;;;x
+title_ruler_consort_female_east_african;Itege;Itege;Itege;;Itege;;;;;;;;;x
+title_queen_mother_east_african;Itege;Itege;Itege;;Itege;;;;;;;;;x
+title_prince_east_african;Leul;Leul;Leul;;Leul;;;;;;;;;x
+title_prince_female_east_african;Leult;Leult;Leult;;Leult;;;;;;;;;x
+city_king_east_african;Shum Negus;Shum Negus;Shum Negus;;Shum Negus;;;;;;;;;
+duke_east_african;Ras;Ras;Ras;;Ras;;;;;;;;;x
+duke_female_east_african;Rasit;Rasit;Rasit;;Rasit;;;;;;;;;x
+duke_title_ruler_consort_east_african;Ras;Ras;Ras;;Ras;;;;;;;;;x
+duke_title_ruler_consort_female_east_african;Rasit;Rasit;Rasit;;Rasit;;;;;;;;;x
+city_duke_east_african;Blattengeta;Blattengeta;Blattengeta;;Blattengeta;;;;;;;;;x
+duchy_of_east_african;Rast of;Rast of;Rast of;;Rast of;;;;;;;;;x
+count_east_african;Bitwoded;Bitwoded;Bitwoded;;Bitwoded;;;;;;;;;x
+count_female_east_african;Bitwodedit;Bitwodedit;Bitwodedit;;Bitwodedit;;;;;;;;;x
+county_of_east_african;Bitwod of;Bitwod of;Bitwod of;;Bitwod of;;;;;;;;;x
+count_title_ruler_consort_east_african;Bitwoded;Bitwoded;Bitwoded;;Bitwoded;;;;;;;;;x
+count_title_ruler_consort_female_east_african;Bitwodedit;Bitwodedit;Bitwodedit;;Bitwodedit;;;;;;;;;x
+city_count_east_african;Blatta;Blatta;Blatta;;Blatta;;;;;;;;;x
+baron_east_african;Fitawrari;Fitawrari;Fitawrari;;Fitawrari;;;;;;;;;x
+baron_female_east_african;Fitawrarit;Fitawrarit;Fitawrarit;;Fitawrarit;;;;;;;;;x
+baron_title_ruler_consort_east_african;Fitawrari;Fitawrari;Fitawrari;;Fitawrari;;;;;;;;;x
+baron_title_ruler_consort_female_east_african;Fitawrarit;Fitawrarit;Fitawrarit;;Fitawrarit;;;;;;;;;x
+barony_of_east_african;Fitaw of;Fitaw of;Fitaw of;;Fitaw of;;;;;;;;;x
+city_baron_east_african;Makwanin;Makwanin;Makwanin;;Makwanin;;;;;;;;;x
+emperor_king_christian_east_african;Emperor-Bishop;Emperor-Bishop;Emperor-Bishop;;Emperor-Bishop;;;;;;;;;x
+temple_king_catholic_east_african;King-Bishop;King-Bishop;King-Bishop;;King-Bishop;;;;;;;;;x
+temple_king_orthodox_east_african;King-Bishop;King-Bishop;King-Bishop;;King-Bishop;;;;;;;;;x
+temple_duke_catholic_east_african;Prince-Archbishop;Prince-Archbishop;Prince-Archbishop;;Prince-Archbishop;;;;;;;;;x
+temple_duke_orthodox_east_african;Prince-Archbishop;Prince-Archbishop;Prince-Archbishop;;Prince-Archbishop;;;;;;;;;x
+temple_count_catholic_east_african;Prince-Bishop;Prince-Bishop;Prince-Bishop;;Prince-Bishop;;;;;;;;;x
+temple_count_orthodox_east_african;Metropolitan;Metropolitan;Metropolitan;;Metropolitan;;;;;;;;;x
+temple_baron_christian_east_african;Bishop;Bishop;Bishop;;Bishop;;;;;;;;;x
+city_empire_of_east_african;Blatten Atse of;Blatten Atse of;Blatten Atse of;;Blatten Atse of;;;;;;;;;x
+city_kingdom_of_east_african;Blattennegust of ;Blattennegust of ;Blattennegust of ;;Blattennegust of ;;;;;;;;;x
+city_duchy_of_east_african;Blattenrast of;Blattenrast of;Blattenrast of;;Blattenrast of;;;;;;;;;x
+city_county_of_east_african;Blattenbitwod of;Blattenbitwod of;Blattenbitwod of;;Blattenbitwod of;;;;;;;;;x
+city_barony_of_east_african;Makwan of;Makwan of;Makwan of;;Makwan of;;;;;;;;;x
+job_chancellor_east_african;Afe Negus;Afe Negus;Afe Negus;;Afe Negus;;;;;;;;;x
+job_marshal_east_african;Dejazmach;Dejazmach;Dejazmach;;Dejazmach;;;;;;;;;x
+job_spymaster_east_african;Tigray;Tigray;Tigray;;Tigray;;;;;;;;;x
+job_treasurer_east_african;Blattengeta;Blattengeta;Blattengeta;;Blattengeta;;;;;;;;;x
+job_spiritual_east_african;Diaqon;Diaqon;Diaqon;;Diaqon;;;;;;;;;x
+job_viceroy_east_african;Viceroy;Viceroy;Viceroy;;Viceroy;;;;;;;;;x
+mande;Mande;Mande;Mande;;Mande;;;;;;;;;x
+jolof;Jolof;Wolof;Jolof;;Jolof;;;;;;;;;x
+sosso;Sosso;Sosso;Sosso;;Sosso;;;;;;;;;x
+daju;Daju;Daju;Daju;;Daju;;;;;;;;;x
+furpeople;Fur;Fur;Fur;;Fur;;;;;;;;;x
+BOQOR_KING;Boqor;Boqor;Boqor;;Boqor;;;;;;;;;x
+BOQOR_KING_FOA;Boqor;Boqor;Boqor;;Boqor;;;;;;;;;x
+temple_barony_of_monophysite;Bishopric of;Évêché de;Bistum von;;Obispado de;;;;;;;;;x
+temple_county_of_monophysite;Prince-Bishopric of;Évêché princier de;Prinz-Bistum von;;Arzobispado Príncipe de;;;;;;;;;x
+temple_duchy_of_monophysite;Prince-Archbishopric of;Archevêché princier de;Prinz-Erzbistum von;;Arzobispado Príncipe de;;;;;;;;;x
+temple_kingdom_of_monophysite;Patriarchate of;Patriarcat de;Patriarchat von;;Patriarcado de;;;;;;;;;x
+temple_king_monophysite;King-Bishop;Roi évêque;König-Bischof;;Rey-obispo;;;;;;;;;x
+temple_duke_monophysite;Prince-Archbishop;Prince archevêque;Prinz-Erzbischof;;Príncipe arzobispo;;;;;;;;;x
+temple_count_monophysite;Prince-Bishop;Prince évêque;Prinz-Bischof;;Príncipe obispo;;;;;;;;;x
+temple_baron_monophysite;Bishop;Évêque;Bischof;;Obispo;;;;;;;;;x
+SULTAN_KING;Sultan;Sultan;Sultan;;Sultan;;;;;;;;;x
+SULTAN_KING_FOA;Sultan;Sultan;Sultan;;Sultan;;;;;;;;;x
+baron_irish;Tiarna;Tiarna;Tiarna;;Tiarna;;;;;;;;;x
+count_irish;Rituaithe;Rituaithe;Rituaithe;;Rituaithe;;;;;;;;;x
+duke_irish;Ruiri;Ruiri;Ruiri;;Ruiri;;;;;;;;;x
+king_irish;Ardrí;Ardrí;Ardrí;;Ardrí;;;;;;;;;x
+baron_german;Freiherr;Freiherr;Freiherr;;Freiherr;;;;;;;;;x
+count_german;Graf;Graf;Graf;;Graf;;;;;;;;;x
+duke_german;Herzog;Herzog;Herzog;;Herzog;;;;;;;;;x
+king_german;König;König;König;;König;;;;;;;;;x
+baron_italian;Barone;Barone;Barone;;Barone;;;;;;;;;x
+count_italian;Conte;Conte;Conte;;Conte;;;;;;;;;x
+duke_italian;Duca;Duca;Duca;;Duca;;;;;;;;;x
+king_italian;Re;Re;Re;;Re;;;;;;;;;x
+emperor_italian;Imperatore;Imperatore;Imperatore;;Imperatore;;;;;;;;;x
+count_frankish;Comte;Comte;Comte;;Comte;;;;;;;;;x
+duke_frankish;Duc;Duc;Duc;;Duc;;;;;;;;;x
+king_frankish;Roi;Roi;Roi;;Roi;;;;;;;;;x
+emperor_frankish;Empereur;Empereur;Empereur;;Empereur;;;;;;;;;x
+baron_albanian;Kaznac;Kaznac;Kaznac;;Kaznac;;;;;;;;;x
+count_albanian;Župan;Župan;Župan;;Župan;;;;;;;;;x
+duke_albanian;Voivode;Voivode;Voivode;;Voivode;;;;;;;;;x
+king_albanian;Mbret;Mbret;Mbret;;Mbret;;;;;;;;;x
+baron_serbian;Ban;Ban;Ban;;Ban;;;;;;;;;x
+count_serbian;Zupan;Zupan;Zupan;;Zupan;;;;;;;;;x
+duke_serbian;Herceg;Herceg;Herceg;;Herceg;;;;;;;;;x
+king_serbian;Kralj;Kralj;Kralj;;Kralj;;;;;;;;;x
+emperor_serbian;Czar;Czar;Czar;;Czar;;;;;;;;;x
+baron_croatian;Ban;Ban;Ban;;Ban;;;;;;;;;x
+count_croatian;Boyar;Boyar;Boyar;;Boyar;;;;;;;;;x
+duke_croatian;Voivode;Voivode;Voivode;;Voivode;;;;;;;;;x
+king_croatian;Kralj;Kralj;Kralj;;Kralj;;;;;;;;;x
+emperor_croatian;Csar;Csar;Csar;;Csar;;;;;;;;;x
+baron_romanian;Ban;Ban;Ban;;Ban;;;;;;;;;x
+count_romanian;Boyar;Boyar;Boyar;;Boyar;;;;;;;;;x
+duke_romanian;Hospodar;Hospodar;Hospodar;;Hospodar;;;;;;;;;x
+king_romanian;Regele;Regele;Regele;;Regele;;;;;;;;;x
+emperor_romanian;Basileus;Basileus;Basileus;;Basileus;;;;;;;;;x
+baron_dutch;Vrijheer;Vrijheer;Vrijheer;;Vrijheer;;;;;;;;;x
+count_dutch;Graaf;Graaf;Graaf;;Graaf;;;;;;;;;x
+duke_dutch;Hertog;Hertog;Hertog;;Hertog;;;;;;;;;x
+king_dutch;Koning;Koning;Koning;;Koning;;;;;;;;;x
+emperor_dutch;Keizer;Keizer;Keizer;;Keizer;;;;;;;;;x
+baron_frisian;Vrijheer;Vrijheer;Vrijheer;;Vrijheer;;;;;;;;;x
+count_frisian;Graaf;Graaf;Graaf;;Graaf;;;;;;;;;x
+duke_frisian;Hertog;Hertog;Hertog;;Hertog;;;;;;;;;x
+king_frisian;Koning;Koning;Koning;;Koning;;;;;;;;;x
+emperor_frisian;Keizer;Keizer;Keizer;;Keizer;;;;;;;;;x
+baron_danish;Friherre;Friherre;Friherre;;Friherre;;;;;;;;;x
+count_danish;Greve;Greve;Greve;;Greve;;;;;;;;;x
+duke_danish;Hertug;Hertug;Hertug;;Hertug;;;;;;;;;x
+king_danish;Konge;Konge;Konge;;Konge;;;;;;;;;x
+emperor_danish;Kejser;Kejser;Kejser;;Kejser;;;;;;;;;x
+baron_swedish;Friherre;Friherre;Friherre;;Friherre;;;;;;;;;x
+count_swedish;Greve;Greve;Greve;;Greve;;;;;;;;;x
+duke_swedish;Hertig;Hertig;Hertig;;Hertig;;;;;;;;;x
+king_swedish;Kung;Kung;Kung;;Kung;;;;;;;;;x
+emperor_swedish;Kejsare;Kejsare;Kejsare;;Kejsare;;;;;;;;;x
+baron_norwegian;Friherre;Friherre;Friherre;;Friherre;;;;;;;;;x
+count_norwegian;Jarl;Jarl;Jarl;;Jarl;;;;;;;;;x
+duke_norwegian;Hertug;Hertug;Hertug;;Hertug;;;;;;;;;x
+king_norwegian;Konge;Konge;Konge;;Konge;;;;;;;;;x
+emperor_norwegian;Keiser;Keiser;Keiser;;Keiser;;;;;;;;;x
+baron_icelandic;Fríherra;Fríherra;Fríherra;;Fríherra;;;;;;;;;x
+count_icelandic;Jarl;Jarl;Jarl;;Jarl;;;;;;;;;x
+duke_icelandic;Hertug;Hertug;Hertug;;Hertug;;;;;;;;;x
+king_icelandic;Konge;Konge;Konge;;Konge;;;;;;;;;x
+emperor_icelandic;Kejser;Kejser;Kejser;;Kejser;;;;;;;;;x
+count_norman;Count;Count;Count;;Count;;;;;;;;;x
+duke_norman;Duke;Duke;Duke;;Duke;;;;;;;;;x
+duke_jewish;Sar;Sar;Sar;;Sar;;;;;;;;;x
+duke_ethiopian;Ras;Ras;Ras;;Ras;;;;;;;;;x
+king_ethiopian;Negus;Negus;Negus;;Negus;;;;;;;;;x
+emperor_ethiopian;Negusa Negest;Negusa Negest;Negusa Negest;;Negusa Negest;;;;;;;;;x
+baron_persian;Marzpan;Marzpan;Marzpan;;Marzpan;;;;;;;;;x
+count_persian;Sirdar;Sirdar;Sirdar;;Sirdar;;;;;;;;;x
+duke_persian;Satrap;Satrap;Satrap;;Satrap;;;;;;;;;x
+king_persian;Shah;Shah;Shah;;Shah;;;;;;;;;x
+emperor_persian;Padishah;Padishah;Padishah;;Padishah;;;;;;;;;x
+count_russian;Graf;Graf;Graf;;Graf;;;;;;;;;x
+duke_russian;Voyevoda;Voyevoda;Voyevoda;;Voyevoda;;;;;;;;;x
+king_russian;Knyaz;Knyaz;Knyaz;;Knyaz;;;;;;;;;x
+emperor_russian;Tsar;Tsar;Tsar;;Tsar;;;;;;;;;x
+baron_welsh;Barwn;Barwn;Barwn;;Barwn;;;;;;;;;x
+count_welsh;Iarll;Iarll;Iarll;;Iarll;;;;;;;;;x
+duke_welsh;Tywysog;Tywysog;Tywysog;;Tywysog;;;;;;;;;x
+king_welsh;Brenin;Brenin;Brenin;;Brenin;;;;;;;;;x
+emperor_welsh;Ymerawdwr;Ymerawdwr;Ymerawdwr;;Ymerawdwr;;;;;;;;;x
+baron_greek;Eparch;Eparch;Eparch;;Eparch;;;;;;;;;x
+count_greek;Komis;Komis;Komis;;Komis;;;;;;;;;x
+duke_greek;Doux;Doux;Doux;;Doux;;;;;;;;;x
+king_greek;Despot;Despot;Despot;;Despot;;;;;;;;;x
+emperor_greek;Basileus;Basileus;Basileus;;Basileus;;;;;;;;;x
+emperor_bulgarian;Basileus;Basileus;Basileus;;Basileus;;;;;;;;;x
+baron_finnish;Paroni;Paroni;Paroni;;Paroni;;;;;;;;;x
+count_finnish;Kreivi;Kreivi;Kreivi;;Kreivi;;;;;;;;;x
+duke_finnish;Herttua;Herttua;Herttua;;Herttua;;;;;;;;;x
+king_finnish;Kuningas;Kuningas;Kuningas;;Kuningas;;;;;;;;;x
+emperor_finnish;Keisari;Keisari;Keisari;;Keisari;;;;;;;;;x
+count_polish;Hrabia;Hrabia;Hrabia;;Hrabia;;;;;;;;;x
+duke_polish;Diuk;Diuk;Diuk;;Diuk;;;;;;;;;x
+king_polish;Król;Król;Król;;Król;;;;;;;;;x
+emperor_polish;Cesarz;Cesarz;Cesarz;;Cesarz;;;;;;;;;x
+baron_castillan;Barón;Barón;Barón;;Barón;;;;;;;;;x
+count_castillan;Conde;Conde;Conde;;Conde;;;;;;;;;x
+duke_castillan;Duque;Duque;Duque;;Duque;;;;;;;;;x
+king_castillan;Rey;Rey;Rey;;Rey;;;;;;;;;x
+emperor_castillan;Emperador;Emperador;Emperador;;Emperador;;;;;;;;;x
+baron_catalan;Barón;Barón;Barón;;Barón;;;;;;;;;x
+count_catalan;Conde;Conde;Conde;;Conde;;;;;;;;;x
+duke_catalan;Duque;Duque;Duque;;Duque;;;;;;;;;x
+king_catalan;Rey;Rey;Rey;;Rey;;;;;;;;;x
+emperor_catalan;Emperador;Emperador;Emperador;;Emperador;;;;;;;;;x
+baron_portuguese;Barão;Barão;Barão;;Barão;;;;;;;;;x
+count_portuguese;Conde;Conde;Conde;;Conde;;;;;;;;;x
+duke_portuguese;Duque;Duque;Duque;;Duque;;;;;;;;;x
+king_portuguese;Rei;Rei;Rei;;Rei;;;;;;;;;x
+emperor_portuguese;Imperador;Imperador;Imperador;;Imperador;;;;;;;;;x

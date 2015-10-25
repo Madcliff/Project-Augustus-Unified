@@ -1,3 +1,26 @@
+270.1.1 = {
+	holder = 159007 #Tegid
+}
+300.1.1 = {
+	holder = 159008 #Padarn Beisrudd
+}
+331.1.1 = {
+	liege = "d_lothian"
+	holder = 159009 #Edern
+}
+390.1.2 = {
+	holder = 159038 #Coel Hen
+}
+420.1.1 = {
+	holder = 0
+}
+470.1.1={
+	holder=1450145
+}
+490.1.2={
+	holder = 1450146
+}
+
 765.1.1={
 	liege="d_northumberland"
 	holder = 205250

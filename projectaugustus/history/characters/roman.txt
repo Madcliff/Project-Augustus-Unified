@@ -6,7 +6,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=6
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	trait="zealous"
 	trait="greedy"
@@ -27,7 +27,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=4
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	trait="humble"
 	trait="shy"
@@ -50,7 +50,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="envious"
 	trait="wroth"
@@ -73,7 +73,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="honest"
 	trait="patient"
@@ -96,7 +96,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="homosexual"
 	trait="deceitful"
@@ -119,7 +119,7 @@
 	diplomacy=8
 	intrigue=9
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="zealous"
 	trait="genius"
@@ -202,7 +202,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	trait="honest"
 	trait="gregarious"
@@ -225,7 +225,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	trait="mystic"
 	trait="arbitrary"
@@ -264,7 +264,7 @@
 	name="Honorius"
 	# Flavius Honorius Augustus
 	dynasty=1022191
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="arbitrary"
 	trait="slothful"
@@ -282,7 +282,7 @@
 	name="Constantius"
 	# Flavius Constantius Augustus
 	dynasty=1022192
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="honest"
 	trait="humble"
@@ -299,7 +299,7 @@
 	name="Valentinian"
 	# Flavius Placidius Valentinianus
 	dynasty=1022192
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="slothful"
 	trait="craven"
@@ -317,7 +317,7 @@
 	name="Gratian"
 	# Gratianus the Elder
 	dynasty=1022193
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="skilled_tactician"
 	285.1.1={
@@ -332,7 +332,7 @@
 	name="Valentinian"
 	# Flavius Valentinianus Augustus
 	dynasty=1022193
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="brave"
@@ -350,7 +350,7 @@
 	name="Valens"
 	# Flavius Iulius Valens Augustus
 	dynasty=1022193
-	religion="orthodox" # Arian
+	religion="chalcendonian" # Arian
 	culture="roman"
 	trait="paranoid"
 	trait="misguided_warrior"
@@ -367,7 +367,7 @@
 	name="Gratian"
 	# Flavius Gratianus Augustus
 	dynasty=1022193
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="tough_soldier"
 	father=145231
@@ -383,7 +383,7 @@
 	name="Valentinian"
 	# Flavius Valentinianus Invictus Augustus
 	dynasty=1022193
-	religion="catholic" # Arian
+	religion="chalcendonian" # Arian
 	culture="roman"
 	trait="trusting"
 	trait="indulgent_wastrel"
@@ -400,7 +400,7 @@
 	name="Jovian"
 	# Caesar Flavius Iovianus Augustus
 	dynasty=1022194
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="tough_soldier"
 	331.1.1={
@@ -415,7 +415,7 @@
 	name="Constantius"
 	# Iulius Constantius
 	dynasty=1022195
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="charismatic_negotiator"
 	father=70524
@@ -1407,7 +1407,7 @@
 
 7600 = {
 	name="Pontianus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1427,7 +1427,7 @@
 
 7601 = {
 	name="Severus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1447,7 +1447,7 @@
 
 7602 = {
 	name="Callistus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1467,7 +1467,7 @@
 
 7603 = {
 	name="Zephyrinus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1487,7 +1487,7 @@
 
 7604 = {
 	name="Victor"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1507,7 +1507,7 @@
 
 7759 = {
 	name="Gordianus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1527,7 +1527,7 @@
 
 7760 = {
 	name="Mercurius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1547,7 +1547,7 @@
 
 7762 = {
 	name="Castorius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1567,7 +1567,7 @@
 
 7763 = {
 	name="Castorius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1588,7 +1588,7 @@
 7764 = {
 	name="Gordanius"
 	# AKA: Gordainus
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1609,7 +1609,7 @@
 
 7765 = {
 	name="Johannes"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1629,7 +1629,7 @@
 
 7766 = {
 	name="Fortunatus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1649,7 +1649,7 @@
 
 7767 = {
 	name="Acacius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1669,7 +1669,7 @@
 
 7768 = {
 	name="Acacius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1689,7 +1689,7 @@
 
 7769 = {
 	name="Acacius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1709,7 +1709,7 @@
 
 7770 = {
 	name="Castinus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1729,7 +1729,7 @@
 
 7771 = {
 	name="Hilary"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1749,7 +1749,7 @@
 
 7772 = {
 	name="Hilary"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1769,7 +1769,7 @@
 
 7773 = {
 	name="Hilary"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1789,7 +1789,7 @@
 
 7774 = {
 	name="Priscus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1809,7 +1809,7 @@
 
 7775 = {
 	name="Eulalius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1829,7 +1829,7 @@
 
 7776 = {
 	name="Eulalius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1849,7 +1849,7 @@
 
 7777 = {
 	name="Maximus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1870,7 +1870,7 @@
 
 7778 = {
 	name="Maximus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1890,7 +1890,7 @@
 
 7779 = {
 	name="Maximus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1910,7 +1910,7 @@
 
 7780 = {
 	name="Maximus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1930,7 +1930,7 @@
 
 7781 = {
 	name="Maximus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1950,7 +1950,7 @@
 
 7782 = {
 	name="Maximus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1970,7 +1970,7 @@
 
 7783 = {
 	name="Marcus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -1986,7 +1986,7 @@
 
 7784 = {
 	name="Marcus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2006,7 +2006,7 @@
 
 7785 = {
 	name="Marcus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2026,7 +2026,7 @@
 
 7787 = {
 	name="Marcus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2046,7 +2046,7 @@
 
 7789 = {
 	name="Marcus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2066,7 +2066,7 @@
 
 7790 = {
 	name="Gaius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2086,7 +2086,7 @@
 
 7791 = {
 	name="Gaius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2106,7 +2106,7 @@
 
 7792 = {
 	name="Gaius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2126,7 +2126,7 @@
 
 7795 = {
 	name="Stephanus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2142,7 +2142,7 @@
 
 7796 = {
 	name="Porphyrianus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2162,7 +2162,7 @@
 
 7797 = {
 	name="Decius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2182,7 +2182,7 @@
 
 7798 = {
 	name="Fabianus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2199,7 +2199,7 @@
 
 7868 = {
 	name="Zacharias"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2219,7 +2219,7 @@
 
 7876 = {
 	name="Plato"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2239,7 +2239,7 @@
 
 7877 = {
 	name="Paulus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2259,7 +2259,7 @@
 
 7880 = {
 	name="Mauricius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2279,7 +2279,7 @@
 
 7881 = {
 	name="Anastasius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2299,7 +2299,7 @@
 
 7882 = {
 	name="Rufinianus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2319,7 +2319,7 @@
 
 7883 = {
 	name="Rufinianus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2339,7 +2339,7 @@
 
 7885 = {
 	name="Venantius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2359,7 +2359,7 @@
 
 7886 = {
 	name="Avienus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2379,7 +2379,7 @@
 
 7887 = {
 	name="Petronius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2399,7 +2399,7 @@
 
 7888 = {
 	name="Petronius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2419,7 +2419,7 @@
 
 7889 = {
 	name="Deodatus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2439,7 +2439,7 @@
 
 7890 = {
 	name="Johannes"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2459,7 +2459,7 @@
 
 7892 = {
 	name="John"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2479,7 +2479,7 @@
 
 7893 = {
 	name="Gordanius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2500,7 +2500,7 @@
 
 7896 = {
 	name="Gordanius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2520,7 +2520,7 @@
 
 7897 = {
 	name="Bonifacius"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2540,7 +2540,7 @@
 
 7898 = {
 	name="Catelinus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2560,7 +2560,7 @@
 
 7899 = {
 	name="Benedictus"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2580,7 +2580,7 @@
 
 7900 = {
 	name="Johannes"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	trait="diligent"
 	trait="patient"
@@ -2638,7 +2638,7 @@
 	diplomacy=9
 	intrigue=7
 	stewardship=9
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="just"
 	add_trait="mystic"
@@ -2661,7 +2661,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=5
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="quick"
 	add_trait="ambitious"
@@ -2683,7 +2683,7 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=6
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="ambitious"
 	add_trait="scholar"
@@ -2705,7 +2705,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=6
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="temperate"
 	add_trait="honest"
@@ -2726,7 +2726,7 @@
 	diplomacy=3
 	intrigue=4
 	stewardship=3
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="proud"
 	add_trait="brave"
@@ -2742,7 +2742,7 @@
 	name="Eudoxia"
 	female=yes
 	dynasty=1022192
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	father=145229
 	438.1.1={
@@ -2753,144 +2753,223 @@
 	}
 }
 200000000 = {
-    name="Petronius"
-    dynasty=200000000
-    religion="catholic"
-    culture="roman"
-    trait="intricate_webweaver"
-    trait="deceitful"
-    396.1.1={
-        birth=yes
-    }
-    455.5.31={
-        death=yes
-    }
+        name="Petronius"
+        dynasty=200000000
+        religion="chalcendonian"
+        culture="roman"
+        trait="intricate_webweaver"
+        trait="deceitful"
+        396.1.1={
+                birth=yes
+        }
+        455.5.31={
+                death=yes
+        }
 }
 200000001 = {
-    name="Avitus"
-    religion="catholic"
-    culture="gallic"
-    trait="thrift_clerk"
-    trait="scholar"
-    385.1.1={
-        birth=yes
-    }
-    457.1.1={
-        death=yes
-    }
+        name="Avitus"
+        religion="chalcendonian"
+        culture="gallic"
+        trait="thrift_clerk"
+        trait="scholar"
+        385.1.1={
+                birth=yes
+        }
+        457.1.1={
+                death=yes
+        }
 }
 200000002 = {
-    name="Majorian"
-    religion="catholic"
-    culture="roman"
-    trait="skilled_tactician"
-    trait="ambitious"
-    trait="diligent"
-    trait="patient"
-    trait="brave"
-    420.1.1={
-        birth=yes
-    }
-    461.4.7={
-        death=yes
-    }
+        name="Majorian"
+        religion="chalcendonian"
+        culture="roman"
+        trait="skilled_tactician"
+        trait="ambitious"
+        trait="diligent"
+        trait="patient"
+        trait="brave"
+        420.1.1={
+                birth=yes
+        }
+        461.4.7={
+                death=yes
+        }
 }
 200000003 = {
-    name="Libius"
-    religion="catholic"
-    culture="roman"
-    trait="martial_cleric"
-    trait="charitable"
-    trait="zealous"
-    trait="chaste"
-    420.1.1={
-        birth=yes
-    }
-    465.4.15={
-        death=yes
-    }
+        name="Libius"
+        religion="chalcendonian"
+        culture="roman"
+        trait="martial_cleric"
+        trait="charitable"
+        trait="zealous"
+        trait="chaste"
+        420.1.1={
+                birth=yes
+        }
+        465.4.15={
+                death=yes
+        }
 }
 200000004 = {
-    name="Anthemius"
-    dynasty=200000001
-    religion="catholic"
-    culture="roman"
-    trait="skilled_tactician"
-    trait="diligent"
-    trait="patient"
-    420.1.1={
-        birth=yes
-    }
-    472.7.11={
-        death=yes
-    }
+        name="Anthemius"
+        dynasty=200000001
+        religion="chalcendonian"
+        culture="roman"
+        trait="skilled_tactician"
+        trait="diligent"
+        trait="patient"
+        420.1.1={
+                birth=yes
+        }
+        472.7.11={
+                death=yes
+        }
 }
 200000005 = {
-    name="Olybrius"
-    dynasty=200000000
-    religion="catholic"
-    culture="roman"
-    430.1.1={
-        birth=yes
-    }
-    472.11.2={
-        death=yes
-    }
+        name="Olybrius"
+        dynasty=200000000
+        religion="chalcendonian"
+        culture="roman"
+        430.1.1={
+                birth=yes
+        }
+        472.11.2={
+                death=yes
+        }
 }
 200000006 = {
-    name="Glycerius"
-    religion="catholic"
-    culture="roman"
-    trait="deceitful"
-    425.1.1={
-        birth=yes
-    }
-    481.1.1={
-        death=yes
-    }
+        name="Glycerius"
+        religion="chalcendonian"
+        culture="roman"
+        trait="deceitful"
+        425.1.1={
+                birth=yes
+        }
+        481.1.1={
+                death=yes
+        }
 }
 200000007 = {
-    name="Julius"
-    dynasty=200000002
-    religion="catholic"
-    culture="roman"
-    trait="tough_soldier"
-    trait="diligent"
-    trait="content"
-    trait="patient"
-    430.1.1={
-        birth=yes
-    }
-    480.4.25={
-        death=yes
-    }
+        name="Julius"
+        dynasty=200000002
+        religion="chalcendonian"
+        culture="roman"
+        trait="tough_soldier"
+        trait="diligent"
+        trait="content"
+        trait="patient"
+        430.1.1={
+                birth=yes
+        }
+        480.4.25={
+                death=yes
+        }
 }
-200000036 = {
-    name="Orestes"
-    dynasty=200000004
-    religion="catholic"
-    culture="roman"
-    trait="thrift_clerk"
-    trait="greedy"
-    trait="ambitious"
-    trait="deceitful"
-    431.1.1={
-        birth=yes
-    }
-    476.4.28={
-        death=yes
-    }
+
+1000255000 = {
+	name="Zacco"
+	dynasty = 1000124399
+	religion = catholic
+	culture = roman
+	570.1.1 = {
+		birth = yes
+	}
+	633.1.1 = {
+		death = yes
+	}
 }
-200000037 = {
-    name="Romulus"
-    dynasty=200000004
-    religion="catholic"
-    culture="roman"
-	father=200000036
-    461.1.1={
-        birth=yes
-    }
-    485.1.1={
-        death=yes
-    }
+
+1000255001 = {
+	name="Victor"
+	dynasty = 1000124399
+	religion = catholic
+	culture = roman
+	father = 1000255000
+	590.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
 }
+1000255002 = {
+	name="Claudius"
+	dynasty = 1000124418
+	religion = catholic
+	culture = gallo_roman
+	580.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+1000255003 = {
+	name = Marcus
+	dynasty = 1000124465
+	religion = catholic
+	culture = roman
+	600.1.1 = {
+		birth = yes
+	}
+	643.1.1 = {
+		death = yes
+	}
+}
+1000255004 = {
+	name = Ospitone
+	dynasty = 1000124472
+	religion = pagan
+	culture = roman
+	570.1.1 = {
+		birth = yes
+	}
+	594.1.1 = {
+		religion = catholic
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+1000255005 = {
+	name = Paulus
+	dynasty = 1000124475
+	religion = catholic
+	culture = roman
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+1000255006 = {
+	name = Marcellus
+	dynasty = 1000124475
+	father = 1000255005
+	religion = catholic
+	culture = roman
+	630.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+1000255007 = {
+	name = Paullocio
+	dynasty = 1000124475
+	father = 1000255006
+	religion = catholic
+	culture = roman
+	660.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		culture = italian
+	}
+	726.1.1 = {
+		death = yes
+	}
+}
+	

@@ -17,7 +17,7 @@ b_gizeh = temple
 
 # Misc
 culture = coptic
-religion = sunni
+religion = miaphysite 
 
 # History
 

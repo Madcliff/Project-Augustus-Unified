@@ -324,7 +324,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="proud"
 	trait="greedy"
@@ -1802,7 +1802,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="gluttonous"
 	trait="brave"
@@ -1822,7 +1822,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="brave"
 	trait="chaste"
@@ -2157,7 +2157,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="patient"
 	trait="tough_soldier"
@@ -2681,7 +2681,7 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="chaste"
 	trait="flamboyant_schemer"
@@ -2703,7 +2703,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="patient"
 	trait="cynical"
@@ -5655,7 +5655,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="just"
 	trait="patient"
@@ -5771,7 +5771,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=3
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="thrifty_clerk"
 	father=482
@@ -5791,7 +5791,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="honest"
 	trait="kind"
@@ -5814,7 +5814,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="arbitrary"
 	trait="naive_appeaser"
@@ -5862,7 +5862,7 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=3
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="ill"
 	trait="diligent"
@@ -5886,7 +5886,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="patient"
 	trait="thrifty_clerk"
@@ -5938,7 +5938,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="hungarian"
 	trait="temperate"
 	trait="intricate_webweaver"
@@ -9922,5 +9922,46 @@
 	}
 	890.1.1={
 		death=yes
+	}
+}
+
+159117 = {
+	name="Kubrat"
+	dynasty=591
+	religion="tengri_pagan"
+	culture="bolghar"
+  	father=200000019
+	600.1.2={
+		birth="600.1.2"
+	}
+	665.1.2={
+		death="665.1.2"
+	}
+}
+
+159117 = {
+	name="Kubrat"
+	dynasty=591
+	religion="tengri_pagan"
+	culture="bolghar"
+  	father=200000019
+	600.1.2={
+		birth="600.1.2"
+	}
+	665.1.2={
+		death="665.1.2"
+	}
+}
+
+1591171 = {
+	name="Bulcsu"
+	dynasty=1000124568 
+	religion="tengri_pagan"
+	culture="hungarian"
+	600.1.2={
+		birth="600.1.2"
+	}
+	665.1.2={
+		death="665.1.2"
 	}
 }

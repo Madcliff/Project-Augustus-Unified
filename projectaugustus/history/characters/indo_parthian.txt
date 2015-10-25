@@ -1,0 +1,107 @@
+# Mod Characters
+# Indo-Parthian 1.000.258.000 - 1.000.258.099
+
+1000258000 = {
+	name = Gondophares # King of Baluchistan/Panjab 20-10 BC, dates inverted and moved to AD
+	dynasty = 1000124532 #Indo-Parthian/Gondopharid branch
+	father = 1000257500
+	culture = indo_parthian
+	religion = zoroastrian
+	16.1.1 = {
+		birth = yes
+	}
+	37.1.1 = {
+		death = yes
+	}
+}
+1000258001 = {
+	name = Sarpedones # King of Baluchistan 20-39
+	dynasty = 1000124532 #Indo-Parthian/Gondopharid branch
+	father = 1000258000
+	culture = indo_parthian
+	religion = zoroastrian
+	32.1.1 = {
+		birth = yes
+	}
+	69.1.1 = {
+		death = yes
+	}
+}
+1000258003 = {
+	name = Phraotes # made up brother of Gondophares I
+	dynasty = 1000124532 #Indo-Parthian/Gondopharid branch
+	father = 1000257500
+	culture = indo_parthian
+	religion = zoroastrian
+	17.1.1 = {
+		birth = yes
+	}
+	42.1.1 = {
+		death = yes
+	}
+}
+1000258004 = {
+	name = Abdagases # King of Panjab 20-46
+	dynasty = 1000124532 #Indo-Parthian/Gondopharid branch
+	father = 1000258003
+	culture = indo_parthian
+	religion = zoroastrian
+	33.1.1 = {
+		birth = yes
+	}
+	70.1.1 = {
+		death = yes
+	}
+}
+1000258005 = {
+	name = Orthagnes
+	dynasty = 1000124532 #Indo-Parthian/Gondopharid branch
+	father = 1000258001
+	culture = indo_parthian
+	religion = zoroastrian
+	50.1.1 = {
+		birth = yes
+	}
+	97.1.1 = {
+		death = yes
+	}
+}
+1000258006 = {
+	name = Sases
+	dynasty = 1000124532 #Indo-Parthian/Gondopharid branch
+	father = 1000258004
+	culture = indo_parthian
+	religion = zoroastrian
+	50.1.1 = {
+		birth = yes
+	}
+	93.1.1 = {
+		death = yes
+	}
+}
+1000258007 = {
+	name = Pacores
+	dynasty = 1000124532 #Indo-Parthian/Gondopharid branch
+	father = 1000258006
+	culture = indo_parthian
+	religion = zoroastrian
+	66.1.1 = {
+		birth = yes
+	}
+	107.1.1 = {
+		death = yes
+	}
+}
+1000258008 = {
+	name = Gondophares
+	dynasty = 1000124532 #Indo-Parthian/Gondopharid branch
+	father = 1000258007
+	culture = indo_parthian
+	religion = zoroastrian
+	82.1.1 = {
+		birth = yes
+	}
+	129.1.1 = {
+		death = yes
+	}
+}

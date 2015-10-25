@@ -1,3 +1,16 @@
+470.1.1 = {
+holder=70516
+}
+470.1.1 = {
+	liege="e_byzantium"
+}
+620.1.1 = {
+	liege = d_arabia_petrae
+	holder = 1000257903
+}
+667.1.1 = {
+	holder = 1000257904
+}
 762.1.1={
 	liege="e_sunni"
 }

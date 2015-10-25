@@ -1,0 +1,74 @@
+10066991 = {
+	name="Folcwald"
+	dynasty=45
+	martial=2
+	diplomacy=4
+	intrigue=5
+	stewardship=7
+	religion="german_pagan"
+	culture="german"
+	365.1.1={
+		birth="365.1.1"
+	}
+	430.1.1={
+		death="430.1.1"
+	}
+}
+
+10068991 = {
+	name="Finn"
+	# AKA: Finn Folcwalding
+	dynasty=45
+	martial=2
+	diplomacy=4
+	intrigue=5
+	stewardship=7
+	religion="german_pagan"
+	culture="german"
+	father=10066991
+	400.1.1={
+		birth="400.1.1"
+	}
+	448.1.1={
+		death="448.1.1"
+	}
+}
+
+10074991 = {
+	name="Frithuwalf" #
+	dynasty=45
+	martial=7
+	diplomacy=5
+	intrigue=6
+	stewardship=5
+	religion="german_pagan"
+	culture="german"
+	add_trait="thrifty_clerk"
+	father=10068991
+	425.1.1={
+		birth="425.1.1"
+	}	
+	448.8.1={
+		death="448.8.1"
+	}
+}
+
+10075991 = {
+	name="Frealaf"
+	dynasty=45
+	martial=9
+	diplomacy=8
+	intrigue=6
+	stewardship=8
+	religion="german_pagan"
+	culture="german"
+	add_trait="brave"
+	add_trait="thrifty_clerk"
+	father=10068991
+	428.1.1={
+		birth="428.1.1"
+	}
+	500.1.1={
+		death="500.1.1"
+	}
+}

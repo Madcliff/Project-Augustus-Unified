@@ -1,0 +1,152 @@
+decisions = {
+	restore_archegos = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "The Old Gods"
+			NOT = { has_global_flag = archegos_restored }
+			religion = manichean 
+		}
+		allow = {
+			completely_controls = d_samarkand
+		}
+		effect = {
+			set_global_flag = archegos_restored 
+			piety = -300
+			d_manichean = {
+				holder_scope = {
+					FROM = {
+						holder_scope = {
+							set_defacto_vassal = PREVPREV
+						}
+					}
+				}
+			}
+
+			d_manichean = {
+					holder_scope = {
+						b_khokand = {
+							grant_title = PREV
+						}
+					}
+				}
+			}
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_guardians_of_light = {
+		potential = {
+			religion = manichean 
+			completely_controls = d_samarkand
+			NOT = { has_global_flag = guardians_of_light_founded }
+			has_global_flag = archegos_restored 
+		}
+		allow = {
+			war = no
+			piety = 500
+			wealth = 250
+		}
+
+		effect = {
+			#narrative_event = { id = RoM.26091 }
+			set_global_flag = guardians_of_light_founded
+			prestige = 500
+			scaled_wealth = -1
+			activate_title = { title = d_guardians_of_light status = yes }
+			hidden_tooltip = {
+				create_character = {
+					random_traits = yes
+					religion = ROOT
+					culture = ROOT
+					dynasty = NONE
+					female = no
+					age = 34
+					trait = skilled_tactician
+				}
+				new_character = {
+					d_guardians_of_light = {
+						grant_title = PREV
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+	
+	self_castration = {
+		potential = {
+			religion = manichean
+			trait = zealous
+			or = {
+				has_trait = possessed
+				has_trait = lunatic
+				} 
+			}
+
+		allow = {
+			war = no
+			piety = 500
+		}
+
+		effect = {
+			add_trait = eunuch 
+			add_trait = extreme_devotion
+			piety = 500
+			prestige = 250
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	become_a_vegetarian = {
+		potential = {
+			NOT = { trait = gluttonous }
+			NOT = { trait = vegetarian }
+			OR = {
+				religion = manichean
+				religion = nestorian
+				religion = miaphysite
+				}
+			piety = 50	
+			}
+
+		allow = {
+			war = no
+			piety = 500
+		}
+
+		effect = {
+			add_trait = vegetarian
+			piety = -50
+			prestige = 25
+		}
+		ai_will_do = {
+			factor = 0.05
+			modifier = {
+				factor = 0.10
+				has_trait = zealous	
+				
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

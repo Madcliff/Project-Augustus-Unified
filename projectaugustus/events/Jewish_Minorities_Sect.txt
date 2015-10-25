@@ -1,0 +1,87 @@
+province_event = {
+        id = JMI.991
+        desc = "EVTDESC_Plus_700"
+        picture = GFX_evt_market
+        only_rulers = yes
+
+        trigger = {
+				any_realm_province = {
+					any_province_holding = {
+							#tier = baron
+										OR = {
+												has_building = ct_jewish_community_1
+                                                has_building = ct_jewish_community_2
+                                                has_building = ct_jewish_community_3 
+                                        }
+                                        OR = {
+                                               #region = world_europe 
+                                               region = world_middle_east 
+                                               region = world_india 
+                                               region = world_africa 
+                                        }
+										nor = {
+											has_province_modifier = rabbinic
+											has_province_modifier = karaite
+										}
+                                }
+                        }
+					}
+        mean_time_to_happen = {
+                days = 1
+        }
+
+        option = {
+                name = "EXCELLENT"
+					
+						add_province_modifier = { name = "karaite" duration = -1 }
+					}
+				}
+        
+
+
+province_event = {
+        id = JMI.992
+        desc = "EVTDESC_Plus_700"
+        picture = GFX_evt_market
+        
+        only_rulers = yes
+
+        trigger = {
+			any_demesne_title = {
+							tier = baron
+											OR = {
+                                                has_building = ct_jewish_community_1
+                                                has_building = ct_jewish_community_2
+                                                has_building = ct_jewish_community_3 
+                                        }
+                                        OR = {
+                                                region = world_europe 
+                                               #region = world_middle_east 
+                                               #region = world_india 
+                                               #region = world_africa 
+                                        }
+										nor = {
+											has_holding_modifier = rabbinic
+											has_holding_modifier = karaite
+										}
+                                }
+                        }
+                
+        mean_time_to_happen = {
+                days = 1
+        }
+
+        option = {
+                name = "EXCELLENT"
+				any_demesne_title = {
+				limit = {
+					OR = {
+						has_building = ct_jewish_community_1
+                        has_building = ct_jewish_community_2
+                        has_building = ct_jewish_community_3 
+                        }
+				}
+              add_holding_modifier = { name = "rabbinic" duration = -1 }
+        }
+	}
+}

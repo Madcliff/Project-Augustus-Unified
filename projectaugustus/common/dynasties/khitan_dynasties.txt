@@ -1,0 +1,15 @@
+1045082 = {
+	name="Yelü" #Ò®ÂÉ
+	culture = khitan
+	religion="buddhist"
+}
+1080001 = {
+	name="Xiao"
+	culture = khitan
+	religion="buddhist"
+}
+1080002 = {
+	name="Xiao"
+	culture = khitan
+	religion="buddhist"
+}

@@ -17,12 +17,9 @@ b_curteadearges = temple
 #b_ploiesti = city
 
 # Misc
-culture = dacian
+culture = daco_roman
 religion = tengri_pagan
 
 # History
+900.1.1 = { religion = orthodox culture = romanian }
 
-900.1.1 = { 
-culture = romanian
-religion = orthodox 
-}

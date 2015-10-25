@@ -1,0 +1,115 @@
+decisions = {
+
+	observe_bema_feast = {
+		potential = {
+			is_ruler = yes
+			religion = manichean
+			NOT = {
+				trait = in_hiding
+				any_demesne_title = { is_occupied = yes }
+				has_character_modifier = held_bema_feast_timer
+				liege = { has_character_flag = holding_bema_feast }
+				has_character_flag = holding_bema_feast
+				has_character_flag = planning_bema_feast
+			}
+		}
+		allow = {
+			war = no
+			wealth = 50
+			prestige = 100
+			has_regent = no
+			custom_tooltip = {
+				text = HAS_THREE_MANICHEAN_VASSALS_AVAILABLE
+				hidden_tooltip = {
+					any_vassal = {
+						religion = manichean
+						has_regent = no
+						war = no
+						count = 3
+					}
+				}
+			}
+		}
+		effect = {
+			wealth = -50
+			set_character_flag = planning_bema_feast
+			custom_tooltip = {
+				text = prepare_bema_feast
+				hidden_tooltip = { 
+					character_event = { id = GoPagan.238 } 
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { month = 3 }
+				month = 6
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 0
+				has_character_modifier = ai_austerity
+			}
+		}
+	}		
+
+
+	manichean_patronize_art = {
+		potential = {
+			is_ruler = yes
+			is_tribal = no
+			OR = {
+				religion = manichean
+				religion = mandaean
+			}
+			OR = {
+				trait = poet
+				trait = charitable
+				trait = zealous
+			}
+			NOT = { has_character_modifier = mani_art_patron }
+		}
+		allow = {
+			scaled_wealth = 2.0
+		}
+		effect = {
+			scaled_wealth = -2.0
+			add_character_modifier = {
+				name = mani_art_patron
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = greedy
+					trait = cynical
+					has_character_modifier = ai_austerity
+					NOT = { scaled_wealth = 4.0 }
+				}
+			}
+		}
+	}
+}
+

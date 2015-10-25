@@ -16,7 +16,7 @@ b_zarechnaya = tribal
 #b_pashuchikha = castle
 
 # Misc
-culture = finnish
+culture = karelian
 religion = finnish_pagan
 terrain = forest
 

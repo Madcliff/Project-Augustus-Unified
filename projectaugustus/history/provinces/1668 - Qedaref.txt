@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_qedaref
+# Settlements
+max_settlements = 4
+b_qedaref = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

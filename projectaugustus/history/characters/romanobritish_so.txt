@@ -1,0 +1,1244 @@
+1311100 = {
+	name="Coel"
+	# AKA: King Cole, Coel Hen
+	dynasty=1027042
+	martial=15
+	diplomacy=15
+	intrigue=15
+	stewardship=15
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="proud"
+	add_trait="zealous"
+	add_trait="wounded"
+	add_trait="brilliant_strategist"
+	340.1.2={
+		birth="340.1.2"
+	}
+	406.1.2={
+		death="406.1.2"
+	}
+}
+1450100 = {
+	name="Ceneus"
+	# AKA: Ceneu ap Coel
+	dynasty=1027042
+	martial=13
+	diplomacy=12
+	intrigue=10
+	stewardship=14
+	father=1311100
+	religion="pelagian"
+	culture="welsh"
+	add_trait="tough_soldier"
+	380.1.2={
+		birth="380.1.2"
+	}
+	450.1.2={
+		death="450.1.2"
+	}
+}
+1450101 = {
+	name="Gurgustus"
+	# AKA: Gwrast Lledlwm
+	dynasty=1027042
+	martial=8
+	diplomacy=8
+	intrigue=6
+	stewardship=10
+	father=1450100
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="quick"
+	add_trait="gardener"
+	add_trait="weak"
+	422.6.6={
+		birth="422.6.6"
+	}
+	490.1.2={
+		death="490.1.2"
+	}
+}
+1450102 = {
+	name="Marcianus"
+	# AKA: Meirchion Gul
+	dynasty=1027042
+	martial=11
+	diplomacy=12
+	intrigue=5
+	stewardship=10
+	father=1450101
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="weak"
+	add_trait="temperate"
+	add_trait="charitable"
+	add_trait="poet"
+	439.1.2={
+		birth="439.1.2"
+	}
+	535.1.2={
+		death="535.1.2"
+	}
+}
+
+1450103 = {
+	name="Marcus"
+	# AKA: Mor ap Ceneu, Mark Pendragon
+	dynasty=1027044
+	martial=13
+	diplomacy=8
+	intrigue=7
+	stewardship=11
+	father=1450100
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="just"
+	add_trait="lustful"
+	add_trait="hedonist"
+	add_trait="brilliant_strategist"
+	405.1.2={
+		birth="405.1.2"
+	}
+	470.1.2={
+		death="470.1.2"
+	}
+}
+
+1450104 = {
+	name="Engenius"
+	# AKA: Einion ap Mor, son of Mark Pendragon
+	dynasty=1027044
+	martial=10
+	diplomacy=8
+	intrigue=8
+	stewardship=10
+	father=1450103
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="proud"
+	add_trait="strong"
+	add_trait="falconer"
+	add_trait="skilled_tactician"
+	442.1.2={
+		birth="442.1.2"
+	}
+	470.1.2={
+		add_spouse=1450108
+	}
+	505.1.2={
+		death="505.1.2"
+	}
+}
+
+1450105 = {
+	name="Arthuis"
+	# AKA: Arthwys ap Mor, son of Mark Pendragon
+	dynasty=1027044
+	martial=12
+	diplomacy=11
+	intrigue=7
+	stewardship=11
+	father=1450103
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="legit_bastard"
+	add_trait="gregarious"
+	add_trait="brave"
+	add_trait="fortune_builder"
+	433.1.2={
+		birth="433.1.2"
+	}
+	512.1.2={
+		death="512.1.2"
+	}
+}
+
+1450106 = {
+	name="Eleutherius"
+	# AKA: Eliffer Gosgorddfawr
+	dynasty=1027044
+	father=1450104
+	mother=1450108
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="strong"
+	472.1.2={
+		birth="472.1.2"
+	}
+	560.1.2={
+		death="560.1.2"
+	}
+}
+
+1450107 = {
+	name="Caidius"
+	# AKA: Ceidio, Einion ap Mor, son of Mark Pendragon
+	dynasty=1027044
+	father=1450104
+	mother=1450108
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="quick"
+	466.1.2={
+		birth="466.1.2"
+	}
+	550.1.2={
+		death="550.1.2"
+	}
+}
+
+1450108 = {
+	name="Regina"
+	female=yes
+	martial=3
+	diplomacy=8
+	intrigue=11
+	stewardship=5
+	father=1450103
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="deceitful"
+	add_trait="fair"
+	add_trait="shy"
+	451.1.2={
+		birth="451.1.2"
+	}
+	525.1.2={
+		death="525.1.2"
+	}
+}
+1450109 = {
+	name="Mascuidius"
+	dynasty=1027042
+	martial=13
+	diplomacy=10
+	intrigue=6
+	stewardship=10
+	father=1450101
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="brave"
+	add_trait="strong"
+	add_trait="hunter"
+	440.5.21={
+		birth="440.5.21"
+	}
+	495.1.2={
+		death="495.1.2"
+	}
+}
+1450110 = {
+	name="Lennocus"
+	#AKA Llaenuac
+	dynasty=1027042
+	martial=10
+	diplomacy=11
+	intrigue=5
+	stewardship=7
+	father=1450109
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="envious"
+	add_trait="deceitful"
+	add_trait="greedy"
+	add_trait="amateurist_plotter"
+	459.1.2={
+		birth="459.5.21"
+	}
+	500.1.2={
+		death="500.1.2"
+	}
+}
+1450111 = {
+	name="Engenius"
+	dynasty=1027042
+	martial=11
+	diplomacy=12
+	intrigue=3
+	stewardship=6
+	father=1450109
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="charitable"
+	add_trait="trusting"
+	461.1.21={
+		birth="461.1.21"
+	}
+	540.1.2={
+		death="540.1.2"
+	}
+}
+1450112 = {
+	name="Engenius"
+	dynasty=1027042
+	martial=10
+	diplomacy=10
+	intrigue=13
+	stewardship=9
+	father=1450109
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="genius"
+	462.6.21={
+		birth="462.6.21"
+	}
+	540.1.2={
+		death="540.1.2"
+	}
+}
+1450113 = {
+	name="Artorius"
+	dynasty=1027042
+	martial=13
+	diplomacy=4
+	intrigue=8
+	stewardship=5
+	father=1450109
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="strong"
+	add_trait="cruel"
+	463.7.31={
+		birth="463.7.31"
+	}
+	540.1.2={
+		death="540.1.2"
+	}
+}
+1450114 = {
+	name="Cynllo"
+	dynasty=1027042
+	martial=7
+	diplomacy=12
+	intrigue=5
+	stewardship=4
+	father=1450109
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="gregarious"
+	464.9.11={
+		birth="464.9.11"
+	}
+	540.1.2={
+		death="540.1.2"
+	}
+}
+1450115 = {
+	name="Ceredig"
+	dynasty=1027042
+	martial=10
+	diplomacy=11
+	intrigue=5
+	stewardship=7
+	father=1450109
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="greedy"
+	466.2.28={
+		birth="466.2.28"
+	}
+	540.1.2={
+		death="540.1.2"
+	}
+}
+1450116 = {
+	name="Tudwal"
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	religion="orthodox"
+	culture="romanobritish"
+	340.1.2={
+		birth="340.1.2"
+	}
+	410.1.2={
+		death="410.1.2"
+	}
+}
+1450117 = {
+	name="Marcus Conomori"
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	father=1450116
+	religion="orthodox"
+	culture="romanobritish"
+	366.2.2={
+		birth="366.2.2"
+	}
+	435.1.2={
+		death="435.1.2"
+	}
+}
+1450118 = {
+	name="Constantinus"
+	dynasty=18
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	father=1450117
+	religion="orthodox"
+	culture="romanobritish"
+	391.1.2={
+		birth="391.1.2"
+	}
+	443.1.2={
+		death="443.1.2"
+	}
+}
+1450119 = {
+	name="Urbanus"
+	dynasty=18
+	martial=11
+	diplomacy=8
+	intrigue=6
+	stewardship=12
+	father=1450118
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="trusting"
+	add_trait="kind"
+	add_trait="zealous"
+	add_trait="chaste"
+	add_trait="tough_soldier"
+	420.1.1={
+		birth="420.1.1"
+	}
+	480.1.2={
+		death="480.1.2"
+	}
+}
+1450120 = {
+	name="Merchion"
+	dynasty=18
+	martial=8
+	diplomacy=10
+	intrigue=5
+	stewardship=8
+	father=1450118
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="trusting"
+	add_trait="content"
+	add_trait="naive_appeaser"
+	429.1.1={
+		birth="429.1.1"
+	}
+	500.1.2={
+		death="500.1.2"
+	}
+}
+1450121 = {
+	name="Gerontius"
+	dynasty=18
+	martial=12
+	diplomacy=7
+	intrigue=5
+	stewardship=11
+	father=1450119
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="strong"
+	add_trait="zealous"
+	add_trait="humble"
+	add_trait="skilled_tactician"
+	451.1.1={
+		birth="451.1.1"
+	}
+	508.1.2={
+		death="508.1.2"
+	}
+}
+1450122 = {
+	name="Veneva"
+	dynasty=18
+	martial=9
+	diplomacy=10
+	intrigue=11
+	stewardship=7
+	father=1450119
+	religion="orthodox"
+	culture="romanobritish"	
+	female=yes
+	add_trait="fair"
+	add_trait="lustful"
+	add_trait="deceitful"
+	add_trait="ambitious"
+	add_trait="intricate_webweaver"
+	456.1.1={
+		birth="456.1.1"
+	}
+	510.1.2={
+		death="510.1.2"
+	}
+}
+131123 = {
+	name="Rodericus"
+	# AKA: Rhodri Ddyrnllwg, only close to approximate date is around 490, by which point he was possibly a father and regent
+	dynasty=19
+	martial=11
+	diplomacy=11
+	intrigue=5
+	stewardship=10
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="paranoid"
+	add_trait="temperate"
+	add_trait="amateurish_plotter"
+	443.1.2={
+		birth="443.1.2"
+	}
+	495.1.2={
+		death="495.1.2"
+	}
+}
+131124 = {
+	name="Cyngen"
+	# AKA: St. Cyngen Glodrydd (the Renowned)
+	dynasty=19
+	father=131123
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="zealous"
+	add_trait="genius"
+	475.10.2={
+		birth="475.10.2"
+	}
+	520.1.1={
+		death="520.1.1"
+	}
+}
+1450123 = {
+	name="Elafius"
+	dynasty=20
+	martial=9
+	diplomacy=10
+	intrigue=11
+	stewardship=7
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="cynical"
+	add_trait="stutter"
+	add_trait="shy"
+	add_trait="humble"
+	418.1.1={
+		birth="418.1.1"
+	}
+	446.6.6={
+		religion="orthodox"
+	}
+	480.1.2={
+		death="480.1.2"
+	}
+}
+1450124 = {
+	name="Caraticos"
+	dynasty=20
+	martial=9
+	diplomacy=10
+	intrigue=11
+	stewardship=7
+	religion="pelagian"
+	culture="romanobritish"
+	father=1450123
+	add_trait="scholar"
+	add_trait="strong"
+	add_trait="midas_touched"
+	443.1.1={
+		birth="443.1.1"
+	}
+	446.6.6={
+		religion="orthodox"
+	}
+	495.1.2={
+		death="495.1.2"
+	}
+}
+1450125 = {
+	name="Theonus"
+	martial=6
+	diplomacy=8
+	intrigue=5
+	stewardship=11
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="scholar"
+	add_trait="cynical"
+	add_trait="weak"
+	422.1.1={
+		birth="422.1.1"
+	}
+	478.1.2={
+		death="495.1.2"
+	}
+}
+1450126 = {
+	name="Riothamus"
+	# Brythonic warlord in Armorica. Sidonius Apollinaris wrote to him. No idea of family name.
+	dynasty=33
+	martial=12
+	diplomacy=9
+	intrigue=6
+	stewardship=8
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="proud"
+	add_trait="poet"
+	add_trait="tough_soldier"
+	434.1.2={
+		birth="434.1.2"
+	}
+	486.1.2={
+		death="486.1.2"
+	}
+}
+1450127 = {
+	name="Aldroenus"
+	# King of Vannetais
+	dynasty=34
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="proud"
+	add_trait="scholar"
+	380.1.2={
+		birth="380.1.2"
+	}
+	451.1.2={
+		death="451.1.2"
+	}
+}
+1450128 = {
+	name="Budicus"
+	# King Buddy of Vannetais
+	dynasty=34
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	father=1450127
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="tough_soldier"
+	414.1.2={
+		birth="414.1.2"
+	}
+	468.1.2={
+		death="468.1.2"
+	}
+}
+1450129 = {
+	name="Maxenri"
+	# Son of Budicus
+	dynasty=34
+	martial=6
+	diplomacy=9
+	intrigue=10
+	stewardship=7
+	father=1450128
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="envious"
+	add_trait="gregarious"
+	add_trait="flamboyant_schemer"
+	441.1.2={
+		birth="441.1.2"
+	}
+	470.1.2={
+		add_claim="d_vannetais"
+	}
+	522.1.2={
+		death="522.1.2"
+	}
+}
+1450130 = {
+	name="Rhiwod"
+	# Son of Budicus
+	dynasty=34
+	martial=9
+	diplomacy=5
+	intrigue=6
+	stewardship=7
+	father=1450128
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="brave"
+	add_trait="misguided_warrior"
+	443.6.6={
+		birth="443.6.6"
+	}
+	472.1.2={
+		add_claim="d_vannetais"
+	}
+	522.1.2={
+		death="522.1.2"
+	}
+}
+1450131 = {
+	name="Erich"
+	# Erich ap Aldrien
+	dynasty=35
+	martial=9
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="falconer"
+	add_trait="thrifty_clerk"
+	421.7.8={
+		birth="421.7.8"
+	}
+	478.1.2={
+		death="478.1.2"
+	}
+}
+1450132 = {
+	name="Budicus"
+	# Budig II ap Erich
+	dynasty=35
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=7
+	father=1450131
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="trusting"
+	add_trait="mystic"
+	469.1.1={
+		birth="469.1.1"
+	}
+	544.1.2={
+		death="544.1.2"
+	}
+}
+1450133 = {
+	name="Aurelius"
+	# Aurelius Ambrosius
+	dynasty=71
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewardship=7
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="proud"
+	add_trait="scholar"
+	add_trait="elusive_shadow"
+	380.1.1={
+		birth="380.1.1"
+	}
+	446.1.2={
+		death="446.1.2"
+	}
+}
+1450134 = {
+	name="Aurelianus"
+	# Ambrosius Aurelius
+	dynasty=71
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	father=1450133
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="strong"
+	add_trait="just"
+	add_trait="skilled_tactician"
+	428.1.1={
+		birth="428.1.1"
+	}
+	496.1.2={
+		death="496.1.2"
+	}
+}
+1450135 = {
+	name="Cynfelyn"
+	# Cynfelyn ap Arthwys, son of the King of the Pennines and himself king of Cynwidion
+	dynasty=1027044
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	father=1450105
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="craven"
+	add_trait="envious"
+	455.1.1={
+		birth="455.1.1"
+	}
+	475.1.1={
+		add_claim="c_derby"
+	}
+	500.1.2={
+		death="500.1.2"
+	}
+}
+1450136 = {
+	name="Custennin"
+	# Constantine / Custennin Fawr
+	dynasty=72
+	religion="orthodox"
+	culture="romanobritish"
+	345.1.1={
+		birth="345.1.1"
+	}
+	380.1.1={
+		give_nickname=nick_the_great
+	}
+	390.1.2={
+		death="390.1.2"
+	}
+}
+1450137 = {
+	name="Cunedda"
+	# Cunedda Wledig / Cunedag
+	dynasty=72
+	father=1450136
+	religion="orthodox"
+	culture="romanobritish"
+	381.1.1={
+		birth="381.1.1"
+	}
+	445.1.2={
+		death="445.1.2"
+	}
+}
+1450138 = {
+	name="Einion"
+	# Einion Yrth (the Impetuous)
+	dynasty=72
+	father=1450137
+	religion="orthodox"
+	culture="romanobritish"
+	405.1.1={
+		birth="405.1.1"
+	}
+	470.1.2={
+		death="470.1.2"
+	}
+}
+1450139 = {
+	name="Cadwallon"
+	# Cadwallon Lawhir (long hand) / King Cradelmant of Northgales / Cadwallo, King of North Wales
+	dynasty=72
+	martial=8
+	diplomacy=7
+	intrigue=6
+	stewardship=8
+	father=1450138
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="just"
+	add_trait="wroth"
+	add_trait="tough_soldier"
+	440.1.1={
+		birth="440.1.1"
+	}
+	517.1.2={
+		death="517.1.2"
+	}
+}
+1450140 = {
+	name="Owain"
+	# Owain Ddantgwyn (White-Tooth)
+	dynasty=72
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	father=1450138
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="honest"
+	add_trait="content"
+	add_trait="humble"
+	443.1.1={
+		birth="443.1.1"
+	}
+	517.1.2={
+		death="517.1.2"
+	}
+}
+1450141 = {
+	name="Germanianus"
+	# AKA: Garbanion ap Coel
+	dynasty=1027042
+	father=1311100
+	religion="pelagian"
+	culture="romanobritish"
+	380.1.2={
+		birth="380.1.2"
+	}
+	430.1.2={
+		death="430.1.2"
+	}
+}
+1450142 = {
+	name="Dyfnwal"
+	# AKA: Dunvallo Molmutius
+	dynasty=1027042
+	father=1450141
+	religion="pelagian"
+	culture="romanobritish"
+	409.1.2={
+		birth="409.1.2"
+	}
+	474.1.2={
+		death="474.1.2"
+	}
+}
+1450143 = {
+	name="Cuncar"
+	# AKA: Cyngar ap Dyfnwal
+	dynasty=1027042
+	father=1450142
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewartship=6
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="envious"
+	add_trait="amateurish_plotter"
+	436.1.2={
+		birth="436.1.2"
+	}
+	490.1.2={
+		death="490.1.2"
+	}
+}
+1450144 = {
+	name="Bran"
+	# AKA: Bran Hen
+	dynasty=1027042
+	father=1450142
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewartship=6
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="envious"
+	add_trait="deceitful"
+	add_trait="ambitious"
+	add_trait="elusive_shadow"
+	436.1.2={
+		birth="436.1.2"
+	}
+	490.1.2={
+		death="490.1.2"
+	}
+}
+1450145 = {
+	name="Leudonus"
+	# AKA: Lot/Lludd/Lewdwn/Luddoc
+	dynasty=73
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewartship=6
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="envious"
+	add_trait="deceitful"
+	add_trait="ambitious"
+	add_trait="elusive_shadow"
+	430.1.2={
+		birth="430.1.2"
+	}
+	490.1.2={
+		death="490.1.2"
+	}
+}
+1450146 = {
+	name="Gawain"
+	# AKA: Gawain / Gwalchmai / Gwalltafwyn / Sir Gawain of Camelot
+	dynasty=73
+	father=1450145
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="zealous"
+	add_trait="just"
+	add_trait="brave"
+	add_trait="kind"
+	add_trait="chaste"
+	add_trait="duellist"
+	add_trait="tough_soldier"
+	459.1.2={
+		birth="459.1.2"
+	}
+	510.1.2={
+		death="510.1.2"
+	}
+}
+1450147 = {
+	name="Coroticus"
+	# AKA: Ceretic Guletic
+	dynasty=74
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	add_trait="cynical"
+	add_trait="cruel"
+	add_trait="excommunicated"
+	add_trait="underhanded_rogue"
+	380.1.2={
+		birth="380.1.2"
+	}
+	450.1.2={
+		death="450.1.2"
+	}
+}
+1450148 = {
+	name="Cinuit"
+	# AKA:
+	dynasty=74
+	father = 1450147
+	martial=8
+	diplomacy=6
+	intrigue=6
+	stewartship=7
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="arbitrary"
+	add_trait="envious"
+	add_trait="underhanded_rogue"
+	404.1.2={
+		birth="404.1.2"
+	}
+	485.1.2={
+		death="485.1.2"
+	}
+}
+1450149 = {
+	name="Dyfnwal"
+	# AKA: Dumnagual Hen
+	dynasty=74
+	father = 1450148
+	martial=7
+	diplomacy=8
+	intrigue=6
+	stewartship=7
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="ambitious"
+	add_trait="quick"
+	add_trait="intricate_webweaver"
+	430.1.2={
+		birth="430.1.2"
+	}
+	485.1.2={
+		death="485.1.2"
+	}
+}
+1450150 = {
+	name="Erbin"
+	# AKA:
+	dynasty=74
+	father = 1450147
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="patient"
+	add_trait="grey_eminence"
+	411.1.2={
+		birth="411.1.2"
+	}
+	480.1.2={
+		death="480.1.2"
+	}
+}
+
+1450151 = {
+	name="Vortigern"
+	# AKA: 
+	dynasty=135
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	385.1.2={
+		birth="385.1.2"
+	}
+	447.1.2={
+		death="447.1.2"
+	}
+}
+
+1450152 = {
+	name="Vortimer"
+	# AKA:
+	dynasty=135
+	father = 1450151
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	411.1.2={
+		birth="411.1.2"
+	}
+	457.1.2={
+		death="457.1.2"
+	}
+}
+
+1450153 = {
+	name="Honorius"
+	# AKA:
+	dynasty=135
+	father = 1450152
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	430.1.2={
+		birth="430.1.2"
+	}
+	451.1.3={
+		add_spouse="1450153"
+	}
+	480.1.2={
+		death="480.1.2"
+	}
+}
+
+1450154 = {
+	name="Madrun"
+	female=yes
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	435.1.2={
+		birth="435.1.2"
+	}
+	490.1.2={
+		death="490.1.2"
+	}
+}
+
+1450155 = {
+	name="Iddon"
+	# AKA:
+	dynasty=135
+	father = 1450153
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	430.1.2={
+		birth="430.1.2"
+	}
+	480.1.2={
+		death="480.1.2"
+	}
+}
+
+1450156 = {
+	name="Catigern"
+	# AKA: Cattegirn
+	dynasty=135
+	father = 1450151
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	412.1.2={
+		birth="412.1.2"
+	}
+	455.1.2={
+		death="455.1.2"
+	}
+}
+
+1450157 = {
+	name="Pascent"
+	# AKA:
+	dynasty=135
+	father = 1450151
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	413.1.2={
+		birth="413.1.2"
+	}
+	455.1.2={
+		death="455.1.2"
+	}
+}
+
+1450158 = {
+	name="Faustus"
+	# AKA:
+	dynasty=135
+	father = 1450151
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewartship=7
+	religion="orthodox"
+	culture="romanobritish"
+	415.1.2={
+		birth="415.1.2"
+	}
+	455.1.2={
+		death="455.1.2"
+	}
+}
+
+1450159 = {
+	name="Tutgwal"
+	dynasty=74
+	father = 1450148
+	martial=7
+	diplomacy=7
+	intrigue=6
+	stewartship=7
+	religion="pelagian"
+	culture="romanobritish"
+	add_trait="humble"
+	add_trait="elusive_shadow"
+	431.1.2={
+		birth="431.1.2"
+	}
+	495.1.2={
+		death="495.1.2"
+	}
+}
+

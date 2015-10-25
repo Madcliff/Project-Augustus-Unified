@@ -1,5 +1,8 @@
-337.1.1={
-    de_jure_liege="k_slovakia"
+470.1.1 = {
+	holder = 11055091
+}
+769.1.1={
+        de_jure_liege="k_slovakia"
 }
 731.1.1={
 	liege="e_avaria"

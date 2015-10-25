@@ -1,0 +1,68 @@
+namespace = SIL
+
+character_event = {		
+	id = SIL.1
+	title = "EVTNAME_ZOR_1"
+	desc = EVTDESC_ZOR_1
+	picture = GFX_evt_comet
+
+	
+	trigger = {
+		is_ruler = yes
+		religion = hindu
+		any_realm_province = {
+			religion = hindu
+				trade_post_owner = {
+				religion = sufi
+				}
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.25
+			not = {
+				religion_authority = 25
+			}
+
+		}
+
+		modifier = {
+			factor = 0.50
+			not = {
+				religion_authority = 20
+			}
+
+		}
+	}
+	
+	
+	option = {
+		name = EVTOPTA_ZOR_1	
+		ai_chance = { factor = 100 }
+		random_demesne_province = {
+			limit = {
+				religion = hindu
+				trade_post_owner = {
+					religion = sufi
+				}
+			}
+			religion = sufi
+		}
+	}
+	option = {
+		name = EVTOPTA_ZOR_1	
+		ai_chance = { factor = 100 }
+		random_demesne_province = {
+			limit = {
+				religion = hindu
+				trade_post_owner = {
+					religion = sufi
+				}
+			}
+			destroy_tradepost = FROM
+		}
+	}
+}

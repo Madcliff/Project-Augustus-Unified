@@ -1,4 +1,5 @@
 460.1.1={
+	de_jure_liege = k_lotharingia
 	holder = 190375 #Basinus
 }
 477.1.1={
@@ -9,9 +10,6 @@
 }
 531.1.1={
 	holder = 190379 #Hermanfred
-}
-531.1.1={
-	liege=k_germany
 }
 534.1.1={
 	holder = 190381 #Berthar

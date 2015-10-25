@@ -1,0 +1,1021 @@
+buddhist_group = {
+	has_coa_on_barony_only = no
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2	# always try to convert
+	
+	# Names given only to Indian characters (base names)
+	male_names = {
+	}
+	female_names = {
+	}
+	confucianism = {
+		graphical_culture = buddhistgfx
+		secondary_event_pictures = sunni
+
+		icon = 40
+
+		color = { 0.7 0.7 0.5 }
+		
+		high_god_name = GOD_SHANGDI
+		god_names = {
+			GOD_KONG_FUZI  GOD_MENG_ZI GOD_THE_FOUR_CORRELATES GOD_THE_TWELVE_PHILOSOPHERS
+		}
+		evil_god_names = {
+			YAN_WANG
+		}
+
+		character_modifier = {
+			learning = 5
+		}
+
+		scripture_name = THE_SHISAN_JING
+		priest_title = RU
+		piety_name = Xiao
+
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry= yes
+		max_consorts = 3
+
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+
+	}
+			
+			
+		bon_pagan = {
+                graphical_culture = hindugfx
+                secondary_event_pictures = sunni
+
+
+                icon = 44
+                heresy_icon = 45
+                
+		color = { 0.9 1.0 0.2 }
+                
+                god_names = {
+                        GYALPO_PEHAR DUZA_MINKAR
+                }
+                
+                evil_god_names = {
+                   EVIL_SPIRITS     
+                }
+                
+                can_grant_divorce = yes
+                priests_can_inherit = no
+                priests_can_marry = yes
+                allow_looting = yes
+                max_consorts = 3
+                
+                unit_modifier = {
+                        land_morale = 0.45
+
+
+                        key = "OFF_RELIGION"
+                }
+                
+                religious_clothing_head = 8
+                religious_clothing_priest = 8
+
+
+                scripture_name = THE_TERMAS
+                priest_title = SHAHMAN
+                piety_name = KARMA
+                
+		allow_rivermovement = yes
+        }
+	 buddhist = {		#Thereveda Buddhist
+                graphical_culture = buddhistgfx
+                secondary_event_pictures = sunni
+
+
+                icon = 40
+                heresy_icon = 41
+                
+                color = { 0.8 0.4 0.0 }
+                
+                god_names = {
+                        GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
+                }
+                
+                evil_god_names = {
+                        MARA
+                }
+                
+                character_modifier = {
+                        learning = 4
+                }
+                
+                has_heir_designation = yes
+                can_grant_divorce = yes
+                priests_can_inherit = no
+                feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female 
+                female_temple_holders = yes
+                max_consorts = 3
+		allow_rivermovement = yes
+                autocephaly = yes
+
+
+                short_reign_opinion_year_mult = 0 # No short reign penalty
+                
+                religious_clothing_head = 10
+                religious_clothing_priest = 10
+
+
+                scripture_name = THE_BUDDHACAVANA
+                priest_title = BHIKKHU
+                piety_name = KARMA
+                
+                intermarry = jain
+                intermarry = hindu
+                intermarry = nestorian
+                intermarry = manichean
+        }
+	mahayana_buddhist = {
+                graphical_culture = buddhistgfx
+                secondary_event_pictures = sunni
+
+
+                icon = 40
+                heresy_icon = 41
+                
+                color = { 0.2 0.4 0.0 }
+                
+                god_names = {
+                        GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
+                }
+                
+                evil_god_names = {
+                        MARA
+                }
+                
+                character_modifier = {
+                        learning = 3
+			diplomacy = 1
+                }
+                
+                has_heir_designation = yes
+                can_grant_divorce = yes
+                priests_can_inherit = no
+                feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female 
+                female_temple_holders = yes
+                max_consorts = 3
+		allow_rivermovement = yes
+
+
+                short_reign_opinion_year_mult = 0 # No short reign penalty
+                
+                religious_clothing_head = 10
+                religious_clothing_priest = 10
+
+
+                scripture_name = THE_BUDDHACAVANA
+                priest_title = BHIKKHU
+                piety_name = KARMA
+                
+                intermarry = jain
+                intermarry = hindu
+                intermarry = nestorian
+                intermarry = manichean
+		intermarry = buddhist 
+        }
+	
+	sammitiya_buddhist = {
+                graphical_culture = buddhistgfx
+                secondary_event_pictures = sunni
+
+
+                icon = 40
+                heresy_icon = 41
+                
+                color = { 0.2 0.4 0.9 }
+                
+                god_names = {
+                        GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
+                }
+                
+                evil_god_names = {
+                        MARA
+                }
+                
+                character_modifier = {
+                        learning = 3
+			intrigue = 2
+                }
+                
+                has_heir_designation = yes
+                can_grant_divorce = yes
+                priests_can_inherit = no
+                feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female 
+                female_temple_holders = yes
+                max_consorts = 3
+		allow_rivermovement = yes
+
+
+                short_reign_opinion_year_mult = 0 # No short reign penalty
+                
+                religious_clothing_head = 10
+                religious_clothing_priest = 10
+
+
+                scripture_name = THE_BUDDHACAVANA
+                priest_title = BHIKKHU
+                piety_name = KARMA
+                
+                intermarry = jain
+                intermarry = hindu
+                intermarry = nestorian
+                intermarry = manichean
+		intermarry = buddhist 
+        }
+	vajrayana_buddhist = {
+                graphical_culture = buddhistgfx
+                secondary_event_pictures = sunni
+
+
+                icon = 40
+                heresy_icon = 41
+                
+                color = { 0.8 0.1 0.3 }
+                
+                god_names = {
+                        GOD_THE_BUDDHA GOD_THE_ARHAT GOD_THE_PERFECTED_ONES
+                }
+                
+                evil_god_names = {
+                        MARA
+                }
+                
+                character_modifier = {
+                        learning = 4
+                }
+                
+                has_heir_designation = yes
+                can_grant_divorce = yes
+                priests_can_inherit = yes
+                feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female 
+                female_temple_holders = yes
+                max_consorts = 3
+		allow_rivermovement = yes
+                priests_can_marry = yes
+                can_hold_temples = yes
+
+
+                short_reign_opinion_year_mult = 0 # No short reign penalty
+                
+                religious_clothing_head = 10
+                religious_clothing_priest = 10
+
+
+                scripture_name = THE_BUDDHACAVANA
+                priest_title = BHIKKHU
+                piety_name = KARMA
+                
+                intermarry = jain
+                intermarry = hindu
+                intermarry = nestorian
+                intermarry = manichean
+		intermarry = buddhist
+		intermarry = mahayana_buddhist
+	}
+
+
+}
+
+indian_group = {
+	has_coa_on_barony_only = no
+	graphical_culture = indiangfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+	hostile_within_group = yes
+	
+	ai_convert_same_group = 1 # try to convert if ai_zeal is high
+	ai_convert_other_group = 2	# always try to convert
+	
+	# Names given only to Indian characters (base names)
+	male_names = {
+	}
+	female_names = {
+	}
+
+	kalasha = {	
+                graphical_culture = hindugfx
+                secondary_event_pictures = sunni
+
+
+                icon = 44
+                heresy_icon = 45
+                
+		color = { 0.9 1.0 0.2 }
+                
+                god_names = {
+                        GOD_IMRA GOD_MUNJEM GOD_JESTAK
+                }
+                
+                evil_god_names = {
+                        THE_VINAYAKAS
+                }
+                
+                can_grant_divorce = yes
+                priests_can_inherit = no
+                priests_can_marry = yes
+                allow_looting = yes
+                max_consorts = 3
+                
+                unit_modifier = {
+                        land_morale = 0.45
+
+
+                        key = "OFF_RELIGION"
+                }
+                
+                religious_clothing_head = 8
+                religious_clothing_priest = 8
+
+
+                scripture_name = RIGVEDA
+                priest_title = PUJARI
+                piety_name = KARMA
+                
+		allow_rivermovement = yes
+        }
+    
+	ajivika = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.9 0.2 0.6 }
+		
+		
+		god_names = {
+			ATMAN GOD_OKKALI
+		}
+		
+		evil_god_names = {
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_PURVAS
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		
+	}	
+	hindu = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 1.0 0.0 0.0 }
+		
+		high_god_name = GOD_BRAHMA
+		
+		god_names = {
+			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME GOD_BRAHMA
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+
+	jain = {
+		graphical_culture = jaingfx
+		secondary_event_pictures = sunni
+		
+		pacifist = yes # Makes the AI less likely to start wars, plots and factions
+
+		icon = 42
+		heresy_icon = 43
+		
+		color = { 1.0 1.0 0.4 }
+		
+		high_god_name = GOD_THE_TIRTHANKARAS
+		
+		god_names = {
+			GOD_THE_TIRTHANKARAS GOD_RISHABH GOD_AJINATH GOD_SAMBHAVANATH  # Add more Tirthankaras
+		}
+		
+		evil_god_names = {
+			THE_PUNISHERS
+		}
+
+		has_heir_designation = yes
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		peace_piety_gain = 1.0 # Gains 1 piety each month while at peace
+		allow_rivermovement = yes
+		max_consorts = 3
+
+		short_reign_opinion_year_mult = 0 # No short reign penalty
+		
+		religious_clothing_head = 9
+		religious_clothing_priest = 9
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = NIRGRANTHA
+		piety_name = PURITY
+		
+		intermarry = buddhist
+		intermarry = hindu
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+	}
+	dravidian = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 1.0 1.0 0.0 }
+		
+		high_god_name = GOD_SIVAN
+		
+		god_names = {
+			GOD_MAYYON GOD_VAALI GOD_SEYYON GOD_KOTRAVAI
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = hindu
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	shaivist = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.0 1.0 1.0 }
+		
+		high_god_name = GOD_SHIVA 
+		
+		god_names = {
+			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME GOD_BRAHMA
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	sarnaism = {
+			graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.45 0.15 1.0 }
+		
+		high_god_name = GOD_DHARMESH 
+		
+		god_names = {
+			GOD_DHARMESH GODESS_CHALAPACHHO
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_LEGENDS
+		priest_title = PAHAN
+		piety_name = KARMA
+		
+		
+	}
+	shrautism = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.5 0.0 1.0 }
+		
+		high_god_name = GOD_SHIVA 
+		
+		god_names = {
+			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME GOD_BRAHMA
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	ganapatya = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 2.0 3.1 1.0 }
+		
+		high_god_name = GOD_GANESHA
+		
+		god_names = {
+			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME GOD_BRAHMA
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	shaktism = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 1.0 0.5 1.0 }
+		
+		high_god_name = GOD_SHAKTI
+		
+		god_names = {
+			GOD_SHIVA GOD_THE_LORD GOD_THE_SUPREME GOD_BRAHMA
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	donyi_polo = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 3.0 0.0 1.0 }
+		
+		high_god_name = GOD_DONYI
+		
+		god_names = {
+			GOD_DONYI GOD_THE_LORD GOD_POLO
+		}
+		
+		evil_god_names = {
+			THE_LEGENDS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_LEGENDS
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	sanamahism = {
+			graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.1 0.8 0.3 }
+		
+		high_god_name = GOD_SANAMAHI
+		
+		god_names = {
+			GOD_SHDONYI GOD_SIDABI GOD_SHIDABA_MAPU
+		}
+		
+		evil_god_names = {
+			THE_LEGENDS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_LEGENDS
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	suryaism = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 3.0 0.5 .1 }
+		
+		high_god_name = GOD_SURYA
+		
+		god_names = {
+			GOD_SURYA GOD_THE_LORD GOD_THE_SUPREME GOD_BRAHMA
+		}
+		
+		evil_god_names = {
+			THE_VINAYAKAS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_MAHABHARATA
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	koya_punem = {
+		graphical_culture = hindugfx
+		secondary_event_pictures = sunni
+
+		icon = 44
+		heresy_icon = 45
+		
+		color = { 0.1 1.0 0.25 }
+		
+		high_god_name = GOD_BARA_DEO
+		
+		god_names = {
+			GOD_BARA_DEO GOD_BHAGWAN SPIRITS
+		}
+		
+		evil_god_names = {
+			THE_LEGENDS
+		}
+		
+		can_grant_divorce = yes
+		priests_can_inherit = no
+		priests_can_marry = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		unit_modifier = {
+			land_morale = 0.3
+
+			key = "OFF_RELIGION"
+		}
+		
+		religious_clothing_head = 8
+		religious_clothing_priest = 8
+
+		scripture_name = THE_LEGENDS
+		priest_title = PUJARI
+		piety_name = KARMA
+		
+		intermarry = jain
+		intermarry = buddhist
+		intermarry = zun_pagan
+		intermarry = zun_pagan_reformed
+		
+	}
+	zun_pagan_reformed = {
+		graphical_culture = hindugfx
+
+		icon = 49
+		heresy_icon = 50
+
+		ai_convert_other_group = 2 # always try to convert
+		
+		color = { 0.9 1.0 0.0 }
+		
+		high_god_name = GOD_ZUN
+		
+		god_names = {
+			GOD_ZUN GOD_THE_SUN GOD_THE_GIVER_OF_JUSTICE
+		}
+		evil_god_names = {
+			THE_DARKNESS
+		}
+
+		unit_modifier = {
+			levy_size = 0.3
+			
+			heavy_infantry_offensive = 0.2
+			heavy_infantry_defensive = 0.2
+			
+			key = "OFF_RELIGION"
+		}
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+
+		priests_can_marry = yes
+		can_call_crusade = yes
+		defensive_attrition = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		
+		allow_in_ruler_designer = no
+	}
+	
+	zun_pagan = {
+		graphical_culture = hindugfx
+
+		icon = 48
+		heresy_icon = 50
+		
+		color = { 0.9 1.0 0.0 }
+		
+		high_god_name = GOD_ZUN
+		
+		god_names = {
+			GOD_ZUN GOD_THE_SUN GOD_THE_GIVER_OF_JUSTICE
+		}
+		evil_god_names = {
+			THE_DARKNESS
+		}
+
+		unit_modifier = {
+			levy_size = 0.3
+			
+			heavy_infantry_offensive = 0.2
+			heavy_infantry_defensive = 0.2
+			
+			key = "OFF_RELIGION"
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = PRIEST
+
+		priests_can_marry = yes
+		defensive_attrition = yes
+		allow_looting = yes
+		allow_rivermovement = yes
+		max_consorts = 3
+		reformed = zun_pagan_reformed
+		
+		religious_clothing_head = 6
+		religious_clothing_priest = 4
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+		
+		dislike_tribal_organization = yes
+
+		intermarry = indian_group
+		intermarry = zoroastrian_group
+        }
+}

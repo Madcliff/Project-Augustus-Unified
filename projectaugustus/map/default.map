@@ -1,4 +1,4 @@
-max_provinces = 1467
+max_provinces = 1942
 definitions = "definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
@@ -70,6 +70,7 @@ major_rivers =
 	958 #Ladoga
 	997 #Onega
 	944 #Aral Sea
+	
 }
 
-externals = { 1464 1465 } # Paths to china
+externals = { 1795 1796 } # Paths to china

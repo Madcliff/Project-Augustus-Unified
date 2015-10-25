@@ -20,7 +20,9 @@ culture = old_italian
 religion = catholic
 
 # History
-
+700.1.1 = {
+	b_venezia = ct_jewish_community_1
+}
 867.1.1 = { 
 	b_venezia = ct_wall_1
 	b_venezia = ct_wall_2

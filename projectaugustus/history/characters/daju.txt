@@ -1,0 +1,281 @@
+1000085070 = {
+	name="Garang"
+	dynasty=1000032061
+	religion="animism"
+	culture="daju"
+	1010.1.1= {
+		birth="1010.1.1"
+	}
+	1076.1.1 = {
+		death="1076.1.1"
+	}
+}
+1000085081 = {
+	name="Kakarah"
+	dynasty=1000032060
+	religion="animism"
+	culture="daju"
+	1023.1.1= {
+		birth="1023.1.1"
+	}
+	1077.1.1 = {
+		death="1077.1.1"
+	}
+}
+
+1000085083 = {
+	name="Assefa"
+	dynasty=1000032063
+	religion="animism"
+	culture="daju"
+	1017.1.1= {
+		birth="1017.1.1"
+	}
+	1073.1.1 = {
+		death="1073.1.1"
+	}
+}
+1000085084 = {
+	name="Katur"
+	dynasty=1000032064
+	religion="animism"
+	culture="daju"
+	1023.1.1= {
+		birth="1023.1.1"
+	}
+	1081.1.1 = {
+		death="1081.1.1"
+	}
+}
+
+1000085000 = {
+	name="Faisil"
+	dynasty=574
+	religion="sunni"
+	culture="bedouin_arabic"
+	1029.1.1 = {
+		birth="1029.1.1"
+	}
+	1080.1.1 = {
+		death="1080.1.1"
+	}
+}
+1000085001 = {
+	name="Mohammad"
+	dynasty=596
+	religion="sunni"
+	culture="bedouin_arabic"
+	1035.1.1 = {
+		birth="1035.1.1"
+	}
+	1077.1.1 = {
+		death="1077.1.1"
+	}
+}
+1000085002 = {
+	name="Abdullah"
+	dynasty=762
+	religion="sunni"
+	culture="bedouin_arabic"
+	1030.1.1 = {
+		birth="1030.1.1"
+	}
+	1072.1.1 = {
+		death="1072.1.1"
+	}
+}
+1000085003 = {
+	name="Aladdin"
+	dynasty=7275
+	religion="sunni"
+	culture="bedouin_arabic"
+	1020.1.1 = {
+		birth="1020.1.1"
+	}
+	1067.1.1 = {
+		death="1067.1.1"
+	}
+}
+1000085004 = {
+	name="Abd"
+	dynasty=1000032035
+	religion="sunni"
+	culture="zaghawa"
+	1020.1.1 = {
+		birth="1010.1.1"
+	}
+	1068.1.1 = {
+		death="1068.1.1"
+	}
+}
+1000085005 = {
+	name="Hummay"
+	dynasty=1000032034
+	religion="sunni"
+	culture="bedouin_arabic"
+	add_trait="tough_soldier"
+	add_trait="ambitious"
+	add_trait="zealous"
+	1014.1.1 = {
+		birth="1014.1.1"
+	}
+	1066.1.1 = {
+		add_claim = e_kanem
+		add_claim = k_kanem
+		add_claim = k_bornu
+	}
+	1080.1.1 = {
+		death="1080.1.1"
+	}
+}
+1000085006 = {
+	name="Dunama"
+	dynasty=1000032034
+	religion="sunni"
+	culture="bedouin_arabic"
+	father=1000085005
+	add_trait="underhanded_rogue"
+	1060.1.1 = {
+		birth="1060.1.1"
+	}
+	1133.1.1 = {
+		death="1133.1.1"
+	}
+}
+1000085007 = {
+	name="Ibrahim"
+	dynasty=1000032032
+	religion="sunni"
+	culture="bedouin_arabic"
+	1020.1.1 = {
+		birth="1020.1.1"
+	}
+	1070.1.1 = {
+		death="1070.1.1"
+	}
+}
+1000085008 = {
+	name="Aziz"
+	dynasty=1000032033
+	religion="sunni"
+	culture="bedouin_arabic"
+	1030.1.1 = {
+		birth="1030.1.1"
+	}
+	1072.1.1 = {
+		death="1072.1.1"
+	}
+}
+1000085009 = {
+	name="Abdallah ibn Abd"
+	dynasty=1000032035
+	religion="sunni"
+	culture="zaghawa"
+	father=1000085004
+	add_trait="ugly"
+	add_trait="hedonist"
+	add_trait="lustful"
+	1044.1.1 = {
+		birth="1044.1.1"
+	}
+	1070.1.1 = {
+		death="1070.1.1"
+	}
+}
+#Mozabite
+1000085034 = {
+	name="Abd"
+	dynasty=1000032041
+	religion="ibadi"
+	culture="bedouin_arabic"
+	1041.1.1 = {
+		birth="1041.1.1"
+	}
+	1103.1.1 = {
+		death="1103.1.1"
+	}
+}
+1000085035 = {
+	name="Abdullah"
+	dynasty=1000032042
+	religion="ibadi"
+	culture="bedouin_arabic"
+	1025.1.1 = {
+		birth="1025.1.1"
+	}
+	1076.1.1 = {
+		death="1076.1.1"
+	}
+}
+1000085036 = {
+	name="Mohammad"
+	dynasty=1000032043
+	religion="ibadi"
+	culture="bedouin_arabic"
+	1035.1.1 = {
+		birth="1035.1.1"
+	}
+	1116.1.1 = {
+		death="1116.1.1"
+	}
+}
+1000085037 = {
+	name="Da'ud"
+	dynasty=1000032044
+	religion="ibadi"
+	culture="bedouin_arabic"
+	1044.1.1 = {
+		birth="1044.1.1"
+	}
+	1111.1.1 = {
+		death="1111.1.1"
+	}
+}
+1000085038 = {
+	name="Abdul"
+	dynasty=1000032045
+	religion="ibadi"
+	culture="bedouin_arabic"
+	1006.1.1 = {
+		birth="1006.1.1"
+	}
+	1087.1.1 = {
+		death="1087.1.1"
+	}
+}
+1000085039 = {
+	name="Ibrahim"
+	dynasty=1000032046
+	religion="ibadi"
+	culture="bedouin_arabic"
+	1047.1.1 = {
+		birth="1047.1.1"
+	}
+	1077.1.1 = {
+		death="1077.1.1"
+	}
+}
+1000085040 = {
+	name="Aladdin"
+	dynasty=1000032047
+	religion="ibadi"
+	culture="bedouin_arabic"
+	1030.1.1 = {
+		birth="1030.1.1"
+	}
+	1090.1.1 = {
+		death="1090.1.1"
+	}
+}
+1000085041 = {
+	name="Aziz"
+	dynasty=1000032048
+	religion="ibadi"
+	culture="bedouin_arabic"
+	1000.1.1 = {
+		birth="1000.1.1"
+	}
+	1069.1.1 = {
+		death="1069.1.1"
+	}
+}

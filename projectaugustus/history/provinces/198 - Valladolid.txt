@@ -15,11 +15,17 @@ b_segovia = temple
 #b_iscar = city
 
 # Misc
-culture = hispanic
+culture = visigothic
 religion = catholic
 
-# History
+700.1.1 = {
+	culture = iberian
+}
 
+# History
+100.1.1 = {
+	b_tordesillas = ct_jewish_community_1
+}
 867.1.1 = { 
 	b_valladolid = ca_town_1
 	b_valladolid = ca_keep_1

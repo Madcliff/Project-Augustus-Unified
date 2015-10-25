@@ -1,6 +1,6 @@
 145292 = {
 	name="Simon"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="aramean"
 	trait="diligent"
 	trait="patient"
@@ -26,7 +26,7 @@
 	diplomacy=9
 	intrigue=9
 	stewardship=9
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="aramean"
 	trait="trusting"
 	trait="brave"
@@ -37,15 +37,5 @@
 	}
 	65.1.1={
 		death="65.1.1"
-	}
-}
-2000000038 = {
-    name="Yeshua"
-	religion="orthodox"
-	culture="aramean"
-	trait="divine"
-	give_nickname=nick_christ
-	1.1.1={
-	    birth="1.1.1."
 	}
 }

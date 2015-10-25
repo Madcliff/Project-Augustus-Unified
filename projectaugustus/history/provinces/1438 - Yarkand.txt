@@ -13,8 +13,8 @@ b_yecheng = city
 #b_poskam =
 
 # Misc
-culture = scythian
-religion = buddhist
+culture = indo_scythian
+religion = mahayana_buddhist
 
 # History
 1006.1.1 = {

@@ -1,0 +1,219 @@
+# The English Melting Pot
+character_event = {
+	id = ANS.999991
+	desc = "EVTDESC.1"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1100
+		culture = english
+		primary_title = {
+			title = k_england
+		}
+		any_demesne_province = {
+			culture = saxon
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA55002"
+		culture = anglonorse
+		random_demesne_province = {
+			limit = {
+				region = custom_england
+				culture = saxon
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = anglonorse
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = ANS.2
+	desc = "EVTDESC.55003"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1100
+		culture = anglonorse
+		any_demesne_province = {
+			region = custom_england
+			OR = {
+				culture = saxon
+				culture = norse
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTA55003"
+		random_demesne_province = {
+			limit = {
+				region = custom_england
+				OR = {	
+					culture = saxon
+					culture = norse
+				}
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = anglonorse
+		}
+	}
+}
+
+#Make my court speak English
+character_event = {
+	id = ANS.3
+	desc = "EVTDESC.3"
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+
+	trigger = {
+		year = 1100
+		culture = anglonorse
+		independent = no
+		top_liege = {
+			primary_title = {
+				title = k_england
+			}
+		}
+		any_courtier = {
+			OR = {
+				culture = saxon
+				culture = norse
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTA.55004"
+		random_courtier = {
+			limit = {
+				OR = {	
+					culture = saxon
+					culture = norse
+				}
+			}
+			culture = anglonorse
+			hidden_tooltip = {
+				character_event = { id = ANS.5 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak English
+character_event = {
+	id = ANS.4
+	desc = "EVTDESC.55005"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+		year = 1100
+		culture = anglonorse
+		independent = no
+		top_liege = {
+			primary_title = {
+				title = k_england
+			}
+		}
+		any_vassal = {
+			OR = {
+				culture = saxon
+				culture = norse
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTA.55005"
+		random_vassal = {
+			limit = {
+				OR = {	
+					culture = saxon
+					culture = norse
+				}
+			}
+			culture = anglonorse
+			hidden_tooltip = {
+				character_event = { id = ANS.5 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = ANS.5
+	desc = "EVTDESC.55006"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA.55006"
+		culture = anglonorse
+	}
+}

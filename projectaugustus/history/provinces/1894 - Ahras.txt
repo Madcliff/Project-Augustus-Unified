@@ -1,0 +1,27 @@
+# 817 - Tunis
+
+# County Title
+title = c_ahras
+max_settlements = 5
+
+b_ahras = castle
+b_tagast = city
+b_thagast = temple
+b_tagaste = castle
+
+
+# Misc
+culture = african
+religion = manichean
+
+# History
+
+600.1.1 = {
+	religion = donatist 
+}
+
+867.1.1 = {
+	religion = sunni
+        culture = maghreb_arabic
+}
+

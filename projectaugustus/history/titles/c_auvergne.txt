@@ -1,3 +1,19 @@
+464.1.1={
+	liege="d_auvergne"
+}
+470.1.1={
+	holder=1438131
+	liege="k_visigoth"
+}
+
+620.1.1={
+	holder = 1000153039 #Sigbert
+	liege = k_aquitaine
+}
+650.1.1 = {
+	holder = 0
+}
+
 743.1.1={
 	holder = 190506 #Stephan
 }

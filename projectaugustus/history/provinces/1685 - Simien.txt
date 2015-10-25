@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_simien
+# Settlements
+max_settlements = 4
+b_simien = castle
+
+
+# Misc
+culture = falashim 
+religion = haymanot_judaism 
+
+# History

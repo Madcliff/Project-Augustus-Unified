@@ -1,6 +1,24 @@
+469.1.1 = {
+	liege = "k_visigoth"
+}
+
+
+632.1.1 = {
+	holder = 168731
+	liege = d_murcia
+}
+636.3.12 = {
+	holder = 168732
+}
+639.12.29 = {
+	holder = 168734
+}
+653.9.30 = {
+	holder = 0
+}
 756.3.16={
 	holder=73679 # Abd al-Rahman I Umayyad
-	liege=e_umayyad
+	liege=k_andalusia
 }
 788.10.7={
 	holder=73680 # Hisham I Umayyad

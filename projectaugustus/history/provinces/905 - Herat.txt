@@ -15,7 +15,7 @@ b_kushk = temple
 #b_zarghun = city
 #b_chishti = castle
 
-culture = persian
+culture = parthian
 religion = nestorian
 
 # History

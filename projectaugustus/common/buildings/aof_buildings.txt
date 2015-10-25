@@ -1,0 +1,287 @@
+city = {
+	ct_ab_anbar_1 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_TRADE_PRACTICES = 0
+		TECH_CONSTRUCTION = 0 }
+		desc = al_anbar_1_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 0
+
+	}
+
+	ct_ab_anbar_2 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 2 }
+
+		prerequisites = { ct_ab_anbar_1  }
+		upgrades_from = ct_ab_anbar_1 
+		desc = al_anbar2_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+
+	ct_ab_anbar_3 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 3 }
+
+		prerequisites = { ct_ab_anbar_2  }
+		upgrades_from = ct_ab_anbar_2 
+		desc = al_anbar3_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+
+	ct_ab_anbar_4 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 5 }
+
+		prerequisites = { ct_ab_anbar_3  }
+		upgrades_from = ct_ab_anbar_3
+		desc = al_anbar4_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+}
+
+castle = {
+	ca_ab_anbar_1 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_TRADE_PRACTICES = 0
+		TECH_CONSTRUCTION = 0 }
+		desc = al_anbar_1_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 0
+
+	}
+
+	ca_ab_anbar_2 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 2 }
+
+		prerequisites = { ca_ab_anbar_1  }
+		upgrades_from = ca_ab_anbar_1 
+		desc = al_anbar2_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+
+	ca_ab_anbar_3 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 3 }
+
+		prerequisites = { ca_ab_anbar_2  }
+		upgrades_from = ca_ab_anbar_2 
+		desc = al_anbar3_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+
+	ca_ab_anbar_4 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 5 }
+
+		prerequisites = { ca_ab_anbar_3  }
+		upgrades_from = ca_ab_anbar_3
+		desc = al_anbar4_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+}
+
+temple = {
+	yp_ab_anbar_1 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_TRADE_PRACTICES = 0
+		TECH_CONSTRUCTION = 0 }
+		desc = al_anbar_1_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 0
+
+	}
+
+	yp_ab_anbar_2 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 2 }
+
+		prerequisites = { yp_ab_anbar_1  }
+		upgrades_from = yp_ab_anbar_1 
+		desc = al_anbar2_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+
+	yp_ab_anbar_3 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 3 }
+
+		prerequisites = { yp_ab_anbar_2  }
+		upgrades_from = yp_ab_anbar_2 
+		desc = al_anbar3_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+
+	yp_ab_anbar_4 = {
+	potential = {
+		location = { terrain = mountain }
+		owner = { culture_group = iranian }
+	}
+
+	trigger = { 
+		TECH_CONSTRUCTION = 5 }
+
+		prerequisites = { yp_ab_anbar_3  }
+		upgrades_from = yp_ab_anbar_3
+		desc = al_anbar4_desc
+		gold_cost = 150
+		build_time = 300
+		levy_size = 0.15
+		garrison_size = 0.15
+		tax_income = 2.5
+		economy_techpoints = 0.005
+		ai_creation_factor = 130
+
+		extra_tech_building_start = 10
+
+	}
+}

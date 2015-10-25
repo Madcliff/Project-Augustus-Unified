@@ -17,10 +17,11 @@ b_oblucita = temple
 #b_falciu = castle
 
 # Misc
-culture = hungarian
+culture = alan
 religion = tengri_pagan
 
 # History
+700.1.1 = { culture = hungarian }
 892.1.1 = { culture = pecheneg }
 900.1.1 = { religion = orthodox }
 1187.1.1 = { b_palada = castle } 

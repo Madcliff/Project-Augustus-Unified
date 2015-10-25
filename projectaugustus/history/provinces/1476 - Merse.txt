@@ -1,0 +1,16 @@
+# County Title
+title = c_merse
+
+# Settlements
+max_settlements = 3
+b_merse = castle
+#b_chakata = castle
+#b_defarna = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

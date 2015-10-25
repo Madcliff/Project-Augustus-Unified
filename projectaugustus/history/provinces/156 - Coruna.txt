@@ -15,9 +15,12 @@ b_mondonedo = temple
 #b_triacastela = castle
 
 # Misc
-culture = hispanic
+culture = suebi
 religion = catholic
 
+700.1.1 = {
+	culture = iberian
+}
 # History
 
 867.1.1 = {

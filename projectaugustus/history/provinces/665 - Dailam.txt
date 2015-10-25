@@ -16,7 +16,7 @@ b_zanjan = city
 #b_mahneshan = castle
 
 #Misc
-culture = persian
+culture = mazanderani
 religion = zurvanite
 
 # History

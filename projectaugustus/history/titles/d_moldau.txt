@@ -1,10 +1,10 @@
-632.1.1={
-	liege="k_bulgaria"
-        vice_royalty = yes
-	holder=159117
+# Alans
+610.1.1 = {
+	holder = 1000250006
+	liege = e_avaria
 }
-665.1.1={
-	holder=159127
+655.1.1 = {
+	holder = 1000250007
 }
 680.1.1={
 	holder=0

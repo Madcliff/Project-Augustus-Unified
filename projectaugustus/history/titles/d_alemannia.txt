@@ -1,0 +1,6 @@
+470.1.2=
+{
+	law = agnatic_succession
+	law = succ_gavelkind
+holder=1070991 
+}

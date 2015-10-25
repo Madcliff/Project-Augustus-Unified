@@ -1,0 +1,424 @@
+k_visigoth = {
+	color = { 210 2 217 }
+	capital = 214 # Toulouse
+	culture = visigothic
+	allow = {
+		is_adult = yes
+		has_regent = no
+		war = no
+		ruled_years = 5
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = {
+					has_landed_title = e_byzantium
+					top_liege = { has_landed_title = e_byzantium }
+				}
+			}
+		}
+		OR = {
+			AND = {
+				lower_tier_than = king
+				culture = visigothic
+			}
+			k_visigoth = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	dignity = 10	
+}
+
+k_rugians = {
+	color = { 200 200 207 }
+	culture = suevi
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+k_antes = {
+	color = { 20 20 207 }
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+k_yueban = {
+	color = { 20 20 207 }
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+d_kangly = {
+	color = { 52 20 71 }
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+d_oghuz = {
+	color = { 266 100 27 }
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+
+
+k_rouran = {
+	color = { 200 20 107 }
+	allow = {
+		always = no
+		culture = mongol
+	}
+	dignity = 10	
+}
+
+k_lakhmid = {
+	color = { 200 20 107 }
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+k_kindah = {
+	color = { 50 220 170 }
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+k_himyar = {
+	color = { 10 20 170 }
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+
+d_uyghur = {
+	color = { 70 10 207 }
+	allow = {
+		always = no
+		culture = uyghur
+	}
+	dignity = 10	
+}
+
+
+d_serbia = {
+	color = { 200 200 207 }
+	culture = serbian
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+k_gaoche = {
+	color = { 200 200 207 }
+	culture = tiele
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+d_croats = {
+	color = { 100 200 207 }
+	culture = croatian
+	allow = {
+		always = no
+	}
+	dignity = 10	
+}
+
+
+k_gepid = {
+	color = { 21 200 217 }
+	culture = gepid
+	allow = {
+		is_adult = yes
+		has_regent = no
+		war = no
+		ruled_years = 5
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = {
+					has_landed_title = e_byzantium
+					top_liege = { has_landed_title = e_byzantium }
+				}
+			}
+		}
+		OR = {
+			AND = {
+				lower_tier_than = king
+				culture = gepid
+			}
+			k_gepid = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	dignity = 10	
+}
+
+k_heruli = {
+	color = { 210 20 217 }
+	culture = heruli
+	allow = {
+		is_adult = yes
+		has_regent = no
+		war = no
+		ruled_years = 5
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = {
+					has_landed_title = e_byzantium
+					top_liege = { has_landed_title = e_byzantium }
+				}
+			}
+		}
+		OR = {
+			AND = {
+				lower_tier_than = king
+				culture = heruli
+			}
+			k_heruli = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	dignity = 10	
+}
+
+
+# Persian
+k_qarakhnid = { # Actually Khiva
+	color = { 39 138 51 }
+	color2 = { 255 255 255 }
+	
+	capital = 626 # Khiva
+	culture = persian
+	
+	tengri_pagan_reformed = 50
+	zoroastrian_group = 700 # Crusade target weight
+	
+	allow = {
+		hidden_tooltip = { NOT = { has_dlc = "Charlemagne" } }
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		ruled_years = 5
+		war = no
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = {
+					has_landed_title = e_byzantium
+					top_liege = { has_landed_title = e_byzantium }
+				}
+			}
+		}
+		OR = {
+			AND = {
+				culture = persian
+				lower_tier_than = king
+			}
+			k_qarakhnid = {
+				OR = { 
+					is_titular = no 
+					has_holder = yes 
+				} 
+			}
+		}
+	}
+}
+
+
+# Parthian
+k_parthia = {
+	color = { 235 10 210 }
+	color2 = { 20 20 20 }
+	
+	capital = 624 # Nishapur
+	culture = parthian
+	
+	tengri_pagan_reformed = 50
+	zoroastrian_group = 700 # Crusade target weight
+	
+	allow = {
+		hidden_tooltip = { NOT = { has_dlc = "Charlemagne" } }
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		ruled_years = 5
+		war = no
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = {
+					has_landed_title = e_byzantium
+					top_liege = { has_landed_title = e_byzantium }
+				}
+			}
+		}
+		OR = {
+			AND = {
+				culture = parthian
+				lower_tier_than = king
+			}
+			k_parthia = {
+				OR = { 
+					is_titular = no 
+					has_holder = yes 
+				} 
+			}
+		}
+	}
+}
+
+
+# Pommeranian
+k_wend = {
+	color = { 142 160 40 }
+	
+	capital = 260 #Mecklemburg
+	culture = pommeranian
+	dignity = 100
+
+	allow = {
+		is_adult = yes
+		has_regent = no
+		war = no
+		ruled_years = 5
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = {
+					has_landed_title = e_byzantium
+					top_liege = { has_landed_title = e_byzantium }
+				}
+			}
+		}
+		OR = {
+			AND = {
+				culture = pommeranian
+				lower_tier_than = king
+			}
+			k_wend = {
+				OR = {
+					is_titular = no
+					has_holder = yes
+				}
+			}
+		}
+	}
+}
+
+
+# Portugese
+k_algarve = {
+	color = { 54 167 156 }
+	capital = 162 # Silves
+	culture = portuguese
+	allow = {
+		hidden_tooltip = { NOT = { has_dlc = "Charlemagne" } }
+		is_adult = yes
+		has_regent = no
+		war = no
+		ruled_years = 5
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = {
+					has_landed_title = e_byzantium
+					top_liege = { has_landed_title = e_byzantium }
+				}
+			}
+		}
+		OR = {
+			AND = {
+				culture = portuguese
+				lower_tier_than = king
+			}
+			k_algarve = {
+				OR = {
+					is_titular = no
+					has_holder = yes
+				}
+			}
+		}
+	}
+	dignity = 10
+}
+
+k_spanish_galicia = {
+	color = { 255 224 94 }
+	color2 = { 255 255 255 }
+	
+	capital = 156 # Coruña	
+	culture = portuguese
+	
+	catholic = 250 # Crusade target weight
+	muslim = 25 # Crusade target weight
+	
+	allow = {
+		is_adult = yes
+		has_regent = no
+		war = no
+		ruled_years = 5
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				NOT = {
+					has_landed_title = e_byzantium
+					top_liege = { has_landed_title = e_byzantium }
+				}
+			}
+		}
+		OR = {
+			AND = {
+				culture_group = iberian
+				lower_tier_than = king
+			}
+			k_spanish_galicia = {
+				OR = {
+					is_titular = no
+					has_holder = yes
+				}
+			}
+		}
+	}
+}
+
+k_xueyantuo = {
+	color = { 255 25 94 }
+	color2 = { 255 255 255 }
+
+	capital = 1457
+
+	allow = {
+		always = no
+	}
+
+}
+	
+e_eftal = {
+	color = { 255 255 255 }
+	color2 = { 255 255 255 }
+
+	capital = 904
+
+	allow = {
+		always = no
+	}
+
+}
+

@@ -1,3 +1,15 @@
+469.1.1 = {
+	liege = "k_visigoth"
+}
+
+
+610.1.1 = {
+	holder = 1000256713
+	liege = d_cordoba
+}
+655.1.1 = {
+	holder = 0
+}
 760.1.1={
 	holder=200230 # Abd al-Malik Djazairid
 	liege=e_umayyad

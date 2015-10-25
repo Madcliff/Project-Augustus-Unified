@@ -1,0 +1,14 @@
+
+# County Title
+title = c_ghat
+
+# Settlements
+max_settlements = 2
+b_ghat = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+# History

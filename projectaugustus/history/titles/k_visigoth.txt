@@ -16,8 +16,10 @@
 418.1.1={
         holder = 200287
 }
-451.6.20={
-        holder = 200286
+451.1.1 = {
+	law = agnatic_succession
+	law = succ_seniority
+	holder = 1428100 #Euric Balting
 }
 453.1.1={
         holder = 200285
@@ -71,19 +73,19 @@
         holder = 200256
 }
 631.1.1={
-        holder = 200278
+        holder = 168731
 }
 636.3.12={
-        holder = 200254
+        holder = 168732
 }
 639.12.29={
-        holder = 200255
+        holder = 168733
 }
 642.1.1={
-        holder = 200240
+        holder = 168734
 }
 653.9.30={
-        holder = 200249
+        holder = 168736
 }
 672.9.1={
         holder = 200248

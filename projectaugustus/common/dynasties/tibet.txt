@@ -1,0 +1,41 @@
+
+1090027 = {
+	name="Liang"
+	culture = han
+	religion="buddhist"
+}
+
+1090028 = {
+	name="Tuoba"
+	culture = tangut
+	religion="buddhist"
+}
+
+1090029 = {
+	name="Wangli"
+	culture = tangut
+	religion="buddhist"
+}
+
+1090030 = {
+	name="Weimu"
+	culture = tangut
+	religion="buddhist"
+}
+
+1090031 = {
+	name="Yeli"
+	culture = tangut
+	religion="buddhist"
+}
+1090025 = {
+	name="Mozang"
+	culture = tangut
+	religion="buddhist"
+}
+
+1090026 = {
+	name="Li"
+	culture = han
+	religion="buddhist"
+}

@@ -18,3 +18,7 @@ culture = tamil
 religion = nestorian
 
 # History
+700.1.1 = {
+	b_mahoyadapuram = ct_jewish_community_1
+	b_mahoyadapuram = ct_jewish_community_2
+}

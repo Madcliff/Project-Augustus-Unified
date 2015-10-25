@@ -1,0 +1,69 @@
+# Status of Women decisions
+
+decisions = {
+
+	# Muslim women rulers are able to ask their husband to join their
+	# dynasty once moderate status of women has been reached. This is so 
+	# that they can then have their children be the right dynasty to avoid 
+	# player game over.
+
+	# Muslim women rulers are very unlikely before this status level, as Muslim's
+	# need Absolute Cognatic to make female heirs possible under the Open Succession
+	# system.
+	statusofwomen_decision_husband_switchdynasty = {
+		is_high_prio = yes
+				
+		potential = {
+			religion_group = muslim
+			is_female = yes
+			is_ruler = yes
+			is_married = yes
+			NOT = { trait = incapable }
+			spouse = {
+				NOT = { dynasty = ROOT }
+			}
+			OR = {
+				has_law = statusofwomen_3
+				has_law = statusofwomen_4
+			}
+		}
+		
+		allow = {
+			spouse = {
+				OR = {
+					trait = lunatic				
+					AND = {
+						is_ruler = no
+						NOT = { trait = proud }
+						OR = {
+							trait = bastard
+							opinion = { who = ROOT value = 30 }
+						}
+					}
+					AND = {
+						is_ruler = yes
+						NOT = { trait = proud }
+						lower_tier_than = ROOT
+						opinion = { who = ROOT value = 60 }
+					}							
+					AND = {
+						is_ruler = yes
+						NOT = { trait = proud }
+						tier = ROOT
+						opinion = { who = ROOT value = 100 }
+					}				
+				}
+			}			
+		}
+		effect = {
+			spouse = {
+				dynasty = ROOT
+				reverse_opinion = { modifier = opinion_joined_dynasty who = ROOT years = 10 } 
+			}
+			prestige = 100
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+}

@@ -1,0 +1,11 @@
+620.1.1 = {
+	holder = 1000250307
+	liege = e_avaria
+}
+660.1.1 = {
+	holder = 146154
+}
+685.1.1 = {
+	holder = 0
+	liege = 0
+}

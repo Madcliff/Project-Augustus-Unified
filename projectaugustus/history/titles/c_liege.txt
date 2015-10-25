@@ -1,4 +1,19 @@
-721.1.1={
+439.1.1=
+{
+	holder=10014991
+}
+457.1.2=
+{
+	holder=10017991
+}
+481.1.1=
+{
+	holder=10022991
+}
+
+629.1.1 = {
+	liege="d_brabant"
+}721.1.1={
 	holder = 91000 #Robert Capet
 	liege = k_neustria
 }

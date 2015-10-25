@@ -16,7 +16,7 @@ b_rostamrood = temple
 #b_varamin = castle
 
 # Misc
-culture = persian
+culture = mazanderani
 religion = mazdaki
 
 # History

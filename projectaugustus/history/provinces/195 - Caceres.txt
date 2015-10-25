@@ -15,7 +15,7 @@ b_guadalupe = temple
 #b_alcuescar = castle
 
 # Misc
-culture = hispanic
+culture = iberian
 religion = catholic
 
 # History

@@ -1,6 +1,32 @@
-644.1.1={
+470.1.1 = {
+	holder=180624 # Peroz I
+}
+32.1.1 = {
+	holder = 1000258000
+	liege = d_baluchistan
+}
+37.1.1 = {
+	holder = 1000258001
+}
+69.1.1 = {
+	holder = 1000258005
+}
+97.1.1 = {
+	holder = 0
+	liege = 0
+}
+224.1.1={
+	liege="e_persia"
+}
+620.1.1 = {
+	liege = d_sistan
+	holder = 1000257538
+}
+654.1.1 = {
+	holder = 0
 	liege=d_baluchistan
 }
+
 
 768.1.1={
 	holder=188661

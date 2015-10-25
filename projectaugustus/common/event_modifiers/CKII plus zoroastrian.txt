@@ -1,0 +1,51 @@
+zoroastrian_sacrifice_mithra = {
+	land_morale = 0.15
+	regiment_reinforcement_speed = 0.15
+	icon = 5
+}
+
+zoroastrian_sacrifice_parendi = {
+	build_time_modifier = -0.2
+	build_cost_modifier = -0.05
+	icon = 5
+}
+
+zoroastrian_sacrifice_chisti = {
+	tech_growth_modifier_culture = 0.5
+	tech_growth_modifier_military = 0.5
+	tech_growth_modifier_economy = 0.5
+	icon = 5
+}
+
+zoroastrian_tolerance = {
+	learning = 2
+	intrigue = -1
+	icon = 18
+}
+
+mani_art_patron  = {
+	monthly_character_piety = 0.2
+	monthly_character_prestige = 0.2
+	global_tax_modifier = -0.05
+	icon = 6
+}
+
+held_bema_feast_timer = {
+	icon = 1
+}
+
+ai_austerity = {
+	icon = 1
+}
+
+ai_austerity_timer = {
+	icon = 1
+}
+
+charity_timer = {
+	icon = 1
+}
+
+feast_event_timer = {
+	icon = 1
+}

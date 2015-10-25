@@ -1,0 +1,13 @@
+
+# County Title
+title = c_daju
+
+# Settlements
+max_settlements = 2
+b_daju = castle
+
+# Misc
+culture = daju
+religion = animism
+
+# History

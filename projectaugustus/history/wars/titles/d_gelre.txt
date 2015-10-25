@@ -1,0 +1,11 @@
+760.1.1 = {
+        de_jure_liege = "k_frisia"
+}
+1337.1.1 = {
+        liege="e_hre"
+        #law = agnatic_succession
+        #law = succ_primogeniture
+}
+1337.1.1 = {
+	holder=30039
+}

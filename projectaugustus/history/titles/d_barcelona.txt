@@ -1,4 +1,23 @@
-
+620.1.1 = {
+	holder = 1000256709
+	liege = k_visigoth
+}
+650.1.1 = {
+	holder = 1000215033
+}
+687.1.1 = {
+	holder = 1000215035
+}
+703.1.1 = {
+	holder = 1000215036
+}
+711.1.1 = {
+	holder = 1000215037
+}
+721.1.1 = {
+	holder = 0
+	liege = 0
+}
 801.1.1={
 	holder=70140 # Bera, Count of Barcelona
 	liege=k_aquitaine
@@ -65,6 +84,9 @@
 1035.5.26={
 	holder=110520 # Ramon Berenguer I de Barcelona
 }	
+1035.10.18={
+	de_jure_liege=k_aragon
+}
 1076.5.26={
 	holder=110522 # Ramon Berenguer II de Barcelona
 }

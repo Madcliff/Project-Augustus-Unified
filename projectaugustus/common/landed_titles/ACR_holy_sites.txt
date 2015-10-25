@@ -1,0 +1,40 @@
+### Celtic Pagan
+
+c_vannes = {
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+c_essex = {
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+c_gwynedd = {
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+c_galloway = {
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+c_dublin = {
+	holy_site = celtic_pagan
+	holy_site = celtic_pagan_reformed
+}
+
+# Egyptian pagan
+
+c_homs = {
+	holy_site = egyptian_pagan
+}
+c_ikonion = {		
+	holy_site = egyptian_pagan
+}
+c_gabiyaha = {
+	holy_site = egyptian_pagan	
+}
+c_cairo = {
+	holy_site = egyptian_pagan
+}
+c_asyut = {
+	holy_site = egyptian_pagan # Luxor
+}

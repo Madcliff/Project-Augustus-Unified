@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_endamehoni
+# Settlements
+max_settlements = 4
+b_endamehoni = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

@@ -1,0 +1,13 @@
+# County Title
+title = c_ladakh
+
+# Settlements
+max_settlements = 4
+b_ladakh = tribal
+
+culture = tibetan
+religion = vajrayana_buddhist
+
+
+# History
+

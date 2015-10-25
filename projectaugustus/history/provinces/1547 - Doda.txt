@@ -1,0 +1,19 @@
+# County Title
+title = c_doda
+
+# Settlements
+max_settlements = 4
+b_kishtwar = castle
+b_bhaderwah = temple
+b_deeda = city
+
+
+
+
+# Misc
+culture = panjabi
+religion = shaivist 
+
+
+# History
+

@@ -1,0 +1,71 @@
+decisions = {
+	reform_karaite = {
+		is_high_prio = yes
+		
+		potential = {
+			has_landed_title = k_israel
+			is_ruler = yes
+			age = 16
+			religion = karaite
+		}
+		
+		allow = {
+				religion = karaite
+				num_of_holy_sites = 3
+				piety = 750
+				religion_authority = 0.50
+							
+			NOT = { 
+				religion = rabbinic_judaism
+			}
+		}
+		
+		effect = {
+			# Reformer converts
+			religion = temple_judaism
+			hidden_tooltip = {narrative_event = { id = MROA.100 } }
+		}
+				
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reform_rabbinic_judaism = {
+		is_high_prio = yes
+		
+		potential = {
+			has_landed_title = k_israel
+			is_ruler = yes
+			age = 16
+			religion = rabbinic_judaism
+		}
+		
+		allow = {
+			religion = rabbinic_judaism
+			num_of_holy_sites = 3
+			piety = 750
+			religion_authority = 0.50
+									
+			NOT = { 
+				religion = karaite 
+			}
+		}
+		
+		effect = {
+			# Reformer converts
+			religion = grand_sanhedrin
+			hidden_tooltip = {narrative_event = { id = MROA.101 } }
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

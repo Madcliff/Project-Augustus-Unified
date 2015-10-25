@@ -1,0 +1,8 @@
+769.1.1 = {
+        liege = e_byzantium
+        vice_royalty = yes
+        set_global_flag = constantinopilan_eparchy
+}
+1204.5.16 = {
+        active = no
+}

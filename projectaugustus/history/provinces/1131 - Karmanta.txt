@@ -1,0 +1,22 @@
+# 1131 - Karmanta
+
+# County Title
+title = c_karmanta
+
+# Settlements
+max_settlements = 4
+b_karmanta = castle
+b_mainamati = temple
+b_unakoti = city
+#b_udaipur = city
+
+# Misc
+culture = manipuri
+religion = sanamahism
+terrain = jungle
+
+# History
+700.1.1 = {
+	b_unakoti = ct_jewish_community_1
+	b_unakoti = ct_jewish_community_2
+}

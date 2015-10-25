@@ -1,0 +1,34 @@
+460.1.1 = {
+	holder = 1000256140 
+}
+630.1.1 = {
+	holder=1000257456 
+	liege=d_kirghiz
+}
+758.1.1={
+	liege=d_kirghiz
+	holder=188784 # Uyghur conquest
+}
+759.6.1={
+	holder=188785
+}
+779.1.1={
+	holder=188786
+}
+789.1.1={
+	holder=188787
+}
+790.1.1={
+	holder=188788
+}
+795.1.1={
+	holder = 0 # more Uyghur rulers till 840
+}
+
+840.1.1={
+	holder=34873
+}
+935.1.1={
+	holder=2001010177
+}
+## To be coded

@@ -18,7 +18,7 @@ b_ust-onega = tribal
 #b_pryazha = castle
 
 # Misc
-culture = finnish
+culture = karelian
 religion = finnish_pagan
 
 # History

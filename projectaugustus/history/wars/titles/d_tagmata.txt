@@ -1,0 +1,7 @@
+769.1.1={
+	liege="e_byzantium"      
+        set_global_flag = formed_tagmata
+}
+801.1.1={
+        active = no
+}

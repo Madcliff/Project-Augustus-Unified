@@ -1,0 +1,8 @@
+760.1.1 = {
+	holder = 870040
+	liege = k_protectorate
+}
+790.1.1=
+{
+	holder=0
+}

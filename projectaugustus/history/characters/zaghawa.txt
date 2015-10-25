@@ -1,0 +1,88 @@
+1000085010 = {
+	name="Asru"
+	dynasty=1000032027
+	religion="pagan"
+	culture="zaghawa"
+	1011.1.1 = {
+		birth="1011.1.1"
+	}
+	1064.1.1 = {
+		death="1064.1.1"
+	}
+}
+1000085011 = {
+	name="Duku"
+	dynasty=1000032027
+	religion="pagan"
+	culture="zaghawa"
+	father=1000085010
+	1031.1.1 = {
+		birth="1031.1.1"
+	}
+	1066.1.1 = {
+		add_claim = e_kanem
+		add_claim = k_kanem
+		add_claim = k_bornu
+		add_claim = c_batha
+		add_claim = c_salal
+		add_claim = c_fada
+	}
+	1071.1.1 = {
+		death="1071.1.1"
+	}
+}
+1000085012 = {
+	name="Shamshi"
+	dynasty=1000032027
+	religion="pagan"
+	culture="zaghawa"
+	father=1000085010
+	1037.1.1 = {
+		birth="1037.1.1"
+	}
+	1072.1.1 = {
+		death="1072.1.1"
+	}
+}
+1000085013 = {
+	name="Buyuma"
+	dynasty=1000032026
+	religion="pagan"
+	culture="zaghawa"
+	1039.1.1 = {
+		birth="1039.1.1"
+	}
+	1070.1.1 = {
+		death="1070.1.1"
+	}
+}
+1000085014 = {
+	name="Kubura"
+	dynasty=1000032031
+	religion="pagan"
+	culture="zaghawa"
+	1042.1.1 = {
+		birth="1042.1.1"
+	}
+	1071.1.1 = {
+		religion=sunni
+	}
+	1073.1.1 = {
+		culture=maghreb_arabic
+	}
+	1111.1.1 = {
+		death="1111.1.1"
+	}
+}
+1000085093 = {
+	name="Arubuk"
+	dynasty=1000032023
+	religion="pagan"
+	culture="zaghawa"
+	1039.1.1 = {
+		birth="1039.1.1"
+	}
+	1103.1.1 = {
+		death="1103.1.1"
+	}
+}

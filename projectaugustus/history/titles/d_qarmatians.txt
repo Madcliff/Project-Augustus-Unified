@@ -1,0 +1,35 @@
+d_qarmatians = {
+	capital = 652 # Al_hasa
+
+	title = "WRITES IN SMALL LETTERS"
+	
+	allow = {
+			is_independent = yes
+			is_republic = yes
+	}
+}
+b_alwaz = {
+	culture = bedouin_arabic
+	religion = hurufi
+}
+b_asaqiqurd = {
+	culture = bedouin_arabic
+	religion = hurufi
+}
+b_jannabid = {
+	culture = bedouin_arabic
+	religion = hurufi
+}
+b_qalinbarmaq = {
+	culture = persian
+	religion = mazdaki
+}
+b_qusair = {
+	culture = bedouin_arabic
+	religion = hurufi
+}
+923.1.1={
+	liege = 0
+	holder = 16000012
+	law = succ_patrician_elective
+}

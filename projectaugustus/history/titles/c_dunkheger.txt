@@ -1,13 +1,22 @@
-744.1.1 = {
-	liege = d_altay
-	holder = 217110
+450.1.1 = {
+	holder = 1000256135 
 }
+620.1.1 = {
+	liege = e_protectorate
+}
+760.1.1 = { 
+	holder = 870003
+	liege = k_protectorate
+}
+
 #Xinjian Uyghur
 840.6.6 = {
+  liege = d_altay
 	holder = 166774
 }
-850.1.1 = {
-	holder = 217173
+#Kingdom of Qocho
+856.1.1 = {
+	liege = d_karashar
 }
 873.1.1 = {
 	holder = 166776
@@ -27,18 +36,16 @@
 1010.1.1 = {
 	holder = 166781
 }
-1055.8.28 = {
-	holder = 217178
-	liege = d_khangai
+1054.1.1 = {
+	holder = 166782
 }
-1092.5.12 = {
-	holder = 217335
+1064.1.1 = {
+	holder = 166783
 }
-1110.6.5 = {
-	holder = 217336
+1080.1.1 = {
+	holder = 166784
 }
-1125.1.1 = {
-	liege = d_karashar
+1105.1.1 = {
 	holder = 166785
 }
 1132.1.1 = {
@@ -67,4 +74,9 @@
 }
 1327.1.1 = {
 	holder = 166794
+}
+#Conquered by Khizr Khoja of the Chagatai Khanate
+1335.1.1=
+{
+	holder = 93086
 }

@@ -16,12 +16,16 @@ b_altdorf = castle
 #b_winterthur = city
 
 # Misc
-culture = rhaetian
+culture = rhaeto_roman
 religion = catholic
 
 # History
 
-900.1.1 = {
-culture = romansh
+800.1.1 = { 
+	culture = german
 }
+
+# History
+
+
 1291.7.15 = { capital = b_zurich } 

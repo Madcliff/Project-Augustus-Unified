@@ -17,7 +17,7 @@ b_rhoas = temple
 #b_chonae = castle
 
 # Misc
-culture = greek
+culture = demotic
 religion = orthodox
 
 # History

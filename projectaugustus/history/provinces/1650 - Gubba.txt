@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_gubba
+# Settlements
+max_settlements = 4
+b_gubba = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

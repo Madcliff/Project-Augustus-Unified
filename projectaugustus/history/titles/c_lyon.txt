@@ -1,3 +1,15 @@
+470.1.1={
+
+	holder=37504
+	liege=k_burgundy
+}
+614.1.1 = {
+	holder = 1000256600 #Willebad, Duke of Cisjurania (613/614-643)
+	liege = d_dauphine
+}
+643.1.1 = {
+	holder = 0
+}
 765.1.1 = {
 	liege="k_austrasia"
 	holder = 91491 #VUODO, historical count as placeholder

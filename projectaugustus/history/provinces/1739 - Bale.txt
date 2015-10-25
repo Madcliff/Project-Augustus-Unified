@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_bale
+# Settlements
+max_settlements = 4
+b_bale = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

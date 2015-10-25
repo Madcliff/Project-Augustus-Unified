@@ -4,11 +4,11 @@
 title = c_spoleto
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_spoleto = castle
 b_perugia = city
 b_assisi = temple
-#b_nursia = castle
+b_nursia = castle
 #b_todi = castle
 #b_valva = castle
 #b_foligno

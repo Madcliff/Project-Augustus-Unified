@@ -1,0 +1,108 @@
+1700991 = {
+	name="Vasak"
+	dynasty=91
+	religion = monophysite
+	culture="armenian"
+	add_trait="tough_soldier"
+	add_trait="ambitious"
+	390.11.1={
+		birth="390.11.1"
+	}
+	451.6.6={
+		death="451.6.6"
+	}
+}
+
+20562991 = {
+	name="Sahak"
+	#If there's a Sahak II in 482, then there must be a Sahak I before him.
+	dynasty=92
+	martial=5
+	diplomacy=7
+	intrigue=5
+	stewardship=6
+	religion = monophysite
+	culture="armenian"
+	add_trait="humble"
+	add_trait="content"
+	422.1.1={
+		birth="422.1.1"
+	}
+	482.1.1={
+		death="482.1.1"
+	}
+}
+
+22300991 = {
+	name="Sahak" 
+	# Sahak II Bagratuni
+	dynasty=93
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=6
+	religion = monophysite
+	culture="armenian"
+	419.1.1={
+		birth="419.1.1"
+	}
+	483.5.2={
+		death="483.5.2"
+	}
+}
+
+223003991 = {
+	name="Sopater" #
+	religion = orthodox
+	culture="armenian"
+	341.1.1={
+		birth="341.1.1"
+	}
+	408.1.1={
+		death="408.1.1"
+	}
+}
+
+223005991 = {	# 223005991 
+	name="Pantonymos"
+	dynasty=94
+	martial=6
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	religion = monophysite
+	culture="armenian"
+	add_trait="thrifty_clerk"
+	417.1.1={
+		birth="417.1.1"
+	}
+	491.1.1={
+		death="491.1.1"
+	}
+}
+
+22306991 = {
+	name="Virginia"
+	female = yes
+	#I'm the mod creator, I can add in my great-grandmother when I want.
+	dynasty=94
+	martial=7
+	diplomacy=8
+	intrigue=7
+	stewardship=11 #She was a landlady in Highland Park well into her 90s.
+	religion = monophysite
+	culture="armenian"
+	add_trait="wroth"
+	add_trait="proud"
+	add_trait="midas_touched"
+	father=223005
+	468.1.1={
+		birth="468.1.1"
+	}
+	561.1.1={
+		add_trait=infirm #She got Alzheimer's in her 90s
+	}
+	571.1.1={
+		death="571.1.1" #Great-Grandma Virginia lived to be 103 years old.
+	}
+}

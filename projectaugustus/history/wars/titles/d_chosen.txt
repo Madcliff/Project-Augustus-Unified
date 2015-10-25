@@ -1,0 +1,20 @@
+769.1.1={
+	liege="k_bulgaria"
+}
+893.1.1={
+        liege="e_bulgaria"
+}
+1041.1.1={
+          active=0
+}
+1071.8.26={
+          active=yes
+          liege="e_bulgaria"
+}
+1073.1.1={
+         active=no
+}
+1185.1.1={
+         active=yes
+         liege="e_bulgaria"
+}

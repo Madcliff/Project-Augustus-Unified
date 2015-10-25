@@ -6,7 +6,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167961
 	992.1.1 = {
@@ -49,7 +49,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="zealous"
 	trait="temperate"
@@ -76,7 +76,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="flamboyant_schemer"
 	father=1106
@@ -96,7 +96,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="clubfooted"
 	trait="underhanded_rogue"
@@ -118,7 +118,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="wroth"
 	trait="harelip"
@@ -140,7 +140,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="patient"
 	trait="proud"
@@ -212,7 +212,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="just"
 	trait="amateurish_plotter"
@@ -1106,7 +1106,7 @@
 20320 = {
 	name="Alberto"
 	dynasty=679
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=70629
 	976.1.1 = {
@@ -5607,7 +5607,7 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="gluttonous"
 	trait="lisp"
@@ -5654,7 +5654,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="wroth"
 	trait="envious"
@@ -5676,7 +5676,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="just"
 	trait="zealous"
@@ -5699,7 +5699,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="humble"
 	trait="amateurish_plotter"
@@ -5718,7 +5718,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="patient"
 	trait="martial_cleric"
@@ -5737,7 +5737,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="temperate"
 	trait="humble"
@@ -5761,7 +5761,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="just"
 	trait="craven"
@@ -5783,7 +5783,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="proud"
 	trait="arbitrary"
@@ -5806,7 +5806,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="ill"
 	father=544
@@ -5865,7 +5865,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="hunter"
 	trait="brave"
@@ -5909,7 +5909,7 @@
 
 	father=70629
 
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	
 	970.1.1={
@@ -5927,7 +5927,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="content"
 	trait="shy"
@@ -5949,7 +5949,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="brave"
 	trait="ambitious"
@@ -5971,7 +5971,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="proud"
 	trait="craven"
@@ -5993,7 +5993,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="patient"
 	trait="temperate"
@@ -6015,7 +6015,7 @@
 	diplomacy=8
 	intrigue=3
 	stewardship=3
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="fair"
 	trait="honest"
@@ -11449,7 +11449,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="tough_soldier"
 	trait="shy"
@@ -16497,7 +16497,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=7728
 	984.1.1 = {
@@ -16515,7 +16515,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=71224
 	1000.1.1 = {
@@ -16828,7 +16828,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=7729
 	1009.1.1 = {
@@ -19297,7 +19297,7 @@
 71903 = {
 	name="Guy"
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=71905
 	855.1.1 = {
@@ -19311,7 +19311,7 @@
 71908 = {
 	name="Lambert"
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=71905
 	850.1.1 = {
@@ -19325,7 +19325,7 @@
 167882 = {
 	name="Suppo"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167881
 	825.1.1={
@@ -19339,7 +19339,7 @@
 167883 = {
 	name="Egfred"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167881
 	830.1.1={
@@ -19353,7 +19353,7 @@
 167884 = {
 	name="Arding"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167881
 	832.1.1={
@@ -19367,7 +19367,7 @@
 167885 = {
 	name="Adelchis"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167882
 	855.1.1={
@@ -19381,7 +19381,7 @@
 167886 = {
 	name="Wifred"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167882
 	860.1.1={
@@ -19395,7 +19395,7 @@
 167887 = {
 	name="Boso"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167882
 	862.1.1={
@@ -19409,7 +19409,7 @@
 167888 = {
 	name="Arding"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167882
 	864.1.1={
@@ -19423,7 +19423,7 @@
 167976 = {
 	name="Hucbald"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	830.1.1 = {
 		birth=yes
@@ -19439,7 +19439,7 @@
 167980 = {
 	name="Hucbald"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167976
 	mother=167977
@@ -19577,7 +19577,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="patient"
 	trait="skilled_tactician"
@@ -19596,7 +19596,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="patient"
 	trait="skilled_tactician"
@@ -19616,7 +19616,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="tough_soldier"
 	father=7728
@@ -19654,7 +19654,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="tough_soldier"
 	father=7727
@@ -19673,7 +19673,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="tough_soldier"
 	father=7733
@@ -19784,7 +19784,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=7926
 	mother=7927
@@ -19896,7 +19896,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -19945,7 +19945,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -19969,7 +19969,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -19994,7 +19994,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20018,7 +20018,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20041,7 +20041,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20065,7 +20065,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20089,7 +20089,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20113,7 +20113,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20137,7 +20137,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20161,7 +20161,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20185,7 +20185,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20209,7 +20209,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20233,7 +20233,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20257,7 +20257,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20281,7 +20281,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -20305,7 +20305,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20329,7 +20329,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20353,7 +20353,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20377,7 +20377,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20401,7 +20401,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20425,7 +20425,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20449,7 +20449,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20473,7 +20473,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20497,7 +20497,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20521,7 +20521,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20545,7 +20545,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20569,7 +20569,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20593,7 +20593,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20617,7 +20617,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20641,7 +20641,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20665,7 +20665,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20689,7 +20689,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20713,7 +20713,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20737,7 +20737,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20761,7 +20761,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20785,7 +20785,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20809,7 +20809,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20833,7 +20833,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20857,7 +20857,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20881,7 +20881,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20905,7 +20905,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20929,7 +20929,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20953,7 +20953,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -20977,7 +20977,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -21001,7 +21001,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -21027,7 +21027,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -21048,7 +21048,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -21070,7 +21070,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21092,7 +21092,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -21114,7 +21114,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="bastard"
 	trait="patient"
@@ -21140,7 +21140,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="diligent"
 	trait="patient"
@@ -21164,7 +21164,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21190,7 +21190,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	950.1.1 = {
 		birth="950.1.1"
@@ -21211,7 +21211,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21234,7 +21234,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21256,7 +21256,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21279,7 +21279,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21302,7 +21302,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21329,7 +21329,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21352,7 +21352,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21379,7 +21379,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -21405,7 +21405,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="diligent"
 	trait="patient"
@@ -24199,7 +24199,7 @@
 71902 = {
 	name="Arduino"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167936
 	965.1.1 = {
@@ -30972,7 +30972,7 @@
 167472 = {
 	name="Docibile"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	840.1.1 = {
 		birth="840.1.1"
@@ -30987,7 +30987,7 @@
 167473 = {
 	name="Johannes"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167472
 	860.1.1 = {
@@ -31003,7 +31003,7 @@
 167474 = {
 	name="Docibile"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167472
 	880.1.1 = {
@@ -31019,7 +31019,7 @@
 167475 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167474
 	910.1.1 = {
@@ -31035,7 +31035,7 @@
 167476 = {
 	name="Gregorio"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167474
 	933.1.1 = {
@@ -31051,7 +31051,7 @@
 167477 = {
 	name="Marino"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167474
 	930.1.1 = {
@@ -31067,7 +31067,7 @@
 167478 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167477
 	955.1.1 = {
@@ -31083,7 +31083,7 @@
 167479 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167478
 	980.1.1 = {
@@ -31099,7 +31099,7 @@
 167480 = {
 	name="Giovanni"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167479
 	1010.1.1 = {
@@ -31115,7 +31115,7 @@
 167481 = {
 	name="Leone"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167474
 	935.1.1 = {
@@ -31132,7 +31132,7 @@
 167482 = {
 	name="Docibile"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="bastard"
 	father=167481
@@ -31149,7 +31149,7 @@
 167483 = {
 	name="Leone"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167482
 	985.1.1 = {
@@ -31165,7 +31165,7 @@
 167484 = {
 	name="Ugo"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167482
 	990.1.1 = {
@@ -31323,7 +31323,7 @@
 167494 = {
 	name="Marino"
 	dynasty=622 #Caetani
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167477
 	960.1.1 = {
@@ -31501,7 +31501,7 @@
 	name="Dazio"
 	#placeholder
 	dynasty=9521 #Alliata
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	1000.1.1 = {
 		birth="1000.1.1"
@@ -33026,7 +33026,7 @@
 	name="Iacopo"
 	#placeholder
 	dynasty=516
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	970.1.1 = {
 		birth="970.1.1"
@@ -33794,7 +33794,7 @@
 182008 = {
 	name="Giovanni"
 	dynasty=13070
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	trait="detached_priest"
 	940.1.1 = {
@@ -33808,7 +33808,7 @@
 	name="Lorenzo"
 	#placeholder
 	dynasty=13070
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=182008
 	970.1.1 = {
@@ -34243,7 +34243,7 @@
 180000 = {
 	name="Ghisolfo"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	900.1.1={
 		birth="900.1.1"
@@ -34256,7 +34256,7 @@
 	name="Gerardo"
 	# Gerardo I, Count of Volterra
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180000
 	932.1.1={
@@ -34270,7 +34270,7 @@
 	name="Gerardo"
 	# Gerardo II
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180001
 	954.1.1={
@@ -34287,7 +34287,7 @@
 	name="Tedice"
 	# Tedice I, Count of Volterra
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180001
 	963.1.1={
@@ -34304,7 +34304,7 @@
 	name="Ugo"
 	# Ugo I
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180003
 	mother=180180
@@ -34321,7 +34321,7 @@
 180005 = {
 	name="Rodolfo"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180004
 	mother=180181
@@ -34336,7 +34336,7 @@
 	name="Guido"
 	# Guido I, Count of Forcoli
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180003
 	mother=180180
@@ -34599,7 +34599,7 @@
 	name="Tedice"
 	# Tedice II
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180003
 	mother=180180
@@ -36518,7 +36518,7 @@
 180163 = {
 	name="Enrico"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180003
 	mother=180180
@@ -36532,7 +36532,7 @@
 180164 = {
 	name="Rodolfo"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180001
 	959.1.1={
@@ -36545,7 +36545,7 @@
 180165 = {
 	name="Ildebrando"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180164
 	983.1.1={
@@ -36558,7 +36558,7 @@
 180166 = {
 	name="Teutperto"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180164
 	987.1.1={
@@ -36571,7 +36571,7 @@
 180167 = {
 	name="Raineri"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180001
 	962.1.1={
@@ -36584,7 +36584,7 @@
 180168 = {
 	name="Guido"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180167
 	988.1.1={
@@ -36597,7 +36597,7 @@
 180169 = {
 	name="Ildebrando"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180001
 	964.1.1={
@@ -36611,7 +36611,7 @@
 	name="Gerardo"
 	# Count of Lucca
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180169
 	985.1.1={
@@ -36624,7 +36624,7 @@
 180171 = {
 	name="Rodolfo"
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180000
 	933.1.1={
@@ -36639,7 +36639,7 @@
 	# wife of Raineri di Fraolmi
 	female=yes
 	dynasty=13031
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=180000
 	935.1.1={
@@ -36654,7 +36654,7 @@
 	# wife of Gerardo II della Gherardesca
 	female=yes
 	dynasty=1042019
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	953.1.1={
 		birth="953.1.1"
@@ -36668,7 +36668,7 @@
 	# wife of Tedice I
 	female=yes
 	dynasty=1042000
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	967.1.1={
 		birth="967.1.1"
@@ -36682,7 +36682,7 @@
 	# wife of Ugo I della Gherardesca
 	female=yes
 	dynasty=1042013
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	985.1.1={
 		birth="985.1.1"
@@ -36781,7 +36781,7 @@
 	# wife of Guido I of Forcoli
 	female=yes
 	dynasty=1042011
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	997.1.1={
 		birth="997.1.1"
@@ -37147,7 +37147,7 @@
 	name="Raineri"
 	# Marquis of Tuscany
 	dynasty=1042017
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	975.1.1={
 		birth="975.1.1"
@@ -37345,7 +37345,7 @@
 163068 = {
 	name="Ambrosius"
 	dynasty=798
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	830.1.1 = {
 		birth="830.1.1"
@@ -37358,7 +37358,7 @@
 163069 = {
 	name="Odalrius"
 	dynasty=799
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	820.1.1 = {
 		birth="820.1.1"
@@ -37371,7 +37371,7 @@
 163070 = {
 	name="Adalbertus"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167897
 	820.1.1 = {
@@ -37388,7 +37388,7 @@
 163071 = {
 	name="Adelchis"
 	dynasty=804
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father = 145216
 	820.1.1 = {
@@ -37402,7 +37402,7 @@
 91383 = {
 	name="Hardouin" #  Hardouin d'Hiémois 
 	dynasty=680	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 		
 	800.1.1={
@@ -37417,7 +37417,7 @@
 	name="Eudes" #  AKA Oddon 
 	dynasty=680
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	
 	father = 91383 #  Hardouin d'Hiémois
@@ -37435,7 +37435,7 @@
 	female = yes
 	dynasty=680
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 		
 	father = 91383 #  Hardouin d'Hiémois
@@ -37452,7 +37452,7 @@
 	name="Hardouin" 
 	dynasty=680
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 		
 	father = 167954 #  Ardouin II
@@ -37469,7 +37469,7 @@
 	name="Ardoino" # Arduino di Narbona 
 	dynasty=13041 # Doria
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 		
 	father = 91415 #  Ardouin
@@ -37580,7 +37580,7 @@
 	name="Hardouin" 
 	dynasty=680 
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 		
 	father = 91408 #  Ardouin
@@ -38590,7 +38590,7 @@
 	name="Manesseno" # not sure who he may be, he have the name of an italian city
 	dynasty=50 # Spinola
 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	
 	father = 91338 # Ido di Manesseno di Genova
@@ -39549,7 +39549,7 @@
 184008 = {
 	name="Gavinus"
 	dynasty=1042807
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	845.1.1={
 		birth="845.1.1"
@@ -39561,7 +39561,7 @@
 184009 = {
 	name="Lucius"
 	dynasty=1042808
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	839.1.1={
 		birth="839.1.1"
@@ -39597,7 +39597,7 @@
 184020={
 	name="Agnellus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=145926
 	765.1.1={
@@ -39613,7 +39613,7 @@
 184021={
 	name="Maria"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	766.1.1={
 		birth=766.1.1
@@ -39625,7 +39625,7 @@
 184022={
 	name="Justinianus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184020
 	mother=184021
@@ -39640,7 +39640,7 @@
 184023={
 	name="Joannes"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184020
 	mother=184021
@@ -39655,7 +39655,7 @@
 184024={
 	name="Agnellus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184020
 	mother=184021
@@ -39672,7 +39672,7 @@
 184025={
 	name="Livia"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	783.1.1={
 		birth=783.1.1
@@ -39684,7 +39684,7 @@
 184026={
 	name="Orso"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184024
 	mother=184025
@@ -39704,7 +39704,7 @@
 184027={
 	name="Ippolita"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	801.1.1={
 		birth=801.1.1
@@ -39716,7 +39716,7 @@
 184028={
 	name="Johannes"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184026
 	mother=184027
@@ -39733,7 +39733,7 @@
 184029={
 	name="Petrus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184026
 	mother=184027
@@ -39748,7 +39748,7 @@
 184030={
 	name="Badoarus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184026
 	mother=184027
@@ -39763,7 +39763,7 @@
 184031={
 	name="Ursus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184026
 	mother=184027
@@ -39781,7 +39781,7 @@
 184032={
 	name="Eudossia"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	828.1.1={
 		birth=828.1.1
@@ -39793,7 +39793,7 @@
 184033={
 	name="Agnellus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184026
 	mother=184027
@@ -39808,7 +39808,7 @@
 184081={
 	name="Ursus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184031
 	mother=184032
@@ -39826,7 +39826,7 @@
 184082={
 	name="Francesca"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	845.1.1={
 		birth=845.1.1
@@ -39838,7 +39838,7 @@
 184059={
 	name="Petrus" #Badoer
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184081
 	mother=184082
@@ -39853,7 +39853,7 @@
 184034={
 	name="Petrus" #0
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	780.1.1={
 		birth=780.1.1
@@ -39868,7 +39868,7 @@
 184035={
 	name="Bonus"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	780.1.1={
 		birth=780.1.1
@@ -39880,7 +39880,7 @@
 184036={
 	name="Petrus" #1
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184034
 	mother=184035
@@ -39897,7 +39897,7 @@
 184037={
 	name="Claudia"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	828.1.1={
 		birth=828.1.1
@@ -39910,7 +39910,7 @@
 	name="Agnellus"
 	dynasty=1042813
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184034
 	mother=184035
@@ -39925,7 +39925,7 @@
 184039={
 	name="Petrus" #1.5
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184036
 	mother=184037
@@ -39942,7 +39942,7 @@
 184040={
 	name="Agnese"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	843.1.1={
 		birth=843.1.1
@@ -39955,7 +39955,7 @@
 	name="Judita"
 	dynasty=1042813
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184039
 	mother=184040
@@ -39969,7 +39969,7 @@
 184042={
 	name="Petrus" #2
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184039
 	mother=184040
@@ -39987,7 +39987,7 @@
 	name="Arcielda"
 	#AKA Richielda
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	900.1.1={
 		birth=900.1.1
@@ -39999,7 +39999,7 @@
 184044={
 	name="Pietro" #3
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	father=184039
 	mother=184040
@@ -40016,7 +40016,7 @@
 184045={
 	name="Giulia"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	920.1.1={
 		birth=920.1.1
@@ -40028,7 +40028,7 @@
 184046={
 	name="Domenigo"
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	father=184039
 	mother=184040
@@ -40044,7 +40044,7 @@
 	female=yes
 	#May have been the original Juliet
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	father=184039
 	mother=184040
@@ -40058,7 +40058,7 @@
 184048={
 	name="Pietro" #4
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	father=184044
 	mother=184045
@@ -40079,7 +40079,7 @@
 184049={
 	name="Giovanna"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	945.1.1={
 		birth=945.1.1
@@ -40091,7 +40091,7 @@
 184050={
 	name="Vitale"
 	dynasty=1042813
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	father=184048
 	mother=184049
@@ -40106,7 +40106,7 @@
 	name="Marina"
 	dynasty=1042813
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	father=184048
 	mother=184049
@@ -40122,7 +40122,7 @@
 184053={
 	name="Domenicus"
 	dynasty=1042810
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	820.1.1={
 		birth=820.1.1
@@ -40137,7 +40137,7 @@
 184054={
 	name="Petrus"
 	dynasty=1042810
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184053
 	mother=184038
@@ -40154,7 +40154,7 @@
 184055={
 	name="Violante"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	842.1.1={
 		birth=842.1.1
@@ -40166,7 +40166,7 @@
 184056={
 	name="Nicolaus"
 	dynasty=1042810
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184054
 	mother=184055
@@ -40181,7 +40181,7 @@
 	name="Hyacintia"
 	dynasty=1042810
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184054
 	mother=184055
@@ -40195,7 +40195,7 @@
 184058={
 	name="Valerius"
 	dynasty=1042810
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184054
 	mother=184055
@@ -40211,7 +40211,7 @@
 184060={
 	name="Jacomus"
 	dynasty=101562
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=145914
 	820.1.1={
@@ -40227,7 +40227,7 @@
 184061={
 	name="Bianca"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	822.1.1={
 		birth=822.1.1
@@ -40239,7 +40239,7 @@
 184062={
 	name="Tedaldus"
 	dynasty=101562
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184060
 	mother=184061
@@ -40256,7 +40256,7 @@
 184063={
 	name="Renata"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	822.1.1={
 		birth=822.1.1
@@ -40268,7 +40268,7 @@
 184064={
 	name="Marcellus"
 	dynasty=101562
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=184062
 	mother=184063
@@ -40285,7 +40285,7 @@
 184065={
 	name="Clotilde"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	822.1.1={
 		birth=822.1.1
@@ -40297,7 +40297,7 @@
 184066={
 	name="Marsiglio"
 	dynasty=101562
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	father=184064
 	mother=184065
@@ -40314,7 +40314,7 @@
 184067={
 	name="Clotilde"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	905.1.1={
 		birth=905.1.1
@@ -40353,7 +40353,7 @@
 184068={
 	name="Tribuno"
 	dynasty=1042811
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	957.1.1={
 		birth=957.1.1
@@ -40368,7 +40368,7 @@
 184069={
 	name="Maurizio"
 	dynasty=1042811
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	father=184068
 	mother=184051
@@ -40382,7 +40382,7 @@
 #Non-noble
 184070={
 	name="Pietro" #Barbolano
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	980.1.1={
 		birth=980.1.1
@@ -40394,7 +40394,7 @@
 184071={
 	name="Domenico" 
 	dynasty=13071 #Flabonico
-	religion=catholic
+	religion=chalcendonian
 	culture=italian
 	980.1.1={
 		birth=980.1.1
@@ -40408,7 +40408,7 @@
 184052={
 	name="Petrus"
 	dynasty=1042809
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian #istrian
 	father=184074
 	mother=184075
@@ -40422,7 +40422,7 @@
 184074={
 	name="Ubaldus"
 	dynasty=1042809
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian #istrian
 	780.1.1={
 		birth=780.1.1
@@ -40437,7 +40437,7 @@
 184075={
 	name="Georgia"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	780.1.1={
 		birth=780.1.1
@@ -40449,7 +40449,7 @@
 184076={
 	name="Jacomus"
 	dynasty=1042809
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian #istrian
 	father=184074
 	mother=184075
@@ -40466,7 +40466,7 @@
 184077={
 	name="Gerberga"
 	female=yes
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	806.1.1={
 		birth=806.1.1
@@ -40478,7 +40478,7 @@
 184078={
 	name="Francescus"
 	dynasty=1042809
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian #istrian
 	father=184076
 	mother=184077
@@ -40492,7 +40492,7 @@
 184079={
 	name="Johannes"
 	dynasty=1042809
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian #istrian
 	father=184076
 	mother=184077
@@ -40506,7 +40506,7 @@
 184080={
 	name="Marcus"
 	dynasty=1042809
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian #istrian
 	father=184076
 	mother=184077
@@ -40521,7 +40521,7 @@
 167806 = {
 	name="Vilfredus"
 	dynasty=9555
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	840.1.1={
 		birth="840.1.1"
@@ -40534,7 +40534,7 @@
 145216 = {
 	name="Radelchis"
 	dynasty=804
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	790.1.1 = {
 		birth="790.1.1"
@@ -40547,7 +40547,7 @@
 145217 = {
 	name="Radelgar"
 	dynasty=804
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father = 145216
 	818.1.1 = {
@@ -40561,7 +40561,7 @@
 145218 = {
 	name="Guaifer"
 	dynasty=804
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father = 145217
 	840.1.1 = {
@@ -40575,7 +40575,7 @@
 145219 = {
 	name="Radelchis"
 	dynasty=804
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father = 163071
 	845.1.1 = {
@@ -40589,7 +40589,7 @@
 145220 = {
 	name="Aiulf"
 	dynasty=804
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father = 163071
 	847.1.1 = {
@@ -40603,7 +40603,7 @@
 145221 = {
 	name="Ursus"
 	dynasty=804
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father = 145220
 	866.1.1 = {
@@ -40617,7 +40617,7 @@
 167893 = {
 	name="Rodolfus"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167892
 	880.1.1={
@@ -40631,7 +40631,7 @@
 167896 = {
 	name="Bonifacius"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	760.1.1 = {
 		birth="760.1.1"
@@ -40647,7 +40647,7 @@
 167897 = {
 	name="Bonifacius"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167896
 	790.1.1 = {
@@ -40663,7 +40663,7 @@
 167898 = {
 	name="Berardus"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167896
 	792.1.1 = {
@@ -40681,7 +40681,7 @@
 	name="Richilda"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167896
 	785.1.1 = {
@@ -40695,7 +40695,7 @@
 167900 = {
 	name="Berardus"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167897
 	818.1.1 = {
@@ -40709,7 +40709,7 @@
 167902 = {
 	name="Adalbertus"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=163070
 	mother=167901
@@ -40728,7 +40728,7 @@
 167903 = {
 	name="Bonifacio"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=163070
 	mother=167901
@@ -40745,7 +40745,7 @@
 	name="Reginsinda"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=163070
 	mother=167901
@@ -40761,7 +40761,7 @@
 167905 = {
 	name="Guido"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167902
 	mother=7920
@@ -40780,7 +40780,7 @@
 167906 = {
 	name="Lamberto"
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167902
 	mother=7920
@@ -40799,7 +40799,7 @@
 	name="Ermengarde"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167902
 	mother=7920
@@ -40816,7 +40816,7 @@
 	name="Theodora"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167905
 	mother=7915
@@ -40835,7 +40835,7 @@
 	name="Berta"
 	female=yes
 	dynasty=803
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167905
 	mother=7915
@@ -40852,7 +40852,7 @@
 
 167910 = {
 	name="Johannes"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="scholarly_theologian"
 	820.1.1 = {
@@ -40869,7 +40869,7 @@
 167911 = {
 	name="Goffredus"
 	#placeholder
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="scholarly_theologian"
 	830.1.1 = {
@@ -40887,7 +40887,7 @@
 167912 = {
 	name="Everardus"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	840.1.1 = {
 		birth="840.1.1"
@@ -40903,7 +40903,7 @@
 167913 = {
 	name="Sigifredus"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167912
 	858.1.1 = {
@@ -40920,7 +40920,7 @@
 167914 = {
 	name="Wifredus"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167912
 	858.1.1 = {
@@ -40937,7 +40937,7 @@
 167915 = {
 	name="Giselbertus"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167914
 	873.1.1 = {
@@ -40954,7 +40954,7 @@
 167916 = {
 	name="Lanfranco"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167915
 	890.1.1 = {
@@ -40971,7 +40971,7 @@
 167917 = {
 	name="Riprando"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167916
 	910.1.1 = {
@@ -40988,7 +40988,7 @@
 167918 = {
 	name="Lanfranco"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167917
 	930.1.1 = {
@@ -41005,7 +41005,7 @@
 167919 = {
 	name="Gandolfo"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167917
 	935.1.1 = {
@@ -41023,7 +41023,7 @@
 167920 = {
 	name="Giselberto"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167918
 	950.1.1 = {
@@ -41041,7 +41041,7 @@
 167921 = {
 	name="Lanfranco"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167918
 	952.1.1 = {
@@ -41058,7 +41058,7 @@
 167922 = {
 	name="Riprando"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167919
 	955.1.1 = {
@@ -41076,7 +41076,7 @@
 167923 = {
 	name="Wiberto"
 	dynasty=9562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167919
 	960.1.1 = {
@@ -41091,7 +41091,7 @@
 167928 = {
 	name="Umberto"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=1106
 	mother=167929
@@ -41109,7 +41109,7 @@
 	name="Gisela"
 	female=yes
 	dynasty=12110
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=71901
 	882.1.1={
@@ -41125,7 +41125,7 @@
 167930 = {
 	name="Anscario"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=1106
 	mother=167907
@@ -41143,7 +41143,7 @@
 167931 = {
 	name="Amedeo"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167930
 	938.1.1 = {
@@ -41160,7 +41160,7 @@
 167932 = {
 	name="Berengario"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167931
 	mother=167956
@@ -41175,7 +41175,7 @@
 167933 = {
 	name="Berengario"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167932
 	1000.1.1 = {
@@ -41192,7 +41192,7 @@
 	name="Guntilda"
 	female=yes
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167932
 	1002.1.1 = {
@@ -41208,7 +41208,7 @@
 167935 = {
 	name="Adalberto"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=1106
 	mother=167907
@@ -41223,7 +41223,7 @@
 167936 = {
 	name="Dado"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167935
 	940.1.1 = {
@@ -41237,7 +41237,7 @@
 167937 = {
 	name="Adalberto"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167935
 	942.1.1 = {
@@ -41251,7 +41251,7 @@
 167938 = {
 	name="Guiberto"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167936
 	960.1.1 = {
@@ -41266,7 +41266,7 @@
 167939 = {
 	name="Guiberto"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167938
 	990.1.1 = {
@@ -41310,7 +41310,7 @@
 167942 = {
 	name="Ardoino"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167936
 	965.1.1 = {
@@ -41325,7 +41325,7 @@
 	name="Berta"
 	dynasty=679
 	female=yes
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=70629
 	975.1.1 = {
@@ -41339,7 +41339,7 @@
 167944 = {
 	name="Ottone"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=71902
 	mother=167943
@@ -41354,7 +41354,7 @@
 167945 = {
 	name="Ottone"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167944
 	1020.1.1 = {
@@ -41368,7 +41368,7 @@
 167946 = {
 	name="Ardicino"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=71902
 	mother=167943
@@ -41425,7 +41425,7 @@
 167950 = {
 	name="Guiberto"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=71902
 	mother=167943
@@ -41440,7 +41440,7 @@
 167951 = {
 	name="Rodolfus"
 	dynasty=9563
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	850.1.1 = {
 		birth="850.1.1"
@@ -41453,7 +41453,7 @@
 167955 = {
 	name="Ruggero"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167953
 	905.1.1 = {
@@ -41471,7 +41471,7 @@
 	name="Guntilda"
 	female=yes
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167955
 	930.1.1 = {
@@ -41486,7 +41486,7 @@
 167957 = {
 	name="Ardoino"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167953
 	903.1.1 = {
@@ -41502,7 +41502,7 @@
 	name="Alsinda"
 	female=yes
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167957
 	930.1.1 = {
@@ -41518,7 +41518,7 @@
 	name="Richilda"
 	female=yes
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167957
 	932.1.1 = {
@@ -41533,7 +41533,7 @@
 167960 = {
 	name="Ardoino"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167957
 	950.1.1 = {
@@ -41548,7 +41548,7 @@
 167961 = {
 	name="Manfredo"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167957
 	948.1.1 = {
@@ -41563,7 +41563,7 @@
 167962 = {
 	name="Ottone"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167957
 	952.1.1 = {
@@ -41578,7 +41578,7 @@
 167963 = {
 	name="Ardoino"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167962
 	975.1.1 = {
@@ -41593,7 +41593,7 @@
 167964 = {
 	name="Boso"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167963
 	995.1.1 = {
@@ -41608,7 +41608,7 @@
 167965 = {
 	name="Wido"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167963
 	1000.1.1 = {
@@ -41623,7 +41623,7 @@
 167966 = {
 	name="Odalrico"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167965
 	1020.1.1 = {
@@ -41655,7 +41655,7 @@
 167968 = {
 	name="Anterius"
 	dynasty=799
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=163069
 	840.1.1 = {
@@ -41671,7 +41671,7 @@
 167969 = {
 	name="Liudfredus"
 	dynasty=799
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167968
 	860.1.1 = {
@@ -41685,7 +41685,7 @@
 167970 = {
 	name="Gotefredus"
 	dynasty=799
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=167968
 	865.1.1 = {
@@ -41699,7 +41699,7 @@
 167971 = {
 	name="Gausberto"
 	dynasty=799
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167970
 	890.1.1 = {
@@ -41713,7 +41713,7 @@
 167972 = {
 	name="Uberto"
 	dynasty=799
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167971
 	910.1.1 = {
@@ -41727,7 +41727,7 @@
 167973 = {
 	name="Adalberto"
 	dynasty=799
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167972
 	930.1.1 = {
@@ -41741,7 +41741,7 @@
 167974 = {
 	name="Ermenulfus"
 	dynasty=9564
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	850.1.1 = {
 		birth="850.1.1"
@@ -41754,7 +41754,7 @@
 167975 = {
 	name="Maginfredo"
 	dynasty=9565
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	840.1.1 = {
 		birth="840.1.1"
@@ -41767,7 +41767,7 @@
 167981 = {
 	name="Bonifacio"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167980
 	890.1.1 = {
@@ -41784,7 +41784,7 @@
 167982 = {
 	name="Teobaldo"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167981
 	mother=168006
@@ -41800,7 +41800,7 @@
 	name="Willa"
 	female=yes
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167981
 	mother=168006
@@ -41815,7 +41815,7 @@
 167984 = {
 	name="Everardo"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167981
 	mother=168006
@@ -41830,7 +41830,7 @@
 167985 = {
 	name="Adalberto"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167982
 	945.1.1 = {
@@ -41845,7 +41845,7 @@
 	name="Willa"
 	female=yes
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167982
 	947.1.1 = {
@@ -41859,7 +41859,7 @@
 167987 = {
 	name="Bonifacio"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167985
 	970.1.1 = {
@@ -41874,7 +41874,7 @@
 167988 = {
 	name="Walfredo"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167985
 	972.1.1 = {
@@ -41889,7 +41889,7 @@
 167989 = {
 	name="Adalberto"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167985
 	975.1.1 = {
@@ -41904,7 +41904,7 @@
 	name="Ermengarda"
 	female=yes
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167985
 	977.1.1 = {
@@ -41933,7 +41933,7 @@
 167992 = {
 	name="Ubaldo"
 	dynasty=9566
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=167987
 	997.1.1 = {
@@ -42084,7 +42084,7 @@
 168002 = {
 	name="Martinus"
 	dynasty=9567
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	845.1.1 = {
 		birth="845.1.1"
@@ -42100,7 +42100,7 @@
 168003 = {
 	name="Pietro"
 	dynasty=9567
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=168002
 	mother=167978
@@ -42131,7 +42131,7 @@
 168008 = {
 	name="Ansaldus"
 	#placeholder
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	845.1.1 = {
 		birth="845.1.1"
@@ -42144,7 +42144,7 @@
 168009 = {
 	name="Benedictus"
 	#placeholder
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="martial_cleric"
 	835.1.1 = {
@@ -42158,7 +42158,7 @@
 168334 = {
 	name="Egilulf"
 	dynasty=100354
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	834.1.1={
 		birth="834.1.1"
@@ -42172,7 +42172,7 @@
 	name="Jacomus"
 	#placeholder
 	dynasty=100327
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	845.1.1 = {
 		birth="845.1.1"
@@ -42185,7 +42185,7 @@
 180660 = {
 	name="Augustine"
 	# Archbishop of Canterbury
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="mastermind_theologian"
 	530.1.1={
@@ -42198,7 +42198,7 @@
 180661 = {
 	name="Laurence"
 	# Archbishop of Canterbury
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="mastermind_theologian"
 	550.1.1={
@@ -42211,7 +42211,7 @@
 180662 = {
 	name="Mellitus"
 	# Archbishop of Canterbury
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="mastermind_theologian"
 	560.1.1={
@@ -42224,7 +42224,7 @@
 180663 = {
 	name="Justus"
 	# Archbishop of Canterbury
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="mastermind_theologian"
 	565.1.1={
@@ -42237,7 +42237,7 @@
 180664 = {
 	name="Honorius"
 	# Archbishop of Canterbury
-	religion="catholic"
+	religion="chalcendonian"
 	culture="roman"
 	add_trait="mastermind_theologian"
 	580.1.1={
@@ -42250,7 +42250,7 @@
 145901 = {
 	name="Martinus"
 	dynasty=1022322
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 
 	721.1.1={
@@ -42265,7 +42265,7 @@
 	name="Claudia"
 	dynasty=1022322
 	female=yes
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145901
 	740.1.1={
@@ -42279,7 +42279,7 @@
 145903 = {
 	name="Callistus"
 	dynasty=1022322
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145901
 	742.1.1={
@@ -42293,7 +42293,7 @@
 145904 = {
 	name="Gregorius"
 	dynasty=1022322
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145901
 	765.1.1={
@@ -42307,7 +42307,7 @@
 145905 = {
 	name="Cornelius"
 	dynasty=1022323
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 
 	736.1.1={
@@ -42321,7 +42321,7 @@
 145906 = {
 	name="Georgius"
 	dynasty=1022323
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145905
 	754.1.1={
@@ -42335,7 +42335,7 @@
 145907 = {
 	name="Marcus"
 	dynasty=1022323
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145905
 	768.1.1={
@@ -42349,7 +42349,7 @@
 145908 = {
 	name="Lucius"
 	dynasty=1022320
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 
 	741.1.1={
@@ -42363,7 +42363,7 @@
 145909 = {
 	name="Euphemius"
 	dynasty=1022321
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 
 	749.1.1={
@@ -42377,7 +42377,7 @@
 145910 = {
 	name="Ursus"
 	dynasty=101562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 
 	690.1.1={
@@ -42391,7 +42391,7 @@
 145911 = {
 	name="Teodatus"
 	dynasty=101562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145910
 	715.1.1={
@@ -42408,7 +42408,7 @@
 145912 = {
 	name="Petrus"
 	dynasty=101562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145911
 	740.1.1={
@@ -42422,7 +42422,7 @@
 145913 = {
 	name="Jacomus"
 	dynasty=101562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145912
 	762.1.1={
@@ -42436,7 +42436,7 @@
 145914 = {
 	name="Petrus"
 	dynasty=101562
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145913
 	785.1.1={
@@ -42450,7 +42450,7 @@
 145915 = {
 	name="Galla"
 	dynasty=1022325
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 
 	722.1.1={
@@ -42467,7 +42467,7 @@
 145916 = {
 	name="Domenicus"
 	dynasty=1022326
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 
 	720.1.1={
@@ -42484,7 +42484,7 @@
 145917 = {
 	name="Caesarius"
 	dynasty=1022326
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145916
 	739.1.1={
@@ -42498,7 +42498,7 @@
 145918 = {
 	name="Sergius"
 	dynasty=1022326
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145916
 	746.1.1={
@@ -42512,7 +42512,7 @@
 145919 = {
 	name="Mauritius"
 	dynasty=1022327
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	trait="gregarious"
 	trait="diligent"
@@ -42529,7 +42529,7 @@
 145920 = {
 	name="Johannes"
 	dynasty=1022327
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145919
 	trait="ambitious"
@@ -42544,7 +42544,7 @@
 145921 = {
 	name="Mauritius"
 	dynasty=1022327
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145920
 	767.1.1={
@@ -42558,7 +42558,7 @@
 145922 = {
 	name="Encagilius"
 	dynasty=1022328
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 
 	727.1.1={
@@ -42573,7 +42573,7 @@
 145923 = {
 	name="Obelerius"
 	dynasty=1022328
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145922
 	764.1.1={
@@ -42587,7 +42587,7 @@
 145924 = {
 	name="Beatus"
 	dynasty=1022328
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145922
 	766.1.1={
@@ -42601,7 +42601,7 @@
 145925 = {
 	name="Valentinus"
 	dynasty=1022328
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145922
 	768.1.1={
@@ -42615,7 +42615,7 @@
 145926={
 	name="Justinianus"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 
 	743.1.1={
@@ -42629,7 +42629,7 @@
 145927={
 	name="Johannes"
 	dynasty=1042812
-	religion=catholic
+	religion=chalcendonian
 	culture=old_italian
 	father=145926
 	767.1.1={
@@ -42643,7 +42643,7 @@
 145928 = {
 	name="Leone"
 	dynasty=1022327
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	father=145919
 	752.1.1={
@@ -42657,7 +42657,7 @@
 145929 = {
 	name="Cristoforo"
 	dynasty=1022327
-	religion="catholic"
+	religion="chalcendonian"
 	culture="italian"
 	father=145928
 	trait="ambitious"
@@ -42731,7 +42731,7 @@
 }
 190569 = {
 	name="Amonius" #bishop of Orbetello
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_italian"
 	727.1.1={
 		birth=yes
@@ -43010,108 +43010,5 @@
 	}
 	1365.1.1={
 		death=yes
-	}
-}
-1014074 = {
-	name="Adelferio"
-	dynasty=1000155001
-	religion="catholic"
-	culture="italian"
-	1098.1.1 = {
-		birth="1098.1.1"
-	}
-	1159.1.1 = {
-		death="1159.1.1"
-	}
-}
-
-1014075 = {
-	name="Federigo"
-	dynasty=1000155002
-	religion="catholic"
-	culture="italian"
-	1095.1.1 = {
-		birth="1095.1.1"
-	}
-	1156.1.1 = {
-		death="1156.1.1"
-	}
-}
-
-1014076 = {
-	name="Stefano"
-	dynasty=1000155003
-	religion="catholic"
-	culture="italian"
-	1097.1.1 = {
-		birth="10975.1.1"
-	}
-	1158.1.1 = {
-		death="1158.1.1"
-	}
-}
-
-1014077 = {
-	name="Teodoro"
-	dynasty=1000155004
-	religion="catholic"
-	culture="italian"
-	1101.1.1 = {
-		birth="1101.1.1"
-	}
-	1163.1.1 = {
-		death="1163.1.1"
-	}
-}
-
-1014078 = {
-	name="Raimondo"
-	dynasty=1000155001
-	religion="catholic"
-	culture="italian"
-	1137.1.1 = {
-		birth="1137.1.1"
-	}
-	1198.1.1 = {
-		death="1198.1.1"
-	}
-}
-
-1014079 = {
-	name="Gerardo"
-	dynasty=1000155002
-	religion="catholic"
-	culture="italian"
-	1142.1.1 = {
-		birth="1142.1.1"
-	}
-	1211.1.1 = {
-		death="1211.1.1"
-	}
-}
-
-1014080 = {
-	name="Luchino"
-	dynasty=1000155003
-	religion="catholic"
-	culture="italian"
-	1138.1.1 = {
-		birth="1138.1.1"
-	}
-	1205.1.1 = {
-		death="1205.1.1"
-	}
-}
-
-1014081 = {
-	name="Damiano"
-	dynasty=1000155004
-	religion="catholic"
-	culture="italian"
-	1135.1.1 = {
-		birth="1135.1.1"
-	}
-	1202.1.1 = {
-		death="1202.1.1"
 	}
 }

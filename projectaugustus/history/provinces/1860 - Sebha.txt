@@ -1,0 +1,25 @@
+# 817 - Tunis
+
+# County Title
+title = c_sabha
+max_settlements = 3
+
+b_sabha = tribal
+
+
+# Misc
+culture = maghreb_arabic
+religion = berber_pagan
+
+# History
+
+#770.1.1 = {
+#	religion = sunni
+#        culture = maghreb_arabic
+#}
+
+867.1.1 = {
+	religion = sunni
+        culture = maghreb_arabic
+}
+

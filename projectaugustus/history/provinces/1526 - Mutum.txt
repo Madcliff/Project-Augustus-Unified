@@ -1,0 +1,14 @@
+# County Title
+title = c_mutum
+
+# Settlements
+max_settlements = 2
+b_mutum = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

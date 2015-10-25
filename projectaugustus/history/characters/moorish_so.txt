@@ -1,0 +1,64 @@
+14423291 = {
+	name="Cabaon"
+	#Cabaon		ruler over the Moors in Tripolitana E VI, during Thrasamund's reign
+	dynasty=62
+	martial=10
+	diplomacy=8
+	intrigue=7
+	stewardship=8
+	religion="pagan"
+	culture="moorish"
+	add_trait="cynical"
+	add_trait="quick"
+	add_trait="charitable"
+	add_trait="brilliant_strategist"
+	454.1.1 = {
+		birth="454.1.1"
+	}
+	524.1.1 = {
+		death="524.1.1"
+	}
+}
+
+14423391 = {
+	name="Capsur"
+	#Capsur		rex Maurorum M V. Pagan, but let the Vandals banish orthodoxs to his realm. In close touch with Genseric.
+	dynasty=63
+	martial=7
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	religion="pagan"
+	culture="moorish"
+	add_trait="cynical"
+	add_trait="kind"
+	add_trait="gregarious"
+	add_trait="charismatic_negotiator"
+	426.1.1 = {
+		birth="426.1.1"
+	}
+	490.1.1 = {
+		death="490.1.1"
+	}
+}
+
+14423491 = {
+	name="Masties"
+	#Masties	ruler of the Moors and Romans (in Numidia) c. 476-516
+	dynasty=82
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="donatist"
+	culture="moorish"
+	add_trait="patient"
+	add_trait="greedy"
+	add_trait="tough_soldier"
+	443.1.1 = {
+		birth="443.1.1"
+	}
+	516.1.1 = {
+		death="516.1.1"
+	}
+}

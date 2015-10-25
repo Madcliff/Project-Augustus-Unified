@@ -78,14 +78,15 @@
 472.11.2={
         holder=200000006
 }
-474.6.1={
-        holder=200000007
+475.1.1={
+        holder=1000256105 
 }
-475.10.31={
-        holder=200000037
+476.1.1={
+        holder=200000007
 }
 480.4.25={
         holder=0
-		active=no
-		set_global_flag = fall_of_wre
+}
+962.2.2={
+        active=no
 }

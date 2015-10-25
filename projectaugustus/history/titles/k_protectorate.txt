@@ -1,0 +1,8 @@
+760.1.1 = {
+	law = succ_feudal_elective
+	holder = 870003
+}
+790.1.1=
+{
+	holder=0
+}

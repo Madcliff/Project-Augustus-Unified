@@ -1,0 +1,11 @@
+20.1.1 = {
+	historical_nomad = yes
+}
+
+600.1.1 = {
+	holder=1004460059
+}
+680.1.1 = {
+	holder=0
+	liege=0
+}

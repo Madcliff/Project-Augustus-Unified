@@ -1,5 +1,21 @@
-100.1.1={
-	liege=k_neustria
+#100.1.1={
+#	liege=k_neustria
+#}
+100.1.1 = {
+	liege = "k_burgundy"
+	de_jure_liege = k_burgundy
+}
+#Flaochad, Mayor of the Palace of Burgundy
+630.1.1 = {
+	holder = 1000153008
+}
+643.1.1 = {
+	holder = 0
+}
+#House of Arnulfing
+697.1.1 = {
+	holder = 131719 #Drogo Dreux
+	liege=k_lotharingia
 }
 
 #House of Arnulfing

@@ -1,0 +1,10 @@
+214009 = {
+	name="Yelü"
+	culture = khitan
+	religion="buddhist"
+}
+1080005 = {
+	name="Han"
+	culture = khitan
+	religion="buddhist"
+}

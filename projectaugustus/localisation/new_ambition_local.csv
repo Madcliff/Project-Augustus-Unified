@@ -1,0 +1,118 @@
+obj_master_weapon_title;Master a Weapon;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_master_weapon_desc;[This.GetTitledFirstName] wants to become a better fighter by mastering a weapon.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+mastered_weapon;Any weapon skill at level 5;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_win_holy_war_title;Win a War against an Infidel;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_win_holy_war_desc;[This.GetTitledFirstName] wants to increase religious moral authority by winning a war against an infidel.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+amb_won_holy_war;Won a War against Infidel;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_win_duel_title;Win a Duel;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_win_duel_desc;[This.GetTitledFirstName] wants to win a duel in order to improve [This.GetHerHis] own combat skills.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+won_duel;Won a Duel;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_gain_a_nickname_title;Gain a Nickname;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_gain_a_nickname_desc;[This.GetTitledFirstName] wants to be known by the world and the first step is gaining a nickname.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_fall_in_love_title;Fall in Love with [This.Spouse.GetTitledFirstName];FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_fall_in_love_desc;[This.GetTitledFirstName] wants to fall in love with [This.Spouse.GetTitledFirstName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_friend_vassal_title;Forge an Everlasting Friendship with a Vassal;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_friend_vassal_desc;[This.GetTitledFirstName] has no friends and wishes to build a strong relationship with one of the vassals.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_friend_liege_title;Forge an Everlasting Friendship with Liege;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_friend_liege_desc;[This.GetTitledFirstName] has no friends and wishes to build a strong relationship with [This.GetHerHis] liege.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_friend_same_liege_title;Forge an Everlasting Friendship with a Fellow Vassal;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_friend_same_liege_desc;[This.GetTitledFirstName] has no friends and wishes to build a strong relationship with a fellow vassal.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+vassal_friend;Friends with a vassal;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+liege_friend;Friends with the liege;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+same_liege_friend;Friends with a fellow vassal;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_recover_ill_title;Recover from Illness;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_recover_ill_desc;[This.GetTitledFirstName] wants to take better care of [This.GetHerselfHimself]. [This.GetTitledFirstName] will try almost anything to remedy the current illness.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_crusader_title;Become a Crusader;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_crusader_desc;[This.GetTitledFirstName] wants to become a Crusader.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_mujahid_title;Become a Mujahid;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_mujahid_desc;[This.GetTitledFirstName] wants to become a Mujahid.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_raise_child_title;Raise a Well-Educated Child;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_raise_child_desc;[This.GetTitledFirstName] wants to leave a legacy by raising a highly-educated child.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+obj_reign_30_title;Reign for 30 Years;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+obj_reign_30_desc;[This.GetTitledFirstName] wants to reign for 30 years to place [This.GetHerselfHimself] in the history books.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+nick_the_magnum;the Magnum;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_cataphract;the Heaven's Spear;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+nick_the_demonslayer;the Demonslayer;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_godslayer;the Godslayer;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_blindswordsman;the Blind Swordsman;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_axemurderer;the Axe Murderer;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_sharpeye;the Sharpeye;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_assassin;the Assassin;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_patientwarrior;the Patient Warrior;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_slippery;the Slippery;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_executioner;the Executioner;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_doubtless;the Unforgiving;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_no_prisoner;the Brute;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_collector;the Warden;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_warrior;the Warrior;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_fighter;the Fighter;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+
+nick_the_immortal;the Immortal;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_amazon;the Amazon;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+nick_gospel;the Gospel;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_northstar;North Star;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_souless;the Souless;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_crossbreaker;the Crossbreaker;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_confused;the Confused;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+nick_the_mutt;the Mutt;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_beastmaster;the Beastmaster;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_fourlegged;the Four-Legged;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_fury;the Fury;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+nick_the_negotiator;the Negotiator;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_law;the Law;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_rogue;the Rogue;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+nick_the_tough;the Tough;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_shield;the Shield;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_unpredictable;the Unpredictable;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+nick_the_coinmaster;the Coinmaster;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_midas;the Hand of Midas;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_sly;the Sly;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_ghost;the Ghost;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+nick_the_honest;the Honest;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_guardian;the Guardian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_divine_ruler;the Divine Ruler;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_spirit;the Spirit;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+nick_the_headshot;Headshot;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_blunt;the Blunt;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_stone;the Stone;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+nick_the_overseer;the Overseer;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_ergt;the Tyrant Regent;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nick_the_loyal;the Loyal;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+blind_swordsman;Blind Swordsman;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+blind_swordsman_desc;This swordsman has trained to become a capable swordsman despite being blind.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+gws;Captured an Enemy Commander;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lgd;Amazing Warrior;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+tft;Generous;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+EVTOPTC37051;Fat Chance;FRENCH;GERMAN;;SPANISH;;;;;;;;;x,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+

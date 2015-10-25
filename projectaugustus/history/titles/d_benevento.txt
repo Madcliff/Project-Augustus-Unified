@@ -1,5 +1,5 @@
 571.1.1={
-	liege = k_lombardy
+	liege=k_lombardy
 }
 571.1.1={
 	holder = 190127 #Zotto
@@ -35,9 +35,6 @@
 	holder = 190146 #Liutprand
 }
 756.1.1={
-	liege = 0
-}
-756.1.1={
 	holder = 190147 #Arechis II
 }
 787.8.26={
@@ -48,6 +45,9 @@
 }
 817.1.1={
 	holder = 190160 #Sico
+}
+817.10.1={
+	liege=0
 }
 832.9.1={
 	holder = 145208

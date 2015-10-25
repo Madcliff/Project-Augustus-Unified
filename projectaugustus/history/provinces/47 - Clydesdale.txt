@@ -17,11 +17,11 @@ b_dumbarton = tribal
 #b_renfrew = castle
 
 # Misc
-culture = britonic
+culture = briton
 religion = catholic
 
 1000.1.1 = {
-    b_st_kentigern = temple
+        b_st_kentigern = temple
 	b_dumbarton = castle
 	b_glasgow = city
 }

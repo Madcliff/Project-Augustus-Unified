@@ -18,4 +18,7 @@ culture = gallic
 religion = catholic
 
 # History
+700.1.1 = {
+	b_chaumont = ct_jewish_community_1
+}
 790.1.1 = { culture = frankish }

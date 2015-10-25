@@ -17,7 +17,7 @@ b_kem = tribal
 #b_loukhi = city
 
 # Misc
-culture = finnish
+culture = karelian
 religion = finnish_pagan
 
 # History

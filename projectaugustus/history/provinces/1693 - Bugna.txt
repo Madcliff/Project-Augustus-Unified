@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_bugna
+# Settlements
+max_settlements = 4
+b_bugna = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

@@ -16,7 +16,7 @@ b_tagtabazar = temple
 #b_kushka = castle
 
 # Misc
-culture = persian
+culture = parthian
 religion = nestorian
 
 # History

@@ -1,0 +1,4 @@
+769.1.1 = {
+	holder=1000448020
+	liege=d_konkana
+}

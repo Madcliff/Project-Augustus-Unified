@@ -1,0 +1,244 @@
+# Introduce Eunuch?
+character_event = {
+	id = 1108000
+	desc = EVTDESCLoR.800
+	picture = GFX_evt_emissary_byzantine
+	
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		age = 16
+		NOT = { religion_group = indian_group }
+		capital_scope = {
+			NOT = { region = world_india  }
+			NOT = { region = world_persia  }
+		}
+		
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = EVTOPTALoR.800
+		custom_tooltip = {
+			text = introduce_eunuch
+			hidden_tooltip = {
+				random_list = {
+					16 = { character_event = { id = 1108001 } }
+					16 = { character_event = { id = 1108002 } }
+					16 = { character_event = { id = 1108003 } }
+					16 = { character_event = { id = 1108004 } }
+					16 = { character_event = { id = 1108005 } }
+					16 = { character_event = { id = 1108006 } }
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBLoR.800
+		custom_tooltip = { text = no_to_eunuchs }
+	}
+}
+
+# Martial Eunuch
+character_event = {
+	id = 1108001
+	desc = EVTDESCTGS.42
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = hindu
+			culture = romani
+			trait = diligent
+			trait = quick
+			trait = brave
+			trait = brilliant_strategist
+			attributes = {
+				martial = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+# Diplomacy Eunuch 
+character_event = {
+	id = 1108002
+	desc = EVTDESCTGS.43
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = hindu
+			culture = romani
+			trait = diligent
+			trait = quick
+			trait = gregarious
+			trait = grey_eminence
+			attributes = {
+				diplomacy = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+# Steward Eunuch
+character_event = {
+	id = 1108003
+	desc = EVTDESCTGS.42
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = hindu
+			culture = romani
+			trait = diligent
+			trait = quick
+			trait = temperate
+			trait = midas_touched
+			attributes = {
+				stewardship = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+# Spymaster Eunuch
+character_event = {
+	id = 1108004
+	desc = EVTDESCTGS.42
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = hindu
+			culture = romani
+			trait = diligent
+			trait = quick
+			trait = deceitful
+			trait = elusive_shadow
+			attributes = {
+				intrigue = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+# Learning Eunuch
+character_event = {
+	id = 1108005
+	desc = EVTDESCTGS.43
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = hindu
+			culture = romani
+			trait = diligent
+			trait = quick
+			trait = scholar
+			trait = mastermind_theologian
+			attributes = {
+				learning = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+character_event = {
+	id = 1108006
+	desc = EVTDESCTGS.43
+	picture = GFX_evt_emissary
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTATGS.45
+		gold = -200
+		prestige = -200
+		random_courtier = {
+			death = { death_reason = death_rabble } 
+		}
+		if = {
+			trait = sympathy_indian
+			remove_trait = sympathy_indian
+		}
+		hidden_tooltip = {
+			random_list = {
+				22 = { add_trait = wroth }
+				22 = { add_trait = greedy }
+				22 = {
+					add_trait = greedy
+					add_trait = wroth
+				}
+			}
+		}
+	}
+}

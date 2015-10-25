@@ -1,0 +1,20 @@
+# County Title
+title = c_kathmandu
+
+# Settlements
+max_settlements = 6
+b_lalitpur = castle
+b_kirtipur = temple
+b_madhyapur = city
+b_bhaktapur = castle
+b_thimi = temple
+
+
+
+# Misc
+culture = nepali
+religion = shaivist
+
+
+# History
+

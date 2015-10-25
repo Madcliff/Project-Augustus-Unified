@@ -1,0 +1,774 @@
+
+# Job Ambitions
+
+
+obj_win_holy_war = {
+	type = character
+
+	allow = {
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		higher_tier_than = BARON
+		mercenary = no
+		OR = {
+			war = yes
+			ai = no
+		}
+		NOT = {trait = cynical}
+		NOT = { trait = incapable }
+		OR = {
+			NOT = {
+				religion_group = pagan_group
+			}
+			higher_tier_than = DUKE
+			tier = BARON
+			ai = no
+		}
+		NOT = {has_character_modifier = vhw}
+	}
+	
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.25
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = zealous
+		}
+	}
+	success = {
+		custom_tooltip = {
+			text = amb_won_holy_war
+			hidden_tooltip = {
+				has_character_modifier = vhw
+			}
+		}
+	}
+	abort = {
+		OR = {
+			is_ruler = no
+			NOT = {higher_tier_than = BARON}
+			trait = incapable
+			trait = cynical
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = whw }
+			}
+			change_learning = 1
+		}
+		piety = 50
+		set_character_flag = whw
+	}
+}
+
+
+
+
+
+obj_gain_a_nickname = {
+	type = character
+
+	allow = {
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		has_nickname = no
+		independent = yes
+		higher_tier_than = COUNT
+		NOT = { trait = incapable }
+		OR = {
+			NOT = {
+				religion_group = pagan_group
+			}
+			higher_tier_than = DUKE
+			ai = no
+		}
+	}
+	
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 0.25
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+	}
+	success = {
+		has_nickname = yes
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			independent = no
+			lower_tier_than = DUKE
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = ogn }
+			}
+			change_diplomacy = 1
+		}
+		prestige = 25
+		set_character_flag = ogn
+	}
+}
+
+
+obj_fall_in_love = {
+	type = character
+
+	allow = {
+		is_married = yes
+		prisoner = no
+		NOT = {num_of_spouses = 2}
+		NOT = {num_of_lovers = 1}
+		NOT = {num_of_consorts = 1}
+		NOT = {trait = found_true_love}
+		NOT = {trait = heart_broken}
+		NOT = {
+			has_plot = plot_kill_spouse
+		}
+		NOT = { trait = incapable }
+	}
+	
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 0.01
+			trait = lust
+		}
+		modifier = {
+			factor = 1.5
+			spouse = {
+				has_ambition = obj_fall_in_love
+			}
+		}
+		
+		modifier = {
+			factor = 2.0
+			trait = humble
+		}
+		modifier = {
+			factor = 1.5
+			trait = trusting
+		}
+		modifier = {
+			factor = 2.0
+			trait = kind
+		}
+	}
+	success = {
+		spouse = {
+			is_lover = ROOT
+		}
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_married = no
+			num_of_lovers = 1
+			num_of_consorts = 1
+			num_of_spouses = 2
+			has_plot = plot_kill_spouse
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		add_trait = found_true_love
+		spouse = {
+			if = {
+				limit = {
+					NOT = {num_of_lovers = 2}
+				}
+				add_trait = found_true_love
+			}
+		}
+		piety = 25
+	}
+}
+
+
+
+obj_friend_vassal = {
+	type = character
+
+	allow = {
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		num_of_vassals = 1
+		NOT = {num_of_friends = 1}
+		NOT = { trait = incapable }
+		OR = {
+			NOT = {
+				religion_group = pagan_group
+			}
+			higher_tier_than = DUKE
+			tier = BARON
+			ai = no
+		}
+		
+	}
+	
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 0.25
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+	}
+	success = {
+
+		hidden_tooltip = {
+			num_of_friends = 1
+		}
+		custom_tooltip = {
+			text = vassal_friend
+			hidden_tooltip = {
+				any_friend = {
+					vassal_of = ROOT
+				}
+			}
+		}
+
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			NOT = {num_of_vassals = 1}
+			num_of_friends = 1
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = ofr }
+			}
+			change_diplomacy = 1
+		}
+		prestige = 50
+		set_character_flag = ofr
+	}
+}
+
+
+
+obj_friend_liege = {
+	type = character
+
+	allow = {
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		independent = no
+		
+		NOT = {num_of_friends = 1}
+		NOT = { trait = incapable }
+		liege = {
+			NOT = {is_rival = ROOT}
+		}
+	}
+	
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.01
+			trait = shy
+		}
+		modifier = {
+			factor = 0.25
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2.0
+			trait = deceitful
+		}
+	}
+	success = {
+		hidden_tooltip = {
+			num_of_friends = 1
+		}
+		custom_tooltip = {
+			text = liege_friend
+			hidden_tooltip = {
+				any_friend = {
+					is_liege_of = ROOT
+				}
+			}
+		}
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			num_of_friends = 1
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = ofr }
+			}
+			change_diplomacy = 1
+		}
+		prestige = 50
+		set_character_flag = ofr
+	}
+}
+
+
+obj_friend_same_liege = {
+	type = character
+
+	allow = {
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		independent = no
+		NOT = {num_of_friends = 1}
+		NOT = { trait = incapable }
+		liege = {
+			num_of_vassals = 2
+		}
+	}
+	
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.01
+			trait = shy
+		}
+		modifier = {
+			factor = 0.1
+			trait = proud
+		}
+		modifier = {
+			factor = 0.25
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 2.0
+			trait = kind
+		}
+	}
+	success = {
+		hidden_tooltip = {
+			num_of_friends = 1
+		}
+		custom_tooltip = {
+			text = same_liege_friend
+			hidden_tooltip = {
+				any_friend = {
+					same_liege = ROOT
+				}
+			}
+		}
+		
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			num_of_friends = 1
+			independent = yes
+			liege = {
+				NOT = {num_of_vassals = 2}
+			}
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = ofr }
+			}
+			change_diplomacy = 1
+		}
+		prestige = 50
+		set_character_flag = ofr
+	}
+}
+
+
+obj_recover_ill = {
+	type = character
+	
+	health = 0.5
+	
+	allow = {
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		is_ill = yes
+		NOT = { trait = incapable }
+	}
+	
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.01
+			trait = strong
+		}
+		
+	}
+	success = {
+		is_ill = no
+	}
+	abort = {
+		trait = incapable
+	}
+	
+	abort_effect = {
+	}
+	effect = {
+		piety = 10
+	}
+}
+
+obj_crusader = {
+	type = character
+
+	allow = {
+		religion_group = christian
+		in_command = yes
+		any_war = {
+			attacker = {religion = ROOT}
+			using_cb = crusade
+		}
+		is_female = no
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		NOT = {trait = crusader}
+		NOT = {trait = cynical}
+		NOT = { trait = incapable }
+	}
+	
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.01
+			trait = craven
+		}
+		modifier = {
+			factor = 1.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+	}
+	
+	success = {
+		trait = crusader
+	}
+	abort = {
+		OR = {
+			NOT = {religion_group = christian}
+			trait = cynical
+			trait = incapable
+			NOT = {
+				any_war = {
+					attacker = {religion = ROOT}
+					using_cb = crusade
+				}
+			}
+		}
+	}
+	
+	abort_effect = {
+		
+	}
+	effect = {
+		piety = 50
+		change_martial = 1
+		if = {
+			limit = {trait = craven}
+			remove_trait = craven
+		}
+	}
+}
+
+
+obj_mujahid = {
+	type = character
+
+	allow = {
+		religion_group = muslim
+		in_command = yes
+		any_war = {
+			attacker = {religion = ROOT}
+			using_cb = crusade
+		}
+		is_female = no
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		NOT = {trait = mujahid}
+		NOT = { trait = incapable }
+	}
+	
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.01
+			trait = craven
+		}
+		modifier = {
+			factor = 1.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+	}
+	
+	success = {
+		trait = mujahid
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			NOT = {religion_group = muslim}
+			NOT = {
+				any_war = {
+					attacker = { religion = ROOT }
+					using_cb = crusade
+				}
+			}
+		}
+	}
+	
+	abort_effect = {
+		
+	}
+	effect = {
+		piety = 50
+		change_martial = 1
+		if = {
+			limit = {trait = craven}
+			remove_trait = craven
+		}
+	}
+}
+
+
+obj_raise_child = {
+	type = character
+
+	allow = {
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		num_of_children = 1
+		any_child = {
+			age = 6
+			NOT = {age = 16}
+		}
+		NOT = {
+			any_child = {
+			
+				OR = {
+					trait = elusive_shadow
+					trait = grey_eminence
+					trait = midas_touched
+					trait = brilliant_strategist
+					trait = mastermind_theologian
+				}
+			}
+		}
+		NOT = { trait = incapable }
+	}
+	
+	chance = {
+		factor = 20
+		
+		modifier = {
+			factor = 0.01
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			learning = 15
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+	}
+	
+	success = {
+		any_child = {
+			AND = {
+				NOT = {age = 16}
+				OR = {
+					trait = elusive_shadow
+					trait = grey_eminence
+					trait = midas_touched
+					trait = brilliant_strategist
+					trait = mastermind_theologian
+				}
+			}
+		}
+	}
+	abort = {
+		OR = {
+			NOT = {num_of_children = 1}
+			NOT = {
+				any_child = {
+					age = 6
+					NOT = {age = 16}
+				}
+			}
+		}
+	}
+	
+	abort_effect = {
+		
+	}
+	effect = {
+		piety = 50
+		if = {
+			limit = {
+				NOT = { has_character_flag = orc }
+			}
+			change_learning = 1
+		}
+		set_character_flag = orc
+	}
+}
+
+
+
+
+obj_reign_30 = {
+	type = character
+	
+	can_cancel = no
+	
+	allow = {
+		is_ruler = yes
+		prisoner = no
+		is_adult = yes
+		higher_tier_than = DUKE
+		OR = {
+			ruled_years = 12
+			ai = no
+		}
+		NOT = {ruled_years = 15}
+		NOT = { trait = incapable }
+	}
+	
+	chance = {
+		factor = 50
+		
+		modifier = {
+			factor = 0.01
+			trait = content
+		}
+		modifier = {
+			factor = 0.1
+			trait = humble
+		}
+		modifier = {
+			factor = 0.25
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.5
+			trait = proud
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+	}
+	success = {
+		ruled_years = 30
+	}
+	abort = {
+		OR = {
+			lower_tier_than = KING
+			trait = incapable
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		
+		
+		change_diplomacy = 1
+		prestige = 250
+
+	}
+}
+
+

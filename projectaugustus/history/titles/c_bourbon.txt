@@ -1,3 +1,15 @@
+30.1.1 = {
+	holder = 1000153020
+	liege = d_berry
+}
+
+469.1.1 = {
+	liege = "k_visigoth"
+}
+
+655.1.1 = {
+	holder = 0
+}
 753.1.1={
 	holder = 190410 #Robert Capet
 }

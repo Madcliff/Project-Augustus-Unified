@@ -1,0 +1,4 @@
+1066.1.1 = {
+	holder = 1000085051
+	liege = k_alodia
+}

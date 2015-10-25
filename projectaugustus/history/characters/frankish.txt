@@ -2,7 +2,7 @@
 	name=Teutberga
 	female=yes
 	dynasty=7052
-	religion=catholic
+	religion=chalcendonian
 	culture=frankish
 	diplomacy = 2
 	stewardship = 2
@@ -119,7 +119,7 @@
 10026 = {
 	name="Renaud" #Renaud I de Nevers
 	dynasty=320 #Bauchaumont
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40370 #Landry de Nevers
 	mother=277 #Mathilde de Bourgogne
@@ -193,7 +193,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="slothful"
 	trait="scholarly_theologian"
@@ -218,7 +218,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=10069
 	970.1.1 = {
@@ -241,7 +241,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=32135
 	920.1.1 = {
@@ -437,7 +437,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="arbitrary"
 	trait="honest"
@@ -505,7 +505,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="naive_appeaser"
 	father=131710
@@ -524,7 +524,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="tough_soldier"
 	972.1.1 = {
@@ -546,7 +546,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="thrifty_clerk"
 	father=1176
@@ -706,7 +706,7 @@
 	# AKA: Adelais	
 	dynasty=723			
 	female=yes	
-	religion="catholic"	
+	religion="chalcendonian"	
 	culture="frankish"		
 	father=370 #Foulques II d'Anjou
 	945.1.1 = {	
@@ -766,7 +766,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=127019
 	mother=127020
@@ -789,7 +789,7 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=7981
 	mother=7982
@@ -809,7 +809,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=127019
 	mother=127020
@@ -1097,7 +1097,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="cynical"
 	trait="underhanded_rogue"
@@ -1116,7 +1116,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=131716
 	820.1.2 = {
@@ -1137,7 +1137,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="patient"
 	trait="brave"
@@ -1158,7 +1158,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="honest"
 	trait="tough_soldier"
@@ -1183,7 +1183,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=1354
 	977.1.1 = {
@@ -1201,7 +1201,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="flamboyant_schemer"
 	father=1354
@@ -1993,7 +1993,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="ill"
 	father=6392
@@ -2014,7 +2014,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90095
 	mother=91002
@@ -2054,7 +2054,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="honest"
 	trait="cynical"
@@ -2185,7 +2185,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="lustful"
 	trait="wroth"
@@ -2406,7 +2406,7 @@
 	# AKA: Hedwige
 	female=yes
 	dynasty=743 #Capet
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=200 #Hugues Capet
 	mother=233 #Adélaïde d'Aquitaine
@@ -2987,7 +2987,7 @@
 	# AKA: Gisele
 	female=yes
 	dynasty=743 #Capet
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=200 #Hugues Capet
 	mother=233 #Adélaïde d'Aquitaine
@@ -5590,7 +5590,7 @@
 206 = {
 	name="Robert" #Robert II le Pieux
 	dynasty=743 #Capet
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="martial_cleric"
 	trait="zealous"
@@ -9243,7 +9243,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	870.1.2 = {
@@ -9283,7 +9283,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="scholarly_theologian"
@@ -9303,7 +9303,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="proud"
 	trait="flamboyant_schemer"
@@ -9324,7 +9324,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="flamboyant_schemer"
 	father=272
@@ -9344,7 +9344,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="patient"
 	trait="deceitful"
@@ -9370,7 +9370,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="underhanded_rogue"
 	father=272
@@ -9390,7 +9390,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="just"
 	trait="wroth"
@@ -9416,7 +9416,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="charismatic_negotiator"
 	father=272
@@ -9483,7 +9483,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="chaste"
 	trait="greedy"
@@ -9529,7 +9529,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="flamboyant_schemer"
 	996.1.2 = {
@@ -9808,7 +9808,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90095
 	mother=91002
@@ -9830,7 +9830,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=30227
 	mother=161484
@@ -11272,7 +11272,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="underhanded_rogue"
@@ -11293,7 +11293,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="honest"
 	trait="cynical"
@@ -11315,7 +11315,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="patient"
 	trait="proud"
@@ -11337,7 +11337,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="martial_cleric"
 	father=370
@@ -11359,7 +11359,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="harelip"
 	trait="skilled_tactician"
@@ -11423,7 +11423,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="arbitrary"
 	trait="deceitful"
@@ -11475,7 +11475,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="amateurish_plotter"
 	father=370
@@ -11521,7 +11521,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="deceitful"
 	trait="thrifty_clerk"
@@ -11544,7 +11544,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="tough_soldier"
 	father=382
@@ -11568,7 +11568,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="zealous"
 	trait="lisp"
@@ -11590,7 +11590,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	father=382
@@ -11610,7 +11610,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="arbitrary"
 	trait="flamboyant_schemer"
@@ -11632,7 +11632,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="chaste"
 	trait="arbitrary"
@@ -11682,7 +11682,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="patient"
 	trait="gluttonous"
@@ -11866,7 +11866,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="gluttonous"
 	trait="craven"
@@ -11924,7 +11924,7 @@
 40080 = {
 	name="Wulgrin" #Wulgrim I Taillefer
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168085
 	mother=168084
@@ -11942,7 +11942,7 @@
 40084 = {
 	name="Audouin" #Audoin I Taillefer
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40080
 	mother=168142
@@ -11958,7 +11958,7 @@
 	name="Ava" #Eve d'Angouleme
 	female=yes
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40090 #Guillaume IV Taillefer
 	mother=40097 #Gerberge d'Anjou
@@ -11975,7 +11975,7 @@
 	name="Gerberge" #d'Anjou
 	female=yes
 	dynasty=723
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=372
 	mother=413
@@ -12021,7 +12021,7 @@
 40102 = {
 	name="Audouin" #Taillefer
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40090 #Guillaume IV Taillefer
 	mother=40097 #Gerberge d'Anjou
@@ -12092,7 +12092,7 @@
 	diplomacy=9
 	intrigue=9
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	870.1.1 = {
 		birth="870.1.1"
@@ -12109,7 +12109,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=2
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40150
 	900.1.1 = {
@@ -12123,7 +12123,7 @@
 40154 = {
 	name="Archambaud" #de Bourbon
 	dynasty=329 #Chamillart
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40152 
 	930.1.1 = {
@@ -12144,7 +12144,7 @@
 	name="Rothilde" 
 	female=yes
 	dynasty= 13102 #de Brosse
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	932.1.1 = {
 		birth="932.1.1"
@@ -12164,7 +12164,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=3
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40154
 	mother=40155
@@ -12326,7 +12326,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40152
 	933.1.1 = {
@@ -12344,7 +12344,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40170
 	970.1.1 = {
@@ -12363,7 +12363,7 @@
 	diplomacy=9
 	intrigue=10
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40172
 	1000.1.1 = {
@@ -12419,7 +12419,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40264
 	mother=168058
@@ -12439,7 +12439,7 @@
 	diplomacy=3
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40266 #Hildebert I de Limoges
 	885.1.1 = {
@@ -12458,7 +12458,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=138067 #Foucher II de Ségur
 	940.1.1 = {
@@ -12477,7 +12477,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40272 #Adhémar I de Ségur
 	970.1.1 = {
@@ -12518,7 +12518,7 @@
 	intrigue=4
 	stewardship=5
 	learning=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40294 #Géraud I de Limoges
 	962.1.1 = {
@@ -12536,7 +12536,7 @@
 	name="Adhémar" #Adhémar I de Limoges
 	# AKA: Adhemar
 	dynasty=729 #was 100147 de Limousin
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40296 #Guy I de Limoges
 	mother=40273 #Emma de Ségur
@@ -12642,7 +12642,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	875.1.2 = {
 		birth="875.1.2"
@@ -12659,7 +12659,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40320
 	900.1.2 = {
@@ -12682,7 +12682,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40322
 	mother=7996
@@ -12702,7 +12702,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40320
 	910.1.2 = {
@@ -12720,7 +12720,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	930.1.2 = {
 		birth="930.1.2"
@@ -12740,7 +12740,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40330
 	mother=40323
@@ -12779,7 +12779,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40330
 	mother=40323
@@ -12798,7 +12798,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	955.1.2 = {
 		birth="955.1.2"
@@ -12815,7 +12815,7 @@
 	name="Dalmas" #Dalmas I the Great de Sémur
 	# AKA: Dalmace
 	dynasty=40022
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40340
 	mother=40335
@@ -12914,7 +12914,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40340
 	mother=40335
@@ -13034,7 +13034,7 @@
 	diplomacy=3
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40340
 	mother=40335
@@ -13099,7 +13099,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	970.1.2 = {
 		birth="970.1.2"
@@ -13115,7 +13115,7 @@
 40372 = {
 	name="Bodon"
 	dynasty=320 #Nevers
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40370
 	mother=277
@@ -13391,7 +13391,7 @@
 40398 = {
 	name="Raoul" # I of Vexin
 	dynasty=380
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168064
 	mother=168065
@@ -13406,7 +13406,7 @@
 40399 = {
 	name="Raoul" # II of Vexin
 	dynasty=380
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40398
 	912.1.1 = {
@@ -13424,7 +13424,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40399
 	923.1.1 = {
@@ -13442,7 +13442,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40400
 	955.1.1 = {
@@ -13593,7 +13593,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40402
 	mother=40431
@@ -13640,7 +13640,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40400
 	975.1.2 = {
@@ -13712,7 +13712,7 @@
 40430 = {
 	name="Archambaud"
 	dynasty=25061 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144980
 	925.1.1 = {
@@ -13732,7 +13732,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40430
 	956.1.1 = {
@@ -13854,7 +13854,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	982.1.2 = {
 		birth="982.1.2"
@@ -13872,7 +13872,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	990.1.2 = {
 		birth="990.1.2"
@@ -13908,7 +13908,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40440
 	mother=40441
@@ -14015,7 +14015,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=374
 	997.1.1 = {
@@ -14167,7 +14167,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="thrifty_clerk"
 	trait="ill"
@@ -14192,7 +14192,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="underhanded_rogue"
@@ -14213,7 +14213,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="patient"
 	trait="skilled_tactician"
@@ -14387,7 +14387,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="underhanded_rogue"
 	father=6404
@@ -14407,7 +14407,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="lustful"
 	trait="tough_soldier"
@@ -14429,7 +14429,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="chaste"
 	trait="arbitrary"
@@ -14449,7 +14449,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="lunatic"
 	trait="cynical"
@@ -14475,7 +14475,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="lustful"
 	trait="greedy"
@@ -14571,7 +14571,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="honest"
 	father=90104
@@ -14591,7 +14591,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="maimed"
 	father=90104
@@ -14631,7 +14631,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="tough_soldier"
 	966.1.2 = {
@@ -14669,7 +14669,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="martial_cleric"
 	father=168177
@@ -14691,7 +14691,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="deceitful"
 	trait="honest"
@@ -14753,7 +14753,7 @@
 	name="Pétronille" # d'Archiac
 	female=yes
 	dynasty=712
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=440 #Mainard d'Archiac
 	1000.1.1 = {
@@ -21583,7 +21583,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="patient"
 	trait="lustful"
@@ -21676,7 +21676,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6392
 	mother=167827
@@ -21695,7 +21695,7 @@
 	diplomacy=4
 	intrigue=2
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="bastard"
 	father=6394
@@ -21721,7 +21721,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6396
 	mother=168140
@@ -21743,7 +21743,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="tough_soldier"
 	father=6398
@@ -21767,7 +21767,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="underhanded_rogue"
 	father=6400
@@ -21787,7 +21787,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="cynical"
 	trait="gluttonous"
@@ -21810,7 +21810,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	father=6400
@@ -21830,7 +21830,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="lustful"
 	trait="just"
@@ -21855,7 +21855,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="envious"
 	trait="stutter"
@@ -21877,7 +21877,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="chaste"
 	trait="skilled_tactician"
@@ -21899,7 +21899,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="charitable"
 	trait="deceitful"
@@ -21920,7 +21920,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="ill"
 	trait="martial_cleric"
@@ -21943,7 +21943,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="amateurish_plotter"
 	father=6408
@@ -21960,7 +21960,7 @@
 	name="Robert" #Robert le Fort, marquis of Neustrie, count of Tour and Anjou.
 	# AKA: Robert 'Fortis'
 	dynasty=743 #Capet (Robertien)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="strong"
 	father=91005 #Robert III de Hesbaye
@@ -21990,7 +21990,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="flamboyant_schemer"
 	father=90095
@@ -22006,7 +22006,7 @@
 6442 = {
 	name="Robert" #Robert Ier de France
 	dynasty=743 #Capet (Robertien)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6440 #Robert le Fort
 	mother=91123 #Emma de Bourgogne
@@ -22028,7 +22028,7 @@
 	name="Emma" #Emma de France
 	female=yes
 	dynasty=743 #Capet (Robertien)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6442 #Robert I of France
 	mother=6401 #Béatrice de Vermandois, daughter of Herbert Ist of Vermandois
@@ -22044,7 +22044,7 @@
 6444 = {
 	name="Hugues" #Hugues le Grand
 	dynasty=743 #Capet (Robertien)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6442 #Robert I of France
 	mother=6401 #Béatrice of Vermandois
@@ -22071,7 +22071,7 @@
 	# AKA: Adele
 	female=yes
 	dynasty=743 #Capet (Robertien)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6442 #Robert I de France
 	mother= 91124 #Adèle du Mans
@@ -22087,7 +22087,7 @@
 	name="Regelinde"
 	female=yes
 	dynasty=743 #Capetian (Robertian)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6440 #Robert le Fort
 	mother=91123 #Emma de Bourgogne
@@ -22102,7 +22102,7 @@
 6448 = {
 	name="Eudes" #Eudes I de France
 	dynasty=743 #Capet (Robertien)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6440 #Robert le Fort
 	mother=91123 #Emma de Bourgogne
@@ -22125,7 +22125,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="slothful"
 	trait="craven"
@@ -22310,7 +22310,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="kind"
 	trait="scholarly_theologian"
@@ -25123,7 +25123,7 @@
 7561 = {
 	name="Boson"
 	dynasty=7052
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25525,7 +25525,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=30227
 	mother=161484
@@ -25544,7 +25544,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25569,7 +25569,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90121
 	mother=7997
@@ -25589,7 +25589,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="flamboyant_schemer"
 	father=90095
@@ -25610,7 +25610,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="bastard"
 	trait=fair
@@ -25634,7 +25634,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25657,7 +25657,7 @@
 	# AKA: Boso
 	female=yes
 	dynasty=9306 #Bivinids/Nithard-Richard from Middle Rhine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=1166
 	920.1.1 = {
@@ -25675,7 +25675,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25725,7 +25725,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	father=90120
@@ -25745,7 +25745,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25764,7 +25764,7 @@
 	name="Richildis"
 	female=yes
 	dynasty=7052
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25786,7 +25786,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25813,7 +25813,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="flamboyant_schemer"
 	father=30228
@@ -25834,7 +25834,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25857,7 +25857,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25883,7 +25883,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25909,7 +25909,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="diligent"
 	trait="patient"
@@ -25933,7 +25933,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="underhanded_rogue"
 	father=6404
@@ -25954,7 +25954,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90121
 	mother=7997
@@ -25992,7 +25992,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=361
 	mother=1111
@@ -26011,7 +26011,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90044
 	985.1.1 = {
@@ -26029,7 +26029,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90045
 	1001.1.2 = {
@@ -26110,7 +26110,7 @@
 	diplomacy=3
 	intrigue=5
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	998.1.2 = {
 		birth="998.1.2"
@@ -26235,7 +26235,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=3
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90054
 	mother=90055
@@ -26257,7 +26257,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=7
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90054
 	mother=90055
@@ -26445,7 +26445,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	985.1.1 = {
 		birth="985.1.1"
@@ -26527,7 +26527,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=6
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	997.1.1 = {
 		birth="997.1.1"
@@ -26721,7 +26721,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="skilled_tactician"
 	trait="zealous"
@@ -26748,7 +26748,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90095
 	mother=91002
@@ -26768,7 +26768,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90096
 	823.1.2 = {
@@ -26789,7 +26789,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	father=90096
@@ -26809,7 +26809,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait=bastard
 	trait=ambitious
@@ -26833,7 +26833,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="ill"
 	father=30227
@@ -26854,7 +26854,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90095
 	mother=7986
@@ -26884,7 +26884,7 @@
 	name="Judith"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90104
 	mother=167830
@@ -26904,7 +26904,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="slothful"
 	father=90123
@@ -26924,7 +26924,7 @@
 	name="Ermentrude"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 90123 # Louis le Bègue
 	mother = 168091
@@ -26944,7 +26944,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	mother=90112
 	890.1.1 = {
@@ -26962,7 +26962,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	mother=90113
 	925.1.2 = {
@@ -26981,7 +26981,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=31709
 	944.1.1 = {
@@ -26999,7 +26999,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=161534
 	mother=161535
@@ -27021,7 +27021,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90116
 	mother=90115
@@ -27089,7 +27089,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	father=90111
@@ -27109,7 +27109,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90120
 	mother=1289
@@ -27132,7 +27132,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90121
 	mother=7997
@@ -27148,7 +27148,7 @@
 	name="Louis"
 	# AKA: Louis 'le Begue'
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="stutter"
 	father=90104
@@ -27182,7 +27182,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90120
 	mother=1289
@@ -27205,7 +27205,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90125
 	mother=167001
@@ -27225,7 +27225,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="bastard"
 	father=90128
@@ -27245,7 +27245,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90129
 	mother=168018
@@ -27265,7 +27265,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90130
 	mother=151301
@@ -27290,7 +27290,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=8
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	790.1.1 = {
 		birth="790.1.1"
@@ -27327,7 +27327,7 @@
 90154 = {
 	name="Louis" # Louis III
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 90123 # Louis le Bègue
 	mother = 91385 # Ansgarde de Bourgogne
@@ -27342,7 +27342,7 @@
 90155 = {
 	name="Carloman" # Carloman II
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 90123 # Louis le Bègue
 	mother = 91385 # Ansgarde de Bourgogne
@@ -27382,7 +27382,7 @@
 	dynasty=743 #Capet (Robertien)
 	female=yes
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	
 	father=91001 #Enguerrand de Hesbaye
@@ -27402,7 +27402,7 @@
 	# AKA: Robert III
 	dynasty=743 #Capet (Robertien)
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	
 	father=91004 #Robert II de Hesbaye
@@ -27425,7 +27425,7 @@
 	# AKA: Otton de Bourgogne
 	dynasty=743 #Capet
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	
 	father=6444 #Hugues le Grand
@@ -27447,7 +27447,7 @@
 	# AKA: Henri Ier de Bourgogne
 	dynasty=743 #Capet
 	
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	
 	trait="martial_cleric"
@@ -28997,7 +28997,7 @@
 	# AKA: Waldrade d'Orleans
 	female=yes
 	dynasty=100138 #Orléans
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	795.1.1 = {
 		birth="795.1.1" #random
@@ -29012,7 +29012,7 @@
 	# AKA: Adele du Mans
 	female=yes
 	dynasty=100108 #du Maine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	865.1.1 = {
 		birth="865.1.1" #random
@@ -29027,7 +29027,7 @@
 	# AKA: Theoderade de Troyes
 	female=yes
 	dynasty=100130 #Troyes
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	868.1.1 = {
 		birth="868.1.1"
@@ -30475,7 +30475,7 @@
 	name="Hugues" #Hugues I de Lusignan
 	# AKA: Hugh
 	dynasty=93
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	give_nickname = nick_the_hunter #venator
 	885.1.1 = {
@@ -30490,7 +30490,7 @@
 	name="Hugues" #Hugues II de Lusignan
 	# AKA: Hugh
 	dynasty=93
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	give_nickname = nick_the_kind #carus
 	father=138027 #Hugh I of Lusignan
@@ -30506,7 +30506,7 @@
 	name="Hugues" #Hugues III de Lusignan
 	# AKA: Hugh
 	dynasty=93
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=138028 #Hugh II of Lusignan
 	948.1.1 = {
@@ -30522,7 +30522,7 @@
 	name="Hugues" #Hugues IV de Lusignan
 	# AKA: Hugh
 	dynasty=93
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=138029 #Hugh III of Lusignan
 	985.1.1 = {
@@ -32167,7 +32167,7 @@
 32135 = {
 	name="Adelof"
 	dynasty=308 #de Boulogne
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90108
 	mother = 7629
@@ -32183,7 +32183,7 @@
 	name="Mathilde"
 	female=yes
 	dynasty=308 #de Boulogne
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=32135
 	948.1.1 = {
@@ -32912,7 +32912,7 @@
 40020 = {
 	name="Herbert" #Herbert I de Thouars
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144960
 	925.1.1 = {
@@ -32930,7 +32930,7 @@
 	name="Raoul" #Raoul I de Thouars
 	# AKA: Radul
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40020
 	965.1.1 = {
@@ -32946,7 +32946,7 @@
 	name="Ingeleme" #Ingeleme de Volvire. knight
 	#secondary character
 	dynasty=79 #de Thouars
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40030 #Raoul I de Thouars
 	#mother Aremburge?
@@ -32980,7 +32980,7 @@
 	name="Savary" #Savary III de Thouars
 	# AKA: Savarics
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40020 #Herbert I of Thouars
 	955.1.1 = {
@@ -33557,7 +33557,7 @@
 322 = {
 	name="Bernard" #Bernard I de la marche
 	dynasty=100145
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=320 #Adalbert I de la marche
 	mother=127018 #Adalmode de Limoges
@@ -33671,7 +33671,7 @@
 40068 = {
 	name="Sulpice" #Sulpice I de la Marche
 	dynasty=100145
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	884.1.1 = {
 		birth="884.1.1"
@@ -33684,7 +33684,7 @@
 40070 = {
 	name="Boson" #Boson I The Old de la Marche
 	dynasty=100145
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40068 #Sulpice
 	give_nickname = nick_the_old
@@ -33703,7 +33703,7 @@
 	name="Boson" #Boson II de la marche/périgord
 	#dynasty=100145
 	dynasty=98 #trick to have the perigord dynasty appear correctly in dynasty tree
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40070 #Boson I
 	mother=40083 #Emma de Périgord
@@ -33721,7 +33721,7 @@
 320 = {
 	name="Adalbert" #Adalbert I de la Marche
 	dynasty=100145
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40070 #Boson I de la marche 
 	mother=40083 #Emma de Périgord
@@ -35423,7 +35423,7 @@
 138067 = {
 	name="Foucher" #Foucher II de Ségur
 	dynasty=729 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40270 #Foucher I de Limoges
 	910.1.1 = {
@@ -35437,7 +35437,7 @@
 138066 = {
 	name="Hildegaire" #Hildegaire I de Limoges
 	dynasty=729
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40266 #Hildebert I de Limoges
 	886.1.1 = {
@@ -35453,7 +35453,7 @@
 	name="Adalmode" #de Limoges
 	dynasty=729
 	female=yes
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"	
 	father=40294 #Giraud I de Limoges
 	970.1.1 = {
@@ -35546,7 +35546,7 @@
 	name="Géraud" # Géraud I de Limoges
 	# AKA: Geraud
 	dynasty=729 # de Limoges was 100147 de Limousin
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=138066 #Hildegaire I de Limoges
 	910.1.1 = {
@@ -35564,7 +35564,7 @@
 	name="Guillaume" #Guillaume I de Périgord
 	# AKA: Guillaume
 	dynasty=541 #Taillefer Périgord is 98
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40080 #Wulgrim I Taillefer
 	mother=168142
@@ -35583,7 +35583,7 @@
 	name="Guillaume" #Guillaume II Taillefer
 	# AKA: Guilhem
 	dynasty=541
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40084 #Audoin I Taillefer
 	900.1.1 = {
@@ -35597,7 +35597,7 @@
 40088 = {
 	name="Arnaud" #Arnaud I Mancer Taillefer
 	dynasty=541
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	give_nickname = nick_the_bastard
 	trait="bastard"
@@ -35620,7 +35620,7 @@
 	name="Guillaume" #Guillaume IV Taillefer
 	# AKA: Guilhem
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40088 #Arnaud I Mancer Taillefer
 	978.1.1 = {
@@ -35638,7 +35638,7 @@
 	name="Geoffroy" #Geoffroy I d'angouleme
 	# AKA: Jaufret
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40090 #Guillaume IV Taillefer
 	mother=40097 #Gerberge d'ANjou
@@ -35657,7 +35657,7 @@
 	name="Bérenger" #Taillefer
 	# AKA: Berenger
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40102 #Audouin
 	mother=127054 #Alaisia de Gascogne
@@ -35704,7 +35704,7 @@
 138110 = {
 	name="Bernard" #Bernard I de périgord
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40082 #Guillaume I Taillefer
 	895.1.1 = {
@@ -35718,7 +35718,7 @@
 138111 = {
 	name="Guillaume" #Guillaume III Taillefer
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=138110 #Bernard I Taillefer
 	920.1.1 = {
@@ -35732,7 +35732,7 @@
 138112 = {
 	name="Ranulf" #Ranulf Bompar Taillefer
 	dynasty=541 #was 330 d'angouleme
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=138110 #Bernard I Taillefer
 	give_nickname = nick_the_affable  #Bompar = good friend
@@ -35747,7 +35747,7 @@
 138113 = {
 	name="Richard" #Insipiens Taillefer
 	dynasty=541 #was 330 d'angouleme
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=138110 #Bernard I Taillefer
 	trait="imbecile"
@@ -35763,7 +35763,7 @@
 	name="Aldéarde" #d'Aulnay
 	female=yes
 	dynasty=40013 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	940.1.1 = {
 		birth="940.1.1" #unknown
@@ -36189,7 +36189,7 @@
 91189 = {
 	name="Milon" #Milon de Châtillon
 	dynasty=23113 #Châtillon
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=91190 #founder of Châtillon dynasty
 	#unknown mother
@@ -36204,7 +36204,7 @@
 91190 = {
 	name="Guy" #Unknown founder of the Châtillon dynasty
 	dynasty=23113 #Châtillon
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	960.1.1 = {
 		birth="960.1.1"
@@ -36217,7 +36217,7 @@
 91191 = {
 	name="Gervais" #Gervais de Châtillon
 	dynasty=23113 #Châtillon
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=91190 #founder of Châtillon dynasty
 	#unknown mother
@@ -36417,7 +36417,7 @@
 91210 = {
 	name="Heribert" #Heribert V le Jeune
 	dynasty=25061 #Vermandois
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6404 #Robert de Vermandois
 	mother=40323 #Adelais/Werra 
@@ -36432,7 +36432,7 @@
 91211 = {
 	name="Étienne" #Étienne I de Troyes
 	dynasty=25061 #Vermandois
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=91210 #Herbert IV de Vermandois
 	965.1.1 = {
@@ -37692,7 +37692,7 @@
 	name="Adelaide"
 	dynasty=25061
 	female=yes
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6394
 	798.1.1={
@@ -37706,7 +37706,7 @@
 91259 = {
 	name="Bouchard"
 	dynasty=320 #Nevers
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40372 #Bodon
 	mother=40461 #Adèle d'Anjou
@@ -40139,7 +40139,7 @@
 144951 = {
 	name="Hugues"
 	dynasty=660
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144952
 	mother = 168046
@@ -40154,7 +40154,7 @@
 144952 = {
 	name="Hugues"
 	dynasty=660
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144953
 	890.1.1 = {
@@ -40171,7 +40171,7 @@
 144953 = {
 	name="Roger"
 	dynasty=660
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	840.1.1 = {
 		birth="840.1.1"
@@ -40201,7 +40201,7 @@
 144960  = {
 	name="Aimery" 
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144962
 	901.1.1 = {
@@ -40215,7 +40215,7 @@
 144961  = {
 	name="Savary" 
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144962
 	898.1.1 = {
@@ -40229,7 +40229,7 @@
 144962  = {
 	name="Aimery" 
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144964
 	878.1.1 = {
@@ -40243,7 +40243,7 @@
 144963  = {
 	name="Savary" 
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144964
 	876.1.1 = {
@@ -40257,7 +40257,7 @@
 144964  = {
 	name="Geoffroy" 
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	846.1.1 = {
 		birth="846.1.1"
@@ -40270,7 +40270,7 @@
 144965  = {
 	name="Aimery" 
 	dynasty=79
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40020 
 	954.1.1 = {
@@ -40298,7 +40298,7 @@
 144967 = {
 	name="Fromond"
 	dynasty=796
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144968
 	967.1.1={
@@ -40312,7 +40312,7 @@
 144968 = {
 	name="Renard"
 	dynasty=796
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144969
 	937.1.1={
@@ -40326,7 +40326,7 @@
 144969 = {
 	name="Fromond"
 	dynasty=796
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144971
 	mother = 144972
@@ -40341,7 +40341,7 @@
 144970 = {
 	name="Richard"
 	dynasty=796
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father = 144971
 	mother = 144972
@@ -40356,7 +40356,7 @@
 144971 = {
 	name="Warner"
 	dynasty=796
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	870.1.1={
 		birth="870.1.1"
@@ -40372,7 +40372,7 @@
 144975 = {
 	name="Arnoul"
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90095
 	trait = "bastard"
@@ -40386,7 +40386,7 @@
 
 144976 = {
 	name="Altald"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	890.1.1 = {
 		birth="890.1.1"
@@ -40399,7 +40399,7 @@
 144977 = {
 	name="Hugh"
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6402
 	mother=6445
@@ -40414,7 +40414,7 @@
 144978 = {
 	name="Arnulf"
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="bastard"
 	father=90125
@@ -40429,7 +40429,7 @@
 144980 = {
 	name="Pepin"
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144981
 	879.1.1 = {
@@ -40443,7 +40443,7 @@
 144981 = {
 	name="Pepin"
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6398
 	mother = 144982
@@ -40459,7 +40459,7 @@
 	name="Gerberga"
 	female = yes
 	dynasty=1044116 #Nibelunging
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144983
 	832.1.1 = {
@@ -40473,7 +40473,7 @@
 144983 = {
 	name="Theoderic"
 	dynasty=1044116 #Nibelunging
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144984
 	816.1.1 = {
@@ -40487,7 +40487,7 @@
 144984 = {
 	name="Nibelung"
 	dynasty=1044116 #Nibelunging
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144985
 	800.1.1 = {
@@ -40501,7 +40501,7 @@
 144985 = {
 	name="Childebrand"
 	dynasty=1044116 #Nibelunging
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144986
 	780.1.1 = {
@@ -40521,7 +40521,7 @@
 	intrigue=4
 	stewardship=5
 	learning=4
-	religion=catholic
+	religion=chalcendonian
 	culture=frankish
 	father=30227
 	mother=161484
@@ -40625,7 +40625,7 @@
 
 163049 = {
 	name="Hincmar"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	806.1.1 = {
 		birth="806.1.1"
@@ -40637,7 +40637,7 @@
 
 163050 = {
 	name="Francon"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	820.1.1 = {
 		birth="820.1.1"
@@ -40823,7 +40823,7 @@
 161345 = {
 	name="Hugues"
 	dynasty=7244
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	980.1.1={
 		birth="980.1.1"
@@ -40851,7 +40851,7 @@
 	name="Rosella"
 	female=yes
 	dynasty=7244
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=161345
 	998.1.1={
@@ -41797,7 +41797,7 @@
 161489 = {
 	name="Richuin"
 	dynasty=88
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	990.1.1 = {
 		birth="990.1.1"
@@ -41842,7 +41842,7 @@
 	name="Oda" 
 	female=yes
 	dynasty=743 #Capet (Robertien)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=91005 #Robert III de Hesbaye
 	mother=91122 #Waldrade d'Orléans
@@ -41858,7 +41858,7 @@
 71904 = {
 	name="Lambert"
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=71903
 	876.1.1 = {
@@ -41872,7 +41872,7 @@
 71905 = {
 	name="Guy"
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=71906
 	mother=71907
@@ -41887,7 +41887,7 @@
 71906 = {
 	name="Lambert"
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168185
 	780.1.1 = {
@@ -41904,7 +41904,7 @@
 71909 = {
 	name="Guy"
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=71908
 	871.1.1 = {
@@ -41918,7 +41918,7 @@
 71910 = {
 	name="Warner"
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=71906
 	mother=71907
@@ -41933,7 +41933,7 @@
 71911 = {
 	name="Guy"
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=71910
 	846.1.1 = {
@@ -41949,7 +41949,7 @@
 	# AKA: Beatrice
 	female=yes
 	dynasty=743 #Capet
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6444 #Hugues le Grand
 	mother=1283 #Hedwige de Saxe
@@ -41979,7 +41979,7 @@
 161534 = {
 	name="Berengar"
 	dynasty=302
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	885.1.1 = {
 		birth="885.1.1"
@@ -41995,7 +41995,7 @@
 161536 = {
 	name="Robert"
 	dynasty=302
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90117
 	mother=90122
@@ -42348,7 +42348,7 @@
 161747 = {
 	name="Robert" 
 	dynasty=102030
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	970.1.1={
 		birth="970.1.1"
@@ -42807,7 +42807,7 @@
 167000 = {
 	name="Lothaire"
 	dynasty=7052
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=7923
 	928.1.1 = {
@@ -42825,7 +42825,7 @@
 	name="Emma"
 	female=yes
 	dynasty=7052
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167000
 	mother=1159
@@ -42840,7 +42840,7 @@
 167005 = {
 	name="Eudes"
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90125
 	mother=167001
@@ -42870,7 +42870,7 @@
 163065 = {
 	name="Eudes" 
 	dynasty=743 #Capet (Robertien)
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=91005 #Robert III de Hesbaye
 	mother=91122 #Waldrade d'Orléans
@@ -42885,7 +42885,7 @@
 163066 = {
 	name="Ekkehard"
 	dynasty=1044116 #Nibelunging
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144985
 	802.1.1 = {
@@ -42899,7 +42899,7 @@
 163067 = {
 	name="Bernard"
 	dynasty=3135
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	820.1.1 = {
 		birth="820.1.1"
@@ -42913,7 +42913,7 @@
 163093 = {
 	name="Matfried" 
 	dynasty=667
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=163092
 	820.1.1 = {
@@ -42928,7 +42928,7 @@
 	name="Adalbero" #Bishop of Verdun
 	dynasty=22007
 	culture="frankish"
-	religion="catholic"
+	religion="chalcendonian"
 	father=11008 #Friedrich Wigeriche
 	mother=11009 #Beatrice Capet
 	966.1.1 = {
@@ -42943,7 +42943,7 @@
 	name="Friedrich" #Count of Verdun
 	dynasty=22007
 	culture="frankish"
-	religion="catholic"
+	religion="chalcendonian"
 	father=144992 #Gottfried Wigeriche
 	mother=1411 #Matilda Billung
 	965.1.1 = {
@@ -43022,7 +43022,7 @@
 	name="Louis"
 	dynasty=7281 #Chiny
 	culture="frankish"
-	religion="catholic"	
+	religion="chalcendonian"	
 	father=6410 #Eudes Karling
 	984.1.1 = {
 		birth="984.1.1"
@@ -43109,7 +43109,7 @@
 	name="Adelais" #Wife of Louis I de Chiny
 	female=yes
 	culture="frankish"
-	religion="catholic"
+	religion="chalcendonian"
 	990.1.1 = {
 		birth="990.1.1"
 	}
@@ -43268,7 +43268,7 @@
 	name="Hildrad"
 	dynasty=5089 #de Grandpré
 	culture="frankish"
-	religion="catholic"
+	religion="chalcendonian"
 	990.1.1 = {
 		birth="990.1.1"
 	}
@@ -43284,7 +43284,7 @@
 	name="Richard" #Bishop of Verdun
 	dynasty=5089 #de Grandpré
 	culture="frankish"
-	religion="catholic"
+	religion="chalcendonian"
 	father=161960
 	mother=161978
 	1015.1.1 = {
@@ -43426,7 +43426,7 @@
 	name="Hersende" #Wife of Hildrad de Grandpré
 	female=yes
 	culture="frankish"
-	religion="catholic"
+	religion="chalcendonian"
 	991.1.1 = {
 		birth="991.1.1"
 	}
@@ -44017,7 +44017,7 @@
 	name="Ida"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144999
 	770.1.1={
@@ -44032,7 +44032,7 @@
 	name="Aeda"
 	dynasty=25061
 	female=yes
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="bastard"
 	father=6394
@@ -44048,7 +44048,7 @@
 167880 = {
 	name="Mauring"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167879
 	780.1.1={
@@ -44065,7 +44065,7 @@
 167881 = {
 	name="Adelchis"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167879
 	805.1.1={
@@ -44080,7 +44080,7 @@
 	name="Bertila"
 	female=yes
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167882
 	865.1.1={
@@ -44097,7 +44097,7 @@
 167890 = {
 	name="Mauring"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167880
 	815.1.1={
@@ -44116,7 +44116,7 @@
 167891 = {
 	name="Suppo"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167890
 	835.1.1={
@@ -44135,7 +44135,7 @@
 167892 = {
 	name="Unruoch"
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167891
 	mother=167895
@@ -44151,7 +44151,7 @@
 	name="Engelberga"
 	female=yes
 	dynasty=9561
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167881
 	834.1.1={
@@ -44166,7 +44166,7 @@
 	name="Rothildis"
 	female=yes
 	dynasty=7389
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=71905
 	845.1.1 = {
@@ -44180,7 +44180,7 @@
 167924 = {
 	name="Amédée"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	810.1.1 = {
 		birth="810.1.1"
@@ -44194,7 +44194,7 @@
 167925 = {
 	name="Anschaire"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167924
 	840.1.1 = {
@@ -44211,7 +44211,7 @@
 167926 = {
 	name="Guy"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167924
 	842.1.1 = {
@@ -44226,7 +44226,7 @@
 167927 = {
 	name="Foulques"
 	dynasty=681
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="martial_cleric"
 	father=167924
@@ -44242,7 +44242,7 @@
 167952 = {
 	name="Hardouin"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=91384
 	840.1.1 = {
@@ -44258,7 +44258,7 @@
 167953 = {
 	name="Roger"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167952
 	860.1.1 = {
@@ -44275,7 +44275,7 @@
 167954 = {
 	name="Hardouin"
 	dynasty=680
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=167952
 	865.1.1 = {
@@ -44290,7 +44290,7 @@
 168010 = {
 	name="Bouchard"
 	dynasty=9568
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	810.1.1 = {
 		birth="810.1.1"
@@ -44303,7 +44303,7 @@
 168011 = {
 	name="Bouchard"
 	dynasty=9568
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168010
 	845.1.1 = {
@@ -44317,7 +44317,7 @@
 168012 = {
 	name="Bouchard"
 	dynasty=9568
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168011
 	895.1.1 = {
@@ -44331,7 +44331,7 @@
 168013 = {
 	name="Bouchard"
 	dynasty=9568
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168012
 	935.1.1 = {
@@ -44345,7 +44345,7 @@
 168014 = {
 	name="Renaud"
 	dynasty=9568
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168013
 	970.1.1 = {
@@ -44360,7 +44360,7 @@
 	name="Elizabeth"
 	female=yes
 	dynasty=9568
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168013
 	958.1.1 = {
@@ -44374,7 +44374,7 @@
 168016 = {
 	name="Betto"
 	dynasty=9568
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168010
 	855.1.1 = {
@@ -44389,7 +44389,7 @@
 	name="Adaltrud"
 	female=yes
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168020
 	mother=168024
@@ -44404,7 +44404,7 @@
 168019 = {
 	name="Gauzbert"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168017
 	772.1.1 = {
@@ -44418,7 +44418,7 @@
 168020 = {
 	name="Rorgon"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168017
 	774.1.1 = {
@@ -44438,7 +44438,7 @@
 168021 = {
 	name="Theodrad"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168019
 	795.1.1 = {
@@ -44452,7 +44452,7 @@
 168022 = {
 	name="Gauzlin"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168019
 	800.1.1 = {
@@ -44467,7 +44467,7 @@
 	name="Richilde"
 	female=yes
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168022
 	825.1.1 = {
@@ -44482,7 +44482,7 @@
 	name="Rotrud"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6392
 	mother=167827
@@ -44497,7 +44497,7 @@
 168025 = {
 	name="Louis"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	father=168020
@@ -44514,7 +44514,7 @@
 168026 = {
 	name="Bilchilde"
 	female=yes
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	800.1.1 = {
 		birth="800.1.1"
@@ -44528,7 +44528,7 @@
 168027 = {
 	name="Gauzfrid"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168020
 	mother=168026
@@ -44545,7 +44545,7 @@
 	name="Bilchilde"
 	female=yes
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168020
 	mother=168026
@@ -44561,7 +44561,7 @@
 168029 = {
 	name="Gauzlin"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	father=168020
@@ -44579,7 +44579,7 @@
 168030 = {
 	name="Rorgon"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168020
 	mother=168026
@@ -44595,7 +44595,7 @@
 168035 = {
 	name="Gauzbert"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168020
 	mother=168026
@@ -44611,7 +44611,7 @@
 168036 = {
 	name="Gauzbert"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168027
 	845.1.1 = {
@@ -44626,7 +44626,7 @@
 168037 = {
 	name="Gauzlin"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168027
 	847.1.1 = {
@@ -44642,7 +44642,7 @@
 168038 = {
 	name="Hervé"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168017
 	771.1.1 = {
@@ -44656,7 +44656,7 @@
 168039 = {
 	name="Renaud"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168038
 	795.1.1 = {
@@ -44670,7 +44670,7 @@
 168040 = {
 	name="Hervé"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168039
 	820.1.1 = {
@@ -44685,7 +44685,7 @@
 168041 = {
 	name="Renaud"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168039
 	830.1.1 = {
@@ -44701,7 +44701,7 @@
 168042 = {
 	name="Gauzfrid"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168035
 	846.1.1 = {
@@ -44716,7 +44716,7 @@
 168043 = {
 	name="Hervé"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168035
 	848.1.1 = {
@@ -44731,7 +44731,7 @@
 168044 = {
 	name="Gauzbert"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168035
 	855.1.1 = {
@@ -44746,7 +44746,7 @@
 168045 = {
 	name="Gauzlin"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168035
 	860.1.1 = {
@@ -44762,7 +44762,7 @@
 	name="Bilchilde"
 	female=yes
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168045
 	900.1.1 = {
@@ -44778,7 +44778,7 @@
 168047 = {
 	name="Gauzbert"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168042
 	870.1.1 = {
@@ -44793,7 +44793,7 @@
 168048 = {
 	name="Gauzfrid"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168047
 	890.1.1 = {
@@ -44808,7 +44808,7 @@
 168049 = {
 	name="Gauzfrid"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168048
 	910.1.1 = {
@@ -44823,7 +44823,7 @@
 168050 = {
 	name="Hugues"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168049
 	940.1.1 = {
@@ -44839,7 +44839,7 @@
 168051 = {
 	name="Hugues"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168062
 	970.1.1 = {
@@ -44854,7 +44854,7 @@
 168052 = {
 	name="Hugues"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168050
 	975.1.1 = {
@@ -44871,7 +44871,7 @@
 168053 = {
 	name="Gauzbert"
 	dynasty=413
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90129
 	mother=168018
@@ -44886,7 +44886,7 @@
 168054 = {
 	name="Ebles"
 	dynasty=413
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="scholarly_theologian"
 	father=90129
@@ -44904,7 +44904,7 @@
 168055 = {
 	name="Géraud"
 	dynasty=413
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90130
 	mother=151301
@@ -44920,7 +44920,7 @@
 168056 = {
 	name="Géraud"
 	dynasty=413
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168055
 	850.1.1 = {
@@ -44936,7 +44936,7 @@
 168057 = {
 	name="Ramnulf"
 	dynasty=413
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90128
 	860.1.1 = {
@@ -44952,7 +44952,7 @@
 	name="Adélaïde" #real name unknown
 	female=yes
 	dynasty=413
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90129
 	mother=168018
@@ -44970,7 +44970,7 @@
 168059 = {
 	name="Torquatus"
 	dynasty=723
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	800.1.1 = {
 		birth="800.1.1"
@@ -44983,7 +44983,7 @@
 168060 = {
 	name="Tertulle"
 	dynasty=723
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168059
 	820.1.1 = {
@@ -44997,7 +44997,7 @@
 168061 = {
 	name="Ingelger"
 	dynasty=723
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168060
 	840.1.1 = {
@@ -45012,7 +45012,7 @@
 168062 = {
 	name="Fulcois"
 	dynasty=9569
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168049
 	945.1.1 = {
@@ -45028,7 +45028,7 @@
 168063 = {
 	name="Raoul"
 	dynasty=380
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=40402
 	mother=40431
@@ -45046,7 +45046,7 @@
 	name="Alpais"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="bastard"
 	father=90095
@@ -45061,7 +45061,7 @@
 168081 = {
 	name="Liuthard"
 	dynasty=667
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168079
 	mother=168080
@@ -45079,7 +45079,7 @@
 168082 = {
 	name="Eberhard"
 	dynasty=667
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168079
 	mother=168080
@@ -45095,7 +45095,7 @@
 168083 = {
 	name="Beggo"
 	dynasty=667
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168082
 	830.1.1 = {
@@ -45112,7 +45112,7 @@
 	name="Susanna"
 	female=yes
 	dynasty=667
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168079 
 	805.1.1 = {
@@ -45127,7 +45127,7 @@
 168085 = {
 	name="Wulfhard"
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=190504
 	800.1.1 = {
@@ -45146,7 +45146,7 @@
 168086 = {
 	name="Adalhard"
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168085
 	mother=168084
@@ -45162,7 +45162,7 @@
 168087 = {
 	name="Wulfhard"
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168085
 	mother=168084
@@ -45178,7 +45178,7 @@
 168088 = {
 	name="Himmo"
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168085
 	mother=168084
@@ -45196,7 +45196,7 @@
 	name="Hildeburg"
 	female=yes
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168085
 	mother=168084
@@ -45212,7 +45212,7 @@
 168090 = {
 	name="Wulfhard"
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168086
 	855.1.1 = {
@@ -45228,7 +45228,7 @@
 	name="Adelheid"
 	female=yes
 	dynasty=541 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168086
 	856.1.1 = {
@@ -45244,7 +45244,7 @@
 	name="Wandilmodis" #real name unknown
 	dynasty=743 #Capet (Robertien)
 	female=yes
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=163065
 	838.1.1 = {
@@ -45258,7 +45258,7 @@
 168139 = {
 	name="Herbert"
 	dynasty=100217
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168130
 	784.1.1 = {
@@ -45274,7 +45274,7 @@
 	name="Kunigunde"
 	female=yes
 	dynasty=100217
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168139
 	800.1.1 = {
@@ -45290,7 +45290,7 @@
 	female=yes
 	dynasty=100217
 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 
 	father=163063
@@ -45308,7 +45308,7 @@
 	name="Senegunde"
 	female=yes
 	dynasty=100217
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168139
 	801.1.1 = {
@@ -45323,7 +45323,7 @@
 	name="Cunegundis"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6398
 	mother = 144982
@@ -45339,7 +45339,7 @@
 	name="Adelheid"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=6398
 	mother = 144982
@@ -45355,7 +45355,7 @@
 	name="Gisele"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=30228
 	mother=167894
@@ -45371,7 +45371,7 @@
 	name="Irmgard"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="bastard"
 	father=144998
@@ -45388,7 +45388,7 @@
 	name="Ermentrude"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90104
 	mother=167830
@@ -45404,7 +45404,7 @@
 	name="Hildegard"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90104
 	mother=167830
@@ -45420,7 +45420,7 @@
 	name="Gisele"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90104
 	mother=167830
@@ -45436,7 +45436,7 @@
 	name="Rotryde"
 	female=yes
 	dynasty=25061
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=90104
 	mother=167830
@@ -45452,7 +45452,7 @@
 	name="Richilde"
 	female=yes
 	dynasty=9306 #Bivinids/Nithard-Richard from Middle Rhine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=7979
 	mother=7978
@@ -45467,7 +45467,7 @@
 168170 = {
 	name="Hilgaud"
 	dynasty=9574
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	815.1.1 = {
 		birth="815.1.1"
@@ -45481,7 +45481,7 @@
 168171 = {
 	name="Herluin"
 	dynasty=9574
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168170
 	835.1.1 = {
@@ -45496,7 +45496,7 @@
 168172 = {
 	name="Hilgaud"
 	dynasty=9574
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168171
 	855.1.1 = {
@@ -45511,7 +45511,7 @@
 168173 = {
 	name="Herluin"
 	dynasty=9574
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168172
 	875.1.1 = {
@@ -45526,7 +45526,7 @@
 168174 = {
 	name="Roger"
 	dynasty=9574
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168173
 	900.1.1 = {
@@ -45541,7 +45541,7 @@
 168175 = {
 	name="Hugues"
 	dynasty=9574
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168174
 	925.1.1 = {
@@ -45556,7 +45556,7 @@
 168176 = {
 	name="Hugues"
 	dynasty=9574
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168175
 	945.1.1 = {
@@ -45573,7 +45573,7 @@
 168177 = {
 	name="Enguerrand"
 	dynasty=9574
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168176
 	mother=205
@@ -45655,7 +45655,7 @@
 168247 = {
 	name="Ratbert" #count of Geneve
 	dynasty=100239
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	870.1.1 = {
 		birth="870.1.1"
@@ -45669,7 +45669,7 @@
 168248 = {
 	name="Albitius" #count of Geneve
 	dynasty=100239
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168247
 	890.1.1 = {
@@ -45684,7 +45684,7 @@
 168249 = {
 	name="Conrad" #count of Geneve
 	dynasty=100239
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168248
 	920.1.1 = {
@@ -45699,7 +45699,7 @@
 168250 = {
 	name="Conrad" #count of Geneve
 	dynasty=100239
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168249
 	940.1.1 = {
@@ -45714,7 +45714,7 @@
 168251 = {
 	name="Albert" #count of Geneve
 	dynasty=100239
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168249
 	945.1.1 = {
@@ -45729,7 +45729,7 @@
 168252 = {
 	name="Géraud" #count of Geneve
 	dynasty=100239
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=168251
 	990.1.1 = {
@@ -45745,7 +45745,7 @@
 	name="Richeut"
 	female=yes
 	dynasty=9306 #Bivinids/Nithard-Richard from Middle Rhine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=7979
 	mother=7978
@@ -45759,7 +45759,7 @@
 168165 = {
 	name="Radbert"
 	dynasty=9306 #Bivinids/Nithard-Richard from Middle Rhine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="martial_cleric"
 	father=7979
@@ -45774,7 +45774,7 @@
 168166 = {
 	name="Raoul"
 	dynasty=9306 #Bivinids/Nithard-Richard from Middle Rhine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=1164
 	mother=1701
@@ -45788,7 +45788,7 @@
 168167 = {
 	name="Hugues"
 	dynasty=9306 #Bivinids/Nithard-Richard from Middle Rhine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="cruel"
 	father=7994
@@ -45804,7 +45804,7 @@
 168168 = {
 	name="Boson"
 	dynasty=9306 #Bivinids/Nithard-Richard from Middle Rhine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=7994
 	mother=7993
@@ -45819,7 +45819,7 @@
 168169 = {
 	name="Gebuin"
 	dynasty=9306 #Bivinids/Nithard-Richard from Middle Rhine
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="bastard"
 	father=7994
@@ -45839,7 +45839,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="charitable"
 	trait="patient"
@@ -45868,7 +45868,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=4
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	trait="charitable"
 	trait="skilled_tactician"
@@ -45887,7 +45887,7 @@
 	female=yes 
 	dynasty=25061
 	trait="bastard"
-	religion="catholic"
+	religion="chalcendonian"
 	culture="frankish"
 	father=144998
 	mother=168314
@@ -46454,7 +46454,7 @@
 	father=168687
 	mother=168734
 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_frankish"
 
 	567.1.1={
@@ -46473,7 +46473,7 @@
 	father=168687
 	mother=168734
 
-	religion="catholic"
+	religion="chalcendonian"
 	culture="old_frankish"
 
 	569.1.1={

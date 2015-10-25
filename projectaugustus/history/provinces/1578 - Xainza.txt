@@ -1,0 +1,13 @@
+# No previous file for PROV1575
+title = c_xainza
+
+# Settlements
+max_settlements = 3
+b_xainza = tribal
+#b_maryo = { }
+#b_mepa = { }
+
+culture = tibetan
+religion = bon_pagan
+terrain = hills
+

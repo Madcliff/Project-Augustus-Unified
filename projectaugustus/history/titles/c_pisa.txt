@@ -1,3 +1,22 @@
+100.1.1 = {
+	liege = e_western
+}
+
+475.1.1 = {
+	holder=1000256105 
+}
+476.1.1=
+{
+liege=k_italy
+holder=1438108
+}
+610.1.1 = {
+	holder = 1000257210
+	liege = d_toscana
+}
+635.1.1 = {
+	holder = 0
+}
 713.1.1={
 	liege=k_lombardy
 }

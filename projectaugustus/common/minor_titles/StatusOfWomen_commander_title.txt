@@ -1,0 +1,67 @@
+# Commander, granted via its own interaction, so very special
+title_commander = {
+	is_high_prio = yes
+
+	attribute = martial
+	dignity = 0.05
+	opinion_effect = 10
+	realm_in_name = yes
+
+	monthly_salary = 0.05
+	monthly_prestige = 0.005
+
+	allowed_to_hold = {
+		OR = {
+			AND = {
+				OR = {
+					is_female = no
+					AND = {
+						is_female = yes
+						OR = {
+							AND = {
+								OR = {
+									religion = cathar
+									religion = messalian
+								}
+								liege = {
+									OR = {
+										religion = cathar
+										religion = messalian
+										has_law = statusofwomen_4
+									}
+								}
+							}
+							AND = {
+								liege = { has_law = statusofwomen_4 }
+								OR = {
+									is_mother = FROM
+									spouse = { character = FROM }
+									dynasty = FROM
+									is_ruler = yes
+								}
+							}
+						}
+					}
+				}
+				OR = {
+					NOT = { religion = hindu }
+					trait = kshatriya
+				}
+				is_adult = yes
+			}
+			has_character_flag = special_marshal
+		}
+
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { trait = in_hiding }
+		NOT = { has_character_flag = guru }
+	}
+
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

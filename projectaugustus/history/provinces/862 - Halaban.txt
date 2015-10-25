@@ -17,13 +17,8 @@ b_afif = tribal
 #b_arradum = castle
 
 # Misc
-culture = old_arabic
-religion = pagan
-
-# History
-
-1000.1.1 = {
 culture = bedouin_arabic
 religion = sunni
-}
+
+# History
 

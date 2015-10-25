@@ -1,6 +1,10 @@
 20.1.1 = {
 	historical_nomad = yes
 }
+620.1.1 = {
+	holder = 1000257453 
+	set_tribute_suzerain = { who = e_protectorate percentage = 0.40 } 
+}
 766.1.1={
 	holder=188768
 }
@@ -61,7 +65,7 @@
 	holder=188855 # Muhammad
 }
 1165.1.1={
-	liege = k_khiva
+	liege = k_khitan
 }
 1188.1.1={
 	holder=188856 # Yusuf
@@ -76,7 +80,7 @@
 	holder=0
 }
 1220.2.1={
-	liege=e_mongol_empire
+	liege="e_mongol_empire"
 	holder=34852
 }
 1225.1.1={
@@ -86,7 +90,7 @@
 	holder=34911
 }
 1227.12.2={
-	liege=k_chagatai #Chagatai Khanate
+	liege=e_chagatai #Chagatai Khanate
 	holder = 93062
 }
 1242.1.1={

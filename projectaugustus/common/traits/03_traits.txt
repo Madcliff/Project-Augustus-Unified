@@ -1,0 +1,39 @@
+hamashiakh = {
+	potential = { religion_group = jewish_group }
+	random = no	
+	customizer = no
+	opposites = { ben_hamashiakh }
+	
+	religious = yes
+	monthly_character_piety = 0.1
+	
+	church_opinion = 20
+	vassal_opinion = 20
+	dynasty_opinion = 20
+	muslim_opinion = -30
+	christian_opinion = -30
+}
+
+ben_hamashiakh = {
+	potential = { religion_group = jewish_group }
+	random = no	
+	customizer = no
+	opposites = { hamashiakh }
+	
+	religious = yes
+	
+	liege_opinion = 10
+	church_opinion = 10
+	vassal_opinion = 10
+	dynasty_opinion = 10
+	muslim_opinion = -20
+	christian_opinion = -20
+}
+
+maccabean = {
+	potential = { religion_group = jewish_group }
+	random = no
+	
+	monthly_character_prestige = 0.1
+	church_opinion = 10
+}

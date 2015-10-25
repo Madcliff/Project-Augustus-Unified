@@ -245,7 +245,7 @@
 	trait="diligent"
 	trait="cruel"
 	trait="hunter"
-    trait="strong"
+         trait="strong"
 	trait="seige_leader"
 	trait="cavalry_leader"
 	trait="aggressive_leader"
@@ -255,7 +255,6 @@
 	1162.1.1={
 		birth="1162.1.1"
 		effect = {
-			set_character_flag = is_temujin
 			set_global_flag = temujin_born
 		}
 	}
@@ -2437,7 +2436,6 @@
 
 34888 = {
 	name="Khal"
-	dynasty = 1045100
 	religion="tengri_pagan"
 	culture="mongol"
 	1295.1.1={
@@ -2452,7 +2450,6 @@
 }
 194413 = {
 	name="Khadagh"
-	dynasty = 1045100
 	religion=sunni
 	culture="mongol"
 	father=34888
@@ -2465,7 +2462,6 @@
 }
 194414 = {
 	name="Hoelun"
-	dynasty = 1045100
 	female=yes
 	religion=sunni
 	culture="mongol"
@@ -3085,7 +3081,7 @@
 
 34953 = {
 	name="Dagun"
-	dynasty = 1045103
+	#placeholder
 	religion="tengri_pagan"
 	culture="mongol"
 	1300.1.1={
@@ -3093,19 +3089,6 @@
 	}
 	1313.1.1={
 		religion="sunni"
-	}
-	1350.1.1={
-		death="1350.1.1"
-	}
-}
-194449 = {
-	name="Chilagun"
-	dynasty = 1045103
-	religion=sunni
-	culture="mongol"
-	father = 34953
-	1317.1.1={
-		birth=yes
 	}
 	1350.1.1={
 		death="1350.1.1"
@@ -3155,7 +3138,7 @@
 
 34962 = {
 	name="Batu"
-	dynasty = 1045104
+	#placeholder
 	religion="tengri_pagan"
 	culture="mongol"
 	1300.1.1={
@@ -3163,19 +3146,6 @@
 	}
 	1313.1.1={
 		religion="sunni"
-	}
-	1350.1.1={
-		death="1350.1.1"
-	}
-}
-194436 = {
-	name="Iturgen"
-	dynasty = 1045104
-	religion=sunni
-	culture="mongol"
-	father = 34962
-	1320.1.1={
-		birth=yes
 	}
 	1350.1.1={
 		death="1350.1.1"
@@ -3200,7 +3170,6 @@
 
 34969 = {
 	name="Bilge"
-	dynasty = 1045101
 	religion="tengri_pagan"
 	culture="mongol"
 	1300.1.1={
@@ -3215,7 +3184,6 @@
 }
 194420 = {
 	name="Berke"
-	dynasty = 1045101
 	religion=sunni
 	culture="mongol"
 	father=34969
@@ -3228,7 +3196,6 @@
 }
 194421 = {
 	name="Sokhatai"
-	dynasty = 1045101
 	female=yes
 	religion=sunni
 	culture="mongol"
@@ -3728,7 +3695,7 @@
 
 93096 = {
 	name="Todogen"
-	dynasty = 1045099
+	#placeholder
 	religion="tengri_pagan"
 	culture="mongol"
 	1280.1.1={
@@ -3740,7 +3707,6 @@
 }
 194430 = {
 	name="Bughu"
-	dynasty = 1045099
 	religion="tengri_pagan"
 	culture="mongol"
 	father=93096
@@ -3753,7 +3719,6 @@
 }
 194431 = {
 	name="Jebe"
-	dynasty = 1045099
 	religion="tengri_pagan"
 	culture="mongol"
 	father=93096
@@ -3766,7 +3731,6 @@
 }
 194432 = {
 	name="Khadagan"
-	dynasty = 1045099
 	female=yes
 	religion="tengri_pagan"
 	culture="mongol"
@@ -3780,7 +3744,6 @@
 }
 194433 = {
 	name="Orbei"
-	dynasty = 1045099
 	female=yes
 	religion="tengri_pagan"
 	culture="mongol"
@@ -3821,38 +3784,11 @@
 
 93099 = {
 	name="Altan"
-	dynasty = 1045105
+	#placeholder
 	religion="tengri_pagan"
 	culture="mongol"
 	1280.1.1={
 		birth="1280.1.1"
-	}
-	1340.1.1={
-		death="1340.1.1"
-	}
-}
-194437 = {
-	name="Megujin"
-	dynasty = 1045105
-	religion="tengri_pagan"
-	culture="mongol"
-	father = 93099
-	1310.1.1={
-		birth=yes
-	}
-	1340.1.1={
-		death="1340.1.1"
-	}
-}
-194438 = {
-	name="Doquz"
-	dynasty = 1045105
-	female = yes
-	religion="tengri_pagan"
-	culture="mongol"
-	father = 93099
-	1315.1.1={
-		birth=yes
 	}
 	1340.1.1={
 		death="1340.1.1"
@@ -3887,7 +3823,7 @@
 
 93102 = {
 	name="Dagun"
-	dynasty = 1045102
+	#placeholder
 	religion="tengri_pagan"
 	culture="mongol"
 	1280.1.1={
@@ -3895,32 +3831,6 @@
 	}
 	1340.1.1={
 		death="1340.1.1"
-	}
-}
-194434 = {
-	name="Chigu"
-	dynasty = 1045102
-	religion="tengri_pagan"
-	culture="mongol"
-	father = 93102
-	1310.1.1={
-		birth=yes
-	}
-	1340.1.1={
-		death=yes
-	}
-}
-194435 = {
-	name="Chagur"
-	dynasty = 1045102
-	religion="tengri_pagan"
-	culture="mongol"
-	father = 93102
-	1320.1.1={
-		birth=yes
-	}
-	1340.1.1={
-		death=yes
 	}
 }
 
@@ -4212,13 +4122,13 @@
 	culture="mongol"
 	father=172005
 	mother=172006
-    trait="misguided_warrior"
-    trait="drunkard"
-    trait="diligent"
-    trait="envious"
-    trait="infirm"
-    trait="proud"
-    trait="wroth"
+        trait="misguided_warrior"
+        trait="drunkard"
+        trait="diligent"
+        trait="envious"
+        trait="infirm"
+        trait="proud"
+        trait="wroth"
 	1206.1.1={
 		birth="1206.1.1"
 	}
@@ -4369,12 +4279,12 @@
 	culture="mongol"
 	father=125520
 	mother=172010
-    trait="midas_touched"
-    trait="ambitious"
-    trait="diligent"
-    trait="zealous"
-    trait="brave"
-    trait="just"
+        trait="midas_touched"
+        trait="ambitious"
+        trait="diligent"
+        trait="zealous"
+        trait="brave"
+        trait="just"
 	1209.1.10={
 		birth="1209.1.10"
 	}
@@ -4389,12 +4299,11 @@
 	culture = mongol
 	father = 125520
 	mother = 172010
-    trait="skilled_tactician"
-    trait="ambitious"
-    trait="diligent"
-    trait="strong"
-    trait="cruel"
-    trait="brave"
+        trait="skilled_tactician"
+        trait="ambitious"
+        trait="diligent"
+        trait="cruel"
+        trait="brave"
 	1215.9.23 = {
 		birth = yes
 	}
@@ -4493,7 +4402,6 @@
 	religion = buddhist
 	culture = mongol
 	father = 217278
-	female = yes
 	1284.5.5 = {
 		birth = yes
 	}
@@ -4902,7 +4810,7 @@
 	dynasty = 1051138
 	religion = tengri_pagan 
 	culture = mongol 
-	715.7.12 = { birth = yes } 
+	723.7.12 = { birth = yes } 
 	759.4.25 = { death = yes }
 }
 217308 = {

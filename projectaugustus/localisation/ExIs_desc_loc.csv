@@ -1,0 +1,770 @@
+ExIs;Expanded Israel;;;;;;;;;;;;;x
+ExIs_JS;Expanded Israel Jewish Sins;;;;;;;;;;;;;x
+ExIs_KS;Expanded Israel Kohen Sins;;;;;;;;;;;;;x
+ExIs_event_modifiers;Expanded Israel Event Modifiers;;;;;;;;;;;;;x
+ExIs_decisions;Expanded Israel Decisions;;;;;;;;;;;;;x
+ExIs_minor_decisions;Expanded Israel Minor Decisions;;;;;;;;;;;;;x
+ExIs_realm_decisions; Expanded Israel Realm Decisions;;;;;;;;;;;;;x
+ExIs_employment_decisions;Expanded Israel Employment Decisions;;;;;;;;;;;;;x
+ExIs_events;Expanded Israel Events;;;;;;;;;;;;;x
+ExIs_eventwindow;Expanded Israel Event Window;;;;;;;;;;;;;x
+MROA;Expanded Israel On Actions;;;;;;;;;;;;;x
+MR_desc_loc;Monotheism Rising description localisation;;;;;;;;;;;;;x
+jerusalem_taken_by_jews;Jerusalem Taken By Jews.;;;;;;;;;;;;;x
+DECISIONS;Decisions;;;;;;;;;;;;;x
+israel;Israelite Characters;;;;;;;;;;;;;x
+levite_desc;This character belongs to the Tribe of Levi. It is the Israelite tribe of priests and scholars.;;;;;;;;;;;;;x
+TOOLTIPLEVITE;A Levite denotes a member of the Tribe of Levi and that they are priests.;;;;;;;;;;;;;x
+malkhut_ben_dawid_desc;This character belongs to the the dynasty of the Royal House of David.;;;;;;;;;;;;;x
+lowborn_desc;This character belongs to the other Tribes of Israel. They can be from low born persons to Adon's under the rulership of Malkhut ben Dawid.;;;;;;;;;;;;;x
+the_hamashiakh;The HaMashiakh;;;;;;;;;;;;;x
+the_hamashiakh_desc;This character is the promised Messiah to the Jewish people.;;;;;;;;;;;;;x
+hamashiakh;HaMashiakh;;;;;;;;;;;;;x
+hamashiakh_desc;This character is the promised Messiah to the Jewish people.;;;;;;;;;;;;;x
+ben_hamashiakh;Ben HaMashiakh;;;;;;;;;;;;;x
+ben_hamashiakh_desc;This character is the child or related to the Messiah of the Jews.;;;;;;;;;;;;;x
+mizrahi;Mizrahi;;;;;;;;;;;;;x
+mizrahi_desc;Mizrahi's are Jewish people from the first diaspora that began when the Babylonians expelled many Jews from Israel in 722 BC.;;;;;;;;;;;;;x
+TOOLTIPMIZRAHI;Mizrahi's are Jewish people from the first diaspora that began when the Babylonians expelled many Jews from Israel in 722 BC.;;;;;;;;;;;;;x
+melech;Melech;;;;;;;;;;;;;x
+melech_desc;Melech is the ancient Hebrew name for King.;;;;;;;;;;;;;x
+TOOLTIPMELECH;;Melech is the ancient Hebrew name for King.;;;;;;;;;;;;;x
+malkah;Malkah;;;;;;;;;;;;;x
+malkah_desc;Malkah is the ancient Hebrew name for Queen.;;;;;;;;;;;;;x
+TOOLTIPMALKAH;Malkah is the ancient Hebrew name for Queen.;;;;;;;;;;;;;x
+duke_jewish_group;Adon;;;;;;;;;;;;;x
+duke_female_jewish_group;Adonit;;;;;;;;;;;;;x
+count_jewish_group;Rozen;;;;;;;;;;;;;x
+count_female_jewish_group;Rozen;;;;;;;;;;;;;x
+kohen;Kohen;;;;;;;;;;;;;x
+kohen_desc;Kohens are the priests from the Tribe of Levi that administer the Jewish rites.;;;;;;;;;;;;;x
+TOOLTIPKOHEN;Kohens are the priests from the Tribe of Levi that administer the Jewish rites.;;;;;;;;;;;;;x
+levite;Levite;;;;;;;;;;;;;x
+title_prince_jewish_group;Nasich;;;;;;;;;;;;;x
+title_prince_female_jewish_group;Nesichah;;;;;;;;;;;;;x
+job_chancellor_jewish_group;Shagrir;;;;;;;;;;;;;x
+job_marshal_jewish_group;Sar HaTzava;;;;;;;;;;;;;x
+job_treasurer_jewish_group;Sar HaOtzar;;;;;;;;;;;;;x
+job_spymaster_jewish_group;Rav-Meraglim;;;;;;;;;;;;;x
+job_spiritual_jewish_group;Kohen HaKhatzer;;;;;;;;;;;;;x
+king_jewish;Melech_group;;;;;;;;;;;;;x
+king_female_jewish_group;Malkah;;;;;;;;;;;;;x
+emperor_jewish_group;Melech HaMelachim;;;;;;;;;;;;;x
+emperor_female_jewish_group;Malkat HaMelachim;;;;;;;;;;;;;x
+barony_of_jewish_group;Roznoot;;;;;;;;;;;;;x
+county_of_jewish_group;Mekhoz;;;;;;;;;;;;;x
+duchy_of_jewish_group;Dochsoot;;;;;;;;;;;;;x
+kingdom_of_jewish_group;Mamlacha;;;;;;;;;;;;;x
+empire_of_jewish_group;Empire;;;;;;;;;;;;;x
+temple_baron_karaite;Kohen;;;;;;;;;;;;;x
+temple_baron_temple_judaism;Kohen;;;;;;;;;;;;;x
+temple_baron_rabbinic_judaism;Rabbi;;;;;;;;;;;;;x
+temple_baron_grand_sanhedrin;Rabbi;;;;;;;;;;;;;x
+temple_barony_jewish_group;Beth T'fila;;;;;;;;;;;;;x
+temple_baron_of_jewish_group;Beth T'fila;;;;;;;;;;;;;x
+isralite_culture_modifer;Israelite Culture Modifiers;;;;;;;;;;;;;x
+TOOLTIPISRAELITE_CULTURE_MODIFIERS;Israelite Culture Modifiers;;;;;;;;;;;;;x
+TOOLTIPEXPEL;Expel Muslims from your realm.;;;;;;;;;;;;;x
+expel_muslims;Expel Muslims;;;;;;;;;;;;;x
+expel_muslims_desc;All Muslims will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+muslims_are_expelled;All Muslims are expelled from the realm.;;;;;;;;;;;;;x
+expelled_muslims;Expelled Muslims;;;;;;;;;;;;;x
+expelled_muslims_timer;Expelled Muslims Timer;;;;;;;;;;;;;x
+TOOLTIPWELCOME;Welcome Muslims back to your realm.;;;;;;;;;;;;;x
+welcome_muslims;Welcome Muslims;;;;;;;;;;;;;x
+welcome_muslims_desc;Muslims will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+muslims_are_welcome;Muslims are welcomed back into the realm.;;;;;;;;;;;;;x
+TOOLTIPWELCOME;Welcome Christians back to your realm.;;;;;;;;;;;;;x
+welcome_christians;Welcome Christians;;;;;;;;;;;;;x
+welcome_christians_desc;Muslims will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+TOOLTIPEXPEL;Expel Christians from your realm.;;;;;;;;;;;;;x
+expel_christians;Expel Christians;;;;;;;;;;;;;x
+expel_christians_desc;All Christians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+christians_are_expelled;All Christians are expelled from the realm.;;;;;;;;;;;;;x
+expelled_christians;Expelled Christians;;;;;;;;;;;;;x
+expelled_christians_timer;Expelled Christians Timer;;;;;;;;;;;;;x
+TOOLTIPWELCOME;Welcome Christians back to your realm.;;;;;;;;;;;;;x
+welcome_christians;Welcome Christians;;;;;;;;;;;;;x
+welcome_christians_desc;Muslims will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+christians_are_welcome;Christians are welcomed back into the realm.;;;;;;;;;;;;;x
+purim_celebrations;Purim Celebrations;;;;;;;;;;;;;x
+celebrate_purim;Celebrate Purim;;;;;;;;;;;;;x
+celebrate_purim_desc;Celebrate Purim;;;;;;;;;;;;;x
+held_purim_timer;Held Purim Timer;;;;;;;;;;;;;x
+rosh_hashanah_celebrations;Rosh Hashanah Celebrations;;;;;;;;;;;;;x
+celebrate_rosh_hashanah;Celebrate Rosh Hashanah;;;;;;;;;;;;;x
+celebrate_rosh_hashanah_desc;Celebrate Rosh Hashanah;;;;;;;;;;;;;x
+held_rosh_hashanah_timer;Held Rosh Hashanah Timer;;;;;;;;;;;;;x
+yom_kippur_celebrations;Yom Kippur Celebrations;;;;;;;;;;;;;x
+celebrate_yom_kippur;Celebrate Yom Kippur;;;;;;;;;;;;;x
+celebrate_yom_kippur_desc;Celebrate Yom Kippur;;;;;;;;;;;;;x
+held_yom_kippur_timer;Held Yom Kippur Timer;;;;;;;;;;;;;x
+bar_mitzvah;Bar Mitzvah;;;;;;;;;;;;;x
+bar_mitzvah_desc;A male child's celebration for them becoming an adult.;;;;;;;;;;;;;x
+bat_mitzvah;Bat Mitzvah;;;;;;;;;;;;;x
+bat_mitzvah_desc;A female child's celebration for them becoming an adult.;;;;;;;;;;;;;x
+had_bar_mitzvah;Bar Mitzvah.;;;;;;;;;;;;;x
+had_bar_mitzvah_desc;This character has had their Bar Mitzvah.;;;;;;;;;;;;;x
+had_bat_mitzvah;Bat Mitzvah.;;;;;;;;;;;;;x
+had_bat_mitzvah_desc;This character has had their Bat Mitzvah.;;;;;;;;;;;;;x
+voice_of_yahweh; Voice of Yahweh;;;;;;;;;;;;;x
+voice_of_yahweh_desc;This individual hears the voice of Yahweh.;;;;;;;;;;;;;x
+title_alluph;Alluph;;;;;;;;;;;;;x
+title_alluph_desc;The Alluph is the champion of the realm.;;;;;;;;;;;;;x
+title_navi;Navi;;;;;;;;;;;;;x
+title_navi_desc;Navi's are prophets ordained by G-d.;;;;;;;;;;;;;x
+title_shofet;Shofet;;;;;;;;;;;;;x
+title_shofet_desc;Shofet's are judges that are ordained by Yahweh.;;;;;;;;;;;;;x
+title_tehillim;Tehillim;;;;;;;;;;;;;x
+title_tehillim_desc;Psalmists sang or wrote psalms that praised Adoni.;;;;;;;;;;;;;x
+title_adrichal;Adrichal;;;;;;;;;;;;;x
+title_adrichal_desc;The Architect is responsible for the creation of new buildings and their designs.;;;;;;;;;;;;;x
+jewish_relics;Jew Relics;;;;;;;;;;;;;x
+jewish_relics_desc;Jewish Relics is the location for Jewish event chains.;;;;;;;;;;;;;x
+cochin_jews;Cochin Jews;;;;;;;;;;;;;x
+d_rabbinic_judaism;Rabbinic Judaism;;;;;;;;;;;;;x
+d_rabbinic_judaism_adj;Rabbinic Judaism;;;;;;;;;;;;;x
+d_grand_sanhedrin;The Grand Sanhedrin Rabbis;;;;;;;;;;;;;x
+d_grand_sanhedrin_adj;The Grand Sanhedrin;;;;;;;;;;;;;x
+GRAND_SANHEDRIN_PATRIARCH;Chief Rabbi of the Sanhedrin of [Kingdom];;;;;;;;;;;;;x
+GRAND_SANHEDRIN_PENTARCH;Chief Rabbi of the Grand Sanhedrin of [County];;;;;;;;;;;;;x
+d_karaite;Karaite;;;;;;;;;;;;x
+d_karaite_adj;Karaite;;;;;;;;;;;;;x
+d_temple_judaism;Temple Judaism High Priesthood;;;;;;;;;;;;;x
+d_temple_judaism_adj;Temple Judaism;;;;;;;;;;;;;x
+b_maccabean_guard;The Maccabean Guard;;;;;;;;;;;;;x
+b_maccabean_guard_adj;Maccabean;;;;;;;;;;;;;x
+d_knights_khazaria;Knights of Khazaria;;;;;;;;;;;;;x
+d_knights_khazaria_adj;Khazarian;;;;;;;;;;;;;x
+d_lions_solomon;Lions of Solomon;;;;;;;;;;;;;x
+d_lions_solomon_adj;Lion;;;;;;;;;;;;;x
+d_knights_goshen;Knights of Goshen;;;;;;;;;;;;;x
+d_knights_goshen_adj;Goshen;;;;;;;;;;;;;x
+d_siqariqim;Siqariqim;;;;;;;;;;;;;x
+d_siqariqim_adj;Siqariqim;;;;;;;;;;;;;x
+d_mishkan_guardians;The Mishkan Guardians;;;;;;;;;;;;;x
+d_mishkan_guardians_adj;Mishkan;;;;;;;;;;;;;x
+trait_maccabean;Maccabean;;;;;;;;;;;;;x
+rabbinic_judaism;Rabbinic Judaism;;;;;;;;;;;;;x
+rabbinic_judaism_DESC;Rabbinic Judaism is the major religion of the Ashkenazi and Sephardic Jews in Europe.;;;;;;;;;;;;;x
+grand_sanhedrin;Grand Sanhedrin;;;;;;;;;;;;;x
+grand_sanhedrin_DESC;The Grand Sanhedrin is the reformation of Rabbinic Judaism where the courts are more important than the kohens from the Tribe of Levi. This has caused a schism between them and Temple Judaism.;;;;;;;;;;;;;x
+haymanot_judaism;Haymanot Judaism;;;;;;;;;;;;;x
+haymanot_judaism_DESC;This is a branch of Judaism that Beta-Israel follows.;;;;;;;;;;;;;x
+temple_judaism;Temple Judaism;;;;;;;;;;;;;x
+temple_judaism_DESC;Temple Judaism rejects the Sanhedrin and follows the Torah only. This has created a schism between Temple Judaism and the Rabbis of Rabbinic Judaism and the Grand Sanhedrin.;;;;;;;;;;;;;x
+reform_rabbinic_judaism;Reform Rabbinic Judaism;;;;;;;;;;;;;x
+reform_rabbinic_judaism_desc;Reforming of Rabbinic Judaism into the Grand Sanhedrin.;;;;;;;;;;;;;x
+reform_karaite;Reform Karaite;;;;;;;;;;;;;x
+reform_karaite_desc;Reforming of Karaite into Temple Judaism.;;;;;;;;;;;;;x
+b_city_of_dawid;City of Dawid;;;;;;;;;;;;;x
+b_city_of_dawid_desc;The city of Dawid is the height of Jerusalem's shining jewel. It has beautiful works of art plus grandiose architecture that adds to the wonder of Jerusalem. Truly this is how Adonai meant for Jerusalem to be.;;;;;;;;;;;;;x
+rebuild_jerusalem;Rebuild Jerusalem;;;;;;;;;;;;;x
+rebuild_jerusalem_desc;Rebuild Jerusalem back to being the jewel of the Levant.;;;;;;;;;;;;;x
+beta_israel;Beta-Israel;;;;;;;;;;;;;x
+beta_israel_desc;Beta-Israel is comprised of Ethiopian Jews.;;;;;;;;;;;;;x
+rebuilding_jerusalem_local;Rebuilding Jerusalem;;;;;;;;;;;;;x
+rebuilding_jerusalem_local_desc;The process of rebuilding Jerusalem.;;;;;;;;;;;;;x
+jerusalem_upper_city;Rebuilding Jerusalem's Upper City;;;;;;;;;;;;;x
+jerusalem_upper_city_desc;Rebuilding Jerusalem's Upper City to make it the marvel it used to be.;;;;;;;;;;;;;x
+jerusalem_lower_city;Rebuilding Jerusalem's Lower City;;;;;;;;;;;;;x
+jerusalem_lower_city_desc;Rebuilding Jerusalem's Lower City to increase the markets and the taxes it brings.;;;;;;;;;;;;;x
+jerusalem_gates;Rebuilding Jerusalem's Gates;;;;;;;;;;;;;x
+jerusalem_gates_desc;Rebuilding Jerusalem's Gates will make the city more beautiful because of their ornate and intricate details. Each one is different from the others.;;;;;;;;;;;;;x
+ca_town_7;Castle Town VII;;;;;;;;;;;;;x
+destroy_siqariqim;Destroy Siqariqim;;;;;;;;;;;;;x
+destroy_siqariqim_desc;Destroy the Siqariqim and remove their threat.;;;;;;;;;;;;;x
+rebuild_siqariqim;Rebuild Siqariqim;;;;;;;;;;;;;x
+rebuild_siqariqim_desc;Rebuild the Siqariqim to their former glory.;;;;;;;;;;;;;x
+HEAD_CHIEF_RABBI;Chief Rabbi;;;;;;;;;;;;;x
+CB_NAME_ISRAEL_SUBJUGATION;Subjugation of Israel;;;;;;;;;;;;;x
+israel_subjugation_desc;The subjugation of Israel to return its lands.;;;;;;;;;;;;;x
+WAR_NAME_ISRAEL_SUBJUGATION;Subjugation of Israel;;;;;;;;;;;;;x
+WAR_NAME_ISRAEL_SUBJUGATION_desc;The subjugation of Israel to return its lands.;;;;;;;;;;;;;x
+PROV1464;Lekia;;;;;;;;;;;x
+PROV1465;Sarir;;;;;;;;;;;x
+PROV1466;Klarjeti;;;;;;;;;x
+PROV1467;Kvemo Kartli;;;;;;;;;x
+PROV1468;Karbala;;;;;;;;;;x
+PROV1470;Barda'a;;;;;;;;;;x
+PROV1471;Khachen;;;;;;;;;;x
+PROV1472;Lake Van;;;;;;;;;;x
+PROV1473;Amid;;;;;;;;;;;;x
+PROV1474;Tankodogo;;;;;;;;;;;;x
+PROV1475;Borno;;;;;;;;;;;;x
+PROV1476;Merse;;;;;;;;;;x
+PROV1477;Lac;;;;;;;;;;x
+PROV1478;Kanem;;;;;;;;;;;x
+PROV1479;Salal;;;;;;;;;;x
+PROV1480;Fitri;;;;;;;;;;;x
+PROV1481;Batha;;;;;;;;;;;x
+PROV1482;Sila;;;;;;;;;;;;x
+PROV1483;Assoungha;;;;;;;;;;;x
+PROV1484;Ouara;;;;;;;;;;;x
+PROV1485;Dar Tama;;;;;;;;;;;;;;x
+PROV1486;Fada;;;;;;;;;;;;x
+PROV1487;Borkou;;;;;;;;;;x
+PROV1488;Toubou;;;;;;;;;;x
+PROV1489;Agadez;;;;;;;;;;x
+PROV1490;Tibesti;;;;;;;;;;x
+PROV1491;Ennedi;;;;;;;;;;;x
+PROV1492;Bahai;;;;;;;;x
+PROV1493;Fezzan;;;;;;;;;x
+PROV1494;Murzuq;;;;;;;;;x
+PROV1495;Ngarangou;;;;;;;;;;x
+PROV1496;Mandara;;;;;;;;;;;;x
+PROV1497;Nguigmi;;;;;;;;;;;;x
+PROV1498;Diffa;;;;;;;;;;;;;;x
+PROV1499;Kukava;;;;;;;;;;;x
+PROV1500;Nagazargamu;;;;;;;;;;;x
+PROV1501;Biramas;;;;;;;;;;;;;;x
+PROV1502;Daura;;;;;;;;;;;;;x
+PROV1503;Kano;;;;;;;;;;;;;;x
+PROV1504;Kazaure;;;;;;;;;;;;;;x
+PROV1505;Cibiri;;;;;;;;;;;;;;x
+PROV1506;Gobir;;;;;;;;;;;;;;x
+PROV1507;Zamfara;;;;;;;;;;;;;;x
+PROV1508;Ade;;;;;;;;;;;;;;;x
+PROV1509;Geneina;;;;;;;;;;;;;x
+PROV1510;Tunjur;;;;;;;;;;;;;x
+PROV1511;Daju;;;;;;;;;;;x
+PROV1512;Fashir;;;;;;;;;x
+PROV1513;Arlit;;;;;;;;;;;x
+PROV1514;Abardok;;;;;;;;;;;;x
+PROV1515;Bilma;;;;;;;;;;;;;;x
+PROV1516;Ghat;;;;;;;;;;;;;;x
+PROV1517;Djanet;;;;;;;;;;;;;;;x
+PROV1518;Awbari;;;;;;;;;;;;;;x
+PROV1519;Sabha;;;;;;;;;;;;;;x
+PROV1520;Jawf;;;;;;;;;;;;;x
+PROV1521;Gaoga;;;;;;;;;;;;x
+PROV1522;Katsina;;;;;;;;;;x
+PROV1523;Sokoto;;;;;;;;;;;x
+PROV1524;Jauri;;;;;;;;;;;;x
+PROV1525;Gvari;;;;;;;;;;;;;x
+PROV1526;Mutum;;;;;;;;;;;;;x
+PROV1527;Lake Chad;;;;;;;;;;;;x
+PROV1528;Nuristan;;;;;;;;;;;;;;;x
+PROV1529;Gorno;;;;;;;;;;;;;;x
+PROV1530;Badakhshan;;;;;;;;;;;;;x
+PROV1531;Dushanbe;;;;;;;;;;;;x
+PROV1532;Osh;;;;;;;;;;;x
+PROV1533;Batken;;;;;;;;;;x
+PROV1534;Mithilia;;;;;;;;;;;x
+PROV1535;Lumbini;;;;;;;;;;x
+PROV1536;Kathmandu;;;;;;;;;;;x
+PROV1537;Triyuga;;;;;;;;;;;;;x
+PROV1538;Tikapur;;;;;;;;;;;;x
+PROV1539;Katti;;;;;;;;;;;x
+PROV1540;Shimla;;;;;;;;;;;x
+PROV1541;Kinnaur;;;;;;;;;;;;x
+PROV1542;Uttarakhand;;;;;;;;;;;;x
+PROV1543;Mandi;;;;;;;;;;;x
+PROV1544;Spiti;;;;;;;;;;x
+PROV1545;Ladakh;;;;;;;;;;;x
+PROV1546;Kargil;;;;;;;;;;;;x
+PROV1547;Doda;;;;;;;;;;;x
+PROV1548;Kathua;;;;;;;;;;;;;x
+PROV1549;Jammu;;;;;;;;;;;x
+PROV1550;Udhampur;;;;;;;;;;;;x
+PROV1551;Neelam;;;;;;;;;;;;;x
+PROV1552;Chilas;;;;;;;;;;;x
+PROV1553;Gilgit;;;;;;;;;;x
+PROV1554;Baltistan;;;;;;;;;x
+PROV1555;Shaksgam;;;;;;;;;;x
+fiver;Zaidi;;;;;;;x
+alevi;Alevi;;;;;;;;;x
+twelver;Twelver;;;;;;;;;;x
+sevener;Ismaili;;;;;;;;;;x
+embrace_fiver;Embrace Zaidi;;;;;;;;;;;;;x
+embrace_sevener;Embrace Ismaili;;;;;;;;;;;x
+embrace_alevi;Embrace Alevism;;;;;;;;x
+embrace_twelver;Embrace Twelver;;;;;;;;;;x
+observe_ashura;Observe Ashura;;;;;;;;;;x
+become_mahadi;Declare Yourself the Mahadi;;;;;;;;;;x
+PROV1556;Aksai;;;;;;;;;;x
+PROV1557;Rutog;;;;;;;;;;x
+PROV1558;Zanda;;;;;;;;;x
+PROV1559;Burang;;;;;;;;;x
+PROV1560;Gar;;;;;;;;;x
+PROV1615;Bisharin;;;;;;;;;;x
+PROV1616;Atbai;;;;;;;;;;;;x
+PROV1617;Jarin;;;;;;;;;;;;x
+PROV1618;Berber;;;;;;;;;;;x
+PROV1619;Bayuda;;;;;;;;x
+PROV1620;Korosoko;;;;;;;;;;x
+PROV1621;Dongola;;;;;;;;;;;x
+PROV1622;Korti;;;;;;;;;;x
+PROV1623;Herawi;;;;;;;;;;;x
+PROV1624;Shendi;;;;;;;;;;;x
+PROV1625;Meroe;;;;;;;;;;;;x
+PROV1626;Butana;;;;;;;;;;;;x
+PROV1627;Wadi Medani;;;;;;;;;;x
+PROV1628;Kawa;;;;;;;;;;x
+PROV1629;Kordofan;;;;;;;;;x
+PROV1630;Umm Badr;;;;;;;;;;x
+PROV1631;Meidob;;;;;;;;;;;x
+PROV1632;Jebel Gadir;;;;;;;;;x
+PROV1633;Nyala;;;;;;;;;;;x
+PROV1634;Dar Sila;;;;;;;;;;;;;;x
+PROV1635;Jebel Marra;;;;;;;;;;;;;;x
+PROV1636;Dar Zaghawa;;;;;;;;;;;;x
+PROV1637;Kiir;;;;;;;;;x
+PROV1638;Jebel Nuba;;;;;;;;;;;;x
+PROV1639;Baquilin;;;;;;;;;;;;x
+PROV1640;Barka;;;;;;;;;;;x
+PROV1641;Taka;;;;;;;;;;;x
+PROV1642;Bahr Al Ghazi;;;;;;;;;;;x
+PROV1643;Shilluk;;;;;;;;;;x
+PROV1644;Renik;;;;;;;;;;x
+PROV1645;Fazgoli;;;;;;;;;;x
+PROV1646;Karkoj;;;;;;;;;;x
+PROV1647;Taqali;;;;;;;;;;x
+PROV1648;Gimbi;;;;;;;;;;;x
+PROV1649;Bizamo;;;;;;;;;;x
+PROV1650;Gubba;;;;;;;;;;;x
+PROV1651;Semhar;;;;;;;;;;x
+PROV1652;Akele Guzay;;;;;;;;;;x
+PROV1653;Saho;;;;;;;;;;;;x
+PROV1654;Ankala;;;;;;;;;;x
+PROV1655;Raheita;;;;;;;;;;;x
+PROV1656;Jebelain;;;;;;;;;;x
+PROV1657;Senhit;;;;;;;;;;x
+PROV1658;Hamadien;;;;;;;;;;;x
+PROV1659;Agame;;;;;;;;;x
+PROV1660;Dankali;;;;;;;;;;;x
+PROV1661;Mora;;;;;;;;x
+PROV1662;Gobaad;;;;;;;;x
+PROV1663;Gurgura;;;;;;;;;x
+PROV1664;Bazin;;;;;;;;;x
+PROV1665;Seraye;;;;;;;;;;x
+PROV1666;Shire;;;;;;;;x
+PROV1667;Wolqayt;;;;;;;;;;x
+PROV1668;Qedaref;;;;;;;;;;;x
+PROV1669;Metema;;;;;;;;;;;x
+PROV1670;Adal;;;;;;;;;;;x
+PROV1671;Gafat;;;;;;;;;;x
+PROV1672;Mecha;;;;;;;;;;x
+PROV1673;Shewa;;;;;;;;;;x
+PROV1674;Hamasien;;;;;;;;;;x
+PROV1675;Tigre;;;;;;;;;;x
+PROV1676;Tembien;;;;;;;;;;x
+PROV1677;Woggera;;;;;;;;;;;x
+PROV1678;Inderta;;;;;;;;;;;;;x
+PROV1679;Endamehoni;;;;;;;;;;;;x
+PROV1680;Abergale;;;;;;;;;;;;x
+PROV1681;Dobe'a;;;;;;;;;;;;x
+PROV1682;Awsa;;;;;;;;;;;;;x
+PROV1683;Angot;;;;;;;;;;;;x
+PROV1684;Lasta;;;;;;;;;;x
+PROV1685;Simien;;;;;;;;;;x
+PROV1686;Tselemti;;;;;;;;;;;x
+PROV1687;Waldebba;;;;;;;;;;;;x
+PROV1688;Wegera;;;;;;;;;;;;x
+PROV1689;Dembiya;;;;;;;;;;;;;x
+PROV1690;Qemant;;;;;;;;;;;x
+PROV1691;Bahir Dar;;;;;;;;;;;;;x
+PROV1692;Begmeder;;;;;;;;;;;;;x
+PROV1693;Bugna;;;;;;;;;;;;x
+PROV1694;Delanta;;;;;;;;;;;;;x
+PROV1695;Simada;;;;;;;;;;;x
+PROV1696;Dera;;;;;;;;;;;;x
+PROV1697;Kotla;;;;;;;x
+PROV1698;Bichena;;;;;;;;;;x
+PROV1699;Marhabete;;;;;;;;;;x
+PROV1700;Wegede;;;;;;;;;;;x
+PROV1701;Amhara;;;;;;;;;x
+PROV1702;Walaqa;;;;;;;;;x
+PROV1703;Kutaber;;;;;;;;;x
+PROV1704;Ambassei;;;;;;;;;;;x
+PROV1705;Gidim;;;;;;;;;;;x
+PROV1706;Gabal;;;;;;;;;;;x
+PROV1707;Menz;;;;;;;;;;;;;x
+PROV1708;Yifat;;;;;;;;;;;x
+PROV1709;Bulga;;;;;;;;;;;;;x
+PROV1710;Fatagar;;;;;;;;;;;x
+PROV1711;Werji;;;;;;;;;x
+PROV1712;Hargaya;;;;;;;;;;x
+PROV1713;Gidiya;;;;;;;;;;x
+PROV1714;Hawd;;;;;;;;;;x
+PROV1715;Togdher;;;;;;;;x
+PROV1716;Sool;;;;;;;;;;x
+PROV1717;Nugal;;;;;;;;;;x
+PROV1718;Sanag;;;;;;;;;x
+PROV1719;Makhir;;;;;;;;;x
+PROV1720;Alula;;;;;;;;;;x
+PROV1721;Bara;;;;;;;;;;;x
+PROV1722;Gidiya;;;;;;;;;;x
+PROV1723;Mudug;;;;;;;;;;x
+PROV1724;Heb;;;;;;;;;;;x
+PROV1725;Mereg;;;;;;;;;x
+PROV1726;Maqidishu;;;;;;;x
+PROV1727;Shabelle;;;;;;;;;x
+PROV1728;Golden Coast;;;;;;;;x
+PROV1729;Bay;;;;;;;x
+PROV1730;Miraan;;;;;;;;;x
+PROV1731;Himan;;;;;;;;;x
+k_protectorate;Anxi Protectorate;;;;;;;;;;x
+k_protectorate_adj;Anxi;;;;;;;;;x'
+PROV1732;Qalafo;;;;;;;;;;x
+PROV1733;Bakol;;;;;;;;x
+PROV1734;Gedo;;;;;;;;x
+PROV1735;Delow;;;;;;;;;;x
+PROV1736;Wabe;;;;;;;;x
+PROV1737;Erer;;;;;;;;x
+PROV1738;Hobad;;;;;;;;;x
+PROV1739;Bale;;;;;;;;;;x
+PROV1740;Dawaro;;;;;;;;x
+PROV1741;Robe;;;;;;;;;;x
+PROV1742;Bahrgamo;;;;;;;;;;x
+PROV1743;Borena;;;;;;;;;x
+PROV1744;Jubba;;;;;;;;x
+PROV1745;Orma;;;;;;;;x
+PROV1746;Marsabit;;;;;;;;x
+azeri;Adari;Adari;Adari;;Adari;;;;;;;;;x
+parthian;Pahlavi;;;;;;;;;;x
+choresmian;Khwarezmian;;;;;;;;;;x
+lur;Lors;;;;;;;;;;;x
+nabatean;Nabatean;;;;;;;;;x
+hebrew;Hebrew;Hebrew;Hebrew;;Hebrew;;;;;;;;;x
+omani_arabic;Omani;;;;;;;;;x
+levantine_arabic;Mashriqi;;;;;;;;x
+PROV1586;Gaza;;;;;;;;x
+PROV1587;Jericho;;;;;;;;;x
+PROV1588;Ashdod;;;;;;;;;;x
+PROV1589;Lydia;;;;;;;x
+PROV1590;Bethleham;;;;;;;;;x
+PROV1591;Bira;;;;;;;;x
+PROV1592;Nazareth;;;;;;;;;;x
+PROV1593;Nabius;;;;;;;;;x
+PROV1594;Haifa;;;;;;;;;x
+PROV1595;Caesaraia;;;;;;;;;;x
+PROV1596;Samaria;;;;;;;;x
+PROV1597;Ramleh;;;;;;;;;;x
+persian;Farsi;;;;;;;;x
+mazanderani;Mazanderani;;;;;;;;;;x
+mandaeic;Mandaeic;;;;;;;;x
+anglonorse;Anglo-Norse;;;;;;;;;;x
+anglo_irish;Anglo-Irish;;;;;;;;;x
+grecovlach;Greco-Romanian;;;;;;;;;x
+grekiansvo;Grekiansvo;;;;;;;;;;;x
+hejazi_arabic;Yemeni;;;;;;;;;x
+PROV1747;Ghazai;;;;;;;;;;;x
+PROV1748;Sudd;;;;;;;;;;;x
+PROV1749;Dinka;;;;;;;;;;x
+PROV1750;Nuer;;;;;;;;;;x
+PROV1751;Gondokoro;;;;;;;;;x
+PROV1752;Turkana;;;;;;;;x
+PROV1753;Goldiya;;;;;;;;x
+PROV1754;Geleb;;;;;;;x
+PROV1755;Barentuma;;;;;;;;x
+c_quds;Bira;;;;;;;;x
+b_quds34;Bira;;;;;;;x
+b_placeholder35;Jala;;;;;;;;x
+b_placeholder36;Sahur;;;;;;;x
+b_placeholder37;Ze'ev;;;;;;;;;;;x
+b_placeholder38;Quds;;;;;;;;;x
+b_caesaraia45;Hadera;;;;;;;;x
+c_caesaraia;Caesaraia;;;;;;;;x
+b_placeholder46;Qesariya;;;;;;;x
+b_placeholder47;Kaissererie;;;;;;;;;;x
+c_jericho;Jericho;;;;;;;;x
+b_jericho19;Jericho;;;;;;;;;x
+b_placeholder20;Ariha;;;;;;;;x
+b_placeholder21;Auja;;;;;;;x
+b_placeholder22;Fasay;;;;;;;x
+b_placeholder23;Khirbat;;;;;;;;x
+d_samaria;Samaria;;;;;;;;x
+c_samaria;Samaria;;;;;;;;x
+b_samaria1;Samaria;;;;;;;;;x
+b_placeholder2;Augusteum;;;;;;;;;x
+b_placeholder3;Shomron;;;;;;;;x
+b_placeholder4;Samira;;;;;;;;x
+b_placeholder5;Sebaste;;;;;;;;
+c_nabius;Nabius;;;;;;;;;x
+b_nabius14;Nabius;;;;;;;;x
+b_placeholder15;Shekhem;;;;;;;;x
+b_placeholder16;Tubas;;;;;;;;;x
+b_placeholder17;Funduq;;;;;;;;;x
+b_placeholder18;Jammain;;;;;;;;x
+c_ramleh;Ramleh;;;;;;;;;;x
+b_ramleh8;Ramleh;;;;;;;;;x
+b_placeholder9;Ni'lim;;;;;;x
+b_placeholder10;Sheham;;;;;;x
+b_placeholder11;Ramallah;;;;;x
+b_placeholder12;Burj;;;;;;x
+b_placeholder13;Ramalie;;;;;;;;x
+c_haifa;Haifa;;;;;;;;x
+b_haifa39;Haifa;;;;;;;;x
+b_placeholder40;Hafya;;;;;;x
+b_placeholder41;Mount Carmel;;;;;;;;;;;x
+b_placeholder42;Nesher;;;;;;x
+b_placeholder43;Krayot;;;;;;;x
+b_placeholder44;Tirat;;;;;;;;;x
+c_lydia;Lydia;;;;;;;x
+b_lydia55;Lydia;;;;;;x
+b_placeholder56;Qama;;;;;;;x
+b_placeholder57;Helez;;;;;;;;x
+b_placeholder58;Guvrin;;;;;;;x
+b_placeholder59;Burj;;;;;;;x
+c_bethleham;Bethleham;;;;;;;x
+b_bethlehem29;Bethleham;;;;;;;;;;x
+b_placeholder30;Halhul;;;;;;;;x
+b_placeholder31;Khalil;;;;;;;x
+b_placeholder32;Sahut;;;;;;;;x
+b_placeholder33;Lahm;;;;;;;;x
+c_nazareth;Nazareth;;;;;;;x
+b_nazareth24;Nazareth;;;;;;x
+b_placeholder25;Naṣrat;;;;;;;;;x
+b_placeholder26;Afula;;;;;;;;;x
+b_placeholder27;Poriyya;;;;;;;x
+b_placeholder28;En Harod;;;;;;;;x
+c_ashdod;Ashdod;;;;;;;;;x
+b_ashdod50;Ashdod;;;;;;;;;x
+b_placeholder51;Ashkelon;;;;;;;;x
+b_placeholder52;Nitzanim;;;;;;;;;x
+b_placeholder53;Ashdod;;;;;;;;;x
+b_placeholder54;Beroart;;;;;;;x
+c_gaza;Gaza;;;;;;;;x
+b_gaza60;Gaza;;;;;;;x
+b_placeholder61;Balah;;;;;;;;x
+b_placeholder62;Rafah;;;;;;;;x
+b_placeholder63;Yunis;;;;;;;x
+b_placeholder64;Gazzah;;;;;;x
+d_gaza;Gaza;;;;;;;;x
+d_sidon;Sidon;;;;;;;;x
+bactrian;Bactrian;;;;;;;;x
+indo_scythian;Saka;;;;;;;;;x
+ci_jm_1;Small Jewish Marketplace;;;;;;;;;;;x
+ci_jm_2;Jewish Marketplace Enclave;;;;;;;;;;x
+ci_jm_3;Large Jewish Marketplace;;;;;;;;;;;;x
+ci_jm_4;Sprawling Jewish Marketplace;;;;;;;;;x
+ct_jewish_community_1;Small Jewish Quarter;;;;;;;;;x
+ct_jewish_community_2;Jewish Quarter;;;;;;;;;;;x
+ct_jewish_community_3;Large Jewish Quarter;;;;;;;;;x
+tm_ts_1;Minor Talmudic Academy;;;;;;;;;;x
+tm_ts_2;Small Talmudic Academy;;;;;;;;;x
+tm_ts_3;Talmudic Academy;;;;;;;;;x
+tm_ts_4;Large Talmudic Academy;;;;;;;;;;;x
+tm_ks_1;Small Jewish Synagogue;;;;;;;;;x
+tm_ks_2;Jewish Synagogue;;;;;;;;;x
+tm_ks_3;Large Synagogue;;;;;;;;;;;x
+tm_ks_4;Grand Synagogue;;;;;;;;;;;x
+b_timnaa;Timna;;;;;;;x
+PROV1834;Samharm;;;;;;;;x
+PROV1835;Shabwa;;;;;;;;;x
+PROV1836;Mukalla;;;;;;;;x
+PROV1837;Al Abr;;;;;;x
+PROV1838;Ma'rib;;;;;;x
+PROV1839;Beihan;;;;;;x
+PROV1840;Zafar;;;;;;x
+PROV1841;Hudaydah;;;;;;x
+PROV1842;Saada;;;;;;;;;x
+PROV1843;Riyadh;;;;;;;;x
+PROV1844;Thadiq;;;;;;;;x
+PROV1845;Aflaj;;;;;;;;;x
+PROV1846;Sulayyil;;;;;;x
+PROV1847;Afif;;;;;;;;;;x
+PROV1848;Dawasir;;;;;;;x
+PROV1849;Sudair;;;;;;;;x
+PROV1765;Sorr;;;;;;;x
+tribsl_arabic;Adnanite;;;;;;;;x
+k_exarch_africa;Exarchate of Africa;;;;;;;;x
+e_harsha;Harsha Empire;;;;;;;;x
+donyi_polo;Donyi-Polo;;;;;;;x
+sammitiya_buddhist;Sammityan Buddhism;;;;;;;;x
+sanamahism;Sanamahism;;;;;;;;;;;;;x
+dravidian;Dravidian;;;;;;;;x
+shaivist;Saivism;;;;;;;;;x
+shrautism;Shrautism;;;;;;x
+ganapatya;Ganapatya;;;;;;x
+shaktism;Shaktism;;;;;;;;x
+hindu;Vaishnavism;;;;;x
+suryaism;Suryaism;;;;;;;;x
+koya_punem;Koya Punem;;;;x
+sarnaismlSarnaism;;;;;;;;x
+e_protectorate;Tang Protectorate;;;;;;x
+e_protectorate;Tang;;;;;;;;x
+confucianism;Confucianism;;;;;;;;;;;;;x
+e_gokturk;Western Gokturk Empire;;;;;;;;x
+d_karbala;Karbala;;;;;;;;x
+arabic_pagan;Hejazi;;;;;;x
+arabic_pagan_reformed;Hubalism;;;;;;;x
+sabaean_pagan;Sabaen;;;;;;;;x
+sabaean_pagan_reformed;Ilumquhism;;;;;;;;;x
+k_nabatea;Nabatea;;;;;;;;;x
+monophysite;Monophysite;;;;;;x
+ebionite;Ebionite;;;;;;x
+german_pagan;German Pagan;;;;;;;x
+german_pagan_reformed;German Pagan Reformed;;;;;;;x
+galatian;Galatian;;;;;;;x
+libyco_greek;Libyco-Greek;;;;;x
+donatist;Donatist;;;;;;;x
+thracian;Thraco-Roman;;;;;;;x
+daco_roman;Daco-Roman;;;;;;;;;x
+illyro_roman;Illyro-Roman;;;;;;;x
+arberian;Albanian;;;;;;;x
+gepid;Gepid;;;;;;;x
+karelian;Karjalainen;;;;;;x
+greek;Ionian;;;;;;x
+rhaeto_roman;Rhaeto-Roman;;;;;;;x
+romash;Romash;;;;;x
+k_wend;Wends;;;;;;x
+k_xueyantuo;Xueyantuo;;;;;;x
+e_eftal;Eftal Empire;;;;;;;;;x
+indohellenic;Indo-Greek;;;;;;;x
+PROV1792;Sinai Desert;;;;;;;x
+PROV1793;Tanis;;;;;;;x
+PROV1794;Mendes;;;;;;x
+PROV1795;Sais;;;;;;;;x
+PROV1796;Xois;;;;;;;;x
+PROV1797;Sebennytos;;;;;x
+PROV1798;Diospolis;;;;;;x
+PROV1799;Heropolis;;;;;;;x
+PROV1800;Sopod;;;;;;;;x
+PROV1801;Leontopolis;;;;;;x
+PROV1802;Bubastis;;;;;x
+PROV1803;Busiris;;;;;;;x
+PROV1804;Paraetonium;;;;;;;x
+PROV1805;Prosoptis;;;;;;;;;x
+PROV1806;Letopolis;;;;;;;;;x
+PROV1807;Heliopolis;;;;;;;;x
+PROV1808;Aphroditopolis;;;;x
+PROV1809;Arsinoe;;;;;;;x
+PROV1810;Bahnasa;;;;;;;x
+PROV1811;Farafra;;;;;;;x
+PROV1812;Dakhla;;;;;;;;x
+PROV1813;Kharga;;;;;;;;x
+PROV1814;Elephantine;;;;;;x
+PROV1815;Apollonopolis;;;;;x
+PROV1816;Latopolites;;;;;;;x
+PROV1817;Thebes;;;;;;;x
+PROV1818;Coptos;;;;;;;x
+PROV1819;Sistrum;;;;;;x
+PROV1820;Abydos;;;;;;;x
+PROV1821;Gebelain;;;;;x
+PROV1822;Hypselis;;;;;x
+PROV1823;Ehnasya;;;;;;x
+PROV1824;Oxyrhynchus;;;;;;;x
+PROV1825;Ankyronpolis;;;;;;x
+PROV1826;Oryx;;;;;;;;x
+PROV1827;Hermopolis;;;;;;x
+PROV1828;Cusae;;;;;;;;;x
+PROV1829;Lycopolis;;;;;x
+PROV1830;Safaga;;;;;;;;x
+PROV1831;Quasyr;;;;;;;;;x
+PROV1832;Olbia;;;;;;;;;x
+PROV1833;Antonios;;;;;;x
+egypto_greek;Greco-Egyptian;;;;;;x
+d_serbia;Sklaveni;;;;;;;;;x
+d_uyghur;Uyghur;;;;;;x
+k_antes;Antes;;;;;;;;x
+k_rouran;Rouran;;;;;;x
+d_croats;Croats;;;;;;x
+k_gepid;Gepid;;;;;;;x
+k_heruli;Heruli;;;;;;;x
+k_rugians;Rugian;;;;;;x
+k_suevic;Suevi;;;;;;;;x
+d_alemannia;Alemannia;;;;;;x
+k_yueban;Yueban;;;;;;x
+d_oghuz;Oghuz;;;;;;;x
+d_kangly;Kangly;;;;;x
+k_gaoche;Gaoche;;;;;x
+tiele;Tiele;;;;;;x
+sarmatian;Sarmatian;;;;;;x
+african_berber;Romano-Berber;;;;;;;x
+k_lakhmid;Lakhmid;;;;;;;;x
+k_kindah;Kindah;;;;;;;;;;x
+k_himyar;Himyar;;;;;;;;;;x
+PROV1851;Gafsa;;;;;;x
+PROV1852;Oued;;;;;;;x
+PROV1853;Kebili;;;;;x
+PROV1854;Ghadames;;;x
+PROV1855;Touggourt;;;;;;;x
+PROV1856;Ouargla;;;;;;x
+PROV1857;Laghouat;;;;;x
+PROV1858;Ghardaia;;;;;x
+PROV1859;Jufra;;;;;;;;x
+PROV1860;Sebha;;;;;;;;x
+PROV1861;Murzuq;;;;;;x
+PROV1862;Rebiana;;;;;x
+PROV1863;Kufra;;;;;;;x
+PROV1864;Ghat;;;;;;;;x
+PROV1865;Tajhari;;;;;x
+PROV1866;Bilma;;;;;;;x
+PROV1867;Germa;;;;;;;x
+PROV1868;Djado;;;;;;;x
+PROV1869;Wigh;;;;;;;;x
+PROV1870;Tumu;;;;;;;;x
+PROV1871;Tag;;;;;;;;;x
+PROV1872;Bardai;;;;;;x
+PROV1873;Tubu;;;;;;;;x
+PROV1874;Aouzou;;;;;;x
+PROV1875;Thubaqt;;;;;x
+PROV1876;Gharbi;;;;;;x
+PROV1877;Hun;;;;;;;;;x
+PROV1878;Zuwarah;;;;;x
+PROV1879;Zella;;;;;;;x
+PROV1880;Fuqaha;;;;;;x
+PROV1881;Wahat;;;;;;;x
+PROV1882;Rashida;;;;;x
+PROV1883;Nabeulo;;;;;x
+PROV1884;Jendouba;;;;x
+PROV1885;Kef;;;;;;;;;x
+PROV1886;Bouzid;;;;;;x
+PROV1887;Sfax;;;;;;;;x
+PROV1888;Zaghouan;;;;x
+PROV1889;Monastir;;;;x
+PROV1890;Siliana;;;;;x
+PROV1891;Beja;;;;;;;;x
+PROV1892;Taref;;;;;;;x
+PROV1893;Guelma;;;;;;x
+PROV1894;Ahras;;;;;;;x
+PROV1895;Mila;;;;;;;;x
+PROV1896;Setif;;;;;;;x
+PROV1897;Jijel;;;;;;;x
+PROV1898;Arreridj;;;;x
+PROV1899;Bouira;;;;;;x
+PROV1900;Boumerdes;;;x
+PROV1901;Bilda;;;;;;;x
+PROV1902;Tipasa;;;;;;x
+PROV1903;Chlef;;;;;;;x
+PROV1904;Mostaganem;;;;x
+PROV1905;Mascara;;;;;x
+PROV1906;Temouchent;;;;;x
+PROV1907;Saida;;;;;;;x
+PROV1908;Abbes;;;;;;;x
+PROV1909;Relizane;;;;x
+PROV1910;Tissemsilt;;;;x
+PROV1911;Medea;;;;;;;x
+PROV1912;Naama;;;;;;;x
+PROV1913;Bayadh;;;;;;x
+PROV1914;Djelfa;;;;;;x
+PROV1915;Bechar;;;;;;x
+PROV1916;Tindouf;;;;;x
+PROV1917;Adrar;;;;;;;x
+PROV1918;Tamanghasset;;;;x
+PROV1919;Illizi;;;;;;x
+PROV1920;Menia;;;;;;;x
+PROV1921;Metili;;;;;;x
+PROV1922;Saleh;;;;;;;x
+PROV1923;Zaouatine;;;x
+PROV1924;Tazrouk;;;;;x
+PROV1925;Trarza;;;;;;x
+PROV1926;Cayor;;;;;;;x
+PROV1927;Brakna;;;;;;x
+PROV1928;Tagant;;;;;;x
+PROV1929;Tekrur;;;;;;x
+PROV1930;Wolof;;;;;;;x
+PROV1931;Siine;;;;;;;x
+PROV1932;Gabu;;;;;;;;x
+PROV1933;Galam;;;;;;;x
+PROV1934;Kantor;;;;;;x
+PROV1935;Ader;;;;;;;;x
+PROV1936;Azbin;;;;;;;x
+PROV1937;Itesan;;;;;;x
+PROV1938;Air;;;;;;;;;x
+PROV1939;Damagaram;;;;;x
+PROV1940;Kamar;;;;;;;x
+PROV1941;Tenere;;;;;;x
+PROV1942;Abu Hamad;;;x

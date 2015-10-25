@@ -1,0 +1,12 @@
+610.1.1={
+	liege = d_jerusalem
+	holder = 1000257342
+}
+652.1.1 = {
+	holder = 0
+}
+769.1.1 ={
+	holder=1000448041
+	liege="e_sunni"
+
+	}

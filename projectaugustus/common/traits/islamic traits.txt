@@ -1,0 +1,94 @@
+mutazilite = {
+	learning = 5
+	
+	religious = yes # Lost immediately on religion change
+	
+	opposites =  {
+		ashari
+		athari
+		maturidi
+	}
+	
+	same_opinion = 25
+	opposite_opinion = -50
+	
+	customizer = no
+	random = no
+}
+
+ashari = {
+	monthly_character_piety = 1
+	
+	religious = yes # Lost immediately on religion change
+	
+	opposites =  {
+		mutazilite
+		athari
+		maturidi
+	}
+	
+	same_opinion = 25
+	opposite_opinion = -50
+	
+	customizer = no
+	random = no
+}
+
+athari = {
+	martial = 5
+	
+	religious = yes # Lost immediately on religion change
+	
+	opposites =  {
+		mutazilite
+		ashari
+		maturidi
+	}
+	
+	same_opinion = 25
+	opposite_opinion = -50
+	
+	customizer = no
+	random = no
+}
+
+maturidi = {
+	learning = 3
+	stewardship = 1
+	diplomacy = 1
+	
+	religious = yes # Lost immediately on religion change
+	
+	opposites =  {
+		mutazilite
+		ashari
+		athari
+	}
+	
+	same_opinion = 25
+	opposite_opinion = -50
+	
+	customizer = no
+	random = no
+}
+
+salafi = {
+	learning = -1
+	martial = 4
+	diplomacy = -3
+	
+	opposites = {
+		sufi
+	}
+	
+	opposite_opinion = -100
+
+	customizer = no
+	random = no
+}
+
+ahl_al_bayt = {
+	inherit_chance = 100
+	
+	muslim_opinion = 20
+}

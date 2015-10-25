@@ -1,0 +1,78 @@
+#venedi, actually
+
+4000991 = {
+	name="Krakus" #Krak of Krakow
+	#
+	dynasty=180
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=8
+	religion="slavic_pagan"
+	culture="venedi"
+	add_trait="just"
+	add_trait="charismatic_negotiator"
+	440.1.1 = {
+		birth="440.1.1"
+	}
+	510.1.1 = {
+		death="510.1.1" 
+	}
+}
+
+1008991 = {
+	name="Udo"
+	dynasty=172
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="slavic_pagan"
+	culture="venedi"
+	add_trait="trusting"
+	add_trait="elusive_shadow"
+	435.1.1 = {
+		birth="435.1.1"
+	}
+	510.1.1 = {
+		death="510.1.1"
+	}
+}
+
+1008491 = {
+	name="Ekko"
+	dynasty=173
+	martial=8
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	religion="slavic_pagan"
+	culture="venedi"
+	add_trait="proud"
+	add_trait="skilled_tactician"
+	424.1.1 = {
+		birth="424.1.1"
+	}
+	490.1.1 = {
+		death="490.1.1"
+	}
+}
+
+4000991 = {
+	name="Dragowit"
+	#Placeholder "chief of veleti
+	dynasty=181
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	religion="slavic_pagan"
+	culture="venedi"
+	add_trait="content"
+	435.1.1 = {
+		birth="435.1.1"
+	}
+	510.1.1 = {
+		death="510.1.1" 
+	}
+}

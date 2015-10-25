@@ -1,3 +1,22 @@
+100.1.1 = {
+	liege = e_western
+}
+
+475.1.1 = {
+	holder=1000256105 
+}
+476.1.1=
+{
+liege=k_italy
+holder=1438108
+}
+608.1.1 = {
+	holder = 1000255002
+	liege = d_provence
+}
+635.1.1 = {
+	holder = 0
+}
 #Karling
 763.1.1={
 	liege=k_austrasia

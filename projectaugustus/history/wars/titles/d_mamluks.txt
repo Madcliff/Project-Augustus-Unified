@@ -1,0 +1,7 @@
+769.1.1={
+        active = no
+}
+867.1.1={
+	active = yes
+        liege="k_egypt"
+}

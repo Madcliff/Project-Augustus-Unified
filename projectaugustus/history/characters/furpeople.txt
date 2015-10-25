@@ -1,0 +1,72 @@
+1000085089 = {
+	name="Deriage"
+	dynasty=1000032071
+	religion="pagan"
+	culture="furpeople"
+	1009.1.1= {
+		birth="1009.1.1"
+	}
+	1070.1.1 = {
+		death="1070.1.1"
+	}
+}
+1000085090 = {
+	name="Guhwah"
+	dynasty=1000032066
+	religion="pagan"
+	culture="furpeople"
+	1009.1.1= {
+		birth="1009.1.1"
+	}
+	1070.1.1 = {
+		death="1070.1.1"
+	}
+}
+1000085091 = {
+	name="Lebna"
+	dynasty=1000032070
+	religion="animism"
+	culture="furpeople"
+	1009.1.1= {
+		birth="1009.1.1"
+	}
+	1070.1.1 = {
+		death="1070.1.1"
+	}
+}
+1000085092 = {
+	name="Kafa"
+	dynasty=1000032069
+	religion="pagan"
+	culture="furpeople"
+	1009.1.1= {
+		birth="1009.1.1"
+	}
+	1070.1.1 = {
+		death="1070.1.1"
+	}
+}
+1000085082 = {
+	name="Dugu"
+	dynasty=1000032065
+	religion="pagan"
+	culture="furpeople"
+	1015.1.1= {
+		birth="1015.1.1"
+	}
+	1075.1.1 = {
+		death="1075.1.1"
+	}
+}
+1000085080 = {
+	name="Bekele"
+	dynasty=1000032062
+	religion="pagan"
+	culture="furpeople"
+	1021.1.1= {
+		birth="1021.1.1"
+	}
+	1068.1.1 = {
+		death="1068.1.1"
+	}
+}

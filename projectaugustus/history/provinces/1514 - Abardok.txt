@@ -1,0 +1,15 @@
+
+# County Title
+title = c_abardok
+
+# Settlements
+max_settlements = 2
+b_abardok = castle
+#b_elmiki = temple
+
+
+# Misc
+culture = hausa
+religion = animism
+
+# History

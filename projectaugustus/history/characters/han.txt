@@ -1,0 +1,325 @@
+870003 = {
+	name="Guo"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090032 
+	725.1.1 = {
+		birth="725.1.1"
+	}
+	770.1.1 = {
+		death="770.1.1"
+	}	
+}
+870004 = {
+	name="Lingzhong"	
+	religion="confucianism"
+	culture="tocharian"
+	dynasty=1090023
+	trait="confucianism"
+	725.1.1={
+		birth="725.1.1"
+	}
+	760.1.1={
+		culture="han"
+	}
+	770.1.1={
+		death="770.1.1"
+	}	
+}
+870005 = {
+	name="Xin"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090020
+	trait="confucianism"
+	trait="just"
+	trait="brave"
+	740.1.1={
+		birth="740.1.1"
+	}
+	808.1.1={
+		death="808.1.1"
+	}	
+}
+870006 = {
+	name="Yang"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090021
+	trait="confucianism"
+	735.1.1={
+		birth="735.1.1"
+	}
+	808.1.1={
+		death="808.1.1"
+	}	
+}
+870007 = {
+	name="Ju"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090022
+	trait="confucianism"
+	735.1.1={
+		birth="735.1.1"
+	}
+	808.1.1={
+		death="808.1.1"
+	}	
+}
+870008 = {
+	name="Riyou"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090019
+	trait="confucianism"
+	735.1.1={
+		birth="735.1.1"
+	}
+	808.1.1={
+		death="808.1.1"
+	}	
+}
+870025 = {
+	name="Qianyi"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090007
+	trait="confucianism"
+	trait="just"
+	779.1.1={
+		birth="779.1.1"
+	}
+	832.1.1={
+		death="832.1.1"
+	}	
+}
+870026 = {
+	name="Yichao"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090007
+	trait="confucianism"
+	trait="tough_soldier"
+	trait="cavalry_leader"
+	trait="brave"	
+	trait="just"
+	martial=10
+	stewardship=8
+	father=870025
+	799.1.1={
+		birth="799.1.1"
+	}
+	872.1.1={
+		death="872.1.1"
+	}	
+}
+870027 = {
+	name="Yitan"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090007
+	trait="confucianism"
+	father=870025
+	796.1.1={
+		birth="796.1.1"
+	}
+	860.1.1={
+		death="860.1.1"
+	}	
+}
+870028 = {
+	name="Huaisheng"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090007
+	trait="confucianism"
+	father=870027
+	831.1.1={
+		birth="831.1.1"
+	}
+	890.1.1={
+		death="890.1.1"
+	}	
+}
+870029 = {
+	name="Huaiding"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090007
+	trait="confucianism"
+	father=870026
+	835.1.1={
+		birth="835.1.1"
+	}
+	892.1.1={
+		death="892.1.1"
+	}	
+}
+870030 = {
+	name="Xun"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090013
+	trait="confucianism"
+	838.1.1={
+		birth="838.1.1"
+	}
+	858.1.1={
+		employer = 870026
+	}
+	894.1.1={
+		death="894.1.1"
+	}	
+}
+870031 = {
+	name="Chengfeng"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090007
+	trait="confucianism"
+	father=870029
+	860.1.1={
+		birth="860.1.1"
+	}
+	910.1.1={
+		death="910.1.1"
+	}	
+}
+870032 = {
+	name="Yijing"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090012
+	trait="confucianism"
+	863.1.1={
+		birth="863.1.1"
+	}
+	935.1.1={
+		death="935.1.1"
+	}	
+}
+870033 = {
+	name="Yuande"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090012
+	trait="confucianism"
+	father=870032
+	890.1.1={
+		birth="890.1.1"
+	}
+	939.1.1={
+		death="939.1.1"
+	}	
+}
+870034 = {
+	name="Yuansheng"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090012
+	trait="confucianism"
+	father=870032
+	895.1.1={
+		birth="895.1.1"
+	}
+	944.1.1={
+		death="944.1.1"
+	}	
+}
+870035 = {
+	name="Yuanzhong"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090012
+	trait="confucianism"
+	father=870032
+	905.1.1={
+		birth="905.1.1"
+	}
+	974.1.1={
+		death="974.1.1"
+	}	
+}
+870036 = {
+	name="Yangong"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090012
+	trait="confucianism"
+	father=870034
+	925.1.1={
+		birth="925.1.1"
+	}
+	976.1.1={
+		death="976.1.1"
+	}	
+}
+870037 = {
+	name="Yanlu"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090012
+	trait="confucianism"
+	father=870034
+	945.1.1={
+		birth="945.1.1"
+	}
+	1002.1.1={
+		death="1002.1.1"
+	}	
+}
+870038 = {
+	name="Zongshou"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090012
+	trait="confucianism"
+	father=870036
+	960.1.1={
+		birth="960.1.1"
+	}
+	1014.1.1={
+		death="1014.1.1"
+	}	
+}
+870039 = {
+	name="Xianshun"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090012
+	trait="confucianism"
+	father=870038
+	995.1.1={
+		birth="995.1.1"
+	}
+	1037.1.1={
+		death="1037.1.1"
+	}	
+}
+870040 = {
+	name="Ding"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090002
+	trait="confucianism"
+	730.1.1={
+		birth="730.1.1"
+	}
+	771.1.1={
+		death="771.1.1"
+	}	
+}
+1000257455 = {
+	name="Dingfang"	
+	religion="confucianism"
+	culture="han"
+	dynasty=1090013 
+	trait="confucianism"
+	591.1.1={
+		birth="591.1.1"
+	}
+	667.1.1={
+		death="667.1.1"
+	}
+}

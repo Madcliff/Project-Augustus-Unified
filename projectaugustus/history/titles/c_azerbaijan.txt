@@ -1,5 +1,33 @@
+470.1.1 = {
+	holder=180624 # Peroz I
+}
+224.1.1={
+	liege="e_persia"
+}
+459.1.1=
+{
+holder=14457391 #Shananshah -- placeholder until Governor found/made up
+}
+595.1.1 = {
+	liege = d_armenia
+	holder = 1000254531
+}
+630.1.1 = {
+	holder = 1000250221
+}
+631.1.1={
+	liege="e_persia"
+	holder=159626
+}
+645.1.1={
+	holder=159967
+}
+675.1.1={
+	holder=159968
+}
+
 635.1.1={
-	liege="d_shirvan"
+	liege="d_albania"
 }
 635.1.1={
 	holder=159626

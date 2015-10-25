@@ -1,0 +1,126 @@
+namespace = ZOR
+#Decline of Sunni in Persia
+
+character_event = {		
+	id = ZOR.1
+	title = "EVTNAME_ZOR_1"
+	desc = EVTDESC_ZOR_1
+	picture = GFX_evt_comet
+
+	
+	trigger = {
+		year = 1000
+		is_ruler = yes
+		religion = sunni
+		not = {
+			religion_authority = 35
+		}
+		any_demesne_province = {
+			location = {
+				religion = sunni
+				culture = persian
+				}
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+		
+		modifier = {
+			factor = 0.25
+			not = {
+				religion_authority = 25
+			}
+
+		}
+
+		modifier = {
+			factor = 0.50
+			not = {
+				religion_authority = 20
+			}
+
+		}
+	}
+	
+	
+	option = {
+		name = EVTOPTA_ZOR_1	
+		ai_chance = { factor = 100 }
+		random_demesne_province = {
+			limit = {
+				religion = sunni
+				culture = persian
+				}
+			random_list = {
+				35 = { religion = shiite }
+				10 = { religion = manichean }
+				10 = { religion = ibadi }
+				20 = { religion = zoroastrian }
+				25 = { religion = nestorian }
+			}
+		}
+	}
+}	
+
+#Spread of Yazidi in Kurdistan
+character_event = {		
+	id = ZOR.2
+	title = "EVTNAME_ZOR_2"
+	desc = EVTDESC_ZOR_2
+	picture = GFX_evt_comet
+	
+
+	
+	trigger = {
+		year = 1000
+		is_ruler = yes
+		or = {
+			religion = sunni
+			religion = shiite
+			religion = ibadi
+		}
+		not = {
+			religion_authority = 40
+		}
+		any_demesne_province = {
+			location = {
+				religion = sunni
+				culture = kurdish
+				}
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.25
+			not = {
+				religion_authority = 25
+			}
+
+		}
+
+		modifier = {
+			factor = 0.50
+			not = {
+				religion_authority = 20
+			}
+
+		}
+	}
+	
+
+	option = {
+		name = EVTOPTA_ZOR_2		
+		random_demesne_province = {
+			limit = {
+				religion = sunni
+				culture = kurdish
+				}
+			religion = yazidi
+		}
+	}	
+}
+

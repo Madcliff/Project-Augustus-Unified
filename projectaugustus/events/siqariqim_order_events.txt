@@ -1,0 +1,301 @@
+namespace = SIQ
+
+# Decadent ruler is warned
+character_event = {
+	id = SIQ.100
+	desc = "EVTDESCSIQ.100"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	ai = no
+	only_playable = yes
+	only_independent = yes
+	
+	trigger = {
+		not =  { religion_group = jewish_group }
+		NOT = { has_character_flag = expelled_jewish_warning }
+		has_character_modifier = expelled_jewish
+		has_global_flag = siqariqim_founded
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+	}
+	
+	option = {
+		name = "EVTOPTASIQ.100"
+		set_character_flag = expelled_jewish_warning 
+	}
+}
+
+# Assassins kill random courtier
+character_event = {
+	id = SIQ.101
+	desc = "EVTDESCSIQ.101"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	prisoner = no
+	min_age = 16
+	
+	trigger = {
+		is_ruler = no
+		employer = {
+			not =  { religion_group = jewish_group }
+			is_playable = yes
+			independent = yes
+			NOT = { spouse = { character = ROOT } }
+			has_character_flag = expelled_jewish_warning 
+		}
+		
+		ai = yes
+		is_primary_heir = no
+		in_command = no
+		
+		has_global_flag = siqariqim_founded
+	}
+	
+	mean_time_to_happen = {
+		months = 220
+	}
+	
+	option = {
+		name = "OK"
+		liege = { character_event = { id = SIQ.102 } }
+	}
+}
+
+# Ruler informed Assassins kill random courtier
+character_event = {
+	id = SIQ.102
+	desc = "EVTDESCSIQ.102"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASIQ.102"
+		FROM = {
+			death = { death_reason = death_siqariqim }
+		}
+		set_character_flag = expelled_jewish_courtier_killed
+	}
+}
+
+# Assassins kill ruler
+character_event = {
+	id = SIQ.103
+	desc = "EVTDESCSIQ.103"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	trigger = {
+		not =  { religion_group = jewish_group }
+		has_character_flag = expelled_jewish_courtier_killed
+		has_global_flag = siqariqim_founded
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 480
+	}
+	
+	option = {
+		name = "EVTOPTASIQ.103"
+		death = { death_reason = death_siqariqim }
+	}
+}
+
+##########################
+# War with the Assassins #
+##########################
+
+# Courtier is killed
+character_event = {
+	id = SIQ.104
+	desc = "EVTDESCSIQ.104"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	prisoner = no
+	min_age = 16
+	
+	trigger = {
+		is_ruler = no
+		employer = {
+			war = yes
+			is_playable = yes
+			independent = yes
+			prisoner = no
+			not =  { religion_group = jewish_group }
+			NOT = { spouse = { character = ROOT } }
+			d_siqariqim = {
+				holder_scope = {
+					war_with = PREVPREV
+				}
+			}
+		}
+		
+		ai = yes
+		is_primary_heir = no
+		is_pretender = no
+		in_command = no
+		
+		has_global_flag = siqariqim_founded
+	}
+	
+	mean_time_to_happen = {
+		months = 880
+	}
+	
+	option = {
+		name = "OK"
+		if = {
+			limit = { liege = { NOT = { trait = in_hiding } } }
+			random_list = {
+				33 = {
+					liege = {
+						character_event = { id = SIQ.105 }
+					}
+				}
+				33 = {
+					liege = {
+						character_event = { id = SIQ.106 }
+					}
+				}
+				33 = {
+					liege = {
+						character_event = { id = SIQ.107 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = { liege = { trait = in_hiding } }
+			random_list = {
+				50 = {
+					liege = {
+						character_event = { id = SIQ.105 }
+					}
+				}
+				50 = {
+					liege = {
+						character_event = { id = SIQ.106 }
+					}
+				}
+			}
+		}
+	}
+}
+
+# Assassins kill random courtier 1
+character_event = {
+	id = SIQ.105
+	desc = "EVTDESCSIQ.105"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASIQ.105"
+		FROM = {
+			death = { death_reason = death_siqariqim }
+		}
+	}
+}
+
+# Assassins kill random courtier 2
+character_event = {
+	id = SIQ.106
+	desc = "EVTDESCSIQ.106"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASIQ.106"
+		FROM = {
+			death = { death_reason = death_siqariqim }
+		}
+	}
+}
+
+# Assassins kill random courtier 3
+character_event = {
+	id = SIQ.107
+	desc = "EVTDESCSIQ.107"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASIQ.107"
+		FROM = {
+			death = { death_reason = death_siqariqim }
+		}
+	}
+}
+
+# Assassins warn ruler
+character_event = {
+	id = SIQ.108
+	desc = "EVTDESCSIQ.108"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	ai = no
+	only_playable = yes
+	only_independent = yes
+	
+	trigger = {
+		war = yes
+		not =  { religion_group = jewish_group }
+		NOT = { has_character_flag = warned_by_siqariqim }
+		d_siqariqim = {
+			holder_scope = {
+				war_with = ROOT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+	}
+	
+	option = {
+		name = "EVTOPTASIQ.108"
+		set_character_flag = warned_by_siqariqim 
+	}
+}
+
+# Assassins kill ruler
+character_event = {
+	id = SIQ.109
+	desc = "EVTDESCSIQ.109"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	trigger = {
+		has_character_flag = warned_by_siqariqim 
+		religion_group = muslim
+		d_siqariqim = {
+			holder_scope = {
+				war_with = ROOT
+			}
+		}
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 1400
+	}
+	
+	option = {
+		name = "EVTOPTASIQ.109"
+		death = { death_reason = death_siqariqim  } 
+	}
+}

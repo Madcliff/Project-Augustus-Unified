@@ -1,0 +1,97 @@
+# Status of Women on_action events
+
+namespace = StoW
+
+# Mark the reformer of a religion as a World Historic Figure
+# which allows a female ruler to increase the women's status law more than once
+character_event = {
+	id = StoW.100
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		set_character_flag = statusofwomen_historicfigure
+	}
+}
+
+# GRANT_LANDED_TITLE_INTERACTION_ACCEPT_EVENT =
+
+# attempt to have the status of women law travel with a title when it is
+# granted to an unlanded character, rather than having them start at Traditional
+#
+# This should make things less annoying with succession laws where you
+# generally grant titles to your heirs
+diploresponse_event = {
+	id = StoW.101
+
+	is_triggered_only = yes
+	hide_window = yes
+	is_friendly = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { num_of_titles = 1 }
+				num_of_titles = 0
+			}
+			# make sure the status of women law and gender law is copied across
+			if = { limit = { liege = { primary_title = { has_law = statusofwomen_0 } } } character_event = { id = StoW.200 days = 1 } }
+			if = { limit = { liege = { primary_title = { has_law = statusofwomen_1 } } } character_event = { id = StoW.201 days = 1 } }
+			if = { limit = { liege = { primary_title = { has_law = statusofwomen_2 } } } character_event = { id = StoW.202 days = 1 } }
+			if = { limit = { liege = { primary_title = { has_law = statusofwomen_3 } } } character_event = { id = StoW.203 days = 1 } }
+			if = { limit = { liege = { primary_title = { has_law = statusofwomen_4 } } } character_event = { id = StoW.204 days = 1 } }
+		}
+	}
+}
+
+
+# on_new_holder_usurpation =
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+
+# When a title is usurped its laws gets changed those of the usurper.
+# We therefore need to flag this as an event change, so we don't get the
+# piety and opinion effects we get if the character changes the law themselves.
+
+# only do this if the title is the character's primary title, as the law
+# effects already skip piety and opinion changes for non-primary titles
+character_event = {
+	id = StoW.102
+
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		if = {
+			limit = { primary_title = { title = FROM } }
+			set_character_flag = statusofwomen_eventchange
+		}
+	}
+}
+
+# Startup event. Reset the law to Traditional if we don't have any law
+# set at all. Fixes the case when we load the mod into an existing save
+# that had the mod removed or never had it at all.
+character_event = {
+	id = StoW.103
+
+	only_rulers = yes
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		primary_title = {
+			if  = {
+				limit = {
+						NOT = { has_law = statusofwomen_0 }
+						NOT = { has_law = statusofwomen_1 }
+						NOT = { has_law = statusofwomen_2 }
+						NOT = { has_law = statusofwomen_3 }
+						NOT = { has_law = statusofwomen_4 }
+				}
+				holder_scope = { set_character_flag = statusofwomen_eventchange }
+				add_law = statusofwomen_0
+			}
+		}
+	}
+}

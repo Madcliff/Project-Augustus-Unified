@@ -1,3 +1,17 @@
+470.1.1={
+	liege="k_visigoth"
+	holder = 1428118
+}
+
+
+626.1.1 = {
+	holder = 1000256210
+	liege = d_gascogne
+}
+638.1.1 = {
+	holder = 0
+}
+
 735.1.1={
 	holder = 190483 #Hatto
 }

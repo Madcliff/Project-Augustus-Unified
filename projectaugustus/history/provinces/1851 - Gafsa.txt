@@ -1,0 +1,24 @@
+# 817 - Tunis
+
+# County Title
+title = c_gafsa
+max_settlements = 3
+
+b_gafsa = castle
+
+
+# Misc
+culture = african_berber
+religion = chalcendonian
+
+# History
+
+770.1.1 = {
+	religion = sunni
+}
+
+867.1.1 = {
+	religion = sunni
+        culture = maghreb_arabic
+}
+

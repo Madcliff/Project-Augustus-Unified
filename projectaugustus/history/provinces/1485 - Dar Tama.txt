@@ -1,0 +1,20 @@
+
+# County Title
+title = c_dar_tama
+
+# Settlements
+max_settlements = 2
+b_kolonga = castle
+#b_sirim_birke = castle
+
+
+# Misc
+culture = zaghawa
+religion = pagan
+
+
+# History
+1070.1.1 = {
+religion = sunni
+culture = maghreb_arabic
+}

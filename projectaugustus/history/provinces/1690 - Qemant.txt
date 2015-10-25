@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_qemant
+# Settlements
+max_settlements = 4
+b_qemant = castle
+
+
+# Misc
+culture = falashim 
+religion = haymanot_judaism 
+
+# History

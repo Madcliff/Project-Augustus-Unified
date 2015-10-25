@@ -4,12 +4,12 @@
 title = c_piombino
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_piombino = castle
 b_suvereto = city
 b_radicofani = temple
 
-#b_populonia = castle
+b_populonia = castle
 #b_campiglia = castle
 #b_follonica = castle
 #b_sanvincenzo = castle

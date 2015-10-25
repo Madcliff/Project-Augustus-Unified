@@ -1,0 +1,242 @@
+10011991 = {
+	name="Adalbald" #Bishop of Mainz, 476 - ???
+	martial=8
+	diplomacy=6
+	intrigue=4
+	stewardship=6
+	religion = orthodox
+	culture="german"
+	add_trait="zealous"
+	add_trait="humble"
+	add_trait="chaste"
+	add_trait="martial_cleric"
+	425.1.1 = {
+		birth="425.1.1"
+	}
+	491.1.1 = {
+		death="491.1.1"
+	}
+}
+
+10014991 = {
+	name="Merovech"
+	dynasty=38
+	martial=9
+	diplomacy=6
+	intrigue=4
+	stewardship=7
+	religion="german_pagan"
+	culture="german"
+	add_trait="brave"
+	add_trait="underhanded_rogue"
+	415.1.2 = {
+		birth="415.1.2"
+	}
+	457.1.2 = {
+		death="457.1.2"
+	}
+}
+
+10017991 = {
+	name="Childeric"
+	dynasty=38
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=8
+	religion="german_pagan"
+	culture="german"
+	add_trait="patient"
+	add_trait="strong"
+	add_trait="tough_soldier"
+	father=10014991
+	440.1.1 = {
+		birth="440.1.1"
+	}
+	475.10.31={
+		add_claim = "d_isala"
+		add_claim = "d_camaraco"
+		add_claim = "d_ripuaria"
+	}
+	481.1.1 = {
+		death="481.1.1"
+	}
+}
+
+10022991 = {
+	name="Clovis"
+	dynasty=38
+	martial=10
+	diplomacy=9
+	intrigue=7
+	stewardship=9
+	religion="german_pagan"
+	culture="german"
+	add_trait="ambitious"
+	add_trait="strong"
+	add_trait="skilled_tactician"
+	father=10017991
+	466.1.2 = {
+		birth="466.1.2"
+	}
+	475.10.31={
+		add_claim = "d_isala"
+		add_claim = "d_camaraco"
+		add_claim = "d_ripuaria"
+	}
+	496.1.2 = {
+		religion = orthodox
+	}
+	511.1.2 = {
+		death="511.1.2"
+	}
+}
+
+10025991 = {
+	name="Audofleda" #
+	female=yes
+	dynasty=38
+	religion="german_pagan"
+	culture="german"
+	father=10017991
+	467.1.1 = {
+		birth="467.1.1"
+	}
+	#
+	511.1.1 = {
+		death="511.1.1"
+	}
+}
+
+10026991 = {
+	name="Lanthilde" #
+	female=yes
+	dynasty=38
+	religion="german_pagan"
+	culture="german"
+	father=10017991
+	468.1.1 = {
+		birth="468.1.1"
+	}
+	#
+	511.1.1 = {
+		death="511.1.1"
+	}
+}
+
+10027991 = {
+	name="Hedwige" #
+	female=yes
+	dynasty=38
+	religion="german_pagan"
+	culture="german"
+	father=10017991
+	470.1.1 = {
+		birth="470.1.1"
+	}
+	#
+	511.1.1 = {
+		death="511.1.1"
+	}
+}
+
+10035991 = {
+	name="Ragnachar" #ruled the Salian Franks of Cambrai and the surrounding area
+	dynasty=38
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=6
+	religion="german_pagan"
+	culture="german"
+	add_trait="envious"
+	add_trait="proud"
+	add_trait="intricate_webweaver"
+	445.1.1 = {
+		birth="445.1.1"
+	}
+	509.1.1 = {
+		death="509.1.1"
+	}
+}
+
+10039991 = {
+	name="Ricchar"
+	dynasty=41
+	martial=7
+	diplomacy=7
+	intrigue=5
+	stewardship=3
+	religion="german_pagan"
+	culture="german"
+	add_trait="underhanded_rogue"
+	447.1.1 = {
+		birth="447.1.1"
+	}
+	509.1.1 = {
+		death="509.1.1"
+	}
+}
+
+10065991 = {
+	name="Rignomer"
+	dynasty=41
+	martial=7
+	diplomacy=6
+	intrigue=5
+	stewardship=7
+	religion="german_pagan"
+	culture="german"
+	add_trait="trusting"
+	add_trait="tough_soldier"
+	450.1.1 = {
+		birth="450.1.1"
+	}
+	509.1.1 = {
+		death="509.1.1"
+	}
+}
+
+10067991 = {
+	name="Chararic"
+	# AKA:
+	dynasty=39
+	martial=6
+	diplomacy=6
+	intrigue=4
+	stewardship=7
+	religion="german_pagan"
+	culture="german"
+	add_trait="patient"
+	add_trait="flamboyant_schemer"
+	437.1.1 = {
+		birth="437.1.1"
+	}
+	509.1.1 = {
+		death="509.1.1"
+	}
+}
+
+10069991 = {
+	name="Sigobert"
+	# AKA:
+	dynasty=40
+	martial=6
+	diplomacy=6
+	intrigue=4
+	stewardship=7
+	religion="german_pagan"
+	culture="german"
+	add_trait="patient"
+	add_trait="flamboyant_schemer"
+	437.1.1 = {
+		birth="437.1.1"
+	}
+	496.1.1 = {
+		give_nickname = nick_the_lame
+		add_trait = "maimed"
+	}
+	509.1.1 = {
+		death="509.1.1"
+	}
+}

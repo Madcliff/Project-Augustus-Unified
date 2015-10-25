@@ -1,0 +1,18 @@
+# 1587 - Jericho
+
+# County Title
+title = c_jericho
+
+# Settlements
+max_settlements = 4
+b_jericho19 = castle
+b_placeholder20 = temple
+
+# Misc
+culture = mizrahi
+religion = karaite
+
+# History
+
+867.1.1 = { religion = samaritan }
+1187.1.1 = { b_placeholder21 = city }

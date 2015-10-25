@@ -14,7 +14,7 @@ b_osma = temple
 #b_sanleonardodeyague = castle
 #b_covaleda = castle
 
-culture = hispanic
+culture = iberian
 religion = catholic
 
 # History

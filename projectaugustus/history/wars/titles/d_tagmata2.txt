@@ -1,0 +1,11 @@
+20.1.1={
+        active = no
+}
+801.1.1={
+        active = yes
+	liege="e_byzantium"      
+        set_global_flag = enlarged_tagmata
+}
+1071.8.26={
+        active = no
+}

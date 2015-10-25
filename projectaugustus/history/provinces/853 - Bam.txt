@@ -17,7 +17,14 @@ b_bal_chah = temple
 
 # Misc
 culture = persian
-religion = kharijite
+religion = haruriyyah 
 
 # History
+632.1.1 = {
+	culture = parthian
+}
+
+700.1.1 = {
+	culture = persian
+}
 950.1.1 = { religion = sunni }

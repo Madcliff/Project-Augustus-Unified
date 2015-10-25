@@ -1,0 +1,34 @@
+expelled_muslims = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_muslims_timer = { icon = 1 }
+
+expelled_christians = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_christians_timer = { icon = 1 }
+
+expelled_zoroastrians = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_zoroastrians_timer = { icon = 1 }
+
+held_purim_timer = { icon = 1 }
+
+held_rosh_hashanah_timer = { icon = 1 }
+
+held_yom_kippur_timer = { icon = 1 }
+
+ark_of_the_covenant_province = {
+	levy_size = 0.75
+	local_tax_modifier = 0.75
+	icon = 1	
+}
+
+observed_ashura = { icon = 1 }

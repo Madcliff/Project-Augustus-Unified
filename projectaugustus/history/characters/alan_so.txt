@@ -1,0 +1,38 @@
+
+20667991 = {
+	name="Anos"
+	dynasty=130
+	martial=7
+	diplomacy=7
+	intrigue=5
+	stewardship=7
+	religion="tengri_pagan"
+	culture="alan"
+	add_trait="shy"
+	add_trait="elusive_shadow"
+	460.10.31={
+		birth="460.10.31"
+	}
+	530.1.1={
+		death="530.1.1"
+	}
+}
+
+20668991 = {
+	name="Spadines"
+	dynasty=131
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	religion="tengri_pagan"
+	culture="alan"
+	add_trait="humble"
+	add_trait="underhanded_rogue"
+	455.1.1={
+		birth="455.1.1"
+	}
+	525.1.1={
+		death="525.1.1"
+	}
+}

@@ -1,3 +1,24 @@
+460.1.1=
+{
+	liege="d_alemannia"
+}
+
+620.1.1 = {
+	holder = 1000153021
+	liege = d_anjou	
+}
+632.1.1 = {
+	liege = d_alsace
+}
+655.1.1 = {
+	holder = 1000153023
+}
+681.1.1 = {
+	holder = 1000153022
+}
+686.1.1 = {
+	holder = 0
+}
 754.1.1={
 	liege=k_neustria
 }

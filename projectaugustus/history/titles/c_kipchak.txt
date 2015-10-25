@@ -1,3 +1,10 @@
+470.1.1 = {
+	holder = 1000256127 
+}
+620.1.1 = {
+	holder = 1000257452 
+	liege=d_kipchak
+}
 762.1.1={
 	liege=d_kipchak
 	holder=188817

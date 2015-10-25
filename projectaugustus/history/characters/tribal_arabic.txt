@@ -1,0 +1,57 @@
+
+18888612 = {
+	name="Aiham" 
+	dynasty=random
+	religion="arabic_pagan"
+	culture="tribal_arab"
+	750.1.1={
+		birth=yes
+	}
+	840.1.1={
+		death=yes
+	}
+}
+
+
+18888613 = {
+	name="Aiham" 
+	dynasty=random
+	religion="arabic_pagan"
+	culture="tribal_arab"
+	840.1.1={
+		birth=yes
+	}
+	900.1.1={
+		death=yes
+	}
+}
+
+
+
+18888614 = {
+	name="Jad" 
+	dynasty=random
+	religion="arabic_pagan"
+	culture="tribal_arab"
+	750.1.1={
+		birth=yes
+	}
+	840.1.1={
+		death=yes
+	}
+}
+
+
+18888615 = {
+	name="Jad" 
+	dynasty=random
+	religion="arabic_pagan"
+	culture="tribal_arab"
+	840.1.1={
+		birth=yes
+	}
+	900.1.1={
+		death=yes
+	}
+}
+

@@ -1,0 +1,1521 @@
+decisions = {
+	marry_close = { #Marry a close relative
+		potential = {
+			OR = {
+				religion_group = zoroastrian_group
+				religion = messalian
+			}
+			is_marriage_adult = yes
+			ai = yes
+			OR = {
+				NOT = { age = 40 }
+				is_female = no
+			}
+			OR = {
+				is_female = no
+				is_ruler = yes
+				is_primary_heir = yes
+			}
+			fertility = 0.01
+			prisoner = no
+			OR = {
+				is_ruler = yes
+				is_councillor = yes
+				any_liege = { 
+					OR = {
+						dynasty = ROOT 
+						is_close_relative = ROOT
+					}
+				}
+			}
+			is_married = no
+			is_betrothed = no
+			any_dynasty_member = {
+				is_close_relative = ROOT
+				is_marriage_adult = yes
+				is_married = no
+				is_betrothed = no
+				ai = yes
+				OR = {
+					is_ruler = yes
+					liege = { ai = no }
+					NOT = { liege = { is_close_relative = ROOT } }
+					age = 20
+				}
+				OR = {
+					NOT = { age = 40 }
+					is_female = no
+				}
+				is_consort = no
+				fertility = 0.01
+				prisoner = no
+				OR = {
+					religion_group = zoroastrian_group
+					religion = messalian
+				}
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			random_dynasty_member = {
+				limit = {
+					is_close_relative = ROOT
+					OR = {
+						NOT = { age = 40 }
+						is_female = no
+					}
+					OR = {
+						AND = {
+							ROOT = { is_female = yes }
+							is_female = no
+						}
+						AND = {
+							ROOT = { is_female = no }
+							is_female = yes
+						}
+					}
+					ai = yes
+					OR = {
+						is_ruler = yes
+						liege = { ai = no }
+						NOT = { liege = { is_close_relative = ROOT } }
+						age = 20
+					}
+					is_marriage_adult = yes
+					is_married = no
+					is_betrothed = no
+					is_consort = no
+					fertility = 0.01
+					prisoner = no
+					OR = {
+						religion_group = zoroastrian_group
+						religion = messalian
+					}
+				}
+				add_spouse = ROOT
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = { #
+				factor = 0
+				NOT = { age = 20 }
+				is_ruler = no
+				liege = { ai = no is_close_relative = ROOT }
+			}
+		}
+	}
+	marry_avuncular_1 = { #Marry niece or nephew
+		potential = {
+			is_marriage_adult = yes
+			ai = yes
+			OR = {
+				NOT = { age = 40 }
+				is_female = no
+			}
+			OR = {
+				is_female = no
+				is_ruler = yes
+				is_primary_heir = yes
+			}
+			fertility = 0.01
+			prisoner = no
+			OR = {
+				is_ruler = yes
+				is_councillor = yes
+				any_liege = { 
+					OR = {
+						dynasty = ROOT 
+						is_close_relative = ROOT
+					}
+				}
+			}
+			OR = {
+				is_married = no
+				AND = {
+					NOT = { num_of_spouses = 2 }
+					tier = count
+				}
+				AND = {
+					NOT = { num_of_spouses = 3 }
+					OR = {
+						tier = duke
+						has_minor_title = title_prince
+					}
+				}
+				AND = {
+					NOT = { num_of_spouses = 4 }
+					OR = {
+						tier = king
+						tier = emperor
+					}
+				}
+			}
+			OR = {
+				NOT = { religion_group = muslim }
+				AND = {
+					religion = yazidi
+					is_female = no
+				}
+			}
+			is_betrothed = no
+			any_sibling = {
+				any_child = {
+					OR = {
+						NOT = { religion_group = muslim }
+						religion = yazidi
+					}
+					ai = yes
+					OR = {
+						is_ruler = yes
+						liege = { ai = no }
+						NOT = { liege = { is_close_relative = ROOT } }
+						age = 20
+					}
+					is_marriage_adult = yes
+					OR = {
+						NOT = { age = 40 }
+						is_female = no
+					}
+					OR = {
+						AND = {
+							is_female = yes
+							ROOT = { is_female = no }
+						}
+						AND = {
+							is_female = no
+							ROOT = { is_female = yes }
+						}
+					}
+					fertility = 0.01
+					is_married = no
+					is_consort = no
+					is_betrothed = no
+					prisoner = no
+					OR = {
+						same_realm = PREV
+						same_realm = ROOT
+						religion = ROOT
+						AND = {
+							religion_group = ROOT
+							NOT = { religion_group = pagan_group }
+						}
+						AND = {
+							religion_group = pagan_group
+							religion = ROOT
+						}
+					}
+					can_marry = ROOT
+				}
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			if = {
+				limit = {
+					any_sibling = {
+						is_female = no
+						any_child = {
+							OR = {
+								NOT = { religion_group = muslim }
+								religion = yazidi
+							}
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+					}
+				}
+				random_sibling = {
+					limit = {
+						is_female = no
+						any_child = {
+							OR = {
+								NOT = { religion_group = muslim }
+								religion = yazidi
+							}
+							is_marriage_adult = yes
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+					}
+					random_child = {
+						limit = {
+							is_marriage_adult = yes
+							OR = {
+								NOT = { religion_group = muslim }
+								religion = yazidi
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+						add_spouse = ROOT
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_sibling = {
+							is_female = no
+							any_child = {
+								is_marriage_adult = yes
+								ai = yes
+								OR = {
+									is_ruler = yes
+									liege = { ai = no }
+									NOT = { liege = { is_close_relative = ROOT } }
+									age = 20
+								}
+								OR = { 
+									NOT = { religion_group = muslim }
+									religion = yazidi
+								}
+								OR = {
+									NOT = { age = 40 }
+									is_female = no
+								}
+								OR = {
+									AND = {
+										is_female = yes
+										ROOT = { is_female = no }
+									}
+									AND = {
+										is_female = no
+										ROOT = { is_female = yes }
+									}
+								}
+								fertility = 0.01
+								is_married = no
+								is_consort = no
+								is_betrothed = no
+								prisoner = no
+								OR = {
+									same_realm = PREV
+									same_realm = ROOT
+									religion = ROOT
+									AND = {
+										religion_group = ROOT
+										NOT = { religion_group = pagan_group }
+									}
+									AND = {
+										religion_group = pagan_group
+										religion = ROOT
+									}
+								}
+								can_marry = ROOT
+							}
+						}
+					}
+				}
+				random_sibling = {
+					limit = {
+						is_female = yes
+						any_child = {
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							OR = {
+								NOT = { religion_group = muslim }
+								religion = yazidi
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+					}
+					random_child = {
+						limit = {
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							OR = {
+								NOT = { religion_group = muslim }
+								religion = yazidi
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+						add_spouse = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0.25 #Basic slow down.
+			}
+			modifier = { #Avoid marrying aunts and nephews
+				factor = 0.01
+				religion_group = jewish_group
+				is_female = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { age = 20 }
+				is_ruler = no
+				liege = { ai = no is_close_relative = ROOT }
+			}
+			modifier = {
+				factor = 5 #Helps keep realms dynastic
+				is_female = yes
+				OR = {
+					is_ruler = yes
+					is_primary_heir = yes
+				}
+			}
+			modifier = {
+				factor = 0.1 #Zoroastrians prefer closer relations
+				religion_group = zoroastrian_group
+			}
+			modifier = {
+				factor = 0.5
+				religion = messalian
+			}
+		}
+	}
+	marry_avuncular_0 = { #Marry an uncle or aunt.
+		is_high_prio = yes
+		potential = {
+			OR = {
+				NOT = { religion_group = muslim }
+				AND = {
+					religion = yazidi
+					is_female = no
+				}
+			}
+			ai = yes
+			OR = {
+				NOT = { age = 40 }
+				is_female = no
+			}
+			OR = {
+				is_female = no
+				is_ruler = yes
+				is_primary_heir = yes
+			}
+			fertility = 0.01
+			prisoner = no
+			OR = {
+				is_ruler = yes
+				is_councillor = yes
+				any_liege = { 
+					OR = {
+						dynasty = ROOT 
+						is_close_relative = ROOT
+					}
+				}
+			}
+			is_married = no
+			is_betrothed = no
+			OR = {
+				father_even_if_dead = {
+					any_sibling = {
+						is_marriage_adult = yes
+						ai = yes
+						OR = {
+							is_ruler = yes
+							liege = { ai = no }
+							NOT = { liege = { is_close_relative = ROOT } }
+							age = 20
+						}
+						OR = {
+							NOT = { age = 40 }
+							is_female = no
+						}
+						OR = {
+							AND = {
+								is_female = yes
+								ROOT = { is_female = no }
+							}
+							AND = {
+								is_female = no
+								ROOT = { is_female = yes }
+							}
+						}
+						fertility = 0.01
+						is_married = no
+						is_consort = no
+						is_betrothed = no
+						prisoner = no
+						OR = {
+							same_realm = PREV
+							same_realm = ROOT
+							religion = ROOT
+							AND = {
+								religion_group = ROOT
+								NOT = { religion_group = pagan_group }
+							}
+							AND = {
+								religion_group = pagan_group
+								religion = ROOT
+							}
+						}
+						can_marry = ROOT
+					}
+				}
+				mother_even_if_dead = {
+					any_sibling = {
+						is_marriage_adult = yes
+						ai = yes
+						OR = {
+							is_ruler = yes
+							liege = { ai = no }
+							NOT = { liege = { is_close_relative = ROOT } }
+							age = 20
+						}
+						OR = {
+							NOT = { age = 40 }
+							is_female = no
+						}
+						OR = {
+							AND = {
+								is_female = yes
+								ROOT = { is_female = no }
+							}
+							AND = {
+								is_female = no
+								ROOT = { is_female = yes }
+							}
+						}
+						fertility = 0.01
+						is_married = no
+						is_consort = no
+						is_betrothed = no
+						prisoner = no
+						OR = {
+							same_realm = PREV
+							same_realm = ROOT
+							religion = ROOT
+							AND = {
+								religion_group = ROOT
+								NOT = { religion_group = pagan_group }
+							}
+							AND = {
+								religion_group = pagan_group
+								religion = ROOT
+							}
+						}
+						can_marry = ROOT
+					}
+				}
+
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			if = {
+				limit = {
+					father_even_if_dead = {
+						any_sibling = {
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+					}
+				}
+				father_even_if_dead = {
+					random_sibling = {
+						limit = {
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+						add_spouse = ROOT
+					}
+				}
+			}
+			if = { #Take from mother's side of the family if father's isn't available.
+				limit = {
+					NOT = {
+						father_even_if_dead = {
+							any_sibling = {
+								is_marriage_adult = yes
+								ai = yes
+								OR = {
+									is_ruler = yes
+									liege = { ai = no }
+									NOT = { liege = { is_close_relative = ROOT } }
+									age = 20
+								}
+								OR = {
+									NOT = { age = 40 }
+									is_female = no
+								}
+								OR = {
+									AND = {
+										is_female = yes
+										ROOT = { is_female = no }
+									}
+									AND = {
+										is_female = no
+										ROOT = { is_female = yes }
+									}
+								}
+								fertility = 0.01
+								is_married = no
+								is_consort = no
+								is_betrothed = no
+								prisoner = no
+								OR = {
+									same_realm = PREV
+									same_realm = ROOT
+									religion = ROOT
+									AND = {
+										religion_group = ROOT
+										NOT = { religion_group = pagan_group }
+									}
+									AND = {
+										religion_group = pagan_group
+										religion = ROOT
+									}
+								}
+								can_marry = ROOT
+							}
+						}
+					}
+				}
+				mother_even_if_dead = {
+					random_sibling = {
+						limit = {
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+						add_spouse = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0.2 #Basic slow down.
+			}
+			modifier = { #
+				factor = 0
+				NOT = { age = 20 }
+				is_ruler = no
+				liege = { ai = no is_close_relative = ROOT }
+			}
+			modifier = { #Avoid marrying aunts and nephews
+				factor = 0.01
+				religion_group = jewish_group
+				is_female = no
+			}
+			modifier = {
+				factor = 100
+				is_female = yes
+				OR = {
+					is_ruler = yes
+					is_primary_heir = yes
+				}
+			}
+			modifier = {
+				factor = 0.1 #Zoroastrians prefer closer relations...
+				religion_group = zoroastrian_group
+			}
+			modifier = {
+				factor = 0.2
+				religion = messalian
+			}
+		}
+	}
+	marry_cousin = { #Make cousin marriage more common.
+		potential = {
+			#NOT = { religion_group = muslim }
+			is_marriage_adult = yes
+			ai = yes
+			OR = {
+				NOT = { age = 40 }
+				is_female = no
+			}
+			OR = {
+				is_female = no
+				is_ruler = yes
+				is_primary_heir = yes
+			}
+			fertility = 0.01
+			prisoner = no
+			OR = {
+				is_ruler = yes
+				is_councillor = yes
+				any_liege = { 
+					OR = {
+						dynasty = ROOT 
+						is_close_relative = ROOT
+					}
+				}
+			}
+			is_married = no
+			is_betrothed = no
+			OR = {
+				father_even_if_dead = {
+					any_sibling = {
+						any_child = {
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+					}
+				}
+				mother_even_if_dead = {
+					any_sibling = {
+						any_child = {
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							OR = {
+								NOT = { age = 40 }
+								is_female = no
+							}
+							OR = {
+								AND = {
+									is_female = yes
+									ROOT = { is_female = no }
+								}
+								AND = {
+									is_female = no
+									ROOT = { is_female = yes }
+								}
+							}
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+								AND = {
+									religion_group = ROOT
+									NOT = { religion_group = pagan_group }
+								}
+								AND = {
+									religion_group = pagan_group
+									religion = ROOT
+								}
+							}
+							can_marry = ROOT
+						}
+					}
+				}
+
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			if = {
+				limit = {
+					father_even_if_dead = {
+						any_sibling = {
+							any_child = {
+								is_marriage_adult = yes
+								ai = yes
+								OR = {
+									is_ruler = yes
+									liege = { ai = no }
+									NOT = { liege = { is_close_relative = ROOT } }
+									age = 20
+								}
+								OR = {
+									NOT = { age = 40 }
+									is_female = no
+								}
+								OR = {
+									AND = {
+										is_female = yes
+										ROOT = { is_female = no }
+									}
+									AND = {
+										is_female = no
+										ROOT = { is_female = yes }
+									}
+								}
+								fertility = 0.01
+								is_married = no
+								is_consort = no
+								is_betrothed = no
+								prisoner = no
+								OR = {
+									same_realm = PREV
+									same_realm = ROOT
+									religion = ROOT
+									AND = {
+										religion_group = ROOT
+										NOT = { religion_group = pagan_group }
+									}
+									AND = {
+										religion_group = pagan_group
+										religion = ROOT
+									}
+								}
+								can_marry = ROOT
+							}
+						}
+					}
+				}
+				father_even_if_dead = {
+					random_sibling = {
+						limit = {
+							any_child = {
+								is_marriage_adult = yes
+								ai = yes
+								OR = {
+									is_ruler = yes
+									liege = { ai = no }
+									NOT = { liege = { is_close_relative = ROOT } }
+									age = 20
+								}
+								OR = {
+									NOT = { age = 40 }
+									is_female = no
+								}
+								OR = {
+									AND = {
+										is_female = yes
+										ROOT = { is_female = no }
+									}
+									AND = {
+										is_female = no
+										ROOT = { is_female = yes }
+									}
+								}
+								fertility = 0.01
+								is_married = no
+								is_consort = no
+								is_betrothed = no
+								prisoner = no
+								OR = {
+									same_realm = PREV
+									same_realm = ROOT
+									religion = ROOT
+									AND = {
+										religion_group = ROOT
+										NOT = { religion_group = pagan_group }
+									}
+									AND = {
+										religion_group = pagan_group
+										religion = ROOT
+									}
+								}
+								can_marry = ROOT
+							}
+						}
+						random_child = {
+							limit = {
+								is_marriage_adult = yes
+								ai = yes
+								OR = {
+									is_ruler = yes
+									liege = { ai = no }
+									NOT = { liege = { is_close_relative = ROOT } }
+									age = 20
+								}
+								OR = {
+									NOT = { age = 40 }
+									is_female = no
+								}
+								OR = {
+									AND = {
+										is_female = yes
+										ROOT = { is_female = no }
+									}
+									AND = {
+										is_female = no
+										ROOT = { is_female = yes }
+									}
+								}
+								fertility = 0.01
+								is_married = no
+								is_consort = no
+								is_betrothed = no
+								prisoner = no
+								OR = {
+									same_realm = PREV
+									same_realm = ROOT
+									religion = ROOT
+									AND = {
+										religion_group = ROOT
+										NOT = { religion_group = pagan_group }
+									}
+									AND = {
+										religion_group = pagan_group
+										religion = ROOT
+									}
+								}
+								can_marry = ROOT
+							}
+							add_spouse = ROOT
+						}
+					}
+				}
+			}
+			if = { #Take from mother's side of the family if father's isn't available.
+				limit = {
+					NOT = {
+						father_even_if_dead = {
+							any_sibling = {
+								any_child = {
+									is_marriage_adult = yes
+									ai = yes
+									OR = {
+										is_ruler = yes
+										liege = { ai = no }
+										NOT = { liege = { is_close_relative = ROOT } }
+										age = 20
+									}
+									OR = {
+										NOT = { age = 40 }
+										is_female = no
+									}
+									OR = {
+										AND = {
+											is_female = yes
+											ROOT = { is_female = no }
+										}
+										AND = {
+											is_female = no
+											ROOT = { is_female = yes }
+										}
+									}
+									fertility = 0.01
+									is_married = no
+									is_consort = no
+									is_betrothed = no
+									prisoner = no
+									OR = {
+										same_realm = PREV
+										same_realm = ROOT
+										religion = ROOT
+										AND = {
+											religion_group = ROOT
+											NOT = { religion_group = pagan_group }
+										}
+										AND = {
+											religion_group = pagan_group
+											religion = ROOT
+										}
+									}
+									can_marry = ROOT
+								}
+							}
+						}
+					}
+				}
+				mother_even_if_dead = {
+					random_sibling = {
+						limit = {
+							any_child = {
+								is_marriage_adult = yes
+								ai = yes
+								OR = {
+									is_ruler = yes
+									liege = { ai = no }
+									NOT = { liege = { is_close_relative = ROOT } }
+									age = 20
+								}
+								OR = {
+									NOT = { age = 40 }
+									is_female = no
+								}
+								OR = {
+									AND = {
+										is_female = yes
+										ROOT = { is_female = no }
+									}
+									AND = {
+										is_female = no
+										ROOT = { is_female = yes }
+									}
+								}
+								fertility = 0.01
+								is_married = no
+								is_consort = no
+								is_betrothed = no
+								prisoner = no
+								OR = {
+									same_realm = PREV
+									same_realm = ROOT
+									religion = ROOT
+									AND = {
+										religion_group = ROOT
+										NOT = { religion_group = pagan_group }
+									}
+									AND = {
+										religion_group = pagan_group
+										religion = ROOT
+									}
+								}
+								can_marry = ROOT
+							}
+						}
+						random_child = {
+							limit = {
+								is_marriage_adult = yes
+								ai = yes
+								OR = {
+									is_ruler = yes
+									liege = { ai = no }
+									NOT = { liege = { is_close_relative = ROOT } }
+									age = 20
+								}
+								OR = {
+									NOT = { age = 40 }
+									is_female = no
+								}
+								OR = {
+									AND = {
+										is_female = yes
+										ROOT = { is_female = no }
+									}
+									AND = {
+										is_female = no
+										ROOT = { is_female = yes }
+									}
+								}
+								fertility = 0.01
+								is_married = no
+								is_consort = no
+								is_betrothed = no
+								prisoner = no
+								OR = {
+									same_realm = PREV
+									same_realm = ROOT
+									religion = ROOT
+									AND = {
+										religion_group = ROOT
+										NOT = { religion_group = pagan_group }
+									}
+									AND = {
+										religion_group = pagan_group
+										religion = ROOT
+									}
+								}
+								can_marry = ROOT
+							}
+							add_spouse = ROOT
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0.33 #Slow it down
+			}
+			modifier = {
+				factor = 0.05 #Zoroastrians prefer closer relations...
+				religion_group = zoroastrian_group
+			}
+			modifier = {
+				factor = 0.2
+				religion = messalian
+			}
+			modifier = {
+				factor = 0.1
+				religion_group = muslim #Muslims prefer FBD marriage
+			}
+			modifier = { #
+				factor = 0
+				NOT = { age = 20 }
+				is_ruler = no
+				liege = { ai = no is_close_relative = ROOT }
+			}
+		}
+	}
+	marry_fbd = { #Muslim cousin marriage
+		is_high_prio = yes
+		potential = {
+			religion_group = muslim
+			is_female = no
+			is_marriage_adult = yes
+			ai = yes
+			fertility = 0.01
+			prisoner = no
+			OR = {
+				is_ruler = yes
+				is_councillor = yes
+				any_liege = { 
+					OR = {
+						dynasty = ROOT 
+						is_close_relative = ROOT
+					}
+				}
+			}
+			OR = {
+				is_married = no
+				AND = {
+					NOT = { num_of_spouses = 2 }
+					tier = count
+				}
+				AND = {
+					NOT = { num_of_spouses = 3 }
+					OR = {
+						tier = duke
+						has_minor_title = title_prince
+					}
+				}
+				AND = {
+					NOT = { num_of_spouses = 4 }
+					OR = {
+						tier = king
+						tier = emperor
+					}
+				}
+			}
+			father_even_if_dead = {
+				any_sibling = {
+					is_female = no
+					OR = {
+						religion = ROOT #Will not agree if not same rel...
+						same_realm = ROOT
+						is_alive = no
+					}
+					any_child = {
+						is_female = yes
+						is_marriage_adult = yes
+						ai = yes
+						OR = {
+							is_ruler = yes
+							liege = { ai = no }
+							NOT = { liege = { is_close_relative = ROOT } }
+							age = 20
+						}
+						NOT = { age = 40 }
+						fertility = 0.01
+						is_married = no
+						is_consort = no
+						is_betrothed = no
+						prisoner = no
+						can_marry = ROOT
+						OR = {
+							same_realm = PREV
+							same_realm = ROOT
+							religion = ROOT
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			father = {
+				random_sibling = {
+					limit = {
+						is_female = no
+						OR = {
+							religion = ROOT #Will not agree if not same rel...
+							same_realm = ROOT
+							is_alive = no
+						}
+						any_child = {
+							is_female = yes
+							is_marriage_adult = yes
+							ai = yes
+							OR = {
+								is_ruler = yes
+								liege = { ai = no }
+								NOT = { liege = { is_close_relative = ROOT } }
+								age = 20
+							}
+							NOT = { age = 40 }
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								same_realm = ROOT
+								religion = ROOT
+							}
+						}
+					}
+					random_child = {
+						limit = {
+							is_female = yes
+							is_marriage_adult = yes
+							ai = yes
+							NOT = { age = 40 }
+							fertility = 0.01
+							is_married = no
+							is_consort = no
+							is_betrothed = no
+							prisoner = no
+							OR = {
+								same_realm = PREV
+								religion = ROOT
+								same_realm = ROOT
+							}
+						}
+						add_spouse = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = { 
+			factor = 1 
+			modifier = {
+				factor = 0
+				NOT = { age = 20 }
+				liege = { ai = no is_close_relative = ROOT }
+			}
+		}
+	}
+}

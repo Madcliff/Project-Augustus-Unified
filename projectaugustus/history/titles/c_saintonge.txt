@@ -1,3 +1,20 @@
+470.1.1={
+	holder = 1428102
+	liege="k_visigoth"
+}
+631.1.1={
+	holder = 1000153031
+	liege = d_aquitaine
+}
+640.1.1 = {
+	holder = 0
+}
+678.1.1={
+	holder = 190478 #Boggis
+}
+678.1.1={
+	liege=k_france
+}
 678.1.1={
 	holder = 190478 #Boggis
 }

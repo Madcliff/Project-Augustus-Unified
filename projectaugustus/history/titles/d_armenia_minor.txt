@@ -1,7 +1,10 @@
-337.1.1={
+330.1.1={
 	liege="e_byzantium"
 	vice_royalty = yes
-    de_jure_liege = k_cilicia
+        de_jure_liege = k_cilicia
+}
+628.1.1 = {
+	holder = 1000254525
 }
 637.1.1={
 	holder=0
@@ -10,7 +13,7 @@
 }
 786.1.1={
 	holder=146040
-	set_tribute_suzerain = { who = e_sunni percentage = 0.10 }
+	set_tribute_suzerain = { who = e_sunni percentage = 0.40 }
 }
 805.1.1={
 	holder=146041
@@ -19,7 +22,7 @@
 	holder=159729
 }
 852.1.1={
-    clear_tribute_suzerain = e_sunni
+        clear_tribute_suzerain = e_sunni
 }
 860.1.1={
 	holder=159730

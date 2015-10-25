@@ -8,7 +8,7 @@ max_settlements = 3
 
 b_chios = castle
 b_tigani = city
-b_nea_moni = temple
+b_samos = temple
 
 #b_marathokampos = castle
 #b_ikaria = temple
@@ -17,7 +17,7 @@ b_nea_moni = temple
 #b_pagondas = castle
 
 # Misc
-culture = greek
+culture = demotic
 religion = orthodox
 terrain = mountain
 

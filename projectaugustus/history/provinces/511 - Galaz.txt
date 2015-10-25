@@ -17,13 +17,9 @@ b_aegyssus = temple
 #b_crisan = castle
 
 # Misc
-culture = dacian
+culture = daco_roman
 religion = tengri_pagan
 
 # History
-
-900.1.1 = { 
-culture = romanian
-religion = orthodox 
-}
+900.1.1 = { religion = orthodox culture = romanian }
 1237.1.1 = { trade_post = b_grimaldi }

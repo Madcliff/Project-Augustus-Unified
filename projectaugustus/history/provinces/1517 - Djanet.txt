@@ -1,0 +1,14 @@
+
+# County Title
+title = c_djanet
+
+# Settlements
+max_settlements = 2
+b_djanet = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+# History

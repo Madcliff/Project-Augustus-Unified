@@ -3,6 +3,15 @@
         de_jure_liege = 0
 }
 ##
+629.10.19 = {
+	holder = 168696 #Dagobert Ier
+}
+751.11.1 = {
+	holder = 131722 # Pépin the Short
+	effect = {
+		insert_title_history = k_france
+	}
+}
 768.9.24={
 	law = agnatic_succession
 }

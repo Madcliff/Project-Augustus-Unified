@@ -1,0 +1,767 @@
+1000448000 = {
+	name="Anan" #Azrael Malkhut ben Dawid
+	dynasty=1000154000
+	dna="aahgfhcbeap"
+	properties="ci0efd00000"
+	father=1000448037
+	mother=1000448038
+	martial=4
+	diplomacy=9
+	intrigue=6
+	stewardship=6
+	learning=9
+	religion="karaite"
+	culture="mizrahi"
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
+
+1000448001 = {
+	name="Abahu" #Nechemyah ben Sha'ul
+	dynasty=random
+	father=1000448017
+	mother=1000448018
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="chalcendonian"
+	culture="aramean"
+	751.5.8 = {
+		birth="751.5.8"
+	}
+	836.1.1 = {
+		death = yes
+	}
+}
+
+1000448002 = {
+	name="Gavri'el" #Gavri'el ben Yerav'am
+	dynasty=1000154002
+	father=1000448013
+	mother=1000448014
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	748.3.25 = {
+		birth="748.3.25"
+	}
+	815.1.1 = {
+		death = yes
+	}
+}
+	
+1000448003 = {
+	name="Efrayim" #Efrayim ben Sha'ul
+	dynasty=1000154001
+	father=1000448017
+	mother=1000448018
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="rabbinic_judaism"
+	culture="mizrahi"
+	748.3.25 = {
+		birth="748.3.25"
+	}
+	815.1.1 = {
+		death = yes
+	}
+}
+
+1000448004 = {
+	name="Eliyyahu" #Eliyyahu ben Yerav'am
+	dynasty=1000154002
+	father=1000448013
+	mother=1000448014
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="samaritan"
+	culture="hebrew"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	810.5.6 = {
+		death = yes
+	}
+}
+
+1000448005 = {
+	name="Shemu'el" #Shemu'el ben Levi
+	dynasty=1000154010
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	add_trait="levi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	808.8.26 = {
+		death = yes
+	}
+}
+
+1000448006 = {
+	name="Yehochanan" #Yehochanan ben Sha'ul
+	dynasty="1000154001"
+	father=1000448017
+	mother=1000448018
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	805.2.5 = {
+		death = yes
+	}
+}
+
+1000448007 = {
+	name="Daniyyel" #Daniyyel ben Levi
+	dynasty="1000154010"
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	add_trait="levi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	802.5.4 = {
+		death = yes
+	}
+}
+
+1000448008 = {
+	name="Seraiah" #Seraiah ben Menahem
+	dynasty="1000154008"
+	father=1000448015
+	mother=1000448016
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	795.6.25 = {
+		death = yes
+	}
+}
+
+1000448009 = {
+	name="Zevulun" #Zevulun ben Sha'ul
+	dynasty="1000154001"
+	father=1000448017
+	mother=1000448018
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	787.9.23 = {
+		death = yes
+	}
+}
+
+1000448010 = {
+	name="Moshe" #Moshe ben Levi
+	dynasty="1000154010"
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	add_trait="levi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	787.9.23 = {
+		death = yes
+	}
+}
+
+1000448011 = {
+	name="Kayin" #Kayin ben Sha'ul
+	dynasty="1000154001"
+	father=1000448017
+	mother=1000448018
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	795.6.25 = {
+		death = yes
+	}
+}
+
+1000448012 = {
+	name="Chavaqquq" #Chavaqquq ben Levi
+	dynasty="1000154010"
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	add_trait="levi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	802.5.4 = {
+		death = yes
+	}
+}
+
+1000448041 = {
+	name="Eiran" #Eiran ben Yehu
+	dynasty="1000154006"
+	father=1000448039
+	mother=1000448040
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	795.6.25 = {
+		death = yes
+	}
+}
+
+1000448042 = {
+	name="Haran" #Haran ben Yehu
+	dynasty="1000154006"
+	father=1000448039
+	mother=1000448040
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="rabbinic_judaism"
+	culture="mizrahi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	795.6.25 = {
+		death = yes
+	}
+}
+
+#Parents of Houses
+1000448013 = {
+	name="Zevadyah" #Zevadyah ben Yerav'am
+	dynasty=1000154002
+	religion="samaritian"
+	culture="hebrew"
+	add_spouse = 500015
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+1000448014 = {
+	name="Elisheba" #Elisheba ben Yerav'am
+	female=yes
+	religion="samaritian"
+	culture="hebrewi"
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+1000448015 = {
+	name="Menashsheh" #Menashsheh ben Menahem
+	dynasty="1000154008"
+	religion="karaite"
+	culture="mizrahi"
+	add_spouse = 500017
+	701.1.1 = {
+		birth="751.1.1"
+	}
+	765.6.25 = {
+		death = yes
+	}
+}
+
+1000448016 = {
+	name="Avigayil" #Avigayil ben Menahem
+	female=yes
+	religion="karaite"
+	culture="mizrahi"
+	701.1.1 = {
+		birth="751.1.1"
+	}
+	765.6.25 = {
+		death = yes
+	}
+}
+
+1000448017 = {
+	name="Lemuel" #Lemuel ben Sha'ul
+	dynasty="1000154001"
+	religion="karaite"
+	culture="mizrahi"
+	add_spouse = 500019
+	701.1.1 = {
+		birth="751.1.1"
+	}
+	765.6.25 = {
+		death = yes
+	}
+}
+
+1000448018 = {
+	name="Atalyah" #Atalyah ben Sha'ul
+	female=yes
+	religion="karaite"
+	culture="mizrahi"
+	701.1.1 = {
+		birth="751.1.1"
+	}
+	765.6.25 = {
+		death = yes
+	}
+}
+1000448037 = {
+	name="Metushelach" #Metushelach Malkhut ben Dawid
+	dynasty="1000154000"
+	religion="karaite"
+	culture="mizrahi"
+	add_spouse = 500019
+	701.1.1 = {
+		birth="751.1.1"
+	}
+	765.6.25 = {
+		death = yes
+	}
+}
+
+1000448038 = {
+	name="Delilah" #Delilah Malkhut ben Dawid
+	female=yes
+	religion="karaite"
+	culture="mizrahi"
+	701.1.1 = {
+		birth="751.1.1"
+	}
+	765.6.25 = {
+		death = yes
+	}
+}
+
+1000448039 = {
+	name="Shema'yah" #Shema'yah ben Yehu
+	dynasty="1000154006"
+	religion="karaite"
+	culture="mizrahi"
+	701.1.1 = {
+		birth="751.1.1"
+	}
+	765.6.25 = {
+		death = yes
+	}
+}
+
+1000448040 = {
+	name="Yemima" #Yemima ben Yehu
+	female = yes
+	dynasty="1000154006"
+	religion="karaite"
+	culture="mizrahi"
+	701.1.1 = {
+		birth="751.1.1"
+	}
+	765.6.25 = {
+		death = yes
+	}
+}
+
+#Cochin Jews
+1000448019 = {
+	name="Kalev" #Kalev ben Ba'asha
+	dynasty="1000154003"
+	father=1000448029
+	mother=1000448030
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	749.1.1 = {
+		birth="749.1.1"
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+	
+	
+1000448020 = {
+	name="Mal'akhi" #Mal'akhi ben Zimri"
+	dynasty="1000154004"
+	father=1000448031
+	mother=1000448032
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	750.1.1 = {
+		birth="750.1.1"
+	}
+	815.1.1 = {
+		death = yes
+	}
+}
+	
+1000448021 = {
+	name="Shimon" #Shimon ben Omri
+	dynasty="1000154005"
+	father=1000448033
+	mother=1000448034
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	749.1.1 = {
+		birth="749.1.1"
+	}
+	807.1.1 = {
+		death = yes
+	}
+}
+	
+1000448022 = {
+	name="Nachum" #Nachum ben Ba'asha
+	dynasty="1000154003"
+	father=1000448029
+	mother=1000448030
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1000448023 = {
+	name=Amnon #Amnon ben Levi
+	dynasty="1000154010"
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	add_trait="levi"
+	746.1.1 = {
+		birth="746.1.1"
+	}
+	801.1.1 = {
+		death = yes
+	}
+}
+	
+1000448024 = {
+	name="Gid'on" #Gid'on ben Zimri
+	dynasty="1000154004"
+	father=1000448031
+	mother=1000448032
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	748.1.1 = {
+		birth="748.1.1"
+	}
+	804.1.1 = {
+		death = yes
+	}
+}
+	
+1000448025 = {
+	name="Metushelach" #Metushelach ben Levi
+	dynasty="1000154010"
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	add_trait="levi"
+	747.1.1 = {
+		birth="747.1.1"
+	}
+	798.1.1 = {
+		death = yes
+	}
+}
+	
+1000448026 = {
+	name="Kenanyahu" #Kenanyahu ben Omri
+	dynasty="1000154005"
+	father=1000448033
+	mother=1000448034
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	751.1.1 = {
+		birth="751.1.1"
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+	
+1000448027 = {
+	name="Ari'el" #Ari'el ben Levi
+	dynasty="1000154010"
+	father=500034
+	mother=500035
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	add_trait="levi"
+	add_trait="twin"
+	753.1.1 = {
+		birth="753.1.1"
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+
+1000448028 = {
+	name="Immanuel" #Immanuel ben Pekah
+	dynasty="1000154009"
+	father=1000448035
+	mother=1000448036
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	health=5.5
+	religion="karaite"
+	culture="mizrahi"
+	add_trait="twin"
+	753.1.1 = {
+		birth="753.1.1"
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+
+#Parents of Cochin Jewish Houses
+1000448029 = {
+	name="Iyyov" #Iyyov ben Ba'asha
+	dynasty=1000154003
+	religion="karaite"
+	culture="mizrahi"
+	add_spouse = 500031
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+1000448030 = {
+	name="Elisheba" #Elisheba ben Ba'asha
+	female=yes
+	religion="karaite"
+	culture="mizrahi"
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+1000448031 = {
+	name="Koresh" #Koresh ben Zimri
+	dynasty=1000154004
+	religion="karaite"
+	culture="mizrahi"
+	add_spouse = 500033
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+1000448032 = {
+	name="Elisheba" #Elisheba ben Zimri
+	female=yes
+	religion="karaite"
+	culture="mizrahi"
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+1000448033 = {
+	name="Yefet" #Yefet ben Omri
+	dynasty=1000154005
+	religion="karaite"
+	culture="mizrahi"
+	add_spouse = 500035
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+1000448034 = {
+	name="Bat-Sheva" #Bat-Sheva ben Omri
+	female=yes
+	religion="karaite"
+	culture="mizrahi"
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+1000448035 = {
+	name="Yachin" #Yachin ben Pekah
+	dynasty=1000154009
+	religion="karaite"
+	culture="mizrahi"
+	add_spouse = 500035
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+1000448036 = {
+	name="Machalat" #Machalat ben Pekah
+	female=yes
+	religion="karaite"
+	culture="mizrahi"
+	708.3.25 = {
+		birth="708.3.25"
+	}
+	748.1.1 = {
+		death = yes
+	}
+}

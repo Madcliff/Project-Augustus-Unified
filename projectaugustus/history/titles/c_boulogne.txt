@@ -1,3 +1,22 @@
+439.1.1=
+{
+	holder=10014991
+}
+457.1.2=
+{
+	holder=10017991
+}
+481.1.1=
+{
+	holder=10022991
+}
+620.1.1 = {
+	liege = k_france
+	holder = 1000153012 #Waldebert, should be at Luxeil, but placeholder was required
+}
+650.1.1 = {
+	holder = 0
+}
 760.1.1={
 	liege="k_neustria"
 	holder = 91486 #HERMENELD, historical placeholder

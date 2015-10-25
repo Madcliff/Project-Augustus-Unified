@@ -1,0 +1,19 @@
+# County Title
+title = c_kinnaur
+
+# Settlements
+max_settlements = 5
+b_pooh = castle
+b_kalpa = temple
+b_nichar = city
+b_recknog = castle
+
+
+
+# Misc
+culture = panjabi
+religion = shaivist 
+
+
+# History
+

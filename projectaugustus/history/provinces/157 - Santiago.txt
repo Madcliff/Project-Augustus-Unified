@@ -15,8 +15,12 @@ b_tuy = temple
 #b_vilagarcia = castle
 
 # Misc
-culture = hispanic
+culture = suebi
 religion = catholic
+
+700.1.1 = {
+	culture = iberian
+}
 
 # History
 

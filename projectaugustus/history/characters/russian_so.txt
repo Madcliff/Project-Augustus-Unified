@@ -1,0 +1,37 @@
+12253991 = {
+	name="Kyi"
+	dynasty=133
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="orthodox"
+	culture="early_slav"
+	add_trait="thrifty_clerk"
+	450.1.2={
+		birth="450.1.2"
+	}
+	530.1.2={
+		death="530.1.2"
+	}
+}
+
+12500991 = {
+	name="Vseslav"
+	dynasty=134
+	martial=7
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="orthodox"
+	culture="early_slav"
+	add_trait="tough_soldier"
+	450.1.2={
+		birth="450.1.2"
+	}
+	530.1.2={
+		death="530.1.2"
+	}
+}
+
+#

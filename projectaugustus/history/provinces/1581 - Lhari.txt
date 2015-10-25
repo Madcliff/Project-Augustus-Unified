@@ -1,0 +1,10 @@
+# No previous file for PROV1581
+title = c_lhari
+# Settlements
+max_settlements = 3
+b_lhari = tribal
+
+
+culture = tibetan
+religion = bon_pagan
+terrain = hills

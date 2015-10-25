@@ -1,0 +1,89 @@
+286.4.2={
+        active = yes
+	holder=145293
+	law = crown_authority_4
+	law = succ_primogeniture
+	law = centralization_3
+	law = imperial_administration
+        law = vassal_wars_2
+        law = legislature_1
+        law = feudal_tax_1
+} # Maximian
+305.5.1={
+	holder=70524
+}
+311.5.5={
+	holder=145294
+} # Maxentius
+311.6.5={
+	holder=145239
+} # Maximinus II
+324.9.19={
+	holder=70523
+}
+337.5.22={
+	holder=70520
+}
+340.4.1={
+	holder=70522
+}
+350.2.1={
+	holder=70521
+}
+361.11.3={
+	holder=145237
+}
+363.6.26={
+	holder=145235
+}
+364.2.17={
+	holder=145231
+}
+378.8.9={
+	holder=145233
+}
+383.11.22={
+	holder=145234
+} # Valentinian II
+392.5.15={
+	holder=70534
+}
+395.1.17={
+	holder=145227
+}
+421.9.2={
+	holder=145228
+}
+423.8.25={
+	holder=145229
+} # Valentinian III
+455.3.16={
+        holder=200000000
+}
+455.5.31={
+        holder=200000001
+}
+457.1.1={
+        holder=200000002
+}
+461.4.7={
+        holder=200000003
+}
+465.4.15={
+        holder=200000004
+}
+472.7.11={
+        holder=200000005
+}
+472.11.2={
+        holder=200000006
+}
+474.6.1={
+        holder=200000007
+}
+480.4.25={
+        holder=0
+}
+962.2.2={
+        active=no
+}

@@ -1,0 +1,15 @@
+
+# County Title
+title = c_awbari
+
+# Settlements
+max_settlements = 2
+b_awbari = castle
+
+
+
+# Misc
+culture = kanuri
+religion = sunni
+
+# History

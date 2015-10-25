@@ -1,0 +1,18 @@
+# County Title
+title = c_katti
+
+# Settlements
+max_settlements = 4
+b_karnali = castle
+b_bheri = temple
+b_rapti = city
+
+
+
+# Misc
+culture = nepali
+religion = shaivist
+
+
+# History
+

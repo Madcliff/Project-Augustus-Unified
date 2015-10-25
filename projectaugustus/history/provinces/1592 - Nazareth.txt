@@ -1,0 +1,18 @@
+# 1592 - Nazareth
+
+# County Title
+title = c_nazareth
+
+# Settlements
+max_settlements = 3
+b_nazareth24 = castle
+b_placeholder25 = temple
+
+# Misc
+culture = aramean 
+religion = orthodox
+
+# History
+
+867.1.1 = { religion = orthodox }
+1187.1.1 = { b_placeholder26 = temple }

@@ -1,0 +1,21 @@
+SHIITE_PATRIARCH;Grand Ayatollah of [Kingdom];;;;;;;;;;;;;x
+SHIITE_PENTARCH;Grand Ayatollah of [County];;;;;;;;;;;;;x
+salafi;Salafi;;;;;;;;;x
+salafi_desc;A ultra-orthodox Sunni Muslim sect advocating a return to the early Islam of the Koran and Sunna.;;;;;;;x
+athari;Athari;;;;;;;;;;x
+athari_desc;Athari is a school of traditionalist Islamic scholars who reject Islamic "theology" (kalam) in favor of strict textualism in interpreting the Quran. The name is derived from the Arabic word athar, literally meaning "remnant", and also referring to "narrations". Their disciples are called the Atharis.;;;;;;;;x
+maturidi;Maturidi;;;;;;;;x
+maturidi_desc;Maturidi is a school of Islam with a emphasis on human reasoning and rationality;;;;;;;;;;;;x
+embrace_athari:Embrace Athari;;;;;;;;;;;;x
+embrace_athari_desc;Embrace the Athari school of Sunni Islam;;;;;;;;;;;;;x
+embrace_maturidi;Embrace Maturidi;;;;;;;;;;;;x
+embrace_maturidi_desc;Embrace the Maturidi school of Sunni Islam;;;;;;;;;;;;x
+haymanot_law;Haymanot Law;;;;;;;;;;x
+jewish_law;Jewish Law;;;;;;;;x
+talmudic_law;Talmudic Law;;;;;;;;;;;x
+noachide_law;Noachide Law;;;;;;;;;x
+tanakh_law;Tanakh Law;;;;;;;;;x
+TAQWA;Taqwa;;;;;;;;;;;;x
+kharijite;Sufri;;;;;;;;x
+haruriyyah;Haruriyyah;;;;;;;;x
+buddhist;Thereveda Buddhist;;;;;;;;;;x

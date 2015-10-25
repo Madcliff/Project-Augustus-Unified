@@ -1,0 +1,541 @@
+1438108 = {
+	name="Odovacer"
+	dynasty=1027039
+	martial=13
+	diplomacy=8
+	intrigue=14
+	stewardship=9
+	religion="arian"
+	culture="german"
+	add_trait="brave"
+	add_trait="deceitful"
+	add_trait="proud"
+	add_trait="greedy"
+	add_trait="duelist"
+	add_trait="strong"
+	add_trait="underhanded_rogue"
+	433.1.1 = {
+		birth="433.1.1"
+	}
+	493.3.15 = {
+		death="493.3.15"
+	}
+}
+
+1428100 = {
+	name="Euric"
+	dynasty=1027045
+	martial=11
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	religion="arian"
+	culture="german"
+	add_trait="brave"
+	add_trait="ambitious"
+	add_trait="just"
+	add_trait="scholar"
+	add_trait="grey_eminence"
+	440.1.1 = {
+		birth="440.1.1"
+	}
+	475.1.1 = {
+		add_spouse=1428101
+	}
+	484.1.2 = {
+		death="484.1.2"
+	}
+}
+1428101 = {
+	name="Ragnachildis"
+	female=yes
+	martial=5
+	diplomacy=12
+	intrigue=12
+	stewardship=7
+	religion="arian"
+	culture="german"
+	add_trait="kind"
+	add_trait="shy"
+	add_trait="humble"
+	add_trait="naive_appeaser"
+	450.1.1 = {
+		birth="450.1.1"
+	}
+	500.1.2 = {
+		death="484.1.2"
+	}
+}
+
+1428102 = {
+	name="Senoch"
+	dynasty=2
+	martial=10
+	diplomacy=5
+	intrigue=7
+	stewardship=15
+	religion="arian"
+	culture="german"
+	add_trait="trusting"
+	add_trait="ugly"
+	add_trait="martial_cleric"
+	437.1.1 = {
+		birth="437.1.1"
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+
+1428103 = {
+	name="Theodemir"
+	dynasty=8
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=15
+	religion="arian"
+	culture="german"
+	add_trait="gardener"
+	add_trait="intricate_webweaver"
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	447.1.1 = {
+		add_spouse="1428104"
+	}
+	474.1.2 = {
+		death="474.1.2"
+	}
+}
+1428104 = {
+	name="Ereleuva"
+	dynasty=8
+	martial=10
+	diplomacy=10
+	intrigue=10
+	stewardship=10
+	religion = orthodox
+	culture="german"
+	add_trait="zealous"
+	add_trait="intricate_webweaver"
+	female=yes
+	430.1.1 = {
+		birth="420.1.1"
+	}
+	499.1.2 = {
+		death="474.1.2"
+	}
+}
+1428105 = {
+	name="Theodoric"
+	dynasty=8
+	martial=8
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	religion="arian"
+	culture="german"
+	add_trait="just"
+	add_trait="strong"
+	add_trait="deceitful"
+	add_trait="ambitious"
+	add_trait="zealous"
+	add_trait="gregarious"
+	add_trait="grey_eminence"
+	father=1428103
+	mother=1428104
+	454.1.1 = {
+		birth="454.1.1"
+	}
+	526.1.2 = {
+		death="526.1.2"
+	}
+}
+1428106 = {
+	name="Amalafrida"
+	dynasty=8
+	martial=9
+	diplomacy=9
+	intrigue=9
+	stewardship=9
+	religion="arian"
+	culture="german"
+	add_trait="fair"
+	father=1428103
+	mother=1428104
+	female=yes
+	456.1.1 = {
+		birth="456.1.1"
+	}
+	523.1.2 = {
+		death="523.1.2"
+	}
+}
+1428107 = {
+	name="Theodegotha"
+	dynasty=8
+	religion="arian"
+	culture="german"
+	father=1428105
+	female=yes
+	473.1.1 = {
+		birth="473.1.1"
+	}
+	530.1.2 = {
+		death="530.1.2"
+	}
+}
+1428108 = {
+	name="germana"
+	dynasty=8
+	religion="arian"
+	culture="german"
+	father=1428105
+	female=yes
+	475.8.1 = {
+		birth="475.8.1"
+	}
+	546.1.2 = {
+		death="546.1.2"
+	}
+}
+1428109 = {
+	name="Vidimer"
+	dynasty=8
+	martial=12
+	diplomacy=8
+	intrigue=10
+	stewardship=9
+	religion="arian"
+	culture="german"
+	add_trait="arbitrary"
+	add_trait="ambitious"
+	add_trait="deceitful"
+	add_trait="maimed"
+	add_trait="amateurish_plotter"
+	415.1.1 = {
+		birth="415.1.1"
+	}
+	474.1.2 = {
+		death="474.1.2"
+	}
+}
+1428110 = {
+	name="Theoderic"
+	dynasty=9
+	martial=9
+	diplomacy=9
+	intrigue=8
+	stewardship=10
+	religion="arian"
+	culture="german"
+	add_trait="gregarious"
+	add_trait="scholar"
+	add_trait="proud"
+	add_trait="envious"
+	add_trait="tough_soldier"
+	father=1428113
+	434.1.1 = {
+		birth="434.1.1"
+	}
+	455.1.1 = {
+		add_spouse=1428112
+	}
+	471.1.1 = {
+		give_nickname = nick_strabo
+	}
+	481.1.2 = {
+		death="481.1.2"
+	}
+}
+1428111 = {
+	name="Recitach"
+	dynasty=9
+	martial=7
+	diplomacy=7
+	intrigue=10
+	stewardship=8
+	religion="arian"
+	culture="german"
+	add_trait="weak"
+	add_trait="stutter"
+	add_trait="ambitious"
+	father=1428110
+	mother=1428112
+	458.1.1 = {
+		birth="458.1.1"
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+1428112 = {
+	name="Sigilda"
+	dynasty=9
+	martial=12
+	diplomacy=8
+	intrigue=10
+	stewardship=9
+	religion="arian"
+	culture="german"
+	add_trait="humble"
+	add_trait="content"
+	female=yes
+	437.1.1 = {
+		birth="437.1.1"
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+1428113 = {
+	name="Ostrys"
+	dynasty=9
+	martial=12
+	diplomacy=8
+	intrigue=10
+	stewardship=9
+	religion="arian"
+	culture="german"
+	add_trait="strong"
+	add_trait="brave"
+	add_trait="cruel"
+	add_trait="wounded"
+	add_trait="zealous"
+	add_trait="tough_soldier"
+	405.1.1 = {
+		birth="405.1.1"
+	}
+	470.1.2 = {
+		death="470.1.2"
+	}
+}
+1428114 = {
+	name="Anagastes"
+	martial=12
+	diplomacy=8
+	intrigue=10
+	stewardship=9
+	religion="arian"
+	culture="german"
+	add_trait="proud"
+	add_trait="scholar"
+	add_trait="skilled_tactician"
+	430.1.1 = {
+		birth="430.1.1"
+	}
+	485.1.2 = {
+		death="485.1.2"
+	}
+}
+1428115 = {
+	name="Vidimer"
+	dynasty=8
+	martial=11
+	diplomacy=12
+	intrigue=10
+	stewardship=9
+	religion="arian"
+	culture="german"
+	father=1428109
+	add_trait="temperate"
+	add_trait="ambitious"
+	add_trait="gregarious"
+	add_trait="charismatic_negotiator"
+	448.1.1 = {
+		birth="448.1.1"
+	}
+	480.1.2 = {
+		death="480.1.2"
+	}
+}
+1428116 = {
+	name="Theodemund"
+	dynasty=16
+	martial=10
+	diplomacy=9
+	intrigue=10
+	stewardship=9
+	religion="arian"
+	culture="german"
+	add_trait="zealous"
+	add_trait="deceitful"
+	add_trait="craven"
+	add_trait="misguided_warrior"
+	438.1.1 = {
+		birth="438.1.1"
+	}
+	480.1.2 = {
+		death="480.1.2"
+	}
+}
+1428117 = {
+	name="Sidimund"
+	dynasty=25 #Fictional dynasty, real guy.
+	martial=7
+	diplomacy=8
+	intrigue=8
+	stewardship=8
+	religion="arian"
+	culture="german"
+	add_trait="gregarious"
+	add_trait="scholar"
+	add_trait="charitable"
+	add_trait="thrifty_clerk"
+	448.1.1 = {
+		birth="448.1.1"
+	}
+	501.1.2 = {
+		death="501.1.2"
+	}
+}
+1428118 = {
+	name="Freda"
+	dynasty=27 #Fictional dynasty, real guy.
+	martial=6
+	diplomacy=9
+	intrigue=8
+	stewardship=9
+	religion="arian"
+	culture="german"
+	add_trait="gregarious"
+	add_trait="mystic"
+	add_trait="underhanded_rogue"
+	442.1.1 = {
+		birth="442.1.1"
+	}
+	507.1.2 = {
+		death="507.1.2"
+	}
+}
+1428119 = {
+	name="Gauterit"
+	dynasty=27 #Fictional dynasty, real guy.
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	religion="arian"
+	culture="german"
+	add_trait="proud"
+	add_trait="wroth"
+	add_trait="content"
+	add_trait="misguided_warrior"
+	434.1.1 = {
+		birth="434.1.1"
+	}
+	500.1.2 = {
+		death="500.1.2"
+	}
+}
+1428120 = {
+	name="Onulphus"
+	dynasty=1027039 #Brother of Odoacer?
+	martial=8
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	religion="arian"
+	culture="german"
+	add_trait="content"
+	add_trait="trusting"
+	add_trait="amateurish_plotter"
+	438.1.1 = {
+		birth="438.1.1"
+	}
+	493.3.15 = {
+		death="493.3.15"
+	}
+}
+1428121 = {
+	name="Aedoingus"
+	dynasty=25 #Uncle of Sidimund
+	martial=5
+	diplomacy=9
+	intrigue=8
+	stewardship=7
+	religion="arian"
+	culture="german"
+	add_trait="fair"
+	add_trait="hedonist"
+	add_trait="flamboyant_schemer"
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	475.1.9 = {
+		employer = 70515
+		give_job_title=job_spymaster
+	}
+	481.1.2 = {
+		death="481.1.2"
+	}
+}
+1428122 = {
+	name="Heldefredus"
+	dynasty=79 #Tarrak - Tarraco, Tarragona.
+	martial=8
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="arian"
+	culture="german"
+	add_trait="honest"
+	add_trait="trusting"
+	add_trait="tough_soldier"
+	441.1.1 = {
+		birth="441.1.1"
+	}
+	504.1.2 = {
+		death="504.1.2"
+	}
+}
+
+1428123 = {
+	name="Frederic"
+	dynasty=132
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	religion="tengri_pagan"
+	culture="german"
+	add_trait="brave"
+	add_trait="tough_soldier"
+	445.1.1 = {
+		birth="445.1.1"
+	}
+	505.1.2 = {
+		death="505.1.2"
+	}
+}
+
+1428124 = {
+	name="Maroboduus" 
+	dynasty=137
+	religion="german_pagan"
+	culture="german"
+	1.1.1={
+		birth="1.1.1"
+	}
+	37.1.1={
+		death="37.1.1"
+	}
+}
+
+1428125 = {
+	name="Maroinus" 
+	dynasty=137
+	martial=7
+	diplomacy=7
+	intrigue=6
+	stewardship=7
+	religion="german_pagan"
+	culture="german"
+	440.1.1={
+		birth="440.1.1"
+	}
+	512.1.1={
+		death="512.1.1"
+	}
+}

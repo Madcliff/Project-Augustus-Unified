@@ -1,0 +1,39 @@
+RETTYPE_CUL_TIB = 
+{
+	first_type = 4
+	first_amount = 350
+	
+	second_type = 6
+	second_amount = 150
+
+	special_troops = horse_archers
+	
+	potential = {
+		is_nomadic = no
+		culture_group = tibetan
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+		knights_morale = 0.2
+		horse_archers_offensive = 0.2
+		horse_archers_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_NEPAL = 
+{
+	first_type = 0
+	first_amount = 500
+	
+	potential = {
+		is_nomadic = no
+		culture = nepali
+	}
+	
+	modifier = {
+		light_infantry_offensive = 0.4
+		light_infantry_defensive = 0.4
+	}
+}

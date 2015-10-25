@@ -15,11 +15,14 @@ b_osona = castle
 #b_provencana = temple
 
 # Misc
-culture = hispanic
+culture = iberian
 religion = catholic
 
 # History
-
+700.1.1 = { 
+	b_barcelona = ct_jewish_community_1
+	b_barcelona = ct_jewish_community_2
+}
 867.1.1 = { 
 	b_barcelona = ca_town_1
 	b_barcelona = ca_keep_1

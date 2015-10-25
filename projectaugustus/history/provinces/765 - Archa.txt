@@ -17,7 +17,7 @@ b_famia = temple
 
 # Misc
 culture = aramean 
-religion = orthodox
+religion = syriac
 
 # History
 

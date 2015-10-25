@@ -1,3 +1,12 @@
+615.1.1 = {
+	holder = 1000257310
+	liege = k_italy
+	capital = c_bari
+}
+650.1.1 = {
+	holder = 0
+	liege = 0
+}
 857.1.1={
 	liege=0
 	holder = 163094
@@ -5,7 +14,7 @@
 1066.1.1={
         liege = "e_byzantium"
         vice_royalty = yes
-        holder=1014095
+        holder=1014094
 }
 1071.4.15={
         liege = 0

@@ -1,0 +1,273 @@
+# City
+city = {
+	ct_jewish_community_1 = {
+		potential = {
+			FROM = {
+				NOT = { religion_group = jewish_group }
+			}
+			NOT = { religion_group = jewish_group }
+		}
+		trigger = {
+			always = no
+		}
+		gold_cost = 0
+		build_time = 0
+		levy_size = 0.1
+		garrison_size = 0.1
+		tax_income = 2
+		ai_creation_factor = 1
+
+		extra_tech_building_start = 10.0
+	}
+	ct_jewish_community_2 = {
+		upgrades_from = ct_jewish_community_1
+		potential = {
+			FROM = {
+				NOT = { religion_group = jewish_group }
+			}
+			NOT = { religion_group = jewish_group }
+		}
+		trigger = {
+			always = no
+		}
+		gold_cost = 0
+		build_time = 0
+		tax_income = 2
+		levy_size = 0.1
+		garrison_size = 0.1
+		ai_creation_factor = 1
+
+		extra_tech_building_start = 10.0
+	}
+	ct_jewish_community_3 = {
+		upgrades_from = ct_jewish_community_2
+		potential = {
+			FROM = {
+				NOT = { religion_group = jewish_group }
+			}
+			NOT = { religion_group = jewish_group }
+		}
+		trigger = {
+			always = no
+		}
+		gold_cost = 0
+		build_time = 0
+		tax_income = 2
+		levy_size = 0.1
+		garrison_size = 0.1
+		ai_creation_factor = 1
+
+		extra_tech_building_start = 10.0
+	}
+	ci_jm_1 = {
+		desc = ci_jm_1_desc
+		prerequisites  = {
+			ct_jewish_community_1 
+		}
+		
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		build_cost = 80
+		build_time = 730 #2 years
+		tax_income = 1
+		ai_creation_factor = 85
+
+		extra_tech_building_start = 10.0
+				
+	}
+	
+	ci_jm_2 = {
+		desc = ci_jm_2_desc
+		prerequisites = {
+			ct_jewish_community_2
+		}
+		
+		trigger = {	TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = ci_jm_1
+		build_cost = 80
+		build_time = 1460 #4 years
+		tax_income = 2
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+				
+	}
+	
+	ci_jm_3 = {
+		desc = ci_jm_3_desc
+		prerequisites  = {
+			ct_jewish_community_3
+		}
+		
+		trigger = {	TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ci_jm_2
+		build_cost = 80
+		build_time = 1825 #5 years
+		tax_income = 3
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+				
+	}
+	
+	ci_jm_4 = {
+		desc = ci_jm_4_desc
+		prerequisites  = {
+			ct_jewish_community_3
+			}
+		
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ci_jm_3
+		build_cost = 120
+		build_time = 2190 #6 years
+		tax_income = 5
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+				
+	}
+	tm_ts_1 = {
+		desc = tm_ts_1_desc
+		prerequisites  = {
+			ct_jewish_community_1
+		}
+		
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		not_if_x_exists = { tm_ks_1 tm_ks_2 tm_ks_3 tm_ks_4}
+		build_cost = 80
+		build_time = 730 #2 years
+		tech_growth_modifier = 0.1
+		monthly_character_piety = 0.1
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+	}
+	
+	tm_ts_2 = {
+		desc = tm_ts_2_desc
+
+		prerequisites  = {
+			ct_jewish_community_2
+			}
+		
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = tm_ts_1
+		not_if_x_exists = { tm_ks_1 tm_ks_2 tm_ks_3 tm_ks_4}
+		build_cost = 120
+		build_time = 1095 #3 years
+		tech_growth_modifier = 0.1
+		monthly_character_piety = 0.1
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+				
+	}
+	
+	tm_ts_3 = {
+		desc = tm_ts_3_desc
+
+		prerequisites  = {
+			ct_jewish_community_3
+			}
+		
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = tm_ts_2
+		not_if_x_exists = { tm_ks_1 tm_ks_2 tm_ks_3 tm_ks_4}
+		build_cost = 120
+		build_time = 1460 #4 years
+		tech_growth_modifier = 0.1
+		monthly_character_piety = 0.1
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+				
+	}
+	
+	tm_ts_4 = {
+		desc = tm_ts_4_desc
+
+		prerequisites  = {
+
+			ct_jewish_community_3
+		}
+		
+		trigger = {	TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = tm_ts_3
+		not_if_x_exists = { tm_ks_1 tm_ks_2 tm_ks_3 tm_ks_4}
+		build_cost = 120
+		build_time = 1825 #5 years
+		tech_growth_modifier = 0.1
+		monthly_character_piety = 0.1
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+	}		
+
+#Temple Karaite Synagogue
+	tm_ks_1 = {
+		desc = tm_ks_1_desc
+
+		prerequisites  = {
+			ct_jewish_community_1
+		}
+		
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		not_if_x_exists = { tm_ts_1 tm_ts_2 tm_ts_3 tm_ts_4}
+		build_cost = 80
+		build_time = 730 #2 years
+		culture_techpoints = 0.1
+		monthly_character_prestige = 0.1
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+	}
+		
+	
+	tm_ks_2 = {
+		desc = tm_ks_2_desc
+
+		prerequisites  = {
+			ct_jewish_community_2
+			}
+		
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		upgrades_from = tm_ks_1
+		not_if_x_exists = { tm_ts_1 tm_ts_2 tm_ts_3 tm_ts_4}
+		build_cost = 120
+		build_time = 1095 #3 years
+		culture_techpoints = 0.1
+		monthly_character_prestige = 0.1
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+				
+	}
+	
+	tm_ks_3 = {
+		desc = tm_ks_3_desc
+
+		prerequisites  = {
+			ct_jewish_community_3
+			}
+		
+		trigger = {	TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = tm_ks_2
+		not_if_x_exists = { tm_ts_1 tm_ts_2 tm_ts_3 tm_ts_4}
+		build_cost = 120
+		build_time = 1460 #4 years
+		culture_techpoints = 0.1
+		monthly_character_prestige = 0.1
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+				
+	}
+	
+	tm_ks_4 = {
+		desc = tm_ks_4_desc
+
+		prerequisites  = {
+			ct_jewish_community_3
+		}
+		
+		trigger = {	TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = tm_ks_3
+		not_if_x_exists = { tm_ts_1 tm_ts_2 tm_ts_3 tm_ts_4}
+		build_cost = 120
+		build_time = 1825 #5 years
+		culture_techpoints = 0.1
+		monthly_character_prestige = 0.1
+		ai_creation_factor = 85
+		extra_tech_building_start = 10.0
+				
+	}
+}

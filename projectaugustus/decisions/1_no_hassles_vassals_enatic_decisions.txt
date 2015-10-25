@@ -1,0 +1,166 @@
+############################
+#Special thanks to lockeslylcrit for
+#providing the base code tweak for Enatic support!
+############################
+decisions = {
+
+	vassalize_count_enatic = {
+		potential = {
+			succ_law_title = {
+				OR = {
+				    has_law = enatic_succession
+				    has_law = enatic_cognatic_succession 
+				}
+			}
+			any_demesne_province = {
+				NOT = { has_province_flag = keep_it }
+			}
+			any_demesne_province = {
+				has_province_flag = keep_it
+			}
+		}
+		allow = {
+			any_demesne_province = {
+				NOT = { has_province_flag = keep_it }
+			}
+			any_demesne_province = {
+				has_province_flag = keep_it
+			}
+			NOT = {
+				any_demesne_title = {
+					is_feudal = no
+					is_republic = yes
+					tier = baron
+					is_capital = no
+				}
+			}
+			NOT = {
+				any_demesne_title = {
+					is_feudal = no
+					is_theocracy = yes
+					tier = baron
+					is_capital = no
+				}
+			}
+			NOT = {
+				any_demesne_title = {
+					is_feudal = yes
+					tier = baron
+					is_capital = no
+				}
+			}
+		}
+		effect = {
+			character_event = { id = vassalize_count_enatic.250001 }	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	vassalize_baron_enatic = {
+		potential = {
+			succ_law_title = {
+				OR = {
+				    has_law = enatic_succession
+				    has_law = enatic_cognatic_succession 
+				}
+			}
+			any_demesne_title = {
+				is_feudal = yes
+				tier = baron
+				NOT = { tier = count }
+				is_capital = no
+			}
+		}
+		allow = {
+			any_demesne_title = {
+				is_feudal = yes
+				tier = baron
+				NOT = { tier = count }
+				is_capital = no
+			}
+		}
+		effect = {
+			character_event = { id = vassalize_baron_enatic.250001 }	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	vassalize_priest_enatic = {
+		potential = {
+			succ_law_title = {
+				OR = {
+				    has_law = enatic_succession
+				    has_law = enatic_cognatic_succession 
+				}
+			}
+			any_demesne_title = {
+				is_theocracy = yes
+				tier = baron
+				NOT = { tier = count }
+				is_capital = no
+			}
+		}
+		allow = {
+			any_demesne_title = {
+				is_theocracy = yes
+				tier = baron
+				NOT = { tier = count }
+				is_capital = no
+			}
+		}
+		effect = {
+			character_event = { id = vassalize_priest_enatic.250001 }	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	vassalize_mayor_enatic = {
+		potential = {
+			succ_law_title = {
+				OR = {
+				    has_law = enatic_succession
+				    has_law = enatic_cognatic_succession 
+				}
+			}
+			any_demesne_title = {
+				is_republic = yes
+				tier = baron
+				is_capital = no
+				is_patrician = no
+			}
+		}
+		allow = {
+			any_demesne_title = {
+				is_republic = yes
+				tier = baron
+				is_capital = no
+				is_patrician = no
+			}
+		}
+		effect = {
+			character_event = { id = vassalize_mayor_enatic.250001 }	
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}

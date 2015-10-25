@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_dembiya
+# Settlements
+max_settlements = 4
+b_dembiya = castle
+
+
+# Misc
+culture = falashim 
+religion = haymanot_judaism 
+
+# History

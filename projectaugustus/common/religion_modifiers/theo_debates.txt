@@ -1,0 +1,44 @@
+#########################################################################
+# RELIGIOUS AUTHORITY MODIFIERS - fully scriptable
+##########################################################################
+
+win_theo_debate = {
+	authority = 1
+	years = 2
+}
+
+
+lose_theo_debate = {
+	authority = -1
+	years = 2
+}
+
+u_win_theo_debate = {
+	authority = 2
+	years = 5
+}
+
+
+u_lose_theo_debate = {
+	authority = -2
+	years = 5
+}
+
+
+a_win_theo_debate = {
+	authority = 3
+	years = 5
+}
+
+
+a_lose_theo_debate = {
+	authority = -3
+	years = 5
+}
+
+
+decline_theo_debate = {
+	authority = -1
+	years = 2
+}
+

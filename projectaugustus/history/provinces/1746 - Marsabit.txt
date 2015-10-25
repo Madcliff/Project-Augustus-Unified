@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_marsabit
+# Settlements
+max_settlements = 4
+b_marsabit = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+
+# History

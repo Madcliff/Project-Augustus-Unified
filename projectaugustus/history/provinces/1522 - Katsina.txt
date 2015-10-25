@@ -1,0 +1,13 @@
+# County Title
+title = c_katsina
+
+# Settlements
+max_settlements = 2
+b_katsina = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+# History

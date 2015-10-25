@@ -4,11 +4,11 @@
 title = c_urbino
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_urbino = castle
 b_sanmarino = city
 b_sanseverino = temple
-#b_montefeltro = castle
+b_montefeltro = castle
 #b_gubbio = castle
 #b_fano = castle
 #b_cittadicastello = castle

@@ -16,8 +16,12 @@ b_adraskan = city
 
 # Misc
 culture = bactrian
-religion = buddhist
+religion = vanuhism 
+
+700.1.1 = {
+	culture = afghan
+	religion = mahayana_buddhist
+}
 
 # History
 900.1.1 = { religion = sunni }
-1000.1.1 = { culture = afghan }

@@ -17,8 +17,15 @@ b_yamskygorodok = tribal
 #b_vassakara = castle
 
 # Misc
-culture = ilmenian
-religion = slavic_pagan
+
+culture = karelian 
+religion = finnish_pagan
+
+# History
+700.1.1 = {
+	culture = ilmenian
+	religion = slavic_pagan
+}
 
 # History
 867.1.1 = {

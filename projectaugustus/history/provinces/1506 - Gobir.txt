@@ -1,0 +1,15 @@
+# County Title
+title = c_gobir
+
+# Settlements
+max_settlements = 2
+b_alkalawa = castle
+#b_birni = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

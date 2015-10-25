@@ -1,8 +1,16 @@
+600.1.1 = {
+	holder=1004460059
+	liege=d_mauri
+}
+680.1.1 = {
+	holder=0
+	liege=0
+}
 767.1.1={
 	holder = 210037
 }
 788.1.1={
-	liege="k_sahaja"
+	liege="k_mauretania"
 }
 788.1.1={
 	holder = 159501
@@ -94,7 +102,7 @@ holder=32983
 }
 1212.7.16=
 {
-liege="k_sahaja"
+liege="k_mauretania"
 }
 1212.7.16=
 {

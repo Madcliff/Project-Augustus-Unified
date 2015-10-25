@@ -1,0 +1,156 @@
+2001010064 = { 
+	name="Theodosis"
+	dynasty=1022234
+	religion="nestorian"
+	culture="tamil"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+2001010065 = { 
+	name="Yakov"
+	dynasty=2000001021
+	religion="nestorian"
+	culture="tamil"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+2001010066 = { 		
+	name="Luka"
+	dynasty=2000001020
+	religion="nestorian"
+	culture="tamil"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+2001010067 = { 		
+	name="Mathew"
+	dynasty=1022235
+	religion="nestorian"
+	culture="tamil"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+200101068 = { 		
+	name="Yaakov"
+	dynasty=200004
+	religion="karaite"
+	culture="mizrahi"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+200101069 = { 		
+	name="Nethanel"
+	dynasty=200005
+	religion="karaite"
+	culture="mizrahi"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+200101070 = { 		
+	name="Elkanah"
+	dynasty=200006
+	religion="karaite"
+	culture="mizrahi"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+200101071 = { 		
+	name="Yachin"
+	dynasty=200007
+	religion="karaite"
+	culture="mizrahi"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+200101072 = { 		
+	name="Shelomoh"
+	dynasty=200009 
+	religion="karaite"
+	culture="mizrahi"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+
+
+200101073 = { 		
+	name="Shamuel"
+	dynasty=200012	#Narsai
+	religion="nestorian"
+	culture="tamil"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+200101074 = { 		
+	name="Shamuel"
+	dynasty=200013 	#Mariam
+	religion="nestorian"
+	culture="tamil"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+
+200101075 = { 		
+	name="Dhaaniel"
+	dynasty=200014  	#Mirza
+	religion="nestorian"
+	culture="tamil"
+	750.1.1={
+		birth="750.1.1"
+	}
+	880.1.1{
+		death="880.1.1"
+	}
+}
+

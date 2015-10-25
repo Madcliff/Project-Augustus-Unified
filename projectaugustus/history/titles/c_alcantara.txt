@@ -1,3 +1,18 @@
+
+467.1.1={
+	holder=1438134 
+	liege=k_suevic
+}
+
+600.1.1 = {
+	holder = 1000256711
+	liege = d_salamanca
+}
+635.1.1 = {
+	holder = 0
+	liege = 0
+}
+
 766.1.1={
 	holder=200214 # Abd al-Karim Karimid
 	liege=e_umayyad

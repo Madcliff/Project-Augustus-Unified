@@ -1,0 +1,11 @@
+1066.1.1 = {
+    holder = 1000034002
+	law = succ_primogeniture
+	law = agnatic_succession
+}
+1076.1.1 = {
+	holder = 1000034003
+}
+1215.1.1 = {
+	holder = 1000034000
+}

@@ -1,0 +1,25 @@
+
+opinion_battle_death_close_kin = {
+	opinion = -40
+	months = 1200
+}
+
+theo_challenge = {
+	opinion = -10
+	months = 1200
+}
+
+theo_convert = {
+	opinion = 100
+	months = 1200
+}
+
+theo_anger = {
+	opinion = -50
+	months = 1200
+}
+
+theo_sneer = {
+	opinion = -15
+	months = 1200
+}

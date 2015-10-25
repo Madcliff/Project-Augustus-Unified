@@ -1,0 +1,16 @@
+
+# County Title
+title = c_salal
+
+# Settlements
+max_settlements = 2
+b_salal = castle
+#b_moussoro = castle
+
+
+# Misc
+culture = kanuri
+religion = pagan
+
+
+# History

@@ -1,0 +1,15 @@
+# County Title
+title = c_zamfara
+
+# Settlements
+max_settlements = 2
+b_zamfara = castle
+#b_gusau = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

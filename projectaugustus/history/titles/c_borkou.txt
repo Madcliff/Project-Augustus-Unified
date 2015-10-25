@@ -1,0 +1,6 @@
+1066.1.1 = {
+    holder = 1000085016
+	liege = e_kanem
+	law = succ_turkish_succession
+law = agnatic_succession
+}

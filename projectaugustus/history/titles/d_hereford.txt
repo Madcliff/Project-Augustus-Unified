@@ -1,0 +1,53 @@
+400.1.1 = {
+	holder = 0 # to Mercia
+	law = agnatic_succession
+	law = succ_feudal_elective
+}
+515.1.1 = {
+	holder = 205052
+}
+536.1.1 = {
+	holder = 205053
+}
+554.1.1 = {
+	holder = 205054
+}
+584.1.1 = {
+	holder = 205055
+}
+593.1.1 = {
+	holder = 205056
+}
+626.1.1 = {
+	holder = 205057
+}
+655.1.1 = {
+	holder = 205213
+}
+658.1.1 = {
+	holder = 205061
+}
+675.1.1 = {
+	holder = 205062
+}
+
+758.1.1={
+	holder = 205072
+}
+935.1.1={
+	liege="k_england"
+	holder = 2001010117
+}
+852.1.1={
+	holder = 163102
+}
+1066.1.1={
+	liege="k_england"
+}
+1066.1.1={
+	holder=5644 #Eadwin
+}
+1072.1.1={
+	holder=0
+	liege=0
+}

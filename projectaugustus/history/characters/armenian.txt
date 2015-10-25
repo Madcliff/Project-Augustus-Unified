@@ -2189,7 +2189,7 @@
 	809.1.1={
 		death="809.1.1"
 		name="Adanarse"
-		religion="orthodox"
+		religion="chalcendonian"
 		culture="georgian"
 	}
 }
@@ -2211,7 +2211,7 @@
 		birth="765.1.1"
 	}
 	809.1.1={
-		religion="orthodox"
+		religion="chalcendonian"
 		culture="georgian"
 	}
 	826.1.29={
@@ -5564,7 +5564,7 @@
 	}
 	1025.1.1={
 		name="Maria"
-		religion="catholic"
+		religion="chalcendonian"
 		culture="portuguese"
 		add_spouse=142587
 	}
@@ -8153,7 +8153,7 @@
 145225 = {
 	name="Artavasdos"
 	dynasty=101199
-	religion="orthodox"
+	religion="chalcendonian"
 	culture="armenian"
 	trait="envious"
 	trait="ambitious"
@@ -8824,6 +8824,18 @@
 	}
 	855.1.1={
 		death="855.1.1"
+	}
+}
+
+1014045 = {
+	name="Zacharias"
+	religion="apostolic"
+	culture="armenian"
+	811.1.1={
+		birth="811.1.1"
+	}
+	876.1.1={
+		death="876.1.1"
 	}
 }
 

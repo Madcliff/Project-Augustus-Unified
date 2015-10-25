@@ -14,11 +14,15 @@ b_loule = temple
 #b_saobrasdealportel = castle
 #b_olhao = castle
 
-culture = hispanic
+culture = iberian
 religion = sunni
 
 # History
 
+
+700.1.1 = { 
+	b_tavira = ct_jewish_community_1
+}
 939.1.1 = {
 	culture = andalusian_arabic
 }

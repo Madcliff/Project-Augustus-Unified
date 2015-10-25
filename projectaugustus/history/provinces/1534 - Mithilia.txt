@@ -1,0 +1,18 @@
+# County Title
+title = c_mithilia
+
+# Settlements
+max_settlements = 4
+b_jankapur = castle
+b_janaki = temple
+b_videha = city
+
+
+
+# Misc
+culture = nepali
+religion = vajrayana_buddhist 
+
+
+# History
+

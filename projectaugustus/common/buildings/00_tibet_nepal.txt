@@ -1,0 +1,153 @@
+castle = {
+	#Tibetan nobles
+	ca_culture_tib_1 = {
+		desc = ca_culture_tib_1_desc
+		potential = {
+			FROM = {
+				OR = {
+					culture = tibetan
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		knights = 10
+		horse_archers = 10
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_tib_2 = {
+		desc = ca_culture_tib_1_desc
+		potential = {
+			FROM = {
+				OR = {
+					culture = tibetan
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_culture_tib_1
+		gold_cost = 300
+		build_time = 1095
+		knights = 15
+		horse_archers = 10
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 100
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_tib_3 = {
+		desc = ca_culture_tib_1_desc
+		potential = {
+			FROM = {
+				OR = {
+					culture = tibetan
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_culture_tib_2
+		gold_cost = 400
+		build_time = 2190
+		knights = 15
+		horse_archers = 20
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 99
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_tib_4 = {
+		desc = ca_culture_tib_1_desc
+		potential = {
+			FROM = {
+				OR = {
+					culture = tibetan
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_culture_tib_3
+		gold_cost = 500
+		build_time = 2190
+		knights = 20
+		horse_archers = 20
+		knights_offensive = 0.075
+		horse_archers_offensive = 0.075
+		ai_creation_factor = 98
+		
+		extra_tech_building_start = 0.8
+	}	
+}
+
+# Gorghali
+castle = {
+	ca_culture_nepal_1 = {
+		desc = ca_culture_nepal_1_desc
+		potential = {
+			FROM = { culture = nepali }
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_wall_2 }
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 60
+		light_infantry_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_nepal_2 = {
+		desc = ca_culture_nepal_1_desc
+		potential = {
+			FROM = { culture = nepali }
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		upgrades_from = ca_culture_nepal_1
+		gold_cost = 300
+		build_time = 1095
+		light_infantry = 80
+		light_infantry_morale = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_nepal_3 = {
+		desc = ca_culture_nepal_1_desc
+		potential = {
+			FROM = { culture = nepali }
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_culture_nepal_2
+		gold_cost = 400
+		build_time = 2190
+		light_infantry = 100
+		light_infantry_morale = 0.15
+		light_infantry_defensive = 0.15
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+	ca_culture_nepal_4 = {
+		desc = ca_culture_nepal_1_desc
+		potential = {
+			FROM = { culture = nepali }
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_culture_nepal_3
+		gold_cost = 500
+		build_time = 2190
+		light_infantry = 120
+		light_infantry_morale = 0.20
+		light_infantry_defensive = 0.20
+		ai_creation_factor = 101
+		
+		extra_tech_building_start = 0.8
+	}
+}

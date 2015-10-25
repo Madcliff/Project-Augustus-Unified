@@ -3,8 +3,12 @@
 liege="e_byzantium"
 vice_royalty = yes
 }
+630.1.1 = {
+	holder = 1000094634
+}
 681.1.1={
 	liege="k_bulgaria"
+	vice_royalty = no
 	holder=159118
 }
 700.1.1={

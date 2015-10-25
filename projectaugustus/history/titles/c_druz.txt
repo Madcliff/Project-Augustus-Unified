@@ -1,3 +1,17 @@
+461.1.1 = {
+	holder = 1000258164
+}
+630.1.1 = {
+	holder = 1000250179
+	liege = k_nabatea
+}
+667.1.1 = {
+	holder = 1000250180
+}
+690.1.1 = {
+	holder = 0
+	liege = 0
+}
 710.1.1={
 	liege="d_bostra"
 	holder=146067

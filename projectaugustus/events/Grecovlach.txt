@@ -1,0 +1,215 @@
+# The English Melting Pot
+character_event = {
+	id = GRV.999991
+	desc = "EVTDESCGRV.55002"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		culture = romanian
+		or = {
+			primary_title = {
+				title = k_greece
+			}
+			primary_title = {
+				title = e_byzantium 
+			}
+		}
+		any_demesne_province = {
+			culture = greek
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1800
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "GRV.EVTOPTA55002"
+		culture = grecovlach
+		random_demesne_province = {
+			limit = {
+				culture = greek
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = grecovlach
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = GRV.2
+	desc = "EVTDESCGRV.55003"
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		culture = grecovlach
+		any_demesne_province = {
+			OR = {
+				culture = greek
+				culture = romanian
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTA55003"
+		random_demesne_province = {
+			limit = {
+				OR = {	
+				culture = greek
+				culture = romanian
+				}
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = grecovlach
+		}
+	}
+}
+
+#Make my court speak English
+character_event = {
+	id = GRV.3
+	desc = "EVTDESCGRV.55004"
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+
+	trigger = {
+	
+		culture = grecovlach
+		independent = no
+		top_liege = {
+			culture = grecovlach
+		}
+		any_courtier = {
+			OR = {
+				culture = greek
+				culture = romanian
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTAGRV.55004"
+		random_courtier = {
+			limit = {
+				OR = {	
+				culture = greek
+				culture = romanian
+				}
+			}
+			culture = grecovlach
+			hidden_tooltip = {
+				character_event = { id = GRV.5 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak English
+character_event = {
+	id = GRV.4
+	desc = "EVTDESCGRV.55005"
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+
+	trigger = {
+
+		culture = grecovlach
+		independent = no
+		top_liege = {
+			culture = grecovlach
+		}
+		any_vassal = {
+			OR = {
+				culture = greek
+				culture = romanian
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTAGRV.55005"
+		random_vassal = {
+			limit = {
+				OR = {	
+				culture = greek
+				culture = romanian
+				}
+			}
+			culture = grecovlach
+			hidden_tooltip = {
+				character_event = { id = GRV.5 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = GRV.5
+	desc = "EVTDESCGRV.55006"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTAGRV.55006"
+		culture = grecovlach
+	}
+}

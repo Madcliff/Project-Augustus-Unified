@@ -1,3 +1,6 @@
+620.1.1 = {
+	liege = e_protectorate
+}
 630.1.1 = {
 	holder = 166748
 }
@@ -13,8 +16,12 @@
 765.1.1 = {
 	holder = 166752
 }
+769.1.1={
+	liege = k_protectorate # De facto
+}
 805.1.1 = {
 	holder = 166754
+	liege = 0
 }
 #Yughur Kingdom
 848.1.1 = {
@@ -65,11 +72,11 @@
 1224.12.17 = {
 	holder = 217246
 }
+1227.12.2 = {
+	liege = k_mongolia
+}
 1257.4.16 = {
 	holder = 217259
-}
-1259.8.11 ={
-    liege = e_yuan
 }
 1272.4.7 = {
 	holder = 217260

@@ -1,5 +1,18 @@
+470.1.1 = {
+	holder=180624 # Peroz I
+}
+224.1.1={
+	liege="e_persia"
+}
+620.1.1={
+	liege = e_persia
+}
+662.1.1={
+	holder = 188701
+}
 680.1.1={
-	liege="d_zabulistan"
+	liege=d_zabulistan
+	holder = 188701 # Zunbil founder
 }
 
 765.1.1={

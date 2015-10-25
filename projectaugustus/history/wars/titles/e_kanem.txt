@@ -1,0 +1,5 @@
+1066.1.1 = {
+    holder = 1000085004
+	law = agnatic_succession
+	law = succ_primogeniture
+}

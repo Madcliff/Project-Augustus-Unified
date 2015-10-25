@@ -1,0 +1,18 @@
+600.1.1 = {
+	holder = 1000256104 
+	liege = e_byzantium
+}
+866.1.1=
+{
+liege="k_egypt"
+}
+866.1.1={
+	holder = 163139
+}
+877.1.1={
+	holder = 0
+	liege = 0
+}
+935.1.1={
+	holder = 14403111
+}

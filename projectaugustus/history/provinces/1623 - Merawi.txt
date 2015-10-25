@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_merawi
+# Settlements
+max_settlements = 3
+b_merawi = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

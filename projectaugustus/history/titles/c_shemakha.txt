@@ -1,5 +1,15 @@
+470.1.1 = {
+	holder=180624 # Peroz I
+}
+224.1.1={
+	liege="e_persia"
+}
+600.1.1 = {
+	holder = 159618
+	liege="d_derbent"
+}
 635.1.1={
-	liege="d_shirvan"
+	liege="d_albania"
 }
 635.1.1={
 	holder=159626

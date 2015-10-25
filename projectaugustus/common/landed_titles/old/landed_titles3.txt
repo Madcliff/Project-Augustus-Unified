@@ -1,0 +1,161 @@
+# SCHISMATIC TITLES
+
+# Latin Patriarchates
+
+d_latin_constantinople = {
+	color={ 198 249 255 }
+	color2={ 220 220 0 }
+	
+	capital = 496 # Constantinople
+	
+	title = "Patriarch"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	title_prefix = "Patriarchate of"
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Always exists
+	landless = yes
+	
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_latin_alexandria = {
+	color={ 198 249 255 }
+	color2={ 220 220 0 }
+	
+	capital = 802 # Alexandria
+	
+	title = "Patriarch"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	title_prefix = "PatriarchATE_OF"
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Always exists
+	landless = yes
+	
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_latin_antioch = {
+	color={ 198 249 255 }
+	color2={ 220 220 0 }
+	
+	capital = 764 # Antioch
+	
+	title = "Patriarch"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	title_prefix = "PatriarchATE_OF"
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Always exists
+	landless = yes
+	
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_latin_jerusalem = {
+	color={ 198 249 255 }
+	color2={ 220 220 0 }
+	
+	capital = 774 # Jerusalem
+	
+	title = "Patriarch"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	title_prefix = "PatriarchATE_OF"
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Always exists
+	landless = yes
+	
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+# Christian Titles
+
+d_saint_maron = {
+	color={ 180 165 70 }
+	
+	graphical_culture = holygfx
+	
+	capital = 767 # Boutron
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = monothelite
+	
+	culture = aramean
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+
+	mercenary_type = holy_sepulchre_composition
+}
+
+d_maronite = {
+	color={ 180 170 65 }
+	color2={ 220 220 0 }
+	
+	capital = 764 # Antioch
+	
+	title = "MARONITE_PATRIARCH"
+	foa = "ECUMENICAL_PATRIARCH_FOA"
+	
+	short_name = yes
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Always exists
+	landless = no
+	
+	religion = catholic
+	culture = aramean
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}

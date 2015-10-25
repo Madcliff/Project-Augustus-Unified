@@ -1,3 +1,8 @@
+600.1.1 = {
+	holder = 1000256104 
+	liege = e_byzantium
+}
+
 866.1.1={
 	liege = "e_sunni"
 	holder = 163115

@@ -20,6 +20,6 @@ culture = baloch
 religion = zoroastrian
 
 # History
-790.1.1 = { religion = kharijite }
+790.1.1 = { religion = haruriyyah }
 950.1.1 = { religion = sunni }
 1337.1.1 = { b_dozz_aap = castle }

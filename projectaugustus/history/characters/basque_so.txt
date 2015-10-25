@@ -1,0 +1,17 @@
+10600991 = {
+	name="Fikziogizon" # Fikziogizon Irudikaria, Fiction-Man the Imaginary
+	dynasty=88
+	martial=5
+	diplomacy=4
+	intrigue=4
+	stewardship=7
+	religion="orthodox"
+	culture="basque"
+	add_trait="amateurish_plotter"
+	440.1.1={
+		birth="440.1.1"
+	}
+	510.6.4={
+		death="510.6.4"
+	}
+}

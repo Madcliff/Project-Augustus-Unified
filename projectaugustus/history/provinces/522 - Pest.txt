@@ -16,11 +16,15 @@ b_vac = temple
 #b_kiskoros = castle
 
 # Misc
-culture = avar
-religion = tengri_pagan
+culture = gepid
+religion = arian
+
+700.1.1 = {
+	culture = avar
+	religion = tengri_pagan
+}
 
 # History
-
 890.1.1 = {
 	b_pest = castle
 	b_kecskemet = city

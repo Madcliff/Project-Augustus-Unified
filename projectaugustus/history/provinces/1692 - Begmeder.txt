@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_begmeder
+# Settlements
+max_settlements = 4
+b_begmeder = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

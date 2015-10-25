@@ -1,0 +1,322 @@
+        k_jerusalem = {
+                color={ 180 180 180 }
+                
+                
+                capital = 774 # Jerusalem
+                
+                assimilate = no # Duchies cannot de jure drift OUT of this title
+                
+                culture = levantine_arabic
+                
+                # Creation/Usurp Trigger
+                allow = {
+                        religion_group = christian
+                }
+                
+                # Creation Effect
+                gain_effect = {
+                        if = {
+                                limit = { NOT = { has_global_flag = created_jerusalem } }
+                                prestige = 5000
+                                piety = 2000 
+                                set_global_flag = created_jerusalem
+                        }
+                }
+                
+                arian = 500 # Crusade target weight
+                catholic = 500 # Crusade target weight
+                fraticelli = 500 # Crusade target weight
+                imperial = 500 # Crusade target weight
+                muslim = 250 # Crusade target weight
+                hellenic_pagan = 2000 # Crusade target weight
+                zoroastrian_group = 200 # Crusade target weight
+
+                roman = "Judea"
+
+				d_jerusalem = {
+					color={ 202 202 190 }
+					
+			
+					capital = 774 # Jerusalem
+			
+					christian = 250 # Crusade target weight
+					muslim = 250 # Crusade target weight	
+                        
+                        c_quds = {
+                                color={ 85 195 141 }
+                                
+ 
+                                b_quds34 = {
+                                }
+                                b_placeholder35 = {
+                                }
+                                b_placeholder36 = {
+                                }
+                                b_placeholder37 = {
+                                }
+                                b_placeholder38 = {
+                                }
+								b_placeholder66 = {
+                                }
+                            }  
+                        c_jericho = {
+                                color={ 127 183 139 }
+                                
+                        
+                                b_jericho19 = {
+                                }
+                                b_placeholder20 = {
+                                }
+                                b_placeholder21 = {
+                                }
+                                b_placeholder22 = {
+                                }
+                                b_placeholder23 = {
+                                }
+								b_placeholder67 = {
+                                }
+                            }							
+                }
+                d_samaria = {
+                        color={ 1 204 15 }
+                        
+                        
+                        capital = 1597 # Samaria
+                
+                        c_samaria = {
+                                color={ 1 204 15 }
+                                
+                        
+                                b_samaria1 = {
+                                }
+                                b_placeholder2 = {
+                                }
+                                b_placeholder3 = {
+                                }
+                                b_placeholder4 = {
+                                }
+                                b_placeholder5 = {
+                                }
+                                b_placeholder6 = {
+                                }
+                                b_placeholder7 = {
+                                }
+                        }
+                        c_nabius = {
+                                color={ 169 201 142 }
+                                
+                        
+                                b_nabius14 = {
+                                }
+                                b_placeholder15 = {
+                                }
+                                b_placeholder16 = {
+                                }
+                                b_placeholder17 = {
+                                }
+                                b_placeholder18 = {
+                                }
+                            }  
+                        c_ramleh = {
+                                color={ 43 207 143 }
+                                
+                                
+                                b_ramleh8 = {
+                                }
+                                b_placeholder9 = {
+                                }
+                                b_placeholder10 = {
+                                }
+                                b_placeholder11 = {
+                                }
+                                b_placeholder12 = {
+                                }
+                                b_placeholder13 = {
+                                }
+                        }
+                        }
+                d_sidon
+                        color={ 230 190 154 }
+                        
+                        
+                        capital = 772 # Acre
+						
+					c_acre = {
+				color={ 230 190 154 }
+				
+		
+				b_acre = {
+				}
+				b_haifa = {
+				}
+				b_syrcaesarea = {
+				}
+				b_merle = {
+				}
+				b_adelon = {
+				}
+				b_manawat = {
+				}
+				b_recordana = {
+				}
+				b_athlith = {
+				}
+			}
+                        c_caesaraia = {
+                                color={ 127 0 144 }
+                                
+ 
+                                b_caesaraia45 = {
+                                }
+                                b_placeholder46 = {
+                                }
+                                b_placeholder47 = {
+                                }
+                                b_placeholder48 = {
+                                }
+                                b_placeholder49 = {
+                                }
+                            }  
+                        c_haifa = {
+                                color={ 85 195 141 }
+                                
+                        
+                                b_haifa39 = {
+                                }
+                                b_placeholder40 = {
+                                }
+                                b_placeholder41 = {
+                                }
+                                b_placeholder42 = {
+                                }
+                                b_placeholder43 = {
+                                }                       
+                                b_placeholder44 = {
+                                }
+                            }   
+				}
+                    d_judea = {
+                        color={ 1 189 140 }
+                        
+                        
+                        capital = 1589 # Lydia
+                                              
+                        c_lydia = {
+                                color={ 1 189 140 }
+                                
+ 
+                                b_lydia55 = {
+                                }
+                                b_placeholder56 = {
+                                }
+                                b_placeholder57 = {
+                                }
+                                b_placeholder58 = {
+                                }
+                                b_placeholder59 = {
+                                }
+                            }
+						c_bethleham = {
+                                color={ 127 198 14 }
+                                
+
+                                b_bethlehem29 = {
+                                }
+                                b_placeholder30 = {
+                                }
+                                b_placeholder31 = {
+                                }
+                                b_placeholder32 = {
+                                }
+                                b_placeholder33 = {
+                                }
+                            }
+			c_hebron = {
+				color={ 200 210 160 }
+				
+		
+				b_hebron = {
+				}
+				b_bethlehem = {
+				}
+				b_deimachar = {
+				}
+				b_syrbelmont = {
+				}
+				b_alsamoa = {
+				}
+				b_saintcharlton = {
+				}
+				b_latrun = {
+				}
+				b_bethgibelin = {
+				}
+			}  							 
+        }
+		d_galilee = {
+			color={ 225 200 160 }
+			
+			
+			capital = 771 # Tyrus					
+					
+                    c_nazareth = {
+                        color={ 127 198 14 }
+                        
+                        
+                            b_nazareth24 = {
+                                }
+                            b_placeholder25 = {
+                                }
+                            b_placeholder26 = {
+                                }
+                            b_placeholder27 = {
+                                }
+                            b_placeholder28 = {
+                            }
+                        } 
+		}						
+		d_ascalon = {
+			color={ 160 160 200 }
+			
+			
+			capital = 780 # Ascalon
+                        c_ashdod = {
+                                color={ 169 186 12 }
+                                
+
+                                b_ashdod50 = {
+                                }
+                                b_placeholder51 = {
+                                }
+                                b_placeholder52 = {
+                                }
+                                b_placeholder53 = {
+                                }
+                                b_placeholder54 = {
+                                }
+                            }
+					}
+		d_gaza = {
+			color={ 85 180 11 }
+			
+			
+			capital = 1586 # Gaza
+						c_gaza = {
+                                color={ 85 180 11 }
+                                   
+      
+                                b_gaza60 = {
+                                }
+                                b_placeholder61 = {
+                                }
+                                b_placeholder62 = {
+                                }
+                                b_placeholder63 = {
+                                }
+                                b_placeholder64 = {
+                                }
+								b_placeholder65 = {
+                                }
+                            }	
+					}							
+  }

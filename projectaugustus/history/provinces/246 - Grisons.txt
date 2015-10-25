@@ -15,12 +15,12 @@ b_disentis = temple
 #b_mendrisio = castle
 
 # Misc
-culture = rhaetian
+culture = rhaeto_roman
 religion = catholic
 
 # History
 
-900.1.1 = {
-culture = romansh
-}
+
+# History
+790.1.1 = { culture = lombard }
 

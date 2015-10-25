@@ -1,0 +1,416 @@
+#WESTAFRICAMOD
+1000011000 = {
+	name="Keita"
+	culture = mande
+}
+1000011001 = {
+	name="Djata"
+	culture = mande
+}
+1000011002 = {
+	name="Za"
+	culture = mande
+}
+1000011003 = {
+	name="Sonni"
+	culture = mande
+}
+1000011004 = {
+	name="Askiya"
+	culture = mande
+}
+1000011005 = {
+	name="Bory"
+	culture = mande
+}
+1000011006 = {
+	name = "Denanke"
+	culture = mande
+}
+1000011007 = {
+	name = "Laye"
+	culture = mande
+}
+1000011100 = {
+	name="Kante"
+	culture = sosso
+}
+1000011101 = {
+	name="Cisse"
+	culture = sosso
+}
+1000011102 = {
+	name="Akba"
+	culture = sosso
+}
+1000011103 = {
+	name="Soumare"
+	culture = sosso
+}
+1000011104 = {
+	name="Soukhounou"
+	culture = sosso
+}
+1000011200 = {
+	name="Joof"
+	culture = jolof
+}
+1000011201 = {
+	name="Gelwar"
+	culture = jolof
+}
+1000011202 = {
+	name="Jaabi"
+	culture = jolof
+}
+1000011203 = {
+	name="Fak"
+	culture = jolof
+}
+1000011204 = {
+	name="N'Diaye"
+	culture = jolof
+}
+1000011205 = {
+	name="Kaabu"
+	culture = jolof
+}
+1000011206 = {
+	name="Fulani"
+	culture = jolof
+}
+#From Timbuktu to Kanem Start
+1000032000 = {
+	name="Katsinawa"
+	culture = hausa
+}
+1000032001 = {
+	name="Kanawa"
+	culture = hausa
+}
+1000032002 = {
+	name="Gobirawa"
+	culture = hausa
+}
+1000032003 = {
+	name="Habe"
+	culture = hausa
+}
+1000032004 = {
+	name="Atanda"
+	culture = hausa
+}
+1000032005 = {
+	name="Gambo"
+	culture = hausa
+}
+1000032006 = {
+	name="Bako"
+	culture = hausa
+}
+1000032007 = {
+	name="Bornuwa"
+	culture = hausa
+}
+1000032008 = {
+	name="Diffuwa"
+	culture = hausa
+}
+1000032009 = {
+	name="Nguguwa"
+	culture = hausa
+}
+1000032010 = {
+	name="Lacawa"
+	culture = hausa
+}
+1000032011 = {
+	name="Idowa"
+	culture = hausa
+}
+1000032012 = {
+	name="Duku"
+	culture = kanuri
+}
+1000032013 = {
+	name="Manga"
+	culture = kanuri
+}
+1000032014 = {
+	name="Yerwa"
+	culture = kanuri
+}
+1000032015 = {
+	name="Kanembu"
+	culture = kanuri
+}
+1000032016 = {
+	name="Borkubu"
+	culture = kanuri
+}
+1000032017 = {
+	name="Shuwa"
+	culture = kanuri
+}
+1000032018 = {
+	name="Maba"
+	culture = kanuri
+}
+1000032019 = {
+	name="Bande"
+	culture = kanuri
+}
+1000032020 = {
+	name="Mober"
+	culture = kanuri
+}
+1000032021 = {
+	name="Beriberi"
+	culture = kanuri
+}
+1000032022 = {
+	name="Kakrah"
+	culture = zaghawa
+}
+1000032023 = {
+	name="Birgid"
+	culture = zaghawa
+}
+1000032024 = {
+	name="Tibo"
+	culture = zaghawa
+}
+1000032025 = {
+	name="Bidayat"
+	culture = zaghawa
+}
+1000032026 = {
+	name="Tebu"
+	culture = zaghawa
+}
+1000032027 = {
+	name="Duguwa"
+	culture = zaghawa
+}
+1000032028 = {
+	name="Arkuwa"
+	culture = zaghawa
+}
+1000032029 = {
+	name="Buluwa"
+	culture = zaghawa
+}
+1000032030 = {
+	name="Selmawa"
+	culture = zaghawa
+}
+1000032031 = {
+	name="Adad"
+	culture = zaghawa
+}
+1000032032 = {
+	name="Dabbalemi"
+	culture = maghreb_arabic
+}
+1000032033 = {
+	name="Ghajideni"
+	culture = maghreb_arabic
+}
+1000032034 = {
+	name="Sefuwa"
+	culture = maghreb_arabic
+}
+1000032035 = {
+	name="al-Djalil"
+	culture = maghreb_arabic
+}
+1000032036 = {
+	name="Yakabe"
+	culture = hausa
+}
+1000032037 = {
+	name="Nguimiwa"
+	culture = hausa
+}
+1000032038 = {
+	name="Kukavawa"
+	culture = hausa
+}
+1000032039 = {
+	name="Mandarawa"
+	culture = hausa
+}
+1000032040 = {
+	name="Mersewa"
+	culture = hausa
+}
+1000032041 = {
+	name="Rustam"
+	culture = maghreb_arabic
+}
+1000032042 = {
+	name="Aflah"
+	culture = maghreb_arabic
+}
+1000032043 = {
+	name="Hatim"
+	culture = maghreb_arabic
+}
+1000032044 = {
+	name="Yaqzan"
+	culture = maghreb_arabic
+}
+1000032045 = {
+	name="Kuraish"
+	culture = maghreb_arabic
+}
+1000032046 = {
+	name="Habbus"
+	culture = maghreb_arabic
+}
+1000032047 = {
+	name="Ghomara"
+	culture = maghreb_arabic
+}
+1000032048 = {
+	name="Adj"
+	culture = maghreb_arabic
+}
+#New Ethiopian Area Dynasties
+1000032049 = {
+	name="of Makuria"
+	culture = ethiopian
+}
+1000032050 = {
+	name="Makhzumi"
+	culture = ethiopian
+}
+1000032051 = {
+	name="Na'od"
+	culture = ethiopian
+}
+1000032052 = {
+	name="of Aksum"
+	culture = ethiopian
+}
+1000032053 = {
+	name="Wedam"
+	culture = ethiopian
+}
+1000032054 = {
+	name="Walashma"
+	culture = ethiopian
+}
+1000032055 = {
+	name="of Alodia"
+	culture = ethiopian
+}
+1000032056 = {
+	name="Ya'la"
+	culture = ethiopian
+}
+1000032057 = {
+	name="Bisharin"
+	culture = ethiopian
+}
+1000032058 = {
+	name="el-Messiah"
+	culture = egyptian_arabic
+}
+1000032059 = {
+	name="Sila"
+	culture = daju
+}
+1000032060 = {
+	name="Mongo"
+	culture = daju
+}
+1000032061 = {
+	name="Njalgulgule"
+	culture = daju
+}
+1000032062 = {
+	name="Nyala"
+	culture = daju
+}
+1000032063 = {
+	name="Beygo"
+	culture = daju
+}
+1000032064 = {
+	name="Liguri"
+	culture = daju
+}
+1000032065 = {
+	name="Shatt"
+	culture = daju
+}
+1000032066 = {
+	name="Guhwah"
+	culture = furpeople
+}
+1000032067 = {
+	name="Kondjara"
+	culture = furpeople
+}
+1000032068 = {
+	name="Kadirgi"
+	culture = furpeople
+}
+1000032069 = {
+	name="Maban"
+	culture = furpeople
+}
+1000032070 = {
+	name="Fora"
+	culture = furpeople
+}
+1000032071 = {
+	name="Dala"
+	culture = furpeople
+}
+1000032072 = {
+	name="Lali"
+	culture = furpeople
+}
+#1000032072-1000032086 Reserved for Frisian Dynasties
+1000032087 = {
+	name="Agadawa"
+	culture = hausa
+}
+1000032088 = {
+	name="Alawa"
+	culture = hausa
+}
+1000032089 = {
+	name="Djanawa"
+	culture = hausa
+}
+1000032090 = {
+	name="Dokawa"
+	culture = hausa
+}
+1000032091 = {
+	name="Wakawa"
+	culture = hausa
+}
+1000032092 = {
+	name="Tabe"
+	culture = hausa
+}
+1000032093 = {
+	name="Atanabe"
+	culture = hausa
+}
+1000032094 = {
+	name="Kanabe"
+	culture = hausa
+}
+1000032095 = {
+	name="Sokotwa"
+	culture = hausa
+}
+1000032096 = {
+	name="Mutwa"
+	culture = hausa
+}

@@ -1,0 +1,14 @@
+
+# County Title
+title = c_fashir
+
+# Settlements
+max_settlements = 2
+b_fashir = castle
+#b_kabkabiya = temple
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

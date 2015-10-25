@@ -1,7 +1,9 @@
-632.1.1=
-{
-	liege="d_moldau"
-	holder=159117
+460.1.1 = {
+	holder = 1000250700
+}
+610.1.1 = {
+	holder = 1000250006
+	liege = e_avaria
 }
 665.1.1=
 {
@@ -18,7 +20,7 @@
 }
 852.1.1=
 {
-    liege="d_moldau"
+        liege="d_moldau"
 	holder=168070
 }
 1066.1.1=

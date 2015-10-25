@@ -1,8 +1,24 @@
-337.1.1 = {
-    de_jure_liege="d_temes"
+454.1.1=
+{
+	holder=11052491
+	liege=d_pest
+}
+460.1.2=
+{
+	holder=11052591
+}
+
+
+620.1.1 = {
+	liege = d_pest
+	holder = 1000257700
+}
+660.1.1 = {
+	holder = 1000257701
 }
 685.1.1 = {
 	liege="e_avaria"
+        de_jure_liege="d_temes"
 	holder=146155
 }
 701.1.1 = {

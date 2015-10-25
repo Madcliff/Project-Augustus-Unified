@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_merowe
+# Settlements
+max_settlements = 3
+b_merowe = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

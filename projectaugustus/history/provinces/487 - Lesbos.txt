@@ -16,7 +16,7 @@ b_mithymna = temple
 #b_thasos = castle
 
 # Misc
-culture = greek
+culture = demotic
 religion = orthodox
 terrain = mountain
 
