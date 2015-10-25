@@ -2985,8 +2985,8 @@ scripture_name = THE_TORAH
 
                 can_grant_divorce = yes
                 can_call_crusade = yes
-                can_grant_invasion_cb = 
-		allow_rivermovement = yesinvasion
+                can_grant_invasion_cb = invasion
+																allow_rivermovement = yes 
                 can_hold_temples = yes
  
 autocephaly = yes

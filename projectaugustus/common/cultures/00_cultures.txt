@@ -2294,7 +2294,6 @@ Addaueina_Addaueina Agathe_Agatha Aignatia_Ignatia Aikaterine_Catherine Alexandr
 
 		modifier = default_culture_modifier
 	}
-}
 
 celtic = {
 	graphical_culture = westerngfx

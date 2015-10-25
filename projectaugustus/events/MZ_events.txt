@@ -478,8 +478,8 @@ character_event = {
 
 character_event = {	#chaharshanbe_suri
 	id = ZOR.506
-	title =
-	desc =EVTDESC_ZOR_506
+	title = EVTDESC_ZOR_506
+	desc = EVTDESC_ZOR_506
 	picture = GFX_evt_roi_throneroom
 	border = GFX_event_normal_frame_religion
 	

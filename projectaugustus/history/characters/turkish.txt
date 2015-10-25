@@ -10141,10 +10141,10 @@
 	dynasty = 1029137
 	religion = slavic_pagan
 	culture = severian
-	600.1.1== {
+	600.1.1 = {
 		birth = yes
 	}
-	675.1.1== {
+	675.1.1= {
 		death = yes
 	}
 }

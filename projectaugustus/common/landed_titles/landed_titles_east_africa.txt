@@ -438,7 +438,7 @@ k_nubia = {
 			color={238 18 137}
 			color2={ 255 255 255 }
 		
-				b_merawi
+				b_merawi = {}
 				b_wetet = { }
 				b_abay = { }
 				b_merai = { }
@@ -995,7 +995,6 @@ k_abyssinia = {
 			color={10 178 238}
 			color2={ 255 255 255 }
 		
-				b_begmeder - { }
 				b_begemder = { }
 				b_matilia = { }
 				b_tana = { }
@@ -1346,7 +1345,7 @@ k_berberia = {
 		
 				b_robe = { }
 				b_sedika = { }
-				b_amigna { }
+				b_amigna = { }
 				b_sedik = { }
 				b_amigaa = { }
 				b_robea = { }
@@ -2501,11 +2500,12 @@ k_damot = {
 		
 				b_jibat = { }
 				b_nono = { }
-				b_shanan { }
+				b_shanan = { }
 				b_dano = { }
 				b_kutaye = { }
 				b_toke = { }
-			}	
+			}
+			
 		c_gurage = {
 			color= { 373 511 239 }
 			color2= { 329 239 411 }

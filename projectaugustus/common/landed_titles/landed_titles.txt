@@ -4792,7 +4792,7 @@ e_byzantium = {
 				
 				b_constantinople = {
 				}
-				b_hagiasophia = 
+				b_hagiasophia = {
 					turkish = "Ayasofya"
 				}
 				b_galata = {
@@ -26118,7 +26118,7 @@ e_persia = {
 				b_nekhen = { }
 				b_amhar = { }
 				b_amher = { }
-				b_hierakonpolis 
+				b_hierakonpolis = {}
 			}
 			c_sopod = {
 				color = { 40 4 100 }
@@ -26130,7 +26130,7 @@ e_persia = {
 				b_heroopolites = { }
 				b_veteranorum = { }
 			}
-			c_leontopolis
+			c_leontopolis = {
 				color = { 70 7 80 }
 				
 				b_leontopoliss = { }
@@ -26339,7 +26339,7 @@ e_persia = {
 				color = { 50 1 70 }
 				
 				b_hypselis = { }
-				b_hypsela = [ ]
+				b_hypsela = {}
 				b_hypseliote = { }
 				b_minorius = { }
 				b_hypselisparva = { }
