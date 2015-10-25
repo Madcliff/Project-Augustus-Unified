@@ -1,5 +1,37 @@
 bookmark =
 {
+	name = "Roman Twilight"
+	desc = "475 AD, the Western Empire is in shambles and near the end."
+	date = 475.9.4
+	
+
+}
+
+bookmark =
+{
+	name = "Fall of the Western Roman Empire"
+	desc = "On the fourth of September 476CE the last Western Emperor, Romulus Augustulus, abdicated the throne and gave Italy to the Barbarian General Flavius Odoacer."
+	date = 476.9.4
+	
+
+}
+bookmark =
+{
+	name = "BM_RISE_OF_ISLAM"
+	desc = "BM_RISE_OF_ISLAM_DESC"
+	date = 632.6.8
+
+	character = 163014 # Abu Bakr
+	character = 180637 # Yazdegerd III
+	character = 145071 # Heraclius
+	character = 1000250305 # Bu-Yurgan
+	character = 159117 # Kubrat
+	character = 1000257600 # Samo
+	character = 168696 # Dagobert I
+}
+
+bookmark =
+{
 	name = "BM_CHARLEMAGNE"
 	desc = "BM_BM_CHARLEMAGNE_DESC"
 	date = 769.1.1
