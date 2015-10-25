@@ -60,7 +60,7 @@ narrative_event = {
 
 #Children gains the Ben HaMashiakh trait
 character_event = {
-    id = ExIs_102
+    id = ExIs.102
 	title = EVTNAME_ExIs_102
 	
     hide_window = yes
@@ -142,7 +142,7 @@ narrative_event = {
 
 # Muslims Expelled (Notifier for Vassals)
 character_event = {
-	id = ExIs_105
+	id = ExIs.105
 	title = EVTNAME_ExIs_105
 	desc = EVTDESC_ExIs_105
 	picture = GFX_evt_jewish_market
@@ -448,7 +448,7 @@ narrative_event = {
 		
 		NOT = { 
 			religion = rabbinic_judaism 
-			incapable
+			incapable  = yes
 		}
 		
 		age = 16
@@ -648,7 +648,7 @@ narrative_event = {
 		}
 	}
 }
-
+}
 #Rabbinic Judaism reformed to Grand Sanhedrin
 narrative_event = {
 	id = ExIs.120
@@ -673,7 +673,7 @@ narrative_event = {
 		
 		NOT = { 
 			religion = karaite 
-			incapable
+			incapable = yes
 		}
 		
 		age = 16
@@ -873,7 +873,7 @@ narrative_event = {
 		}
 	}
 }
-
+}
 ####Rebuilding Jerusalem
 province_event = {
 	id = ExIs.121
@@ -949,7 +949,7 @@ character_event = {
 	title = "EVTNAME_ExIs_122"
 	desc = "EVTDESC_ExIs_122"
 	picture = "GFX_persepolis_built"
-	border = GFX_event_normal_frame_war
+	border = GFX_event_normal_frame_war 
 	
 	is_triggered_only = yes
 	
@@ -958,7 +958,7 @@ character_event = {
 		prestige = 500
 		wealth = -3000
 		set_global_flag = jerusalem_rebuilt
-		b_mirabel = { set_name = Ayar avf Dawid }
+		b_mirabel = { set_name = Ayar_avf_Dawid }
 		capital_scope = {
 			add_province_modifier = { name = "jerusalem_upper_city" duration = -1 }
 			add_province_modifier = { monthly_character_prestige = 0.5 duration = -1 }
@@ -969,7 +969,7 @@ character_event = {
 		prestige = 500
 		wealth = -1000
 		set_global_flag = jerusalem_rebuilt
-		b_mirabel= { set_name = Ayar avf Dawid }
+		b_mirabel= { set_name = Ayar_avf_Dawid }
 		capital_scope = {
 			add_province_modifier = { name = "jerusalem_lower_city" duration = -1 }
 			add_province_modifier = { monthly_character_prestige = 0.25 duration = -1 }
@@ -980,7 +980,7 @@ character_event = {
 		prestige = 500
 		wealth = -4000
 		set_global_flag = jerusalem_rebuilt
-		b_mirabel = { set_name = Ayar avf Dawid }
+		b_mirabel = { set_name = Ayar_avf_Dawid }
 		add_building = { ca_con_wall_6 }
 		capital_scope = {
 			add_province_modifier = { name = "jerusalem_gate" duration = -1 }
