@@ -1,6 +1,6 @@
 # The English Melting Pot
 character_event = {
-	id = GRV.999991
+	id = GRV.1
 	desc = "EVTDESCGRV.55002"
 	picture = GFX_evt_stone_church
 	
