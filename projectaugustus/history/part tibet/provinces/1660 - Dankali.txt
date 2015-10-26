@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_dankali
+# Settlements
+max_settlements = 4
+b_dankali = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

@@ -1,0 +1,21 @@
+# 1183 - Bost
+
+# County Title
+title = c_bost
+
+# Settlements
+max_settlements = 4
+
+b_kandahar = castle
+b_bost = city # Aka Lashgar Gah
+b_zamindawar = temple
+
+# Misc
+culture = bactrian
+religion = zun_pagan
+
+# History
+700.1.1 = {
+	culture = afghan
+}
+860.1.1 = { religion = sunni }

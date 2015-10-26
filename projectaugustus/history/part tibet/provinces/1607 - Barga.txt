@@ -1,0 +1,14 @@
+# County Title
+title = c_barga
+
+# Settlements
+max_settlements = 3
+
+b_barga = tribal
+
+# Misc
+culture = mongol
+religion = tengri_pagan
+
+# History
+1227.1.1={ religion = tengri_pagan }

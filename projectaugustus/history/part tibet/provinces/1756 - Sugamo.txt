@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_sugamo
+# Settlements
+max_settlements = 4
+b_sugamo = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

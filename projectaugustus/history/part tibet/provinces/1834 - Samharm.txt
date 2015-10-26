@@ -1,0 +1,20 @@
+# 859 - Taizz
+
+# County Title
+title = c_samharm
+
+# Settlements
+max_settlements = 4
+b_samharm = city
+b_qaf = temple
+
+ 
+# Misc
+culture = omani_arabic
+religion = sabaean_pagan 
+
+700.1.1 = {
+religion = ibadi
+}
+
+

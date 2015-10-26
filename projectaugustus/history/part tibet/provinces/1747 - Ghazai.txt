@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_ghazai
+# Settlements
+max_settlements = 4
+b_ghazai = castle
+
+
+# Misc
+culture = luo
+religion = nilotic_pagan 
+
+# History

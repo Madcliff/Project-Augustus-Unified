@@ -1,0 +1,15 @@
+# County Title
+title = c_sokoto
+
+# Settlements
+max_settlements = 2
+b_sokoto = castle
+
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

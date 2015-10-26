@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_dobea
+# Settlements
+max_settlements = 4
+b_dobea = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

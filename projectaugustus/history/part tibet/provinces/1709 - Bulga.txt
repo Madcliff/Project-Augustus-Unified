@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_bulga
+# Settlements
+max_settlements = 4
+b_bulga = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

@@ -1,0 +1,16 @@
+# 1 - Vestisland
+
+# County Title
+title = c_batha
+
+# Settlements
+max_settlements = 2
+b_ati = castle
+#b_oum_hadjer = castle
+
+# Misc
+culture = kanuri
+religion = pagan
+
+
+# History

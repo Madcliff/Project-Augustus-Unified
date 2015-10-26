@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_gondokoro
+# Settlements
+max_settlements = 4
+b_gondokoro = castle
+
+
+# Misc
+culture = luo
+religion = nilotic_pagan
+
+# History

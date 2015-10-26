@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_fatagar
+# Settlements
+max_settlements = 4
+b_fatagar = castle
+
+
+# Misc
+culture = orma 
+religion = waaqafeena_pagan 
+
+# History

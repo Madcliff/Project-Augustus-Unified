@@ -1,0 +1,20 @@
+# County Title
+title = c_baltistan
+
+# Settlements
+max_settlements = 4
+
+b_baltistan = tribal
+#b_shimshal = castle
+#b_kyagar = temple
+#b_urdok = city
+
+
+
+# Misc
+culture = pamiri
+religion = vajrayana_buddhist
+
+
+# History
+

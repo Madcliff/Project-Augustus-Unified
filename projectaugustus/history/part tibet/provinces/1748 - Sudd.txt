@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_sudd
+# Settlements
+max_settlements = 4
+b_sudd = castle
+
+
+# Misc
+culture = luo
+religion = nilotic_pagan
+
+# History

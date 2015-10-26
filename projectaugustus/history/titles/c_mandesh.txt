@@ -1,6 +1,7 @@
 470.1.1 = {
-	liege = e_eftal
+	holder = 1000151023 
 }
+
 
 620.1.1={
 	holder = 188700 # Zunbil founder

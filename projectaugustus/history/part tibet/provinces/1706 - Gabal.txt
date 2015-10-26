@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_gabal
+# Settlements
+max_settlements = 4
+b_gabal = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

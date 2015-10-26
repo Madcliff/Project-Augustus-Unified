@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_borena
+# Settlements
+max_settlements = 4
+b_borena = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

@@ -1,0 +1,16 @@
+
+
+# County Title
+title = c_fezzan
+
+# Settlements
+max_settlements = 2
+b_tajarhi = castle
+#b_qatrun = castle
+
+
+# Misc
+culture = bedouin_arabic
+religion = sunni
+
+# History

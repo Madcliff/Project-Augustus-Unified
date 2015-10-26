@@ -1,7 +1,10 @@
 470.1.1 = {
-	liege = e_eftal
+	holder = 1000151023 
 }
 
+600.1.1 = {
+	holder = 100257429 
+}
 620.1.1 = {
 	holder = 1000257400 # Chagan Khuda
 	liege = k_afghanistan

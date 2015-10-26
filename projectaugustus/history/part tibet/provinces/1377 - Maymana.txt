@@ -1,0 +1,29 @@
+# 1377 - Maymana
+
+# County Title
+title = c_maymana
+
+# Settlements
+max_settlements = 4
+b_maymana = castle
+b_almar = city
+b_gurziwan = temple
+
+#b_darzab = castle
+#b_bilcheragh = city
+
+# Misc
+culture = bactrian
+religion = nestorian
+
+# History
+
+700.1.1 = {
+	culture = bactrian
+}
+1100.1.1 = {
+	religion = sunni
+	culture = afghan
+}
+
+1230.1.1 = { culture = turkish }

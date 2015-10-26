@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_gambela
+# Settlements
+max_settlements = 4
+b_gambela = castle
+
+
+# Misc
+culture = luo
+religion = nilotic_pagan 
+
+# History

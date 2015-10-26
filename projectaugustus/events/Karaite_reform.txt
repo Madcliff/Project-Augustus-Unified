@@ -1,0 +1,189 @@
+#Reformation Events
+#Karaite reformed to Temple Judaism
+narrative_event = {
+	id = ExIs.119
+	title = EVTTITLE_ExIs_119
+	desc = EVTDESC_ExIs_119
+	major = yes
+	picture = GFX_evt_jerusalem_captured_jews
+	border = GFX_event_narrative_frame_religion
+	
+	show_ROOT = yes
+	hide_new = yes
+	
+	only_rulers = yes
+		mean_time_to_happen = { months = 60 }
+	
+	trigger = { 
+			religion = karaite
+			has_global_flag = third_temple_built
+			has_landed_title = k_israel
+		
+		
+		NOT = { 
+			religion = rabbinic_judaism 
+			trait = incapable
+		}
+		
+		age = 16
+		prisoner = no
+		war = no
+		
+	}
+		
+	
+	immediate = {
+		if = {
+			limit = { ai = no }
+			set_character_flag = karaite_reformed
+		}
+		any_courtier = {
+			limit = {
+				is_heresy_of = ROOT
+				employer = { character = ROOT }
+			}
+			religion = ROOT
+		}
+		any_dynasty_member = {
+			limit = {
+				is_heresy_of = ROOT
+				is_playable = no
+			}
+			religion = ROOT
+		}
+		any_vassal = {
+			limit = {
+				is_playable = no
+				is_heresy_of = ROOT
+			}
+			religion = ROOT
+		}
+		capital_scope = {
+			if = {
+				limit = { is_heresy_of = ROOT }
+				religion = ROOT
+			}
+		}
+	}
+	
+
+	option = {
+		name = "EVTOPTA_ExIs_119" # The Reformer
+		trigger = { religion = ROOT }
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_PLAYER_REFORMED_RELIGION
+				portrait = [Root.GetID]
+			}
+			
+			narrative_event = { id = SoA.550 }
+			
+		}
+	}
+	option = {
+		name = "EVTOPTB_ExIs_119" # Rulers of the old Faith - Accept
+		trigger = {
+			is_heresy_of = ROOT # The old religion has become a heresy of the Reformed one
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
+				portrait = [Root.GetID]
+			}
+		}
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 5
+				any_liege = { religion = ROOT }
+			}
+			modifier = {
+				factor = 2
+				same_realm = ROOT
+			}
+			modifier = {
+				factor = 5
+				trait = cynical
+			}
+			modifier = {
+				factor = 10
+				dynasty = ROOT
+			}
+			modifier = {
+				factor = 0.1
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+		}
+		
+		religion = ROOT
+		
+		hidden_tooltip = {
+			any_courtier = {
+				limit = {
+					is_heresy_of = ROOT
+					employer = { character = PREV }
+				}
+				religion = ROOT
+			}
+			any_vassal = {
+				limit = {
+					is_playable = no
+					is_heresy_of = ROOT
+				}
+				religion = ROOT
+			}
+			capital_scope = {
+				if = {
+					limit = { is_heresy_of = ROOT }
+					religion = ROOT
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC_ExIs_119" # Rulers of the old Faith - Decline
+		trigger = {
+			is_heresy_of = ROOT # The old religion has become a heresy of the Reformed one
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
+				portrait = [Root.GetID]
+			}
+		}
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				has_landed_title = b_maccabean_guard
+			}
+			modifier = {
+				factor = 0
+				has_landed_title = d_siqariqim
+			}
+			modifier = {
+				factor = 0
+				has_landed_title = d_knights_goshen
+			}
+			modifier = {
+				factor = 0
+				has_landed_title = d_mishkan_guardians
+			}
+		}
+		tooltip = { religion = THIS }
+	}
+	option = {
+		name = "EVTOPTD_ExIs_119" # Other playable rulers
+		trigger = {
+			NOT = { religion = ROOT }
+			NOT = { is_heresy_of = ROOT }
+		}
+	}
+}

@@ -216,3 +216,29 @@
 		death=yes
 	}
 }
+
+211158 = {
+	name="Syrka"
+	dynasty=1029125
+	religion=finnish_pagan
+	culture=komi
+	459.1.1={
+		birth=yes
+	}
+	525.1.1={
+		death=yes
+	}
+}
+
+211159 = {
+	name="Varmanpaz" 
+	dynasty=1029125
+	religion=finnish_pagan
+	culture=komi
+	614.1.1={
+		birth=yes
+	}
+	679.1.1={
+		death=yes
+	}
+}

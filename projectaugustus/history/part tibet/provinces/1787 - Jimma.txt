@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_jimma
+# Settlements
+max_settlements = 4
+b_jimma = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

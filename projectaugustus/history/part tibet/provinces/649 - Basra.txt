@@ -1,0 +1,27 @@
+# 649 - Basra
+
+# County Title
+title = c_basra
+
+# Settlements
+max_settlements = 6
+b_ummqasr = castle
+b_basra = city
+b_azzubayr = temple
+b_arah = castle
+b_mohammera = castle
+
+#b_sukelsheyuhk = castle
+#b_kalaatderat = temple
+#b_qurna = castle
+
+culture = bedouin_arabic
+religion = nestorian
+
+# History
+100.1.1 = {
+	b_basra = ct_jewish_community_1
+	b_basra = ct_jewish_community_2
+}
+850.1.1 = { religion = shiite}
+1187.1.1 = { b_arah = castle } 

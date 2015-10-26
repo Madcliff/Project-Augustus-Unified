@@ -1,0 +1,15 @@
+# County Title
+title = c_ngarangou
+
+# Settlements
+max_settlements = 2
+b_ngarangou = castle
+#b_nadu = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

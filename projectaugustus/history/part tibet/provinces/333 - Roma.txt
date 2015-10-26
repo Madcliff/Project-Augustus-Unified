@@ -1,0 +1,53 @@
+# 333 - Roma
+
+# County Title
+title = c_roma
+
+# Settlements
+max_settlements = 7
+b_roma = temple
+b_tivoli = castle
+b_viterbo = city
+#b_terracina = castle
+b_tusculum = castle
+#b_aragni = castle
+b_ostia = city
+#b_sutri = castle
+
+# Misc
+culture = old_italian
+religion = catholic
+
+# History
+700.1.1 = {
+	b_viterbo = ct_jewish_community_1
+}
+769.1.1 = { 
+	b_tivoli = ca_keep_1
+	b_tivoli = ca_stable_1
+	b_tivoli = ca_militia_barracks_1
+	b_tivoli = ca_wall_1
+	b_tivoli = ca_wall_2
+	b_roma = tp_monastery_1
+	b_roma = tp_monastery_2
+        b_roma = tp_stpeters
+	b_roma = tp_barracks_1
+	b_roma = tp_wall_1
+	b_roma = tp_wall_2
+	b_roma = tp_rom_wall_6
+	b_roma = tp_town_1
+}
+920.1.1 = { culture = italian }
+1091.1.1 = { trade_post = b_dappiano }
+1143.10.23 = { 
+        capital = b_viterbo 
+	b_viterbo = ct_rom_wall_6 
+}
+1155.1.1 = { capital = b_roma }
+1190.1.1 = { 
+        capital = b_viterbo 
+	b_viterbo = ct_rom_wall_6 
+}
+1193.1.1 = { capital = b_roma }
+1285.1.1 = { trade_post = b_doria }
+1337.1.1 = { b_aragni = temple }

@@ -1,0 +1,12 @@
+# County Title
+title = c_tunjur
+
+# Settlements
+max_settlements = 2
+b_tunjur = castle
+
+# Misc
+culture = daju
+religion = animism
+
+# History

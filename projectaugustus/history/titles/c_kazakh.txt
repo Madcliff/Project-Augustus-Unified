@@ -5,10 +5,11 @@
 20.1.1 = {
 	historical_nomad = yes
 }
-620.1.1 = {
-	holder = 1000257452 
-	liege=d_kipchak
+593.1.1 = {
+	liege=e_goturks
+	holder=1000257440 
 }
+
 762.1.1={
 	liege=d_kipchak
 	holder=188820

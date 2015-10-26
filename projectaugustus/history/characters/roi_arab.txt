@@ -2046,4 +2046,41 @@
 }
 
 
+10258233 = {
+	name="Tatadim"
+	dynasty=1042636
+	religion="miaphysite"
+	culture="ethiopian"
+	450.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}	
+}
 
+10258234 = {
+	name="Silko"
+	dynasty=101778
+	religion="miaphysite"
+	culture="nubian"
+	450.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+	
+10258235 = {
+	name="Eionkouda"
+	dynasty=1040009
+	religion="miaphysite"
+	culture="nubian"
+	450.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}

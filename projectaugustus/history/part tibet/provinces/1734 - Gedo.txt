@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_gedo
+# Settlements
+max_settlements = 4
+b_gedo = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

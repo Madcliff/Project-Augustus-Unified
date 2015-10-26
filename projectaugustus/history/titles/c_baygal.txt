@@ -1,11 +1,9 @@
 ﻿450.1.1 = {
 	holder = 1000256135 
 }
-620.1.1={
-	liege=k_xueyantuo
+610.1.1 = {
+	holder = 10257430
 }
-
-
 744.1.1={
 	holder=188783
 	liege=k_mongolia

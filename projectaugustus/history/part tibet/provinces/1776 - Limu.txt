@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_limu
+# Settlements
+max_settlements = 4
+b_limu = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

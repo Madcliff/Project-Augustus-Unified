@@ -1,0 +1,21 @@
+# 789 - Pelusia
+
+# County Title
+title = c_gebelain
+
+# Settlements
+max_settlements = 5
+b_gebelain = castle
+b_jabalen = city
+b_inerty = temple
+
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+
+767.1.1 = { religion = miaphysite }
+909.1.1 = { culture = egyptian_arabic }
+909.1.1 = { religion = shiite }

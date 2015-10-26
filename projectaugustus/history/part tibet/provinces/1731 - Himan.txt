@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_himan
+# Settlements
+max_settlements = 4
+b_himan = castle
+
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

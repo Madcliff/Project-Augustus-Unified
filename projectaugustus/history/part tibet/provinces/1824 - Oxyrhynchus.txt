@@ -1,0 +1,22 @@
+# 789 - Pelusia
+
+# County Title
+title = c_oxyrhynchus
+
+# Settlements
+max_settlements = 5
+b_oxyrhynchus = castle
+b_pemdje = city
+b_bahnsa = temple
+
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+
+767.1.1 = { religion = miaphysite }
+909.1.1 = { culture = egyptian_arabic }
+909.1.1 = { religion = shiite }
+1171.1.1 = { religion = sunni } 

@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_bahirdar
+# Settlements
+max_settlements = 4
+b_bahirdar = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

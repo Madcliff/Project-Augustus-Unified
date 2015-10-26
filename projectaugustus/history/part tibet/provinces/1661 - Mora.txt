@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_mora
+# Settlements
+max_settlements = 4
+b_mora = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

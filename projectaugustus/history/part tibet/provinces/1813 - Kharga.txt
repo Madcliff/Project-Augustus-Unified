@@ -1,0 +1,26 @@
+# 789 - Pelusia
+
+# County Title
+title = c_kharga
+
+# Settlements
+max_settlements = 4
+b_kharga = castle
+b_beleida = city
+b_labakha = temple
+
+#b_sile = castle
+#b_said = city
+#b_pithom = castle
+#b_serapeum = castle
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+
+767.1.1 = { religion = miaphysite }
+909.1.1 = { culture = egyptian_arabic }
+909.1.1 = { religion = shiite }
+1171.1.1 = { religion = sunni } 

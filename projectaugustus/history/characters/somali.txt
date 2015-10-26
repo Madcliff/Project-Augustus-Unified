@@ -239,3 +239,55 @@
 		death="985.1.1"
 	}
 }
+
+21162 = { 
+	name="Mansur"
+	dynasty=1022343
+	religion="waaqafeena_pagan"
+	culture="somali"
+	615.1.1={
+		birth=yes
+	}
+	670.1.1 = {
+		death=yes
+	}
+}
+
+21164 = { 
+	name="Hil"
+	dynasty=1022343
+	religion="waaqafeena_pagan"
+	culture="somali"
+	450.1.1={
+		birth=yes
+	}
+	520.1.1 = {
+		death=yes
+	}
+}
+
+21163 = { 
+	name="Sadiq"
+	dynasty=1022348
+	religion="waaqafeena_pagan"
+	culture="somali"
+	615.1.1={
+		birth=yes
+	}
+	670.1.1 = {
+		death=yes
+	}
+}
+
+21165 = { 
+	name="Siciid"
+	dynasty=1022348
+	religion="waaqafeena_pagan"
+	culture="somali"
+	450.1.1={
+		birth=yes
+	}
+	520.1.1 = {
+		death=yes
+	}
+}

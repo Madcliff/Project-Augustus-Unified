@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_madani
+# Settlements
+max_settlements = 4
+b_madani = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

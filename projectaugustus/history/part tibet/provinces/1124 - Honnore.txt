@@ -1,0 +1,23 @@
+# 1124 - Honnore
+
+# County Title
+title = c_honnore
+
+# Settlements
+max_settlements = 5
+b_honnore = castle
+b_bhatkal = city
+b_gokarna = temple
+#b_barkur = castle
+#b_mookambika = temple
+#b_karwar = city
+
+# Misc
+culture = kannada
+religion = dravidian 
+
+# History
+700.1.1 = {
+	b_bhatkal = ct_jewish_community_1
+	b_bhatkal = ct_jewish_community_2
+}

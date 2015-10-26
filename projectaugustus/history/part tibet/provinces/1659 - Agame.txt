@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_agame
+# Settlements
+max_settlements = 4
+b_agame = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

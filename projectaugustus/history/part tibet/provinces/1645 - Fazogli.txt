@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_fazogli
+# Settlements
+max_settlements = 4
+b_fazogli = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

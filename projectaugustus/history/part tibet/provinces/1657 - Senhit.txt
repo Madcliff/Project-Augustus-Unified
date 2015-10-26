@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_senhit
+# Settlements
+max_settlements = 4
+b_senhit = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

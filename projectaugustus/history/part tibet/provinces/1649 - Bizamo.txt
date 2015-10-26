@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_bizamo
+# Settlements
+max_settlements = 4
+b_bizamo = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

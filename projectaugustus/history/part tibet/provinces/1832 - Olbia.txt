@@ -1,0 +1,22 @@
+# 789 - Pelusia
+
+# County Title
+title = c_olbia
+
+# Settlements
+max_settlements = 3
+b_olbiaa = castle
+b_kosseir = city
+b_porphyrites = temple
+
+
+# Misc
+culture = coptic
+religion = miaphysite
+
+# History
+
+767.1.1 = { religion = miaphysite }
+909.1.1 = { culture = egyptian_arabic }
+909.1.1 = { religion = shiite }
+1171.1.1 = { religion = sunni } 

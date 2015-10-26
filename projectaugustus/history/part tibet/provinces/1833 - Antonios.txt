@@ -1,0 +1,18 @@
+# 789 - Pelusia
+
+# County Title
+title = c_antonios
+
+# Settlements
+max_settlements = 3
+b_antonios = temple
+
+
+# Misc
+culture = beja
+religion = miaphysite
+
+# History
+
+767.1.1 = { religion = miaphysite }
+

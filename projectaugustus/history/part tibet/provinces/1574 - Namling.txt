@@ -1,0 +1,10 @@
+# No previous file for PROV1575
+title = c_namling
+
+# Settlements
+max_settlements = 4
+b_namling = tribal
+
+culture = tibetan
+religion = vajrayana_buddhist
+terrain = hills

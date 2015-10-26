@@ -1,0 +1,17 @@
+# 1 - Vestisland
+
+# County Title
+title = c_fada
+
+# Settlements
+max_settlements = 2
+b_fada = castle
+#b_tokou = castle
+
+
+# Misc
+culture = kanuri
+religion = pagan
+
+
+# History

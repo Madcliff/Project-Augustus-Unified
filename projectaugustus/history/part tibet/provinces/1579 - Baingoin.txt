@@ -1,0 +1,12 @@
+# No previous file for PROV1579
+title = c_baingoin
+
+# Settlements
+max_settlements = 3
+b_baingoin = tribal
+
+
+culture = tibetan
+religion = bon_pagan
+terrain = hills
+

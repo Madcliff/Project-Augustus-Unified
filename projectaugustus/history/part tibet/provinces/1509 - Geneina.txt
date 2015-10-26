@@ -1,0 +1,13 @@
+
+# County Title
+title = c_geneina
+
+# Settlements
+max_settlements = 2
+b_geneina = castle
+
+# Misc
+culture = daju
+religion = animism
+
+# History

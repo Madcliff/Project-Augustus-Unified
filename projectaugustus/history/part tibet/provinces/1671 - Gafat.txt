@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_gafat
+# Settlements
+max_settlements = 4
+b_gafat = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

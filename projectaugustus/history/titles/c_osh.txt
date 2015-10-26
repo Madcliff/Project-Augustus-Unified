@@ -1,9 +1,9 @@
 ﻿470.1.1 = {
-	liege = e_eftal
+	holder = 1000151023 
 }
 
-600.1.1 = { 
-	liege = k_afghanistan
+600.1.1 = {
+	holder = 100257429 
 }
 
 710.1.1={

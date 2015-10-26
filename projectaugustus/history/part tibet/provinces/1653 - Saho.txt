@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_saho
+# Settlements
+max_settlements = 4
+b_saho = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

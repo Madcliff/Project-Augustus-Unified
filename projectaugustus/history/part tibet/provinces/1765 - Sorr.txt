@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_sorr
+# Settlements
+max_settlements = 4
+b_sorr = tribal
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

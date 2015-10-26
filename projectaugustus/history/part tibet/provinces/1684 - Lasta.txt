@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_lasta
+# Settlements
+max_settlements = 4
+b_lasta = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

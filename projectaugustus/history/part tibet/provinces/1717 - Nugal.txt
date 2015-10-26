@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_nugal
+# Settlements
+max_settlements = 4
+b_nugal = castle
+
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

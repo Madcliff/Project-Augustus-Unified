@@ -1,0 +1,18 @@
+# 1590 - Bethleham
+
+# County Title
+title = c_bethleham
+
+# Settlements
+max_settlements = 3
+b_bethleham29 = castle
+b_placeholder30 = temple
+
+# Misc
+culture = aramean
+religion = orthodox
+
+# History
+
+867.1.1 = { religion = orthodox }
+1187.1.1 = { b_placeholder31 = city }
