@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_seraye
+# Settlements
+max_settlements = 4
+b_seraye = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

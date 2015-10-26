@@ -1,0 +1,10 @@
+# No previous file for PROV1575
+title = c_samzhubze
+
+# Settlements
+max_settlements = 5
+b_samzhubze = tribal
+
+culture = tibetan
+religion = vajrayana_buddhist
+terrain = hills

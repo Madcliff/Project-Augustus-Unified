@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_kambaeta
+# Settlements
+max_settlements = 4
+b_kambaeta = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

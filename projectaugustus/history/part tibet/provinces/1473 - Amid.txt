@@ -1,0 +1,20 @@
+# 1447 - Amid
+
+# County Title
+title = c_amid
+
+# Settlements
+max_settlements = 5
+b_artni = castle
+b_mayyafarikin = city
+b_jermuk = temple
+#b_hattakh = castle
+b_hani = city
+#b_sureha = temple
+
+# Misc
+culture = armenian
+religion = apostolic
+
+# History
+

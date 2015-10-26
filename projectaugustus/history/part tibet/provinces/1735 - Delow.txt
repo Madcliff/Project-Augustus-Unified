@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_delow
+# Settlements
+max_settlements = 4
+b_delow = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

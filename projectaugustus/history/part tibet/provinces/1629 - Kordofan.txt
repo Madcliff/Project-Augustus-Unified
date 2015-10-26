@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_kordofan
+# Settlements
+max_settlements = 4
+b_kordofan = castle
+
+
+# Misc
+culture = nubian
+religion = nilotic_pagan 
+
+# History

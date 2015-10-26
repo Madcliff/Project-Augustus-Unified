@@ -1,0 +1,23 @@
+# 859 - Taizz
+
+# County Title
+title = c_hudaydah
+
+# Settlements
+max_settlements = 5
+b_hudaydah = castle
+b_bajil = city
+b_salif = temple
+
+
+ 
+# Misc
+culture = hejazi_arabic
+religion = sunni
+
+# History
+
+750.1.1 = { religion = shiite }
+# History
+#1337.1.1 = { b_mocha = city } #port became known in the 15th century
+

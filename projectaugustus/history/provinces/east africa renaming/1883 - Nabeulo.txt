@@ -1,0 +1,23 @@
+# 817 - Tunis
+
+# County Title
+title = c_nabeulo
+max_settlements = 5
+
+b_nabeulo = castle
+b_nabil = city
+b_khiar = temple
+b_solimen = castle
+
+
+# Misc
+culture = african
+religion = donatist 
+
+# History
+
+867.1.1 = {
+	religion = sunni
+        culture = maghreb_arabic
+}
+

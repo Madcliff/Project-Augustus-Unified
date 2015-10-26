@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_janjaro
+# Settlements
+max_settlements = 4
+b_janjaro = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

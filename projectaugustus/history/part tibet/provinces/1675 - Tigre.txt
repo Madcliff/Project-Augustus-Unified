@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_tigre
+# Settlements
+max_settlements = 4
+b_tigre = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

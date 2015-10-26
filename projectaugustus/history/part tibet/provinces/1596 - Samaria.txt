@@ -1,0 +1,19 @@
+# 1596 - Samaria
+
+# County Title
+title = c_samaria
+
+# Settlements
+max_settlements = 4
+b_samaria1 = temple
+b_placeholder2 = temple
+b_placeholder3 = castle
+
+# Misc
+culture = hebrew
+religion = samaritan
+
+# History
+
+867.1.1 = { religion = samaritan }
+1187.1.1 = { b_placeholder4 = city }

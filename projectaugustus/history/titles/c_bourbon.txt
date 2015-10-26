@@ -7,6 +7,11 @@
 	liege = "k_visigoth"
 }
 
+630.1.1 = {
+	holder = 1000153020
+	liege = d_berry
+}
+
 655.1.1 = {
 	holder = 0
 }

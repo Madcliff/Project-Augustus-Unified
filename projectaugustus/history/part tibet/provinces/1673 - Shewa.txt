@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_shewa
+# Settlements
+max_settlements = 4
+b_shewaa = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

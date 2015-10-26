@@ -1,0 +1,13 @@
+
+
+# County Title
+title = c_maya
+# Settlements
+max_settlements = 4
+b_maya = castle
+
+
+# Misc
+culture = orma
+religion = waaqafeena_pagan 
+# History

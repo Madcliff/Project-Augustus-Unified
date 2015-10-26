@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_simada
+# Settlements
+max_settlements = 4
+b_simada = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

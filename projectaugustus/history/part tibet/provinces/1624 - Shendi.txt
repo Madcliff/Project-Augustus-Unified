@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_shendi
+# Settlements
+max_settlements = 3
+b_shendi = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

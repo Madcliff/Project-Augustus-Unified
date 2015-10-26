@@ -1,0 +1,28 @@
+# County Title
+title = c_dunkheger
+
+# Settlements
+max_settlements = 3
+
+#b_dunkheger =
+#b_hou_pulei =
+b_yulishi = castle
+b_gucheng = city
+#b_mori =
+b_jiangjunmiao = castle
+
+# Misc
+culture = tocharian
+religion = mahayana_buddhist
+
+# History
+800.1.1={ culture = uyghur
+religion = manichean
+b_beshbalik = tribal
+remove_settlement = b_jiangjunmiao
+remove_settlement = b_yulishi
+remove_settlement = b_gucheng
+ }
+900.1.1={ religion = mahayana_buddhist}
+1227.1.1={ culture = mongol }
+1227.1.1={ religion = tengri_pagan }

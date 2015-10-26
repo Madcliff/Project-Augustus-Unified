@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_dinka
+# Settlements
+max_settlements = 4
+b_dinka = castle
+
+
+# Misc
+culture = luo
+religion = nilotic_pagan
+
+# History

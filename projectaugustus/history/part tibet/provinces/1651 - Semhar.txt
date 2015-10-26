@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_semhar
+# Settlements
+max_settlements = 4
+b_semhar = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

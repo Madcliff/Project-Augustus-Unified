@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_karkoj
+# Settlements
+max_settlements = 4
+b_karkoj = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

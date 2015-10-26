@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_bara
+# Settlements
+max_settlements = 4
+b_bara = castle
+
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

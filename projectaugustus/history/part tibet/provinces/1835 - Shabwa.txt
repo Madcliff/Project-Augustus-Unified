@@ -1,0 +1,20 @@
+# 859 - Taizz
+
+# County Title
+title = c_shabwa
+
+# Settlements
+max_settlements = 4
+b_shabwa = city
+b_ain = temple
+
+ 
+# Misc
+culture = hejazi_arabic
+religion = sabaean_pagan 
+
+700.1.1 = {
+religion = sunni
+}
+# History
+

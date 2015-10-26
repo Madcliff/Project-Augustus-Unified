@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_renik
+# Settlements
+max_settlements = 4
+b_renik = castle
+
+
+# Misc
+culture = nubian
+religion = miaphysite
+
+# History

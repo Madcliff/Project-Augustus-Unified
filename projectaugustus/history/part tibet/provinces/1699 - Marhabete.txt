@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_marhabete
+# Settlements
+max_settlements = 4
+b_marhabete = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

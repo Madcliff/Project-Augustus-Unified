@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_mereg
+# Settlements
+max_settlements = 4
+b_mereg = castle
+
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

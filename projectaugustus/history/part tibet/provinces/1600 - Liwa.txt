@@ -1,0 +1,21 @@
+# 870 - Dhu Zabi
+
+# County Title
+title = c_liwa
+
+# Settlements
+max_settlements = 4
+b_liwa = castle
+b_aradah = city
+b_humar = temple
+
+# Misc
+culture = omani_arabic
+religion = sabaean_pagan 
+
+700.1.1 = {
+religion = ibadi
+}
+
+# History
+850.1.1 = { religion = shiite }

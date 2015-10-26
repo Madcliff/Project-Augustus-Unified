@@ -1,0 +1,12 @@
+# No previous file for PROV1575
+title = c_nyima
+
+# Settlements
+max_settlements = 3
+b_nyima = tribal
+#b_wylie = { }
+#b_nima = { }
+
+culture = tibetan
+religion = bon_pagan
+terrain = hills

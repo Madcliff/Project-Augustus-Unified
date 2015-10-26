@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_abergale
+# Settlements
+max_settlements = 4
+b_abergale = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

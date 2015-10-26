@@ -1,0 +1,15 @@
+# County Title
+title = c_gvari
+
+# Settlements
+max_settlements = 2
+b_gvari = castle
+
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_nuer
+# Settlements
+max_settlements = 4
+b_nuer = tribal
+
+
+# Misc
+culture = luo
+religion = nilotic_pagan
+
+# History

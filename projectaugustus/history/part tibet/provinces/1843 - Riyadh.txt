@@ -1,0 +1,16 @@
+# 863 - Hajr
+
+# County Title
+title = c_riyadh 
+
+# Settlements
+max_settlements = 3
+b_riyadh = tribal
+
+
+# Misc
+culture = tribal_arab 
+religion = arabic_pagan
+
+# History
+

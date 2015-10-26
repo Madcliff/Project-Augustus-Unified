@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_amhara
+# Settlements
+max_settlements = 4
+b_amhara = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

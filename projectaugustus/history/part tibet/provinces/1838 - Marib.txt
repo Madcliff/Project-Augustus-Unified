@@ -1,0 +1,21 @@
+# 859 - Taizz
+
+# County Title
+title = c_marib
+
+# Settlements
+max_settlements = 4
+b_marib = city
+b_murad = temple
+
+ 
+# Misc
+culture = hejazi_arabic
+religion = sabaean_pagan 
+
+700.1.1 = {
+religion = shiite
+}
+
+# History
+

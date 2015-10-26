@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_baquilin
+# Settlements
+max_settlements = 4
+b_baquilin = castle
+
+
+# Misc
+culture = beja
+religion = egyptian_pagan 
+
+# History

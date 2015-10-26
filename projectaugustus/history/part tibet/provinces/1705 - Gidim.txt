@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_gidim
+# Settlements
+max_settlements = 4
+b_gidim = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

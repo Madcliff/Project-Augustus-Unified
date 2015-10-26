@@ -774,4 +774,8 @@
 	culture = himyarite
 }
 
+1000124581 = {
+	name = Bashkir
+	culture = turkish
+}
 

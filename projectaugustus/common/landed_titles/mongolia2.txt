@@ -1,0 +1,97 @@
+	k_mongolia = {	
+		d_bargujin = {
+			color = { 22 220 255 }
+			
+			capital = 1611
+			
+			c_bargujin = {
+				color = { 22 22 44 }
+				
+				b_bargujin = { }
+				b_baikalsk = { }
+				b_oblast = { }
+			}
+			
+			c_bulgachin = {
+				color = { 220 22 111 }
+				
+				b_bulgachin = { }
+				b_heremchin = { }
+				b_angarsk = { }
+			}
+			c_khermechin = {
+				color = { 10 22 111 }
+				
+				b_khermechin = { }
+				b_irkutsk = { }
+				b_ordinsk = { }
+			}
+		}
+		d_khori_tumed = {
+			color = { 12 320 155 }
+			
+			capital = 1612
+		
+			c_khori = {
+				color = { 202 22 14 }
+				
+				b_khori = { }
+				b_usole = { }
+				b_sibirskoje = { }
+			}
+			
+			c_tumed = {
+				color = { 210 22 111 }
+				
+				b_tumed = { }
+				b_huhhot = { }
+				b_baotou = { }
+			}
+			c_oirat = {
+				color = { 100 22 121 }
+				
+				b_oirat = { }
+				b_eleuths = { }
+				b_dzungar = { }
+			}
+		}
+		
+		d_barga = {
+			color = { 122 20 25 }
+			
+			capital = 1607 
+
+			c_bargusin = {
+				color = { 10 176 240 }
+				
+				b_bargusin = {
+				}
+				b_ulan = {
+				}
+				b_barguzin = {
+				}
+			}
+
+			c_barga = {
+				color = { 100 176 20 }
+				
+				b_barga = {
+				}
+				b_khalkha = {
+				}
+				b_ergune = {
+				}
+			}
+
+			c_buryatia = {
+				color = { 150 176 40 }
+				
+				b_buryatia = {
+				}
+				b_ust_bargusin = {
+				}
+				b_selenginsk = {
+				}
+			}
+		}
+	}

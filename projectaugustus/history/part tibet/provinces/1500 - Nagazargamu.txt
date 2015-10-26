@@ -1,0 +1,15 @@
+# County Title
+title = c_nagazargamu
+
+# Settlements
+max_settlements = 2
+b_nagazargamu = castle
+#b_dala = castle
+
+
+# Misc
+culture = hausa
+religion = animism
+
+
+# History

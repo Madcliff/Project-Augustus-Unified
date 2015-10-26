@@ -1,0 +1,21 @@
+# 1586 - Gaza
+
+# County Title
+title = c_gaza
+
+# Settlements
+max_settlements = 3
+b_gaza60 = castle
+b_placeholder61 = city
+b_placeholder62 = temple
+b_placeholder63 = city
+
+# Misc
+culture = aramean
+religion = orthodox
+
+# History
+
+909.1.1 = { culture = levantine_arabic }
+909.1.1 = { religion = shiite }
+1171.1.1 = { religion = sunni } 

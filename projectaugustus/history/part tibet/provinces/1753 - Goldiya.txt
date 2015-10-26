@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_goldiya
+# Settlements
+max_settlements = 4
+b_goldiya = castle
+
+
+# Misc
+culture = luo
+religion = nilotic_pagan
+
+# History

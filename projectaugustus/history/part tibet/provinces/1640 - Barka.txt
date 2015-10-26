@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_barka
+# Settlements
+max_settlements = 4
+b_barka = castle
+
+
+# Misc
+culture = beja
+religion = egyptian_pagan 
+
+# History

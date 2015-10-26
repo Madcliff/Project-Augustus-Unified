@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_dera
+# Settlements
+max_settlements = 4
+b_dera = castle
+
+
+# Misc
+culture = ethiopian
+religion = miaphysite
+
+# History

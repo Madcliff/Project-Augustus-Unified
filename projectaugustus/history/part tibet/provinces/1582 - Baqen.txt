@@ -1,0 +1,10 @@
+# No previous file for PROV1582
+title = c_baqen
+# Settlements
+max_settlements = 2
+b_baqen = tribal
+
+
+culture = tibetan
+religion = bon_pagan
+terrain = hills

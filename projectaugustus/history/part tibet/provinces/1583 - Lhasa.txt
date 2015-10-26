@@ -1,0 +1,10 @@
+# No previous file for PROV1582
+title = c_lhasa
+# Settlements
+max_settlements = 6
+b_lhasa = tribal
+
+
+culture = tibetan
+religion = vajrayana_buddhist
+terrain = hills

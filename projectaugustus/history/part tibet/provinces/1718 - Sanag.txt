@@ -1,0 +1,14 @@
+
+
+# County Title
+title = c_sanag
+# Settlements
+max_settlements = 4
+b_sanag = castle
+
+
+# Misc
+culture = somali
+religion = sunni
+
+# History

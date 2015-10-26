@@ -1,0 +1,21 @@
+# County Title
+title = c_gilgit
+
+# Settlements
+max_settlements = 6
+
+b_ghanche = castle
+b_skardu = temple
+b_shatial = city
+b_biafo = temple
+b_gasherbrum = castle
+
+
+
+# Misc
+culture = pamiri
+religion = mahayana_buddhist
+
+
+# History
+

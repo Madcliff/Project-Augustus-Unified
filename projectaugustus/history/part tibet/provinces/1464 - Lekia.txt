@@ -1,0 +1,20 @@
+# 1438 - Lekia
+
+# County Title
+title = c_lekia
+
+# Settlements
+max_settlements = 2
+b_kurah = castle
+b_zargaran = city
+
+#b_caxur = city
+#b_kabir = castle
+#b_tabarsaran = temple
+
+
+# Misc
+culture = nakh
+religion = vainakh_pagan 
+
+# History

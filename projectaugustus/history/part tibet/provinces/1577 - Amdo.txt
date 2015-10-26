@@ -1,0 +1,14 @@
+# County Title
+title = c_amdo
+
+# Settlements
+max_settlements = 4
+b_amdo = tribal
+#b_zharen
+#b_yanshiping
+#b_qangma
+
+# Misc
+culture = tibetan 
+religion = bon_pagan
+terrain = hills

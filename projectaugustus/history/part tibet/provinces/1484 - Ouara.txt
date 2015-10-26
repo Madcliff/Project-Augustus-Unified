@@ -1,0 +1,21 @@
+
+
+# County Title
+title = c_ouara
+
+# Settlements
+max_settlements = 2
+b_ouara = castle
+#b_abdi = castle
+
+
+# Misc
+culture = zaghawa
+religion = pagan
+
+
+# History
+1071.1.1 = {
+religion = sunni
+culture = maghreb_arabic
+}
