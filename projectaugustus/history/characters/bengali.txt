@@ -4232,7 +4232,7 @@
 	religion="hindu"
 	culture="bengali"
 	trait="kshatriya"
-	trait="vaishnavist_hindu""
+	trait="vaishnavist_hindu"
 
 	590.1.1={
 		birth=yes
