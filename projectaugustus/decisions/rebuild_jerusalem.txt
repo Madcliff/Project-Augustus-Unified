@@ -1,0 +1,58 @@
+decisions = {
+	rebuild_jerusalem = {
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			age = 16
+			religion_group = jewish_group
+			NOT = { has_global_flag = jerusalem_rebuilt }
+			NOT = { has_global_flag = rebuilding_jerusalem }
+		}
+		allow = {
+			wealth = 9000
+			has_landed_title = b_mirabel
+			OR = {
+				has_landed_title = k_israel
+				has_landed_title = e_israel
+			}
+			
+			b_mirabel = {
+			
+					has_building = ca_wall_5
+					has_building = ca_keep_6
+					has_building = ca_militia_barracks_4
+					has_building = ca_training_grounds_3
+					has_building = ca_barracks_6
+					has_building = ca_stable_6
+					has_building = ca_town_6
+					has_building = ca_culture_jewish_4
+				
+			}
+			war = no
+			prisoner = no		
+		}
+		effect = {
+			774 = { province_event = { id = ExIs.121 days = 1 } }
+			set_global_flag = rebuilding_jerusalem
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 5.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+		}
+	}
+}
