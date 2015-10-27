@@ -12658,31 +12658,7 @@
 		death="730.1.1"
 	}
 }
-188763 = {
-	name="al-Julanda"	
-	dynasty=1042181
-	religion="ibadi"
-	culture="bedouin_arabic"
-	711.1.1={
-		birth=yes
-	}
-	775.1.1={
-		death=yes
-	}
-}
-194176 = {
-	name="Muhammad"	
-	dynasty=1042181
-	religion="ibadi"
-	culture="bedouin_arabic"
-	father = 188763
-	734.1.1 = {
-		birth=yes
-	}
-	790.1.1 = {
-		death=yes
-	}
-}
+
 
 188764 = {
 	name="Ka'ab"
@@ -12697,31 +12673,6 @@
 	}
 }
 
-188765 = {
-	name="Burhanaddin"	# fictitious holder of Dhofar
-	dynasty=1042183
-	religion="ibadi"
-	culture="bedouin_arabic"
-	738.1.1={
-		birth=yes
-	}
-	796.1.1={
-		death=yes
-	}
-}
-
-188766 = {
-	name="Jalil"	# fictitious holder of Dhu Zabi
-	dynasty=1042184
-	religion="ibadi"
-	culture="bedouin_arabic"
-	728.1.1={
-		birth=yes
-	}
-	779.1.1={
-		death=yes
-	}
-}
 
 168728={
 	name=Aisa
