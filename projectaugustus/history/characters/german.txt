@@ -53831,7 +53831,7 @@
 168760 = {
 	name="Achiulf" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	240.1.1 = {
 		birth=yes
@@ -53841,13 +53841,10 @@
 		death=yes
 	}
 }
-
-
-
 168761 = {
 	name="Ermanarich" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168760
 	266.1.1 = {
@@ -53858,14 +53855,10 @@
 		death=yes
 	}
 }
-
-
-
-
 168762 = {
 	name="Hunimund" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168761
 	300.1.1 = {
@@ -53876,16 +53869,10 @@
 		death=yes
 	}
 }
-
-
-
-
-
-
 168763 = {
 	name="Thorismund" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168762
 	340.1.1 = {
@@ -53902,7 +53889,7 @@
 168764 = {
 	name="Berimund" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168763
 	390.1.1 = {
@@ -53913,13 +53900,10 @@
 		death=yes
 	}
 }
-
-
-
 168765 = {
-	name="Widerich" 
+	name="Witteric" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168764
 	440.1.1 = {
@@ -53930,13 +53914,8 @@
 		death=yes
 	}
 }
-
-
-
-
-
 168766 = {
-	name="Eutharich" 
+	name="Eutharic" 
 	dynasty=9617
 	religion="arian"
 	culture="ostrogothic"
@@ -53951,14 +53930,10 @@
 		death=yes
 	}
 }
-
-
-
-
 168767 = {
-	name="Wultulf" 
+	name="Wuultulf" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168760
 	280.1.1 = {
@@ -53969,13 +53944,10 @@
 		death=yes
 	}
 }
-
-
-
 168768 = {
-	name="Winithar" 
+	name="Vinithar" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168767
 	320.1.1 = {
@@ -53986,14 +53958,10 @@
 		death=yes
 	}
 }
-
-
-
-
 168769 = {
 	name="Wandalar" 
 	dynasty=9617
-	religion="norse_pagan"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168768
 	370.1.1 = {
@@ -54004,14 +53972,10 @@
 		death=yes
 	}
 }
-
-
-
-
 168770 = {
 	name="Walamir" 
 	dynasty=9617
-	religion="arian"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168769
 	425.1.1 = {
@@ -54022,15 +53986,10 @@
 		death=yes
 	}
 }
-
-
-
-
-
 168771 = {
 	name="Widimir" 
 	dynasty=9617
-	religion="arian"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168769
 	427.1.1 = {
@@ -54041,14 +54000,10 @@
 		death=yes
 	}
 }
-
-
-
-
 168772 = {
 	name="Widimir" 
 	dynasty=9617
-	religion="arian"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168771
 	450.1.1 = {
@@ -54059,13 +54014,10 @@
 		death=yes
 	}
 }
-
-
-
 168773 = {
 	name="Thiudimir" 
 	dynasty=9617
-	religion="arian"
+	religion="german_pagan"
 	culture="ostrogothic"
 	father=168769
 	429.1.1 = {
@@ -54076,10 +54028,6 @@
 		death=yes
 	}
 }
-
-
-
-
 168774 = {
 	name="Theodis" 
 	dynasty=9617
@@ -54094,37 +54042,25 @@
 		death=yes
 	}
 }
-
-
-
-
 168775 = {
 	name="Theoderic" 
 	dynasty=9617
 	religion="arian"
 	culture="ostrogothic"
 	father=168773
-        trait="brilliant_strategist"
-        trait="ambitious"
-        trait="deceitful"
-        trait="diligent"
-        trait="brave"
 	454.1.1 = {
 		birth=yes
 	}
 	493.1.1 = {
 		add_spouse=168783
 	}
-	520.1.1 = {
+	507.1.1 = {
 		give_nickname=nick_the_great
 	}
 	526.8.30 = {
 		death=yes
 	}
 }
-
-
-
 168776 = {
 	name="Theodimund" 
 	dynasty=9617
@@ -54139,10 +54075,6 @@
 		death=yes
 	}
 }
-
-
-
-
 168777 = {
 	name="Amalfrida" 
 	female=yes
@@ -54160,10 +54092,6 @@
 		death=yes
 	}
 }
-
-
-
-
 168778 = {
 	name="Theodahad" 
 	dynasty=9617
@@ -54178,9 +54106,6 @@
 		death=yes
 	}
 }
-
-
-
 168779 = {
 	name="Amalaberga" 
 	female=yes
@@ -54196,9 +54121,6 @@
 		death=yes
 	}
 }
-
-
-
 168780 = {
 	name="Theudigisel" 
 	dynasty=9617
@@ -54213,7 +54135,6 @@
 		death=yes
 	}
 }
-
 168781 = {
 	name="Theodenantha" 
 	female=yes
@@ -54229,7 +54150,6 @@
 		death=yes
 	}
 }
-
 168782 = {
 	name="Amalafrid" 
 	dynasty=9617
@@ -54244,7 +54164,6 @@
 		death=yes
 	}
 }
-
 168809 = {
 	name="Theudigotha" 
 	dynasty=9617

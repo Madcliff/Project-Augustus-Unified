@@ -8839,17 +8839,6 @@
 	}
 }
 
-1014045 = {
-	name="Zacharias"
-	religion="apostolic"
-	culture="armenian"
-	811.1.1={
-		birth="811.1.1"
-	}
-	876.1.1={
-		death="876.1.1"
-	}
-}
 
 1014046 = {
 	name="George"

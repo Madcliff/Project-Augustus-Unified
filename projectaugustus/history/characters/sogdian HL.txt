@@ -1,16 +1,4 @@
-188774 = {
-	name="Wakhushakk" # fictional Sogdian ruler
-	dynasty=1042188 # Sogdia
-	religion="zoroastrian"
-	culture="sogdian"
-	trait=sympathy_pagans
-	743.1.1={
-		birth=yes
-	}
-	800.1.1={
-		death=yes
-	}
-}
+
 194319 = {
 	name="Wupoyan" # fictional Sogdian ruler
 	dynasty=1045074 # Kashgar

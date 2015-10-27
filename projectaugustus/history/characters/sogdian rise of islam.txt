@@ -207,20 +207,6 @@
 	}
 }
 
-188595 = {
-	name="Torkasbatha"
-	dynasty=1042112 # Afrighid
-	religion="zoroastrian"
-	culture="sogdian"
-	father=188594
-	740.1.1={
-		birth=yes
-	}
-	790.1.1={
-		death=yes
-	}
-}
-
 188596 = {
 	name="Abdallah"
 	dynasty=1042112 # Afrighid
@@ -672,32 +658,6 @@
 		birth = yes
 	}
 	759.1.1 = {
-		death = yes
-	}
-}
-1000257427 = {
-	name="Mejak"
-	dynasty = 1000124561
-	religion = zoroastrian
-	culture = sogdian
-	father = 1000257425
-	710.1.1 = {
-		birth = yes
-	}
-	774.1.1 = {
-		death = yes
-	}
-}
-1000257426 = {
-	name="Afarun"
-	dynasty = 1000124561
-	religion = zoroastrian
-	culture = sogdian
-	father = 1000257424
-	677.1.1 = {
-		birth = yes
-	}
-	745.1.1 = {
 		death = yes
 	}
 }

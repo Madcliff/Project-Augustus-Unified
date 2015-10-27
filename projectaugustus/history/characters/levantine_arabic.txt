@@ -5993,18 +5993,6 @@
 	}
 }
 
-188655 = {
-	name="Salahaddin" # fictitious holder of Al-Habbariyah
-	dynasty=1042127 # Banu Taghlib
-	religion="sunni"
-	culture="levantine_arabic"
-	733.1.1={
-		birth=yes
-	}
-	800.1.1={
-		death=yes
-	}
-}
 146038 = {
 	name="Sulayman"
 	dynasty=1022360 # Subaid
@@ -6406,18 +6394,7 @@
 		death=yes
 	}
 }
-2001010005 = {
-	name="Nasir al-Dawla"
-	dynasty=7518
-	culture="levantine_arabic"
-	religion="shiite"
-	900.1.1={
-		birth="900.1.1"
-	}
-	969.1.1={
-		death="969.1.1"
-	}
-}
+
 2001010006 = {
 	name="Abu Taghlib"
 	dynasty=7518

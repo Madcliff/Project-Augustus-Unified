@@ -10122,7 +10122,7 @@
 		death=yes
 	}
 }
-1000257410 = {
+10257410 = {
 	name="Ajndi"
 	dynasty=random
 	culture = nakh
@@ -10136,7 +10136,7 @@
 	}
 }
 
-1000257411 = {
+10257411 = {
 	name = "Stanislav"
 	dynasty = 1029137
 	religion = slavic_pagan
@@ -10149,10 +10149,10 @@
 	}
 }
 
-1000257412 = {
+10257412 = {
 	name="Buriberdi"
 	dynasty=1022383
-	culture="sarmatian"
+	culture="alan"
 	religion="tengri_pagan"
 
 	459.1.1={
@@ -10163,7 +10163,7 @@
 	}
 }
 
-1000257413 = {
+10257413 = {
 	name="Pateis"
 	dynasty=1000124577 
 	culture="sarmatian"
@@ -10177,7 +10177,7 @@
 	}
 }
 
-1000257414 = {
+10257414 = {
 	name="Ajndi"
 	dynasty=random
 	culture = nakh
@@ -10192,7 +10192,7 @@
 }
 
 
-1000257415 = {
+10257415 = {
 	name="Barkiarok"
 	dynasty=1000124581 
 	culture = turkish

@@ -6226,21 +6226,6 @@
 	}
 }
 
-168726 = {
-	name="Chlodoswintha"
-	female=yes
-	dynasty=542
-	religion="chalcendonian"
-	culture="old_frankish"
-	father=168687
-	569.1.1 = {
-		birth=yes
-	}
-	
-	619.1.1 = {
-		death=yes
-	}
-}
 
 168727 = {
 	name="Liuva" 
@@ -6276,7 +6261,7 @@
 	}
 }
 
-168729 = {
+10687290 = {
 	name="Theodora"
 	female=yes
 	religion="chalcendonian"

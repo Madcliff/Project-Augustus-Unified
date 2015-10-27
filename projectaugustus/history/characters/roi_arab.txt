@@ -10,18 +10,7 @@
 		death = yes
 	}
 }
-1000250181 = {
-	name="Tamimi"
-	dynasty = 1000124533
-	religion = arabic_pagan
-	culture = bedouin_arabic
-	200.1.1 = {
-		birth = yes
-	}
-	263.1.1 = {
-		death = yes
-	}
-}
+
 1000250182 = {
 	name="Manat"
 	dynasty = 1000124533
@@ -828,7 +817,7 @@
 		death = yes
 	}
 }
-1000258146 = {
+100258146 = {
 	name="Ruqayya"
 	dynasty = 1042116
 	religion = sunni
@@ -1496,18 +1485,7 @@
 		death = yes
 	}
 }
-1000258193 = {
-	name="Uqayr"
-	dynasty = 1000124553
-	religion = arabic_pagan
-	culture = bedouin_arabic
-	290.1.1 = {
-		birth = yes
-	}
-	347.1.1 = {
-		death = yes
-	}
-}
+
 1000258194 = {
 	name="Thawr"
 	dynasty = 1000124553

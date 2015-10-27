@@ -97,27 +97,6 @@
 	}
 }
 
-100505 = {
-	name="Beowinga"
-	female=yes
-	dynasty=175
-	martial=6
-	diplomacy=6
-	intrigue=5
-	stewardship=8
-	religion="norse_pagan"
-	culture="swedish"
-	add_trait="brave"
-	add_trait="misguided_warrior"
-	father=10050191
-	458.1.2={
-		birth="458.1.2"
-	}
-	505.1.2={
-		death="505.1.2"
-	}
-}
-
 10050691 = {
 	name="Ecgtheow"
 	dynasty=178

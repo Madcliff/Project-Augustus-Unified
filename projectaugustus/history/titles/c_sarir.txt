@@ -1,8 +1,8 @@
 470.1.1 = {
-	holder = 1000257412 
+	holder = 10257412 
 }
 600.1.1 = { 
-	holder=1000257410 
+	holder=10257410 
 	liege = d_alania
 }
 

@@ -2,7 +2,7 @@
 	historical_nomad = yes
 }
 470.1.1 = {
-	holder = 1000257413
+	holder = 10257413
 }
 650.1.1 = {
 	historical_nomad = no

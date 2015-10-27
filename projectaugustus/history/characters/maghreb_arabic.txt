@@ -8471,18 +8471,7 @@
 		death=yes
 	}
 }
-1004460030  = {
-	name="Issam"
-	dynasty=100153002 
-	religion="sunni"
-	culture="maghreb_arabic"
-	880.1.1={
-		birth=yes
-	}
-	955.1.1={
-		death=yes
-	}
-}
+
 1004460055 = {
 	name="Abdul"
 	dynasty=101700
