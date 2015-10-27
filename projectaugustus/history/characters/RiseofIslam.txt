@@ -4567,32 +4567,6 @@
 	}
 }
 
-188700 = {
-	name="Barhatakin"
-	dynasty=1042110 # Zunbil
-	religion="zun_pagan"
-	culture="tocharian"
-	600.1.1={
-		birth=yes
-	}
-	662.1.1={
-		death=yes
-	}
-}
-188701 = {
-	name="Rutbil" # name is more of a title
-	# semi-historical
-	dynasty=1042110 # Zunbil
-	religion="zun_pagan"
-	culture="tocharian"
-	father=188700
-	620.1.1={
-		birth=yes
-	}
-	687.1.1={
-		death=yes
-	}
-}
 1000258900 = {
 	name="Datbar" # name is more of a title
 	# fictional

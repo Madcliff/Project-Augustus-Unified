@@ -3,7 +3,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	744.1.1={
 		birth=yes
@@ -17,7 +17,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	746.1.1={
 		birth=yes
@@ -32,7 +32,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	743.1.1={
 		birth=yes
@@ -46,7 +46,7 @@
 	dynasty=1046025
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	718.1.1={
 		birth=yes
@@ -64,7 +64,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	723.1.1={
 		birth=yes
@@ -82,7 +82,7 @@
 	mother=200224
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	742.1.1={
 		birth=yes
@@ -96,7 +96,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	740.1.1={
 		birth=yes
@@ -114,7 +114,7 @@
 	mother=200257
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	665.1.1={
 		birth=yes
@@ -276,7 +276,7 @@
 	father=200255
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	627.1.1={
 		birth=yes
@@ -361,7 +361,7 @@
 	father=200250
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	688.1.1={
 		birth=yes
@@ -381,7 +381,7 @@
 #	father=200240
 #
 #	religion=chalcendonian
-#	culture=iberian
+#	culture=hispanic
 #
 #	650.1.1={
 #		birth=yes
@@ -1012,7 +1012,7 @@
 	father=168739
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=9
 	diplomacy=4
@@ -1039,7 +1039,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	688.1.1={
 		birth=yes
@@ -1058,7 +1058,7 @@
 	mother=70001
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	706.1.1={
 		birth=yes
@@ -1075,7 +1075,7 @@
 	father=70010
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=5
@@ -1105,7 +1105,7 @@
 	mother=70002
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=5
@@ -1138,7 +1138,7 @@
 	mother=70005
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=4
 	diplomacy=6
@@ -1168,7 +1168,7 @@
 	mother=200257
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 	
 	660.1.1={
 		birth=yes
@@ -1185,7 +1185,7 @@
 	father=70010
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 	
 	695.1.1={
 		birth=yes
@@ -1202,7 +1202,7 @@
 	father=70011
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=5
 	diplomacy=5
@@ -1307,7 +1307,7 @@
 	father=70011
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=3
 	diplomacy=4
@@ -1334,7 +1334,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 	
 	772.1.1={
 		birth=yes
@@ -1352,7 +1352,7 @@
 	mother=70014
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=7
 	diplomacy=6
@@ -1382,7 +1382,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	810.1.1={
 		birth=yes
@@ -1400,7 +1400,7 @@
 	mother=70016
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=5
@@ -1427,7 +1427,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	832.1.1={
 		birth=yes
@@ -1445,7 +1445,7 @@
 	mother=70018
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=7
 	diplomacy=7
@@ -1562,7 +1562,7 @@
 	stewardship=7
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	trait=proud
 	trait=hunter
@@ -1587,7 +1587,7 @@
 	mother=73772
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=3
@@ -1623,7 +1623,7 @@
 	mother=70022
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=6
@@ -1659,7 +1659,7 @@
 	mother=70022
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=8
 	diplomacy=6
@@ -1697,7 +1697,7 @@
 	stewardship=4
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	trait=gluttonous
 	trait=envious
@@ -1731,7 +1731,7 @@
 	father=72550
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	941.1.1={
 		birth=yes
@@ -1748,7 +1748,7 @@
 	mother=70126
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=3
 	diplomacy=3
@@ -1781,7 +1781,7 @@
 	mother=73772
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=5
 	diplomacy=7
@@ -1806,7 +1806,7 @@
 	father=70030
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	900.1.1={
 		birth=yes
@@ -1823,7 +1823,7 @@
 	mother=70022
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 	
 	895.1.1={
 		birth=yes
@@ -1841,7 +1841,7 @@
 	mother=70001
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=5
@@ -1871,7 +1871,7 @@
 	trait=bastard
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=4
 	diplomacy=4
@@ -1902,7 +1902,7 @@
 	mother=70002
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 	
 	744.1.1={
 		birth=yes
@@ -1917,7 +1917,7 @@
 	dynasty=8625
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=5
 	diplomacy=6
@@ -1945,7 +1945,7 @@
 	father=73870
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	901.1.1={
 		birth=yes
@@ -1967,7 +1967,7 @@
 	mother=70243
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	935.1.1={
 		birth=yes
@@ -1981,7 +1981,7 @@
 	dynasty=405
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	856.1.1={
 		birth=yes
@@ -1998,7 +1998,7 @@
 	father=72548
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	877.1.1={
 		birth=yes
@@ -2019,7 +2019,7 @@
 	mother=200075
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	900.1.1={
 		birth=yes
@@ -2036,7 +2036,7 @@
 	mother=70018
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	trait=blinded
 
@@ -2056,7 +2056,7 @@
 	mother=70018
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	trait=blinded
 
@@ -2076,7 +2076,7 @@
 	mother=70018
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	853.1.1={
 		birth=yes
@@ -2097,7 +2097,7 @@
 	mother=70018
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	trait=blinded
 
@@ -2118,7 +2118,7 @@
 	mother=70018
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	849.1.1={
 		birth=yes
@@ -2136,7 +2136,7 @@
 	mother=70016
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	trait=content
 
@@ -2156,7 +2156,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	834.1.1={
 		birth=yes
@@ -2174,7 +2174,7 @@
 	mother=73756
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	853.1.1={
 		birth=yes
@@ -2192,7 +2192,7 @@
 	mother=73756
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	855.1.1={
 		birth=yes
@@ -2211,7 +2211,7 @@
 	mother=73756
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	851.1.1={
 		birth=yes
@@ -2230,7 +2230,7 @@
 	mother=73756
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	861.1.1={
 		birth=yes
@@ -2245,7 +2245,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	826.1.1={
 		birth=yes
@@ -2264,7 +2264,7 @@
 	mother=73761
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	843.1.1={
 		birth=yes
@@ -2282,7 +2282,7 @@
 	mother=73761
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	841.1.1={
 		birth=yes
@@ -2300,7 +2300,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	841.1.1={
 		birth=yes
@@ -2318,7 +2318,7 @@
 	mother=73764
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	858.1.1={
 		birth=yes
@@ -2337,7 +2337,7 @@
 	mother=73764
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	861.1.1={
 		birth=yes
@@ -2356,7 +2356,7 @@
 	mother=73764
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	863.1.1={
 		birth=yes
@@ -2374,7 +2374,7 @@
 	mother=200068
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	863.1.1={
 		birth=yes
@@ -2395,7 +2395,7 @@
 	mother=73767
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	880.1.1={
 		birth=yes
@@ -2416,7 +2416,7 @@
 	mother=200059
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	765.1.1={
 		birth=yes
@@ -2433,7 +2433,7 @@
 	father=73867
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	795.1.1={
 		birth=yes
@@ -2450,7 +2450,7 @@
 	father=73868
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	830.1.1={
 		birth=yes
@@ -2471,7 +2471,7 @@
 	mother=73878
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	870.1.1={
 		birth=yes
@@ -2489,7 +2489,7 @@
 	father=73870
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	902.1.1={
 		birth=yes
@@ -2507,7 +2507,7 @@
 	mother=70002
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	725.1.1={
 		birth=yes
@@ -2524,7 +2524,7 @@
 	father=73873
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	760.1.1={
 		birth=yes
@@ -2541,7 +2541,7 @@
 	father=73874
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	790.1.1={
 		birth=yes
@@ -2558,7 +2558,7 @@
 	father=73875
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	815.1.1={
 		birth=yes
@@ -2576,7 +2576,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	817.1.1={
 		birth=yes
@@ -2595,7 +2595,7 @@
 	mother=73877
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	835.1.1={
 		birth=yes
@@ -2609,7 +2609,7 @@
 	dynasty=12295
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	670.1.1={
 		birth=yes
@@ -2627,7 +2627,7 @@
 	father=73901
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	700.1.1={
 		birth=yes
@@ -2641,7 +2641,7 @@
 	dynasty=12312
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	672.1.1={
 		birth=yes
@@ -2658,7 +2658,7 @@
 	mother=107681
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=5
@@ -2687,7 +2687,7 @@
 	mother=54000
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	942.1.1={
 		birth=yes
@@ -2703,7 +2703,7 @@
 	father=73769
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=5
@@ -2736,7 +2736,7 @@
 	mother=107681
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	935.1.1={
 		birth=yes
@@ -2754,7 +2754,7 @@
 	mother=107683
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	937.1.1={
 		birth=yes
@@ -2771,7 +2771,7 @@
 	mother=70025
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=4
 	diplomacy=4
@@ -2800,7 +2800,7 @@
 	dynasty=1020119
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	father=70242
 	mother=70243
@@ -2819,7 +2819,7 @@
 	father=73765
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	880.1.1={
 		birth=yes
@@ -2833,7 +2833,7 @@
 	dynasty=12289
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	839.1.1={
 		birth=yes
@@ -2854,7 +2854,7 @@
 	mother=73886
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	865.1.1={
 		birth=yes
@@ -2872,7 +2872,7 @@
 	mother=73886
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	867.1.1={
 		birth=yes
@@ -2889,7 +2889,7 @@
 	mother=73907
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	860.1.1={
 		birth=yes
@@ -2904,7 +2904,7 @@
 	dynasty=12260
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	825.1.1={
 		birth=yes
@@ -2921,7 +2921,7 @@
 	dynasty=12296
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	748.1.1={
 		birth=yes
@@ -2938,7 +2938,7 @@
 	father=73908
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	782.1.1={
 		birth=yes
@@ -2955,7 +2955,7 @@
 	father=73909
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	817.1.1={
 		birth=yes
@@ -2972,7 +2972,7 @@
 	father=73910
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	849.1.1={
 		birth=yes
@@ -2986,7 +2986,7 @@
 	dynasty=12297
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	832.1.1={
 		birth=yes
@@ -3007,7 +3007,7 @@
 	mother=73915
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	860.1.1={
 		birth=yes
@@ -3025,7 +3025,7 @@
 	mother=73915
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	863.1.1={
 		birth=yes
@@ -3040,7 +3040,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	841.1.1={
 		birth=yes
@@ -3056,7 +3056,7 @@
 	father=73899
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	889.1.1={
 		birth=yes
@@ -3073,7 +3073,7 @@
 	father=73916
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	915.1.1={
 		birth=yes
@@ -3090,7 +3090,7 @@
 	father=73917
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	941.1.1={
 		birth=yes
@@ -3106,7 +3106,7 @@
 	father=73930
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	823.1.1={
 		birth=yes
@@ -3124,7 +3124,7 @@
 	dynasty=12299
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	794.1.1={
 		birth=yes
@@ -3141,7 +3141,7 @@
 	father=73930
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	825.1.1={
 		birth=yes
@@ -3156,7 +3156,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	830.1.1={
 		birth=yes
@@ -3174,7 +3174,7 @@
 	mother=73932
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	849.1.1={
 		birth=yes
@@ -3189,7 +3189,7 @@
 	dynasty=12300
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	816.1.1={
 		birth=yes
@@ -3206,7 +3206,7 @@
 	father=73934
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	841.1.1={
 		birth=yes
@@ -3223,7 +3223,7 @@
 	father=73934
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	843.1.1={
 		birth=yes
@@ -3241,7 +3241,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	851.1.1={
 		birth=yes
@@ -3256,7 +3256,7 @@
 	dynasty=12301
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	826.1.1={
 		birth=yes
@@ -3274,7 +3274,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	833.1.1={
 		birth=yes
@@ -3292,7 +3292,7 @@
 	mother=73939
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	851.1.1={
 		birth=yes
@@ -3307,7 +3307,7 @@
 	dynasty=12304
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	830.1.1={
 		birth=yes
@@ -3325,7 +3325,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	848.1.1={
 		birth=yes
@@ -3343,7 +3343,7 @@
 	mother=73953
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	867.1.1={
 		birth=yes
@@ -3358,7 +3358,7 @@
 	dynasty=12305
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	780.1.1={
 		birth=yes
@@ -3375,7 +3375,7 @@
 	father=73955
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	803.1.1={
 		birth=yes
@@ -3392,7 +3392,7 @@
 	father=73956
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	836.1.1={
 		birth=yes
@@ -3410,7 +3410,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	846.1.1={
 		birth=yes
@@ -3428,7 +3428,7 @@
 	mother=73958
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	865.1.1={
 		birth=yes
@@ -3446,7 +3446,7 @@
 	mother=73958
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	867.1.1={
 		birth=yes
@@ -3461,7 +3461,7 @@
 	dynasty=12306
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	800.1.1={
 		birth=yes
@@ -3478,7 +3478,7 @@
 	father=73961
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	834.1.1={
 		birth=yes
@@ -3496,7 +3496,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	850.1.1={
 		birth=yes
@@ -3511,7 +3511,7 @@
 	dynasty=12307
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	815.1.1={
 		birth=yes
@@ -3528,7 +3528,7 @@
 	father=73964
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	843.1.1={
 		birth=yes
@@ -3545,7 +3545,7 @@
 	father=73964
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	850.1.1={
 		birth=yes
@@ -3560,7 +3560,7 @@
 	dynasty=12309
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	811.1.1={
 		birth=yes
@@ -3578,7 +3578,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	822.1.1={
 		birth=yes
@@ -3596,7 +3596,7 @@
 	mother=73970
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	842.1.1={
 		birth=yes
@@ -3611,7 +3611,7 @@
 	dynasty=12310
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	828.1.1={
 		birth=yes
@@ -3629,7 +3629,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	840.1.1={
 		birth=yes
@@ -3647,7 +3647,7 @@
 	mother=73973
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	860.1.1={
 		birth=yes
@@ -3662,7 +3662,7 @@
 	dynasty=12311
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	831.1.1={
 		birth=yes
@@ -3680,7 +3680,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	835.1.1={
 		birth=yes
@@ -3698,7 +3698,7 @@
 	mother=73977
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	856.1.1={
 		birth=yes
@@ -3716,7 +3716,7 @@
 	mother=73977
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	858.1.1={
 		birth=yes
@@ -3733,7 +3733,7 @@
 	father=73980
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	732.1.1={
 		birth=yes
@@ -3750,7 +3750,7 @@
 	father=73981
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	760.1.1={
 		birth=yes
@@ -3767,7 +3767,7 @@
 	father=73982
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	795.1.1={
 		birth=yes
@@ -3784,7 +3784,7 @@
 	father=73983
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	826.1.1={
 		birth=yes
@@ -3802,7 +3802,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	846.1.1={
 		birth=yes
@@ -3820,7 +3820,7 @@
 	mother=73985
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	865.1.1={
 		birth=yes
@@ -3834,7 +3834,7 @@
 	dynasty=12291
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	735.1.1={
 		birth=yes
@@ -3851,7 +3851,7 @@
 	father=73798
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	760.1.1={
 		birth=yes
@@ -3868,7 +3868,7 @@
 	father=73799
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	786.1.1={
 		birth=yes
@@ -3885,7 +3885,7 @@
 	father=73799
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	788.1.1={
 		birth=yes
@@ -3900,7 +3900,7 @@
 	dynasty=12292
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	805.1.1={
 		birth=yes
@@ -3917,7 +3917,7 @@
 	father=73802
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	833.1.1={
 		birth=yes
@@ -3935,7 +3935,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	833.1.1={
 		birth=yes
@@ -3953,7 +3953,7 @@
 	mother=73804
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	850.1.1={
 		birth=yes
@@ -3975,7 +3975,7 @@
 	mother=73804
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	852.1.1={
 		birth=yes
@@ -3993,7 +3993,7 @@
 	mother=73804
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	854.1.1={
 		birth=yes
@@ -4007,7 +4007,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	841.1.1={
 		birth=yes
@@ -4021,7 +4021,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	860.1.1={
 		birth=yes
@@ -4035,7 +4035,7 @@
 	name="Bera" 
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	778.1.1={
 	
@@ -4055,7 +4055,7 @@
 	father=73785
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=8
@@ -4082,7 +4082,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	860.1.1={
 		birth=yes
@@ -4100,7 +4100,7 @@
 	mother=70151
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=4
 	diplomacy=7
@@ -4131,7 +4131,7 @@
 	mother=70151
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=5
 	diplomacy=7
@@ -4158,7 +4158,7 @@
 	mother=70151
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	897.1.1={
 		birth=yes
@@ -4176,7 +4176,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	884.1.1={
 		birth=yes
@@ -4194,7 +4194,7 @@
 	mother=70155
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	914.1.1={
 		birth=yes
@@ -4212,7 +4212,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	947.1.1={
 		birth=yes
@@ -4228,7 +4228,7 @@
 	father=70272
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	910.1.1={
 		birth=yes
@@ -4246,7 +4246,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	920.1.1={
 		birth=yes
@@ -4264,7 +4264,7 @@
 	mother=70279
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	950.1.1={
 		birth=yes
@@ -4281,7 +4281,7 @@
 	dynasty=100204
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	813.1.1={
 		birth=yes
@@ -4296,7 +4296,7 @@
 	dynasty=12313
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	840.1.1={
 		birth=yes
@@ -4314,7 +4314,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	850.1.1={
 		birth=yes
@@ -4332,7 +4332,7 @@
 	mother=73988
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	867.1.1={
 		birth=yes
@@ -4347,7 +4347,7 @@
 	dynasty=12314
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	833.1.1={
 		birth=yes
@@ -4365,7 +4365,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	840.1.1={
 		birth=yes
@@ -4383,7 +4383,7 @@
 	mother=73991
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	863.1.1={
 		birth=yes
@@ -4400,7 +4400,7 @@
 	father=73785
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	842.1.1={
 		birth=yes
@@ -4418,7 +4418,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	849.1.1={
 		birth=yes
@@ -4433,7 +4433,7 @@
 	dynasty=100204
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	father=73993
 	mother=73994
@@ -4453,7 +4453,7 @@
 	father=73785
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	843.1.1={
 		birth=yes
@@ -4472,7 +4472,7 @@
 	father=73785
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	844.1.1={
 		birth=yes
@@ -4489,7 +4489,7 @@
 	father=73785
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	846.1.1={
 		birth=yes
@@ -4507,7 +4507,7 @@
 	father=73785
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	847.1.1={
 		birth=yes
@@ -4524,7 +4524,7 @@
 	father=73785
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	trait=detached_priest
 
@@ -4541,7 +4541,7 @@
 	dynasty=393
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	842.1.1={
 		birth=yes
@@ -4559,7 +4559,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	850.1.1={
 		birth=yes
@@ -4574,7 +4574,7 @@
 	dynasty=393
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	father=74101
 	mother=74102
@@ -4594,7 +4594,7 @@
 	mother=70151
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=6
 	diplomacy=5
@@ -4625,7 +4625,7 @@
 	stewardship=8
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	925.1.1={
 		birth=yes
@@ -4644,7 +4644,7 @@
 	father=74103
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	martial=4
 	diplomacy=4
@@ -4674,7 +4674,7 @@
 	mother=73759
 	
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	869.1.1={
 		birth=yes
@@ -4693,7 +4693,7 @@
 	mother=73861
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	900.1.1={
 		birth=yes
@@ -4710,7 +4710,7 @@
 	father=73871
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	910.1.1={
 		birth=yes
@@ -4726,7 +4726,7 @@
 	father=73870
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	900.1.1={
 		birth=yes
@@ -4743,7 +4743,7 @@
 	dynasty=75
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	775.1.1={
 		birth=yes
@@ -4760,7 +4760,7 @@
 	father=73854
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	810.1.1={
 		birth=yes
@@ -4779,7 +4779,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	822.1.1={
 		birth=yes
@@ -4797,7 +4797,7 @@
 	mother=73856
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	842.1.1={
 		birth=yes
@@ -4818,7 +4818,7 @@
 	mother=73856
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	851.1.1={
 		birth=yes
@@ -4837,7 +4837,7 @@
 	mother=73856
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	860.1.1={
 		birth=yes
@@ -4856,7 +4856,7 @@
 	mother=73759
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	868.1.1={
 		birth=yes
@@ -4875,7 +4875,7 @@
 	mother=73759
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	882.1.1={
 		birth=yes
@@ -4892,7 +4892,7 @@
 	father=73855
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	875.1.1={
 		birth=yes
@@ -4913,7 +4913,7 @@
 	mother=73861
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	917.1.1={
 		birth=yes
@@ -4932,7 +4932,7 @@
 	mother=73860
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	885.1.1={
 		birth=yes
@@ -4947,7 +4947,7 @@
 	dynasty=12288
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	870.1.1={
 		birth=yes
@@ -4969,7 +4969,7 @@
 	mother=73864
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	904.1.1={
 		birth=yes
@@ -4987,7 +4987,7 @@
 	mother=73759
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	880.1.1={
 		birth=yes
@@ -5002,7 +5002,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	830.1.1={
 		birth=yes
@@ -5019,7 +5019,7 @@
 	father=73871
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	908.1.1={
 		birth=yes
@@ -5036,7 +5036,7 @@
 	father=73871
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	902.1.1={
 		birth=yes
@@ -5057,7 +5057,7 @@
 	father=73893
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	906.1.1={
 		birth=yes	
@@ -5075,7 +5075,7 @@
 	mother=73759
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	881.1.1={
 		birth=yes
@@ -5093,7 +5093,7 @@
 	mother=73892
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	925.1.1={
 		birth=yes
@@ -5110,7 +5110,7 @@
 	mother=73866
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	925.1.1={
 		birth=yes
@@ -5130,7 +5130,7 @@
 	mother=73860
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	886.1.1={
 		birth=yes
@@ -5148,7 +5148,7 @@
 	mother=73879
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	850.1.1={
 		birth=yes
@@ -5168,7 +5168,7 @@
 	father=73875
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	820.1.1={
 		birth=yes
@@ -5185,7 +5185,7 @@
 	dynasty=1046013
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	733.1.1={
 		birth=yes
@@ -5200,7 +5200,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	744.1.1={
 		birth=yes
@@ -5215,7 +5215,7 @@
 	dynasty=1046014
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	727.1.1={
 		birth=yes
@@ -5230,7 +5230,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	740.1.1={
 		birth=yes
@@ -5245,7 +5245,7 @@
 	dynasty=1046015
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	738.1.1={
 		birth=yes
@@ -5260,7 +5260,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	750.1.1={
 		birth=yes
@@ -5275,7 +5275,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	743.1.1={
 		birth=yes
@@ -5289,7 +5289,7 @@
 	name="Harun"
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	768.1.1={
 		birth=yes
@@ -5304,7 +5304,7 @@
 	dynasty=1046016
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	737.1.1={
 		birth=yes
@@ -5319,7 +5319,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	710.1.1={
 		birth=yes
@@ -5338,7 +5338,7 @@
 	mother=200056
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	729.1.1={
 		birth=yes
@@ -5353,7 +5353,7 @@
 	dynasty=1046017
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	715.1.1={
 		birth=yes
@@ -5371,7 +5371,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	745.1.1={
 		birth=yes
@@ -5389,7 +5389,7 @@
 	father=70011
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	729.1.1={
 		birth=yes
@@ -5406,7 +5406,7 @@
 	father=70118
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	761.1.1={
 		birth=yes
@@ -5421,7 +5421,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	689.1.1={
 		birth=yes
@@ -5438,7 +5438,7 @@
 	father=73901
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	698.1.1={
 		birth=yes
@@ -5456,7 +5456,7 @@
 	father=457681
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	898.1.1={
 		birth=yes
@@ -5474,7 +5474,7 @@
 	mother=200068
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	860.1.1={
 		birth=yes
@@ -5492,7 +5492,7 @@
 	dynasty=776
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	835.1.1={
 		birth=yes
@@ -5510,7 +5510,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	840.1.1={
 		birth=yes
@@ -5528,7 +5528,7 @@
 	mother=73767
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	884.1.1={
 		birth=yes
@@ -5545,7 +5545,7 @@
 	father=200069
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	913.1.1={
 		birth=yes
@@ -5562,7 +5562,7 @@
 	father=200073
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	870.1.1={
 		birth=yes
@@ -5584,7 +5584,7 @@
 	mother=73767
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	885.1.1={
 		birth=yes
@@ -5599,7 +5599,7 @@
 	dynasty=1046018
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	847.1.1={
 		birth=yes
@@ -5616,7 +5616,7 @@
 	father=73765
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	875.1.1={
 		birth=yes
@@ -5635,7 +5635,7 @@
 	mother=73766
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	881.1.1={
 		birth=yes
@@ -5650,7 +5650,7 @@
 	dynasty=8618
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	925.1.1={
 		birth=yes
@@ -5667,7 +5667,7 @@
 	father=200086
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	950.1.1={
 		birth=yes
@@ -5684,7 +5684,7 @@
 	father=200086
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	952.1.1={
 		birth=yes
@@ -5701,7 +5701,7 @@
 	father=200088
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	976.1.1={
 		birth=yes
@@ -5715,7 +5715,7 @@
 	name="Rostan"
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	740.1.1={
 		birth=yes
@@ -5729,7 +5729,7 @@
 	name="Oddilon"
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	756.1.1={
 		birth=yes
@@ -5743,7 +5743,7 @@
 	name="Ermenguer"
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	758.1.1={
 		birth=yes
@@ -5757,7 +5757,7 @@
 	name="Suneario"
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	799.1.1={
 		birth=yes
@@ -5772,7 +5772,7 @@
 	dynasty=1046019
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	747.1.1={
 		birth=yes
@@ -5790,7 +5790,7 @@
 	mother=70151
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	898.1.1={
 		birth=yes
@@ -5804,7 +5804,7 @@
 	name="Fredol"
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	768.1.1={
 		birth=yes
@@ -5819,7 +5819,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	722.1.1={
 		birth=yes
@@ -5834,7 +5834,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	724.1.1={
 		birth=yes
@@ -5849,7 +5849,7 @@
 	female=yes
 
 	religion=chalcendonian
-	culture=iberian
+	culture=hispanic
 
 	750.1.1={
 		birth=yes
@@ -5866,7 +5866,7 @@
 	father=73801
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	804.1.1={
 		birth=yes
@@ -5883,7 +5883,7 @@
 	father=73799
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	790.1.1={
 		birth=yes
@@ -5900,7 +5900,7 @@
 	father=73799
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	792.1.1={
 		birth=yes
@@ -5917,7 +5917,7 @@
 	father=200207
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	816.1.1={
 		birth=yes
@@ -5934,7 +5934,7 @@
 	father=200208
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	820.1.1={
 		birth=yes
@@ -5954,7 +5954,7 @@
 	father=200206
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	831.1.1={
 		birth=yes
@@ -5972,7 +5972,7 @@
 	mother=200213
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	847.1.1={
 		birth=yes
@@ -5987,7 +5987,7 @@
 	female=yes
 
 	religion=sunni
-	culture=iberian
+	culture=hispanic
 
 	827.1.1={
 		birth=yes
@@ -6000,7 +6000,7 @@
 	name="Bego" #count of Narbonne
 	dynasty=1044118 #Begonid
 	religion="chalcendonian"
-	culture=iberian
+	culture=hispanic
 	750.1.1={
 		birth=yes
 	}
@@ -6012,7 +6012,7 @@
 	name="Ercheswinda" #Ercheswinda, used as wife of Riculfe, the fantasy brother of Fulrad
 	female=yes
 	religion="chalcendonian"
-	culture=iberian
+	culture=hispanic
 	
 	706.1.1 = { birth=yes }
 	760.1.1 = { death=yes }
@@ -6102,7 +6102,7 @@
 	name="Athanagild" 
 	dynasty=9615
 	religion="chalcendonian"
-	culture=iberian
+	culture=hispanic
 	father=168716
 	mother=168717
 	584.1.1 = {
@@ -6118,7 +6118,7 @@
 	name="Ardabasto" 
 	dynasty=9615
 	religion="chalcendonian"
-	culture=iberian
+	culture=hispanic
 	father=168718
 	605.1.1 = {
 		birth=yes
@@ -6151,7 +6151,7 @@
 	dynasty=9615
 	female=yes
 	religion="chalcendonian"
-	culture=iberian
+	culture=hispanic
 	father=168720
 	mother=168740
 	652.1.1 = {
@@ -6421,7 +6421,7 @@
 	name="Rodrigo" 
 	dynasty=9615
 	religion="chalcendonian"
-	culture=iberian
+	culture=hispanic
 	father=168737
 	660.1.1 = {
 		birth=yes
@@ -6436,7 +6436,7 @@
 	name="Favila" 
 	dynasty=9615
 	religion="chalcendonian"
-	culture=iberian
+	culture=hispanic
 	father=168734
 	mother=168735
 	640.1.1 = {
@@ -6469,7 +6469,7 @@
 	name="Agilona" 
 	dynasty=9615
 	religion="chalcendonian"
-	culture=iberian
+	culture=hispanic
 	father=168724
 	mother=168726
 	597.1.1 = {
