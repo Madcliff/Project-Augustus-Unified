@@ -15,7 +15,7 @@ b_almonte = city
 #b_aljaraque = castle
 
 #Misc
-culture = iberian
+culture = hispanic
 religion = sunni
 
 # History

@@ -15,7 +15,7 @@ b_sancugat = temple
 #b_vendrell = city
 
 # Misc
-culture = iberian
+culture = hispanic
 religion = catholic
 
 # History

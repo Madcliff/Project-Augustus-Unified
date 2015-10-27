@@ -3,7 +3,7 @@
 	law = crown_authority_4
 	law = succ_feudal_elective
 	law = centralization_2
-	historical_nomad = yes
+	law = imperial_administration
         law = vassal_wars_2
         law = feudal_tax_1
 }

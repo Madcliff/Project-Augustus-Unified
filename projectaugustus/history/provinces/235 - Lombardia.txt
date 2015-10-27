@@ -19,9 +19,6 @@ culture = lombard
 religion = catholic
 
 # History
-700.1.1 = {
-	b_como = ct_jewish_community_1
-}
 1193.12.25 = { capital = b_como }
 1240.1.1 = { capital = b_milano }
 1240.1.1 = { b_chiavenna = castle }

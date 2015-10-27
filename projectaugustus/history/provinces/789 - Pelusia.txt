@@ -20,10 +20,6 @@ culture = coptic
 religion = miaphysite
 
 # History
-700.1.1 = {
-	b_tinis = ct_jewish_community_1
-	b_tinis = ct_jewish_community_2
-}
 767.1.1 = { religion = miaphysite }
 909.1.1 = { culture = egyptian_arabic }
 909.1.1 = { religion = shiite }

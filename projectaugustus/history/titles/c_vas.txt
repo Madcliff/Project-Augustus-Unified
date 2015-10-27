@@ -1,14 +1,3 @@
-470.1.1={
-	liege="k_ostrogoth"
-}
-632.1.1 = {
-	holder = 1000250306
-	liege = e_avaria
-}
-685.1.1 = {
-	holder = 0
-	liege = 0
-}
 731.1.1={
 	liege="d_pressburg"
         de_jure_liege = d_balaton

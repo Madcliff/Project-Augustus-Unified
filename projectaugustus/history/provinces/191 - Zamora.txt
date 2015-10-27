@@ -15,12 +15,8 @@ b_benavente = temple
 #b_polvorosa = castle
 
 # Misc
-culture = visigothic
+culture = hispanic
 religion = catholic
-
-700.1.1 = {
-	culture = iberian
-}
 
 # History
 

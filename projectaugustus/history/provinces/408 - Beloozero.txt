@@ -15,7 +15,7 @@ b_belozersk = tribal
 #b_khoklovo = castle
 #b_glushkovo = castle
 
-culture = karelian
+culture = finnish
 religion = finnish_pagan
 terrain = forest
 

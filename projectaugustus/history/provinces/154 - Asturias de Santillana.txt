@@ -15,7 +15,7 @@ b_laredo = temple
 #b_camargo = castle
 
 # Misc
-culture = basque
+culture = hispanic
 religion = catholic
 
 # History

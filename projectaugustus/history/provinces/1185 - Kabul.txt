@@ -15,9 +15,8 @@ b_nagarahara = temple
 #b_kharabat = city
 
 # Misc
-culture = indohellenic
-religion = mahayana_buddhist
+culture = bactrian
+religion = buddhist
 
-700.1.1 = {
-	culture = aghan
-}
+# History
+1000.1.1 = { culture = afghan }

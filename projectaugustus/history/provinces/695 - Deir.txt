@@ -20,10 +20,6 @@ culture = assyrian
 religion = nestorian
 
 # History
-700.1.1 = {
-	b_rutbah = ct_jewish_community_1
-	b_rutbah = ct_jewish_community_2
-	b_rutbah = ct_jewish_community_3
-}
+
 1016.1.1 = { religion = sunni }
 1016.1.1 = { culture = levantine_arabic }

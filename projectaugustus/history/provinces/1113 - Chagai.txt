@@ -12,5 +12,5 @@ culture = baloch
 religion = zoroastrian
 
 # History
-825.1.1 = { religion = haruriyyah } 
+825.1.1 = { religion = kharijite } 
 950.1.1 = { religion = sunni }

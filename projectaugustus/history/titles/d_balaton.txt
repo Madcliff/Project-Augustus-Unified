@@ -1,5 +1,5 @@
-731.1.1={
-        de_jure_liege = k_pannonia
+337.1.1={
+    de_jure_liege = k_pannonia
 }
 835.1.1={
 	liege = k_germany

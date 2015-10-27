@@ -1,33 +1,3 @@
-439.1.1=
-{
-	law = agnatic_succession
-	law = succ_gavelkind
-	holder=10014991
-	name = Salian Franjks
-	adjective = Frankish
-}
-457.1.2=
-{
-	holder=10017991
-}
-481.1.1=
-{
-	holder=10022991
-}
-
-
-620.1.1 = {
-	liege = k_lotharingia
-	holder = 1000252000
-	de_jure_liege = k_lotharingia
-	name = DENTELINUS
-	adjective = DENTELINUS_ADJ
-}
-650.1.1 = {
-	holder = 0
-	reset_name = yes
-	reset_adjective = yes
-}
 740.1.1 = {
 	liege = k_neustria
 	holder = 91487

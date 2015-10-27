@@ -2175,19 +2175,19 @@ egyptian_grain = {
 	icon = 4
 }
 religious_upheaval = {
-    global_revolt_risk = 0.20
+        global_revolt_risk = 0.20
 	icon = 35
 }
 sword_of_caesar = {
-    martial = 2
+        martial = 2
 	icon = 1
 }
 peacocks_feather = {
 	health = 1
 	diplomacy = 2
-    learning = 4
-    fertility = 0.20
-    church_opinion = 20
+        learning = 4
+        fertility = 0.20
+        church_opinion = 20
 	general_opinion = 10
 	monthly_character_piety = 0.5
 	icon = 17
@@ -2216,8 +2216,8 @@ thrill_of_lover = {
 }
 divine_father = {
 	diplomacy = 1
-    learning = 2
-    church_opinion = 20
+        learning = 2
+        church_opinion = 20
 	general_opinion = 10
 	monthly_character_piety = 0.2
 	global_revolt_risk = -0.01
@@ -2241,7 +2241,7 @@ good_augury = {
 }
 terrible_augury = {
 	health = -0.5
-    fertility = -0.10
+        fertility = -0.10
 	monthly_character_piety = -0.2
 	global_revolt_risk = 0.01
 	icon = 35

@@ -1,19 +1,16 @@
-20.1.1 = {
-	historical_nomad = yes
-}
 1066.1.1={
-        law = crown_authority_4
+    law = crown_authority_4
 	law = agnatic_succession
 	law = succ_feudal_elective
-		law = imperial_administration
-        law = centralization2
-        law = vassal_wars_1
-        law = legislature_1
-        law = feudal_tax_1
+    law = imperial_administration
+    law = centralization2
+    law = vassal_wars_1
+    law = legislature_1
+    law = feudal_tax_1
 }
 1227.12.2=
 {
-        liege = e_mongol_empire
+    liege = e_mongol_empire
 	holder = 93062
 	active = yes
 }

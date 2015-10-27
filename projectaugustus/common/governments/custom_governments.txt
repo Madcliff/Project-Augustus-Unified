@@ -19,18 +19,18 @@ feudal_governments = {
 			theocracy_government
 		}
 		free_revoke_on_tiers = {
-            king
+            		king
 			duke
-            count
-            baron
+            		count
+           		 baron
 		}
 		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
 			tribal_government
 		}
 		potential = {
-		    is_patrician = no
-		    independent = yes
-		    primary_title = { NOT = { has_law = legislature_2 } }
+			is_patrician = no
+		        independent = yes
+		        primary_title = { NOT = { has_law = legislature_2 } }
 			primary_title = { has_law = imperial_administration }
 		}
 		
@@ -72,8 +72,8 @@ feudal_governments = {
 			tribal_government
 		}
 		potential = {
-		    is_patrician = no
-		    independent = yes
+		        is_patrician = no
+		        independent = yes
 			primary_title = { has_law = legislature_2 }
 			primary_title = { has_law = imperial_administration }
 		}

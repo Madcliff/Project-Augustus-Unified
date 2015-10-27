@@ -20,13 +20,7 @@ b_roudehen = temple # holy_site = nestorian
 # Misc
 culture = persian
 religion = nestorian
-632.1.1 = {
-	culture = parthian
-}
 
-700.1.1 = {
-	culture = persian
-}
 # History
 864.1.1 = { religion = shiite }
 1066.1.1 = { 

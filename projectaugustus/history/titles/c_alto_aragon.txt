@@ -1,16 +1,3 @@
-470.1.1={
-	liege="d_navarra"
-	holder=1428119
-}
-
-622.1.1 = {
-	holder = 168730
-	liege = d_zaragoza
-}
-650.3.26 = {
-	holder = 1000215033
-}
-
 766.1.1={
 	holder=200042 # Hakam Hakamid
 	liege=e_umayyad

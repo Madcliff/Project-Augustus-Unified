@@ -41,40 +41,6 @@ technology = {
 
 technology = {
 	titles = {
-		d_tibesti
- 		d_borku
-		d_kanem
-		d_ouaddai
-		d_ennedi
-		d_daju
-		d_wadi_fira
-		d_arlit
-		d_mandara
-		d_kukava
-		d_borno
-		d_kano
-		d_daura
-		d_gobir
-		d_zamfara
-		d_albania
-		d_kakheti
-		d_bargujin
-		d_khori_tumed
-		d_barga
-		d_sarir
-		d_dushanbe
-		d_nuristan
-		d_kathmandu
-		d_lumbini
-		d_amdo
-		d_lhasa
-		d_xigaze
-		d_samzhubze
-		d_ngari
-		d_aksai
-		d_jammu
-		d_kinnaur
-		d_udhampur
 		d_itil
 		d_sarkel
 		d_alania

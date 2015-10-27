@@ -1,16 +1,3 @@
-466.1.1=
-{
-liege="k_suevic"
-holder=1428116
-}
-
-620.1.1 = {
-	holder = 1000256710
-	liege = k_visigoth
-}
-653.1.1 = {
-	holder = 0
-}
 760.1.1={
 	holder=200031 # Musa Musavid
 	liege=e_umayyad

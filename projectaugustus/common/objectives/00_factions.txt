@@ -47,7 +47,7 @@ faction_succ_seniority = {
 		NOT = { in_faction = faction_succ_primogeniture }
 		NOT = { in_faction = faction_succ_feudal_elective }
 		NOT = { in_faction = faction_succ_gavelkind }
-                NOT = { in_faction = faction_loyalists }
+				NOT = { in_faction = faction_loyalists }
 		
 		OR = {
 			# Is not affected by a Crown Law title
@@ -124,7 +124,7 @@ faction_succ_seniority = {
 			NOT = { in_faction = faction_succ_primogeniture }
 			NOT = { in_faction = faction_succ_feudal_elective }
 			NOT = { in_faction = faction_succ_gavelkind }
-                        NOT = { in_faction = faction_loyalists }			
+						NOT = { in_faction = faction_loyalists }			
 		}		
 	}
 	
@@ -342,7 +342,7 @@ faction_succ_seniority = {
 				in_faction = faction_succ_feudal_elective
 				in_faction = faction_succ_primogeniture
 				in_faction = faction_succ_gavelkind
-                                in_faction = faction_loyalists
+								in_faction = faction_loyalists
 			}
 		}
 		
@@ -649,7 +649,7 @@ faction_succ_primogeniture = {
 		NOT = { in_faction = faction_succ_seniority }
 		NOT = { in_faction = faction_succ_feudal_elective }
 		NOT = { in_faction = faction_succ_gavelkind }
-                NOT = { in_faction = faction_loyalists }
+				NOT = { in_faction = faction_loyalists }
 		
 		OR = {
 			# Is not affected by a Crown Law title
@@ -726,7 +726,7 @@ faction_succ_primogeniture = {
 			NOT = { in_faction = faction_succ_seniority }
 			NOT = { in_faction = faction_succ_feudal_elective }
 			NOT = { in_faction = faction_succ_gavelkind }
-                        NOT = { in_faction = faction_loyalists }	
+						NOT = { in_faction = faction_loyalists }	
 		}
 	}	
 	
@@ -929,7 +929,7 @@ faction_succ_primogeniture = {
 				in_faction = faction_succ_feudal_elective
 				in_faction = faction_succ_seniority
 				in_faction = faction_succ_gavelkind
-                                in_faction = faction_loyalists
+								in_faction = faction_loyalists
 			}
 		}
 		
@@ -1247,7 +1247,7 @@ faction_succ_gavelkind = {
 		NOT = { in_faction = faction_succ_seniority }
 		NOT = { in_faction = faction_succ_primogeniture }
 		NOT = { in_faction = faction_succ_feudal_elective }
-                NOT = { in_faction = faction_loyalists }
+				NOT = { in_faction = faction_loyalists }
 		
 		OR = {
 			# Is not affected by a Crown Law title
@@ -1326,7 +1326,7 @@ faction_succ_gavelkind = {
 			NOT = { in_faction = faction_succ_seniority }
 			NOT = { in_faction = faction_succ_primogeniture }
 			NOT = { in_faction = faction_succ_feudal_elective }
-                        NOT = { in_faction = faction_loyalists }
+						NOT = { in_faction = faction_loyalists }
 		}
 	}	
 	
@@ -1587,7 +1587,7 @@ faction_succ_gavelkind = {
 				in_faction = faction_succ_seniority
 				in_faction = faction_succ_primogeniture
 				in_faction = faction_succ_gavelkind
-                                in_faction = faction_loyalists
+								in_faction = faction_loyalists
 			}
 		}
 		
@@ -1848,7 +1848,7 @@ faction_succ_feudal_elective = {
 		NOT = { in_faction = faction_succ_seniority }
 		NOT = { in_faction = faction_succ_primogeniture }
 		NOT = { in_faction = faction_succ_gavelkind }
-                NOT = { in_faction = faction_loyalists }
+				NOT = { in_faction = faction_loyalists }
 		
 		OR = {
 			# Is not affected by a Crown Law title
@@ -1929,7 +1929,7 @@ faction_succ_feudal_elective = {
 			NOT = { in_faction = faction_succ_seniority }
 			NOT = { in_faction = faction_succ_primogeniture }
 			NOT = { in_faction = faction_succ_gavelkind }
-                        NOT = { in_faction = faction_loyalists }
+						NOT = { in_faction = faction_loyalists }
 		}
 	}		
 	
@@ -2200,7 +2200,7 @@ faction_succ_feudal_elective = {
 				in_faction = faction_succ_seniority
 				in_faction = faction_succ_primogeniture
 				in_faction = faction_succ_gavelkind
-                                in_faction = faction_loyalists
+								in_faction = faction_loyalists
 			}
 		}
 		
@@ -2444,7 +2444,7 @@ faction_loyalists = {
 		opinion = { who = LIEGE value = 80 }
 		liege = {
 			is_vice_royalty = no
-            independent = yes
+			independent = yes
 			NOT = {
 				any_demesne_title = {
 					temporary = yes
@@ -2460,34 +2460,34 @@ faction_loyalists = {
 	
 	# Faction member scope (ROOT = joiner, FROM = target)
 	allow_join = {
-	    ROOT = {
+		ROOT = {
 			independent = no
 			is_ruler = yes
 			is_adult = yes
 			prisoner = no	
 			NOT = { trait = incapable }
 			opinion = { who = LIEGE value = 80 }
-        }			
+		}			
 	}
 	
 	# AI creation weight
 	chance = {
 		factor = 100
 
-        modifier = {
+		modifier = {
 			factor = 0
-            NOT = { FROM = { opinion = { who = LIEGE value = 80 } } }
-        }      
+			NOT = { FROM = { opinion = { who = LIEGE value = 80 } } }
+		}	  
 	}
 	
 	# AI membership weight: ROOT is the prospective member. FROM is the faction leader. FROMFROM is the target title or character.
 	membership = {
 		factor = 100
 
-        modifier = {
+		modifier = {
 			factor = 0
-            NOT = { opinion = { who = LIEGE value = 80 } } 
-	    }    
+			NOT = { opinion = { who = LIEGE value = 80 } } 
+		}	
 	}
 
 	abort = {
@@ -2507,12 +2507,13 @@ faction_senate = {
 		is_adult = yes
 		independent = no
 		NOT = { trait = incapable }
+                has_minor_title = { title_prefect }
   		liege = {
   			is_vice_royalty = no
   			independent = yes
 			is_feudal = yes
 			OR = {
-			    has_landed_title = e_roman_empire
+				has_landed_title = e_roman_empire
 				has_landed_title = e_western
 			}
   			OR = {
@@ -2538,9 +2539,9 @@ faction_senate = {
   			prisoner = no 
   			is_adult = yes
   			independent = no
-        	NOT = { trait = incapable } 
+			NOT = { trait = incapable } 
 			has_minor_title = title_senator
-    	}
+		}
   	}
 
   	# AI creation weight
@@ -2570,18 +2571,19 @@ faction_senate = {
 
 # Byzantine Senate
 faction_senate2 = {
-    type = character
+	type = character
 
-    warning_level = 0
+	warning_level = 0
 
-    # Plotter scope
-    potential = {
-    	prisoner = no
-    	is_adult = yes
-    	independent = no
-    	NOT = { trait = incapable }
+	# Plotter scope
+	potential = {
+		prisoner = no
+		is_adult = yes
+		independent = no
+		NOT = { trait = incapable }
+                has_minor_title = { title_eparch }
   		liege = {
-		    has_landed_title = e_byzantium
+			has_landed_title = e_byzantium
   			is_vice_royalty = no
   			independent = yes
 			is_feudal = yes
@@ -2608,9 +2610,9 @@ faction_senate2 = {
   			prisoner = no 
   			is_adult = yes
   			independent = no
-        	NOT = { trait = incapable }
+			NOT = { trait = incapable }
 			has_minor_title = title_senator2
-    	}
+		}
   	}
 
   	# AI creation weight
@@ -2650,9 +2652,10 @@ faction_legislature = {
 		is_adult = yes
 		independent = no
 		NOT = { trait = incapable }
+                has_minor_title = { title_speaker }
   		liege = {
 			NOT = { has_landed_title = e_western }
-		    NOT = { has_landed_title = e_byzantium }
+			NOT = { has_landed_title = e_byzantium }
 			NOT = { has_landed_title = e_roman_empire }
 			religion_group = christian
   			is_vice_royalty = no
@@ -2681,9 +2684,9 @@ faction_legislature = {
   			prisoner = no 
   			is_adult = yes
   			independent = no
-        	NOT = { trait = incapable } 
+			NOT = { trait = incapable } 
 			has_minor_title = title_lord_peer
-    	}
+		}
   	}
 
   	# AI creation weight
@@ -2723,9 +2726,10 @@ faction_legislature2 = {
 		is_adult = yes
 		independent = no
 		NOT = { trait = incapable }
+                has_minor_title = { title_speaker2 }
   		liege = {
 			NOT = { has_landed_title = e_western }
-		    NOT = { has_landed_title = e_byzantium }
+			NOT = { has_landed_title = e_byzantium }
 			NOT = { has_landed_title = e_roman_empire }
 			religion_group = muslim
   			is_vice_royalty = no
@@ -2754,9 +2758,9 @@ faction_legislature2 = {
   			prisoner = no 
   			is_adult = yes
   			independent = no
-        	NOT = { trait = incapable } 
+			NOT = { trait = incapable } 
 			has_minor_title = title_councillor
-    	}
+		}
   	}
 
   	# AI creation weight
@@ -2796,9 +2800,10 @@ faction_legislature3 = {
 		is_adult = yes
 		independent = no
 		NOT = { trait = incapable }
+                has_minor_title = { title_nasi }
   		liege = {
 			NOT = { has_landed_title = e_western }
-		    NOT = { has_landed_title = e_byzantium }
+			NOT = { has_landed_title = e_byzantium }
 			NOT = { has_landed_title = e_roman_empire }
 			religion_group = jewish_group
   			is_vice_royalty = no
@@ -2827,9 +2832,9 @@ faction_legislature3 = {
   			prisoner = no 
   			is_adult = yes
   			independent = no
-        	NOT = { trait = incapable } 
+			NOT = { trait = incapable } 
 			has_minor_title = title_mufla
-    	}
+		}
   	}
 
   	# AI creation weight
@@ -2869,9 +2874,10 @@ faction_legislature4 = {
 		is_adult = yes
 		independent = no
 		NOT = { trait = incapable }
+                has_minor_title = { title_speaker3 }
   		liege = {
 			NOT = { has_landed_title = e_western }
-		    NOT = { has_landed_title = e_byzantium }
+			NOT = { has_landed_title = e_byzantium }
 			NOT = { has_landed_title = e_roman_empire }
 			religion_group = zoroastrian_group
   			is_vice_royalty = no
@@ -2900,9 +2906,9 @@ faction_legislature4 = {
   			prisoner = no 
   			is_adult = yes
   			independent = no
-        	NOT = { trait = incapable } 
+			NOT = { trait = incapable } 
 			has_minor_title = title_councillor2
-    	}
+		}
   	}
 
   	# AI creation weight
@@ -2942,9 +2948,10 @@ faction_legislature5 = {
 		is_adult = yes
 		independent = no
 		NOT = { trait = incapable }
+                has_minor_title = { title_speaker4 }
   		liege = {
 			NOT = { has_landed_title = e_western }
-		    NOT = { has_landed_title = e_byzantium }
+			NOT = { has_landed_title = e_byzantium }
 			NOT = { has_landed_title = e_roman_empire }
 			religion_group = pagan_group
   			is_vice_royalty = no
@@ -2973,9 +2980,9 @@ faction_legislature5 = {
   			prisoner = no 
   			is_adult = yes
   			independent = no
-        	NOT = { trait = incapable } 
+			NOT = { trait = incapable } 
 			has_minor_title = title_high_elder
-    	}
+		}
   	}
 
   	# AI creation weight
@@ -3015,6 +3022,7 @@ faction_legislature6 = {
 		is_adult = yes
 		independent = no
 		NOT = { trait = incapable }
+                has_minor_title = { title_speaker5 }
   		liege = {
 			is_merchant_republic = yes
   			is_vice_royalty = no
@@ -3037,9 +3045,9 @@ faction_legislature6 = {
   			prisoner = no 
   			is_adult = yes
   			independent = no
-        	NOT = { trait = incapable } 
+			NOT = { trait = incapable } 
 			has_minor_title = title_councillor3
-    	}
+		}
   	}
 
   	# AI creation weight
@@ -3097,7 +3105,7 @@ faction_lower_crown_authority = {
 		}
 		primary_title = { higher_tier_than = BARON }
 
-                NOT = { in_faction = faction_loyalists }
+				NOT = { in_faction = faction_loyalists }
 		
 		NOT = { has_character_modifier = faction_lower_CA_ultimatum_timer }
 	}
@@ -3144,7 +3152,7 @@ faction_lower_crown_authority = {
 			NOT = { trait = incapable }
 			prisoner = no
 
-                        NOT = { in_faction = faction_loyalists }
+						NOT = { in_faction = faction_loyalists }
 		}
 	}		
 	
@@ -4050,7 +4058,7 @@ faction_independence = {
 		
 		NOT = { trait = incapable }
 
-                NOT = { in_faction = faction_loyalists }
+				NOT = { in_faction = faction_loyalists }
 		
 		higher_tier_than = BARON
 		OR = {
@@ -4141,7 +4149,7 @@ faction_independence = {
 			prisoner = no
 			mercenary = no
 
-                        NOT = { in_faction = faction_loyalists }
+						NOT = { in_faction = faction_loyalists }
 			
 			# No independence factions in merchant republics
 			NOT = {
@@ -4926,7 +4934,7 @@ faction_claimant = {
 			NOT = { trait = incapable }
 			prisoner = no
 
-                        NOT = { in_faction = faction_loyalists }
+						NOT = { in_faction = faction_loyalists }
 		}
 	}	
 	
@@ -5110,6 +5118,7 @@ faction_claimant = {
 				OR = {
 					religion = catholic
 					religion = fraticelli
+					religion = arian
 				}
 				top_liege = {
 					FROM = {
@@ -5121,7 +5130,8 @@ faction_claimant = {
 					rightful_religious_head_scope = {
 						OR = {
 							has_claim = k_papal_state
-							has_claim = d_fraticelli
+							has_claim = k_fraticelli
+							has_claim = k_arian
 						}
 					}
 					any_realm_lord = {
@@ -5552,6 +5562,7 @@ faction_claimant = {
 			OR = {
 				religion = catholic
 				religion = fraticelli
+				religion = arian
 			}
 			top_liege = {
 				ROOT = {
@@ -5563,7 +5574,8 @@ faction_claimant = {
 				rightful_religious_head_scope = {
 					OR = {
 						has_claim = k_papal_state
-						has_claim = d_fraticelli
+						has_claim = k_fraticelli
+						has_claim = k_arian
 					}
 				}
 				any_realm_lord = {
@@ -5898,9 +5910,9 @@ faction_antiking = {
 		is_landed = yes
 		is_adult = yes
 		OR = {
-			religion = arian
 			religion = catholic
 			religion = fraticelli
+			religion = arian
 		}
 		NOT = { trait = incapable }
 		primary_title = { higher_tier_than = COUNT }
@@ -5908,9 +5920,9 @@ faction_antiking = {
 			religion = ROOT
 			rightful_religious_head_scope = {
 				OR = {
-					has_claim = k_arian
 					has_claim = k_papal_state
 					has_claim = k_fraticelli
+					has_claim = k_arian
 				}
 			}
 			NOT = {
@@ -5969,7 +5981,7 @@ faction_antiking = {
 			is_adult = yes
 			NOT = { trait = incapable }
 			prisoner = no
-                        NOT = { in_faction = faction_loyalists }
+						NOT = { in_faction = faction_loyalists }
 		}
 	}	
 	

@@ -8,6 +8,12 @@ decisions = {
 				has_law = enatic_succession
 				has_law = enatic_cognatic_succession
 			}
+			OR = {
+			    is_feudal = yes
+				is_patrician = yes
+				is_theocracy = yes
+				is_merchant_republic = yes
+			}
 		}
 		allow = {
 			any_demesne_province = {
@@ -40,6 +46,7 @@ decisions = {
 			}
 		}
 		effect = {
+		    custom_tooltip = { vassalize_all_tooltip }
 			character_event = { id = vassalize_all.250001 }	
 		}
 		revoke_allowed = {
@@ -63,6 +70,12 @@ decisions = {
 				has_law = enatic_succession
 				has_law = enatic_cognatic_succession
 			}
+			OR = {
+			    is_feudal = yes
+				is_patrician = yes
+				is_theocracy = yes
+				is_merchant_republic = yes
+			}
 		}
 		allow = {
 			any_demesne_province = {
@@ -95,6 +108,7 @@ decisions = {
 			}
 		}
 		effect = {
+		    custom_tooltip = { vassalize_enatic_tooltip }
 			character_event = { id = vassalize_enatic.250001 }	
 		}
 		revoke_allowed = {

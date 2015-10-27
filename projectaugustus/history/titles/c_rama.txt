@@ -1,23 +1,8 @@
-470.1.1={
-	liege="k_ostrogoth"
-}
-539.1.1={
-        de_jure_liege = "d_belgrade"
-}
-539.1.1={
-	liege ="d_belgrade"
-}
-610.1.1={
-	holder = 1000255601
-}
-641.1.1 = {
-	holder = 1000255602
-}
-680.1.1 = {
-	holder = 1000255603
+337.1.1={
+	liege="d_belgrade"
+    de_jure_liege = "d_belgrade"
 }
 757.1.1={
-	liege="d_belgrade"
 	holder = 146010
 }
 786.1.1={

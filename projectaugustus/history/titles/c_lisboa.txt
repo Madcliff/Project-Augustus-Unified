@@ -1,17 +1,3 @@
-466.1.1={
-	liege="k_suevic"
-}
-469.1.2={
-	holder=1438135
-}
-
-610.1.1 = {
-	holder = 1000250000
-	liege = d_beja
-}
-654.1.1 = {
-	holder = 0
-}
 761.1.1={
 	holder=200035 # Abdallah Aslamid
 	liege=d_beja

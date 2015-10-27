@@ -1,14 +1,3 @@
-615.1.1 = {
-	holder = 1000254556
-	liege = e_persia
-}
-636.1.1 = {
-	liege = k_arabia
-}
-641.1.1 = {
-	holder = 0
-	liege = 0
-}
 1066.1.1=
 {
 	liege="k_persia"

@@ -15,7 +15,7 @@ b_koohdasht = city
 #b_poledokhtar = castle
 
 #Misc
-culture = lur
+culture = persian
 religion = zurvanite
 
 # History

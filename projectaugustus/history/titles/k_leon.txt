@@ -68,6 +68,7 @@
 }
 1188.1.22={
 	holder=457650 # Alfonso IX de Borgoña
+	law = legislature_2
 }
 1230.9.24={
 	holder=457620 # Fernando III de Borgoña

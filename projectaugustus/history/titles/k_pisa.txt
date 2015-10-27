@@ -1,5 +1,6 @@
 1060.1.1=
 {
+    set_tribute_suzerain = { who = e_hre percentage = 0 }
 	holder=180023 #Tedice III della Gheradesca
 }
 1078.1.1=

@@ -15,7 +15,7 @@ b_irenopolis = temple
 #b_anemurium = castle
 
 # Misc
-culture = cappadocian
+culture = greek
 religion = orthodox
 
 # History

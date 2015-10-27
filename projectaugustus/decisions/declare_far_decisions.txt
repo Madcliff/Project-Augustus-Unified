@@ -46,7 +46,7 @@ declare_rival = {
 			}
 		}
 		effect = {
-		add_rival = FROM
+		    add_rival = FROM
 		}
 		revoke_allowed = {
 			always = no
@@ -89,7 +89,7 @@ declare_rival = {
 			}
 		}
 		effect = {
-		add_friend = FROM
+		    add_friend = FROM
 		}
 		revoke_allowed = {
 			always = no

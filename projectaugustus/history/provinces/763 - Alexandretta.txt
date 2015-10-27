@@ -18,7 +18,7 @@ b_portella = city
 
 # Misc
 culture = aramean
-religion = syriac
+religion = orthodox
 terrain = mountain
 
 # History

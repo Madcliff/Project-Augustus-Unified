@@ -15,16 +15,9 @@ b_birjand = city
 #b_qaen = castle
 #b_paeenshahr = castle
 
-culture = parthian
-religion = haruriyyah 
+culture = persian
+religion = kharijite
 
 # History
-632.1.1 = {
-	culture = parthian
-}
-
-700.1.1 = {
-	culture = persian
-}
 
 950.1.1 = { religion = sunni }

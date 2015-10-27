@@ -1,22 +1,11 @@
-470.1.1 = {
-	holder = 1000256130 
-}
-620.1.1 = {
-	liege = e_protectorate
-}
 720.1.1 = {
 	holder = 166718
-	liege=0
 }
 763.1.1 = {
 	holder = 166719
 }
-769.1.1={
-	liege = d_anxi # De facto
-}
 802.1.1 = {
 	holder = 166721
-	liege = 0
 }
 #Kingdom of Qocho
 856.1.1 = {
@@ -78,9 +67,4 @@
 }
 1327.1.1 = {
 	holder = 166794
-}
-#Conquered by Khizr Khoja of the Chagatai Khanate
-1335.1.1=
-{
-	holder = 93086
 }

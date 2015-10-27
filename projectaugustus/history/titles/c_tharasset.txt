@@ -1,20 +1,11 @@
-20.1.1 = {
-	historical_nomad = yes
-}
-600.1.1 = {
-	holder=1004460059
-	liege=d_mauri
-}
-680.1.1 = {
-	holder=0
-	liege=0
+337.1.1={
+    de_jure_liege = d_sahara
 }
 744.1.1={
 	holder = 168276
 }
-
 788.1.1={
-	liege="k_mauretania"
+	liege="k_sahaja"
 }
 792.1.1={
 	holder = 168277
@@ -31,9 +22,6 @@
 961.1.1={
 	holder = 168281
 }
-
-
-
 1051.1.1=
 {
 holder=32964

@@ -25,7 +25,7 @@
 	diplomacy=2
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait="tough_soldier"
 	father=184125 #Cuhelyn
@@ -838,7 +838,7 @@
 40500 = {
 	name="Llywelyn" #ap Seisyll of Gwynedd
 	dynasty=14278 # Seisyll
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81820 #Seisyll of Gwynedd
 	mother=159042 # Prawst ferch Elisedd ap Anarawd
@@ -857,7 +857,7 @@
 	name="Angharad" #of Gwynedd
 	female = yes
 	dynasty=101919 #Dinefwr
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81821 #Maredudd ab Owain (Deheubarth)
 	978.1.1={
@@ -896,7 +896,7 @@
 	name="Cynfyn" #ap Gwerstan
 	#dynasty=100065 #Gruffyd of Powys
 	dynasty=548
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=138444 #Gwerstan
 	978.1.1={
@@ -1000,7 +1000,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=9
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159107
 	trait="tough_soldier"
@@ -1019,7 +1019,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait="tough_soldier"
 	father=40510
@@ -1038,7 +1038,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait="tough_soldier"
 	father=40510
@@ -1072,7 +1072,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait="tough_soldier"
 	father=40510
@@ -1605,7 +1605,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait="tough_soldier"
 	997.1.1={
@@ -1794,7 +1794,7 @@
 81819 = {
 	name="Edwyn" #ap Hywel
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81823 #Hywel Dda
 	mother=159355 #Elen of Dyfed
@@ -1809,7 +1809,7 @@
 81820 = {
 	name="Seisyll" #Seisyll of Gwynedd
 	dynasty=14278 #Seisyll
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159055 #Ednywain ap Pyll
 	940.1.1={
@@ -1826,7 +1826,7 @@
 81821 = {
 	name="Maredudd" #ap Owain of Deheubarth
 	dynasty=101919 #Dinefwr
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81822 #Owain of Deheubarth
 	920.1.1={
@@ -1840,7 +1840,7 @@
 81822 = {
 	name="Owain" #ap Hywel
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81823 #Hywel Dda
 	mother=159355 #Elen of Dyfed
@@ -1855,7 +1855,7 @@
 81823 = {
 	name="Hywel" # the Good
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait="just"
 	give_nickname=nick_the_good
@@ -1874,7 +1874,7 @@
 81824 = {
 	name="Cadell" #ap Rhodri King of Seisyllwg
 	dynasty=101920
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	mother=159802
@@ -1892,7 +1892,7 @@
 81825 = {
 	name="Iago" #ap Idwal
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81826 #Idwal ap Meuric
 	970.1.1={
@@ -1906,7 +1906,7 @@
 81826 = {
 	name="Idwal" # ap Meuric
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81827 # Meuric ap Idwal
 	940.1.1={
@@ -1921,7 +1921,7 @@
 	name="Meuric" #ap Idwal
 	# AKA: Meurig
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=138466 #Idwal ap Rhodri
 	920.1.1={
@@ -1935,7 +1935,7 @@
 81828 = {
 	name="Idwal Ieuaf" # Idwal Ieuaf ap Idwal Foel the Younger
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81829 #Idwal Foel
 	921.1.1={
@@ -1950,7 +1950,7 @@
 	name="Idwal Foel" #the Bald ap Anarawd
 	# AKA: Idwal Foel
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81830 #Anarawd ap Rhodri
 	885.1.1={
@@ -1964,7 +1964,7 @@
 81830 = {
 	name="Anarawd" #ap Rhodri
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	mother=159802
@@ -1982,7 +1982,7 @@
 	# AKA: Rhodri Mawr
 	dynasty=101920 #Aberffraw for tree appearance
 	#was dynasty=101922 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	give_nickname="nick_the_great"
 	father=159027
@@ -2108,7 +2108,7 @@
 	name="Branwen" #? Nwrcelyn
 	female = yes
 	dynasty=20138 #Nwrcelyn
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	#father Brockwell ap Moelyn of Nwrcelyn
 	1025.1.1={
@@ -2304,7 +2304,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait="humble"
 	father = 159003
@@ -2492,7 +2492,7 @@
 8189 = {
 	name="Ederfydd" #ap Seisyll
 	dynasty=14278 #Seisyll
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait="bastard"
 	father=81820 #Seisyll of Gwynedd
@@ -2577,7 +2577,7 @@
 138444 = {
 	name="Gwerstan" #ap Gwaithfoed
 	dynasty=548 #Mathrafal (Powys)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159076
 	954.1.1={
@@ -2773,7 +2773,7 @@
 138464 = {
 	name="Idwal Fychan" #the small ap Idwal
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81829 #Idwal Foel
 	920.1.1={
@@ -2793,7 +2793,7 @@
 138466 = {
 	name="Idwal" # ap Rhodri
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	trait="bastard"
@@ -2899,7 +2899,7 @@
 138482 = {
 	name="Goronwy" #ap Einion King of Deheubarth
 	dynasty=101680 #Tegaingl
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=138484 #Einion ap Owain
 	975.1.1={
@@ -2913,7 +2913,7 @@
 138484 = {
 	name="Einion" #ap Owain
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81822 #Owain ap Hywel
 	930.1.1={
@@ -2970,7 +2970,7 @@
 138490 = {
 	name="Cadell" #ap Einion
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=138484 #Einion ap Owain
 	953.1.1={
@@ -2984,7 +2984,7 @@
 138488 = {
 	name="Tewdwr" #ap Cadell King of Deheubarth
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=138490 #Cadell ap Einion
 	give_nickname="nick_the_great"
@@ -2999,7 +2999,7 @@
 138492 = {
 	name="Edwin" #ap Einion
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=138484 #Einion ap Owain
 	954.1.1={
@@ -3013,7 +3013,7 @@
 138494 = {
 	name="Owain" # ap Edwin
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=138484 #Einion ap Owain
 	974.1.1={
@@ -3076,7 +3076,7 @@
 159000 = {
 	name="Hywel" # ap Iago
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159004 # Iago ap Idwal
 	938.1.1={
@@ -3090,7 +3090,7 @@
 159001 = {
 	name="Cynan" # ap Hywel
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159000 # Hywel ap Iago
 	955.1.1={
@@ -3104,7 +3104,7 @@
 159002 = {
 	name="Aeddan ap Blegywryd"
 	dynasty=20154 #placeholder
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	945.1.1={
 		birth="945.1.1"	#unknown
@@ -3120,7 +3120,7 @@
 159003 = {
 	name="Iestyn" # ap Owain ap Morgan Hen
 	dynasty=547 #Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=40510 # Owain ap Morgan Hen
 	975.1.1={
@@ -3133,7 +3133,7 @@
 159004 = {
 	name="Iago" # ap Idwal Foel
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81829 # Idwal Foel
 	920.1.1={
@@ -3146,7 +3146,7 @@
 159005 = {
 	name="Hywel" # ap Idwal Ieuaf ap Idwal Foel
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81828 #Idwal Ieuaf
 	940.1.1={
@@ -3159,7 +3159,7 @@
 159006 = {
 	name="Cadwallon" # ap Idwal Ieuaf ap Idwal Foel
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81828 #Idwal Ieuaf
 	941.1.1={
@@ -3172,7 +3172,7 @@
 159007 = {
 	name="Tegid" # 
 	dynasty=1029039 # Goddoddin
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	240.1.1={
 		birth="240.1.1"
@@ -3184,7 +3184,7 @@
 159008 = {
 	name="Padarn Beisrudd" # 
 	dynasty=1029039 # Goddoddin
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159007
 	270.1.1={
@@ -3197,7 +3197,7 @@
 159009 = {
 	name="Edern" #
 	dynasty=1029039 # Goddoddin
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159008
 	310.1.1={
@@ -3210,7 +3210,7 @@
 159010 = {
 	name="Cunedda" # ap Edern
 	dynasty=100064 # Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159009
 	350.1.1={
@@ -3226,7 +3226,7 @@
 159011 = {
 	name="Einion" # ap Cunedda
 	dynasty=100064 # Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159010
 	mother=159039
@@ -3240,7 +3240,7 @@
 159012 = {
 	name="Cadwallon" # ap Einion
 	dynasty=100064 # Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159011
 	440.1.1={
@@ -3253,7 +3253,7 @@
 159013 = {
 	name="Maelgwn" # ap Cadwallon
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159012 # Cadwallon
 	481.1.1={
@@ -3266,7 +3266,7 @@
 159014 = {
 	name="Rhun" # ap Maelgwn
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159013 # Cadwallon
 	510.1.1={
@@ -3279,7 +3279,7 @@
 159015 = {
 	name="Beli" # ap Rhun
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159014 # Rhun
 	527.1.1={
@@ -3292,7 +3292,7 @@
 159016 = {
 	name="Iago" # ap Beli
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159015 # Beli
 	560.1.1={
@@ -3305,7 +3305,7 @@
 159017 = {
 	name="Cadfan" # ap Iago
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159016 # Iago
 	580.1.1={
@@ -3318,7 +3318,7 @@
 159018 = {
 	name="Cadwallon" # ap Cadfan
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159017 # Cadfan
 	600.1.1={
@@ -3331,7 +3331,7 @@
 159019 = {
 	name="Cadwaladr" # ap Cadwallon
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159018 # Cadwallon
 	630.1.1={
@@ -3344,7 +3344,7 @@
 159020 = {
 	name="Idwal" # ap Cadwaladr
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159019 # Cadwaladr
 	670.1.1={
@@ -3360,7 +3360,7 @@
 159021 = {
 	name="Rhodri" # ap Idwal
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159020 # Idwal
 	mother=160047 #Agatha of Brittany
@@ -3376,7 +3376,7 @@
 	name="Caradog" # ap Meirchion
 	dynasty=14284 #Rhos
 	father=160046
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	730.1.1={
 		birth="730.1.1"
@@ -3388,7 +3388,7 @@
 159023 = {
 	name="Cynan" # ap Rhodri
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159021 # Rhodri
 	trait="ambitious"
@@ -3402,7 +3402,7 @@
 159024 = {
 	name="Hywel" # ap Rhodri
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159021 # Rhodri
 	750.1.1={
@@ -3416,7 +3416,7 @@
 	name="Esyllt" # ferch Cynan
 	dynasty=100064 #Gwynedd
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159023 # Cynan
 	770.1.1={
@@ -3433,7 +3433,7 @@
 159026 = {
 	name="Gwriad" # 
 	dynasty=101922 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159028 # Elidyr
 	760.1.1={
@@ -3450,7 +3450,7 @@
 159027 = {
 	name="Merfyn" # 
 	dynasty=101922 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159026 # Gwriad
 	mother=159025 # Esyllt
@@ -3468,7 +3468,7 @@
 159028 = {
 	name="Elidyr" # 
 	dynasty=101922 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159029 # Sandde
 	mother=159933 # Celeinion
@@ -3483,7 +3483,7 @@
 159029 = {
 	name="Sandde" # 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159030 # Alcwn
 	680.1.1={
@@ -3499,7 +3499,7 @@
 159030 = {
 	name="Algwyn" # aka Alcwn
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159031 # Tegid
 	640.1.1={
@@ -3512,7 +3512,7 @@
 159031 = {
 	name="Teigid" # 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159032 # 
 	600.1.1={
@@ -3525,7 +3525,7 @@
 159032 = {
 	name="Gwyar" # 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159033 # 
 	560.1.1={
@@ -3538,7 +3538,7 @@
 159033 = {
 	name="Llywarch" # 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159034 # Elidyr Llydanwyn
 	525.1.1={
@@ -3554,7 +3554,7 @@
 159034 = {
 	name="Elidyr" # the Handsome
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159035 # Meirchion Gul
 	500.1.1={
@@ -3570,7 +3570,7 @@
 159035 = {
 	name="Meirchion" # Gul
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159036 # Gwrast the Ragged
 	430.1.1={
@@ -3583,7 +3583,7 @@
 159036 = {
 	name="Gwrast" # the Ragged
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159037 # Ceneu
 	410.1.1={
@@ -3597,7 +3597,7 @@
 159037 = {
 	name="Ceneu" # 
 	dynasty=1029002 #Ebrauc
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159038 # Coel
 	mother=159951 #Ystradwel of Dumnonia
@@ -3611,7 +3611,7 @@
 159038 = {
 	name="Coel" # 
 	dynasty=1029002 #Ebrauc
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	340.1.1={
 		birth="340.1.1"
@@ -3630,7 +3630,7 @@
 	name="Gwawl" # 
 	female=yes
 	dynasty=1029002 #Ebrauc
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159038 # Coel
 	mother=159951 #Ystradwel of Dumnonia
@@ -3647,7 +3647,7 @@
 159040 = {
 	name="Ifwr" # ap Cadwaladr
 	dynasty=100064 #Gwynedd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159019 # Cadwaladr
 	660.1.1={
@@ -3661,7 +3661,7 @@
 159041 = {
 	name="Elisedd" # ap Idwal
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81829 # Cadwaladr
 	906.1.1={
@@ -3676,7 +3676,7 @@
 	name="Prawst" # ferch Elisedd
 	female=yes
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159041 # Elisedd
 	942.1.1={
@@ -3693,7 +3693,7 @@
 159043 = {
 	name="Llyr" # ap Einion
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159011
 	450.1.1={
@@ -3706,7 +3706,7 @@
 159044 = {
 	name="Caradog" # ap Llyr
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159043
 	480.1.1={
@@ -3719,7 +3719,7 @@
 159045 = {
 	name="Gwgon" # ap Caradog
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159044
 	520.1.1={
@@ -3732,7 +3732,7 @@
 159046 = {
 	name="Glannog" # ap Gwgon
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159045
 	560.1.1={
@@ -3745,7 +3745,7 @@
 159047 = {
 	name="Helig" # ap Glannog
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159046
 	600.1.1={
@@ -3758,7 +3758,7 @@
 159048 = {
 	name="Rhychwin" # ap Helig
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159047
 	640.1.1={
@@ -3771,7 +3771,7 @@
 159049 = {
 	name="Cynwas" # ap Rhychwin
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159048
 	680.1.1={
@@ -3784,7 +3784,7 @@
 159050 = {
 	name="Garannog" # ap Cynwas
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159049
 	720.1.1={
@@ -3797,7 +3797,7 @@
 159051 = {
 	name="Geraint" # ap Garannog
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159050
 	760.1.1={
@@ -3810,7 +3810,7 @@
 159052 = {
 	name="Gwyddno" # ap Geraint
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159051
 	800.1.1={
@@ -3823,7 +3823,7 @@
 159053 = {
 	name="Sandde" # ap Gwyddno
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159052
 	840.1.1={
@@ -3836,7 +3836,7 @@
 159054 = {
 	name="Pyll" # ap Sandde
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159053
 	880.1.1={
@@ -3849,7 +3849,7 @@
 159055 = {
 	name="Ednywain" # ap Pyll
 	dynasty=1047019 #Arllechwydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159054
 	920.1.1={
@@ -3862,7 +3862,7 @@
 159056 = {
 	name="Gwrtheyrn" # Vortigern
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159945
 	350.1.1={
@@ -3878,7 +3878,7 @@
 159057 = {
 	name="Cadeyrn" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159056
 	mother=159810
@@ -3895,7 +3895,7 @@
 159058 = {
 	name="Cadell" #
 	dynasty=1029133 #Powys
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159948
 	400.1.1={
@@ -3908,7 +3908,7 @@
 159059 = {
 	name="Pasgen" #
 	dynasty=1029133 #Powys
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159058
 	425.1.1={
@@ -3924,7 +3924,7 @@
 159060 = {
 	name="Rhyddfedd" #aka Maun
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159059
 	mother=159950
@@ -3938,7 +3938,7 @@
 159061 = {
 	name="Casnar" # Wledig
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159057
 	421.1.1={
@@ -3951,7 +3951,7 @@
 159062 = {
 	name="Llary" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159061
 	470.1.1={
@@ -3964,7 +3964,7 @@
 159063 = {
 	name="Rhun" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159062
 	510.1.1={
@@ -3977,7 +3977,7 @@
 159064 = {
 	name="Bywdeg" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159063
 	550.1.1={
@@ -3990,7 +3990,7 @@
 159065 = {
 	name="Bywyr Lew" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159064
 	600.1.1={
@@ -4003,7 +4003,7 @@
 159066 = {
 	name="Gwineu Deufureuddwyd" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159065
 	630.1.1={
@@ -4016,7 +4016,7 @@
 159067 = {
 	name="Teon" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159066
 	670.1.1={
@@ -4029,7 +4029,7 @@
 159068 = {
 	name="Tegonwy" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159067
 	700.1.1={
@@ -4042,7 +4042,7 @@
 159069 = {
 	name="Caenog" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159068
 	740.1.1={
@@ -4055,7 +4055,7 @@
 159070 = {
 	name="Corf" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159069
 	760.1.1={
@@ -4068,7 +4068,7 @@
 159071 = {
 	name="Ceidio" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159070
 	783.1.1={
@@ -4081,7 +4081,7 @@
 159072 = {
 	name="Lles Llawddeog" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159071
 	810.1.1={
@@ -4094,7 +4094,7 @@
 159073 = {
 	name="Caradog" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159072
 	842.1.1={
@@ -4107,7 +4107,7 @@
 159074 = {
 	name="Bleddyn" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159073
 	873.1.1={
@@ -4120,7 +4120,7 @@
 159075 = {
 	name="Gwrydr" # 
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159074
 	894.1.1={
@@ -4133,7 +4133,7 @@
 159076 = {
 	name="Gwaithfoed" # 
 	dynasty=548 #Mathrafal (Powys)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159075
 	924.1.1={
@@ -4146,7 +4146,7 @@
 159077 = {
 	name="Cyngen" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159060
 	470.1.1={
@@ -4159,7 +4159,7 @@
 159078 = {
 	name="Brochfael" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159077
 	500.1.1={
@@ -4172,7 +4172,7 @@
 159079 = {
 	name="Cynan" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159078
 	530.1.1={
@@ -4185,7 +4185,7 @@
 159080 = {
 	name="Selyf" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159079
 	575.1.1={
@@ -4199,7 +4199,7 @@
 159081 = {
 	name="Manwgan" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159080
 	610.1.1={
@@ -4213,7 +4213,7 @@
 159082 = {
 	name="Beli" # ap Eliudd
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159081
 	635.1.1={
@@ -4227,7 +4227,7 @@
 159083 = {
 	name="Gwylog" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159082
 	660.1.1={
@@ -4240,7 +4240,7 @@
 159084 = {
 	name="Elisedd" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159083
 	695.1.1={
@@ -4253,7 +4253,7 @@
 159085 = {
 	name="Brochfael" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159084
 	720.1.1={
@@ -4266,7 +4266,7 @@
 159086 = {
 	name="Cadell" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159084
 	750.1.1={
@@ -4279,7 +4279,7 @@
 159087 = {
 	name="Cyngen" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159086
 	770.1.1={
@@ -4293,7 +4293,7 @@
 	name="Nest" #
 	female=yes
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159086
 	790.1.1={
@@ -4309,7 +4309,7 @@
 159089 = {
 	name="Pasgen" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159077
 	490.1.1={
@@ -4322,7 +4322,7 @@
 159090 = {
 	name="Morgan" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159089
 	500.1.1={
@@ -4335,7 +4335,7 @@
 159091 = {
 	name="Aeddan" # ap Cyngen
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159087
 	790.1.1={
@@ -4349,7 +4349,7 @@
 159092 = {
 	name="Brochfael" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159091
 	820.1.1={
@@ -4363,7 +4363,7 @@
 159093 = {
 	name="Selyf" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159092
 	850.1.1={
@@ -4377,7 +4377,7 @@
 159094 = {
 	name="Aeddan" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159093
 	880.1.1={
@@ -4390,7 +4390,7 @@
 159095 = {
 	name="Brochfael" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159094
 	910.1.1={
@@ -4403,7 +4403,7 @@
 159096 = {
 	name="Selyf" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159095
 	945.1.1={
@@ -4416,7 +4416,7 @@
 159097 = {
 	name="Aeddan" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159096
 	975.1.1={
@@ -4455,7 +4455,7 @@
 159100 = {
 	name="Beli" #
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159096
 	980.1.1={
@@ -4553,7 +4553,7 @@
 159107 = {
 	name="Morgan" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159108
 	mother=159375
@@ -4571,7 +4571,7 @@
 159108 = {
 	name="Owain" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159109
 	850.1.1={
@@ -4588,7 +4588,7 @@
 159109 = {
 	name="Hywel" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159110
 	830.1.1={
@@ -4602,7 +4602,7 @@
 159110 = {
 	name="Rhys" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159111
 	785.1.1={
@@ -4616,7 +4616,7 @@
 159111 = {
 	name="Arthfael" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159112
 	780.1.1={
@@ -4630,7 +4630,7 @@
 159112 = {
 	name="Gwriad" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159113
 	750.1.1={
@@ -4644,7 +4644,7 @@
 159113 = {
 	name="Brochfael" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159114
 	730.1.1={
@@ -4658,7 +4658,7 @@
 159114 = {
 	name="Rhys" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159115
 	709.1.1={
@@ -4672,7 +4672,7 @@
 159115 = {
 	name="Ithel" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159116
 	675.1.1={
@@ -4686,7 +4686,7 @@
 159116 = {
 	name="Morgan" #
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159835
 	634.1.1={
@@ -4833,7 +4833,7 @@
 159297 = {
 	name="Ller Merini" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159035
 	505.1.1={
@@ -4846,7 +4846,7 @@
 159298 = {
 	name="Caradog" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159297
 	530.1.1={
@@ -4860,7 +4860,7 @@
 159299 = {
 	name="Cawrdaf" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159298
 	560.1.1={
@@ -4874,7 +4874,7 @@
 159300 = {
 	name="Caw" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159299
 	590.1.1={
@@ -4888,7 +4888,7 @@
 159301 = {
 	name="Gloyw" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159300
 	620.1.1={
@@ -4902,7 +4902,7 @@
 159302 = {
 	name="Hoyw" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159301
 	650.1.1={
@@ -4916,7 +4916,7 @@
 159303 = {
 	name="Cynfarch" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159302
 	680.1.1={
@@ -4930,7 +4930,7 @@
 159304 = {
 	name="Cyndegg" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159303
 	710.1.1={
@@ -4944,7 +4944,7 @@
 159305 = {
 	name="Teithwalch" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159304
 	750.1.1={
@@ -4958,7 +4958,7 @@
 159306 = {
 	name="Tegid" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159305
 	790.1.1={
@@ -4972,7 +4972,7 @@
 159307 = {
 	name="Anarawd" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159306
 	830.1.1={
@@ -4986,7 +4986,7 @@
 159308 = {
 	name="Gwenddy" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159307
 	860.1.1={
@@ -5000,7 +5000,7 @@
 159309 = {
 	name="Gwengy" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159308
 	900.1.1={
@@ -5014,7 +5014,7 @@
 159310 = {
 	name="Hwgan" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159309
 	930.1.1={
@@ -5028,7 +5028,7 @@
 159311 = {
 	name="Dryffryn" # 
 	dynasty=1047020 #Manceinion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159310
 	960.1.1={
@@ -5064,7 +5064,7 @@
 	name="Crusli" #
 	dynasty=101920 #Aberffraw
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81826
 	960.1.1={
@@ -5176,8 +5176,8 @@
 	diplomacy=3
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	trait="tough_soldier"
 	father=166444
 	804.1.1={
@@ -5191,7 +5191,7 @@
 159323 = {
 	name="Brychan"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159320
 	mother=159815
@@ -5208,7 +5208,7 @@
 159324 = {
 	name="Gwerthefyr"
 	dynasty=1029030 #Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159322
 	455.1.1={
@@ -5221,7 +5221,7 @@
 159325 = {
 	name="Rhain Dremrudd"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159323
 	mother=159932
@@ -5236,7 +5236,7 @@
 159326 = {
 	name="Rhigeneu"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159325
 	460.1.1={
@@ -5249,7 +5249,7 @@
 159327 = {
 	name="Llywarch"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159326
 	500.1.1={
@@ -5262,7 +5262,7 @@
 159328 = {
 	name="Idwallon"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159327
 	540.1.1={
@@ -5275,7 +5275,7 @@
 159329 = {
 	name="Rhiwallon"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159328
 	570.1.1={
@@ -5289,7 +5289,7 @@
 	name="Ceindrych"
 	female = yes
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159329
 	600.1.1={
@@ -5305,7 +5305,7 @@
 159340 = {
 	name="Cyngar"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159324
 	500.1.1={
@@ -5318,7 +5318,7 @@
 159341 = {
 	name="Pedr"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159340
 	530.1.1={
@@ -5331,7 +5331,7 @@
 159342 = {
 	name="Arthwr"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159341
 	550.1.1={
@@ -5344,7 +5344,7 @@
 159343 = {
 	name="Nowy" # I 
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159342
 	565.1.1={
@@ -5360,7 +5360,7 @@
 159344 = {
 	name="Gwlyddien" #Cloten
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159343
 	590.1.1={
@@ -5376,7 +5376,7 @@
 159345 = {
 	name="Cathen"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159344
 	mother=159330
@@ -5390,7 +5390,7 @@
 159346 = {
 	name="Cadwgan" # Tredylig
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159345
 	650.1.1={
@@ -5403,7 +5403,7 @@
 159347 = {
 	name="Rhain"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159346
 	670.1.1={
@@ -5416,7 +5416,7 @@
 159348 = {
 	name="Tewdos"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159347
 	700.1.1={
@@ -5429,7 +5429,7 @@
 159349 = {
 	name="Maredudd"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159348
 	730.1.1={
@@ -5442,7 +5442,7 @@
 159350 = {
 	name="Owain"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159349
 	760.1.1={
@@ -5456,7 +5456,7 @@
 	name="Tangwystyl"
 	female = yes
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159350
 	790.1.1={
@@ -5469,7 +5469,7 @@
 159352 = {
 	name="Bledrig"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159697
 	790.1.1={
@@ -5482,7 +5482,7 @@
 159353 = {
 	name="Hyfaidd"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159352
 	mother=159351
@@ -5496,7 +5496,7 @@
 159354 = {
 	name="Llywarch"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159353
 	850.1.1={
@@ -5510,7 +5510,7 @@
 	name="Elen"
 	female = yes
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159354
 	880.1.1={
@@ -5526,7 +5526,7 @@
 159356 = {
 	name="Rhain"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159349
 	755.1.1={
@@ -5539,7 +5539,7 @@
 159357 = {
 	name="Triffyn"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159356
 	770.1.1={
@@ -5552,7 +5552,7 @@
 159358 = {
 	name="Awst"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159346
 	680.1.1={
@@ -5565,7 +5565,7 @@
 159359 = {
 	name="Elwystyl"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159358
 	710.1.1={
@@ -5578,7 +5578,7 @@
 159360 = {
 	name="Tewdwr"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159347
 	701.1.1={
@@ -5591,7 +5591,7 @@
 159361 = {
 	name="Rhodri"
 	dynasty=1029030 # Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159353
 	851.1.1={
@@ -5604,7 +5604,7 @@
 159362 = {
 	name="Rhodri" #ap Hywel
 	dynasty=101919 #Dinefrw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81823 #Hywel Dda
 	mother=159355 #Elen of Dyfed
@@ -5618,7 +5618,7 @@
 159363 = {
 	name="Nowy"
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159360
 	721.1.1={
@@ -5631,7 +5631,7 @@
 159364 = {
 	name="Gruffydd" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159363
 	750.1.1={
@@ -5644,7 +5644,7 @@
 159365 = {
 	name="Tewdwr" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159364
 	780.1.1={
@@ -5657,7 +5657,7 @@
 159366 = {
 	name="Elisedd" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159365
 	810.1.1={
@@ -5671,7 +5671,7 @@
 159367 = {
 	name="Gruffydd" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159366
 	850.1.1={
@@ -5685,7 +5685,7 @@
 159368 = {
 	name="Tewdwr" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159367
 	870.1.1={
@@ -5698,7 +5698,7 @@
 159369 = {
 	name="Gwylog" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159368
 	900.1.1={
@@ -5711,7 +5711,7 @@
 159370 = {
 	name="Elisedd" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159369
 	930.1.1={
@@ -5724,7 +5724,7 @@
 159371 = {
 	name="Gruffydd" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159370
 	960.1.1={
@@ -5737,7 +5737,7 @@
 159372 = {
 	name="Selyf" 
 	dynasty=200068
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159371
 	980.1.1={
@@ -5782,7 +5782,7 @@
 	name="Elen" #ferch Rhodri Mawr
 	female = yes
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	855.1.1={
@@ -5831,7 +5831,7 @@
 }
 159424 = {
 	name="Caradog"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=545 #Caradoc
 	240.1.1={
@@ -5843,7 +5843,7 @@
 }
 159425 = {
 	name="Meurig"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=545 #Caradoc
 	father=159424
@@ -5856,7 +5856,7 @@
 }
 159426 = {
 	name="Dynod"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=545 #Caradoc
 	father=159424
@@ -5870,7 +5870,7 @@
 159427 = {
 	name="Ursula"
 	female = yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=545 #Caradoc
 	father=159426
@@ -5883,7 +5883,7 @@
 }
 159428 = {
 	name="Einudd"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029001 #Prydain
 	221.1.1={
@@ -5895,7 +5895,7 @@
 }
 159429 = {
 	name="Eudaf" #Hen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029001 #Prydain
 	father=159428
@@ -5909,7 +5909,7 @@
 159430 = {
 	name="Elen"
 	female = yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029001 #Prydain
 	father=159429
@@ -5925,7 +5925,7 @@
 }
 159431 = {
 	name="Cynan Meiriadog"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159472
@@ -5938,7 +5938,7 @@
 }
 159432 = {
 	name="Cadfan"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159431
@@ -5952,7 +5952,7 @@
 }
 159472 = {
 	name="Geraint" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029001 #Prydain
 	father=159428
@@ -5965,7 +5965,7 @@
 }
 159435 = {
 	name="Gwrfawr"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159432
@@ -5978,7 +5978,7 @@
 }
 159436 = {
 	name="Tudwal"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159435
@@ -5995,7 +5995,7 @@
 
 159437 = {
 	name="Cynfawr"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159436
@@ -6010,7 +6010,7 @@
 
 159438 = {
 	name="Custennin" #Constantine of Cornwall
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159437
@@ -6023,7 +6023,7 @@
 }
 159439 = {
 	name="Erbin" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159438
@@ -6036,7 +6036,7 @@
 }
 159440 = {
 	name="Geraint" #Llyngesic
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159439
@@ -6052,7 +6052,7 @@
 }
 159441 = {
 	name="Cadwy" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159440
@@ -6066,7 +6066,7 @@
 }
 159442 = {
 	name="Custennin" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159441
@@ -6081,7 +6081,7 @@
 }
 159443 = {
 	name="Geraint" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159442
@@ -6099,7 +6099,7 @@
 }
 159444 = {
 	name="Bledrig" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159442
@@ -6119,7 +6119,7 @@
 159751 = {
 	name="Newlyna" 
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159442
@@ -6137,7 +6137,7 @@
 }
 159752 = {
 	name="Dywel" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159442
@@ -6156,7 +6156,7 @@
 159753 = {
 	name="Enid"
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=0 #
 	453.1.1={
@@ -6168,7 +6168,7 @@
 }
 159754 = {
 	name="Ermind" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159439
@@ -6181,7 +6181,7 @@
 }
 159755 = {
 	name="Dywel" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159439
@@ -6194,7 +6194,7 @@
 }
 159697 = {
 	name="Iudon"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029030 # Dyfed
 	father=159349
@@ -6209,7 +6209,7 @@
 159807 = {
 	name="Macsen" # Wledig
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	339.1.1={
 		birth="339.1.1"
@@ -6225,7 +6225,7 @@
 	name="Severa" # 
 	female = yes
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159807
 	mother=159430
@@ -6243,7 +6243,7 @@
 	name="Gratianna" # 
 	female = yes
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159807
 	mother=159430
@@ -6261,7 +6261,7 @@
 159808 = {
 	name="Annwn Dynod" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159807
 	mother=159430
@@ -6275,7 +6275,7 @@
 159813 = {
 	name="Tudwal" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159808
 	361.1.1={
@@ -6288,7 +6288,7 @@
 159814 = {
 	name="Tewdrig" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159813
 	377.1.1={
@@ -6302,7 +6302,7 @@
 	name="Marchell" # 
 	female = yes
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159814
 	393.1.1={
@@ -6318,7 +6318,7 @@
 159816 = {
 	name="Ednyfed" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159808
 	373.1.1={
@@ -6331,7 +6331,7 @@
 159817 = {
 	name="Gloitguin" # 
 	dynasty=1029134 #Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159816
 	389.1.1={
@@ -6344,7 +6344,7 @@
 159818 = {
 	name="Clotri" # 
 	dynasty=1029134 #Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159817
 	405.1.1={
@@ -6357,7 +6357,7 @@
 159819 = {
 	name="Maelgwn" # 
 	dynasty=1029134 #Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159818
 	422.1.1={
@@ -6371,7 +6371,7 @@
 	name="Gwledyr" # 
 	female = yes
 	dynasty=1029134 #Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159818
 	421.1.1={
@@ -6384,7 +6384,7 @@
 159821 = {
 	name="Dyfnwal" # Donald
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159816
 	388.1.1={
@@ -6397,7 +6397,7 @@
 159822 = {
 	name="Ynyr" # Honorius
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159821
 	430.1.1={
@@ -6413,7 +6413,7 @@
 159823 = {
 	name="Caradog" # Freichfras
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159822
 	mother=159837
@@ -6430,7 +6430,7 @@
 159824 = {
 	name="Meurig" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159823
 	mother=159960
@@ -6447,7 +6447,7 @@
 159825 = {
 	name="Erbic" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159824
 	mother=159829
@@ -6461,7 +6461,7 @@
 159809 = {
 	name="Owain" # 
 	dynasty=1029130 #Cernyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159807
 	357.1.1={
@@ -6474,7 +6474,7 @@
 159826 = {
 	name="Mor" # 
 	dynasty=1029130 #Cernyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159809
 	378.1.1={
@@ -6487,7 +6487,7 @@
 159827 = {
 	name="Solor" # 
 	dynasty=1029130 #Cernyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159826
 	398.1.1={
@@ -6500,7 +6500,7 @@
 159828 = {
 	name="Glywys" # 
 	dynasty=1029130 #Cernyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159827
 	435.1.1={
@@ -6514,7 +6514,7 @@
 	name="Dyfwn" # 
 	female = yes
 	dynasty=1029130 #Cernyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159828
 	486.1.1={
@@ -6530,7 +6530,7 @@
 159830 = {
 	name="Erb" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159825
 	524.1.1={
@@ -6543,7 +6543,7 @@
 159831 = {
 	name="Nynniaw" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159830
 	540.1.1={
@@ -6556,7 +6556,7 @@
 159832 = {
 	name="Tewdrig" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159834
 	576.1.1={
@@ -6570,7 +6570,7 @@
 159833 = {
 	name="Meurig" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159832
 	596.1.1={
@@ -6586,7 +6586,7 @@
 159834 = {
 	name="Llywarch" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159831
 	560.1.1={
@@ -6599,7 +6599,7 @@
 159835 = {
 	name="Arthwys" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159833
 	mother=159964
@@ -6613,7 +6613,7 @@
 159836 = {
 	name="Gwerthefyr" # Vortimer
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159056
 	mother=159810
@@ -6629,7 +6629,7 @@
 	name="Madrun" #
 	female = yes
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159836
 	430.1.1={
@@ -6648,7 +6648,7 @@
 159812 = {
 	name="Custennin" # 
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159807
 	mother=159430
@@ -6663,7 +6663,7 @@
 159932 = {
 	name="Prawst"
 	female = yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159436
@@ -6683,7 +6683,7 @@
 	name="Celeinion" # 
 	female = yes
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159934
 	685.1.1={
@@ -6699,7 +6699,7 @@
 159934 = {
 	name="Tudwal" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159943
 	654.1.1={
@@ -6712,7 +6712,7 @@
 159935 = {
 	name="Dingad" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159813
 	401.1.1={
@@ -6725,7 +6725,7 @@
 159936 = {
 	name="Senyllt" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159935
 	441.1.1={
@@ -6738,7 +6738,7 @@
 159937 = {
 	name="Neithon" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159936
 	480.1.1={
@@ -6751,7 +6751,7 @@
 159938 = {
 	name="Rhun" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159937
 	512.1.1={
@@ -6764,7 +6764,7 @@
 159939 = {
 	name="Tudwal" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159938
 	537.1.1={
@@ -6777,7 +6777,7 @@
 159940 = {
 	name="Anllech" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159939
 	562.1.1={
@@ -6790,7 +6790,7 @@
 159941 = {
 	name="Cynin" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159940
 	587.1.1={
@@ -6803,7 +6803,7 @@
 159942 = {
 	name="Merfyn" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159941
 	610.1.1={
@@ -6816,7 +6816,7 @@
 159943 = {
 	name="Anarawd" # 
 	dynasty=1029131 #Manaw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159942
 	632.1.1={
@@ -6829,7 +6829,7 @@
 159944 = {
 	name="Gloyw" # 
 	dynasty=1029132 #Caerloyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	270.1.1={
 		birth="270.1.1"
@@ -6841,7 +6841,7 @@
 159945 = {
 	name="Gwydolin" # 
 	dynasty=1029132 #Caerloyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159944
 	305.1.1={
@@ -6854,7 +6854,7 @@
 159946 = {
 	name="Gwydol" # 
 	dynasty=1029132 #Caerloyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159945
 	321.1.1={
@@ -6867,7 +6867,7 @@
 159947 = {
 	name="Pasgen" # 
 	dynasty=1029132 #Caerloyw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159946
 	340.1.1={
@@ -6880,7 +6880,7 @@
 159948 = {
 	name="Cadeyrn" # 
 	dynasty=1029133 #Powys
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159947
 	360.1.1={
@@ -6893,7 +6893,7 @@
 159949 = {
 	name="Brydw" # 
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159056
 	mother=159810
@@ -6908,7 +6908,7 @@
 	name="Annan" #
 	female=yes
 	dynasty=1029003 # Gwerthrynion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159949
 	430.1.1={
@@ -6922,7 +6922,7 @@
 159951 = {
 	name="Ystradwel"
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	dynasty=1029040 #Dyfnaint
 	father=159432
@@ -6940,7 +6940,7 @@
 159952 = {
 	name="Cynfarch" #Oer
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159035 # Meirchion Gul
 	460.1.1={
@@ -6956,7 +6956,7 @@
 159953 = {
 	name="Urien" 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159952 # Cynfarch
 	mother=159957
@@ -6970,7 +6970,7 @@
 159954 = {
 	name="Rhun" 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159953 # Urien
 	530.1.1={
@@ -6983,7 +6983,7 @@
 159955 = {
 	name="Rhoedd" 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159954 # Urien
 	580.1.1={
@@ -6997,7 +6997,7 @@
 159956 = {
 	name="Brychan"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159323
 	mother=159932
@@ -7012,7 +7012,7 @@
 	name="Nyfain"
 	female=yes
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159956
 	460.1.1={
@@ -7028,7 +7028,7 @@
 159958 = {
 	name="Owain" 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159953 # Urien
 	510.1.1={
@@ -7041,7 +7041,7 @@
 159959 = {
 	name="Elffin" 
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159958 # Owain
 	540.1.1={
@@ -7055,7 +7055,7 @@
 	name="Nyfain" 
 	female=yes
 	dynasty=1029000 #Rheged
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159952 # Cynfarch
 	mother=159957
@@ -7073,7 +7073,7 @@
 159961 = {
 	name="Pebiau" # Clafrog
 	dynasty=20037 #Ergyng
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159830
 	545.1.1={
@@ -7086,7 +7086,7 @@
 159962 = {
 	name="Cynfyn" # 
 	dynasty=20037 #Ergyng
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159961
 	566.1.1={
@@ -7099,7 +7099,7 @@
 159963 = {
 	name="Gwrgant" # 
 	dynasty=20037 #Ergyng
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159962
 	586.1.1={
@@ -7113,7 +7113,7 @@
 	name="Onbrawst" # 
 	female=yes
 	dynasty=20037 #Ergyng
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159963
 	603.1.1={
@@ -7129,7 +7129,7 @@
 159322 = {
 	name="Aergul" #Aircol
 	dynasty=1029030 #Dyfed
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159321
 	mother=159820
@@ -7144,7 +7144,7 @@
 159791 = {
 	name="Ceredig" # ap Cunedda
 	dynasty=14250 # Ceredigion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159010
 	mother=159039
@@ -7158,7 +7158,7 @@
 159792 = {
 	name="Usai" # ap Ceredig
 	dynasty=14250 # Ceredigion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159791
 	420.1.1={
@@ -7171,7 +7171,7 @@
 159793 = {
 	name="Serwyl" # ab Usai
 	dynasty=14250 # Ceredigion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159792
 	450.1.1={
@@ -7184,7 +7184,7 @@
 159794 = {
 	name="Boddw" # ap Serwyl
 	dynasty=14250 # Ceredigion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159793
 	480.1.1={
@@ -7197,7 +7197,7 @@
 159795 = {
 	name="Arthfoddw" # ap Bodw
 	dynasty=14250 # Ceredigion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159794
 	520.1.1={
@@ -7210,7 +7210,7 @@
 159796 = {
 	name="Arthlwys" # ab Arthfoddw
 	dynasty=14250 # Ceredigion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159795
 	550.1.1={
@@ -7223,7 +7223,7 @@
 159797 = {
 	name="Clydog" # ab Arthlwys
 	dynasty=14250 # Ceredigion
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159796
 	590.1.1={
@@ -7236,7 +7236,7 @@
 159798 = {
 	name="Seisyll" # ap Clydog
 	dynasty=14255 # Seisyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159797
 	660.1.1={
@@ -7249,7 +7249,7 @@
 159799 = {
 	name="Arthwyr" # ap Seisyll
 	dynasty=14255 # Seisyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159798
 	690.1.1={
@@ -7262,7 +7262,7 @@
 159800 = {
 	name="Meurig" # ap Dyfnwal
 	dynasty=14255 # Seisyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159806
 	780.1.1={
@@ -7275,7 +7275,7 @@
 159801 = {
 	name="Gwgan" # ap Meurig
 	dynasty=14255 # Seisyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159800
 	825.1.1={
@@ -7290,7 +7290,7 @@
 	name="Angharad" # ferch Meurig
 	female = yes
 	dynasty=14255 # Seisyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159800
 	822.1.1={
@@ -7308,7 +7308,7 @@
 	name="Nest" # ferch Rhodri
 	female = yes
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	mother=159802
@@ -7322,7 +7322,7 @@
 159804 = {
 	name="Tudwal" # ap Rhodri
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	mother=159802
@@ -7336,7 +7336,7 @@
 159805 = {
 	name="Merfyn" # ap Rhodri
 	dynasty=101920 #Aberffraw
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	mother=159802
@@ -7351,7 +7351,7 @@
 159806 = {
 	name="Dyfnwal" # ab Arthwyr
 	dynasty=14255 # Seisyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159799
 	740.1.1={
@@ -7365,7 +7365,7 @@
 160038 = {
 	name="Owain" # ap Einion
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159011
 	455.1.1={
@@ -7378,7 +7378,7 @@
 160039 = {
 	name="Cynlas" # Goch
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160038
 	480.1.1={
@@ -7391,7 +7391,7 @@
 160040 = {
 	name="Einion" #ap Cynlas
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160039
 	500.1.1={
@@ -7405,7 +7405,7 @@
 160041 = {
 	name="Cadwal" 
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160040
 	535.1.1={
@@ -7418,7 +7418,7 @@
 160042 = {
 	name="lfdyfwn" 
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160041
 	570.1.1={
@@ -7431,7 +7431,7 @@
 160043 = {
 	name="Einion" 
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160042
 	600.1.1={
@@ -7444,7 +7444,7 @@
 160044 = {
 	name="Rhufon" 
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160043
 	630.1.1={
@@ -7457,7 +7457,7 @@
 160045 = {
 	name="Hywel" 
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160044
 	660.1.1={
@@ -7470,7 +7470,7 @@
 160046 = {
 	name="Meirchion" 
 	dynasty=14284 # Rhos
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160045
 	690.1.1={
@@ -7484,7 +7484,7 @@
 	name="Rimo" # ferch Maelgwn
 	dynasty=100064 #Gwynedd
 	female = yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159013 # 
 	502.1.1={
@@ -7507,7 +7507,7 @@
 	diplomacy=4
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=166436
 	957.1.1={
@@ -7526,7 +7526,7 @@
 	diplomacy=2
 	intrigue=8
 	stewardship=2
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=166437
 	940.1.1={
@@ -7545,7 +7545,7 @@
 	diplomacy=2
 	intrigue=8
 	stewardship=2
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=166438
 	919.1.1={
@@ -7564,7 +7564,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=166439
 	895.1.1={
@@ -7583,7 +7583,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=166440
 	878.1.1={
@@ -7602,7 +7602,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=3
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=166441
 	861.1.1={
@@ -7624,8 +7624,8 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166442
 	mother=166443
 	844.1.1={
@@ -7644,8 +7644,8 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=6
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166445
 	785.1.1={
 		birth="785.1.1"
@@ -7663,8 +7663,8 @@
 	diplomacy=4
 	intrigue=2
 	stewardship=5
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166446
 	768.1.1={
 		birth="768.1.1"
@@ -7682,8 +7682,8 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166448
 	728.1.1={
 		birth="728.1.1"
@@ -7701,8 +7701,8 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166449
 	704.1.1={
 		birth="704.1.1"
@@ -7720,8 +7720,8 @@
 	diplomacy=4
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166451
 	678.1.1={
 		birth="678.1.1"
@@ -7739,8 +7739,8 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166453
 	640.1.1={
 		birth="640.1.1"
@@ -7758,8 +7758,8 @@
 	diplomacy=4
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166453
 	638.1.1={
 		birth="638.1.1"
@@ -7777,8 +7777,8 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166453
 	635.1.1={
 		birth="635.1.1"
@@ -7796,8 +7796,8 @@
 	diplomacy=4
 	intrigue=2
 	stewardship=5
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166455
 	593.1.1={
 		birth="593.1.1"
@@ -7815,8 +7815,8 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166460
 	555.1.1={
 		birth="555.1.1"
@@ -7834,8 +7834,8 @@
 	diplomacy=8
 	intrigue=2
 	stewardship=6
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166457
 	568.1.1={
 		birth="568.1.1"
@@ -7854,8 +7854,8 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonicic"
 	father=166458
 	529.1.1={
 		birth="529.1.1"
@@ -7874,8 +7874,8 @@
 	diplomacy=3
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166459
 	492.1.1={
 		birth="492.1.1"
@@ -7893,8 +7893,8 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166461
 	464.1.1={
 		birth="464.1.1"
@@ -7912,8 +7912,8 @@
 	diplomacy=3
 	intrigue=5
 	stewardship=3
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166461
 	506.1.1={
 		birth="506.1.1"
@@ -7931,8 +7931,8 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166462
 	440.1.1={
 		birth="440.1.1"
@@ -7951,8 +7951,8 @@
 	diplomacy=3
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166463
 	422.1.1={
 		birth="422.1.1"
@@ -7970,8 +7970,8 @@
 	diplomacy=3
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	trait="tough_soldier"
 	father=166464
 	400.1.1={
@@ -7986,8 +7986,8 @@
 	name="Cynloyp"
 	# AKA: Cynloyp map Cinhil
 	dynasty=816
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166465
 	383.1.1={
 		birth="383.1.1"
@@ -8001,8 +8001,8 @@
 	name="Cinhil"
 	# AKA: Cinhil map Cluim
 	dynasty=816
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166466
 	360.1.1={
 		birth="360.1.1"
@@ -8016,8 +8016,8 @@
 	name="Cluim"
 	# AKA: Cluim
 	dynasty=816
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	333.1.1={
 		birth="333.1.1"
 	}
@@ -8046,7 +8046,7 @@
 184120 = {
 	name="Idnerth"
 	dynasty=1047018 #Ternyllwg
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184119
 	mother=184135
@@ -8063,7 +8063,7 @@
 184121 = {
 	name="Cadwr"
 	dynasty=200067 #Maelienydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184120
 	800.1.1={
@@ -8076,7 +8076,7 @@
 184122 = {
 	name="Cadwr"
 	dynasty=200067 #Maelienydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184121
 	830.1.1={
@@ -8089,7 +8089,7 @@
 184123 = {
 	name="Seferus"
 	dynasty=200067 #Maelienydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184122
 	860.1.1={
@@ -8102,7 +8102,7 @@
 184124 = {
 	name="Ifor"
 	dynasty=200067 #Maelienydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184123
 	890.1.1={
@@ -8115,7 +8115,7 @@
 184125 = {
 	name="Cuhelyn"
 	dynasty=200067 #Maelienydd
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184123
 	920.1.1={
@@ -8129,7 +8129,7 @@
 	name="Cadwgon" #ap Elystan
 	dynasty=200067 #Maelienydd
 	father=131701
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	1000.1.1={
 		birth="1000.1.1"
@@ -8184,7 +8184,7 @@
 184130 = {
 	name="Maredudd"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	trait=bastard
 	father=159328 #Idwallon
@@ -8198,7 +8198,7 @@
 184131 = {
 	name="Cynan"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184130
 	610.1.1={
@@ -8211,7 +8211,7 @@
 184132 = {
 	name="Maelgwn"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184131
 	640.1.1={
@@ -8224,7 +8224,7 @@
 184133 = {
 	name="Idwal"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184132
 	670.1.1={
@@ -8237,7 +8237,7 @@
 184134 = {
 	name="Brychan"
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184133
 	710.1.1={
@@ -8251,7 +8251,7 @@
 	name="Arianwen"
 	dynasty=1029032 #1st Brycheiniog
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184134
 	740.1.1={
@@ -8331,7 +8331,7 @@
 184089 = {
 	name="Merfyn" #ap Rhodri
 	dynasty=101920 #Aberffraw for tree appearance
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	865.1.1={
@@ -8344,7 +8344,7 @@
 184090 = {
 	name="Llywelyn"
 	dynasty=101920 #Aberffraw for tree appearance
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184089
 	890.1.1={
@@ -9090,7 +9090,7 @@
 160255 = {
 	name="Arthfael" # ap Hywel
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159109
 	849.1.1={
@@ -9103,7 +9103,7 @@
 160256 = {
 	name="Rhys" # ap Hywel
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159109
 	851.1.1={
@@ -9116,7 +9116,7 @@
 160257 = {
 	name="Arthfael" # ap Rhys
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159110
 	835.1.1={
@@ -9129,7 +9129,7 @@
 160258 = {
 	name="Meurig" # ap Arthfael
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159111
 	781.1.1={
@@ -9142,7 +9142,7 @@
 160259 = {
 	name="Brochfael" # ap Meurig
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160258
 	835.1.1={
@@ -9155,7 +9155,7 @@
 160260 = {
 	name="Ffernfael" # ap Meurig
 	dynasty=547 # Morgan
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=160258
 	837.1.1={
@@ -9173,8 +9173,8 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=163104
 	827.1.1={
 		birth="827.1.1"
@@ -9195,8 +9195,8 @@
 	diplomacy=3
 	intrigue=5
 	stewardship=2
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166447
 	750.1.1={
 		birth="750.1.1"
@@ -9214,8 +9214,8 @@
 	diplomacy=6
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
-	culture="briton"
+	religion="catholic"
+	culture="britonic"
 	father=166454
 	611.1.1={
 		birth="611.1.1"
@@ -9228,7 +9228,7 @@
 	name="Hywel" # ap Caradog
 	dynasty=14284 #Rhos
 	father=160046
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	750.1.1={
 		birth="750.1.1"
@@ -9241,7 +9241,7 @@
 	name="Angharad" # 
 	female = yes
 	dynasty=1029129 #Gwent
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=159831
 	561.1.1={
@@ -9255,7 +9255,7 @@
 	name="Ceindrych"
 	female = yes
 	dynasty=1029032 #1st Brycheiniog
-	religion="chalcendonian"
+	religion="catholic"
 	culture="welsh"
 	father=184130
 	611.1.1={

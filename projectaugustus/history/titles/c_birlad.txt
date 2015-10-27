@@ -1,26 +1,17 @@
-470.1.1 = {
-	holder = 2001010089 
+337.1.1={
+	de_jure_liege="d_wallachia"
 }
-610.1.1 = {
-	holder = 1000250006
-	liege = e_avaria
-}
-
-634.1.1 = {
-	holder = 1000255101
-}
-659.1.1 = {
-	holder = 1000255102
+632.1.1={
+	liege="d_moldau"
+	holder=159117
 }
 665.1.1={
-	liege="d_moldau"
 	holder=159127
 }
-
 680.1.1={
+    liege="k_bulgaria"
 	holder=159118
 }
-
 700.1.1={
 	holder=159120
 }
@@ -71,7 +62,7 @@
 }
 1171.1.1=
 {
-	liege="d_moldau"
+	liege="d_wallachia"
 	holder=34826
 }
 1187.1.1=
@@ -107,4 +98,3 @@
 	liege="d_wallachia"
 	holder=475550
 }
-

@@ -1,6 +1,3 @@
-600.1.1 = {
-	holder = 91010186
-}
 760.1.1 = {
 	holder = 160057
 	liege = d_novgorod

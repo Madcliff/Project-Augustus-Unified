@@ -17,11 +17,10 @@ b_taman = temple
 #b_tsemes = castle
 #b_bata = city
 
-culture = hunnic
+culture = khazar
 religion = tengri_pagan
 
 # History
-700.1.1 = { culture = khazar }
 1015.1.1 = { culture = russian }
 1015.1.1 = { religion = orthodox }
 1015.1.1 = { b_tmutarakan = castle }

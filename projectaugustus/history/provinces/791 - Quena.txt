@@ -11,6 +11,7 @@ b_qus = temple
 b_qift = city
 
 #b_abughusun = castle
+#b_safaga = castle
 #b_ummrus = castle
 
 # Misc

@@ -17,15 +17,12 @@ b_kazanlak = castle
 #b_maglizh = castle
 
 # Misc
-culture = thracian
+culture = bolghar
 religion = orthodox
 
 # History
-100.1.1 = {
-	b_irinopolis = ct_jewish_community_1
-}
 
-681.1.1= { religion = tengri_pagan culture = bolghar } 
+681.1.1= { religion = tengri_pagan } 
 820.1.1 = { culture = bulgarian }
 865.1.1= { religion = orthodox } 
 

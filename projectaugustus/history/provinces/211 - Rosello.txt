@@ -15,7 +15,7 @@ b_cotlliure = city
 #b_ceret = city
 
 #Misc
-culture = iberian
+culture = hispanic
 religion = catholic
 
 # History

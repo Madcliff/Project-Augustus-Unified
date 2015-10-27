@@ -19,10 +19,6 @@ b_pinerolo = temple
 culture = lombard
 religion = catholic
 
-700.1.1 = { 
-culture = lombard
-religion = catholic
-}
 # History
 829.1.1 = { culture = old_italian }
 920.1.1 = { culture = italian }

@@ -1,5 +1,5 @@
 270.1.1={
-	liege="d_derbent"
+	liege = "d_shirvan"
 	holder=159580
 }
 300.1.1={
@@ -38,15 +38,9 @@
 600.1.1={
 	holder=159618
 }
-632.1.1 = { 
-	holder=1000257410 
-	liege = d_alania
-}
-
 635.1.1=
 {
 	holder=160036
-	liege=d_alania
 }
 636.1.1={
 	holder=159619
@@ -67,13 +61,11 @@
 740.1.1={
 	holder=159629
 }
-750.1.1={
+770.1.1={
 	holder=159630
-	liege=k_armenia
 }
 821.1.1={
 	holder=159631
-	liege=0
 }
 821.9.1=
 {
@@ -87,7 +79,7 @@
 }
 860.1.1=
 {
-liege="d_derbent"
+liege="d_shirvan"
 }
 860.1.1=
 {
@@ -175,19 +167,12 @@ holder=93029
 }
 1225.1.1={
 	holder=144571
-	liege="e_mongol_empire"
-}
-1227.12.2={
-	liege="e_golden_horde"
 }
 1243.1.1={
 	holder=144572
 }
 1260.1.1={
 	holder=144573
-}
-1278.1.1={
-	liege="e_il-khanate"
 }
 1282.1.1={
 	holder=146118

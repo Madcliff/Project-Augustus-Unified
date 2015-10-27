@@ -1,8 +1,8 @@
 namespace = PA
 
 character_event = {
-	id = PA.1000220
-	desc = EVTDESCPA.1000220
+	id = PA.10220
+	desc = EVTDESCPA.10220
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -15,16 +15,16 @@ character_event = {
                 NOT = { has_character_flag = great_pantheon }
         }
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                set_global_flag = great_pantheon
                clr_global_flag = no_great_pantheon
                b_roma = { add_building = tp_great_pantheon }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = great_pantheon
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -33,8 +33,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000221
-	desc = EVTDESCPA.1000221
+	id = PA.10221
+	desc = EVTDESCPA.10221
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -47,16 +47,16 @@ character_event = {
                 NOT = { has_character_flag = ignored_st_peters }
         }
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = great_pantheon
                set_global_flag = no_great_pantheon
                b_roma = { add_building = tp_stpeters }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_st_peters
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -65,8 +65,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000222
-	desc = EVTDESCPA.1000222
+	id = PA.10222
+	desc = EVTDESCPA.10222
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -81,16 +81,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                set_global_flag = temple_of_hecate
                clr_global_flag = no_temple_of_hecate
                b_hagiasophia = { add_building = tp_temple_of_hecate }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = temple_of_hecate
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -99,8 +99,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000223
-	desc = EVTDESCPA.1000223
+	id = PA.10223
+	desc = EVTDESCPA.10223
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -115,16 +115,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = temple_of_hecate
                set_global_flag = no_temple_of_hecate
                b_hagiasophia = { add_building = tp_hagiasophia }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_hagia_sophia
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -133,8 +133,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000224
-	desc = EVTDESCPA.1000224
+	id = PA.10224
+	desc = EVTDESCPA.10224
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -149,16 +149,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                set_global_flag = sacred_colossi
                clr_global_flag = no_sacred_colossi
                b_antiocheia = { add_building = tp_sacred_colossi }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = sacred_colossi
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -167,8 +167,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000225
-	desc = EVTDESCPA.1000225
+	id = PA.10225
+	desc = EVTDESCPA.10225
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -183,16 +183,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = sacred_colossi
                set_global_flag = no_sacred_colossi
                b_antiocheia = { add_building = tp_antiochchurch }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_antiochchurch
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -201,8 +201,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000226
-	desc = EVTDESCPA.1000226
+	id = PA.10226
+	desc = EVTDESCPA.10226
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -217,16 +217,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                set_global_flag = temple_of_jupiter
                clr_global_flag = no_temple_of_jupiter
                b_jerusalem = { add_building = tp_temple_of_jupiter }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = temple_of_jupiter
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -235,8 +235,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000227
-	desc = EVTDESCPA.1000227
+	id = PA.10227
+	desc = EVTDESCPA.10227
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -251,16 +251,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = temple_of_jupiter
                set_global_flag = no_temple_of_jupiter
                b_jerusalem = { add_building = tp_holysepulchre }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_holysepulchre
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -269,8 +269,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000228
-	desc = EVTDESCPA.1000228
+	id = PA.10228
+	desc = EVTDESCPA.10228
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -285,15 +285,15 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                set_global_flag = pharos_lighthouse
                b_alexandria = { add_building = tp_pharos_lighthouse }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = pharos_lighthouse
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -302,8 +302,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000229
-	desc = EVTDESCPA.1000229
+	id = PA.10229
+	desc = EVTDESCPA.10229
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -318,15 +318,15 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_alexandria = { add_building = tp_stmarks2 }
                set_global_flag = reopened_st_marks
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_st_marks
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -335,8 +335,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000230
-	desc = EVTDESCPA.1000230
+	id = PA.10230
+	desc = EVTDESCPA.10230
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -352,15 +352,15 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_alexandria = { remove_building = tp_stmarks2 }
                set_global_flag = closed_st_marks
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_stmarks
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -369,8 +369,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000231
-	desc = EVTDESCPA.1000231
+	id = PA.10231
+	desc = EVTDESCPA.10231
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -385,16 +385,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_alexandria = { add_building = tp_stmarks2 }
                clr_global_flag = closed_st_marks
                set_global_flag = reopened_st_marks
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_st_marks
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -403,8 +403,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000232
-	desc = EVTDESCPA.1000232
+	id = PA.10232
+	desc = EVTDESCPA.10232
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -421,15 +421,15 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                set_global_flag = great_pantheon
                b_roma = { add_building = great_pantheon }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = great_pantheon
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -438,8 +438,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000233
-	desc = EVTDESCPA.1000233
+	id = PA.10233
+	desc = EVTDESCPA.10233
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -456,15 +456,15 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = great_pantheon
                b_roma = { add_building = tp_stpeters2 }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_st_peters
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -473,8 +473,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000234
-	desc = EVTDESCPA.1000234
+	id = PA.10234
+	desc = EVTDESCPA.10234
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -490,16 +490,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                set_global_flag = great_pantheon
                clr_global_flag = no_great_pantheon
                b_roma = { add_building = great_pantheon }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = great_pantheon
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -508,8 +508,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000235
-	desc = EVTDESCPA.1000235
+	id = PA.10235
+	desc = EVTDESCPA.10235
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -525,16 +525,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = great_pantheon
                set_global_flag = no_great_pantheon
                b_roma = { add_building = tp_stpeters2 }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_st_peters
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -543,8 +543,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000236
-	desc = EVTDESCPA.1000236
+	id = PA.10236
+	desc = EVTDESCPA.10236
 	picture = GFX_evt_crusaders
 
 
@@ -561,16 +561,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                set_global_flag = great_pantheon
                clr_global_flag = no_great_pantheon
                b_roma = { add_building = great_pantheon }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = great_pantheon
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -579,8 +579,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000237
-	desc = EVTDESCPA.1000237
+	id = PA.10237
+	desc = EVTDESCPA.10237
 	picture = GFX_evt_crusaders
 
 
@@ -597,16 +597,16 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = great_pantheon
                set_global_flag = no_great_pantheon
                b_roma = { add_building = tp_stpeters3 }
                wealth = -1000
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_st_peters
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -615,8 +615,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000238
-	desc = EVTDESCPA.1000238
+	id = PA.10238
+	desc = EVTDESCPA.10238
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -632,14 +632,14 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = great_pantheon
                set_global_flag = no_great_pantheon
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_pagan_rome
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -648,8 +648,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000239
-	desc = EVTDESCPA.1000239
+	id = PA.10239
+	desc = EVTDESCPA.10239
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -665,14 +665,14 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = temple_of_hecate
                set_global_flag = no_temple_of_hecate
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_pagan_constantinople
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -681,8 +681,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000240
-	desc = EVTDESCPA.1000240
+	id = PA.10240
+	desc = EVTDESCPA.10240
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -698,14 +698,14 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = sacred_colossi
                set_global_flag = no_sacred_colossi
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_pagan_antioch
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -714,8 +714,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000241
-	desc = EVTDESCPA.1000241
+	id = PA.10241
+	desc = EVTDESCPA.10241
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -731,14 +731,14 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                clr_global_flag = temple_of_jupiter
                set_global_flag = no_temple_of_jupiter
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_pagan_jerusalem
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -747,8 +747,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000242
-	desc = EVTDESCPA.1000242
+	id = PA.10242
+	desc = EVTDESCPA.10242
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -763,13 +763,13 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_mecca = { remove_building = tp_grand_mosque }
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_grand_mosque
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -778,8 +778,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000243
-	desc = EVTDESCPA.1000243
+	id = PA.10243
+	desc = EVTDESCPA.10243
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -794,13 +794,13 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_medina = { remove_building = tp_prophetsmosque }
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_prophetsmosque
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -809,8 +809,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000244
-	desc = EVTDESCPA.1000244
+	id = PA.10244
+	desc = EVTDESCPA.10244
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -826,15 +826,15 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_paderborn = { remove_building = tp_irminsul }
                set_global_flag = irminsul
 
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = irminsul
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -843,8 +843,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000245
-	desc = EVTDESCPA.1000245
+	id = PA.10245
+	desc = EVTDESCPA.10245
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -860,14 +860,14 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_paderborn = { remove_building = tp_irminsul2 }
 
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = irminsul2
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -876,8 +876,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000246
-	desc = EVTDESCPA.1000246
+	id = PA.10246
+	desc = EVTDESCPA.10246
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -892,14 +892,14 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_jerusalem = { remove_building = tp_third_temple }
 	       clr_global_flag = third_temple_built
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_third_temple
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -908,8 +908,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000247
-	desc = EVTDESCPA.1000247
+	id = PA.10247
+	desc = EVTDESCPA.10247
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -926,15 +926,15 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_etchmiadzin = { remove_building = tp_etchmiadzin }
                clr_global_flag = etchmiadzin
 
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_etchmiadzin
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }
@@ -943,8 +943,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000254
-	desc = EVTDESCPA.1000254
+	id = PA.10254
+	desc = EVTDESCPA.10254
 	picture = GFX_evt_crusaders
 
         trigger = {
@@ -959,15 +959,15 @@ character_event = {
 		days = 1
 	}
 
-        option = { name = OPTAPA_100220
+        option = { name = OPTAPA_10220
                b_etchmiadzin = { add_building = tp_etchmiadzin }
                set_global_flag = etchmiadzin
 
         }
-        option = { name = OPTBPA_100220
+        option = { name = OPTBPA_10220
                set_character_flag = ignored_etchmiadzin
         }
-        option = { name = OPTCPA_100220
+        option = { name = OPTCPA_10220
                custom_tooltip = {
 			text = disable_building_events
 	       }

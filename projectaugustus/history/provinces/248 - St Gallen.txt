@@ -16,13 +16,13 @@ b_stgallen = temple
 #b_herisau = castle
 
 # Misc
-culture = rhaeto_roman
+culture = rhaetian
 religion = catholic
 
 # History
 
-800.1.1 = { 
-	culture = german
+900.1.1 = {
+culture = romansh
 }
 
 

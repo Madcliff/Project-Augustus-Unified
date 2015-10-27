@@ -2964,7 +2964,7 @@ opinion_family_love = {
 grievously_offended = {
 	opinion = -30
 	months = 60
-    crime = yes
+        crime = yes
 }
 opinion_refused_tawusgeran = {
 	opinion = -10

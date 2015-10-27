@@ -1,27 +1,7 @@
-20.1.1 = {
-	historical_nomad = yes
-}
-470.1.1 = {
-	holder = 1000256123 
-}
-562.1.1 = {
-	holder = 1000250303
-}
-602.1.1 = {
-	holder = 1000250304
-}
-617.1.1 = {
-	holder = 1000250305
-}
-640.1.1 = {
-	holder = 1000250306
-}
-
 685.1.1 = {
 	holder=146154
 	law = agnatic_succession
 	law = succ_seniority
-		historical_nomad = yes
 }
 701.1.1 = {
 	holder=146155

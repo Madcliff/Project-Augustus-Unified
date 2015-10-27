@@ -20,10 +20,7 @@ culture = levantine_arabic
 religion = sunni
 
 # History
-700.1.1 = {
-	b_nablus = ct_jewish_community_1
-	b_nablus = ct_jewish_community_2
-}
+
 769.1.1 = { 
 	b_mirabel = ca_keep_1
 	b_mirabel = ca_training_grounds_1

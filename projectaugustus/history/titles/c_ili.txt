@@ -1,15 +1,8 @@
-470.1.1 = {
-	holder = 1000256125 
-}
-20.1.1 = {
-	historical_nomad = yes
-}
-620.1.1 = {
-	holder = 1000257453 
-	liege = d_zhetysu
-}
+#766.1.1={
+#	holder=188773 # Yagma
+#}
 766.1.1={
-	holder=188773 # Yagma
+	holder=188768
 }
 
 850.1.1={
@@ -67,17 +60,18 @@
 1205.1.1={
 	holder=188857 # Muhammad
 }
-1220.2.1={
-	liege="e_mongol_empire"
-	holder = 125501
+1211.1.1={
+	holder = 188914 # Kuchlug
 }
-1227.12.2=
-{
+1218.1.1={
+	liege="e_mongol_empire"
+	holder=34852
+}
+1227.12.2={
 	liege = d_zhetysu
 	holder = 93062
 }
-1242.1.1=
-{
+1242.1.1={
 	holder = 93064
 }
 1246.1.1=

@@ -15,13 +15,10 @@ b_laroda = temple
 #b_jorquera = castle
 
 # Misc
-culture = iberian
+culture = hispanic
 religion = catholic
 
 # History
-700.1.1 = { 
-	b_alarcon = ct_jewish_community_1
-}
 
 812.1.1 = { religion = sunni }
 

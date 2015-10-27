@@ -10,7 +10,6 @@
 - KeijiMaeda12 (Testing and advice)
 - warlordJake (Imperial Revamp mod)
 - Ciccillo Rre (New de jure Greece)
-- LumberKing (Schisms and Heresies)
 - CK2Plus Mod I (Core area/crusades)
 - CK2Plus Mod II (Various icons/CoAs)
 - Saeculum Obscurum (Various things)
@@ -33,4 +32,3 @@
 - fanoI (Flags and other things)
 - Nendur (Better Looking Garbs)
 - Chlodio (Gallo-Roman culture)
-- Morrolan (Custom duchies mod)

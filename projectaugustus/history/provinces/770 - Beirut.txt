@@ -20,8 +20,4 @@ culture = aramean
 religion = monothelite
 
 # History
-700.1.1 = {
-	b_journie = ct_jewish_community_1
-	b_journie = ct_jewish_community_2
-}
 1299.1.1 = { trade_post = b_ziani }

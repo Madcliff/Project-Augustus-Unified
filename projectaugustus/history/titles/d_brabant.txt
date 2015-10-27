@@ -1,8 +1,3 @@
-629.1.1 = {
-	holder = 91402
-	liege = k_lotharingia
-}
-
 769.1.1 = {
 	holder = 194170
 	liege = k_neustria

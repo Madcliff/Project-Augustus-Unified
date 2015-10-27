@@ -3,9 +3,9 @@ namespace = PA
 # Peacock's Feather
 
 narrative_event = {
-	id = PA.1000123
-        title = EVTNAMEPA.1000123
-	desc = EVTDESCPA.1000123
+	id = PA.10123
+        title = EVTNAMEPA.10123
+	desc = EVTDESCPA.10123
 	picture = GFX_evt_monk_muslim
 
 	min_age = 16
@@ -22,7 +22,7 @@ narrative_event = {
 	}
 
         option = {
-                name = OPTPA_1000123
+                name = OPTPA_10123
 		add_character_modifier = {
                     name = peacocks_feather
                     duration = -1
@@ -34,27 +34,27 @@ narrative_event = {
 
 # Holy Idols
 character_event = {
-	id = PA.1000124
-	desc = EVTDESCPA.1000124
+	id = PA.10124
+	desc = EVTDESCPA.10124
 	picture = GFX_evt_imam
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_1000124
+		name = OPTPA_10124
                 piety = 50
                 wealth = 50
 		hidden_tooltip = { 
-				character_event = { id = PA.1000125 }
+				character_event = { id = PA.10125 }
                 }
 	}
 }
 
 # Invitations Sent (Liege)
 character_event = {
-	id = PA.1000125
-	desc = EVTDESCPA.1000125
+	id = PA.10125
+	desc = EVTDESCPA.10125
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
@@ -63,7 +63,7 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = OPTPA_1000125
+		name = OPTPA_10125
 		any_vassal = {
 			limit = {
 				age = 16
@@ -71,23 +71,23 @@ character_event = {
 				war = no
 				NOT = { trait = incapable }
 			}
-			character_event = { id = PA.1000127 tooltip = EVTTOOLTIPPA_100127 }
+			character_event = { id = PA.10127 tooltip = EVTTOOLTIPPA_100127 }
 		}
-		hidden_tooltip = { character_event = { id = PA.1000129 days = 10 } }
+		hidden_tooltip = { character_event = { id = PA.10129 days = 10 } }
 	}
 }
 
 # Invitations Received (Vassals)
 character_event = {
-	id = PA.1000127
-	desc = EVTDESCPA.1000127
+	id = PA.10127
+	desc = EVTDESCPA.10127
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTAPA_1000127
+		name = OPTAPA_100127
 		trigger = {
 			religion = yazidi
 		}
@@ -106,14 +106,14 @@ character_event = {
 		}
 	}
 	option = {
-		name = OPTBPA_10000127
+		name = OPTBPA_1000127
 		trigger = {
 			NOT = {
 				religion = yazidi
 			}
 		}
 		FROM = {
-			character_event = { id = PA.1000128 days = 5 tooltip = DIPLOWINDOW_REJECT }
+			character_event = { id = PA.10128 days = 5 tooltip = DIPLOWINDOW_REJECT }
 			opinion = {
 				modifier = opinion_refused_tawusgeran
 				who = ROOT
@@ -124,15 +124,15 @@ character_event = {
 
 # Invitation Refused (Liege)
 character_event = {
-	id = PA.1000128
-	desc = EVTDESCPA.1000128
+	id = PA.10128
+	desc = EVTDESCPA.10128
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_1000128
+		name = OPTPA_10128
 		tooltip = {
 			opinion = {
 				modifier = opinion_refused_tawusgeran
@@ -144,8 +144,8 @@ character_event = {
 
 # Celebration Begins (Liege)
 character_event = {
-	id = PA.1000129
-	desc = EVTDESCPA.1000129
+	id = PA.10129
+	desc = EVTDESCPA.10129
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
@@ -154,15 +154,15 @@ character_event = {
 	hide_from = yes
 	
 	option = {
-		name = OPTPA_1000129
+		name = OPTPA_10129
 		custom_tooltip = {
 			text = tawusgeran_begins
 			hidden_tooltip = {
 				any_vassal = {
 					limit = { has_character_flag = attending_tawusgeran }
-					character_event = { id = PA.1000130 }
+					character_event = { id = PA.10130 }
 				}
-				character_event = { id = PA.1000131 days = 10 }
+				character_event = { id = PA.10131 days = 10 }
 			}
 		}
 	}
@@ -170,23 +170,23 @@ character_event = {
 
 # Celebration Begins (Vassals)
 character_event = {
-	id = PA.1000130
-	desc = EVTDESCPA.1000130
+	id = PA.10130
+	desc = EVTDESCPA.10130
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_1000130
+		name = OPTPA_10130
 		custom_tooltip = { text = tawusgeran_begins }
 	}
 }
 
 # Feast Begins (Liege)
 character_event = {
-	id = PA.1000131
-	desc = EVTDESCPA.1000131
+	id = PA.10131
+	desc = EVTDESCPA.10131
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
@@ -202,44 +202,44 @@ character_event = {
 			hidden_tooltip = {
 				any_vassal = {
 					limit = { has_character_flag = attending_tawusgeran }
-					character_event = { id = PA.1000132 }
+					character_event = { id = PA.10132 }
 				}
-				character_event = { id = PA.1000133 days = 25 }
+				character_event = { id = PA.10133 days = 25 }
 				random_list = {
-					10 = { character_event = { id = PA.1000156 days = 3 } } 
-					10 = { character_event = { id = PA.1000157 days = 3 } }
-					10 = { character_event = { id = PA.1000158 days = 3 } }
-					10 = { character_event = { id = PA.1000159 days = 3 } }
-					10 = { character_event = { id = PA.1000160 days = 3 } }
-					10 = { character_event = { id = PA.1000161 days = 3 } }
-					10 = { character_event = { id = PA.1000162 days = 3 } }
-				}
-				random_list = {
-					10 = { character_event = { id = PA.1000156 days = 8 } } 
-					10 = { character_event = { id = PA.1000157 days = 8 } }
-					10 = { character_event = { id = PA.1000158 days = 8 } }
-					10 = { character_event = { id = PA.1000159 days = 8 } }
-					10 = { character_event = { id = PA.1000160 days = 8 } }
-					10 = { character_event = { id = PA.1000161 days = 8 } }
-					10 = { character_event = { id = PA.1000162 days = 8 } }
+					10 = { character_event = { id = PA.10156 days = 3 } } 
+					10 = { character_event = { id = PA.10157 days = 3 } }
+					10 = { character_event = { id = PA.10158 days = 3 } }
+					10 = { character_event = { id = PA.10159 days = 3 } }
+					10 = { character_event = { id = PA.10160 days = 3 } }
+					10 = { character_event = { id = PA.10161 days = 3 } }
+					10 = { character_event = { id = PA.10162 days = 3 } }
 				}
 				random_list = {
-					10 = { character_event = { id = PA.1000156 days = 13 } } 
-					10 = { character_event = { id = PA.1000157 days = 13 } }
-					10 = { character_event = { id = PA.1000158 days = 13 } }
-					10 = { character_event = { id = PA.1000159 days = 13 } }
-					10 = { character_event = { id = PA.1000160 days = 13 } }
-					10 = { character_event = { id = PA.1000161 days = 13 } }
-					10 = { character_event = { id = PA.1000162 days = 13 } }
+					10 = { character_event = { id = PA.10156 days = 8 } } 
+					10 = { character_event = { id = PA.10157 days = 8 } }
+					10 = { character_event = { id = PA.10158 days = 8 } }
+					10 = { character_event = { id = PA.10159 days = 8 } }
+					10 = { character_event = { id = PA.10160 days = 8 } }
+					10 = { character_event = { id = PA.10161 days = 8 } }
+					10 = { character_event = { id = PA.10162 days = 8 } }
 				}
 				random_list = {
-					10 = { character_event = { id = PA.1000156 days = 18 } } 
-					10 = { character_event = { id = PA.1000157 days = 18 } }
-					10 = { character_event = { id = PA.1000158 days = 18 } }
-					10 = { character_event = { id = PA.1000159 days = 18 } }
-					10 = { character_event = { id = PA.1000160 days = 18 } }
-					10 = { character_event = { id = PA.1000161 days = 18 } }
-					10 = { character_event = { id = PA.1000162 days = 18 } }
+					10 = { character_event = { id = PA.10156 days = 13 } } 
+					10 = { character_event = { id = PA.10157 days = 13 } }
+					10 = { character_event = { id = PA.10158 days = 13 } }
+					10 = { character_event = { id = PA.10159 days = 13 } }
+					10 = { character_event = { id = PA.10160 days = 13 } }
+					10 = { character_event = { id = PA.10161 days = 13 } }
+					10 = { character_event = { id = PA.10162 days = 13 } }
+				}
+				random_list = {
+					10 = { character_event = { id = PA.10156 days = 18 } } 
+					10 = { character_event = { id = PA.10157 days = 18 } }
+					10 = { character_event = { id = PA.10158 days = 18 } }
+					10 = { character_event = { id = PA.10159 days = 18 } }
+					10 = { character_event = { id = PA.10160 days = 18 } }
+					10 = { character_event = { id = PA.10161 days = 18 } }
+					10 = { character_event = { id = PA.10162 days = 18 } }
 				}
 			}
 		}
@@ -248,8 +248,8 @@ character_event = {
 
 # Feast Begins (Vassals)
 character_event = {
-	id = PA.1000132
-	desc = EVTDESCPA.1000132
+	id = PA.10132
+	desc = EVTDESCPA.10132
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
@@ -264,8 +264,8 @@ character_event = {
 
 # Feast Ends (Liege)
 character_event = {
-	id = PA.1000133
-	desc = EVTDESCPA.1000133
+	id = PA.10133
+	desc = EVTDESCPA.10133
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
@@ -285,7 +285,7 @@ character_event = {
 		hidden_tooltip = {
 			any_vassal = {
 				limit = { has_character_flag = attending_tawusgeran }
-				character_event = { id = PA.1000134 }
+				character_event = { id = PA.10134 }
 			}
 		}
 		add_character_modifier = {
@@ -307,8 +307,8 @@ character_event = {
 
 # Feast Ends (Vassals)
 character_event = {
-	id = PA.1000134
-	desc = EVTDESCPA.1000134
+	id = PA.10134
+	desc = EVTDESCPA.10134
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
 	
@@ -332,7 +332,7 @@ character_event = {
 
 # Drunkard (Guest)
 character_event = {
-	id = PA.1000135
+	id = PA.10135
 	desc = EVTDESC_TOG_650
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_religion
@@ -387,13 +387,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_drunkard
-				character_event = { id = PA.1000136 }
+				character_event = { id = PA.10136 }
 				any_vassal = {
 					limit = {
 						has_character_flag = tawusgeran_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = PA.1000136 }
+					character_event = { id = PA.10136 }
 				}
 			}
 		}
@@ -442,7 +442,7 @@ character_event = {
 
 # Drunkard (Host and Other Guests)
 character_event = {
-	id = PA.1000136
+	id = PA.10136
 	desc = EVTDESC_TOG_651
 	picture = GFX_evt_drunk
 	border = GFX_event_normal_frame_religion
@@ -474,7 +474,7 @@ character_event = {
 
 # Gluttonous (Victim Hidden)
 character_event = {
-	id = PA.1000137
+	id = PA.10137
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -532,7 +532,7 @@ character_event = {
 					trait = gluttonous
 					NOT = { character = ROOT }
 				}
-				character_event = { id = PA.1000138 }
+				character_event = { id = PA.10138 }
 				set_character_flag = feast_gluttonous
 			}
 		}
@@ -545,7 +545,7 @@ character_event = {
 
 # Gluttonous (Guest)
 character_event = {
-	id = PA.1000138
+	id = PA.10138
 	desc = EVTDESC_TOG_653
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -556,11 +556,11 @@ character_event = {
 		name = EVTOPTA_TOG_653
 		tooltip_info = gluttonous
 		FROM = {
-			character_event = { id = PA.1000139 tooltip = EVTTOOLTIP_TOG_654 }
+			character_event = { id = PA.10139 tooltip = EVTTOOLTIP_TOG_654 }
 		}	
 		hidden_tooltip = {
 			liege = {
-				character_event = { id = PA.1000140 }
+				character_event = { id = PA.10140 }
 				any_vassal = {
 					limit = {
 						has_character_flag = tawusgeran_feast_vassal
@@ -569,7 +569,7 @@ character_event = {
 							character = FROM
 						}
 					}
-					character_event = { id = PA.1000140 }
+					character_event = { id = PA.10140 }
 				}
 			}
 		}
@@ -605,7 +605,7 @@ character_event = {
 
 # Gluttonous (Victim)
 character_event = {
-	id = PA.1000139
+	id = PA.10139
 	desc = EVTDESC_TOG_654
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -623,7 +623,7 @@ character_event = {
 
 # Gluttonous (Host and Other Guests)
 character_event = {
-	id = PA.1000140
+	id = PA.10140
 	desc = EVTDESC_TOG_655
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -641,7 +641,7 @@ character_event = {
 
 # Lunatic (Guest)
 character_event = {
-	id = PA.1000141
+	id = PA.10141
 	desc = EVTDESC_TOG_656
 	picture = GFX_evt_lunatic
 	border = GFX_event_normal_frame_religion
@@ -696,13 +696,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lunatic
-				character_event = { id = PA.1000142 }
+				character_event = { id = PA.10142 }
 				any_vassal = {
 					limit = {
 						has_character_flag = tawusgeran_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = PA.1000142 }
+					character_event = { id = PA.10142 }
 				}
 			}
 		}
@@ -751,7 +751,7 @@ character_event = {
 
 # Lunatic (Host and Other Guests)
 character_event = {
-	id = PA.1000142
+	id = PA.10142
 	desc = EVTDESC_TOG_657
 	picture = GFX_evt_lunatic
 	border = GFX_event_normal_frame_religion
@@ -783,7 +783,7 @@ character_event = {
 
 # Lustful (Guest)
 character_event = {
-	id = PA.1000143
+	id = PA.10143
 	desc = EVTDESC_TOG_658
 	picture = GFX_evt_brothel
 	border = GFX_event_normal_frame_religion
@@ -842,13 +842,13 @@ character_event = {
 		hidden_tooltip = {
 			liege = {
 				set_character_flag = feast_lustful
-				character_event = { id = PA.1000144 }
+				character_event = { id = PA.10144 }
 				any_vassal = {
 					limit = {
 						has_character_flag = tawusgeran_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = PA.1000144 }
+					character_event = { id = PA.10144 }
 				}
 			}
 		}
@@ -909,7 +909,7 @@ character_event = {
 						has_character_flag = tawusgeran_feast_vassal
 						NOT = { character = ROOT }
 					}
-					character_event = { id = PA.1000144 }
+					character_event = { id = PA.10144 }
 				}
 			}
 		}
@@ -965,7 +965,7 @@ character_event = {
 
 # Lustful (Host and Other Guests)
 character_event = {
-	id = PA.1000144
+	id = PA.10144
 	desc = EVTDESC_TOG_659
 	picture = GFX_evt_brothel
 	border = GFX_event_normal_frame_religion
@@ -1010,7 +1010,7 @@ character_event = {
 
 # Friendship Formed (Guest 1 Hidden)
 character_event = {
-	id = PA.1000145
+	id = PA.10145
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -1068,7 +1068,7 @@ character_event = {
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  20 }
 				}
-				character_event = { id = PA.1000146 }
+				character_event = { id = PA.10146 }
 				set_character_flag = feast_friendship
 				opinion = {
 					modifier = opinion_feast_friend
@@ -1089,7 +1089,7 @@ character_event = {
 
 # Friendship Formed (Guest 2)
 character_event = {
-	id = PA.1000146
+	id = PA.10146
 	desc = EVTDESC_TOG_661
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -1100,7 +1100,7 @@ character_event = {
 		name = EVTOPTA_TOG_661
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = PA.1000147 }
+				character_event = { id = PA.10147 }
 			}
 		}
 		tooltip = {
@@ -1120,7 +1120,7 @@ character_event = {
 
 # Friendship Formed (Guest 1)
 character_event = {
-	id = PA.1000147
+	id = PA.10147
 	desc = EVTDESC_TOG_661
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -1146,7 +1146,7 @@ character_event = {
 
 # Homosexual Male (Guest 1 Hidden)
 character_event = {
-	id = PA.1000148
+	id = PA.10148
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -1215,7 +1215,7 @@ character_event = {
 					trait = homosexual
 					is_female = no
 				}
-				character_event = { id = PA.1000149 }
+				character_event = { id = PA.10149 }
 				add_lover = FROM
 				set_character_flag = feast_homosexual
 			}		
@@ -1229,7 +1229,7 @@ character_event = {
 
 # Homosexual Male (Guest 2)
 character_event = {
-	id = PA.1000149
+	id = PA.10149
 	desc = EVTDESC_TOG_664
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -1241,10 +1241,10 @@ character_event = {
 		tooltip_info = homosexual
 		hidden_tooltip = {
 			FROM = {
-				character_event = { id = PA.1000150 }
+				character_event = { id = PA.10150 }
 			}
 			liege = {
-				character_event = { id = PA.1000155 }
+				character_event = { id = PA.10155 }
 				any_vassal = {
 					limit = {
 						has_character_flag = tawusgeran_feast_vassal
@@ -1253,14 +1253,14 @@ character_event = {
 							character = FROM
 						}
 					}
-					character_event = { id = PA.1000155 }
+					character_event = { id = PA.10155 }
 				}
 			}
 		}
 		tooltip = {
 			random = {
 				chance = 50
-				character_event = { id = PA.1000154 tooltip = EVTTOOLTIP_TOG_669 }
+				character_event = { id = PA.10154 tooltip = EVTTOOLTIP_TOG_669 }
 			}
 			add_lover = FROM
 		}
@@ -1269,7 +1269,7 @@ character_event = {
 
 # Homosexual Male (Guest 1)
 character_event = {
-	id = PA.1000150
+	id = PA.10150
 	desc = EVTDESC_TOG_664
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -1281,10 +1281,10 @@ character_event = {
 		tooltip_info = homosexual
 		random = {
 			chance = 50
-			character_event = { id = PA.1000154 tooltip = EVTTOOLTIP_TOG_669 }
+			character_event = { id = PA.10154 tooltip = EVTTOOLTIP_TOG_669 }
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = PA.1000154 }
+					character_event = { id = PA.10154 }
 				}
 			}
 		}
@@ -1296,7 +1296,7 @@ character_event = {
 
 # Homosexual Female (Guest 1 Hidden)
 character_event = {
-	id = PA.1000151
+	id = PA.10151
 	hide_window = yes
 
 	is_triggered_only = yes
@@ -1365,7 +1365,7 @@ character_event = {
 					trait = homosexual
 					is_female = yes
 				}
-				character_event = { id = PA.1000152 }
+				character_event = { id = PA.10152 }
 				set_character_flag = feast_homosexual
 				add_lover = FROM
 			}		
@@ -1379,7 +1379,7 @@ character_event = {
 
 # Homosexual Female (Guest 2)
 character_event = {
-	id = PA.1000152
+	id = PA.10152
 	desc = EVTDESC_TOG_664
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -1394,7 +1394,7 @@ character_event = {
 				character_event = { id = TOG.738 }
 			}
 			liege = {
-				character_event = { id = PA.1000154 }
+				character_event = { id = PA.10154 }
 				any_vassal = {
 					limit = {
 						has_character_flag = tawusgeran_feast_vassal
@@ -1403,14 +1403,14 @@ character_event = {
 							character = FROM
 						}
 					}
-					character_event = { id = PA.1000154 }
+					character_event = { id = PA.10154 }
 				}
 			}			
 		}
 		tooltip = {
 			random = {
 				chance = 50
-				character_event = { id = PA.1000154 tooltip = EVTTOOLTIP_TOG_669 }
+				character_event = { id = PA.10154 tooltip = EVTTOOLTIP_TOG_669 }
 			}
 			add_lover = FROM
 		}
@@ -1419,7 +1419,7 @@ character_event = {
 
 # Homosexual Female (Guest 1)
 character_event = {
-	id = PA.1000153
+	id = PA.10153
 	desc = EVTDESC_TOG_664
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -1431,10 +1431,10 @@ character_event = {
 		tooltip_info = homosexual
 		random = {
 			chance = 50
-			character_event = { id = PA.1000154 tooltip = EVTTOOLTIP_TOG_669 }
+			character_event = { id = PA.10154 tooltip = EVTTOOLTIP_TOG_669 }
 			hidden_tooltip = {
 				FROM = {
-					character_event = { id = PA.1000154 }
+					character_event = { id = PA.10154 }
 				}
 			}
 		}
@@ -1446,7 +1446,7 @@ character_event = {
 
 # Homosexual Caught
 character_event = {
-	id = PA.1000154
+	id = PA.10154
 	desc = EVTDESC_TOG_669
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -1500,7 +1500,7 @@ character_event = {
 
 # Homosexual Caught (Host and Other Guests)
 character_event = {
-	id = PA.1000155
+	id = PA.10155
 	desc = EVTDESC_TOG_670
 	picture = GFX_evt_feast
 	border = GFX_event_normal_frame_religion
@@ -1532,7 +1532,7 @@ character_event = {
 
 ### Feast event bounces
 character_event = { #feast_drunkard
-	id = PA.1000156
+	id = PA.10156
 	
 	is_triggered_only = yes
 	
@@ -1555,13 +1555,13 @@ character_event = { #feast_drunkard
 				has_character_flag = tawusgeran_feast_vassal
 				trait = drunkard
 			}
-			character_event = { id = PA.1000135 }
+			character_event = { id = PA.10135 }
 		}
 	}
 }
 
 character_event = {
-	id = PA.1000157 #feast_gluttonous
+	id = PA.10157 #feast_gluttonous
 	
 	is_triggered_only = yes
 	
@@ -1584,13 +1584,13 @@ character_event = {
 				has_character_flag = tawusgeran_feast_vassal
 				trait = gluttonous
 			}
-			character_event = { id = PA.1000137 }
+			character_event = { id = PA.10137 }
 		}
 	}
 }
 
 character_event = {
-	id = PA.1000158 #feast_lunatic
+	id = PA.10158 #feast_lunatic
 	
 	is_triggered_only = yes
 	
@@ -1613,13 +1613,13 @@ character_event = {
 				has_character_flag = tawusgeran_feast_vassal
 				trait = lunatic
 			}
-			character_event = { id = PA.1000141 }
+			character_event = { id = PA.10141 }
 		}
 	}
 }
 
 character_event = {
-	id = PA.1000159 #feast_lustful
+	id = PA.10159 #feast_lustful
 	
 	is_triggered_only = yes
 	
@@ -1644,13 +1644,13 @@ character_event = {
 				trait = lustful
 				is_female = no
 			}
-			character_event = { id = PA.1000143 }
+			character_event = { id = PA.10143 }
 		}
 	}
 }
 
 character_event = {
-	id = PA.1000160 #feast_friendship
+	id = PA.10160 #feast_friendship
 	
 	is_triggered_only = yes
 	
@@ -1689,13 +1689,13 @@ character_event = {
 					}		
 				}
 			}
-			character_event = { id = PA.1000145 }
+			character_event = { id = PA.10145 }
 		}
 	}
 }
 
 character_event = {
-	id = PA.1000161 #male_homosexual
+	id = PA.10161 #male_homosexual
 	
 	is_triggered_only = yes
 	
@@ -1745,13 +1745,13 @@ character_event = {
 					}		
 				}
 			}
-			character_event = { id = PA.1000148 }
+			character_event = { id = PA.10148 }
 		}
 	}
 }
 
 character_event = {
-	id = PA.1000162 #female_homosexual
+	id = PA.10162 #female_homosexual
 	
 	is_triggered_only = yes
 	
@@ -1801,7 +1801,7 @@ character_event = {
 					}		
 				}
 			}
-			character_event = { id = PA.1000151 }
+			character_event = { id = PA.10151 }
 		}
 	}
 }
@@ -1809,16 +1809,16 @@ character_event = {
 # Yazidi Pilgrimage
 
 character_event = {
-	id = PA.1000163
-	desc = EVTDESCPA.1000163
+	id = PA.10163
+	desc = EVTDESCPA.10163
 	picture = GFX_evt_merchant_caravan
 
         is_triggered_only = yes
 
         option = {
-                name = OPTPA_1000163
+                name = OPTPA_10163
                 hidden_tooltip = {
-			character_event = { id = PA.1000164 }
+			character_event = { id = PA.10164 }
                 }
 	}
 }
@@ -1827,14 +1827,14 @@ character_event = {
 # Sheikh's Tomb
 
 character_event = {
-	id = PA.1000164
-	desc = EVTDESCPA.1000164
+	id = PA.10164
+	desc = EVTDESCPA.10164
 	picture = GFX_evt_merchant_caravan
 
         is_triggered_only = yes
 
         option = {
-                name = OPTPA_1000164
+                name = OPTPA_10164
                 hidden_tooltip = {
 			set_character_flag = yazidi_pilgrimage
                 }
@@ -1844,9 +1844,9 @@ character_event = {
 # Good Arrival
 
 narrative_event = {
-	id = PA.1000165
-        title = EVTNAMEPA.1000165
-	desc = EVTDESCPA.1000165
+	id = PA.10165
+        title = EVTNAMEPA.10165
+	desc = EVTDESCPA.10165
 	picture = GFX_evt_religious_exultation
 
         trigger = {
@@ -1860,11 +1860,11 @@ narrative_event = {
 	}
 
         option = {
-                name = OPTPA_1000165
+                name = OPTPA_10165
                 hidden_tooltip = {
 			clr_character_flag = yazidi_pilgrimage
                         set_character_flag = good_yazidi_pilgrimage
-                        character_event = { id = PA.1000167 days = 10 }
+                        character_event = { id = PA.10167 days = 10 }
                 }
 	}
 }
@@ -1872,9 +1872,9 @@ narrative_event = {
 # Bad Arrival
 
 narrative_event = {
-	id = PA.1000166
-        title = EVTNAMEPA.1000166
-	desc = EVTDESCPA.1000166
+	id = PA.10166
+        title = EVTNAMEPA.10166
+	desc = EVTDESCPA.10166
 	picture = GFX_evt_market
 
         trigger = {
@@ -1888,11 +1888,11 @@ narrative_event = {
 	}
 
         option = {
-                name = OPTPA_1000166
+                name = OPTPA_10166
                 hidden_tooltip = {
 			clr_character_flag = yazidi_pilgrimage
                         set_character_flag = bad_yazidi_pilgrimage
-                        character_event = { id = PA.1000168 days = 10 }
+                        character_event = { id = PA.10168 days = 10 }
                 }
 	}
 }
@@ -1900,14 +1900,14 @@ narrative_event = {
 # Good Journey
 
 character_event = {
-	id = PA.1000167
-	desc = EVTDESCPA.1000167
+	id = PA.10167
+	desc = EVTDESCPA.10167
 	picture = GFX_evt_imam
 
         is_triggered_only = yes
 
         option = {
-                name = OPTPA_1000167
+                name = OPTPA_10167
                 add_trait = pilgrim
                 piety = 100
 		clr_character_flag = yazidi_pilgrimage
@@ -1917,14 +1917,14 @@ character_event = {
 # Bad Journey
 
 character_event = {
-	id = PA.1000168
-	desc = EVTDESCPA.1000168
+	id = PA.10168
+	desc = EVTDESCPA.10168
 	picture = GFX_evt_imam
 
         is_triggered_only = yes
 
         option = {
-                name = OPTPA_1000168
+                name = OPTPA_10168
                 add_trait = pilgrim
                 piety = -100
 		clr_character_flag = yazidi_pilgrimage
@@ -1934,8 +1934,8 @@ character_event = {
 # Pilgrimage Bandits
 
 character_event = {
-	id = PA.1000169
-	desc = EVTDESCPA.1000169
+	id = PA.10169
+	desc = EVTDESCPA.10169
 	picture = GFX_evt_moors
 
         trigger = {
@@ -1948,7 +1948,7 @@ character_event = {
 	}
 
         option = {
-                name = OPTAPA_1000169
+                name = OPTAPA_100169
                 set_character_flag = pilgrimage_bandits
                 ai_chance = { 
 			factor = 5
@@ -1962,13 +1962,13 @@ character_event = {
 			}			
 		}
                 random_list = {
-			50 = { hidden_tooltip = { character_event = { id = PA.1000170 } } }
-			30 = {	add_trait = brave hidden_tooltip = { ROOT = { character_event = { id = PA.1000170 } } } }
+			50 = { hidden_tooltip = { character_event = { id = PA.10170 } } }
+			30 = {	add_trait = brave hidden_tooltip = { ROOT = { character_event = { id = PA.10170 } } } }
 			20 = {	death = { death_reason = death_battle } }
 		}		
 	}
         option = {
-                name = OPTBPA_10000169
+                name = OPTBPA_1000169
                 set_character_flag = pilgrimage_bandits
                 ai_chance = { 
 			factor = 5
@@ -1982,8 +1982,8 @@ character_event = {
 			}
                }			
                random_list = {
-			70 = { hidden_tooltip = { character_event = { id = PA.1000171 } } }
-			30 = { add_trait = craven hidden_tooltip = { ROOT = { character_event = { id = PA.1000171 } } }	
+			70 = { hidden_tooltip = { character_event = { id = PA.10171 } } }
+			30 = { add_trait = craven hidden_tooltip = { ROOT = { character_event = { id = PA.10171 } } }	
                   }		
 	    }
       }
@@ -1991,28 +1991,28 @@ character_event = {
 
 
 character_event = {
-	id = PA.1000170
-	desc = EVTDESCPA.1000170
+	id = PA.10170
+	desc = EVTDESCPA.10170
 	picture = GFX_evt_melee
 
         is_triggered_only = yes
 
         option = {
-                name = OPTPA_1000170
+                name = OPTPA_10170
                 prestige = 50
         }
 }
 
 
 character_event = {
-	id = PA.1000171
-	desc = EVTDESCPA.1000171
+	id = PA.10171
+	desc = EVTDESCPA.10171
 	picture = GFX_evt_moors
 
         is_triggered_only = yes
 
         option = {
-                name = OPTPA_1000171
+                name = OPTPA_10171
                 prestige = -50
         }
 }
@@ -2020,8 +2020,8 @@ character_event = {
 # Pilgrimage Oasis
 
 character_event = {
-	id = PA.1000172
-	desc = EVTDESCPA.1000172
+	id = PA.10172
+	desc = EVTDESCPA.10172
 	picture = GFX_evt_fishing
 
         trigger = {
@@ -2034,7 +2034,7 @@ character_event = {
 	}
 
         option = {
-                name = OPTAPA_1000172
+                name = OPTAPA_100172
                 set_character_flag = pilgrimage_oasis
                 add_character_modifier = {
                         name = desert_heat
@@ -2053,7 +2053,7 @@ character_event = {
                 }			
 	}
         option = {
-                name = OPTBPA_10000172
+                name = OPTBPA_1000172
                 set_character_flag = pilgrimage_oasis
                 add_character_modifier = {
                         name = fresh_water
@@ -2077,8 +2077,8 @@ character_event = {
 # Pilgrimage Peacock
 
 character_event = {
-	id = PA.1000173
-	desc = EVTDESCPA.1000173
+	id = PA.10173
+	desc = EVTDESCPA.10173
 	picture = GFX_evt_desert
 
         trigger = {
@@ -2091,13 +2091,13 @@ character_event = {
 	}
 
         option = {
-                name = OPTAPA_1000173
+                name = OPTAPA_100173
                 set_character_flag = pilgrimage_peacock
                 custom_tooltip = {
                        name = approach_peacock
                 }
                 hidden_tooltip = { 
-                        character_event = { id = PA.1000174 } 
+                        character_event = { id = PA.10174 } 
                 }
                 ai_chance = { 
 			factor = 5
@@ -2112,13 +2112,13 @@ character_event = {
                  }			
 	}
         option = {
-                name = OPTBPA_10000173
+                name = OPTBPA_1000173
                 set_character_flag = pilgrimage_peacock
                 custom_tooltip = {
                        name =  confront_peacock
                 }
                 hidden_tooltip = { 
-                        character_event = { id = PA.1000175 } 
+                        character_event = { id = PA.10175 } 
                 }
                 ai_chance = { 
 			factor = 5
@@ -2136,14 +2136,14 @@ character_event = {
 	
 
 character_event = {
-	id = PA.1000174
-	desc = EVTDESCPA.1000174
+	id = PA.10174
+	desc = EVTDESCPA.10174
 	picture = GFX_evt_religious_exultation
 
         is_triggered_only = yes
 
         option = {
-                name = OPTPA_1000174
+                name = OPTPA_10174
                 add_character_modifier = {
                 name = peacocks_feather
                 duration = -1
@@ -2152,14 +2152,14 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000175
-	desc = EVTDESCPA.1000175
+	id = PA.10175
+	desc = EVTDESCPA.10175
 	picture = GFX_evt_moors
 
         is_triggered_only = yes
 
         option = {
-                name = OPTPA_1000175
+                name = OPTPA_10175
                 piety = -100
                 }
 	}
@@ -2167,8 +2167,8 @@ character_event = {
 # Pilgrimage Samaritan
 
 character_event = {
-	id = PA.1000176
-	desc = EVTDESCPA.1000176
+	id = PA.10176
+	desc = EVTDESCPA.10176
 	picture = GFX_evt_bloody_man
 
         trigger = {
@@ -2181,7 +2181,7 @@ character_event = {
 	}
 
         option = {
-                name = OPTAPA_1000176
+                name = OPTAPA_100176
                 set_character_flag = pilgrimage_samaritan
                 piety = 50
                 ai_chance = { 
@@ -2197,7 +2197,7 @@ character_event = {
                 }			
 	}
         option = {
-                name = OPTBPA_10000176
+                name = OPTBPA_1000176
                 set_character_flag = pilgrimage_samaritan
                 piety = -50
                 ai_chance = { 
@@ -2217,8 +2217,8 @@ character_event = {
 # Pilgrimage Beggar
 
 character_event = {
-	id = PA.1000177
-	desc = EVTDESCPA.1000177
+	id = PA.10177
+	desc = EVTDESCPA.10177
 	picture = GFX_evt_market
         trigger = {
 	        has_character_flag = yazidi_pilgrimage
@@ -2230,7 +2230,7 @@ character_event = {
 	}
 
         option = {
-                name = OPTAPA_1000177
+                name = OPTAPA_100177
                 set_character_flag = pilgrimage_beggar					
                 piety = 50
                 wealth = -20
@@ -2247,7 +2247,7 @@ character_event = {
                 }			
 	}
         option = {
-                name = OPTBPA_10000178
+                name = OPTBPA_1000178
                 set_character_flag = pilgrimage_beggar
                 prestige = 50
                 piety = -50
@@ -2268,8 +2268,8 @@ character_event = {
 # Pilgrimage Lost
 
 character_event = {
-	id = PA.1000178
-	desc = EVTDESCPA.1000178
+	id = PA.10178
+	desc = EVTDESCPA.10178
 	picture = GFX_evt_desert
         trigger = {
 	        has_character_flag = yazidi_pilgrimage
@@ -2281,7 +2281,7 @@ character_event = {
 	}
 
         option = {
-                name = OPTAPA_1000178
+                name = OPTAPA_100178
                 set_character_flag = pilgrimage_lost_lalish
                 prestige = -50
                 ai_chance = { 
@@ -2297,7 +2297,7 @@ character_event = {
                 }			
 	}
         option = {
-                name = OPTBPA_10000178
+                name = OPTBPA_1000178
                 set_character_flag = pilgrimage_lost_lalish
                 add_character_modifier = {
                         name = desert_heat

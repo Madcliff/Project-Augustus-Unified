@@ -2,8 +2,8 @@ namespace = PA
 
 # Augusta Trait Gained
 character_event = {
-	id = PA.1000
-	desc = EVTDESCPA.1000
+	id = PA.10000
+	desc = EVTDESCPA.10000
 	picture = GFX_evt_rome_restored_byzantine
 	
 	trigger = {
@@ -19,7 +19,7 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000
+		name = OPTPA_10000
 		add_trait = augusta
 	}
 }
@@ -95,7 +95,7 @@ character_event = {
 		name = OPTPA_10002
 		add_trait = born_in_the_purple2
 		liege = {
-			character_event = { id = PA.10003 }
+			character_event = { id = PA.1003 }
 		}
 	}
 }
@@ -146,11 +146,11 @@ character_event = {
 			text = introduce_eunuch
 			hidden_tooltip = {
 				random_list = {
-					20 = { character_event = { id = PA.1000117 } }
-					20 = { character_event = { id = PA.1000118 } }
-					20 = { character_event = { id = PA.1000119 } }
-					20 = { character_event = { id = PA.1000121 } }
-					20 = { character_event = { id = PA.1000121 } }
+					20 = { character_event = { id = PA.10117 } }
+					20 = { character_event = { id = PA.10118 } }
+					20 = { character_event = { id = PA.10119 } }
+					20 = { character_event = { id = PA.10121 } }
+					20 = { character_event = { id = PA.10121 } }
 				}
 			}
 		}
@@ -200,8 +200,8 @@ character_event = {
 
 # Grain Supply Interrupted
 character_event = {
-	id = PA.100010
-	desc = EVTDESCPA.100010
+	id = PA.10010
+	desc = EVTDESCPA.10010
 	picture = GFX_evt_market_byzantine
 	
 	ai = no
@@ -225,7 +225,7 @@ character_event = {
 	}
 	
 	option = {
-	        name = OPTPA_100010
+	        name = OPTPA_10010
                 clr_global_flag = grain_supply_resumed
                 remove_character_modifier = egyptian_grain
 	}
@@ -233,8 +233,8 @@ character_event = {
 
 # Servant Spills Wine
 character_event = {
-	id = PA.100011
-	desc = EVTDESCPA.100011
+	id = PA.10011
+	desc = EVTDESCPA.10011
 	picture = GFX_evt_scandal
 	
 	ai = no
@@ -258,13 +258,13 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_100011
+		name = OPTAPA_10011
                 custom_tooltip = {
 			text = forgive_servant
 		}
 	}
 	option = {
-	        name = OPTBPA_1000011
+	        name = OPTBPA_10011
 		create_character = {
 			random_traits = no
 			dynasty = NONE
@@ -284,8 +284,8 @@ character_event = {
 
 # autokrator Trait Gained
 character_event = {
-	id = PA.100012
-	desc = EVTDESCPA.100012
+	id = PA.10012
+	desc = EVTDESCPA.10012
 	picture = GFX_evt_holy_emperor
 	
 	trigger = {
@@ -300,15 +300,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_100012
+		name = OPTPA_10012
 		add_trait = autokrator
 	}
 }
 
 # autokrator Trait Lost
 character_event = {
-	id = PA.100013
-	desc = EVTDESCPA.100013
+	id = PA.10013
+	desc = EVTDESCPA.10013
 	picture = GFX_evt_holy_emperor
 	
 	trigger = {
@@ -322,15 +322,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_100013
+		name = OPTPA_10013
 		remove_trait = autokrator
 	}
 }
 
 # autokrateira Trait Gained
 character_event = {
-	id = PA.100014
-	desc = EVTDESCPA.100014
+	id = PA.10014
+	desc = EVTDESCPA.10014
 	picture = GFX_evt_holy_emperor
 	
 	trigger = {
@@ -345,15 +345,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_100014
+		name = OPTPA_10014
 		add_trait = autokrateira
 	}
 }
 
 # autokrateira Trait Lost
 character_event = {
-	id = PA.100015
-	desc = EVTDESCPA.100015
+	id = PA.10015
+	desc = EVTDESCPA.10015
 	picture = GFX_evt_holy_emperor
 	
 	trigger = {
@@ -367,15 +367,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_100015
+		name = OPTPA_10015
 		remove_trait = autokrateira
 	}
 }
 
 # autokrator2 Trait Gained
 character_event = {
-	id = PA.100016
-	desc = EVTDESCPA.100016
+	id = PA.10016
+	desc = EVTDESCPA.10016
 	picture = GFX_evt_holy_emperor
 	
 	trigger = {
@@ -391,15 +391,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_100016
+		name = OPTPA_10016
 		add_trait = autokrator2
 	}
 }
 
 # autokrator2 Trait Lost
 character_event = {
-	id = PA.100017
-	desc = EVTDESCPA.100017
+	id = PA.10017
+	desc = EVTDESCPA.10017
 	picture = GFX_evt_holy_emperor
 	
 	trigger = {
@@ -416,15 +416,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_100017
+		name = OPTPA_10017
 		remove_trait = autokrator2
 	}
 }
 
 # autokrateira2 Trait Gained
 character_event = {
-	id = PA.100018
-	desc = EVTDESCPA.100018
+	id = PA.10018
+	desc = EVTDESCPA.10018
 	picture = GFX_evt_holy_emperor
 	
 	trigger = {
@@ -440,15 +440,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_100018
+		name = OPTPA_10018
 		add_trait = autokrateira2
 	}
 }
 
 # autokrateira2 Trait Lost
 character_event = {
-	id = PA.100019
-	desc = EVTDESCPA.100019
+	id = PA.10019
+	desc = EVTDESCPA.10019
 	picture = GFX_evt_holy_emperor
 	
 	trigger = {
@@ -465,7 +465,7 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_100019
+		name = OPTPA_10019
 		remove_trait = autokrateira2
 	}
 }
@@ -474,15 +474,15 @@ character_event = {
 
 # Churches United
 narrative_event = {
-	id = PA.100020
-        title = EVTNAMEPA.100020
-	desc = EVTDESCPA.100020
+	id = PA.10020
+        title = EVTNAMEPA.10020
+	desc = EVTDESCPA.10020
 	picture = GFX_evt_jerusalem
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100020
+		name = OPTPA_10020
 		piety = -500
 		prestige = -100
 		ROOT = { religion = catholic }
@@ -499,25 +499,25 @@ narrative_event = {
 					}
 		hidden_tooltip = {
 			any_playable_ruler = {
-				narrative_event = { id = PA.100021 }
+				narrative_event = { id = PA.10021 }
                         }
-                        character_event = { id = PA.100022 days = 280 }
+                        character_event = { id = PA.10022 days = 280 }
 			}
 		}
 	}
 
 # Churches Informed
 narrative_event = {
-	id = PA.100021
-	title = EVTNAMEPA.100020
-	desc = EVTDESCPA.100020
+	id = PA.10021
+	title = EVTNAMEPA.10020
+	desc = EVTDESCPA.10020
 	
 	picture = GFX_evt_jerusalem
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100021
+		name = OPTPA_10021
 		trigger = {
 			NOT = { has_landed_title = e_byzantium }
 		}
@@ -526,14 +526,14 @@ narrative_event = {
 
 # Troops Arrive (United Churches)
 character_event = {
-    id = PA.100022
-    desc = EVTDESCPA.100022
+    id = PA.10022
+    desc = EVTDESCPA.10022
     picture = GFX_evt_western_knights_byzantine
 
     is_triggered_only = yes
 
     option = {
-        name = OPTPA_100022
+        name = OPTPA_10022
         capital_scope = {
                 ROOT = {
                         spawn_unit = {
@@ -587,8 +587,8 @@ character_event = {
 
 # Rome is Burning
 character_event = {
-	id = PA.100023
-	desc = EVTDESCPA.100023
+	id = PA.10023
+	desc = EVTDESCPA.10023
 	picture = GFX_evt_burning_house
 	
 	ai = no
@@ -612,19 +612,19 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_100023
-		character_event = { id = PA.100024 days = 3 tooltip = EVTTOOLTIPPA_10024 }
+		name = OPTAPA_10023
+		character_event = { id = PA.10024 days = 3 tooltip = EVTTOOLTIPPA_10024 }
 	}
 	option = {
-		name = OPTBPA_1000023
-		character_event = { id = PA.100025 days = 3 tooltip = EVTTOOLTIPPA_10025 }
+		name = OPTBPA_10023
+		character_event = { id = PA.10025 days = 3 tooltip = EVTTOOLTIPPA_10025 }
 	}
 }
 
 # Imperial Guard Reinforcements
 character_event = {
-	id = PA.100024
-	desc = EVTDESCPA.100024
+	id = PA.10024
+	desc = EVTDESCPA.10024
 	picture = GFX_evt_siege
 	
 	hide_from = yes
@@ -632,15 +632,15 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100024
+		name = OPTPA_10024
 		wealth = -50
 	}
 }
 
 # Rome Burns to the Ground
 character_event = {
-	id = PA.100025
-	desc = EVTDESCPA.100025
+	id = PA.10025
+	desc = EVTDESCPA.10025
 	picture = GFX_evt_rome_falls
 	
 	hide_from = yes
@@ -648,7 +648,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100025
+		name = OPTPA_10025
 		prestige = -200
 		wealth = -500
 	}
@@ -658,9 +658,9 @@ character_event = {
 
 # Byzantine Borders
 narrative_event = {
-	id = PA.100026
-	title = EVTNAMEPA.100026
-	desc = EVTDESCPA.100026
+	id = PA.10026
+	title = EVTNAMEPA.10026
+	desc = EVTDESCPA.10026
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -766,7 +766,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100026
+		name = OPTPA_10026
 		set_global_flag = byzantine_borders
 		prestige = 1000
 	}
@@ -774,9 +774,9 @@ narrative_event = {
 
 # Saint Blaise
 narrative_event = {
-	id = PA.100027
-	title = EVTNAMEPA.100027
-	desc = EVTDESCPA.100027
+	id = PA.10027
+	title = EVTNAMEPA.10027
+	desc = EVTDESCPA.10027
 	picture = GFX_evt_crusaders
 
  	major = yes
@@ -822,14 +822,14 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTAPA_100027
+		name = OPTAPA_10027
 		trigger = {
 			religion = apostolic
 		}
 		
 	}
 	option = {
-		name = OPTBPA_1000027
+		name = OPTBPA_10027
 		   trigger = {
                              NOT = { religion = apostolic }
                              }
@@ -838,9 +838,9 @@ narrative_event = {
 
 # Damascus Recovered
 narrative_event = {
-	id = PA.100028
-	title = EVTNAMEPA.100028
-	desc = EVTDESCPA.100028
+	id = PA.10028
+	title = EVTNAMEPA.10028
+	desc = EVTDESCPA.10028
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -862,7 +862,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100028
+		name = OPTPA_10028
 		set_global_flag = damascus_recovered
 		prestige = 100
 	}
@@ -870,9 +870,9 @@ narrative_event = {
 
 # Ravenna Recovered
 narrative_event = {
-	id = PA.100029
-	title = EVTNAMEPA.100029
-	desc = EVTDESCPA.100029
+	id = PA.10029
+	title = EVTNAMEPA.10029
+	desc = EVTDESCPA.10029
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -894,7 +894,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100029
+		name = OPTPA_10029
 		set_global_flag = ravenna_recovered
 		prestige = 100
 	}
@@ -902,9 +902,9 @@ narrative_event = {
 
 # Carthage Recovered
 narrative_event = {
-	id = PA.100030
-	title = EVTNAMEPA.100030
-	desc = EVTDESCPA.100030
+	id = PA.10030
+	title = EVTNAMEPA.10030
+	desc = EVTDESCPA.10030
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -926,7 +926,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100030
+		name = OPTPA_10030
 		set_global_flag = carthage_recovered
 		prestige = 100
 	}
@@ -934,15 +934,15 @@ narrative_event = {
 
 # The Imperial Church
 narrative_event = {
-	id = PA.100031
-	title = EVTNAMEPA.100031
-	desc = EVTDESCPA.100031
+	id = PA.10031
+	title = EVTNAMEPA.10031
+	desc = EVTDESCPA.10031
 	picture = GFX_evt_icon
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100031
+		name = OPTPA_10031
 
 		if = {
 			limit = { religion = imperial }
@@ -968,7 +968,7 @@ narrative_event = {
 					religion = orthodox
 					controls_religion = no
 				}
-				narrative_event = { id = PA.100032 }
+				narrative_event = { id = PA.10032 }
 			}
 		}
 	}
@@ -976,15 +976,15 @@ narrative_event = {
 
 # Convert or Not?
 narrative_event = {
-	id = PA.100032
-	title = EVTNAMEPA.100031
-	desc = EVTDESCPA.100031
+	id = PA.10032
+	title = EVTNAMEPA.10031
+	desc = EVTDESCPA.10031
 	picture = GFX_evt_icon
 	
 	is_triggered_only = yes
 	
 	option = { # Yes
-		name = OPTAPA_100032
+		name = OPTAPA_10032
 		ai_chance = { factor = 75 }
 		religion = FROM
 		any_courtier = {
@@ -995,16 +995,16 @@ narrative_event = {
 		}
 	}
 	option = { # No
-		name = OPTBPA_1000032
+		name = OPTBPA_10032
 		ai_chance = { factor = 25 }
 	}
 }
 
 # Saint Peter
 narrative_event = {
-	id = PA.100033
-	title = EVTNAMEPA.100033
-	desc = EVTDESCPA.100033
+	id = PA.10033
+	title = EVTNAMEPA.10033
+	desc = EVTDESCPA.10033
 	picture = GFX_evt_crusaders
 
  	major = yes
@@ -1043,14 +1043,14 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTAPA_100033
+		name = OPTAPA_10033
 		trigger = {
 			religion = imperial
 		}
 		
 	}
 	option = {
-		name = OPTBPA_1000033
+		name = OPTBPA_1033
 		   trigger = {
                              NOT = { religion = imperial }
                              }
@@ -1059,9 +1059,9 @@ narrative_event = {
 
 # Imperial Crusades
 narrative_event = {
-	id = PA.100034
-	title = EVTNAMEPA.100034
-	desc = EVTDESCPA.100034
+	id = PA.10034
+	title = EVTNAMEPA.10034
+	desc = EVTDESCPA.10034
 	picture = GFX_evt_crusaders
 
  	major = yes
@@ -1084,14 +1084,14 @@ narrative_event = {
 	            } 
 
 	option = {
-		name = OPTAPA_100034
+		name = OPTAPA_10034
 		trigger = {
 			religion = imperial
 		}
 		
 	}
 	option = {
-		name = OPTBPA_1000034
+		name = OPTBPA_10034
 		   trigger = {
                              NOT = { religion = imperial }
                              }
@@ -1100,8 +1100,8 @@ narrative_event = {
 
 # Crown of Thorns
 character_event = {
-	id = PA.100035
-	desc = EVTDESCPA.100035
+	id = PA.10035
+	desc = EVTDESCPA.10035
 	picture = GFX_evt_council
 	
 	trigger = {
@@ -1117,22 +1117,22 @@ character_event = {
 	}
 
 	option = {
-		name = OPTAPA_100035
+		name = OPTAPA_10035
                 set_global_flag = sold_holy_crown
                 wealth = 300
                 prestige = -300
 		}
 		
 	option = {
-		name = OPTBPA_1000035
+		name = OPTBPA_10035
                 set_character_flag = refused_holy_crown
 	}
 }
 
 # Lead Roof Tiles
 character_event = {
-	id = PA.100036
-	desc = EVTDESCPA.100036
+	id = PA.10036
+	desc = EVTDESCPA.10036
 	picture = GFX_evt_council
 	
 	trigger = {
@@ -1149,23 +1149,23 @@ character_event = {
 	}
 
 	option = {
-		name = OPTAPA_100036
+		name = OPTAPA_10036
                 set_global_flag = sold_roof_tiles
                 wealth = 100
                 prestige = -100
 		}
 		
 	option = {
-		name = OPTBPA_1000036
+		name = OPTBPA_10036
                 set_character_flag = refused_roof_tiles
 	}
 }
 
 # Thessalonika Conquered (Latin Empire)
 narrative_event = {
-	id = PA.100037
-	title = EVTNAMEPA.100037
-	desc = EVTDESCPA.100037
+	id = PA.10037
+	title = EVTNAMEPA.10037
+	desc = EVTDESCPA.10037
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -1182,7 +1182,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100037
+		name = OPTPA_10037
                 set_global_flag = thessalonika_conquered_latin_empire
                 prestige = 100
 	}		
@@ -1190,9 +1190,9 @@ narrative_event = {
 
 # Athens Conquered (Latin Empire)
 narrative_event = {
-	id = PA.100038
-	title = EVTNAMEPA.100038
-	desc = EVTDESCPA.100038
+	id = PA.10038
+	title = EVTNAMEPA.10038
+	desc = EVTDESCPA.10038
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -1209,7 +1209,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100018
+		name = OPTPA_10018
                 set_global_flag = athens_conquered_latin_empire
                 prestige = 100
 	}		
@@ -1217,9 +1217,9 @@ narrative_event = {
 
 # Byzantium Destroyed (Latin Empire)
 narrative_event = {
-	id = PA.100039
-	title = EVTNAMEPA.100039
-	desc = EVTDESCPA.100039
+	id = PA.10039
+	title = EVTNAMEPA.10039
+	desc = EVTDESCPA.10039
 	picture = GFX_evt_bloody_man
 
 	ai = no
@@ -1237,7 +1237,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100039
+		name = OPTPA_10039
                 set_global_flag = byzantium_destroyed_latin_empire
                 prestige = 200
 	}		
@@ -1245,7 +1245,7 @@ narrative_event = {
 
 # Pope Recovered Rome
 character_event = {
-	id = PA.100040
+	id = PA.10040
 
         hide_window = yes
 
@@ -1276,7 +1276,7 @@ character_event = {
 
 # Unique Buildings Commune
 character_event = {
-	id = PA.100041
+	id = PA.10041
 	
         hide_window = yes
 
@@ -1301,7 +1301,7 @@ character_event = {
 
 # Patrician Buildings Event
 character_event = {
-	id = PA.100042
+	id = PA.10042
 	
         hide_window = yes
 
@@ -1326,7 +1326,7 @@ character_event = {
 
 # The son of a ruler volunteers to join the Order
 character_event = {
-	id = PA.100043
+	id = PA.10043
 	desc = EVTDESc.10043
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
@@ -1439,7 +1439,7 @@ character_event = {
 		}
 		liege = {
 			character_event = {
-				id = PA.100044
+				id = PA.10044
 			}
 		}
 	}
@@ -1450,8 +1450,8 @@ character_event = {
 
 # Son or brother asks to join the Order
 character_event = {
-	id = PA.100044
-	desc = EVTDESCPA.100044
+	id = PA.10044
+	desc = EVTDESCPA.10044
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1467,7 +1467,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.100045
+				id = PA.10045
 				tooltip = EVTTOOLTIPPA_10045
 			}
 		}
@@ -1480,7 +1480,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.100046
+				id = PA.10046
 				tooltip = EVTTOOLTIP_SOA_1033
 			}
 		}
@@ -1489,8 +1489,8 @@ character_event = {
 
 # Son or brother joins the Order
 character_event = {
-	id = PA.100045
-	desc = EVTDESCPA.100045
+	id = PA.10045
+	desc = EVTDESCPA.10045
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1515,8 +1515,8 @@ character_event = {
 
 # Liege refuses request to join the Order
 character_event = {
-	id = PA.100046
-	desc = EVTDESCPA.100046
+	id = PA.10046
+	desc = EVTDESCPA.10046
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1534,7 +1534,7 @@ character_event = {
 
 # Ping event when donating money to the Order
 character_event = {
-	id = PA.100047
+	id = PA.10047
 	
 	hide_window = yes
 	
@@ -1544,7 +1544,7 @@ character_event = {
 		wealth = 300
 		FROM = {
 			letter_event = {
-				id = PA.100048
+				id = PA.10048
 			}
 		}
 		opinion = {
@@ -1560,7 +1560,7 @@ character_event = {
 
 # Notification event when donating money to the Order
 letter_event = {
-	id = PA.100048
+	id = PA.10048
 	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
@@ -1573,7 +1573,7 @@ letter_event = {
 
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
-	id = PA.100049
+	id = PA.10049
 	
 	hide_window = yes
 	
@@ -1650,7 +1650,7 @@ character_event = {
 				has_empty_holding = yes
 			}
 			province_event = {
-				id = PA.100050
+				id = PA.10050
 			}
 		}
 	}
@@ -1661,7 +1661,7 @@ character_event = {
 }
 
 province_event = {
-	id = PA.100050
+	id = PA.10050
 	
 	hide_window = yes
 	
@@ -1671,7 +1671,7 @@ province_event = {
 		d_saint_peter = {
 			holder_scope = {
 				character_event = {
-					id = PA.100051
+					id = PA.10051
 				}
 			}
 		}
@@ -1683,7 +1683,7 @@ province_event = {
 }
 
 character_event = {
-	id = PA.100051
+	id = PA.10051
 	
 	hide_window = yes
 	
@@ -1692,7 +1692,7 @@ character_event = {
 	immediate = {
 		FROMFROM = {
 			character_event = {
-				id = PA.100052
+				id = PA.10052
 			}
 		}
 	}
@@ -1703,8 +1703,8 @@ character_event = {
 }
 
 letter_event = {
-	id = PA.100052
-	desc = EVTDESCPA.100052
+	id = PA.10052
+	desc = EVTDESCPA.10052
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1721,7 +1721,7 @@ letter_event = {
 		
 		hidden_tooltip = {
 			FROMFROM = {
-				province_event = { id = PA.100053 }
+				province_event = { id = PA.10053 }
 			}
 			remove_character_modifier = expelled_d_saint_peter
 		}
@@ -1742,8 +1742,8 @@ letter_event = {
 
 # Castle has been erected
 province_event = {
-	id = PA.100053
-	desc = EVTDESCPA.100053
+	id = PA.10053
+	desc = EVTDESCPA.10053
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -1766,7 +1766,7 @@ province_event = {
 
 # Ping event when expelling the Order
 character_event = {
-	id = PA.100054
+	id = PA.10054
 	
 	hide_window = yes
 	
@@ -1790,7 +1790,7 @@ character_event = {
 	
 		FROM = {
 			letter_event = {
-				id = PA.100055
+				id = PA.10055
 			}
 		}
 		
@@ -1807,8 +1807,8 @@ character_event = {
 
 # Notification event when expelling the Order
 letter_event = {
-	id = PA.100055
-	desc = EVTDESCPA.100055
+	id = PA.10055
+	desc = EVTDESCPA.10055
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1824,8 +1824,8 @@ letter_event = {
 
 # The son of a ruler volunteers to join the Order
 character_event = {
-	id = PA.100056
-	desc = EVTDESCPA.100056
+	id = PA.10056
+	desc = EVTDESCPA.10056
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1937,7 +1937,7 @@ character_event = {
 		}
 		liege = {
 			character_event = {
-				id = PA.100057
+				id = PA.10057
 			}
 		}
 	}
@@ -1948,8 +1948,8 @@ character_event = {
 
 # Son or brother asks to join the Order
 character_event = {
-	id = PA.100057
-	desc = EVTDESCPA.100057
+	id = PA.10057
+	desc = EVTDESCPA.10057
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1965,7 +1965,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.100058
+				id = PA.10058
 				tooltip = EVTTOOLTIPPA_10058
 			}
 		}
@@ -1978,7 +1978,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.100059
+				id = PA.10059
 				tooltip = EVTTOOLTIP_SOA_1033
 			}
 		}
@@ -1987,8 +1987,8 @@ character_event = {
 
 # Son or brother joins the Order
 character_event = {
-	id = PA.100058
-	desc = EVTDESCPA.100058
+	id = PA.10058
+	desc = EVTDESCPA.10058
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -2013,8 +2013,8 @@ character_event = {
 
 # Liege refuses request to join the Order
 character_event = {
-	id = PA.100059
-	desc = EVTDESCPA.100059
+	id = PA.10059
+	desc = EVTDESCPA.10059
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -2032,7 +2032,7 @@ character_event = {
 
 # Ping event when donating money to the Order
 character_event = {
-	id = PA.100060
+	id = PA.10060
 	
 	hide_window = yes
 	
@@ -2042,7 +2042,7 @@ character_event = {
 		wealth = 300
 		FROM = {
 			letter_event = {
-				id = PA.100061
+				id = PA.10061
 			}
 		}
 		opinion = {
@@ -2058,7 +2058,7 @@ character_event = {
 
 # Notification event when donating money to the Order
 letter_event = {
-	id = PA.100061
+	id = PA.10061
 	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
@@ -2071,7 +2071,7 @@ letter_event = {
 
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
-	id = PA.100062
+	id = PA.10062
 	
 	hide_window = yes
 	
@@ -2148,7 +2148,7 @@ character_event = {
 				has_empty_holding = yes
 			}
 			province_event = {
-				id = PA.100063
+				id = PA.10063
 			}
 		}
 	}
@@ -2159,7 +2159,7 @@ character_event = {
 }
 
 province_event = {
-	id = PA.100063
+	id = PA.10063
 	
 	hide_window = yes
 	
@@ -2169,7 +2169,7 @@ province_event = {
 		d_saint_peter = {
 			holder_scope = {
 				character_event = {
-					id = PA.100064
+					id = PA.10064
 				}
 			}
 		}
@@ -2181,7 +2181,7 @@ province_event = {
 }
 
 character_event = {
-	id = PA.100064
+	id = PA.10064
 	
 	hide_window = yes
 	
@@ -2190,7 +2190,7 @@ character_event = {
 	immediate = {
 		FROMFROM = {
 			character_event = {
-				id = PA.100065
+				id = PA.10065
 			}
 		}
 	}
@@ -2201,8 +2201,8 @@ character_event = {
 }
 
 letter_event = {
-	id = PA.100065
-	desc = EVTDESCPA.100065
+	id = PA.10065
+	desc = EVTDESCPA.10065
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2219,7 +2219,7 @@ letter_event = {
 		
 		hidden_tooltip = {
 			FROMFROM = {
-				province_event = { id = PA.100066 }
+				province_event = { id = PA.10066 }
 			}
 			remove_character_modifier = expelled_d_saint_blaise
 		}
@@ -2240,8 +2240,8 @@ letter_event = {
 
 # Castle has been erected
 province_event = {
-	id = PA.100066
-	desc = EVTDESCPA.100066
+	id = PA.10066
+	desc = EVTDESCPA.10066
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -2264,7 +2264,7 @@ province_event = {
 
 # Ping event when expelling the Order
 character_event = {
-	id = PA.100067
+	id = PA.10067
 	
 	hide_window = yes
 	
@@ -2288,7 +2288,7 @@ character_event = {
 	
 		FROM = {
 			letter_event = {
-				id = PA.100068
+				id = PA.10068
 			}
 		}
 		
@@ -2305,8 +2305,8 @@ character_event = {
 
 # Notification event when expelling the Order
 letter_event = {
-	id = PA.100068
-	desc = EVTDESCPA.100068
+	id = PA.10068
+	desc = EVTDESCPA.10068
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2318,7 +2318,7 @@ letter_event = {
 
 # Re-establish Chosen
 narrative_event = {
-	id = PA.100069
+	id = PA.10069
 
         hide_window = yes
 	
@@ -2366,7 +2366,7 @@ narrative_event = {
 
 # Destroy Chosen
 narrative_event = {
-	id = PA.100070
+	id = PA.10070
 
         hide_window = yes
 	
@@ -2403,9 +2403,9 @@ narrative_event = {
 
 # Constantinople Conquered (Bulgarian Empire)
 narrative_event = {
-	id = PA.100071
-	title = EVTNAMEPA.100071
-	desc = EVTDESCPA.100071
+	id = PA.10071
+	title = EVTNAMEPA.10071
+	desc = EVTDESCPA.10071
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -2421,7 +2421,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100071
+		name = OPTPA_10071
                 set_global_flag = constantinople_conquered_bulgarian_empire
                 prestige = 100
 		}		
@@ -2429,9 +2429,9 @@ narrative_event = {
 
 # Thessalonika Conquered (Trebizond)
 narrative_event = {
-	id = PA.100072
-	title = EVTNAMEPA.100072
-	desc = EVTDESCPA.100072
+	id = PA.10072
+	title = EVTNAMEPA.10072
+	desc = EVTDESCPA.10072
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -2447,7 +2447,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100072
+		name = OPTPA_10072
                 set_global_flag = thessalonika_conquered_trebizond
                 prestige = 100
 		}		
@@ -2455,9 +2455,9 @@ narrative_event = {
 
 # Athens Conquered (Greek Empires)
 narrative_event = {
-	id = PA.100073
-	title = EVTNAMEPA.100073
-	desc = EVTDESCPA.100073
+	id = PA.10073
+	title = EVTNAMEPA.10073
+	desc = EVTDESCPA.10073
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -2476,7 +2476,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100073
+		name = OPTPA_10073
                 set_global_flag = athens_conquered_greek_empires
                 prestige = 100
 		}		
@@ -2484,9 +2484,9 @@ narrative_event = {
 
 # Constantinople Conquered (Greek Empires)
 narrative_event = {
-	id = PA.100074
-	title = EVTNAMEPA.100074
-	desc = EVTDESCPA.100074
+	id = PA.10074
+	title = EVTNAMEPA.10074
+	desc = EVTDESCPA.10074
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -2505,7 +2505,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100074
+		name = OPTPA_10074
                 set_global_flag = constantinople_conquered_greek_empires
                 prestige = 100
 		}		
@@ -2513,9 +2513,9 @@ narrative_event = {
 
 # Byzantium Destroyed (Greek Empires)
 narrative_event = {
-	id = PA.100076
-	title = EVTNAMEPA.100076
-	desc = EVTDESCPA.100076
+	id = PA.10076
+	title = EVTNAMEPA.10076
+	desc = EVTDESCPA.10076
 	picture = GFX_evt_bloody_man
 
 	ai = no
@@ -2536,7 +2536,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100076
+		name = OPTPA_10076
                 set_global_flag = byzantium_destroyed_greek_empires
                 prestige = 200
 		}		
@@ -2544,9 +2544,9 @@ narrative_event = {
 
 # Thessalonika Conquered (Greek Kingdoms)
 narrative_event = {
-	id = PA.100077
-	title = EVTNAMEPA.100077
-	desc = EVTDESCPA.100077
+	id = PA.10077
+	title = EVTNAMEPA.10077
+	desc = EVTDESCPA.10077
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -2571,7 +2571,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100077
+		name = OPTPA_10077
                 set_global_flag = thessalonika_conquered_greek_kingdoms
                 prestige = 100
 		}		
@@ -2581,9 +2581,9 @@ narrative_event = {
 
 # Athens Conquered (Greek Kingdoms)
 narrative_event = {
-	id = PA.100078
-	title = EVTNAMEPA.100078
-	desc = EVTDESCPA.100078
+	id = PA.10078
+	title = EVTNAMEPA.10078
+	desc = EVTDESCPA.10078
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -2608,7 +2608,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100078
+		name = OPTPA_10078
                 set_global_flag = athens_conquered_greek_kingdoms
                 prestige = 100
 		}		
@@ -2616,9 +2616,9 @@ narrative_event = {
 
 # Constantinople Conquered (Greek Kingdoms)
 narrative_event = {
-	id = PA.100079
-	title = EVTNAMEPA.100079
-	desc = EVTDESCPA.100079
+	id = PA.10079
+	title = EVTNAMEPA.10079
+	desc = EVTDESCPA.10079
 	picture = GFX_evt_crusaders
 
 	ai = no
@@ -2643,7 +2643,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100079
+		name = OPTPA_10079
                 set_global_flag = constantinople_conquered_greek_kingdoms
                 prestige = 100
 		}		
@@ -2651,9 +2651,9 @@ narrative_event = {
 
 # Byzantium Destroyed (Greek Kingdoms)
 narrative_event = {
-	id = PA.100080
-	title = EVTNAMEPA.100080
-	desc = EVTDESCPA.100080
+	id = PA.10080
+	title = EVTNAMEPA.10080
+	desc = EVTDESCPA.10080
 	picture = GFX_evt_bloody_man
 
 	ai = no
@@ -2680,7 +2680,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTPA_100080
+		name = OPTPA_10080
                 set_global_flag = byzantium_destroyed_greek_kingdoms
                 prestige = 200
 		}		
@@ -2688,9 +2688,9 @@ narrative_event = {
 
 # Dacia
 narrative_event = {
-	id = PA.100082
-	title = EVTNAMEPA.100082
-	desc = EVTDESCPA.100082
+	id = PA.10082
+	title = EVTNAMEPA.10082
+	desc = EVTDESCPA.10082
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -2713,7 +2713,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100082
+		name = OPTPA_10082
 		set_global_flag = dacia_recovered
 		prestige = 100
 	}
@@ -2721,9 +2721,9 @@ narrative_event = {
 
 # Persia
 narrative_event = {
-	id = PA.100083
-	title = EVTNAMEPA.100083
-	desc = EVTDESCPA.100083
+	id = PA.10083
+	title = EVTNAMEPA.10083
+	desc = EVTDESCPA.10083
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -2750,7 +2750,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100083
+		name = OPTPA_10083
 		set_global_flag = persia_conquered
 		prestige = 100
 	}
@@ -2758,9 +2758,9 @@ narrative_event = {
 
 # Slavinia
 narrative_event = {
-	id = PA.100084
-	title = EVTNAMEPA.100084
-	desc = EVTDESCPA.100084
+	id = PA.10084
+	title = EVTNAMEPA.10084
+	desc = EVTDESCPA.10084
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -2785,7 +2785,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100084
+		name = OPTPA_10084
 		set_global_flag = slavinia_conquered
 		prestige = 100
 	}
@@ -2793,24 +2793,24 @@ narrative_event = {
 
 # Varangian Guard Re-created (Norse)
 narrative_event = {
-	id = PA.100085
-	title = EVTNAMEPA.100085
-	desc = EVTDESCPA.100085
+	id = PA.10085
+	title = EVTNAMEPA.10085
+	desc = EVTDESCPA.10085
 	picture = GFX_evt_viking_battle_oldgods
 	border = GFX_event_narrative_frame_war
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100085
+		name = OPTPA_10085
 	}
 }
 
 # Tangiers Recovered
 narrative_event = {
-	id = PA.100086
-	title = EVTNAMEPA.100086
-	desc = EVTDESCPA.100086
+	id = PA.10086
+	title = EVTNAMEPA.10086
+	desc = EVTDESCPA.10086
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -2833,7 +2833,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100086
+		name = OPTPA_10086
 		set_global_flag = recovered_tangiers
 		prestige = 100
 	}
@@ -2841,9 +2841,9 @@ narrative_event = {
 
 # Cordoba Recovered
 narrative_event = {
-	id = PA.100087
-	title = EVTNAMEPA.100087
-	desc = EVTDESCPA.100087
+	id = PA.10087
+	title = EVTNAMEPA.10087
+	desc = EVTDESCPA.10087
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -2866,7 +2866,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100087
+		name = OPTPA_10087
 		set_global_flag = recovered_cordoba
 		prestige = 100
 	}
@@ -2874,9 +2874,9 @@ narrative_event = {
 
 # Bordeaux Recovered
 narrative_event = {
-	id = PA.100088
-	title = EVTNAMEPA.100088
-	desc = EVTDESCPA.100088
+	id = PA.10088
+	title = EVTNAMEPA.10088
+	desc = EVTDESCPA.10088
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -2899,7 +2899,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100088
+		name = OPTPA_10088
 		set_global_flag = recovered_bordeaux
 		prestige = 100
 	}
@@ -2908,9 +2908,9 @@ narrative_event = {
 
 # Trier Recovered
 narrative_event = {
-	id = PA.100089
-	title = EVTNAMEPA.100089
-	desc = EVTDESCPA.100089
+	id = PA.10089
+	title = EVTNAMEPA.10089
+	desc = EVTDESCPA.10089
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -2933,7 +2933,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100089
+		name = OPTPA_10089
 		set_global_flag = recovered_trier
 		prestige = 100
 	}
@@ -2941,9 +2941,9 @@ narrative_event = {
 
 # London Recovered
 narrative_event = {
-	id = PA.100090
-	title = EVTNAMEPA.100090
-	desc = EVTDESCPA.100090
+	id = PA.10090
+	title = EVTNAMEPA.10090
+	desc = EVTDESCPA.10090
 	picture = GFX_evt_victory_arch_byzantine
 	
 	ai = no
@@ -2966,7 +2966,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_100090
+		name = OPTPA_10090
 		set_global_flag = recovered_london
 		prestige = 100
 	}
@@ -2974,9 +2974,9 @@ narrative_event = {
 
 # Caesar's Sword
 narrative_event = {
-	id = PA.100091
-	title = EVTNAMEPA.100091
-	desc = EVTDESCPA.100091
+	id = PA.10091
+	title = EVTNAMEPA.10091
+	desc = EVTDESCPA.10091
 	picture = GFX_evt_throne_room_byzantine
 	
 	ai = no
@@ -2998,7 +2998,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTAPA_100091
+		name = OPTAPA_10091
 		set_global_flag = sword_of_caesar
 		prestige = 100
                 add_character_modifier = {
@@ -3008,7 +3008,7 @@ narrative_event = {
                 }
 	}
 	option = {
-		name = OPTBPA_1000091
+		name = OPTBPA_10091
 		set_global_flag = sword_of_caesar
 		wealth = 200
         }
@@ -3016,23 +3016,23 @@ narrative_event = {
 
 # Varangian Guard Re-created (Player)
 narrative_event = {
-	id = PA.100092
-	title = EVTNAMEPA.100092
-	desc = EVTDESCPA.100092
+	id = PA.10092
+	title = EVTNAMEPA.10092
+	desc = EVTDESCPA.10092
 	picture = GFX_evt_viking_battle_oldgods
 	border = GFX_event_narrative_frame_war
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100092
+		name = OPTPA_10092
                 hidden_tooltip = {
 			any_playable_ruler = {
 				limit = {
 					ai = no
 					culture_group = north_germanic
 				}
-				narrative_event = { id = PA.100085 }
+				narrative_event = { id = PA.10085 }
 			}
 		}
 	}
@@ -3040,30 +3040,30 @@ narrative_event = {
 
 # Papal Support I (Notification)
 character_event = {
-	id = PA.100093
-	desc = EVTDESCPA.100093
+	id = PA.10093
+	desc = EVTDESCPA.10093
         picture = GFX_evt_pope
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100093
+		name = OPTPA_10093
                 hidden_tooltip = {
-		    character_event = { id = PA.100094 days = 280 }
+		    character_event = { id = PA.10094 days = 280 }
                 }
 	}
 }
 
 # Troops Arrive (Latin Empire)
 character_event = {
-    id = PA.100094
-    desc = EVTDESCPA.100094
+    id = PA.10094
+    desc = EVTDESCPA.10094
     picture = GFX_evt_crusaders
 
     is_triggered_only = yes
 
     option = {
-        name = OPTPA_100098
+        name = OPTPA_10098
         capital_scope = {
                 ROOT = {
                         spawn_unit = {
@@ -3117,30 +3117,30 @@ character_event = {
 
 # Papal Support II (Notification)
 character_event = {
-	id = PA.100095
-	desc = EVTDESCPA.100095
+	id = PA.10095
+	desc = EVTDESCPA.10095
         picture = GFX_evt_pope
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100095
+		name = OPTPA_10095
                 hidden_tooltip = {
-		    character_event = { id = PA.100096 days = 280 }
+		    character_event = { id = PA.10096 days = 280 }
                 }
 	}
 }
 
 # Troops Arrive (Byzantine Empire)
 character_event = {
-    id = PA.100096
-    desc = EVTDESCPA.100096
+    id = PA.10096
+    desc = EVTDESCPA.10096
     picture = GFX_evt_crusaders
 
     is_triggered_only = yes
 
     option = {
-        name = OPTPA_100098
+        name = OPTPA_10098
         capital_scope = {
                 ROOT = {
                         spawn_unit = {
@@ -3194,30 +3194,30 @@ character_event = {
 
 # Papal Support III (Notification)
 character_event = {
-	id = PA.100097
-	desc = EVTDESCPA.100097
+	id = PA.10097
+	desc = EVTDESCPA.10097
         picture = GFX_evt_pope
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_100097
+		name = OPTPA_10097
                 hidden_tooltip = {
-		    character_event = { id = PA.100098 days = 280 }
+		    character_event = { id = PA.10098 days = 280 }
                 }
 	}
 }
 
 # Troops Arrive (Jerusalem)
 character_event = {
-    id = PA.100098
-    desc = EVTDESCPA.100098
+    id = PA.10098
+    desc = EVTDESCPA.10098
     picture = GFX_evt_crusaders
 
     is_triggered_only = yes
 
     option = {
-        name = OPTPA_100098
+        name = OPTPA_10098
         capital_scope = {
                 ROOT = {
                         spawn_unit = {
@@ -3271,8 +3271,8 @@ character_event = {
 
 # Khazar Conversion
 character_event = {
-	id = PA.100099
-	desc = EVTDESCPA.100099
+	id = PA.10099
+	desc = EVTDESCPA.10099
         picture = GFX_evt_church_council
 	
 	trigger = {
@@ -3289,7 +3289,7 @@ character_event = {
         }
 
 	option = {
-		name = OPTAPA_100099
+		name = OPTAPA_10099
 			ROOT = { religion = orthodox }
 			620 =  { religion = orthodox }
 			any_courtier = {
@@ -3303,7 +3303,7 @@ character_event = {
 			}
 	}
 	option = {
-		name = OPTBPA_1000099
+		name = OPTBPA_10099
 			ROOT = { religion = sunni }
 			620 =  { religion = sunni }
 			any_courtier = {
@@ -3317,7 +3317,7 @@ character_event = {
 			}
 	}
 	option = {
-		name = OPTCPA_100099
+		name = OPTCPA_10099
 			ROOT = { religion = jewish }
 			620 =  { religion = jewish }
 			any_courtier = {
@@ -3341,7 +3341,7 @@ character_event = {
 
 # Destroy Imperial Navy (Byzantium)
 character_event = {
-	id = PA.1000100
+	id = PA.10100
 
         hide_window = yes
 	
@@ -3371,7 +3371,7 @@ character_event = {
 
 # Destroy Imperial Navy (Greek Rome)
 character_event = {
-	id = PA.1000101
+	id = PA.10101
 
         hide_window = yes
 	
@@ -3401,7 +3401,7 @@ character_event = {
 
 # Destroy Imperial Navy (Latin Rome)
 character_event = {
-	id = PA.1000105
+	id = PA.10105
 
         hide_window = yes
 	
@@ -3434,7 +3434,7 @@ character_event = {
 
 # Rumors of a Steppe Menace (Historical)
 narrative_event = {
-	id = PA.1000106
+	id = PA.10106
 	title = EVTNAME60000
 	desc = EVTDESC60000
 	major = yes
@@ -3473,7 +3473,7 @@ narrative_event = {
 
 # Re-establish Arsiyah
 narrative_event = {
-	id = PA.1000107
+	id = PA.10107
 
         hide_window = yes
 	
@@ -3515,7 +3515,7 @@ narrative_event = {
 
 # Destroy Arsiyah
 character_event = {
-	id = PA.1000108
+	id = PA.10108
 
         hide_window = yes
 	
@@ -3545,7 +3545,7 @@ character_event = {
 
 # Re-establish Kheshig
 narrative_event = {
-	id = PA.1000109
+	id = PA.10109
 
         hide_window = yes
 	
@@ -3588,7 +3588,7 @@ narrative_event = {
 
 # Destroy Kheshig
 character_event = {
-	id = PA.1000110
+	id = PA.10110
 
         hide_window = yes
 	
@@ -3618,7 +3618,7 @@ character_event = {
 
 # Re-establish Varangians
 narrative_event = {
-	id = PA.1000112
+	id = PA.10112
 
         hide_window = yes
 	
@@ -3665,7 +3665,7 @@ narrative_event = {
 
 # Re-establish Foederati
 narrative_event = {
-	id = PA.1000113
+	id = PA.10113
 
         hide_window = yes
 	
@@ -3709,7 +3709,7 @@ narrative_event = {
 
 # Destroy Foederati
 narrative_event = {
-	id = PA.1000114
+	id = PA.10114
 
         hide_window = yes
 	
@@ -3744,7 +3744,7 @@ narrative_event = {
 
 # Destroy Varangians
 narrative_event = {
-	id = PA.1000115
+	id = PA.10115
 
         hide_window = yes
 	
@@ -3782,7 +3782,7 @@ narrative_event = {
 
 # Destroy Varangians (Again)
 narrative_event = {
-	id = PA.1000116
+	id = PA.10116
 
         hide_window = yes
 	
@@ -3817,7 +3817,7 @@ narrative_event = {
 
 # Martial Eunuch
 character_event = {
-	id = PA.1000117
+	id = PA.10117
 	desc = EVTDESCLoR.801
 	picture = GFX_evt_emissary_byzantine
 	
@@ -3851,7 +3851,7 @@ character_event = {
 
 # Diplomacy Eunuch 
 character_event = {
-	id = PA.1000118
+	id = PA.10118
 	desc = EVTDESCLoR.802
 	picture = GFX_evt_emissary_byzantine
 	
@@ -3885,7 +3885,7 @@ character_event = {
 
 # Steward Eunuch
 character_event = {
-	id = PA.1000119
+	id = PA.10119
 	desc = EVTDESCLoR.803
 	picture = GFX_evt_emissary_byzantine
 	
@@ -3919,7 +3919,7 @@ character_event = {
 
 # Spymaster Eunuch
 character_event = {
-	id = PA.1000120
+	id = PA.10120
 	desc = EVTDESCLoR.804
 	picture = GFX_evt_emissary_byzantine
 	
@@ -3953,7 +3953,7 @@ character_event = {
 
 # Learning Eunuch
 character_event = {
-	id = PA.1000121
+	id = PA.10121
 	desc = EVTDESCLoR.805
 	picture = GFX_evt_emissary_byzantine
 	
@@ -3987,9 +3987,9 @@ character_event = {
 
 # Fall of Francia
 narrative_event = {
-	id = PA.1000181
-	title = EVTNAMEPA.1000181
-	desc = EVTDESCPA.1000181
+	id = PA.10181
+	title = EVTNAMEPA.10181
+	desc = EVTDESCPA.10181
 	picture = GFX_evt_seige
 		
  	major = yes
@@ -4005,7 +4005,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000181
+		name = OPTPA_100181
 		e_france = {
 			destroy_landed_title = THIS
 		 }
@@ -4014,7 +4014,7 @@ narrative_event = {
 
 # Re-establish Companions
 narrative_event = {
-	id = PA.1000183
+	id = PA.10183
 
         hide_window = yes
 	
@@ -4058,7 +4058,7 @@ narrative_event = {
 
 # Destroy Companions
 narrative_event = {
-	id = PA.1000184
+	id = PA.10184
 
         hide_window = yes
 	
@@ -4090,8 +4090,8 @@ narrative_event = {
 
 # Diadochi Trait Gained
 character_event = {
-	id = PA.1000185
-	desc = EVTDESCPA.1000185
+	id = PA.10185
+	desc = EVTDESCPA.10185
 	picture = GFX_evt_victory_arch_byzantine
 	
 	trigger = {
@@ -4104,15 +4104,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000185
+		name = OPTPA_100185
 		add_trait = diadochi
 	}
 }
 
 # Diadochi Trait Lost
 character_event = {
-	id = PA.1000186
-	desc = EVTDESCPA.1000186
+	id = PA.10186
+	desc = EVTDESCPA.10186
 	picture = GFX_evt_victory_arch_byzantine
 	
 	trigger = {
@@ -4126,16 +4126,16 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000186
+		name = OPTPA_100186
 		remove_trait = diadochi
 	}
 }
 
 # A child is Born in the Purple (Kingdoms)
 character_event = {
-	id = PA.1000203
+	id = PA.100203
 		
-	desc = EVTDESCPA.1000203
+	desc = EVTDESCPA.100203
 	picture = GFX_evt_born_purple_byzantine
 
         is_triggered_only = yes
@@ -4176,29 +4176,29 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000203
+		name = OPTPA_100203
 		add_trait = born_in_the_purple2
 		liege = {
-			character_event = { id = PA.1000204 }
+			character_event = { id = PA.100204 }
 		}
 	}
 }
 
 character_event = {
-	id = PA.1000204
-	desc = EVTDESCPA.1000204
+	id = PA.100204
+	desc = EVTDESCPA.100204
 	picture = GFX_evt_born_purple_byzantine
 
 	is_triggered_only = yes
 
 	option = {
-		name = OPTPA_1000204
+		name = OPTPA_100204
                 prestige = 20
 	}
 }
 
 character_event = {
-	id = PA.1000255
+	id = PA.100255
 
         hide_window = yes
 
@@ -4264,7 +4264,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000257
+	id = PA.100257
     hide_window = yes
 
         trigger = {
@@ -4280,15 +4280,15 @@ character_event = {
 }
 
 narrative_event = {
-	id = PA.1000258
-	title = EVTNAMEPA.1000258
-	desc = EVTDESCPA.1000258
+	id = PA.100258
+	title = EVTNAMEPA.100258
+	desc = EVTDESCPA.100258
 	picture = GFX_evt_crusaders
 	
 	is_triggered_only = yes
 	
 	option = { 
-                name = OPTAPA_1000258
+                name = OPTAPA_100258
                 prestige = -100
                 set_defacto_liege = e_byzantium
                 add_character_modifier = {
@@ -4299,22 +4299,22 @@ narrative_event = {
 		ai_chance = { factor = 1 }
 	}
 	option = {
-		name = OPTBPA_10000258
+		name = OPTBPA_100258
                 prestige = 100
 		ai_chance = { factor = 0 }
 	}
 }
 
 narrative_event = {
-	id = PA.1000259
-	title = EVTNAMEPA.1000259
-	desc = EVTDESCPA.1000259
+	id = PA.100259
+	title = EVTNAMEPA.100259
+	desc = EVTDESCPA.100259
 	picture = GFX_evt_crusaders
 	
 	is_triggered_only = yes
 	
 	option = { 
-                name = OPTAPA_1000259
+                name = OPTAPA_100259
                 prestige = -100
 		k_trebizond = {
 			grant_title = ROOT
@@ -4332,7 +4332,7 @@ narrative_event = {
 		ai_chance = { factor = 1 }
 	}
 	option = {
-		name = OPTBPA_10000259
+		name = OPTBPA_100259
                 prestige = 100
 		ai_chance = { factor = 0 }
 	}
@@ -4340,7 +4340,7 @@ narrative_event = {
 
 # Destroy Syrian Fleet
 narrative_event = {
-	id = PA.1000260
+	id = PA.100260
 
         hide_window = yes
 	
@@ -4374,7 +4374,7 @@ narrative_event = {
 
 # Destroy Alexandrian Fleet
 narrative_event = {
-	id = PA.1000261
+	id = PA.100261
 
         hide_window = yes
 	
@@ -4408,7 +4408,7 @@ narrative_event = {
 
 # Destroy Mamluks
 narrative_event = {
-	id = PA.1000262
+	id = PA.100262
 
         hide_window = yes
 	
@@ -4445,7 +4445,7 @@ narrative_event = {
 
 # Destroy Janissaries
 narrative_event = {
-	id = PA.1000263
+	id = PA.100263
 
         hide_window = yes
 	
@@ -4479,7 +4479,7 @@ narrative_event = {
 
 # Destroy Paladins
 narrative_event = {
-	id = PA.1000264
+	id = PA.100264
 
         hide_window = yes
 	
@@ -4510,7 +4510,7 @@ narrative_event = {
 
 # Destroy Savaran
 narrative_event = {
-	id = PA.1000265
+	id = PA.100265
 
         hide_window = yes
 	
@@ -4541,7 +4541,7 @@ narrative_event = {
 
 # Re-establish Mamluks
 narrative_event = {
-	id = PA.1000266
+	id = PA.100266
 
         hide_window = yes
 	
@@ -4589,7 +4589,7 @@ narrative_event = {
 
 # Re-establish Janissaries
 narrative_event = {
-	id = PA.1000267
+	id = PA.100267
 
         hide_window = yes
 	
@@ -4636,7 +4636,7 @@ narrative_event = {
 
 # Re-establish Paladins
 narrative_event = {
-	id = PA.1000268
+	id = PA.100268
 
         hide_window = yes
 	
@@ -4680,7 +4680,7 @@ narrative_event = {
 
 # Re-establish Savaran
 narrative_event = {
-	id = PA.1000269
+	id = PA.100269
 
         hide_window = yes
 	
@@ -4724,7 +4724,7 @@ narrative_event = {
 
 # Destroy Tagmata
 narrative_event = {
-	id = PA.1000270
+	id = PA.100270
 
         hide_window = yes
 	
@@ -4758,7 +4758,7 @@ narrative_event = {
 
 # Destroy Tagmata (Again)
 narrative_event = {
-	id = PA.1000271
+	id = PA.100271
 
         hide_window = yes
 	
@@ -4792,7 +4792,7 @@ narrative_event = {
 
 # Destroy Archon
 narrative_event = {
-	id = PA.1000272
+	id = PA.100272
 
         hide_window = yes
 	
@@ -4826,7 +4826,7 @@ narrative_event = {
 
 # Destroy Archon (Again)
 narrative_event = {
-	id = PA.1000273
+	id = PA.100273
 
         hide_window = yes
 	
@@ -4860,7 +4860,7 @@ narrative_event = {
 
 # Destroy Chosen (Again)
 narrative_event = {
-	id = PA.1000274
+	id = PA.100274
 
         hide_window = yes
 	
@@ -4894,7 +4894,7 @@ narrative_event = {
 
 # Destroy Scholae
 narrative_event = {
-	id = PA.1000275
+	id = PA.100275
 
         hide_window = yes
 	
@@ -4928,7 +4928,7 @@ narrative_event = {
 
 # Destroy Nobiles
 narrative_event = {
-	id = PA.1000276
+	id = PA.100276
 
         hide_window = yes
 	
@@ -4962,8 +4962,8 @@ narrative_event = {
 
 # Old Frankish province converts to German
 province_event = {
-	id = PA.1000277
-	desc = EVTDESCPA.1000277
+	id = PA.100277
+	desc = EVTDESCPA.100277
 	picture = GFX_evt_stone_church
 
 	trigger = {
@@ -4989,15 +4989,15 @@ province_event = {
 	}
 
 	option = {
-		name = OPTPA_1000277
+		name = OPTPA_100277
 		culture = german
 	}
 }
 
 # Gallic province converts to French
 character_event = {
-	id = PA.1000278
-	desc = EVTDESCPA.1000278
+	id = PA.100278
+	desc = EVTDESCPA.100278
 	picture = GFX_evt_stone_church
 
         trigger = {
@@ -5019,7 +5019,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000278
+		name = OPTPA_100278
 		random_realm_province = {
                 	limit = {
 				culture = gallic
@@ -5030,8 +5030,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000279
-	desc = EVTDESCPA.1000279
+	id = PA.100279
+	desc = EVTDESCPA.100279
 	picture = GFX_evt_stone_church
 
         trigger = {
@@ -5047,7 +5047,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000278
+		name = OPTPA_100278
 		random_realm_province = {
                         limit = {
 				culture = ostrogoth
@@ -5058,7 +5058,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000280
+	id = PA.100280
 
         hide_window = yes
 
@@ -5088,7 +5088,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000281
+	id = PA.100281
 
         hide_window = yes
 
@@ -5118,7 +5118,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000282
+	id = PA.100282
 
         hide_window = yes
 
@@ -5146,7 +5146,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000283
+	id = PA.100283
 
         hide_window = yes
 
@@ -5173,7 +5173,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000284
+	id = PA.100284
 
         hide_window = yes
 
@@ -5200,7 +5200,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000285
+	id = PA.100285
 
         hide_window = yes
 
@@ -5227,7 +5227,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000286
+	id = PA.100286
 
         hide_window = yes
 
@@ -5254,8 +5254,8 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000287
-	desc = EVTDESCPA.1000287
+	id = PA.100287
+	desc = EVTDESCPA.100287
 	picture = GFX_evt_stone_church
 
         trigger = {
@@ -5272,7 +5272,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000287
+		name = OPTPA_100287
 		random_realm_province = {
                                 limit = {
 					culture = ostrogoth
@@ -5284,9 +5284,9 @@ character_event = {
 
 #Special event for Middle Francia to be renamed to Luxembourg
 narrative_event = {
-	id = PA.1000288
-	title = EVTNAMEPA.1000288
-	desc = EVTDESCPA.1000288
+	id = PA.100288
+	title = EVTNAMEPA.100288
+	desc = EVTDESCPA.100288
 	
 	picture = GFX_evt_council
 	border = GFX_event_normal_frame_diplomacy
@@ -5304,7 +5304,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000288
+		name = OPTPA_100288
 		set_global_flag = lotharingia_renamed
 		k_lotharingia = {
 			set_name="Luxembourg"
@@ -5315,9 +5315,9 @@ narrative_event = {
 
 # Frankish Breakup Event (Addition)
 narrative_event = {
-	id = PA.1000289
-	title = EVTNAMEPA.1000289
-	desc = EVTDESCPA.1000289
+	id = PA.100289
+	title = EVTNAMEPA.100289
+	desc = EVTDESCPA.100289
 	picture = GFX_evt_council
 	
         trigger = {
@@ -5335,7 +5335,7 @@ narrative_event = {
 	}
 	
 	option = {
-	        name = OPTPA_1000289
+	        name = OPTPA_100289
                 set_global_flag = frankish_decline
                 add_character_modifier = {
                     name = imperial_decline
@@ -5347,9 +5347,9 @@ narrative_event = {
 
 # Frankish Breakup Event (Removal)
 narrative_event = {
-	id = PA.1000290
-	title = EVTNAMEPA.1000290
-	desc = EVTDESCPA.1000290
+	id = PA.100290
+	title = EVTNAMEPA.100290
+	desc = EVTDESCPA.100290
 	picture = GFX_evt_council
 	
         trigger = {
@@ -5365,7 +5365,7 @@ narrative_event = {
 	}
 	
 	option = {
-	        name = OPTPA_1000290
+	        name = OPTPA_100290
                 remove_character_modifier = imperial_decline
                 prestige = 100
 	}
@@ -5373,9 +5373,9 @@ narrative_event = {
 
 # Abbasid Breakup Event (Addition)
 narrative_event = {
-	id = PA.1000291
-	title = EVTNAMEPA.1000291
-	desc = EVTDESCPA.1000291
+	id = PA.100291
+	title = EVTNAMEPA.100291
+	desc = EVTDESCPA.100291
 	picture = GFX_evt_council
 	
         trigger = {
@@ -5392,7 +5392,7 @@ narrative_event = {
 	}
 	
 	option = {
-	        name = OPTPA_1000291
+	        name = OPTPA_100291
                 set_global_flag = abbasid_decline
                 add_character_modifier = {
                     name = abbasid_anarchy
@@ -5404,9 +5404,9 @@ narrative_event = {
 
 # Abbasid Breakup Event (Removal)
 narrative_event = {
-	id = PA.1000292
-	title = EVTNAMEPA.1000292
-	desc = EVTDESCPA.1000292
+	id = PA.100292
+	title = EVTNAMEPA.100292
+	desc = EVTDESCPA.100292
 	picture = GFX_evt_council
 	
         trigger = {
@@ -5420,7 +5420,7 @@ narrative_event = {
 	}
 	
 	option = {
-	        name = OPTPA_1000292
+	        name = OPTPA_100292
                 remove_character_modifier = abbasid_anarchy
                 set_global_flag = abbasid_anarchy_done
                 prestige = 100
@@ -5428,7 +5428,7 @@ narrative_event = {
 }
 
 character_event = {
-	id = PA.1000293
+	id = PA.100293
 
         hide_window = yes
 
@@ -5455,7 +5455,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000294
+	id = PA.100294
 	
         hide_window = yes
 	
@@ -5477,7 +5477,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000295
+	id = PA.100295
 	
         hide_window = yes
 	
@@ -5498,7 +5498,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000296
+	id = PA.100296
 	
         hide_window = yes
 	
@@ -5520,7 +5520,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000297
+	id = PA.100297
 	
         hide_window = yes
 	
@@ -5542,7 +5542,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000298
+	id = PA.100298
 	
         hide_window = yes
 	
@@ -5566,9 +5566,9 @@ character_event = {
 
 # Byzantine Decline Event
 narrative_event = {
-	id = PA.1000299
-	title = EVTNAMEPA.1000299
-	desc = EVTDESCPA.1000299
+	id = PA.100299
+	title = EVTNAMEPA.100299
+	desc = EVTDESCPA.100299
 	picture = GFX_evt_council
 	
         trigger = {
@@ -5585,7 +5585,7 @@ narrative_event = {
 	}
 	
 	option = {
-	        name = OPTPA_1000299
+	        name = OPTPA_100299
                 set_global_flag = byzantine_decline
                 add_character_modifier = {
                     name = imperial_decline
@@ -5597,9 +5597,9 @@ narrative_event = {
 
 # Fourth Fitna Event (Addition)
 narrative_event = {
-	id = PA.1000300
-	title = EVTNAMEPA.1000300
-	desc = EVTDESCPA.1000300
+	id = PA.100300
+	title = EVTNAMEPA.100300
+	desc = EVTDESCPA.100300
 	picture = GFX_evt_council
 	
         trigger = {
@@ -5616,7 +5616,7 @@ narrative_event = {
 	}
 	
 	option = {
-	        name = OPTPA_1000300
+	        name = OPTPA_100300
                 set_global_flag = fourth_fitna
                 add_character_modifier = {
                     name = fourth_fitna
@@ -5627,7 +5627,7 @@ narrative_event = {
 }
 
 character_event = {
-	id = PA.1000301
+	id = PA.100301
 	
         hide_window = yes
 	
@@ -5648,7 +5648,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000302
+	id = PA.100302
 	
         hide_window = yes
 	
@@ -5677,9 +5677,9 @@ character_event = {
   
 # Fourth Fitna Event (Removal)
 narrative_event = {
-	id = PA.1000303
-	title = EVTNAMEPA.1000303
-	desc = EVTDESCPA.1000303
+	id = PA.100303
+	title = EVTNAMEPA.100303
+	desc = EVTDESCPA.100303
 	picture = GFX_evt_council
 	
     trigger = {
@@ -5693,7 +5693,7 @@ narrative_event = {
 	}
 	
 	option = {
-	    name = OPTPA_1000292
+	    name = OPTPA_100292
         set_global_flag = fourth_fitna_done
         remove_character_modifier = fourth_fitna
         prestige = 100
@@ -5702,8 +5702,8 @@ narrative_event = {
 
 # Italian province converts to Roman
 character_event = {
-	id = PA.1000304
-	desc = EVTDESCPA.1000304
+	id = PA.100304
+	desc = EVTDESCPA.100304
 	picture = GFX_evt_stone_church
 
         trigger = {
@@ -5719,7 +5719,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000304
+		name = OPTPA_100304
 		random_realm_province = {
 			limit = {
 				culture_group = italian

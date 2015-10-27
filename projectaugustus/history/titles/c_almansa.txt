@@ -1,16 +1,3 @@
-470.1.1=
-{
-liege="k_visigoth"
-}
-
-625.1.1 = {
-	holder=168719 # Ardabasto
-	liege = d_murcia
-}
-655.1.1 = {
-	holder=168720 # Erwig
-}
-
 695.1.1={
 	holder=73901 # Teodomiro de Orihuela
 	liege=d_murcia

@@ -20,9 +20,6 @@ culture = old_frankish
 religion = catholic
 
 # History
-700.1.1 = {
-	b_briey = ct_jewish_community_1
-}
 790.1.1 = {
 	culture = german
 }

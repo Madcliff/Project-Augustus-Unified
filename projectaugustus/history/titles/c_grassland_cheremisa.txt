@@ -1,6 +1,3 @@
-600.1.1 = {
-	holder = 91010201
-}
 # Called "Kerzhenets" in-game
 750.1.1 = {
 	holder = 194162

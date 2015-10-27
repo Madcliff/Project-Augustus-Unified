@@ -18,7 +18,7 @@ b_msaken = castle
 
 # Misc
 culture = african
-religion = donatist 
+religion = catholic
 
 # History
 800.1.1 = { religion = sunni }

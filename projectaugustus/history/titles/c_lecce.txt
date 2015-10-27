@@ -1,28 +1,5 @@
-100.1.1 = {
-	liege = e_western
-}
-
-475.1.1 = {
-	holder=1000256105 
-}
-475.1.1 = {
-	holder=1000256105 
-}
-476.1.1=
-{
-liege=k_italy
-holder=1438108
-}
 536.1.1={
 	liege = "e_byzantium"
-}
-615.1.1 = {
-	holder = 1000257310
-	liege = d_apulia
-}
-650.1.1 = {
-	holder = 0
-	liege = e_byzantium
 }
 755.1.1={
 	holder=145864
@@ -32,7 +9,7 @@ holder=1438108
 }
 1066.1.1={
 liege = d_apulia
-holder=1014094
+holder=1014095
 }
 1070.10.18=
 {

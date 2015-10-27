@@ -16,7 +16,7 @@ b_veria = castle
 b_servia = castle
 
 # Misc
-culture = hellene
+culture = greek
 religion = orthodox
 
 # History

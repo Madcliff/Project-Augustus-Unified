@@ -1,21 +1,5 @@
-470.1.1 = {
-holder=70516
-}
-470.1.1 = {
-	liege="e_byzantium"
-}
-460.1.1={
-	liege="d_samos"
-	holder=125709
-}
-500.1.1={
+330.1.1={
 	liege="d_nikaea"
-}
-612.1.1 = {
-	holder = 1000257328
-}
-638.1.1 = {
-	holder = 0
 }
 758.1.1={
 	holder=145826
@@ -36,27 +20,24 @@ holder=70516
 1092.1.1={
 	holder=34264
 }
-1097.7.19=
+1097.7.19={
 	liege="d_nikaea"
-	holder=20514
+	holder=1742
 }
-1118.8.15=
-{
+1118.8.15={
 	holder=1762
 }
-1143.10.1=
-{
+1143.10.1={
 	holder=215504
 }
-1160.1.1=
-{
+1160.1.1={
 	holder=215670
 }
 1190.1.2={
 	holder=215674
 }
 1205.1.1={
-        liege = e_latin_empire
+    liege = e_latin_empire
 	holder=205525 #Henry I van Vlaanderen
 }
 1216.6.11={

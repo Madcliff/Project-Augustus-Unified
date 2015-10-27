@@ -16,9 +16,9 @@ RETTYPE_INF1 =
 	
 	hire_cost = 140
 
-    potential = {
-	    is_nomadic = no
-    }
+       	potential = {
+	    	is_nomadic = no
+       	}
 	
 	modifier = {
 		heavy_infantry_defensive = 0.2
@@ -34,11 +34,11 @@ RETTYPE_INF2 =
 	second_type = 5
 	second_amount = 100
 	
-    hire_cost = 120
+    	hire_cost = 120
 
-    potential = {
-	    is_nomadic = no
-    }
+    	potential = {
+	    	is_nomadic = no
+    	}
 	
 	modifier = {
 		pikemen_defensive = 0.4
@@ -54,11 +54,11 @@ RETTYPE_SKIR1 =
 	second_type = 1
 	second_amount = 100
 	
-    hire_cost = 120
+    	hire_cost = 120
 
-    potential = {
-	    is_nomadic = no
-    }
+    	potential = {
+	    	is_nomadic = no
+    	}
 	
 	modifier = {
 		archers_offensive = 0.2
@@ -76,9 +76,9 @@ RETTYPE_SKIR2 =
 	
 	hire_cost = 100
 
-    potential = {
-	    is_nomadic = no
-    }
+    	potential = {
+	    	is_nomadic = no
+    	}
 	
 	modifier = {
 		archers_offensive = 0.4
@@ -97,9 +97,9 @@ RETTYPE_CAV1 =
 	
 	hire_cost = 180
 
-    potential = {
-	    is_nomadic = no
-    }
+    	potential = {
+	    	is_nomadic = no
+    	}
 	
 	modifier = {
 		light_cavalry_offensive = 0.4
@@ -112,26 +112,26 @@ RETTYPE_GEN_RAID =
 	first_type = 0
 	first_amount = 400
 
-    second_type = 5
-    second_amount = 100
+    	second_type = 5
+    	second_amount = 100
 	
 	hire_cost = 100
 	
 	potential = {
-        OR = {
-            is_tribal = yes
-            is_nomadic = yes
+        	OR = {
+            		is_tribal = yes
+            		is_nomadic = yes
 			culture_group = altaic
 			culture_group = celtic
 			culture_group = canaanite
 			culture_group = east_slavic
 			culture_group = north_germanic
-        }
-        NOT = { culture = neo-punic }
-        NOT = { culture_group = arabic }
-        NOT = { culture_group = iranian }
-        NOT = { culture_group = west_african }
-        NOT = { culture_group = east_african }
+                }
+        	NOT = { culture = neo-punic }
+        	NOT = { culture_group = arabic }
+        	NOT = { culture_group = iranian }
+        	NOT = { culture_group = west_african }
+        	NOT = { culture_group = east_african }
 	}
 	
 	modifier = {
@@ -155,14 +155,14 @@ RETTYPE_REG_WEUR =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture_group = latin
 			culture_group = west_germanic
 			culture_group = central_germanic
-        }
-        NOT = { culture = roman }
-        NOT = { culture = african }
+        	}
+        	NOT = { culture = roman }
+        	NOT = { culture = african }
 	}
 	
 	modifier = {
@@ -186,7 +186,7 @@ RETTYPE_CUL_FRANK_NOR_GER =
 	hire_cost = 280
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture = visigothic
 			culture = ostrogothic
@@ -216,7 +216,7 @@ RETTYPE_CUL_ENG =
 	hire_cost = 120
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture = english
 			culture = britonic
@@ -239,7 +239,7 @@ RETTYPE_CUL_SCOT =
 	hire_cost = 140
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = scottish
 	}
 	
@@ -255,10 +255,10 @@ RETTYPE_CUL_BALT =
 	first_type = 1
 	first_amount = 500
 	
-    hire_cost = 160
+        hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture_group = baltic
 			culture_group = finno_ugric
@@ -303,7 +303,7 @@ RETTYPE_CUL_GOTH =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = east_germanic
 	}
 	
@@ -322,7 +322,7 @@ RETTYPE_CUL_IBER =
     hire_cost = 200
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture = castillian
 			culture = catalan
@@ -347,7 +347,7 @@ RETTYPE_CUL_ITA =
 	hire_cost = 140
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture = italian
 			culture = old_italian
@@ -370,7 +370,7 @@ RETTYPE_CUL_RUS =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = east_slavic
 	}
 	
@@ -389,7 +389,7 @@ RETTYPE_CUL_NORTHGER =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture_group = north_germanic
 			culture = saxon
@@ -413,7 +413,7 @@ RETTYPE_CUL_HUNG =
 	hire_cost = 200
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture = hungarian
 			culture_group = west_slavic
@@ -435,7 +435,7 @@ RETTYPE_ARAB_GHZ =
 	hire_cost = 100
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = arabic
 	}
 	
@@ -456,7 +456,7 @@ RETTYPE_CUL_ARAB =
 	hire_cost = 240
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = arabic
 		NOT = { culture = andalusian_arabic }
 		NOT = { culture = maghreb_arabic }
@@ -480,7 +480,7 @@ RETTYPE_CUL_ARF =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = african
 	}
 	
@@ -502,12 +502,12 @@ RETTYPE_CUL_BERBER =
 	hire_cost = 200
 
 	potential = {
-        is_nomadic = no
-        OR = {
+        	is_nomadic = no
+        	OR = {
 			culture = african
 			culture = andalusian_arabic
 			culture = maghreb_arabic
-        }
+        	}
 	}
 
 	modifier = {
@@ -548,11 +548,11 @@ RETTYPE_BYZ_SKO =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = byzantine
-        NOT = { vassal_of = k_macedonia }
-        NOT = { vassal_of = e_macedonia }
-	    NOT = { has_landed_title = k_macedonia }
+                NOT = { vassal_of = k_macedonia }
+                NOT = { vassal_of = e_macedonia }
+	        NOT = { has_landed_title = k_macedonia }
 		NOT = { has_landed_title = e_macedonia }
 	}
 	
@@ -576,17 +576,17 @@ RETTYPE_CUL_BYZ =
 
 	special_troops = horse_archers
 	
-    hire_cost = 280
+        hire_cost = 280
 	
 	potential = {
         is_nomadic = no
 		OR = {
 			culture_group = iranian
-		    culture_group = byzantine
+		        culture_group = byzantine
 		}
-        NOT = { vassal_of = k_macedonia }
-        NOT = { vassal_of = e_macedonia }
-	    NOT = { has_landed_title = k_macedonia }
+        	NOT = { vassal_of = k_macedonia }
+        	NOT = { vassal_of = e_macedonia }
+	    	NOT = { has_landed_title = k_macedonia }
 		NOT = { has_landed_title = e_macedonia }
 	}
 	
@@ -607,7 +607,7 @@ RETTYPE_CUL_CELTIC =
 	hire_cost = 100
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = celtic
 	}
 	
@@ -626,7 +626,7 @@ RETTYPE_CUL_IRISH =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = irish
 	}
 	
@@ -645,7 +645,7 @@ RETTYPE_CUL_ETHIO =
     hire_cost = 100
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = ethiopian
 	}
 	
@@ -661,10 +661,10 @@ RETTYPE_CUL_SOMALI =
 	first_type = 0
 	first_amount = 500
 	
-    hire_cost = 100
+        hire_cost = 100
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = somali
 	}
 	
@@ -686,7 +686,7 @@ RETTYPE_CUL_W_AFR =
 	hire_cost = 100
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = west_african
 	}
 	
@@ -708,7 +708,7 @@ RETTYPE_CUL_SOUTH_SLA =
 	hire_cost = 240
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = south_slavic
 	}
 	
@@ -732,7 +732,7 @@ RETTYPE_CUL_DUTCH =
 	hire_cost = 140
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = dutch
 	}
 	
@@ -756,7 +756,7 @@ RETTYPE_CUL_NAHUA =
 	hire_cost = 140
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = nahuatl
 	}
 	
@@ -776,7 +776,7 @@ RETTYPE_CUL_CANAAN =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture_group = canaanite
 	}
 	
@@ -799,7 +799,7 @@ RETTYPE_CUL_INDIAN =
 	hire_cost = 280
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		OR = {
 			culture_group = indo_aryan_group
 			culture_group = dravidian_group
@@ -822,7 +822,7 @@ RETTYPE_CUL_NUBIAN =
 	hire_cost = 100
 
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = nubian
 	}
 	
@@ -841,7 +841,7 @@ RETTYPE_CUL_FRA =
 	hire_cost = 160
 	
 	potential = {
-        is_nomadic = no
+        	is_nomadic = no
 		culture = old_frankish
 	}
 	
@@ -862,9 +862,9 @@ RETTYPE_CUL_LOM =
 	potential = {
         is_nomadic = no
 		OR = { 
-            culture = lombard
-            culture = langobard
-        }
+                	culture = lombard
+            		culture = langobard
+        	}
 	}
 	
 	modifier = {
@@ -1107,7 +1107,7 @@ HORDE_RETTYPE_CAM1 =
 	potential = {
 		is_nomadic = yes
 		capital_scope = {
-		    NOT = { region = world_afrca }
+			region = world_africa
 		}
 	}
 }
@@ -1127,7 +1127,7 @@ HORDE_RETTYPE_CAM2 =
 	potential = {
 		is_nomadic = yes
 		capital_scope = {
-		    NOT = { region = world_afrca }
+			region = world_africa
 		}
 	}
 }
@@ -1146,7 +1146,7 @@ HORDE_RETTYPE_CAM3 =
 	potential = {
 		is_nomadic = yes
 		capital_scope = {
-		    NOT = { region = world_afrca }
+			region = world_africa
 		}
 	}
 }
@@ -1163,7 +1163,7 @@ HORDE_RETTYPE_CAM4 =
 	potential = {
 		is_nomadic = yes
 		capital_scope = {
-			NOT = { region = world_afrca }
+			region = world_africa
 		}
 	}
 }

@@ -34,10 +34,12 @@ depose_antipope = {
 			OR = {
 				religion = catholic
 				religion = fraticelli
+				religion = arian
 			}
 			rightful_religious_head_scope = {
 				NOT = { has_claim = k_papal_state }
-				NOT = { has_claim = d_fraticelli }
+				NOT = { has_claim = k_fraticelli }
+				NOT = { has_claim = k_arian }
 			}
 		}
 		FROM = {
@@ -45,7 +47,8 @@ depose_antipope = {
 				is_liege_or_above = PREV
 				OR = {
 					has_claim = k_papal_state
-					has_claim = d_fraticelli
+					has_claim = k_fraticelli
+					has_claim = k_arian
 				}
 			}
 		}
@@ -57,10 +60,12 @@ depose_antipope = {
 			OR = {
 				religion = catholic
 				religion = fraticelli
+				religion = arian
 			}
 			rightful_religious_head_scope = {
 				NOT = { has_claim = k_papal_state }
-				NOT = { has_claim = d_fraticelli }
+				NOT = { has_claim = k_fraticelli }
+				NOT = { has_claim = k_arian }
 			}
 		}
 		FROM = {
@@ -68,7 +73,8 @@ depose_antipope = {
 				is_liege_or_above = PREV
 				OR = {
 					has_claim = k_papal_state
-					has_claim = d_fraticelli
+					has_claim = k_fraticelli
+				    has_claim = k_arian
 				}
 			}
 		}
@@ -187,6 +193,7 @@ cb_install_antiking = {
 			OR = {
 				religion = catholic
 				religion = fraticelli
+				religion = arian
 			}
 		}
 	}
@@ -203,6 +210,7 @@ cb_install_antiking = {
 			OR = {
 				religion = catholic
 				religion = fraticelli
+				religion = arian
 			}
 		}
 		
@@ -257,7 +265,21 @@ cb_install_antiking = {
 				limit = {
 					religion = fraticelli
 				}
-				d_fraticelli = {
+				k_fraticelli = {
+					holder_scope = {
+						opinion = {
+							who = ROOT
+							modifier = opinion_deposed_antipope
+						}
+					}
+				}
+			}
+		}
+		if = {
+				limit = {
+					religion = arian
+				}
+				k_arian = {
 					holder_scope = {
 						opinion = {
 							who = ROOT

@@ -15,15 +15,11 @@ b_guadix = city
 #b_iznajar = castle
 #b_huelma = castle
 
-culture = iberian
+culture = hispanic
 religion = catholic
 
 # History
 
-700.1.1 = { 
-	b_elvira = ct_jewish_community_1
-	b_elvira = ct_jewish_community_2
-}
 811.1.1 = { religion = sunni }
 
 934.1.1 = {

@@ -15,7 +15,7 @@ b_caspe = temple
 #b_ejea = city
 
 # Misc
-culture = iberian
+culture = hispanic
 religion = catholic
 
 # History

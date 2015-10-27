@@ -3,10 +3,6 @@
 	vice_royalty = yes
         de_jure_liege = k_cilicia
 }
-
-620.1.1 = {
-	holder = 1000257336
-}
 758.1.1={
 	holder=145852
 }

@@ -16,15 +16,11 @@ b_sevimoron = city
 #b_utrera = castle
 #b_laalgaba = castle
 
-culture = iberian
+culture = hispanic
 religion = sunni
 
 # History
-700.1.1 = { 
-	b_ecija = ct_jewish_community_1
-	b_ecija = ct_jewish_community_2
-	b_ecija = ct_jewish_community_3
-}
+
 929.1.1 = {
 	culture = andalusian_arabic
 }

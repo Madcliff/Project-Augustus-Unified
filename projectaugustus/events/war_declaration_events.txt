@@ -2,9 +2,9 @@ namespace = PA
 
 # Norman Invasion
 narrative_event = {
-	id = PA.1000111
-	title = EVTNAMEPA.1000111
-	desc = EVTDESCPA.1000111
+	id = PA.10111
+	title = EVTNAMEPA.10111
+	desc = EVTDESCPA.10111
         picture = GFX_evt_crusaders
 	
 	trigger = {
@@ -33,7 +33,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTAPA_100111
+		name = OPTAPA_10111
 		ai_chance = { factor = 1 }
 		d_apulia = {
 			holder_scope = {
@@ -96,7 +96,7 @@ narrative_event = {
 		set_global_flag = norman_conquest
 	}
 	option = {
-		name = OPTBPA_100111
+		name = OPTBPA_10111
 		ai_chance = { factor = 0 }
 		prestige = -100
 		set_global_flag = norman_conquest
@@ -105,9 +105,9 @@ narrative_event = {
 
 # Early Bulgarian Conquest
 narrative_event = {
-	id = PA.1000252
-	title = EVTNAMEPA.1000252
-	desc = EVTDESCPA.1000252
+	id = PA.10252
+	title = EVTNAMEPA.10252
+	desc = EVTDESCPA.10252
         picture = GFX_evt_melee
 	
 	trigger = {
@@ -141,7 +141,7 @@ narrative_event = {
 		set_global_flag = bulgarian_conquest
 	}
 	option = {
-		name = OPTBPA_100252
+		name = OPTBPA_10252
 		ai_chance = { factor = 0 }
 		prestige = -100
 		set_global_flag = bulgarian_conquest

@@ -1,17 +1,5 @@
-470.1.1=
-{
-liege= k_africa
-holder=22000191 
-}
 536.1.1={
 	liege="d_sicily"
-}
-590.1.1 = {
-	holder = 1000257307
-	liege="d_sicily"
-}
-635.1.1 = {
-	holder = 1000250213
 }
 751.1.1={
 	holder=145859
@@ -55,11 +43,13 @@ holder=22000191
 	holder=211532 #Guglielmo di Brindisi
 }
 1204.8.12={
-        liege=0
+    liege=0
 	holder=31403 #Enrico de Candia
+    set_tribute_suzerain = { who = e_hre percentage = 0.10 }
 }
 1212.1.1={
 	liege="d_sicily"
+	clear_tribute_suzerain = e_hre
 }
 1232.1.1={
 	holder=31404 #Nicolso de Candia

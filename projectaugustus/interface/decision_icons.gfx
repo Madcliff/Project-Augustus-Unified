@@ -1307,4 +1307,12 @@ spriteTypes = {
 		name = "GFX_reform_hunnic_empire"
 		texturefile = "gfx\\interface\\decision_icon_form_new_realm.dds"
         }
+	spriteType = {
+		name = "GFX_vassalize_all"
+		texturefile = "gfx\\interface\\decision_icon_ask_help_to_manage_titles.dds"
+	}
+	spriteType = {
+		name = "GFX_vassalize_enatic"
+		texturefile = "gfx\\interface\\decision_icon_ask_help_to_manage_titles.dds"
+	}
 }

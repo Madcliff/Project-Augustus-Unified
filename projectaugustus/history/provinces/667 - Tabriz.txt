@@ -20,8 +20,6 @@ culture = kurdish
 religion = mazdaki
 
 # History
-700.1.1 = {
-	b_tabriz = ct_jewish_community_1
-}
+
 1016.1.1 = { religion = sunni }
 

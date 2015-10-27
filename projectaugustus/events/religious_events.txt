@@ -5833,7 +5833,7 @@ character_event = {
 
 # Arian antipope immediately loses claim if he or liege is no longer Arian
 character_event = {
-	id = PA.1000308
+	id = PA.10308
 
 	hide_window = yes
 

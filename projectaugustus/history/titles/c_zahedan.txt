@@ -1,18 +1,6 @@
-470.1.1 = {
-	holder=180624 # Peroz I
-}
-224.1.1={
-	liege="e_persia"
-}
-610.1.1={
-	holder = 1000258562
-	liege = d_baluchistan
-}
-659.1.1={
-	holder = 0
+644.1.1={
 	liege=d_sistan
 }
-
 
 764.1.1={
 	holder=188604 # Ma'n bin Za'idah al-Shaybani

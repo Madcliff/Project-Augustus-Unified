@@ -1,21 +1,6 @@
-470.1.1 = {
-	holder=180624 # Peroz I
-}
-224.1.1={
-	liege="e_persia"
-}
-620.1.1={
-	liege = d_merv
-	holder = 1000257536
-}
-658.1.1={
-	holder = 1000257537
-}
-680.1.1={
-	holder = 0
+650.1.1={
 	liege=d_khorasan
 }
-
 
 760.1.1={
 	holder = 188688 # Ruzaiq Tahirid

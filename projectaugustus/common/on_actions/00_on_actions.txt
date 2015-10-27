@@ -2,11 +2,11 @@
 on_startup = { 
 	events = {
 	ancrel.9010 # set ancrel global flag when game begins
-	PA.1000385
-	PA.1000386
-	PA.1000387
-	PA.1000388
-	PA.1000389
+	PA.10385
+	PA.10386
+	PA.10387
+	PA.10388
+	PA.10389
     indep.1
 	}
 }
@@ -1027,7 +1027,7 @@ on_birth = {
 		706 # Full House achievement
 		707 # Keeping it in the Family achievement
 		PA.10002 # A child is Born in the Purple (Empires)
-        PA.1000190 # A child is Born in the Purple (Kingdoms)
+        PA.10190 # A child is Born in the Purple (Kingdoms)
 		CM.10011 # Chronicle entry
 		HL.1000 # Child born with Wolf's Blood
 		HL.1700 # Wolf's Blood inheritance

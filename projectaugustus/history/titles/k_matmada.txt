@@ -5,7 +5,7 @@ pentarch=b_roma
 #Muhallabids
 768.1.1=
 {
-set_tribute_suzerain = { who = e_sunni percentage = 0.40 }
+set_tribute_suzerain = { who = e_sunni percentage = 0.10 }
 holder=210014
 }
 771.1.1=

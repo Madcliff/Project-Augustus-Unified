@@ -1,7 +1,7 @@
 200000030 = {
         name="Edeko"
         religion="arian"
-        culture="german"
+        culture="suevic"
         410.1.1={
                 birth=yes
         }
@@ -12,7 +12,7 @@
 200000031 = {
         name="Odacer"
         religion="arian"
-        culture="german"
+        culture="suevic"
         father=200000030
         trait="skilled_tactician"
         trait="ambitious"
@@ -28,56 +28,56 @@
         }
         493.3.15={
 		death = {
-			death_reason = death_murder
-			killer = 168775
-		}
+			    death_reason = death_murder
+			    killer = 168775
+		    }
         }
 }
 200000032 = {
         name="Onoulphus"
         religion="arian"
-        culture="german"
+        culture="suevic"
         father=200000030
         435.1.1={
                 birth=yes
         }
         493.3.15={
 		death = {
-			death_reason = death_murder
-			killer = 168775
-		}
+			    death_reason = death_murder
+			    killer = 168775
+		    }
         }
 }
 200000033 = {
         name="Thela"
         religion="arian"
-        culture="german"
+        culture="suevic"
         father=200000031
         mother=200000029
         460.1.1={
                 birth=yes
         }
         493.3.15={
-		death = {
-			death_reason = death_murder
-			killer = 168775
-		}
+		    death = {
+			    death_reason = death_murder
+			    killer = 168775
+		    }
         }
 }
 200000034 = {
         name="Thassalio"
         religion="arian"
-        culture="german"
+        culture="suevic"
         father=200000031
         mother=200000029
         461.1.1={
                 birth=yes
         }
         493.3.15={
-		death = {
-			death_reason = death_murder
-			killer = 168775
-		}
+		    death = {
+			    death_reason = death_murder
+			    killer = 168775
+		    }
         }
 }
 200000035 = {

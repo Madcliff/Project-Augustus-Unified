@@ -1,15 +1,12 @@
-470.1.2={
-	holder=10258505 
+337.1.1={
+	de_jure_liege="k_yemen"
 }
-500.1.1 = { holder = 0}
 630.1.1={
 	liege=e_sunni
-        de_jure_liege = k_yemen
 }
-
 768.1.1={
     liege = 0
-    set_tribute_suzerain = { who = e_sunni percentage = 0.40 }
+    set_tribute_suzerain = { who = e_sunni percentage = 0.10 }
 	holder = 188748 # Yazid, brother-in-law of al-Mansur Abbasid (actually ruled in the 770s)
 }
 780.1.1={

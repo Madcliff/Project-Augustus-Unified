@@ -1,23 +1,7 @@
-470.1.1 = {
-	holder = 2001010089 
-}
 681.1.1={
 	liege="k_bulgaria"
 	vice_royalty = yes
 	holder=145934
-}
-597.1.1 = {
-	liege = e_avaria
-	holder = 1000255100
-}
-634.1.1 = {
-	holder = 1000255101
-}
-659.1.1 = {
-	holder = 1000255102
-}
-669.1.1 = {
-	liege = 0
 }
 721.1.1={
 	holder=145940
@@ -90,7 +74,6 @@
 }
 1300.1.2=
 {	
-	
 	liege="k_golden_horde"
 	vice_royalty = no
 	holder=475560

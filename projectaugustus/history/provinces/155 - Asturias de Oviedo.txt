@@ -15,12 +15,9 @@ b_norena = castle
 #b_luarca = castle
 
 # Misc
-culture = visigothic
+culture = hispanic
 religion = catholic
 
-700.1.1 = {
-	culture = iberian
-}
 # History
 
 867.1.1 = {

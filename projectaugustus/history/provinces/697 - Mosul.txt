@@ -18,11 +18,7 @@ b_baqofah = castle
 #Misc
 culture = assyrian
 religion = nestorian
-700.1.1 = {
-	b_bakhdida = ct_jewish_community_1
-	b_bakhdida = ct_jewish_community_2
-	b_bakhdida = ct_jewish_community_3
-}
+
 # History
 1187.1.1 = { remove_settlement = b_bartella }
 1200.1.1 = {

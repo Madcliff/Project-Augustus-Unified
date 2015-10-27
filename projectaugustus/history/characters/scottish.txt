@@ -6,7 +6,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -27,7 +27,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="honest"
 	trait="temperate"
@@ -49,7 +49,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="just"
 	trait="brave"
@@ -70,7 +70,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="honest"
 	trait="scholarly_theologian"
@@ -91,7 +91,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=9
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="wroth"
 	trait="skilled_tactician"
@@ -116,7 +116,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="clubfooted"
 	trait="flamboyant_schemer"
@@ -138,7 +138,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="deceitful"
 	trait="arbitrary"
@@ -255,7 +255,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=980
 	mother=166128
@@ -295,7 +295,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=980
 	mother=166128
@@ -314,7 +314,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=5999
 	970.1.1={
@@ -332,7 +332,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=83586 #Domnall mac Morggáin
 	955.1.1={
@@ -350,7 +350,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=5999
 	975.1.1={
@@ -388,7 +388,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=6000
 	1003.1.1={
@@ -406,7 +406,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=6004
 	990.1.2={
@@ -425,7 +425,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=978
 	962.1.2={
@@ -443,7 +443,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	1000.1.2={
 		birth="1000.1.2"
@@ -601,7 +601,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -621,7 +621,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -641,7 +641,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -661,7 +661,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -787,7 +787,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=2
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="just"
 	trait="proud"
@@ -892,7 +892,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="brave"
 	father=976
@@ -911,7 +911,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	father=131101
@@ -931,7 +931,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="just"
 	father=131102
@@ -6143,7 +6143,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="proud"
 	trait="martial_cleric"
@@ -6162,7 +6162,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="charitable"
 	trait="deceitful"
@@ -6292,7 +6292,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	900.1.1={
 		birth="900.1.1"
@@ -6309,7 +6309,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=83585
 	929.1.1={
@@ -6327,7 +6327,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=6000
 	1001.1.1={
@@ -7162,7 +7162,7 @@
 	diplomacy=2
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="tough_soldier"
 	father=166434
@@ -8054,7 +8054,7 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=166437
 	945.1.1={
@@ -8068,7 +8068,7 @@
 183511 = {
 	name="Drostan"
 	dynasty=1042641
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	805.1.2={
 		birth="805.1.2"
@@ -8081,7 +8081,7 @@
 183512 = {
 	name="Kenneth"
 	dynasty=1042641
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183511
 	835.1.2={
@@ -8095,7 +8095,7 @@
 183513 = {
 	name="Murdoch"
 	dynasty=1042641
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183511
 	837.1.2={
@@ -8109,7 +8109,7 @@
 183514 = {
 	name="Giric"
 	dynasty=1042642
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	795.1.2={
 		birth="795.1.2"
@@ -8122,7 +8122,7 @@
 183515 = {
 	name="Malbride"
 	dynasty=1042642
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183514
 	828.1.2={
@@ -8136,7 +8136,7 @@
 183516 = {
 	name="Donald"
 	dynasty=1042642
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183515
 	855.1.2={
@@ -8151,7 +8151,7 @@
 	name="Gormelia"
 	female=yes
 	dynasty=1042642
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183515
 	858.1.2={
@@ -8165,7 +8165,7 @@
 183518 = {
 	name="Malmure"
 	dynasty=1042643
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	815.1.2={
 		birth="815.1.2"
@@ -8178,7 +8178,7 @@
 183519 = {
 	name="Eochaid"
 	dynasty=1042643
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183518
 	836.1.2={
@@ -8192,7 +8192,7 @@
 183520 = {
 	name="Cormac"
 	dynasty=1042643
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183518
 	841.1.2={
@@ -8206,7 +8206,7 @@
 183521 = {
 	name="Morgan"
 	dynasty=1042644
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	830.1.2={
 		birth="830.1.2"
@@ -8220,7 +8220,7 @@
 	name="Dervorgilla"
 	female=yes
 	dynasty=1042644
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183521
 	854.1.2={
@@ -8235,7 +8235,7 @@
 	name="Morag"
 	female=yes
 	dynasty=1042644
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183521
 	855.1.2={
@@ -8250,7 +8250,7 @@
 	name="Bethoc"
 	female=yes
 	dynasty=1042644
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183521
 	858.1.2={
@@ -8264,7 +8264,7 @@
 183525 = {
 	name="Crinan"
 	dynasty=1042645
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	840.1.2={
 		birth="840.1.2"
@@ -8277,7 +8277,7 @@
 183526 = {
 	name="Gilchrist"
 	dynasty=1042645
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183525
 	863.1.2={
@@ -8291,7 +8291,7 @@
 183527 = {
 	name="Maldoven"
 	dynasty=1042645
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183525
 	865.1.2={
@@ -8305,7 +8305,7 @@
 183528 = {
 	name="Comgall"
 	dynasty=1042646
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	821.1.2={
 		birth="821.1.2"
@@ -8318,7 +8318,7 @@
 183529 = {
 	name="Malserf"
 	dynasty=1042646
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183528
 	844.1.2={
@@ -8332,7 +8332,7 @@
 183530 = {
 	name="Gilleblane"
 	dynasty=1042646
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=183529
 	865.1.2={
@@ -8446,7 +8446,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -8467,7 +8467,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -8491,7 +8491,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="irish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -8518,7 +8518,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -8539,7 +8539,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	trait="arbitrary"
 	trait="amateurish_plotter"
@@ -8557,7 +8557,7 @@
 	name="Morag" #Unnammed Daughter of Kenneth mac Alpin & wife of King Run of Alt Clut (Strathclyde)
 	female=yes
 	dynasty=688
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=6018
 	mother=166610
@@ -8573,7 +8573,7 @@
 	name="Malmure" #Máel Muire ingen Cináeda mac Ailpín, Daughter of Kenneth mac Alpin
 	female=yes
 	dynasty=688
-	religion="chalcendonian"
+	religion="catholic"
 	culture="scottish"
 	father=6018
 	mother=166610

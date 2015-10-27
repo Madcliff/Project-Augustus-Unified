@@ -1353,7 +1353,7 @@
 	dynasty = 1051127 # Corvina
 	dna="agdearbadat"
 	female = yes
-	religion = chalcendonian
+	religion = orthodox
 	culture = old_italian
 	
 	diplomacy = 2
@@ -1389,7 +1389,7 @@
 	dynasty = 1051128 # Todd
 	dna="cegccycbabr"
 	properties="aj0bfd000000"
-	religion = chalcendonian
+	religion = catholic
 	culture = pictish
 	
 	diplomacy = 4
@@ -1530,7 +1530,7 @@
 	dynasty = 1051132 # d'Aubergine
 	dna="cdibebiicbq"
 	properties="cd0ebk000000"
-	religion = chalcendonian
+	religion = catholic
 	culture = old_frankish
 	
 	diplomacy = 4

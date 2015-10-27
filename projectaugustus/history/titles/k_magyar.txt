@@ -1,22 +1,3 @@
-20.1.1 = {
-	historical_nomad = yes
-}
-
-460.1.1 = {
-	holder = 1000256137 
-}
-
-650.1.1 = {
-	historical_nomad = no
-}	
-632.1.1 = {
-	holder = 1591171 
-}
-
-650.1.1 = {
-	holder = 0
-}
-
 845.1.1 = {
 	holder = 159137
         set_global_flag = magyars

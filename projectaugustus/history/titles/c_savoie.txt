@@ -1,18 +1,3 @@
-470.1.1={
-
-	holder=37504
-	liege=k_burgundy
-}
-600.1.1 = {
-	holder = 1000153011
-	liege = d_upper_burgundy
-}
-640.1.1 = {
-	holder = 1000153014
-}
-660.1.1 = {
-	holder = 1000153015
-}
 760.1.1={
 	liege=k_austrasia
 }

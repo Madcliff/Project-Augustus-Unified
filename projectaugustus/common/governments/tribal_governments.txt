@@ -47,7 +47,7 @@ tribal_governments = {
 		can_build_city = no
 		can_build_temple = yes
 		can_build_tribal = yes
-        ignores_de_jure_laws = yes
+                ignores_de_jure_laws = yes
 		can_change_to_nomad_on_start = yes
 		can_grant_kingdoms_and_empires_to_other_government = yes
 		

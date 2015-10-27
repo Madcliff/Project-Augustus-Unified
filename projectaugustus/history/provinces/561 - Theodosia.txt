@@ -17,10 +17,10 @@ b_kimmerikon = temple
 
 # Misc
 culture = ostrogothic
-religion = chalcendonian
+religion = orthodox
 
 # History
-700.1.1 = { religion = orthodox }
+
 790.1.1 = { culture = greek }
 
 1168.1.1 = { trade_post = b_grimaldi }
