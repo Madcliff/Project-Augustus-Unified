@@ -219,23 +219,9 @@ holder = 1000094395 # Gordien III
 457.1.27 = {
 	holder = 70517
 }
-474.1.18 = {
-	holder = 70516 #Léon II
-}
-474.11.17 = {
-	holder = 70515 # Zénon
-}
-475.1.9 = {
-	holder = 145226
-}
-476.8.1 = {
-	holder = 1000094552 # Marcus
-}
-476.8.15 = {
-	holder = 70515
-}
-476.8.31 = {
-	holder = 70515 # Zénon
+474.11.17={
+	holder=70515
+	liege="e_byzantium"
 }
 491.4.9 = {
 	holder = 70514 # Anastase Ier

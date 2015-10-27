@@ -9368,6 +9368,30 @@
 	}
 }
 
+70516 = {
+	name="Leon"
+	# AKA: Leon 'the Younger'
+	dynasty=1022188
+	martial=4
+	diplomacy=3
+	intrigue=6
+	stewardship=5
+	religion="orthodox"
+	culture="greek"
+	trait="kind"
+	trait="ill"
+	trait="naive_appeaser"
+	father=70515
+	mother=70530
+	
+	467.1.1={
+		birth="467.1.1"
+	}
+	474.11.17={
+		death="474.11.17"
+	}
+}
+
 
 70517 = {
 	name="Leon"

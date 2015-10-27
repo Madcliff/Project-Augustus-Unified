@@ -1,10 +1,7 @@
-470.1.1 = {
-holder=70516
+474.11.17={
+	holder=70515
+	liege="e_byzantium"
 }
-300.1.1={
-	liege = "e_byzantium"
-}
-
 630.1.1={
 	liege="d_cyprus"
 }
