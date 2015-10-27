@@ -5406,7 +5406,7 @@
 	martial=7
 	diplomacy=7
 	intrigue=7
-	stewartship=7
+	stewardship=7
 	religion="orthodox"
 	culture="romanobritish"
 	455.1.2={

@@ -80,75 +80,75 @@
 }
 10142103 = {
 	name="Gereint"
-	culture = britonic
+	culture = romanobritish 
 }
 10142104 = {
 	name="Lanval"
-	culture = britonic
+	culture = romanobritish 
 }
 10142105 = {
 	name="Licat"
-	culture = britonic
+	culture = romanobritish 
 }
 10142106 = {
 	name="Owain"
-	culture = britonic
+	culture = romanobritish 
 }
 10142107 = {
 	name="Gadric"
-	culture = britonic
+	culture = romanobritish 
 }
 10142108 = {
 	name="Hywel"
-	culture = britonic
+	culture = romanobritish 
 }
 10142109 = {
 	name="Maelgwn"
-	culture = britonic
+	culture = romanobritish 
 }
 10142110 = {
 	name="Menw"
-	culture = britonic
+	culture = romanobritish 
 }
 10142111 = {
 	name="Padern"
-	culture = britonic
+	culture = romanobritish 
 }
 10142112 = {
 	name="Aradig"
-	culture = britonic
+	culture = romanobritish 
 }
 10142113 = {
 	name="Cadfael"
-	culture = britonic
+	culture = romanobritish 
 }
 10142114 = {
 	name="Drystan"
-	culture = britonic
+	culture = romanobritish 
 }
 10142115 = {
 	name="Ligessac"
-	culture = britonic
+	culture = romanobritish 
 }
 10142116 = {
 	name="Cadwallon"
-	culture = britonic
+	culture = romanobritish 
 }
 10142117 = {
 	name="Gwlyddyn"
-	culture = britonic
+	culture = romanobritish 
 }
 10142118 = {
 	name="Cadell"
-	culture = britonic
+	culture = romanobritish 
 }
 10142119 = {
 	name="Iseult"
-	culture = britonic
+	culture = romanobritish 
 }
 10142120 = {
 	name="Glynys"
-	culture = britonic
+	culture = romanobritish 
 }
 10142148 = {
 	name="Haroun" 
@@ -980,163 +980,163 @@
 }
 100153053 = {
     name="Avizina"
-	culture = dacian
+	culture = daco_roman 
 }
 100153054 = {
     name="Bastiza"
-	culture = dacian
+	culture = daco_roman 
 }
 100153055 = {
     name="Blaesus"
-	culture = dacian
+	culture = daco_roman 
 }
 100153056 = {
     name="Burebista"
-	culture = dacian
+	culture = daco_roman 
 }
 100153057 = {
     name="Comosicus"
-	culture = dacian
+	culture = daco_roman 
 }
 100153058 = {
     name="Cotiso"
-    culture = dacian
+    culture = daco_roman 
 }
 100153059 = {
     name="Dardanos"
-    culture = dacian
+    culture = daco_roman 
 }
 100153060 = {
     name="Dardiolai"
-	culture = dacian
+	culture = daco_roman 
 }
 100153061 = {
     name="Decaeneus"
-	culture = dacian
+	culture = daco_roman 
 }
 100153062 = {
     name="Dekinais"
-	culture = dacian
+	culture = daco_roman 
 }
 100153063 = {
     name="Diourdanos"
-	culture = dacian
+	culture = daco_roman 
 }
 100153064 = {
     name="Kaigiza"
-	culture = dacian
+	culture = daco_roman 
 }
 100153065 = {
     name="Komakiza"
-	culture = dacian
+	culture = daco_roman 
 }
 100153066 = {
     name="Petoporus"
-	culture = dacian
+	culture = daco_roman 
 }
 100153067 = {
     name="Rescuturme"
-	culture = dacian
+	culture = daco_roman 
 }
 100153068 = {
     name="Rigozus"
-    culture = dacian
+    culture = daco_roman 
 }
 100153069 = {
     name="Tarbus"
-    culture = dacian
+    culture = daco_roman 
 }
 100153070 = {
     name="Tiatitis"
-	culture = dacian
+	culture = daco_roman 
 }
 100153071 = {
     name="Vezina"
-	culture = dacian
+	culture = daco_roman 
 }
 100153072 = {
     name="Zinnas"
-	culture = dacian
+	culture = daco_roman 
 }
 100153073 = {
     name="Aden"
-	culture = romansh
+	culture = romash 
 }
 100153074 = {
     name="Andri"
-	culture = romansh
+	culture = romash 
 }
 100153075 = {
     name="Andrin"
-	culture = romansh
+	culture = romash 
 }
 100153076 = {
     name="Andris"
-	culture = romansh
+	culture = romash 
 }
 100153077 = {
     name="Baltran"
-	culture = romansh
+	culture = romash 
 }
 100153078 = {
     name="Bandet"
-    culture = romansh
+    culture = romash 
 }
 100153079 = {
     name="Camil"
-    culture = romansh
+    culture = romash 
 }
 100153080 = {
     name="Chasprot"
-	culture = romansh
+	culture = romash 
 }
 100153081 = {
     name="Claritta"
-	culture = romansh
+	culture = romash 
 }
 100153082 = {
     name="Corsina"
-	culture = romansh
+	culture = romash 
 }
 100153083 = {
     name="Dumengia"
-	culture = romansh
+	culture = romash 
 }
 100153084 = {
     name="Dumeni"
-	culture = romansh
+	culture = romash 
 }
 100153085 = {
     name="Flurinda"
-	culture = romansh
+	culture = romash 
 }
 100153086 = {
     name="Fumia"
-	culture = romansh
+	culture = romash 
 }
 1001530687 = {
     name="Gionina"
-	culture = romansh
+	culture = romash 
 }
 100153088 = {
     name="Jaronas"
-    culture = romansh
+    culture = romash 
 }
 100153089 = {
     name="Maximin"
-    culture = romansh
+    culture = romash 
 }
 100153090 = {
     name="Rusina"
-	culture = romansh
+	culture = romash 
 }
 100153091 = {
     name="Tschena"
-	culture = romansh
+	culture = romash 
 }
 100153092 = {
     name="Verena"
-	culture = romansh
+	culture = romash 
 }
 100153093 = {
     name="Agolli"
@@ -1184,131 +1184,131 @@
 }
 100153104 = {
     name="Arsinel"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153105 = {
     name="Caragial"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153106 = {
     name="Drenova"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153107 = {
     name="Grabovan"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153108 = {
     name="Ionesco"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153109 = {
     name="Manaki"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153110 = {
     name="Prevenda"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153111 = {
     name="Diamanti"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153112 = {
     name="Stanescu"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153113 = {
     name="Kavalliotis"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153114 = {
     name="Karamata"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153115 = {
     name="Saguna"
-	culture = "illyrian"
+	culture = illyro_roman 
 }
 100153116 = {
     name="Abahu"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153117 = {
     name="Avahu"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153118 = {
     name="Bustan"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153119 = {
     name="Caiaphas"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153120 = {
     name="Chozai"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153121 = {
     name="Mahalie"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153122 = {
     name="Mehalia"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153123 = {
     name="Shamir"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153124 = {
     name="Tabai"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153125 = {
     name="Tavares"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153126 = {
     name="Yanai"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 100153127 = {
     name="Zerika"
-	culture = "mandaic"
+	culture = mandaeic 
 }
 10424464 = {
 	name="Hanafid"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 10424465 = {
 	name="Bakrid"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 10424466 = {
 	name="Tamimid"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 10424467 = {
 	name="Anizzahid"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 10424468 = {
 	name="Udhrahid"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 10424469 = {
 	name="Kilabid"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 10424470 = {
 	name="Hilalid"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 10424471 = {
 	name="Ka'abid"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 10424472 = {
 	name="Agrimi"
@@ -1643,39 +1643,39 @@
 }
 96000000 = {
 	name="al-Ghassani"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 97000000 = {
 	name="al-Lakhmi"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 98000000 = {
 	name="al-Lihyani"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 99000000 = {
 	name="al-Kindahi"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 12400000 = {
 	name="Qurayshi"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 12500000 = {
 	name="Khuza'a"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 12600000 = {
 	name="Hawazin"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 12700000 = {
 	name="Judham"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 12800000 = {
 	name="Himyari"
-	culture = old_arabic
+	culture = tribal_arab 
 }
 13200000 = {
 	name="Krimid"
@@ -1683,7 +1683,7 @@
 }
 13500000 = {
 	name="Infaustus"
-	culture = british
+	culture = romanobritish 
 }
 15600000 = {
 	name="Geganius"
@@ -1967,55 +1967,55 @@
 }
 27200000 = {
     name="Aetava"
-	culture = scythian
+	culture = sarmatian 
 }
 27300000 = {
     name="Gaotema"
-	culture = scythian
+	culture = sarmatian 
 }
 27400000 = {
     name="Daungha"
-	culture = scythian
+	culture = sarmatian 
 }
 27500000 = {
     name="Hitaspa"
-	culture = scythian
+	culture = sarmatian 
 }
 27600000 = {
     name="Spengha"
-	culture = scythian
+	culture = sarmatian 
 }
 27700000 = {
     name="Parshinta"
-	culture = scythian
+	culture = sarmatian 
 }
 27800000 = {
     name="Parshanta"
-	culture = scythian
+	culture = sarmatian 
 }
 27900000 = {
     name="Vahauka"
-	culture = scythian
+	culture = sarmatian 
 }
 28000000 = {
     name="Bendva"
-	culture = scythian
+	culture = sarmatian 
 }
 28100000 = {
     name="Imanish"
-	culture = scythian
+	culture = sarmatian 
 }
 28200000 = {
     name="Yuxtaspa"
-	culture = scythian
+	culture = sarmatian 
 }
 28300000 = {
     name="Xvanvant"
-	culture = scythian
+	culture = sarmatian 
 }
 28400000 = {
      name="Tumaspa"
-	 culture = scythian
+	 culture = sarmatian 
 }
 28500000 = {
     name="Hermericus"
