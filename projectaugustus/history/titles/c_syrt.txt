@@ -2,6 +2,9 @@
 20.1.1 = {
 	historical_nomad = yes
 }
+450.1.1 = {
+	holder = 109734 
+}
 620.1.1 = {
 	liege = k_bulgaria
 	holder=159117

@@ -10207,3 +10207,15 @@
 }
 
 
+109734 = { 
+	name="Sko'ti"
+	dynasty=1000124582  
+	religion="tengri_pagan"
+	culture="barsil"
+	450.1.1={
+		birth="459.5.4"
+	}
+	510.1.1={
+		death="510.1.1"
+	}
+}

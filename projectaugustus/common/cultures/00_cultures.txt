@@ -2945,7 +2945,29 @@ baltic = {
 
 altaic = {
 	graphical_culture = muslimgfx
+	barsil = {
+		graphical_cultures = { turkishgfx }
+		
+		color = { 0.7 0.7 0.3 }
+		
+		male_names = {
+			Alzek Anzi Apskhih Asparukh Bars Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Boris Boyan Bulger Buzan Chepa Dengisich Dengizik 
+			Dizeng Dometa Dristar Drong Dukum Elemag Eskhach Goleda Gostun Grigora Grod Guar Houdbaad Hudbaad Iratais Irnek Isbul Isperikh 
+			Ispor Kano Karan Kardam Khinialon Khudbard Kordil Kormesiy Kormisosh Korsis Kotrag Krovat Krum Kuber Kubrat Kurt Kutrigur Kuvrat 
+			Labertam Magotin Malamir Marmais Mugel Odolgan Okhsi Okhsun Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Praksa Pressian 
+			Rassate Sabin Savin Sevar Shilki Sigritsis Silki Sinnion Slavnas Sondoke Stazis Tarasiy Taridin Tatra Telec Telerig Tervel Tingiz Tiradin 
+			Toktu Tsog Tsul Tuk Turdacis Umor Vanand Vardan Venda Vetam Vinekh Yani Zabergan Zenti Zvinitsis
 
+		}
+		female_names = {
+			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
+			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		}
+		
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
 	turkish = { # Oghuz Turkish
 		graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
@@ -3075,6 +3097,35 @@ altaic = {
 	}
 	
 	bolghar = { # Oghur Turkish
+		graphical_culture = turkishgfx
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.7 0.7 0.3 }
+		
+		male_names = {
+			Almish Alzek Anzi Apskhih Araslan_Arslan Asparukh Balamber_Balambar Bars Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Boyan Bulger Buzan Chepa Chinialush Dengizikh 
+			Dizeng Dometa Dristar Drong Dukum Ellak Elemag Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Irnek Isbul Islivan Isperikh Ispor Kälaç Kano Karan Karaton
+			Kardam Kharaton Khinialon Khudbard Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kurt Kutrigur Kuvrat Labertam Magotin Malamir Mugel Odolgan Okhsi 
+			Okhsun Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar_Bakhtiar Paväl Praksa Rassate Rugila Sabin Sandil Sandilkh Sarkhan Sartäç Savin Sevar Shilki 
+			Sondoke Tähtaman Tarasiy Taridin Tatra Telec Telerig Tervel Timër_Timur Timëreç Timërpälat Tingiz Tiradin Tokhtaman Toktu Tsog Tsul Tuk Umor Uturgur Vakrim Venda Vetam Vinekh Yani 
+			Yavantey Yençepi Yerneslu Yeçtirek Zabergan Zenti Tukiy Aydar Irkhan Batir
+
+		}
+		female_names = {
+			Çeçek_Çiçek Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçeçek_Gulçiçek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
+			Karacik Kätyarikka Këlnissa Këlyamal Lärkka Lyukha Mala Maturkka Mutlu Naça Patiyer Paykëlti Peksen Puyantay Samur Sarantay Sarä Sarica Sarikel 
+			Sati Savaçka Savkëlti Savtilek Savilay_Sevilay Savintik_Sevindik Shurkka Sibel Sirin Sirma Songul Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek 
+		}
+
+		modifier = default_culture_modifier
+		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+
+	esegel = { # Oghur Turkish
 		graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		

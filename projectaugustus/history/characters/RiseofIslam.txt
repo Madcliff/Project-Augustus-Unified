@@ -5913,3 +5913,16 @@
 		death=yes
 	}
 }
+1000256143 = {
+	name="Asijie"
+	dynasty=1000124583 
+	religion="tengri_pagan"
+	culture="esegel"
+	450.1.1={
+		birth=yes
+	}
+	539.1.1={
+		death=yes
+	}
+}
+
