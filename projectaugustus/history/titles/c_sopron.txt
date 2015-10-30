@@ -1,24 +1,14 @@
-470.1.1 = {
-	holder = 11055091
-}
-
-632.1.1 = {
-	holder = 1000250306
-	liege = e_avaria
-}
-685.1.1 = {
-	holder = 0
-	liege = 0
-}
 731.1.1={
 	liege="d_pressburg"
         de_jure_liege = d_balaton
 	holder=146137
 }
-749.1.1={
+770.1.1={
+	holder=146138
+}
+780.1.1={
 	holder=146139
 }
-
 785.1.1={
 	holder=146140
 }

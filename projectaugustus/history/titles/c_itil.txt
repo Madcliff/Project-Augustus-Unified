@@ -1,9 +1,5 @@
-450.1.1 = {
-	holder = 1000256124 
-}
-600.1.1 = {
-	holder = 74003 
-	liege=d_itil
+20.1.1 = {
+	historical_nomad = yes
 }
 654.1.1= {
 	liege=d_itil

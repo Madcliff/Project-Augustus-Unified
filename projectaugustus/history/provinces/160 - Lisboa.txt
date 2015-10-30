@@ -15,15 +15,10 @@ b_alcobaca = temple
 #b_tomar = castle 
 
 # Misc
-culture = iberian
+culture = hispanic
 religion = catholic
 
 # History
-
-700.1.1 = { 
-	b_setubal = ct_jewish_community_1
-	b_setubal = ct_jewish_community_2
-}
 
 944.1.1 = {
 	culture = andalusian_arabic

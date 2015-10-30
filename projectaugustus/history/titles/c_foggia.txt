@@ -1,18 +1,5 @@
-100.1.1 = {
-	liege = e_western
-}
-
-475.1.1 = {
-	holder=1000256105 
-}
-476.1.1=
-{
-liege=k_italy
-holder=1438108
-}
 571.1.1={
-	liege=k_lombardy #See c_benevento
-	holder = 190127 #Zotto
+	liege=d_benevento
 }
 571.1.1={
 	holder = 190127 #Zotto
@@ -135,7 +122,11 @@ holder=1438108
 	holder=1726
 }
 1053.1.1={
+        liege = d_calabria
 	holder=85003 #Robert de Hauteville
+}
+1071.4.15={
+        liege = d_apulia
 }
 1107.1.1={
 	holder=30870 #William de Hauteville

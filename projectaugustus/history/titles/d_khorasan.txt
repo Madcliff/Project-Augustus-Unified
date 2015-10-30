@@ -1,28 +1,3 @@
-1.1.1 = {
-	de_jure_liege = k_parthia
-}
-484.1.1 = {
-	holder = 1000257556
-	liege = e_persia
-}
-488.1.1 = {
-	holder = 1000257557
-}
-541.1.1 = {
-	holder = 1000257558
-}
-568.1.1 = {
-	holder = 1000257559
-}
-601.1.1 = {
-	holder = 1000257560
-}
-651.1.1 = {
-	liege = k_arabia
-}
-657.1.1 = {
-	holder = 0
-}
 661.2.28={
 	liege=e_sunni
 }
@@ -33,7 +8,7 @@
 }
 768.1.1={
 	holder = 188602 # Homayd ibn Qahtaba
-	set_tribute_suzerain = { who = e_sunni percentage = 0.40 }
+	set_tribute_suzerain = { who = e_sunni percentage = 0.10 }
 }
 
 

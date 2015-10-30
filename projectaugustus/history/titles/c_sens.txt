@@ -1,16 +1,3 @@
-459.1.1={
-	holder = 1438111
-	liege = "k_france"
-}
-
-
-610.1.1 = {
-	holder = 1000153007 #Aega, historical placeholder
-	liege = d_champagne
-}
-641.1.1 = {
-	holder = 0
-}
 #Viscount of Sens
 750.1.1 = {
 	liege="k_austrasia"

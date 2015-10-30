@@ -1,0 +1,18 @@
+# County Title
+title = c_kargil
+
+# Settlements
+max_settlements = 4
+b_kargil = castle
+b_purig = castle
+b_chiktan = temple
+b_phokhar = city
+
+
+# Misc
+culture = tibetan
+religion = vajrayana_buddhist
+
+
+# History
+

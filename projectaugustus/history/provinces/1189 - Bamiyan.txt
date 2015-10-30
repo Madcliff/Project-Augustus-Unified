@@ -14,9 +14,8 @@ b_istalif = city
 #b_chak = temple
 
 # Misc
-culture = indohellenic
-religion = mahayana_buddhist
+culture = indo_greek
+religion = buddhist
 
-700.1.1 = {
-	culture = afghan
-}
+# History
+850.1.1 = { culture = afghan }

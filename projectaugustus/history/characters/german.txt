@@ -43,7 +43,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=106518
 	960.1.2 = {
@@ -61,7 +61,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10084
 	mother=20209
@@ -83,7 +83,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10097
 	mother=7816
@@ -102,7 +102,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10083
 	mother=1385
@@ -317,7 +317,7 @@
 	diplomacy=3
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10097
 	mother=7816
@@ -336,7 +336,7 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7969
 	892.1.2 = {
@@ -357,7 +357,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10097
 	mother=7816
@@ -400,7 +400,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="humble"
 	trait="fortune_builder"
@@ -471,7 +471,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167770
 	880.1.1 = {
@@ -489,7 +489,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=144955
 	900.1.1 = {
@@ -507,7 +507,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=106517
 	930.1.1 = {
@@ -526,7 +526,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="humble"
 	trait="fortune_builder"
@@ -591,7 +591,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=10093
@@ -636,7 +636,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="lustful"
 	trait="patient"
@@ -742,7 +742,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11004
 	mother=11005
@@ -765,7 +765,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1384
 	mother=71900
@@ -784,7 +784,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11008
 	mother=11009
@@ -807,7 +807,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11053
 	972.1.1 = {
@@ -825,7 +825,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161487
 	985.1.1 = {
@@ -847,7 +847,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11008
 	mother=11009
@@ -866,7 +866,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=40705
 	mother=90113
@@ -969,7 +969,7 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33574
 	mother=168527
@@ -992,7 +992,7 @@
 	diplomacy=7
 	intrigue=3
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33460
 	mother=1413
@@ -1041,7 +1041,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="midas_touched"
 	father=144992
@@ -1064,7 +1064,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="amateurish_plotter"
 	967.1.1 = {
@@ -1107,7 +1107,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="fortune_builder"
 	father=11032
@@ -1127,7 +1127,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="skilled_tactician"
 	father=144992
@@ -1147,7 +1147,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="thrifty_clerk"
 	father=144992
@@ -1211,7 +1211,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11053
 	960.1.1 = {
@@ -1233,7 +1233,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=144992
 	mother=1411
@@ -1252,7 +1252,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	935.1.1 = {
 		birth="935.1.1"
@@ -1289,7 +1289,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1434
 	mother=7666
@@ -1330,7 +1330,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1282
 	mother=1159
@@ -1351,7 +1351,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7968
 	940.1.1 = {
@@ -1373,7 +1373,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7668
 	980.1.1 = {
@@ -1391,7 +1391,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11067
 	mother=11068
@@ -1413,7 +1413,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11069
 	942.1.1 = {
@@ -1432,7 +1432,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11008
 	mother=11009
@@ -1451,7 +1451,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10097
 	mother=7816
@@ -1470,7 +1470,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="proud"
 	trait="underhanded_rogue"
@@ -1663,7 +1663,7 @@
 	diplomacy=6
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="slothful"
 	trait="honest"
@@ -1689,7 +1689,7 @@
 	diplomacy=7
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="lustful"
 	trait="tough_soldier"
@@ -1714,7 +1714,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="slothful"
 	trait="proud"
@@ -1736,7 +1736,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="greedy"
 	trait="just"
@@ -1759,7 +1759,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="envious"
 	trait="amateurish_plotter"
@@ -1780,7 +1780,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="flamboyant_schemer"
@@ -1802,7 +1802,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="zealous"
 	trait="martial_cleric"
@@ -1821,7 +1821,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="skilled_tactician"
 	father=40705
@@ -1844,7 +1844,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="chaste"
 	trait="harelip"
@@ -1867,7 +1867,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="envious"
 	trait="scholarly_theologian"
@@ -1888,7 +1888,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="ill"
@@ -1935,7 +1935,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="charitable"
 	trait="honest"
@@ -1958,7 +1958,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=7908
@@ -1985,7 +1985,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="scholarly_theologian"
 	father=33331
@@ -2005,7 +2005,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="greedy"
 	trait="diligent"
@@ -2038,7 +2038,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="flamboyant_schemer"
 	father=1280
@@ -2059,7 +2059,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="honest"
 	trait="proud"
@@ -2082,7 +2082,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="honest"
 	trait="proud"
@@ -2105,7 +2105,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="charismatic_negotiator"
@@ -2127,7 +2127,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="amateurish_plotter"
 	father=1280
@@ -2150,7 +2150,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="scholarly_theologian"
 	father=1280
@@ -2187,7 +2187,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="chaste"
 	trait="ill"
@@ -2212,7 +2212,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="charitable"
 	trait="cynical"
@@ -2240,7 +2240,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="patient"
 	trait="cynical"
@@ -2262,7 +2262,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="kind"
 	trait="skilled_tactician"
@@ -2308,7 +2308,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="patient"
 	trait="gluttonous"
@@ -2330,7 +2330,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="proud"
 	trait="temperate"
@@ -2355,7 +2355,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="charismatic_negotiator"
 	father=1306
@@ -2375,7 +2375,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="flamboyant_schemer"
@@ -2398,7 +2398,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="kind"
 	trait="honest"
@@ -2425,7 +2425,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="amateurish_plotter"
 	father=1312
@@ -2659,7 +2659,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31704
 	905.1.1 = {
@@ -2677,7 +2677,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=131715
 	860.1.2 = {
@@ -2695,7 +2695,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=1308
@@ -2718,7 +2718,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="lustful"
 	trait="charitable"
@@ -2743,7 +2743,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="deceitful"
 	trait="gluttonous"
@@ -2765,7 +2765,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="patient"
 	trait="tough_soldier"
@@ -2786,7 +2786,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161479
 	870.1.1 = {
@@ -2808,7 +2808,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	885.1.1 = {
 		birth="885.1.1"
@@ -2825,7 +2825,7 @@
 	diplomacy=8
 	intrigue=3
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1326
 	mother=1327
@@ -2848,7 +2848,7 @@
 	diplomacy=8
 	intrigue=3
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=40705
 	mother=90113
@@ -2867,7 +2867,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="flamboyant_schemer"
 	father=1328
@@ -2888,7 +2888,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="martial_cleric"
 	father=1330
@@ -2907,7 +2907,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="lustful"
 	trait="tough_soldier"
@@ -2931,7 +2931,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="cynical"
 	trait="lisp"
@@ -2951,7 +2951,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="flamboyant_schemer"
 	father=1332
@@ -2972,7 +2972,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="lisp"
 	trait="flamboyant_schemer"
@@ -2993,7 +2993,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -3086,7 +3086,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="envious"
 	trait="martial_cleric"
@@ -3223,7 +3223,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -3290,7 +3290,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="cynical"
 	trait="scholarly_theologian"
@@ -3315,7 +3315,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -3336,7 +3336,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="martial_cleric"
@@ -3431,7 +3431,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="martial_cleric"
 	965.1.1 = {
@@ -3491,7 +3491,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="zealous"
 	trait="tough_soldier"
@@ -3513,7 +3513,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="zealous"
 	trait="thrifty_clerk"
@@ -3533,7 +3533,7 @@
 	diplomacy=4
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="flamboyant_schemer"
 	father=1410
@@ -3553,7 +3553,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="deceitful"
 	trait="patient"
@@ -3677,7 +3677,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="amateurish_plotter"
@@ -3740,7 +3740,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="patient"
 	trait="skilled_tactician"
@@ -3958,7 +3958,7 @@
 144201 = {
 	name="Gebhard"
 	dynasty=12402
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	970.1.1 = {
 		birth="970.1.1"
@@ -4111,7 +4111,7 @@
 144212 = {
 	name="Herman"
 	dynasty=111
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 144213
 	1030.1.1 = {
@@ -4125,7 +4125,7 @@
 144213 = {
 	name="Rudolf"
 	dynasty=111
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 144214
 	984.1.1 = {
@@ -4139,7 +4139,7 @@
 144214 = {
 	name="Hermann"
 	dynasty=111
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	940.1.1 = {
 		birth="940.1.1"
@@ -4152,7 +4152,7 @@
 144215 = {
 	name="Hermann"
 	dynasty=111
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 144214
 	983.1.1 = {
@@ -4677,7 +4677,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="honest"
 	trait="temperate"
@@ -4699,7 +4699,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="charitable"
 	trait="martial_cleric"
@@ -4720,7 +4720,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="kind"
 	trait="hunchback"
@@ -4745,7 +4745,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="zealous"
 	trait="martial_cleric"
@@ -4770,7 +4770,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -4989,7 +4989,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168211
 	mother=168203
@@ -5012,7 +5012,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1384
 	mother=71900
@@ -5092,7 +5092,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=3
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=20208
 	mother=20207
@@ -5115,7 +5115,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=3
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1286
 	mother=1773
@@ -5134,7 +5134,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=3
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=20212
 	mother=20213
@@ -5157,7 +5157,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=3
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=20210
 	mother=20211
@@ -5176,7 +5176,7 @@
 	diplomacy=6
 	intrigue=9
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161526
 	910.1.1 = {
@@ -5195,7 +5195,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=3
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	909.1.1 = {
 		birth="909.1.1"
@@ -5212,7 +5212,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=20210
 	mother=20211
@@ -5235,7 +5235,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7642
 	909.1.1 = {
@@ -5253,7 +5253,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=3
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=20212
 	mother=20213
@@ -5615,7 +5615,7 @@
 	diplomacy=7
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	1000.1.1 = {
 		birth="1000.1.1"
@@ -5760,7 +5760,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=30090 #Gerhard I
 	
@@ -6087,7 +6087,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	988.1.1 = {
 		birth="988.1.1"
@@ -6104,7 +6104,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	953.1.1 = {
 		birth="953.1.1"
@@ -6310,7 +6310,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="ill"
 	trait="skilled_tactician"
@@ -11881,7 +11881,7 @@
 	diplomacy=4
 	intrigue=4
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168528
 	985.1.1 = {
@@ -11934,7 +11934,7 @@
 	diplomacy=4
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	#trait="amateurish_plotter"
 	father=30055
@@ -12437,7 +12437,7 @@
 	name="Gerhard" #Gerhard I
 	dynasty=101694
 	
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	970.1.1 = {
 		birth="970.1.1"
@@ -12862,7 +12862,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	980.1.1 = {
 		birth="980.1.1"
@@ -12879,7 +12879,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=30210
 	1007.1.1 = {
@@ -13459,7 +13459,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=30245
 	972.1.1 = {
@@ -13477,7 +13477,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167787
 	920.1.1 = {
@@ -13496,7 +13496,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=30245
 	970.1.1 = {
@@ -13514,7 +13514,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=30246
 	986.1.1 = {
@@ -17223,7 +17223,7 @@
 30750 = {
 	name="Friedrich" 
 	dynasty=529
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	997.1.1 = {
 		birth="997.1.1"
@@ -18403,7 +18403,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	979.1.2 = {
 		birth="979.1.2"
@@ -18603,7 +18603,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=131714
@@ -18625,7 +18625,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=40705
@@ -18691,7 +18691,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="intricate_webweaver"
 	father=1250
@@ -18712,7 +18712,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="thrifty_clerk"
 	father=1256
@@ -18924,7 +18924,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="humble"
 	trait="zealous"
@@ -18971,7 +18971,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="ambitious"
 	trait="ill"
@@ -18997,7 +18997,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="honest"
 	trait="ill"
@@ -19081,7 +19081,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="scholarly_theologian"
 	father=7813
@@ -19278,7 +19278,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="chaste"
 	trait="diligent"
@@ -19300,7 +19300,7 @@
 	diplomacy=3
 	intrigue=7
 	stewardship=9
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="lustful"
 	trait="diligent"
@@ -19340,7 +19340,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="proud"
@@ -19361,7 +19361,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="tough_soldier"
@@ -19381,7 +19381,7 @@
 	diplomacy=6
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="kind"
 	trait="cynical"
@@ -27806,7 +27806,7 @@
 	diplomacy=7
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="charitable"
 	trait="envious"
@@ -27827,7 +27827,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="proud"
 	trait="tough_soldier"
@@ -27852,7 +27852,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11004
 	mother=11005
@@ -27892,7 +27892,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=6
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=6632
 	mother=6633
@@ -28865,7 +28865,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="clubfooted"
@@ -28886,7 +28886,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 144958
 	950.1.1 = {
@@ -28922,7 +28922,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7311
 	962.1.2 = {
@@ -28944,7 +28944,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7311
 	980.1.2 = {
@@ -28962,7 +28962,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="scholarly_theologian"
 	father=33572
@@ -30197,7 +30197,7 @@
 	name="Hupold"
 	# AKA: Huchbald
 	dynasty=101555
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7641
 	950.1.1 = {
@@ -30211,7 +30211,7 @@
 7641 = {
 	name="Mangold"
 	dynasty=101555
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7642
 	mother=33610
@@ -30227,7 +30227,7 @@
 	name="Hupold"
 	# AKA: Hucbald
 	dynasty=101555
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168064
 	mother=168065
@@ -30440,7 +30440,7 @@
 	name="Heribert"
 	# AKA: Herbert
 	dynasty=1053
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7968
 	939.1.1 = {
@@ -30455,7 +30455,7 @@
 	name="Gerberga"
 	female=yes
 	dynasty=1053
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7665
 	959.1.1 = {
@@ -30471,7 +30471,7 @@
 	# AKA: Irmentrude
 	female=yes
 	dynasty=1053
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7665
 	960.1.1 = {
@@ -30485,7 +30485,7 @@
 7668 = {
 	name="Kuno"
 	dynasty=1053
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7968
 	941.1.1 = {
@@ -30885,7 +30885,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="proud"
@@ -30906,7 +30906,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="patient"
@@ -30930,7 +30930,7 @@
 	diplomacy=7
 	intrigue=8
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="patient"
@@ -31095,7 +31095,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=7959
@@ -31118,7 +31118,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="proud"
@@ -31142,7 +31142,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="chaste"
 	trait="kind"
@@ -31168,7 +31168,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="proud"
@@ -31191,7 +31191,7 @@
 	diplomacy=5
 	intrigue=8
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="chaste"
 	trait="kind"
@@ -31253,7 +31253,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10083
 	mother=1385
@@ -31272,7 +31272,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31293,7 +31293,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="ambitious"
 	trait="ill"
@@ -31318,7 +31318,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31341,7 +31341,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31363,7 +31363,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31383,7 +31383,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="ambitious"
 	trait="ill"
@@ -31404,7 +31404,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31425,7 +31425,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31445,7 +31445,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31468,7 +31468,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31489,7 +31489,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=7959
@@ -31509,7 +31509,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="patient"
 	trait="brave"
@@ -31533,7 +31533,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="patient"
 	trait="brave"
@@ -31558,7 +31558,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="patient"
 	trait="brave"
@@ -31581,7 +31581,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="patient"
 	trait="brave"
@@ -31604,7 +31604,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=167766
@@ -31627,7 +31627,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31647,7 +31647,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31671,7 +31671,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31692,7 +31692,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="honest"
 	trait="proud"
@@ -31718,7 +31718,7 @@
 	diplomacy=4
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="honest"
 	trait="proud"
@@ -31741,7 +31741,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31762,7 +31762,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31782,7 +31782,7 @@
 	diplomacy=5
 	intrigue=6
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="flamboyant_schemer"
@@ -31802,7 +31802,7 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168302
 	860.1.1 = {
@@ -31823,7 +31823,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=4
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10097
 	mother=7816
@@ -31842,7 +31842,7 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7969
 	mother=167851
@@ -31861,7 +31861,7 @@
 	diplomacy=3
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7971
 	940.1.1 = {
@@ -31879,7 +31879,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10084
 	mother=20209
@@ -31898,7 +31898,7 @@
 	diplomacy=8
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11002
 	mother=11003
@@ -31943,7 +31943,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="kind"
 	trait="hunchback"
@@ -31968,7 +31968,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -31990,7 +31990,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -32011,7 +32011,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -32031,7 +32031,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -32054,7 +32054,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	father = 7988
@@ -32074,7 +32074,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -32095,7 +32095,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -32115,7 +32115,7 @@
 	diplomacy=6
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="martial_cleric"
@@ -32136,7 +32136,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="kind"
 	trait="hunchback"
@@ -32181,7 +32181,7 @@
 	diplomacy=5
 	intrigue=3
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait=slothful
 	trait=ill
@@ -32208,7 +32208,7 @@
 	diplomacy=5
 	intrigue=7
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=90095
 	mother=91002
@@ -32530,7 +32530,7 @@
 31702 = {
 	name="Adalhard" #count of Metz
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31701
 	810.1.2 = {
@@ -32544,7 +32544,7 @@
 31703 = {
 	name="Adalhard" #count of Metz
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31702
 	842.1.2 = {
@@ -32557,7 +32557,7 @@
 31704 = {
 	name="Gerhard" #count of Metz
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31703
 	870.1.2 = {
@@ -32571,7 +32571,7 @@
 31705 = {
 	name="Gottfried" #count palantine of Lorraine
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31704
 	905.1.2 = {
@@ -32585,7 +32585,7 @@
 31706 = {
 	name="Gerhard" #count of Metz
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31705
 	930.1.2 = {
@@ -32599,7 +32599,7 @@
 31707 = {
 	name="Gerhard" #count of Metz
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31706
 	950.1.2 = {
@@ -32612,7 +32612,7 @@
 31708 = {
 	name="Matfried" 
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31703
 	875.1.2 = {
@@ -32626,7 +32626,7 @@
 31709 = {
 	name="Adalbert" 
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31708
 	900.1.2 = {
@@ -32639,7 +32639,7 @@
 31510 = {
 	name="Rapoto" #I count of Passau
 	dynasty=7220 #Rapotonen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	950.1.1 = {
 		birth="950.1.1"
@@ -32651,7 +32651,7 @@
 31511 = {
 	name="Rapoto" #II count of Passau
 	dynasty=7220 #Rapotonen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31510
 	980.1.1 = {
@@ -32664,7 +32664,7 @@
 31512 = {
 	name="Rapoto" #III count of Passau
 	dynasty=7220 #Rapotonen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31511
 	1000.1.1 = {
@@ -32695,7 +32695,7 @@
 	name="Hemma"
 	female=yes
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10084
 	mother=20209
@@ -33354,7 +33354,7 @@
 32000 = {
 	name="Otakar" #I
 	dynasty=9554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167802
 	mother=168311
@@ -33371,7 +33371,7 @@
 32001 = {
 	name="Otakar" #II
 	dynasty=101605
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=32000
 	900.1.1 = {
@@ -33386,7 +33386,7 @@
 32002 = {
 	name="Otakar" #III
 	dynasty=101605
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=32001
 	920.1.1 = {
@@ -33400,7 +33400,7 @@
 32003 = {
 	name="Otakar" #IV
 	dynasty=101605
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=32002
 	950.1.2 = {
@@ -33414,7 +33414,7 @@
 32005 = {
 	name="Otakar" #V 
 	dynasty=101605
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=32003
 	970.1.2 = {
@@ -33793,7 +33793,7 @@
 32761 = {
 	name="Ulrich" #real name unkown
 	dynasty=87
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	990.1.1 = {
 		birth="990.1.1"
@@ -34389,7 +34389,7 @@
 33242=  {
 	name="Liutger"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1410
 	960.1.1 = {
@@ -34407,7 +34407,7 @@
 	name="Emma"
 	female=yes
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33245
 	975.1.1 = {
@@ -34437,7 +34437,7 @@
 33245=  {
 	name="Immed"
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33246
 	933.1.1 = {
@@ -34452,7 +34452,7 @@
 33246 = {
 	name="Immed"
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33247
 	872.1.1 = {
@@ -34466,7 +34466,7 @@
 33247 = {
 	name="Reginbern"
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33248
 	840.1.1 = {
@@ -34480,7 +34480,7 @@
 33248 = {
 	name="Walbert"
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33249
 	mother=168622
@@ -34494,7 +34494,7 @@
 33249 = {
 	name="Wigbert"
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33250
 	780.1.1 = {
@@ -35431,7 +35431,7 @@
 	name="Adelheid"
 	female=yes
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=11004
 	mother=11005
@@ -36749,7 +36749,7 @@
 33328 = {
 	name="Heimrich" 
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33327
 	745.1.1 = {
@@ -36763,7 +36763,7 @@
 33329 = {
 	name="Heinrich" 
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33328
 	765.1.1 = {
@@ -36777,7 +36777,7 @@
 33330 = {
 	name="Poppo" 
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33329
 	785.1.1 = {
@@ -36791,7 +36791,7 @@
 33331 = {
 	name="Theoderich"
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33247
 	860.1.1 = {
@@ -37590,7 +37590,7 @@
 33406 = {
 	name="Thiemo"
 	dynasty=210
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=30210
 	1006.1.1 = {
@@ -38187,7 +38187,7 @@
 33428 = {
 	name="Poppo"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33330
 	838.1.1 = {
@@ -38204,7 +38204,7 @@
 33429 = {
 	name="Poppo"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33428
 	mother=168230
@@ -38219,7 +38219,7 @@
 33430 = {
 	name="Otto"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33429
 	920.1.1 = {
@@ -38233,7 +38233,7 @@
 33431 = {
 	name="Otto"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33430
 	950.1.1 = {
@@ -38247,7 +38247,7 @@
 33432 = {
 	name="Otto"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33431
 	990.1.1 = {
@@ -38674,7 +38674,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="honest"
 	trait="flamboyant_schemer"
@@ -39448,7 +39448,7 @@
 33457 = {
 	name="Liudolf"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=7908
@@ -39463,7 +39463,7 @@
 33458 = {
 	name="Ekkehard"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=33457
@@ -39478,7 +39478,7 @@
 33459 = {
 	name="Günther"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=33458
@@ -39499,7 +39499,7 @@
 33460 = {
 	name="Ekkehard"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=33459
@@ -39519,7 +39519,7 @@
 33461 = {
 	name="Günzelin"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=33459
@@ -39537,7 +39537,7 @@
 33462 = {
 	name="Ekkehard"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=33460
@@ -39554,7 +39554,7 @@
 33463 = {
 	name="Hermann"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="tough_soldier"
 	father=33460
@@ -40415,7 +40415,7 @@
 33520 = {
 	name="Egino"
 	dynasty=101718
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	1000.1.1 = {
 		birth="1000.1.1"
@@ -41152,7 +41152,7 @@
 33571 = {
 	name="Burchard"
 	dynasty=101557
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7957
 	935.1.1 = {
@@ -41166,7 +41166,7 @@
 33572 = {
 	name="Burchard"
 	dynasty=101557
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33571
 	955.1.1 = {
@@ -41180,7 +41180,7 @@
 33573 = {
 	name="Dietrich"
 	dynasty=528
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7957
 	934.1.1 = {
@@ -41194,7 +41194,7 @@
 33574 = {
 	name="Dedo"
 	dynasty=528
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33573
 	960.1.1 = {
@@ -41381,7 +41381,7 @@
 	name="Dietpirch"
 	female=yes
 	dynasty=1054
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7955
 	875.1.1 = {
@@ -42910,7 +42910,7 @@
 	name="Gerberga"
 	dynasty=650
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1146
 	mother=7960
@@ -42925,7 +42925,7 @@
 71901 = {
 	name="Berengar"
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7909
 	mother=7907
@@ -44460,7 +44460,7 @@
 	diplomacy=8
 	intrigue=5
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 144957 
 	870.1.1 = {
@@ -44491,7 +44491,7 @@
 144957 = {
 	name="Bruno"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7959
 	mother=167765
@@ -44506,7 +44506,7 @@
 144958 = {
 	name="Wilhelm"
 	dynasty=216
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	920.1.1 = {
 		birth="920.1.1"
@@ -44523,7 +44523,7 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=8
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="lustful"
 	trait="tough_soldier"
@@ -44539,7 +44539,7 @@
 144973 = {
 	name="Konrad"
 	dynasty=650
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=144974 
 	846.1.1 = {
@@ -44553,7 +44553,7 @@
 144974 = {
 	name="Rudolf"
 	dynasty=650
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7985
 	816.1.1 = {
@@ -44582,7 +44582,7 @@
 144991 = {
 	name="Richar" 
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31704
 	910.1.1 = {
@@ -44596,7 +44596,7 @@
 144992 = {
 	name="Gottfried" 
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=40706
 	mother=131713
@@ -44614,7 +44614,7 @@
 144997 = {
 	name="Zwentibold"
 	dynasty=25061
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="bastard"
 	father=7945
@@ -44652,7 +44652,7 @@
 165021 = {
 	name="Adalbero"
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=40705
 	mother=90113
@@ -44668,7 +44668,7 @@
 	name="Eva"
 	female=yes
 	dynasty=420
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1250
 	mother=1251
@@ -44683,7 +44683,7 @@
 165023 = {
 	name="Gerhard"
 	dynasty=664
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1328
 	mother=1329
@@ -44702,7 +44702,7 @@
 	name="Adelheid"
 	female=yes
 	dynasty=664
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=165023
 	mother=165022
@@ -44736,7 +44736,7 @@
 165026 = {
 	name="Adalbero"
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=40706
 	mother=131713
@@ -44751,7 +44751,7 @@
 163047 = {
 	name="Wilhelm"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="legit_bastard"
 	father=1282
@@ -44782,7 +44782,7 @@
 163051 = {	
 	name="Bertolf"	
 	dynasty=1053	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"	
 	father=7946
 	mother=167811	
@@ -44796,7 +44796,7 @@
 
 163052 = {
 	name="Wilibert"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	840.1.1 = {
 		birth="840.1.1"
@@ -44808,7 +44808,7 @@
 
 163053 = {
 	name="Bertulf"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	820.1.1 = {
 		birth="820.1.1"
@@ -44820,7 +44820,7 @@
 
 163054 = {
 	name="Luitbert"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	790.1.1 = {
 		birth="790.1.1"
@@ -44975,7 +44975,7 @@
 	diplomacy=8
 	intrigue=4
 	stewardship=5
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="gluttonous"
 	trait="clubfooted"
@@ -44995,7 +44995,7 @@
 	# AKA: Emma de Bourgogne
 	female=yes
 	dynasty=650 #Welf
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7988 #Conrad I of Burgundy
 	mother = 161485
@@ -45189,7 +45189,7 @@
 	name="Eticho"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	620.1.1 = {
 		birth="620.1.1"
 	}
@@ -45202,7 +45202,7 @@
 	name="Adalbert"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161471
 	660.1.1 = {
 		birth="660.1.1"
@@ -45216,7 +45216,7 @@
 	name="Liutfried"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161472
 	685.1.1 = {
 		birth="685.1.1"
@@ -45230,7 +45230,7 @@
 	name="Batticho"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161471
 	665.1.1 = {
 		birth="665.1.1"
@@ -45244,7 +45244,7 @@
 	name="Boro"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161474
 	690.1.1 = {
 		birth="690.1.1"
@@ -45258,7 +45258,7 @@
 	name="Choros"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161475
 	720.1.1 = {
 		birth="720.1.1"
@@ -45272,7 +45272,7 @@
 	name="Adalbert"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161476
 	750.1.1 = {
 		birth="750.1.1"
@@ -45286,7 +45286,7 @@
 	name="Hugo"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161477
 	770.1.1 = {
 		birth="770.1.1"
@@ -45300,7 +45300,7 @@
 	name="Eberhard"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161478
 	815.1.1 = {
 		birth="815.1.1"
@@ -45314,7 +45314,7 @@
 	name="Eticho"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161471
 	680.1.1 = {
 		birth="680.1.1"
@@ -45328,7 +45328,7 @@
 	name="Hugo"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161480
 	710.1.1 = {
 		birth="710.1.1"
@@ -45342,7 +45342,7 @@
 	name="Eticho"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161481
 	740.1.1 = {
 		birth="740.1.1"
@@ -45356,7 +45356,7 @@
 	name="Hugo"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161482
 	770.1.1 = {
 		birth="770.1.1"
@@ -45371,7 +45371,7 @@
 	female=yes
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161483
 	795.1.1 = {
 		birth="795.1.1"
@@ -45386,7 +45386,7 @@
 	female=yes
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161483
 	810.1.1 = {
 		birth="810.1.1"
@@ -45399,7 +45399,7 @@
 161486 = {
 	name="Guntram"
 	dynasty=664
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1326
 	mother=1327
@@ -45414,7 +45414,7 @@
 161487 = {
 	name="Lanzelin"
 	dynasty=664
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161486
 	950.1.1 = {
@@ -45429,7 +45429,7 @@
 	name="Adela"
 	female=yes
 	dynasty=664
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=1326
 	mother=1327
@@ -45444,7 +45444,7 @@
 161525 = {
 	name="Erenfried"
 	dynasty=101554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	850.1.1 = {
 		birth="850.1.1"
@@ -45457,7 +45457,7 @@
 161526 = {
 	name="Eberhard"
 	dynasty=101554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161525
 	885.1.1 = {
@@ -45471,7 +45471,7 @@
 161527 = {
 	name="Eberhard"
 	dynasty=101554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161526
 	915.1.1 = {
@@ -45485,7 +45485,7 @@
 161528 = {
 	name="Unruoch"
 	dynasty=101554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161527
 	940.1.1 = {
@@ -45499,7 +45499,7 @@
 161529 = {
 	name="Fretehard"
 	dynasty=101554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161528
 	960.1.1 = {
@@ -45572,7 +45572,7 @@
 	name="Hicha"
 	female=yes
 	dynasty=1054
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7956
 	mother=168157
@@ -45587,7 +45587,7 @@
 161552 = {
 	name="Werner"
 	dynasty=651
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161556
 	899.1.1 = {
@@ -45605,7 +45605,7 @@
 161553 = {
 	name="Werner"
 	dynasty=651
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168184
 	760.1.1 = {
@@ -45622,7 +45622,7 @@
 161554 = {
 	name="Werner"
 	dynasty=651
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161553
 	mother=168189
@@ -45640,7 +45640,7 @@
 161555 = {
 	name="Werner"
 	dynasty=651
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161554
 	mother=161557
@@ -45655,7 +45655,7 @@
 161556 = {
 	name="Werner"
 	dynasty=651
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161555
 	870.1.1 = {
@@ -45706,7 +45706,7 @@
 	diplomacy=8
 	intrigue=8
 	stewardship=7
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="wroth"
 	trait="patient"
@@ -45746,7 +45746,7 @@
 161538 = {
 	name="Gottfried" 
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31705
 	925.1.1 = {
@@ -45760,7 +45760,7 @@
 161539 = {
 	name="Wigfried" 
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31704
 	901.1.1 = {
@@ -45773,7 +45773,7 @@
 161540 = {
 	name="Reginar"
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=40706
 	mother=131713
@@ -45788,7 +45788,7 @@
 161541= {
 	name="Adalbero"
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161540
 	952.1.1 = {
@@ -45802,7 +45802,7 @@
 161542 = {
 	name="Heinrich"
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=40706
 	mother=131713
@@ -45817,7 +45817,7 @@
 161543 = {
 	name="Adalbero"
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=144992
 	mother=1411
@@ -45833,7 +45833,7 @@
 	name="Irmingard"
 	female=yes
 	dynasty=22007
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=144992
 	mother=1411
@@ -45848,7 +45848,7 @@
 161545 = {
 	name="Otto"
 	dynasty=1053
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7665
 	958.1.1 = {
@@ -45866,7 +45866,7 @@
 	name="Mathilde"
 	female=yes
 	dynasty=1053
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161545
 	mother=161544
@@ -46184,7 +46184,7 @@
 161742 = {
 	name="Hunfrid"
 	dynasty=1054
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190359
 	750.1.1 = {
@@ -46198,7 +46198,7 @@
 161743 = {
 	name="Adalbert"
 	dynasty=1054
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161742
 	780.1.1 = {
@@ -46212,7 +46212,7 @@
 161744 = {
 	name="Adalbert"
 	dynasty=1054
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161743
 	830.1.1 = {
@@ -46226,7 +46226,7 @@
 161745 = {
 	name="Udalrich"
 	dynasty=1054
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161743
 	810.1.1 = {
@@ -46240,7 +46240,7 @@
 161746 = {
 	name="Hunfrid"
 	dynasty=1054
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161742
 	785.1.1 = {
@@ -49198,7 +49198,7 @@
 	name="Ido" # Ido di Manesseno di Genova, cousin of Otto I of the HRE
 	dynasty=50 # Spinola
 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 
 	920.1.1 = {
@@ -49233,7 +49233,7 @@
 	name="Liutfried"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=161483
 	809.1.1 = {
 		birth="809.1.1"
@@ -49246,7 +49246,7 @@
 163056 = {
 	name="Adalwin"
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	809.1.1 = {
 		birth="809.1.1"
 	}
@@ -49257,7 +49257,7 @@
 163057 = {
 	name="Unruoch"
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7909
 	mother=7907
@@ -49272,7 +49272,7 @@
 163058 = {
 	name="Hunfrid"
 	dynasty=1054
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161743
 	832.1.1 = {
@@ -49286,7 +49286,7 @@
 163062 = {
 	name="Gerhard"
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31701
 	809.1.1 = {
@@ -49301,7 +49301,7 @@
 	name="Liutfried"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=163055
 	839.1.1 = {
 		birth="839.1.1"
@@ -49496,7 +49496,7 @@
 167750 = {
 	name="Ekbert"
 	dynasty=9550
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	756.1.1={
 		birth="756.1.1"
@@ -49514,7 +49514,7 @@
 167751 = {
 	name="Cobbo"
 	dynasty=9550
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167750
 	mother=166754
@@ -49531,7 +49531,7 @@
 167752 = {
 	name="Warin"
 	dynasty=9550
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167750
 	mother=166754
@@ -49549,7 +49549,7 @@
 	name="Ida"
 	female=yes
 	dynasty=9550
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167750
 	mother=166754
@@ -49564,7 +49564,7 @@
 167755 = {
 	name="Hildebold"
 	dynasty=9551
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	750.1.1={
 		birth="750.1.1"
@@ -49580,7 +49580,7 @@
 167756 = {
 	name="Adalrich"
 	dynasty=9551
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167755
 	780.1.1={
@@ -49600,7 +49600,7 @@
 167757 = {
 	name="Cobbo"
 	dynasty=9551
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167756
 	mother=167753
@@ -49618,7 +49618,7 @@
 	name="Hedwig"
 	female=yes
 	dynasty=9551
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167756
 	mother=167753
@@ -49636,7 +49636,7 @@
 167759 = {
 	name="Wichmann"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=106516
 	900.1.1 = {
@@ -49652,7 +49652,7 @@
 167760 = {
 	name="Amelung"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=106516
 	905.1.1 = {
@@ -49666,7 +49666,7 @@
 167761 = {
 	name="Wichmann"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167759
 	930.1.1 = {
@@ -49681,7 +49681,7 @@
 167762 = {
 	name="Ekbert"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167759
 	932.1.1 = {
@@ -49695,7 +49695,7 @@
 167763 = {
 	name="Billung"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190463
 	780.1.1 = {
@@ -49713,7 +49713,7 @@
 	name="Oda"
 	female=yes
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167763
 	mother=167764
@@ -49729,7 +49729,7 @@
 167766 = {
 	name="Bruno"
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190457
 	785.1.1 = {
@@ -49747,7 +49747,7 @@
 	name="Adela"
 	female=yes
 	dynasty=9550
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167750
 	mother=166754
@@ -49764,7 +49764,7 @@
 167768 = {
 	name="Amelung"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167763
 	mother=167764
@@ -49780,7 +49780,7 @@
 167769 = {
 	name="Wichmann"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167763
 	mother=167764
@@ -49796,7 +49796,7 @@
 167770 = {
 	name="Wichmann"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167769
 	840.1.1 = {
@@ -49812,7 +49812,7 @@
 	name="Alberada"
 	female=yes
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167768
 	840.1.1 = {
@@ -49828,7 +49828,7 @@
 	name="Hemma"
 	female=yes
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167768
 	842.1.1 = {
@@ -49844,7 +49844,7 @@
 	name="Adela"
 	female=yes
 	dynasty=9551
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167757
 	849.1.1={
@@ -49859,7 +49859,7 @@
 167774 = {
 	name="Thietbold"
 	dynasty=9551
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="bastard"
 	father=167757
@@ -49875,7 +49875,7 @@
 167775 = {
 	name="Meginhard"
 	dynasty=656
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167769
 	842.1.1 = {
@@ -49889,7 +49889,7 @@
 
 167784 = {
 	name="Ekbert"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	825.1.1 = {
 		birth="825.1.1"
@@ -49903,7 +49903,7 @@
 167785 = {
 	name="Lothar"
 	dynasty=661
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190467
 	830.1.1 = {
@@ -49921,7 +49921,7 @@
 	name="Edda"
 	female=yes
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7959
 	mother=167765
@@ -49936,7 +49936,7 @@
 167787 = {
 	name="Lothar"
 	dynasty=661
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167785
 	mother=167786
@@ -49952,7 +49952,7 @@
 167790 = {
 	name="Unruoch"
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167807
 	770.1.1 = {
@@ -49969,7 +49969,7 @@
 167791 = {
 	name="Berengar"
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167790
 	790.1.1 = {
@@ -49988,7 +49988,7 @@
 167792 = {
 	name="Adalhard"
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7909
 	mother=7907
@@ -50005,7 +50005,7 @@
 167793 = {
 	name="Eberhard"
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167792
 	862.1.1={
@@ -50022,7 +50022,7 @@
 	name="Judith"
 	female=yes
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167793
 	888.1.1={
@@ -50038,7 +50038,7 @@
 167795 = {
 	name="Wilhelm"
 	dynasty=9553
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	800.1.1={
 		birth="800.1.1"
@@ -50053,7 +50053,7 @@
 167796 = {
 	name="Wilhelm"
 	dynasty=9553
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167795
 	820.1.1={
@@ -50069,7 +50069,7 @@
 167797 = {
 	name="Megingoz"
 	dynasty=9553
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167796
 	840.1.1={
@@ -50083,7 +50083,7 @@
 167798 = {
 	name="Engelschalk"
 	dynasty=9553
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167795
 	825.1.1={
@@ -50099,7 +50099,7 @@
 167799 = {
 	name="Poppo"
 	dynasty=9553
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167798
 	845.1.1={
@@ -50116,7 +50116,7 @@
 167800 = {
 	name="Wilhelm"
 	dynasty=9553
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167798
 	847.1.1={
@@ -50132,7 +50132,7 @@
 167801 = {
 	name="Engelschalk"
 	dynasty=9553
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167798
 	849.1.1={
@@ -50148,7 +50148,7 @@
 167802 = {
 	name="Aribo"
 	dynasty=9554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	840.1.1={
 		birth="840.1.1"
@@ -50164,7 +50164,7 @@
 167803 = {
 	name="Isanrich"
 	dynasty=9554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167802
 	mother=168311
@@ -50178,7 +50178,7 @@
 
 167804 = {
 	name="Lupus"
-	religion="chalcendonian"
+	religion="catholic"
 	trait="martial_cleric"
 	culture="german"
 	820.1.1={
@@ -50191,7 +50191,7 @@
 
 167805 = {
 	name="Adelchis"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="martial_cleric"
 	825.1.1={
@@ -50205,7 +50205,7 @@
 167807 = {
 	name="Unruoch"
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190360
 	736.1.1 = {
@@ -50220,7 +50220,7 @@
 167808 = {
 	name="Ernst"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	790.1.1 = {
 		birth="790.1.1"
@@ -50236,7 +50236,7 @@
 167809 = {
 	name="Wartrun"
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	790.1.1 = {
 		birth="790.1.1"
@@ -50250,7 +50250,7 @@
 167810 = {
 	name="Ernst"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167808
 	mother=167809
@@ -50267,7 +50267,7 @@
 	name="Gisela" #real name unknown
 	female=yes
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167808
 	mother=167809
@@ -50283,7 +50283,7 @@
 167812 = {
 	name="Ernst"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167810
 	840.1.1 = {
@@ -50300,7 +50300,7 @@
 	name="Liutswind" 
 	female=yes
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167810
 	834.1.1 = {
@@ -50316,7 +50316,7 @@
 167814 = {
 	name="Ernst"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167812
 	860.1.1 = {
@@ -50333,7 +50333,7 @@
 167815 = {
 	name="Hartwig"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167812
 	861.1.1 = {
@@ -50348,7 +50348,7 @@
 167816 = {
 	name="Guntpolt"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167812
 	862.1.1 = {
@@ -50365,7 +50365,7 @@
 	name="Ida" #real name unknown
 	female=yes
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167812
 	863.1.1 = {
@@ -50382,7 +50382,7 @@
 167818 = {
 	name="Ernst"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167814
 	900.1.1 = {
@@ -50399,7 +50399,7 @@
 167819 = {
 	name="Hartwig"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167814
 	905.1.1 = {
@@ -50414,7 +50414,7 @@
 167820 = {
 	name="Ernst"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167818
 	930.1.1 = {
@@ -50430,7 +50430,7 @@
 167821 = {
 	name="Hartwig"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167818
 	932.1.1 = {
@@ -50445,7 +50445,7 @@
 167822 = {
 	name="Guntpert"
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167818
 	934.1.1 = {
@@ -50460,7 +50460,7 @@
 	name="Richwara"
 	female=yes
 	dynasty=9556
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167818
 	936.1.1 = {
@@ -50475,7 +50475,7 @@
 167824 = {	
 	name="Waldo"	
 	dynasty=1053	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"	
 	father=7946
 	mother=167811	
@@ -50490,7 +50490,7 @@
 167825 = {	
 	name="Gerold"	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"		
 	740.1.1 = {		
 		birth="740.1.1"
@@ -50506,7 +50506,7 @@
 167826 = {	
 	name="Udalrich"	
 	dynasty=9558	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167825		
 	778.1.1 = {		
@@ -50521,7 +50521,7 @@
 	name="Hildegard"
 	female=yes	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167825		
 	756.1.1 = {		
@@ -50535,7 +50535,7 @@
 167828 = {
 	name="Erbio"
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167825		
 	780.1.1 = {		
@@ -50549,7 +50549,7 @@
 167829 = {
 	name="Odo"
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167828		
 	796.1.1 = {		
@@ -50564,7 +50564,7 @@
 	name="Irmintrud"
 	female=yes	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167829		
 	825.1.1 = {		
@@ -50578,7 +50578,7 @@
 167831 = {	
 	name="Ratbert"	
 	dynasty=9558	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167826		
 	795.1.1 = {		
@@ -50592,7 +50592,7 @@
 167832 = {	
 	name="Udalrich"	
 	dynasty=9558	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167831		
 	815.1.1 = {		
@@ -50606,7 +50606,7 @@
 167833 = {	
 	name="Udalrich"	
 	dynasty=9558	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167832		
 	840.1.1 = {		
@@ -50620,7 +50620,7 @@
 167834 = {	
 	name="Gerold"	
 	dynasty=9558	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167833		
 	860.1.1 = {		
@@ -50635,7 +50635,7 @@
 	name="Irmintrud"
 	female=yes	
 	dynasty=9558	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167833		
 	862.1.1 = {		
@@ -50648,7 +50648,7 @@
 
 167836 = {	
 	name="Hesso"		
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	trait="martial_cleric"		
 	820.1.1 = {		
@@ -50661,7 +50661,7 @@
 
 167837 = {
 	name="Walther"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="martial_cleric"		
 	840.1.1 = {		
@@ -50674,7 +50674,7 @@
 167838 = {
 	name="Wigbert"
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33248
 	845.1.1 = {
@@ -50688,7 +50688,7 @@
 167839 = {
 	name="Widukind"
 	dynasty=7282
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33247
 	862.1.1 = {
@@ -50702,7 +50702,7 @@
 167840 = {
 	name="Berthold"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	675.1.1 = {
 		birth="675.1.1"
@@ -50716,7 +50716,7 @@
 167841 = {
 	name="Alaholf"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167840
 	710.1.1 = {
@@ -50732,7 +50732,7 @@
 167842 = {
 	name="Chrodhoh"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167841
 	730.1.1 = {
@@ -50748,7 +50748,7 @@
 167843 = {
 	name="Berthold"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167842
 	755.1.1 = {
@@ -50764,7 +50764,7 @@
 167844 = {
 	name="Chadaloh"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167843
 	775.1.1 = {
@@ -50778,7 +50778,7 @@
 167845 = {
 	name="Berthold"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167844
 	795.1.1 = {
@@ -50792,7 +50792,7 @@
 167846 = {
 	name="Erchanger"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167845
 	815.1.1 = {
@@ -50808,7 +50808,7 @@
 	name="Richardis"
 	female=yes
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167846
 	837.1.1 = {
@@ -50822,7 +50822,7 @@
 167848 = {
 	name="Berthold"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167845
 	825.1.1 = {
@@ -50838,7 +50838,7 @@
 167849 = {
 	name="Berthold"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167848
 	855.1.1 = {
@@ -50854,7 +50854,7 @@
 167850 = {
 	name="Erchanger"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167848
 	860.1.1 = {
@@ -50871,7 +50871,7 @@
 	name="Kunigunde"
 	female=yes
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167848
 	882.1.1 = {
@@ -50887,7 +50887,7 @@
 167852 = {
 	name="Adalbert"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167849
 	885.1.1 = {
@@ -50904,7 +50904,7 @@
 167853 = {
 	name="Berthold"
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167852
 	910.1.1 = {
@@ -50922,7 +50922,7 @@
 	name="Judith"
 	female=yes
 	dynasty=9559
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167852
 	915.1.1 = {
@@ -50936,7 +50936,7 @@
 167877 = {
 	name="Lanzelin"
 	dynasty=664
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=161487
 	986.1.1={
@@ -50950,7 +50950,7 @@
 167878 = {
 	name="Bezzelin"
 	dynasty=664
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167877
 	1002.1.1={
@@ -50965,7 +50965,7 @@
 	name="Ingeltrude" #real name unknown
 	dynasty=12110
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167790
 	830.1.1={
@@ -50979,7 +50979,7 @@
 167977 = {
 	name="Andaberta"
 	female=yes
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	832.1.1 = {
 		birth="832.1.1"
@@ -50994,7 +50994,7 @@
 	name="Ingelrade"
 	female=yes
 	dynasty=9566
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167976
 	mother=167977
@@ -51012,7 +51012,7 @@
 	name="Berta"
 	female=yes
 	dynasty=9566
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167976
 	mother=167977
@@ -51027,7 +51027,7 @@
 168004 = {
 	name="Ludwig"
 	dynasty=650
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 7984
 	mother = 7983 
@@ -51043,7 +51043,7 @@
 	name="Willa"
 	female=yes
 	dynasty=650
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 7984
 	mother = 7983 
@@ -51059,7 +51059,7 @@
 	name="Waldrada"
 	female=yes
 	dynasty=650
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 7984
 	mother = 7983 
@@ -51075,7 +51075,7 @@
 	name="Hupold"
 	dynasty=664
 	culture="german"
-	religion="chalcendonian"
+	religion="catholic"
 	father=163055
 	840.1.1 = {
 		birth="840.1.1"
@@ -51093,7 +51093,7 @@
 	name="Heylwig"
 	female=yes 
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7909
 	mother=7907
@@ -51109,7 +51109,7 @@
 	name="Dhuoda"
 	female=yes
 	dynasty=650
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7985
 	802.1.1 = {
@@ -51124,7 +51124,7 @@
 	name="Judith"
 	female=yes
 	dynasty=650
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father = 7988
 	mother = 161485
@@ -51140,7 +51140,7 @@
 	name="Engeltrudis" 
 	female=yes
 	dynasty=667
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=31702
 	844.1.1 = {
@@ -51154,7 +51154,7 @@
 168183 = {
 	name="Rudolf"
 	dynasty=12110
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7909
 	mother=7907
@@ -51169,7 +51169,7 @@
 168186 = {
 	name="Sigihelm"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	710.1.1 = {
 		birth="710.1.1"
@@ -51182,7 +51182,7 @@
 168187 = {
 	name="Albrich"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168186
 	730.1.1 = {
@@ -51196,7 +51196,7 @@
 168188 = {
 	name="Eberhard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168187
 	750.1.1 = {
@@ -51211,7 +51211,7 @@
 	name="Engiltrud"
 	female=yes
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168188
 	770.1.1 = {
@@ -51225,7 +51225,7 @@
 168190 = {
 	name="Sieghard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168188
 	775.1.1 = {
@@ -51239,7 +51239,7 @@
 168191 = {
 	name="Sieghard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168190
 	805.1.1 = {
@@ -51253,7 +51253,7 @@
 168192 = {
 	name="Sieghard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168191
 	835.1.1 = {
@@ -51267,7 +51267,7 @@
 168193 = {
 	name="Ratold"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168192
 	855.1.1 = {
@@ -51281,7 +51281,7 @@
 168194 = {
 	name="Sieghard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168192
 	857.1.1 = {
@@ -51295,7 +51295,7 @@
 168195 = {
 	name="Sieghard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168194
 	890.1.1 = {
@@ -51309,7 +51309,7 @@
 168196 = {
 	name="Sieghard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168195
 	925.1.1 = {
@@ -51323,7 +51323,7 @@
 168197 = {
 	name="Sieghard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168196
 	950.1.1 = {
@@ -51337,7 +51337,7 @@
 168198 = {
 	name="Engelbert"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168196
 	960.1.1 = {
@@ -51351,7 +51351,7 @@
 168199 = {
 	name="Engelbert"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168198
 	990.1.1 = {
@@ -51366,7 +51366,7 @@
 168200 = {
 	name="Eberhard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168193
 	885.1.1 = {
@@ -51380,7 +51380,7 @@
 168201 = {
 	name="Adalbero"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168193
 	895.1.1 = {
@@ -51395,7 +51395,7 @@
 	name="Willibrig"
 	female=yes
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168193
 	900.1.1 = {
@@ -51411,7 +51411,7 @@
 	name="Hadamut"
 	female=yes
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168201
 	950.1.1 = {
@@ -51425,7 +51425,7 @@
 168204 = {
 	name="Ulrich"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168201
 	960.1.1 = {
@@ -51443,7 +51443,7 @@
 	name="Richardis"
 	female=yes
 	dynasty=523
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168210
 	950.1.1 = {
@@ -51457,7 +51457,7 @@
 168206 = {
 	name="Adalbero"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168204
 	mother=168205
@@ -51473,7 +51473,7 @@
 168207 = {
 	name="Eberhard"
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168204
 	mother=168205
@@ -51491,7 +51491,7 @@
 	name="Judith"
 	female=yes
 	dynasty=9573
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168204
 	mother=168205
@@ -51509,7 +51509,7 @@
 168209 = {
 	name="Markward"
 	dynasty=523
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	880.1.1 = {
 		birth="880.1.1"
@@ -51523,7 +51523,7 @@
 168210 = {
 	name="Markward"
 	dynasty=523
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168209
 	900.1.1 = {
@@ -51538,7 +51538,7 @@
 168211 = {
 	name="Markward"
 	dynasty=523
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168210
 	940.1.1 = {
@@ -51555,7 +51555,7 @@
 168221 = {
 	name="Adalbert"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7910
 	mother=7911
@@ -51570,7 +51570,7 @@
 168222 = {
 	name="Adalhard"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7910
 	mother=7911
@@ -51586,7 +51586,7 @@
 168223 = {
 	name="Adalbert"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33428
 	mother=168230
@@ -51601,7 +51601,7 @@
 168224 = {
 	name="Radulf"
 	dynasty=227
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190386
 	720.1.1 = {
@@ -51617,7 +51617,7 @@
 	name="Fastrada"
 	female=yes
 	dynasty=227
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168224
 	760.1.1 = {
@@ -51631,7 +51631,7 @@
 168226 = {
 	name="Thankulf"
 	dynasty=227
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168224
 	765.1.1 = {
@@ -51645,7 +51645,7 @@
 168227 = {
 	name="Hadulf"
 	dynasty=227
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168226
 	790.1.1 = {
@@ -51659,7 +51659,7 @@
 168228 = {
 	name="Thankulf"
 	dynasty=227
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168227
 	810.1.1 = {
@@ -51673,7 +51673,7 @@
 168229 = {
 	name="Radulf"
 	dynasty=227
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168228
 	830.1.1 = {
@@ -51688,7 +51688,7 @@
 	name="Hedwig" #real name unknown
 	female=yes
 	dynasty=227
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168228
 	835.1.1 = {
@@ -51705,7 +51705,7 @@
 168231 = {
 	name="Egino"
 	dynasty=7290
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33330
 	839.1.1 = {
@@ -51722,7 +51722,7 @@
 	dynasty=650
 	trait="martial_cleric"
 	trait="celibate"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=144974 
 	847.1.1 = {
@@ -51736,7 +51736,7 @@
 168245 = {
 	name="Rudolf"
 	dynasty=650
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=144974 
 	848.1.1 = {
@@ -51752,7 +51752,7 @@
 	#AKA Hugo Abbas
 	dynasty=650
 	trait="martial_cleric"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=7988
 	mother=161485
@@ -51767,7 +51767,7 @@
 168152 = {	
 	name="Gerold"	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=167825		
 	760.1.1 = {		
@@ -51781,7 +51781,7 @@
 168153 = {	
 	name="Gerold"	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=168152	
 	790.1.1 = {		
@@ -51795,7 +51795,7 @@
 168154 = {	
 	name="Gerold"	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=168153	
 	820.1.1 = {		
@@ -51809,7 +51809,7 @@
 168155 = {	
 	name="Adalgoz"	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=168154
 	849.1.1 = {		
@@ -51823,7 +51823,7 @@
 168156 = {	
 	name="Eberhard"	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=168155
 	865.1.1 = {		
@@ -51838,7 +51838,7 @@
 	name="Reginlind"	
 	female=yes
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=168156
 	888.1.1 = {		
@@ -51852,7 +51852,7 @@
 168158 = {	
 	name="Eberhard"	
 	dynasty=9557	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	father=168156
 	887.1.1 = {		
@@ -51865,7 +51865,7 @@
 
 168159 = {	
 	name="Hartmann"	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	trait="scholarly_theologian"
 	820.1.1 = {		
@@ -51878,7 +51878,7 @@
 
 168160 = {	
 	name="Heyminus"	
-	religion="chalcendonian"	
+	religion="catholic"	
 	culture="german"
 	trait="martial_cleric"
 	820.1.1 = {		
@@ -51892,7 +51892,7 @@
 168300 = {
 	name="Liutpald"
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	800.1.1 = {
 		birth="800.1.1"
@@ -51906,7 +51906,7 @@
 168301 = {
 	name="Liutpald"
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168300
 	820.1.1 = {
@@ -51921,7 +51921,7 @@
 168302 = {
 	name="Liutbert" #real name uncertain
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168301
 	840.1.1 = {
@@ -51936,7 +51936,7 @@
 168303 = {
 	name="Herolt"
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168302
 	862.1.1 = {
@@ -51951,7 +51951,7 @@
 168304 = {
 	name="Alberik"
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168303
 	885.1.1 = {
@@ -51966,7 +51966,7 @@
 168305 = {
 	name="Herolt"
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168304
 	905.1.1 = {
@@ -51982,7 +51982,7 @@
 	name="Rihni"
 	female=yes
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168303
 	880.1.1 = {
@@ -51997,7 +51997,7 @@
 168308 = {
 	name="Gundakar"
 	dynasty=100359 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	839.1.1 = {
 		birth="839.1.1"
@@ -52011,7 +52011,7 @@
 168309 = {
 	name="Guntbald"
 	dynasty=9587
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	845.1.1 = {
 		birth="845.1.1"
@@ -52025,7 +52025,7 @@
 168310 = {
 	name="Guntbert"
 	dynasty=100315
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	847.1.1 = {
 		birth="847.1.1"
@@ -52042,7 +52042,7 @@
 	name="Bertha" #real name unknown
 	female=yes
 	dynasty=9553
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167795
 	835.1.1={
@@ -52058,7 +52058,7 @@
 168312 = {
 	name="Jakob"
 	dynasty=9554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167802
 	mother=168311
@@ -52073,7 +52073,7 @@
 168313 = {
 	name="Aribo"
 	dynasty=9554
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=167802
 	mother=168311
@@ -52087,7 +52087,7 @@
 
 7761 = {
 	name="Athalaric"
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="diligent"
 	trait="patient"
@@ -52254,7 +52254,7 @@
 168524 = {
 	name="Dietrich" 
 	dynasty=652
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	930.1.1 = {
 		birth=yes
@@ -52269,7 +52269,7 @@
 	name="Oda" 
 	female=yes
 	dynasty=652
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168524
 	960.1.1 = {
@@ -52286,7 +52286,7 @@
 	name="Mathilde" 
 	female=yes
 	dynasty=652
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168524
 	961.1.1 = {
@@ -52305,7 +52305,7 @@
 	name="Thietburga" 
 	female=yes
 	dynasty=652
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168524
 	962.1.1 = {
@@ -52323,7 +52323,7 @@
 168528 = {
 	name="Bernhard" 
 	dynasty=652
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168524
 	964.1.1 = {
@@ -52338,7 +52338,7 @@
 168529 = {
 	name="Bernhard" 
 	dynasty=652
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168528
 	987.1.1 = {
@@ -52428,7 +52428,7 @@
 168542 = {
 	name="Lothar" 
 	dynasty=9600
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	890.1.1 = {
 		birth=yes
@@ -52444,7 +52444,7 @@
 168543 = {
 	name="Lothar" 
 	dynasty=9600
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168542
 	925.1.1 = {
@@ -52462,7 +52462,7 @@
 168544 = {
 	name="Lothar" 
 	dynasty=9600
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168543
 	955.1.1 = {
@@ -52479,7 +52479,7 @@
 168545 = {
 	name="Werner" 
 	dynasty=9600
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168544
 	985.1.1 = {
@@ -52499,7 +52499,7 @@
 	name="Liutgard"
 	female=yes
 	dynasty=669
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=33460
 	mother=1413
@@ -52516,7 +52516,7 @@
 168547 = {
 	name="Lothar" 
 	dynasty=9600
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168544
 	990.1.1 = {
@@ -52570,7 +52570,7 @@
 168551 = {
 	name="Berthold" 
 	dynasty=9600
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168544
 	992.1.1 = {
@@ -52585,7 +52585,7 @@
 168560 = {
 	name="Thietmar" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	880.1.1 = {
 		birth=yes
@@ -52601,7 +52601,7 @@
 168561 = {
 	name="Siegfried" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168560
 	900.1.1 = {
@@ -52619,7 +52619,7 @@
 168562 = {
 	name="Gero" #the Great Margrave
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168560
 	trait="skilled_tactician"
@@ -52644,7 +52644,7 @@
 	name="Hidda" 
 	female=yes
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168560
 	910.1.1 = {
@@ -52661,7 +52661,7 @@
 168564 = {
 	name="Siegfried" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168562
 	936.1.1 = {
@@ -52680,7 +52680,7 @@
 168565 = {
 	name="Gero" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168562
 	937.1.1 = {
@@ -52698,7 +52698,7 @@
 	name="Hedwig"
 	female=yes 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168562
 	939.1.1 = {
@@ -52716,7 +52716,7 @@
 168567 = {
 	name="Christian" 
 	dynasty=100364
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	900.1.1 = {
 		birth=yes
@@ -52734,7 +52734,7 @@
 168568 = {
 	name="Thietmar" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168567
 	mother=168563
@@ -52754,7 +52754,7 @@
 168569 = {
 	name="Gero" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168568
 	mother=1413
@@ -52773,7 +52773,7 @@
 168570 = {
 	name="Thietmar" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168569
 	992.1.1 = {
@@ -52790,7 +52790,7 @@
 168571 = {
 	name="Odo" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168570
 	1010.1.1 = {
@@ -52808,7 +52808,7 @@
 168572 = {
 	name="Gero" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	trait="martial_cleric"
 	father=168567
@@ -52825,7 +52825,7 @@
 168573 = {
 	name="Odo" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168567
 	mother=168563
@@ -52844,7 +52844,7 @@
 168574 = {
 	name="Siegfried" 
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168573
 	965.1.1 = {
@@ -52862,7 +52862,7 @@
 	name="Hidda" 
 	female=yes
 	dynasty=9601
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=168573
 	960.1.1 = {
@@ -52876,7 +52876,7 @@
 
 168593 = {
 	name="Liutbert" 
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	830.1.1={
 		birth=yes
@@ -52905,7 +52905,7 @@
 183189 = {
 	name="Poppo"
 	dynasty=247
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=10084
 	mother=20209
@@ -52949,7 +52949,7 @@
 190178 = {
 	name="Garibald" #Garibald I of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	540.1.1={
 		birth=yes
@@ -52961,7 +52961,7 @@
 190179 = {
 	name="Tassilo" #Tassilo I of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190178
 	560.1.1={
@@ -52974,7 +52974,7 @@
 190336 = {
 	name="Garibald" #Garibald II of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190179
 	581.1.1={
@@ -52990,7 +52990,7 @@
 190337 = {
 	name="Theodo" #Theodo I of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190336
 	619.1.1={
@@ -53003,7 +53003,7 @@
 190338 = {
 	name="Lantpert" #Lantpert of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190337
 	635.1.1={
@@ -53016,7 +53016,7 @@
 190339 = {
 	name="Theodo" #Theodo II of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190337
 	636.1.1={
@@ -53029,7 +53029,7 @@
 190334 = {
 	name="Theodbert" #Theodbert of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190339
 	665.1.1={
@@ -53046,7 +53046,7 @@
 	name="Guntrud" #wife of Liutprand of Lombardy
 	female=yes
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190334
 	mother=190190
@@ -53060,7 +53060,7 @@
 190226 = {
 	name="Hugbert" #Hugbert of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190334
 	mother=190190
@@ -53074,7 +53074,7 @@
 190370 = {
 	name="Theobald" #Theobald of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190339
 	666.1.1={
@@ -53094,7 +53094,7 @@
 	name="Biltrude" #marries Theobald then Grimoald
 	female=yes
 	dynasty=1044055 #Lantfriding
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	687.1.1={
 		birth=yes
@@ -53106,7 +53106,7 @@
 190371 = {
 	name="Tassilo" #Tassilo II of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190339
 	669.1.1={
@@ -53123,7 +53123,7 @@
 	name="Waldrada" #marries Tassilo II
 	female=yes
 	dynasty=1044056 #Theotbalding
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	689.1.1={
 		birth=yes
@@ -53135,7 +53135,7 @@
 190372 = {
 	name="Grimoald" #Grimoald of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190339
 	704.1.1={
@@ -53152,7 +53152,7 @@
 	name="Uta" #marries Gotfrid of Allemania
 	female=yes
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190339
 	677.1.1={
@@ -53165,7 +53165,7 @@
 190335 = {
 	name="Gotfrid" #Gotfrid of Allemania
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190337
 	673.1.1={
@@ -53181,7 +53181,7 @@
 190230 = {
 	name="Lantfrid" #Lantfrid of Allemania
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190335
 	mother=190223
@@ -53195,7 +53195,7 @@
 190231 = {
 	name="Lantfrid" #Lantfrid II of Allemania
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190230
 	708.1.1={
@@ -53208,7 +53208,7 @@
 190232 = {
 	name="Theobald" #Theobald of Allemania
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190335
 	mother=190223
@@ -53222,7 +53222,7 @@
 190227 = {
 	name="Odilo" #Odilo of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190335
 	mother=190223
@@ -53239,7 +53239,7 @@
 190228 = {
 	name="Tassilo" #Tassilo III of Bavaria
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190227
 	mother=190433
@@ -53256,7 +53256,7 @@
 190229 = {
 	name="Theodo"
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190228
 	mother=190351
@@ -53270,7 +53270,7 @@
 190233 = {
 	name="Huoching"
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190335
 	mother=190223
@@ -53284,7 +53284,7 @@
 190234 = {
 	name="Hnabi" #Hnabi of Allemania
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190233
 	720.1.1={
@@ -53301,7 +53301,7 @@
 	name="Hereswind" #wife of Hnabi of Allemania
 	female=yes
 	dynasty=1044057 #Herberting
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	721.1.1={
 		birth=yes
@@ -53313,7 +53313,7 @@
 190236 = {
 	name="Ruadbert"
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190234
 	mother=190235
@@ -53331,7 +53331,7 @@
 	name="Eugenia" #wife of Ruadbert
 	female=yes
 	dynasty=1044058 #Lotharing
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	742.1.1={
 		birth=yes
@@ -53343,7 +53343,7 @@
 190238 = {
 	name="Erbio" #Erbio of Allemania
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190236
 	mother=190237
@@ -53357,7 +53357,7 @@
 190239 = {
 	name="Udo" #Udo of Allemania
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190238
 	783.1.1={
@@ -53371,7 +53371,7 @@
 	name="Eugnia"
 	female=yes
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190238
 	785.1.1={
@@ -53385,7 +53385,7 @@
 	name="Imma" #wife of Gerold Udalrichinger count of Thurgau
 	female=yes
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190234
 	mother=190235
@@ -53400,7 +53400,7 @@
 	name="Regarde" #wife of Hildeprand of Spoleto
 	female=yes
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190335
 	mother=190223
@@ -53414,7 +53414,7 @@
 190243 = {
 	name="Liutfrid"
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190335
 	mother=190223
@@ -53429,7 +53429,7 @@
 	name="Theodelinda" #wife of Authari and Agilulf of Lombardy
 	female=yes
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190178
 	568.1.1={
@@ -53442,7 +53442,7 @@
 190180 = {
 	name="Gundoald" #descendents become kings of Italy
 	dynasty=1044046 #Bavarae
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190178
 	571.1.1={
@@ -53456,7 +53456,7 @@
 	name="Ramhilde" #wife of Gisulf II of Friuli
 	female=yes
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190178
 	578.1.1={
@@ -53470,7 +53470,7 @@
 	name="Theodorata" #daughter of Theodo II of Bavaria
 	female=yes
 	dynasty=1044033 #Agilolfing (Bavaria)
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190339
 	652.1.1={
@@ -53483,7 +53483,7 @@
 190365 = {
 	name="Berthilo" #count of St Gallen
 	dynasty=1044088 #Berthilding
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	728.1.1={
 		birth=yes
@@ -53495,7 +53495,7 @@
 190366 = {
 	name="Berthold" #count of St Gallen
 	dynasty=1044088 #Berthilding
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190365
 	747.1.1={
@@ -53511,7 +53511,7 @@
 190355 = {
 	name="Wado" #count of St Gallen
 	dynasty=1044088 #Berthilding
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190366
 	mother=190358
@@ -53525,7 +53525,7 @@
 190356 = {
 	name="Chadalhoh" #duke of friuli
 	dynasty=1044088 #Berthilding
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190366
 	mother=190358
@@ -53539,7 +53539,7 @@
 190357 = {
 	name="Berthold" #count of St Gallen
 	dynasty=1044088 #Berthilding
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190356
 	787.1.1={
@@ -53553,7 +53553,7 @@
 	name="Richildis" #wife of Bertold of St gallen
 	female=yes
 	dynasty=1044089 #Lotharing
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	748.1.1={
 		birth=yes
@@ -53565,7 +53565,7 @@
 190359 = {
 	name="Adalbert" #count of Schwyz
 	dynasty=1054 #Hunfriding
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	730.1.1={
 		birth=yes
@@ -53577,7 +53577,7 @@
 190360 = {
 	name="Unruoch" #count of Breisgau
 	dynasty=12110 #Unruochinger
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	712.1.1={
 		birth=yes
@@ -53589,7 +53589,7 @@
 190361 = {
 	name="Hadrad" #count of Sundgau and lorraine
 	dynasty=650 #Welf
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	712.1.1={
 		birth=yes
@@ -53601,7 +53601,7 @@
 190362 = {
 	name="Rothard" #count of Sundgau and lorraine
 	dynasty=650 #Welf
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190361
 	740.1.1={
@@ -53624,7 +53624,7 @@
 	name="Haildis" #wife of Rothard count of Sundgau and lorraine
 	female=yes
 	dynasty=1044090 #Gosberting
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	737.1.1={
 		birth=yes
@@ -53637,7 +53637,7 @@
 	name="Ermenane" #wife of Rothard count of Sundgau and lorraine
 	female=yes
 	dynasty=1044091 #Amalricing
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	742.1.1={
 		birth=yes
@@ -53649,7 +53649,7 @@
 190375 = {
 	name="Basinus" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	438.1.1={
 		birth=yes
@@ -53661,7 +53661,7 @@
 190376 = {
 	name="Fisud" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190375
 	458.1.1={
@@ -53675,7 +53675,7 @@
 	name="Ranigunda" #wife of Wacho of Lombards
 	female=yes
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190376
 	477.1.1={
@@ -53688,7 +53688,7 @@
 190378 = {
 	name="Baderic" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190376
 	479.1.1={
@@ -53701,7 +53701,7 @@
 190379 = {
 	name="Hermanfred" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190376
 	483.1.1={
@@ -53714,7 +53714,7 @@
 190380 = {
 	name="Amalfridus"
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190379
 	524.1.1={
@@ -53727,7 +53727,7 @@
 190381 = {
 	name="Berthar" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190376
 	488.1.1={
@@ -53740,7 +53740,7 @@
 190382 = {
 	name="Chamar" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190381
 	529.1.1={
@@ -53753,7 +53753,7 @@
 190383 = {
 	name="Radulf" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190382
 	567.1.1={
@@ -53766,7 +53766,7 @@
 190384 = {
 	name="Chamar" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190383
 	617.1.1={
@@ -53779,7 +53779,7 @@
 190385 = {
 	name="Berthar" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190384
 	650.1.1={
@@ -53792,7 +53792,7 @@
 190386 = {
 	name="Chamar" #duke of Thuringia
 	dynasty=227 #von Thüringen
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190385
 	682.1.1={
@@ -53805,7 +53805,7 @@
 190387 = {
 	name="Hardrad" #count of Plauen
 	dynasty=1044098 #Hardrading
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	740.1.1={
 		birth=yes
@@ -53818,7 +53818,7 @@
 	name="Suanachildis" #wife of charles the hammer
 	female=yes
 	dynasty=1044033 #Agilolfing
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	father=190233
 	709.1.1={
@@ -53831,7 +53831,7 @@
 168760 = {
 	name="Achiulf" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	240.1.1 = {
 		birth=yes
@@ -53841,10 +53841,13 @@
 		death=yes
 	}
 }
+
+
+
 168761 = {
 	name="Ermanarich" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	father=168760
 	266.1.1 = {
@@ -53855,10 +53858,14 @@
 		death=yes
 	}
 }
+
+
+
+
 168762 = {
 	name="Hunimund" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	father=168761
 	300.1.1 = {
@@ -53869,10 +53876,16 @@
 		death=yes
 	}
 }
+
+
+
+
+
+
 168763 = {
 	name="Thorismund" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	father=168762
 	340.1.1 = {
@@ -53889,7 +53902,7 @@
 168764 = {
 	name="Berimund" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	father=168763
 	390.1.1 = {
@@ -53900,10 +53913,13 @@
 		death=yes
 	}
 }
+
+
+
 168765 = {
-	name="Witteric" 
+	name="Widerich" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	father=168764
 	440.1.1 = {
@@ -53914,8 +53930,13 @@
 		death=yes
 	}
 }
+
+
+
+
+
 168766 = {
-	name="Eutharic" 
+	name="Eutharich" 
 	dynasty=9617
 	religion="arian"
 	culture="ostrogothic"
@@ -53930,10 +53951,14 @@
 		death=yes
 	}
 }
+
+
+
+
 168767 = {
-	name="Wuultulf" 
+	name="Wultulf" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	father=168760
 	280.1.1 = {
@@ -53944,10 +53969,13 @@
 		death=yes
 	}
 }
+
+
+
 168768 = {
-	name="Vinithar" 
+	name="Winithar" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	father=168767
 	320.1.1 = {
@@ -53958,10 +53986,14 @@
 		death=yes
 	}
 }
+
+
+
+
 168769 = {
 	name="Wandalar" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="norse_pagan"
 	culture="ostrogothic"
 	father=168768
 	370.1.1 = {
@@ -53972,10 +54004,14 @@
 		death=yes
 	}
 }
+
+
+
+
 168770 = {
 	name="Walamir" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="arian"
 	culture="ostrogothic"
 	father=168769
 	425.1.1 = {
@@ -53986,10 +54022,15 @@
 		death=yes
 	}
 }
+
+
+
+
+
 168771 = {
 	name="Widimir" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="arian"
 	culture="ostrogothic"
 	father=168769
 	427.1.1 = {
@@ -54000,10 +54041,14 @@
 		death=yes
 	}
 }
+
+
+
+
 168772 = {
 	name="Widimir" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="arian"
 	culture="ostrogothic"
 	father=168771
 	450.1.1 = {
@@ -54014,10 +54059,13 @@
 		death=yes
 	}
 }
+
+
+
 168773 = {
 	name="Thiudimir" 
 	dynasty=9617
-	religion="german_pagan"
+	religion="arian"
 	culture="ostrogothic"
 	father=168769
 	429.1.1 = {
@@ -54028,6 +54076,10 @@
 		death=yes
 	}
 }
+
+
+
+
 168774 = {
 	name="Theodis" 
 	dynasty=9617
@@ -54042,25 +54094,37 @@
 		death=yes
 	}
 }
+
+
+
+
 168775 = {
 	name="Theoderic" 
 	dynasty=9617
 	religion="arian"
 	culture="ostrogothic"
 	father=168773
+        trait="brilliant_strategist"
+        trait="ambitious"
+        trait="deceitful"
+        trait="diligent"
+        trait="brave"
 	454.1.1 = {
 		birth=yes
 	}
 	493.1.1 = {
 		add_spouse=168783
 	}
-	507.1.1 = {
+	520.1.1 = {
 		give_nickname=nick_the_great
 	}
 	526.8.30 = {
 		death=yes
 	}
 }
+
+
+
 168776 = {
 	name="Theodimund" 
 	dynasty=9617
@@ -54075,6 +54139,10 @@
 		death=yes
 	}
 }
+
+
+
+
 168777 = {
 	name="Amalfrida" 
 	female=yes
@@ -54092,6 +54160,10 @@
 		death=yes
 	}
 }
+
+
+
+
 168778 = {
 	name="Theodahad" 
 	dynasty=9617
@@ -54106,6 +54178,9 @@
 		death=yes
 	}
 }
+
+
+
 168779 = {
 	name="Amalaberga" 
 	female=yes
@@ -54121,6 +54196,9 @@
 		death=yes
 	}
 }
+
+
+
 168780 = {
 	name="Theudigisel" 
 	dynasty=9617
@@ -54135,6 +54213,7 @@
 		death=yes
 	}
 }
+
 168781 = {
 	name="Theodenantha" 
 	female=yes
@@ -54150,6 +54229,7 @@
 		death=yes
 	}
 }
+
 168782 = {
 	name="Amalafrid" 
 	dynasty=9617
@@ -54164,6 +54244,237 @@
 		death=yes
 	}
 }
+168793 = {
+	name="Godegisel" 
+	dynasty=9618
+	religion="norse_pagan"
+	culture="german"
+	350.1.1 = {
+		birth=yes
+	}
+	
+	406.1.1 = {
+		death=yes
+	}
+}
+
+168794 = {
+	name="Gunderich" 
+	dynasty=9618
+	religion="norse_pagan"
+	culture="german"
+	father=168793
+	370.1.1 = {
+		birth=yes
+	}
+	410.1.1 = {
+		religion=catholic
+	}
+	428.1.1 = {
+		death=yes
+	}
+}
+
+168795 = {
+	name="Gelimer" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168794
+	425.1.1 = {
+		birth=yes
+	}
+	
+	435.1.1 = {
+		death=yes
+	}
+}
+
+168796 = {
+	name="Geiserich" 
+	dynasty=9618
+	religion="norse_pagan"
+	culture="german"
+	add_trait="legit_bastard"
+	father=168793
+	389.1.1 = {
+		birth=yes
+	}
+	410.1.1 = {
+		religion=catholic
+	}
+	477.1.25 = {
+		death=yes
+	}
+}
+
+168797 = {
+	name="Hunerich" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168796
+	420.1.1 = {
+		birth=yes
+	}
+	455.1.1 = {
+		add_spouse=168799
+	}
+	484.1.1 = {
+		death=yes
+	}
+}
+
+168798 = {
+	name="Hilderich" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168797
+	mother=168799
+	480.1.1 = {
+		birth=yes
+	}
+	
+	534.1.1 = {
+		death=yes
+	}
+}
+168800 = {
+	name="Theoderich" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168796
+	421.1.1 = {
+		birth=yes
+	}
+	
+	451.1.1 = {
+		death=yes
+	}
+}
+
+168801 = {
+	name="Geiso" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168796
+	422.1.1 = {
+		birth=yes
+	}
+	
+	484.1.1 = {
+		death=yes
+	}
+}
+
+168802 = {
+	name="Gundamund" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168801
+	460.1.1 = {
+		birth=yes
+	}
+	
+	496.1.1 = {
+		death=yes
+	}
+}
+
+168803 = {
+	name="Thrasamund" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168801
+	462.1.1 = {
+		birth=yes
+	}
+	
+	523.1.1 = {
+		death=yes
+	}
+}
+
+168804 = {
+	name="Gelaris" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168801
+	463.1.1 = {
+		birth=yes
+	}
+	
+	520.1.1 = {
+		death=yes
+	}
+}
+
+168805 = {
+	name="Gelimer" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168804
+	490.1.1 = {
+		birth=yes
+	}
+	
+	533.1.1 = {
+		death=yes
+	}
+}
+
+168806 = {
+	name="Tzazo" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168804
+	492.1.1 = {
+		birth=yes
+	}
+	
+	535.1.1 = {
+		death=yes
+	}
+}
+
+168807 = {
+	name="Gunthimer" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168804
+	493.1.1 = {
+		birth=yes
+	}
+	
+	530.1.1 = {
+		death=yes
+	}
+}
+
+168808 = {
+	name="Gibamund" 
+	dynasty=9618
+	religion="catholic"
+	culture="german"
+	father=168807
+	510.1.1 = {
+		birth=yes
+	}
+	
+	540.1.1 = {
+		death=yes
+	}
+}
+
 168809 = {
 	name="Theudigotha" 
 	dynasty=9617
@@ -54309,7 +54620,7 @@
 190367 = {
 	name="Anniulf" #count of Passau and Znojmo
 	dynasty=1044092 #Anniona
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	730.1.1={
 		birth=yes
@@ -54321,7 +54632,7 @@
 190368 = {
 	name="Fagulf" #count of Salzburg
 	dynasty=1044093 #Fagana
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	741.1.1={
 		birth=yes
@@ -54333,7 +54644,7 @@
 190369 = {
 	name="Hahilingis" #count of Tirol and Kempten
 	dynasty=1044094 #Hahilinga
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	725.1.1={
 		birth=yes
@@ -54345,7 +54656,7 @@
 190373 = {
 	name="Huosi" #count of Insbruck and Steirmark
 	dynasty=1044095 #Huosi
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	738.1.1={
 		birth=yes
@@ -54357,7 +54668,7 @@
 190374 = {
 	name="Trozza" #count of Osterreich
 	dynasty=1044096 #Trozza
-	religion="chalcendonian"
+	religion="catholic"
 	culture="german"
 	739.1.1={
 		birth=yes

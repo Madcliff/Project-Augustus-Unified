@@ -352,7 +352,7 @@ sympathy_christendom = {
 		NOT = { religion_group = christian }
 	}
 
-	tolerates_christian = yes		# Tolerates and is tolerated by Christians
+	tolerates_christian = yes # Tolerates and is tolerated by Christians
 	
 	same_opinion_if_same_religion = 10
 
@@ -370,7 +370,7 @@ sympathy_islam = {
 		NOT = { religion_group = muslim }
 	}
 
-	tolerates_muslim = yes		# Tolerates and is tolerated by Muslims
+	tolerates_muslim = yes # Tolerates and is tolerated by Muslims
 
 	same_opinion_if_same_religion = 10
 
@@ -388,7 +388,7 @@ sympathy_pagans = {
 		NOT = { religion_group = pagan_group }
 	}
 
-	tolerates_pagan_group = yes		# Tolerates and is tolerated by Pagans
+	tolerates_pagan_group = yes # Tolerates and is tolerated by Pagans
 
 	same_opinion_if_same_religion = 10
 
@@ -406,7 +406,7 @@ sympathy_zoroastrianism = {
 		NOT = { religion_group = zoroastrian_group }
 	}
 
-	tolerates_zoroastrian_group = yes		# Tolerates and is tolerated by Zoroastrians
+	tolerates_zoroastrian_group = yes # Tolerates and is tolerated by Zoroastrians
 
 	same_opinion_if_same_religion = 10
 
@@ -424,7 +424,7 @@ sympathy_judaism = {
 		NOT = { religion_group = jewish_group }
 	}
 
-	tolerates_jewish_group = yes		# Tolerates and is tolerated by Jews
+	tolerates_jewish_group = yes # Tolerates and is tolerated by Jews
 
 	same_opinion_if_same_religion = 10
 
@@ -461,7 +461,7 @@ bad_priest_muslim = {
 			controls_religion = sunni
 			controls_religion = shiite
 			controls_religion = ibadi
-			controls_religion = hurufi
+			controls_religion = kharijite
 		}
 	}
 	

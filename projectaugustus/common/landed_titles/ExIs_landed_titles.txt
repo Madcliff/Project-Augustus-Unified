@@ -457,6 +457,7 @@ d_qarmatians = {
 		}
 		
 	}
+}
 b_alwaz = { 
 culture = bedouin_arabic
 religion = hurufi

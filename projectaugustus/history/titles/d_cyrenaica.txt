@@ -1,11 +1,11 @@
+337.1.1=
+{
+de_jure_liege="k_cyrenaica"
+}
 767.1.1=
 {
 holder=210034
 liege="e_sunni"
-}
-769.1.1=
-{
-de_jure_liege="k_tripolitania"
 }
 788.1.1=
 {

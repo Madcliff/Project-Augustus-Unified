@@ -1,11 +1,11 @@
-767.1.1=
-{	
-	liege="k_matmada" 
-holder=210035
-}
-769.1.1=
+337.1.1=
 {
 de_jure_liege="k_matmada"
+}
+767.1.1=
+{	
+liege="k_matmada"
+holder=210035
 }
 864.1.1=
 {	
@@ -62,15 +62,7 @@ holder=32985
 }
 1223.1.1=
 {
-liege=0
-}
-1223.1.1=
-{
 holder=32977
-}
-1227.1.1=
-{
-liege="k_sahaja"
 }
 1227.1.1=
 {

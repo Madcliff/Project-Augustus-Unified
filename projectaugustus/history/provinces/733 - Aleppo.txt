@@ -17,7 +17,7 @@ b_sarmin = castle
 
 # Misc
 culture = aramean 
-religion = syriac
+religion = orthodox
 
 # History
 

@@ -20,16 +20,7 @@ culture = persian
 religion = zurvanite
 
 # History
-632.1.1 = {
-	culture = parthian
-}
 
-700.1.1 = {
-	culture = persian
-}
-700.1.1 = {
-	b_tabriz = ct_jewish_community_1
-}
 800.1.1 = { religion = sunni }
 
 867.1.1 = { 

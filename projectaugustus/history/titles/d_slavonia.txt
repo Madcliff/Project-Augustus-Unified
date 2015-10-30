@@ -1,17 +1,9 @@
-610.1.1 = {
-	holder = 1000251206
-	liege = e_avaria
-}
-655.1.1 = {
-	holder = 1000251207
-}
-675.1.1 = {
-	holder = 0
-	liege = 0
+337.1.1=
+{
+de_jure_liege="k_pannonia"
 }
 760.1.1=
 {
-de_jure_liege="k_pannonia"
 holder=168292
 }
 790.1.1=

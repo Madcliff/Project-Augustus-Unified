@@ -1,9 +1,5 @@
-760.1.1 = {
-	liege="e_sunni"
-	holder=1000448001
-}
 866.1.1={
-	liege = "e_arabia"
+	liege = "e_sunni"
 }
 866.1.1={
 	holder = 163136

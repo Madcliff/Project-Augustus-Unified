@@ -1,15 +1,9 @@
-620.1.1 = {
-	liege = e_protectorate
-}
 #Kingdom of Qocho
 856.1.1 = {
 	holder = 166774
-	liege = 0 # De facto
-	set_tribute_suzerain = { who = d_guiyijun percentage = 0.10 }
 }
 873.1.1 = {
 	holder = 166776
-	clear_tribute_suzerain = d_guiyijun
 }
 896.1.1 = {
 	holder = 166777
@@ -51,10 +45,13 @@
 	holder = 166789
 }
 1209.1.1 = {
-	liege = k_mongolia
+	liege = e_mongol_empire
 }
 1249.1.1 = {
 	holder = 166790
+}
+1259.8.11 = {
+    liege = e_yuan
 }
 1264.1.1 = {
 	holder = 166791
@@ -67,10 +64,4 @@
 }
 1327.1.1 = {
 	holder = 166794
-}
-#Conquered by Khizr Khoja of the Chagatai Khanate
-1335.1.1=
-{
-	liege = e_chagatai
-	holder = 93086
 }

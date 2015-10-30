@@ -1,6 +1,6 @@
 # The English Melting Pot
 character_event = {
-	id = ANI.1
+	id = ANI.999991
 	desc = "EVTDESCANI.55002"
 	picture = GFX_evt_stone_church
 	

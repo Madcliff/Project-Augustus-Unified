@@ -15,13 +15,11 @@ b_elche = temple
 #b_orihuela = city
 
 # Misc
-culture = iberian
+culture = hispanic
 religion = catholic
 
 # History
-700.1.1 = {
-	b_alicante = ct_jewish_community_1
-}
+
 812.1.1 = { religion = sunni }
 
 944.1.1 = { 

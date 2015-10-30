@@ -453,7 +453,7 @@ title_high_almoner = {
 			is_feudal = yes
 			is_tribal = yes
 		}
-	NOT = { culture = roman }
+		NOT = { culture = roman }
 		NOT = { has_landed_title = k_morea }
 		NOT = { has_landed_title = k_epirus }
 		NOT = { has_landed_title = k_thrace }
@@ -642,7 +642,7 @@ title_prefect = {
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+   	 }
 
 	allowed_to_grant = {
 		is_feudal = yes
@@ -675,32 +675,31 @@ title_senator = {
 	monthly_prestige = 0.01
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture = roman
+        	culture = roman
 		OR = {
-            has_landed_title = e_western
-            has_landed_title = e_roman_empire
-        }
-        any_vassal = {
-            has_landed_title = d_prefect
-        }
-		OR = {
-				
+            		has_landed_title = e_western
+            		has_landed_title = e_roman_empire
+        	}
+        	any_vassal = {
+            		has_landed_title = d_prefect
+        	}
+		OR = {	
 			has_law = legislature_1
 			has_law = legislature_2
 		}
 		OR = {
-		    religion_group = christian
+		    	religion_group = christian
 			religion_group = pagan_group
-        }
+        	}
 		NOT = { has_minor_title = title_caesar }
 		NOT = { has_minor_title = title_magister }
 	}
@@ -724,12 +723,12 @@ title_eparch = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
@@ -759,33 +758,33 @@ title_senator2 = {
 	monthly_prestige = 0.01
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture_group = byzantine
+        	culture_group = byzantine
 		OR = {
-            has_landed_title = e_byzantium
-            has_landed_title = e_roman_empire
-        }
-        any_vassal = {
-            has_landed_title = d_eparch
-        }
+           		has_landed_title = e_byzantium
+            		has_landed_title = e_roman_empire
+        	}
+        	any_vassal = {
+            	has_landed_title = d_eparch
+        	}
 		OR = {
-		    has_law = legislature_1
-		    has_law = legislature_2
+		    	has_law = legislature_1
+		    	has_law = legislature_2
 		}
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
-        }
-	    NOT = { has_minor_title = title_symbasileus }
-	    NOT = { has_minor_title = title_meazon }
+        	}
+	    	NOT = { has_minor_title = title_symbasileus }
+	    	NOT = { has_minor_title = title_meazon }
 	}
 	
 	gain_effect = {
@@ -807,25 +806,25 @@ title_speaker = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = christian
+	    	religion_group = christian
 		NOT = { has_minor_title = title_lord_peer }
 	}
 	
@@ -846,25 +845,25 @@ title_lord_peer = {
 	monthly_prestige = 0.01
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = christian
+	    	religion_group = christian
 		NOT = { has_minor_title = title_speaker }
 	}
 	
@@ -887,25 +886,25 @@ title_speaker2 = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = muslim
+	    	religion_group = muslim
 		NOT = { has_minor_title = title_councillor }
 	}
 	
@@ -926,25 +925,25 @@ title_councillor = {
 	monthly_prestige = 0.01
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = muslim
+	    	religion_group = muslim
 		NOT = { has_minor_title = title_speaker2 }
 	}
 	
@@ -967,25 +966,25 @@ title_nasi = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = jewish_group
+	    	religion_group = jewish_group
 		NOT = { has_minor_title = title_mufla }
 	}
 	
@@ -1006,25 +1005,25 @@ title_mufla = {
 	monthly_prestige = 0.01
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = jewish_group
+	    	religion_group = jewish_group
 		NOT = { has_minor_title = title_nasi }
 	}
 	
@@ -1048,24 +1047,24 @@ title_speaker3 = {
 	
 	allowed_to_hold = {
 	    prisoner = no
-        is_adult = yes
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = zoroastrian_group
+	    	religion_group = zoroastrian_group
 		NOT = { has_minor_title = title_councillor2 }
 	}
 	
@@ -1086,25 +1085,25 @@ title_councillor2 = {
 	monthly_prestige = 0.01
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = zoroastrian_group
+	    	religion_group = zoroastrian_group
 		NOT = { has_minor_title = title_speaker3 }
 	}
 	
@@ -1127,25 +1126,25 @@ title_speaker4 = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = pagan_group
+	    	religion_group = pagan_group
 		NOT = { has_minor_title = title_high_elder }
 	}
 	
@@ -1167,24 +1166,24 @@ title_high_elder = {
 	
 	allowed_to_hold = {
 	    prisoner = no
-        is_adult = yes
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
 		
 		NOT = { has_landed_title = e_byzantium }
-	    NOT = { has_landed_title = e_roman_empire }
+	    	NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 	
 		OR = {
 			has_law = legislature_1
 			has_law = legislature_2
 		}
-	    religion_group = pagan_group
+	    	religion_group = pagan_group
 		NOT = { has_minor_title = title_speaker4 }
 	}
 	
@@ -1207,13 +1206,13 @@ title_speaker5 = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
-
+    	}
+	
 	allowed_to_grant = {
 		is_merchant_republic = yes
 	
@@ -1241,12 +1240,12 @@ title_councillor3 = {
 	monthly_prestige = 0.01
 	
 	allowed_to_hold = {
-	    prisoner = no
-        is_adult = yes
+	    	prisoner = no
+        	is_adult = yes
 		is_female = no
 		independent = no
 		NOT = { trait = incapable }
-    }
+    	}
 
 	allowed_to_grant = {
 		is_merchant_republic = yes
@@ -1288,10 +1287,10 @@ title_caesar = {
 
         allowed_to_grant = {
 		is_feudal = yes
-        culture = roman
-        OR = {
+        	culture = roman
+        	OR = {
 			has_landed_title = e_western
-		    has_landed_title = e_byzantium
+		    	has_landed_title = e_byzantium
 			has_landed_title = e_roman_empire
 		}
 		OR = {
@@ -1322,15 +1321,15 @@ title_magister = {
 	allowed_to_hold = {
         is_adult = yes
 		is_female = no
-    }
+    	}	
 	allowed_to_grant = {
 		is_feudal = yes
-        culture = roman
+        	culture = roman
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
-	    }
-	    NOT = { has_minor_title = title_caesar }
+	    	}
+	    	NOT = { has_minor_title = title_caesar }
 	}
 	
 	gain_effect = {
@@ -1354,11 +1353,11 @@ title_dominus = {
 	allowed_to_hold = {
         is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture = roman
+        	culture = roman
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
@@ -1386,11 +1385,11 @@ title_nobilissimus = {
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture = roman
+        	culture = roman
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
@@ -1416,11 +1415,11 @@ title_patrician = {
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture = roman
+        	culture = roman
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
@@ -1447,16 +1446,16 @@ title_imperial_eunuch2 = {
 		is_adult = yes
 		is_female = no
 		trait = eunuch
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture = roman
-	    OR = {
-            has_landed_title = e_western
-		    has_landed_title = e_byzantium
-            has_landed_title = e_roman_empire
-        }
+        	culture = roman
+	   	OR = {
+            		has_landed_title = e_western
+		    	has_landed_title = e_byzantium
+            		has_landed_title = e_roman_empire
+        	}
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
@@ -1489,16 +1488,16 @@ title_symbasileus = {
 	allowed_to_hold = {
 		is_female = no
 		is_close_relative = FROM
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture_group = byzantine
+        	culture_group = byzantine
 		OR = {
 			has_landed_title = e_byzantium
-            has_landed_title = e_macedonia
+            		has_landed_title = e_macedonia
 			has_landed_title = e_trebizond
-            has_landed_title = e_thessalonika
+            		has_landed_title = e_thessalonika
 			has_landed_title = e_roman_empire
 		}
 		OR = {
@@ -1536,9 +1535,9 @@ title_autarch = {
     }
        
     allowed_to_grant = {
-        tier = king
-        culture_group = byzantine
-        independent = yes
+    		tier = king
+    		culture_group = byzantine
+        	independent = yes
 		is_feudal = yes
 		OR = {
 			has_landed_title = k_morea
@@ -1581,7 +1580,7 @@ title_mesazon = {
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture_group = byzantine
+        	culture_group = byzantine
 		OR = {
 			has_landed_title = k_morea
 			has_landed_title = k_epirus
@@ -1623,11 +1622,11 @@ title_kaisar = {
 	allowed_to_hold = {
         is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture_group = byzantine
+        	culture_group = byzantine
 		OR = {
 			has_landed_title = k_morea
 			has_landed_title = k_epirus
@@ -1667,11 +1666,11 @@ title_nobelissimos = {
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture_group = byzantine
+        	culture_group = byzantine
 		OR = {
 			has_landed_title = k_morea
 			has_landed_title = k_epirus
@@ -1709,11 +1708,11 @@ title_patrikos = {
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture_group = byzantine
+        	culture_group = byzantine
 		OR = {
 			has_landed_title = k_morea
 			has_landed_title = k_epirus
@@ -1752,11 +1751,11 @@ title_imperial_eunuch = {
 		is_adult = yes
 		is_female = no
 		trait = eunuch
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
-        culture_group = byzantine
+        	culture_group = byzantine
 		OR = {
 			religion_group = christian
 			religion_group = pagan_group
@@ -1791,7 +1790,7 @@ title_hegemon = {
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
@@ -1826,9 +1825,9 @@ title_peliganes = {
 	is_unique = yes
 	
 	allowed_to_hold = {
-        is_adult = yes
+        	is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
@@ -1865,7 +1864,7 @@ title_polemarch = {
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
-    }
+    	}
 
 	allowed_to_grant = {
 		is_feudal = yes
@@ -1898,9 +1897,9 @@ title_satrap = {
 	allowed_to_hold = {
 		is_adult = yes
 		is_female = no
-    }
+    	}
  
-    allowed_to_grant = {
+    	allowed_to_grant = {
 		is_feudal = yes
 		OR = {
 			has_landed_title = k_macedonia

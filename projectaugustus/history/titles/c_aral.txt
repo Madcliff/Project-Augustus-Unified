@@ -1,15 +1,3 @@
-400.1.1 = {
-	holder = 1000256119 
-}
-
-593.1.1 = {
-	liege=e_goturks
-	holder=1000257440 
-}
-659.1.1 = { 
-	liege=0
-	holder=0
-}
 762.1.1={
 	liege=d_turkestan
 	#holder=188827

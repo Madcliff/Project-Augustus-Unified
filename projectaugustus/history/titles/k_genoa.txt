@@ -1,4 +1,5 @@
 1066.1.1 = {
+    set_tribute_suzerain = { who = e_hre percentage = 0.10 }
 	holder = 20314 #Manfredo Doria
 }
 1067.1.1 = {

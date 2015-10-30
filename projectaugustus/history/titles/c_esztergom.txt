@@ -1,26 +1,3 @@
-454.1.1=
-{
-	holder=11052491
-	liege=d_pest
-}
-460.1.2=
-{
-	holder=11052591
-}
-
-562.1.1 = {
-	holder = 1000250303
-	liege = e_avaria
-}
-602.1.1 = {
-	holder = 1000250304
-}
-617.1.1 = {
-	holder = 1000250305
-}
-640.1.1 = {
-	holder = 1000250306
-}
 685.1.1={
 	liege="e_avaria"
         de_jure_liege="d_pest"

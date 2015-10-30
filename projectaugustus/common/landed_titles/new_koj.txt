@@ -135,11 +135,12 @@
                                 }
                         }
                         }
-                d_sidon ={
-                        color = { 230 190 154 }
+                d_sidon
+                        color={ 230 190 154 }
                         
                         
                         capital = 772 # Acre
+						
 					c_acre = {
 				color={ 230 190 154 }
 				

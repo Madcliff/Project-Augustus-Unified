@@ -1441,6 +1441,20 @@
 	}
 }
 
+1000257710 = {
+	name = Ostrogotha
+	dynasty = 1000124497
+	culture = gepid
+	religion = arian
+	father = 1000257707
+	female = yes
+	500.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
 
 1000257711 = {
 	name = Thurisind
@@ -4553,6 +4567,32 @@
 	}
 }
 
+188700 = {
+	name="Barhatakin"
+	dynasty=1042110 # Zunbil
+	religion="zun_pagan"
+	culture="tocharian"
+	600.1.1={
+		birth=yes
+	}
+	662.1.1={
+		death=yes
+	}
+}
+188701 = {
+	name="Rutbil" # name is more of a title
+	# semi-historical
+	dynasty=1042110 # Zunbil
+	religion="zun_pagan"
+	culture="tocharian"
+	father=188700
+	620.1.1={
+		birth=yes
+	}
+	687.1.1={
+		death=yes
+	}
+}
 1000258900 = {
 	name="Datbar" # name is more of a title
 	# fictional
@@ -5406,7 +5446,7 @@
 	martial=7
 	diplomacy=7
 	intrigue=7
-	stewardship=7
+	stewartship=7
 	religion="orthodox"
 	culture="romanobritish"
 	455.1.2={
@@ -5886,38 +5926,6 @@
 	dynasty=1000124535  
 	religion="arabic_pagan"
 	culture="bedouin_arabic"
-	450.1.1={
-		birth=yes
-	}
-	539.1.1={
-		death=yes
-	}
-}
-
-2001010177 = {
-	name="Itlar"
-	dynasty=854
-	religion="tengri_pagan"
-	culture="kirghiz"
-	901.1.1={
-		birth=yes
-	}
-	935.1.1 = {
-		effect = {
-				wealth = 100
-				prestige = 100
-				piety = 100
-		}
-	}
-	981.1.1={
-		death=yes
-	}
-}
-1000256143 = {
-	name="Asijie"
-	dynasty=1000124583 
-	religion="tengri_pagan"
-	culture="esegel"
 	450.1.1={
 		birth=yes
 	}

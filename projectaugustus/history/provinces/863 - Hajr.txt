@@ -4,8 +4,8 @@
 title = c_hajr
 
 # Settlements
-max_settlements = 5
-#b_assalif = tribal
+max_settlements = 2
+b_assalif = tribal
 
 #b_alhudaydah = city
 #b_almaqah = temple
@@ -17,9 +17,13 @@ max_settlements = 5
 #b_jizan = city
 
 # Misc
-culture = tribal_arab 
-religion = arabic_pagan
+culture = old_arabic
+religion = pagan
 
 # History
-900.1.1 = { religion = shiite culture = bedouin_arabic }
+
+1000.1.1 = {
+culture = bedouin_arabic
+religion = sunni
+}
 

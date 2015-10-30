@@ -1,22 +1,15 @@
-628.3.1={
-	liege = e_byzantium
-	vice_royalty = yes
-	holder = 1000257342
-}
-636.1.1={
-	liege = "e_sunni"
-	vice_royalty = no
-}
-652.1.1 = {
-	holder = 0
-}
 690.1.1={
 	liege = "e_sunni"
 	holder=146022
 }
+735.1.1={
+	holder=188574
+}
+749.8.29={
+	holder=188575
+}
 797.1.1={
 	holder=188576
-	liege = "e_sunni"
 }
 815.1.1={
 	holder=146073

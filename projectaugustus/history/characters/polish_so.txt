@@ -57,3 +57,22 @@
 		death="490.1.1"
 	}
 }
+
+4000991 = {
+	name="Dragowit"
+	#Placeholder "chief of veleti
+	dynasty=181
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	religion="slavic_pagan"
+	culture="venedi"
+	add_trait="content"
+	435.1.1 = {
+		birth="435.1.1"
+	}
+	510.1.1 = {
+		death="510.1.1" 
+	}
+}

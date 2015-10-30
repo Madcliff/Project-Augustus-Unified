@@ -16,9 +16,9 @@ b_awas = temple
 #b_samj = castle
 
 # Misc
-culture = aramean 
-religion = nestorian
+culture = levantine_arabic
+religion = sunni
 
 # History
-700.1.1 = { religion = sunni culture = levantine_arabic }
+
 1016.1.1 = { religion = druze }

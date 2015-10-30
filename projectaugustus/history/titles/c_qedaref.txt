@@ -1,7 +1,3 @@
-450.1.1 = {
-	liege="d_damot"
-	holder = 10258233 
-}
 600.1.1 = {
 	liege="d_damot"
 	holder = 10258228 

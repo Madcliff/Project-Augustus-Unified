@@ -17,11 +17,11 @@ b_dobrich = castle
 #b_smyadovo = castle
 
 # Misc
-culture = thracian
+culture = bolghar
 religion = orthodox
 
 # History
-681.1.1= { religion = tengri_pagan culture = bolghar } 
+681.1.1= { religion = tengri_pagan } 
 820.1.1 = { culture = bulgarian }
 875.1.1= { religion = orthodox } 
 1187.1.1 = { b_prezlav = castle } 

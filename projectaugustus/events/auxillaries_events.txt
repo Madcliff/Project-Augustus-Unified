@@ -25,7 +25,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1005           
+		name = OPTAPA_10005           
                 set_character_flag = has_auxillaries
                 ROOT = {
 			spawn_unit = {
@@ -43,7 +43,7 @@ narrative_event = {
 		}
 	}
 	option = {
-		name = OPTBPA_1005
+		name = OPTBPA_10005
                 set_character_flag = no_auxillaries
 
 	}
@@ -74,7 +74,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1006          
+		name = OPTAPA_10006          
                 set_character_flag = more_auxillaries
                 ROOT = {
 			spawn_unit = {
@@ -92,7 +92,7 @@ narrative_event = {
 		}
 	}
 	option = {
-		name = OPTBPA_1006
+		name = OPTBPA_10006
                 set_character_flag = no_auxillaries
 
 	}
@@ -122,7 +122,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1007
+		name = OPTAPA_10007
                 set_character_flag = auxillaries_events
                 hidden_tooltip = {
 				333 = {
@@ -149,7 +149,7 @@ narrative_event = {
 		}
 		
 	option = {
-		name = OPTBPA_1007
+		name = OPTBPA_10007
                 set_character_flag = auxillaries_events
 		disband_event_forces = auxillary_troops                        
 		disband_event_forces = more_auxillaries

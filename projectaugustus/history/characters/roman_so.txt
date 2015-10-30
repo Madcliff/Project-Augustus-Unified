@@ -189,6 +189,53 @@
 	}
 }
 
+7769 = {
+	name="Acacius"
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	religion = orthodox
+	culture="roman"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="zealous"
+	add_trait="charismatic_negotiator"
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	483.3.10 = {
+	name="Felix"
+	# AKA: Acacius
+	}
+	492.1.1 = {
+		death="492.1.1"
+	}
+}
+
+7770 = {
+	name="Castinus"
+	martial=6
+	diplomacy=7
+	intrigue=8
+	stewardship=8
+	religion = orthodox
+	culture="roman"
+	add_trait="diligent"
+	add_trait="patient"
+	add_trait="zealous"
+	add_trait="charismatic_negotiator"
+	420.1.1 = {
+		birth="420.1.1"
+	}
+	468.2.28 = {
+	name="Simplicius"
+	# AKA: Castinus
+	}
+	483.3.10 = {
+		death="483.3.10"
+	}
+}
 
 1438110 = {
 	name="Aegidius"

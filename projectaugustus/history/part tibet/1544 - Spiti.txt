@@ -1,0 +1,17 @@
+# County Title
+title = c_spiti
+
+max_settlements = 4
+b_spiti = castle
+b_manali = castle
+b_tabo = temple
+b_spitii = city
+
+
+# Misc
+culture = tibetan
+religion = vajrayana_buddhist 
+
+
+# History
+

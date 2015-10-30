@@ -1,0 +1,16 @@
+# County Title
+title = c_ladakh
+
+# Settlements
+max_settlements = 4
+b_ladakh = castle
+b_leh = castle
+b_kargill = temple
+b_nubra = city
+# Misc
+culture = tibetan
+religion = vajrayana_buddhist
+
+
+# History
+

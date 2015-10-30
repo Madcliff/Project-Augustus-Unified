@@ -1,6 +1,3 @@
-20.1.1 = {
-	historical_nomad = yes
-}
 425.1.1={
         holder = 200000025
 }
@@ -19,9 +16,8 @@
 459.1.1={
         holder = 200000011
 }
-460.1.1 = {
-	holder = 1000250700
-}
-480.1.1={
+469.1.1={
         holder = 0
+		active = no
+		set_global_flag = fall_of_hunnic_empire
 }

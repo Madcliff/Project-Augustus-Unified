@@ -1,9 +1,8 @@
 namespace = PA
-
 narrative_event = {
-	id = PA.1000305
-        title = EVTNAMPA.1000305
-        desc = EVTDESCPA.1000305
+	id = PA.10305
+        title = EVTNAMPA.10305
+        desc = EVTDESCPA.10305
         picture = GFX_evt_seige
 
         trigger = {
@@ -16,7 +15,7 @@ narrative_event = {
         }
 
         option = {
-		name = OPTPA_1000307
+		name = OPTPA_100307
 		k_kievan_rus = {
 			destroy_landed_title = THIS
 		}
@@ -24,7 +23,7 @@ narrative_event = {
 }
 
 character_event = {
-	id = PA.1000306
+	id = PA.10306
 
         hide_window = yes
 
@@ -60,7 +59,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000307
+	id = PA.10307
 
         hide_window = yes
 
@@ -96,7 +95,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000308
+	id = PA.10308
 
         hide_window = yes
 
@@ -131,7 +130,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000309
+	id = PA.10309
 
         hide_window = yes
 
@@ -166,7 +165,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000310
+	id = PA.10310
 
         hide_window = yes
 
@@ -192,7 +191,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000311
+	id = PA.10311
 
         hide_window = yes
 
@@ -227,7 +226,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000312
+	id = PA.10312
 
         hide_window = yes
 
@@ -263,8 +262,8 @@ character_event = {
 
 # Qaisar Trait Gained
 character_event = {
-	id = PA.1000313
-	desc = EVTDESCPA.1000313
+	id = PA.10313
+	desc = EVTDESCPA.10313
 	picture = GFX_evt_hagia_sophia_muslim
 	
 	trigger = {
@@ -278,15 +277,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000
+		name = OPTPA_10
 		add_trait = qaisar
 	}
 }
 
 # Qaisar Trait Lost
 character_event = {
-	id = PA.1000314
-	desc = EVTDESCPA.1000314
+	id = PA.10314
+	desc = EVTDESCPA.10314
 	picture = GFX_evt_hagia_sophia_muslim
 	
 	trigger = {
@@ -300,7 +299,7 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_10001
+		name = OPTPA_101
 		remove_trait = qaisar
 	}
 }
@@ -308,8 +307,8 @@ character_event = {
 
 # Qaisara Trait Gained
 character_event = {
-	id = PA.1000315
-	desc = EVTDESCPA.1000315
+	id = PA.10315
+	desc = EVTDESCPA.10315
 	picture = GFX_evt_hagia_sophia_muslim
 	
 	trigger = {
@@ -323,15 +322,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000
+		name = OPTPA_10
 		add_trait = qaisara
 	}
 }
 
 # Qaisara Trait Lost
 character_event = {
-	id = PA.1000316
-	desc = EVTDESCPA.1000316
+	id = PA.10316
+	desc = EVTDESCPA.10316
 	picture = GFX_evt_hagia_sophia_muslim
 	
 	trigger = {
@@ -345,15 +344,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_10001
+		name = OPTPA_101
 		remove_trait = qaisara
 	}
 }
 
 # Imperator Trait Gained
 character_event = {
-	id = PA.1000317
-	desc = EVTDESCPA.1000317
+	id = PA.10317
+	desc = EVTDESCPA.10317
 	picture = GFX_evt_rome_restored_byzantine
 	
 	trigger = {
@@ -367,15 +366,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000
+		name = OPTPA_10
 		add_trait = imperator
 	}
 }
 
 # Imperator Trait Lost
 character_event = {
-	id = PA.1000318
-	desc = EVTDESCPA.1000318
+	id = PA.10318
+	desc = EVTDESCPA.10318
 	picture = GFX_evt_rome_restored_byzantine
 	
 	trigger = {
@@ -389,15 +388,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_10001
+		name = OPTPA_101
 		remove_trait = imperator
 	}
 }
 
 # Imperatrix Trait Gained
 character_event = {
-	id = PA.1000319
-	desc = EVTDESCPA.1000319
+	id = PA.10319
+	desc = EVTDESCPA.10319
 	picture = GFX_evt_rome_restored_byzantine
 	
 	trigger = {
@@ -411,15 +410,15 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000
+		name = OPTPA_10
 		add_trait = imperatrix
 	}
 }
 
 # Imperatrix Trait Lost
 character_event = {
-	id = PA.1000320
-	desc = EVTDESCPA.1000320
+	id = PA.10320
+	desc = EVTDESCPA.10320
 	picture = GFX_evt_rome_restored_byzantine
 	
 	trigger = {
@@ -433,13 +432,13 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_10001
+		name = OPTPA_101
 		remove_trait = imperatrix
 	}
 }
 
 character_event = {
-	id = PA.1000321
+	id = PA.10321
 
         hide_window = yes
 
@@ -471,7 +470,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000323
+	id = PA.10323
 	
         hide_window = yes
 	
@@ -493,7 +492,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000324
+	id = PA.10324
 	
         hide_window = yes
 	
@@ -515,7 +514,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000325
+	id = PA.10325
 	
         hide_window = yes
 	
@@ -537,7 +536,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000325
+	id = PA.10325
 	
         hide_window = yes
 	
@@ -559,7 +558,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000326
+	id = PA.10326
 
         hide_window = yes
 
@@ -591,7 +590,7 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000327
+	id = PA.10327
 
         hide_window = yes
 
@@ -623,9 +622,9 @@ character_event = {
 }
 
 narrative_event = {
-	id = PA.1000328
-        title = EVTNAMPA.1000328
-        desc = EVTDESCPA.1000328
+	id = PA.10328
+        title = EVTNAMPA.10328
+        desc = EVTDESCPA.10328
         picture = GFX_evt_seige
 
         trigger = {
@@ -642,7 +641,7 @@ narrative_event = {
         }
 
         option = {
-		name = OPTPA_1000328
+		name = OPTPA_10328
 		e_trebizond = {
 			destroy_landed_title = THIS
 		}
@@ -651,8 +650,8 @@ narrative_event = {
 
 # Italo-Roman province converts to Italian
 province_event = {
-	id = PA.1000330
-	desc = EVTDESCPA.1000330
+	id = PA.10330
+	desc = EVTDESCPA.10330
 	picture = GFX_evt_stone_church
 
 	trigger = {
@@ -683,8 +682,8 @@ province_event = {
 
 # Italo-Roman province converts to Roman
 character_event = {
-	id = PA.1000331
-	desc = EVTDESCPA.1000331
+	id = PA.10331
+	desc = EVTDESCPA.10331
 	picture = GFX_evt_stone_church
 
         trigger = {
@@ -700,7 +699,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000331
+		name = OPTPA_10331
 		random_realm_province = {
 			limit = {
 				culture_group = old_italian
@@ -712,8 +711,8 @@ character_event = {
 
 # Lombard province converts to Italian
 province_event = {
-	id = PA.1000332
-	desc = EVTDESCPA.1000332
+	id = PA.10332
+	desc = EVTDESCPA.10332
 	picture = GFX_evt_stone_church
 
 	trigger = {
@@ -746,7 +745,7 @@ province_event = {
 
 # Sacred Band Initiation Ceremony
 province_event = {
-	id = PA.1000333
+	id = PA.10333
 
         hide_window = yes
 
@@ -767,7 +766,7 @@ province_event = {
 
 # Re-establish Nokkor
 narrative_event = {
-	id = PA.1000000334
+	id = PA.100334
 
         hide_window = yes
 	
@@ -807,7 +806,7 @@ narrative_event = {
 
 # Destroy Nokkor
 narrative_event = {
-	id = PA.1000000335
+	id = PA.100335
 
         hide_window = yes
 	
@@ -841,8 +840,8 @@ narrative_event = {
 
 # The son of a ruler volunteers to join the Order
 character_event = {
-	id = PA.1000336
-	desc = EVTDESCPA.1000336
+	id = PA.10336
+	desc = EVTDESCPA.10336
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -952,7 +951,7 @@ character_event = {
 		}
 		liege = {
 			character_event = {
-				id = PA.1000357
+				id = PA.10357
 			}
 		}
 	}
@@ -963,8 +962,8 @@ character_event = {
 
 # Son or brother asks to join the Order
 character_event = {
-	id = PA.1000337
-	desc = EVTDESCPA.1000337
+	id = PA.10337
+	desc = EVTDESCPA.10337
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -980,8 +979,8 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.1000338
-				tooltip = EVTTOOLTIPPA_100000339
+				id = PA.10338
+				tooltip = EVTTOOLTIPPA_10339
 			}
 		}
 	}
@@ -993,7 +992,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.1000339
+				id = PA.10339
 				tooltip = EVTTOOLTIP_SOA_1033
 			}
 		}
@@ -1002,8 +1001,8 @@ character_event = {
 
 # Son or brother joins the Order
 character_event = {
-	id = PA.1000338
-	desc = EVTDESCPA.1000338
+	id = PA.10338
+	desc = EVTDESCPA.10338
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1028,8 +1027,8 @@ character_event = {
 
 # Liege refuses request to join the Order
 character_event = {
-	id = PA.1000339
-	desc = EVTDESCPA.1000339
+	id = PA.10339
+	desc = EVTDESCPA.10339
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1047,7 +1046,7 @@ character_event = {
 
 # Ping event when donating money to the Order
 character_event = {
-	id = PA.1000340
+	id = PA.10340
 	
 	hide_window = yes
 	
@@ -1057,7 +1056,7 @@ character_event = {
 		wealth = 300
 		FROM = {
 			letter_event = {
-				id = PA.1000341
+				id = PA.10341
 			}
 		}
 		opinion = {
@@ -1073,7 +1072,7 @@ character_event = {
 
 # Notification event when donating money to the Order
 letter_event = {
-	id = PA.1000341
+	id = PA.10341
 	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
@@ -1086,7 +1085,7 @@ letter_event = {
 
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
-	id = PA.1000342
+	id = PA.10342
 	
 	hide_window = yes
 	
@@ -1161,7 +1160,7 @@ character_event = {
 				has_empty_holding = yes
 			}
 			province_event = {
-				id = PA.1000343
+				id = PA.10343
 			}
 		}
 	}
@@ -1172,7 +1171,7 @@ character_event = {
 }
 
 province_event = {
-	id = PA.1000343
+	id = PA.10343
 	
 	hide_window = yes
 	
@@ -1182,7 +1181,7 @@ province_event = {
 		d_imperial_order = {
 			holder_scope = {
 				character_event = {
-					id = PA.1000344
+					id = PA.10344
 				}
 			}
 		}
@@ -1194,7 +1193,7 @@ province_event = {
 }
 
 character_event = {
-	id = PA.1000344
+	id = PA.10344
 	
 	hide_window = yes
 	
@@ -1203,7 +1202,7 @@ character_event = {
 	immediate = {
 		FROMFROM = {
 			character_event = {
-				id = PA.1000345
+				id = PA.10345
 			}
 		}
 	}
@@ -1214,8 +1213,8 @@ character_event = {
 }
 
 letter_event = {
-	id = PA.1000345
-	desc = EVTDESCPA.1000345
+	id = PA.10345
+	desc = EVTDESCPA.10345
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1232,7 +1231,7 @@ letter_event = {
 		
 		hidden_tooltip = {
 			FROMFROM = {
-				province_event = { id = PA.1000346 }
+				province_event = { id = PA.10346 }
 			}
 			remove_character_modifier = expelled_d_imperial_order
 		}
@@ -1253,8 +1252,8 @@ letter_event = {
 
 # Castle has been erected
 province_event = {
-	id = PA.1000346
-	desc = EVTDESCPA.1000346
+	id = PA.10346
+	desc = EVTDESCPA.10346
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -1269,15 +1268,15 @@ province_event = {
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
-		   type = castle
-		   holder = FROMFROM
+			type = castle
+		        holder = FROMFROM
 		}
 	}
 }
 
 # Ping event when expelling the Order
 character_event = {
-	id = PA.1000347
+	id = PA.10347
 	
 	hide_window = yes
 	
@@ -1301,7 +1300,7 @@ character_event = {
 	
 		FROM = {
 			letter_event = {
-				id = PA.1000348
+				id = PA.10348
 			}
 		}
 		
@@ -1318,8 +1317,8 @@ character_event = {
 
 # Notification event when expelling the Order
 letter_event = {
-	id = PA.1000348
-	desc = EVTDESCPA.1000348
+	id = PA.10348
+	desc = EVTDESCPA.10348
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1335,8 +1334,8 @@ letter_event = {
 
 # The son of a ruler volunteers to join the Order
 character_event = {
-	id = PA.1000349
-	desc = EVTDESCPA.1000349
+	id = PA.10349
+	desc = EVTDESCPA.10349
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1446,7 +1445,7 @@ character_event = {
 		}
 		liege = {
 			character_event = {
-				id = PA.1000350
+				id = PA.10350
 			}
 		}
 	}
@@ -1457,8 +1456,8 @@ character_event = {
 
 # Son or brother asks to join the Order
 character_event = {
-	id = PA.1000350
-	desc = EVTDESCPA.1000350
+	id = PA.10350
+	desc = EVTDESCPA.10350
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1474,8 +1473,8 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.1000351
-				tooltip = EVTTOOLTIPPA_100000351
+				id = PA.10351
+				tooltip = EVTTOOLTIPPA_10351
 			}
 		}
 	}
@@ -1487,7 +1486,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.1000352
+				id = PA.10352
 				tooltip = EVTTOOLTIP_SOA_1033
 			}
 		}
@@ -1496,8 +1495,8 @@ character_event = {
 
 # Son or brother joins the Order
 character_event = {
-	id = PA.1000353
-	desc = EVTDESCPA.1000353
+	id = PA.10353
+	desc = EVTDESCPA.10353
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1522,8 +1521,8 @@ character_event = {
 
 # Liege refuses request to join the Order
 character_event = {
-	id = PA.1000354
-	desc = EVTDESCPA.1000354
+	id = PA.10354
+	desc = EVTDESCPA.10354
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -1541,7 +1540,7 @@ character_event = {
 
 # Ping event when donating money to the Order
 character_event = {
-	id = PA.1000355
+	id = PA.10355
 	
 	hide_window = yes
 	
@@ -1551,7 +1550,7 @@ character_event = {
 		wealth = 300
 		FROM = {
 			letter_event = {
-				id = PA.1000356
+				id = PA.10356
 			}
 		}
 		opinion = {
@@ -1567,7 +1566,7 @@ character_event = {
 
 # Notification event when donating money to the Order
 letter_event = {
-	id = PA.1000356
+	id = PA.10356
 	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
@@ -1580,7 +1579,7 @@ letter_event = {
 
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
-	id = PA.1000357
+	id = PA.10357
 	
 	hide_window = yes
 	
@@ -1655,7 +1654,7 @@ character_event = {
 				has_empty_holding = yes
 			}
 			province_event = {
-				id = PA.1000358
+				id = PA.10358
 			}
 		}
 	}
@@ -1666,7 +1665,7 @@ character_event = {
 }
 
 province_event = {
-	id = PA.1000358
+	id = PA.10358
 	
 	hide_window = yes
 	
@@ -1676,7 +1675,7 @@ province_event = {
 		d_sacred_band = {
 			holder_scope = {
 				character_event = {
-					id = PA.1000359
+					id = PA.10359
 				}
 			}
 		}
@@ -1688,7 +1687,7 @@ province_event = {
 }
 
 character_event = {
-	id = PA.1000359
+	id = PA.10359
 	
 	hide_window = yes
 	
@@ -1697,7 +1696,7 @@ character_event = {
 	immediate = {
 		FROMFROM = {
 			character_event = {
-				id = PA.1000360
+				id = PA.10360
 			}
 		}
 	}
@@ -1708,8 +1707,8 @@ character_event = {
 }
 
 letter_event = {
-	id = PA.1000360
-	desc = EVTDESCPA.1000360
+	id = PA.10360
+	desc = EVTDESCPA.10360
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1726,7 +1725,7 @@ letter_event = {
 		
 		hidden_tooltip = {
 			FROMFROM = {
-				province_event = { id = PA.1000361 }
+				province_event = { id = PA.10361 }
 			}
 			remove_character_modifier = expelled_d_sacred_band
 		}
@@ -1747,8 +1746,8 @@ letter_event = {
 
 # Castle has been erected
 province_event = {
-	id = PA.1000361
-	desc = EVTDESCPA.1000361
+	id = PA.10361
+	desc = EVTDESCPA.10361
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -1763,15 +1762,15 @@ province_event = {
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
-		   type = castle
-		   holder = FROMFROM
+			type = castle
+		        holder = FROMFROM
 		}
 	}
 }
 
 # Ping event when expelling the Order
 character_event = {
-	id = PA.1000362
+	id = PA.10362
 	
 	hide_window = yes
 	
@@ -1795,7 +1794,7 @@ character_event = {
 	
 		FROM = {
 			letter_event = {
-				id = PA.1000363
+				id = PA.10363
 			}
 		}
 		
@@ -1812,8 +1811,8 @@ character_event = {
 
 # Notification event when expelling the Order
 letter_event = {
-	id = PA.1000363
-	desc = EVTDESCPA.1000363
+	id = PA.10363
+	desc = EVTDESCPA.10363
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -1825,8 +1824,8 @@ letter_event = {
 
 # Bolghar province converts to Bulgarian
 province_event = {
-	id = PA.1000363
-	desc = EVTDESCPA.1000363
+	id = PA.10363
+	desc = EVTDESCPA.10363
 	picture = GFX_evt_stone_church
 
 	trigger = {
@@ -1850,8 +1849,8 @@ province_event = {
 
 # Deification Event (Father)
 character_event = {
-	id = PA.1000188	
-	desc = EVTDESCPA.1000188
+	id = PA.10188	
+	desc = EVTDESCPA.10188
 	picture = GFX_evt_religious_exultation
 
 	mean_time_to_happen = {
@@ -1859,9 +1858,9 @@ character_event = {
 	}
 
 	trigger = {
-                OR={
-                       tier = king
-                       tier = emperor
+        	OR={
+                	tier = king
+                        tier = emperor
                 }
                 is_ruler = yes
                 is_feudal = yes
@@ -1870,48 +1869,47 @@ character_event = {
 		father = {
                         religion_group = pagan_group
 			OR = {
-                              piety = 1000
-                              diplomacy = 20
-                              stewardship = 20
-                              martial = 20
-                              intrigue = 20
-                              learning = 20
+                        	piety = 1000
+                        	diplomacy = 20
+                                stewardship = 20
+                                martial = 20
+                                intrigue = 20
+                                learning = 20
 			}
 			is_alive = no
-			}
 		}
+	}
 
 	option = {
-		name = OPTAPA_1000188
+		name = OPTAPA_100188
 		add_character_modifier = {
-                        name = divine_father
+                	name = divine_father
                         duration = -1
                         inherit = no
                 }
                 piety = 100
                 father_even_if_dead = {
-                         give_nickname = nick_the_divine
+                	give_nickname = nick_the_divine
                 }
-
-	ai_chance = {
-	        factor = 1
+	        ai_chance = {
+	        	factor = 1
 	        }
         }
 
 	option = {
-		name = OPTBPA_1000188
+		name = OPTBPA_100188
 		piety = -100
 
-	ai_chance = {
-	        factor = 0
+	        ai_chance = {
+	        	factor = 0
 	        }
         }
 }
 
 # Deification Event (Mother)
 character_event = {
-	id = PA.1000189	
-	desc = EVTDESCPA.1000189
+	id = PA.10189	
+	desc = EVTDESCPA.10189
 	picture = GFX_evt_religious_exultation
 
 	mean_time_to_happen = {
@@ -1938,11 +1936,11 @@ character_event = {
                               learning = 20
 			}
 			is_alive = no
-			}
 		}
+	}
 
 	option = {
-		name = OPTAPA_1000189
+		name = OPTAPA_100189
 		add_character_modifier = {
                         name = divine_mother
                         duration = -1
@@ -1953,25 +1951,25 @@ character_event = {
                          give_nickname = nick_the_divine
                 }
 
-	ai_chance = {
-	        factor = 1
+	        ai_chance = {
+	        	factor = 1
 	        }
         }
 
 	option = {
-		name = OPTBPA_1000189
+		name = OPTBPA_100189
 		piety = -100
 
-	ai_chance = {
-	        factor = 0
+	        ai_chance = {
+	        	factor = 0
 	        }
         }
 }
 
 # Canonisation Event (Father)
 character_event = {
-	id = PA.1000364	
-	desc = EVTDESCPA.1000364
+	id = PA.10364	
+	desc = EVTDESCPA.10364
 	picture = GFX_evt_religious_exultation
 
 	mean_time_to_happen = {
@@ -2002,15 +2000,15 @@ character_event = {
                         NOT = { trait = homosexual }
                         NOT = { trait = excommunicated }
 			OR = {
-                              piety = 2000
-                              learning = 20
+                                piety = 2000
+                                learning = 20
 			}
 			is_alive = no
-			}
 		}
+	}
 
 	option = {
-		name = OPTAPA_1000188
+		name = OPTAPA_100188
 		add_character_modifier = {
                         name = canonised_father
                         duration = -1
@@ -2021,25 +2019,25 @@ character_event = {
                          give_nickname = nick_the_saint
                 }
 
-	ai_chance = {
-	        factor = 1
+	        ai_chance = {
+	        	factor = 1
 	        }
         }
 
 	option = {
-		name = OPTBPA_1000188
+		name = OPTBPA_100188
 		piety = -100
 
-	ai_chance = {
-	        factor = 0
+	        ai_chance = {
+	        	factor = 0
 	        }
         }
 }
 
 # Canonisation Event (Mother)
 character_event = {
-	id = PA.1000365	
-	desc = EVTDESCPA.1000365
+	id = PA.10365	
+	desc = EVTDESCPA.10365
 	picture = GFX_evt_religious_exultation
 
 	mean_time_to_happen = {
@@ -2070,15 +2068,15 @@ character_event = {
                         NOT = { trait = homosexual }
                         NOT = { trait = excommunicated }
 			OR = {
-                              piety = 2000
-                              learning = 20
+                                piety = 2000
+                                learning = 20
 			}
 			is_alive = no
-			}
 		}
+	}
 
 	option = {
-		name = OPTAPA_1000189
+		name = OPTAPA_100189
 		add_character_modifier = {
                         name = canonised_mother
                         duration = -1
@@ -2089,24 +2087,26 @@ character_event = {
                          give_nickname = nick_the_saint
                 }
 
-	ai_chance = {
-	        factor = 1
-	    }
-     }
+
+	        ai_chance = {
+	        	factor = 1
+	        }
+        }
 
 	option = {
-		name = OPTBPA_1000189
+		name = OPTBPA_100189
 		piety = -100
 
-	ai_chance = {
-	        factor = 0
-	    }
-    }
+
+	        ai_chance = {
+	        	factor = 0
+	        }
+        }
 }
 
 # Magyar Horde Event (Generation)
 character_event = {
-	id = PA.1000368
+	id = PA.10368
 
         hide_window = yes	
 
@@ -2133,8 +2133,8 @@ character_event = {
 			religion = tengri_pagan
 			age = 35
 			attributes = {
-	                        martial= 8
-	                        diplomacy= 7
+	                        martial = 8
+	                        diplomacy = 7
 			}
 			trait=ambitious
 			trait=gregarious
@@ -2154,9 +2154,9 @@ character_event = {
 
 # Magyar Horde Event (Invasion)
 narrative_event = {
-	id = PA.1000369	
-        title = EVTNAMPA.1000369
-        desc = EVTDESCPA.1000369
+	id = PA.10369	
+        title = EVTNAMPA.10369
+        desc = EVTDESCPA.10369
         picture = GFX_evt_seige
 
         trigger = {
@@ -2274,7 +2274,7 @@ narrative_event = {
 
 # Re-establish Golden Band
 narrative_event = {
-	id = PA.1000370
+	id = PA.10370
 
         hide_window = yes
 	
@@ -2313,7 +2313,7 @@ narrative_event = {
 
 # Destroy Golden Band
 narrative_event = {
-	id = PA.1000371
+	id = PA.10371
 
         hide_window = yes
 	
@@ -2347,8 +2347,8 @@ narrative_event = {
 
 # The son of a ruler volunteers to join the Order
 character_event = {
-	id = PA.1000372
-	desc = EVTDESCPA.1000372
+	id = PA.10372
+	desc = EVTDESCPA.10372
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -2458,7 +2458,7 @@ character_event = {
 		}
 		liege = {
 			character_event = {
-				id = PA.1000373
+				id = PA.10373
 			}
 		}
 	}
@@ -2469,8 +2469,8 @@ character_event = {
 
 # Son or brother asks to join the Order
 character_event = {
-	id = PA.1000373
-	desc = EVTDESCPA.1000373
+	id = PA.10373
+	desc = EVTDESCPA.10373
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -2486,8 +2486,8 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.1000374
-				tooltip = EVTTOOLTIPPA_100000374
+				id = PA.10374
+				tooltip = EVTTOOLTIPPA_10374
 			}
 		}
 	}
@@ -2499,7 +2499,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.1000375
+				id = PA.10375
 				tooltip = EVTTOOLTIP_SOA_1033
 			}
 		}
@@ -2508,8 +2508,8 @@ character_event = {
 
 # Son or brother joins the Order
 character_event = {
-	id = PA.1000374
-	desc = EVTDESCPA.1000374
+	id = PA.10374
+	desc = EVTDESCPA.10374
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -2534,8 +2534,8 @@ character_event = {
 
 # Liege refuses request to join the Order
 character_event = {
-	id = PA.1000375
-	desc = EVTDESCPA.1000375
+	id = PA.10375
+	desc = EVTDESCPA.10375
 	picture = GFX_evt_western_knights_byzantine
 	border = GFX_event_normal_frame_religion
 	
@@ -2553,7 +2553,7 @@ character_event = {
 
 # Ping event when donating money to the Order
 character_event = {
-	id = PA.1000376
+	id = PA.10376
 	
 	hide_window = yes
 	
@@ -2563,7 +2563,7 @@ character_event = {
 		wealth = 300
 		FROM = {
 			letter_event = {
-				id = PA.1000377
+				id = PA.10377
 			}
 		}
 		opinion = {
@@ -2579,7 +2579,7 @@ character_event = {
 
 # Notification event when donating money to the Order
 letter_event = {
-	id = PA.1000377
+	id = PA.10377
 	desc = EVTDESC_SOA_1141
 	border = GFX_event_letter_frame_religion
 	
@@ -2592,7 +2592,7 @@ letter_event = {
 
 # The Grand Master humbly requests the right to build a castle in your demesne
 character_event = {
-	id = PA.1000378
+	id = PA.10378
 	
 	hide_window = yes
 	
@@ -2667,7 +2667,7 @@ character_event = {
 				has_empty_holding = yes
 			}
 			province_event = {
-				id = PA.1000379
+				id = PA.10379
 			}
 		}
 	}
@@ -2678,7 +2678,7 @@ character_event = {
 }
 
 province_event = {
-	id = PA.1000379
+	id = PA.10379
 	
 	hide_window = yes
 	
@@ -2688,7 +2688,7 @@ province_event = {
 		d_saint_maron = {
 			holder_scope = {
 				character_event = {
-					id = PA.1000380
+					id = PA.10380
 				}
 			}
 		}
@@ -2700,7 +2700,7 @@ province_event = {
 }
 
 character_event = {
-	id = PA.1000380
+	id = PA.10380
 	
 	hide_window = yes
 	
@@ -2709,7 +2709,7 @@ character_event = {
 	immediate = {
 		FROMFROM = {
 			character_event = {
-				id = PA.1000381
+				id = PA.10381
 			}
 		}
 	}
@@ -2720,8 +2720,8 @@ character_event = {
 }
 
 letter_event = {
-	id = PA.1000381
-	desc = EVTDESCPA.1000381
+	id = PA.10381
+	desc = EVTDESCPA.10381
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2738,7 +2738,7 @@ letter_event = {
 		
 		hidden_tooltip = {
 			FROMFROM = {
-				province_event = { id = PA.1000382 }
+				province_event = { id = PA.10382 }
 			}
 			remove_character_modifier = expelled_d_saint_maron
 		}
@@ -2759,8 +2759,8 @@ letter_event = {
 
 # Castle has been erected
 province_event = {
-	id = PA.1000382
-	desc = EVTDESCPA.1000382
+	id = PA.10382
+	desc = EVTDESCPA.10382
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -2775,15 +2775,15 @@ province_event = {
 	option = {
 		name = EVTOPTA_SOA_1024
 		build_holding = {
-		   type = castle
-		   holder = FROMFROM
+			type = castle
+		        holder = FROMFROM
 		}
 	}
 }
 
 # Ping event when expelling the Order
 character_event = {
-	id = PA.1000383
+	id = PA.10383
 	
 	hide_window = yes
 	
@@ -2807,7 +2807,7 @@ character_event = {
 	
 		FROM = {
 			letter_event = {
-				id = PA.1000384
+				id = PA.10384
 			}
 		}
 		
@@ -2824,8 +2824,8 @@ character_event = {
 
 # Notification event when expelling the Order
 letter_event = {
-	id = PA.1000384
-	desc = EVTDESCPA.1000384
+	id = PA.10384
+	desc = EVTDESCPA.10384
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -2836,16 +2836,16 @@ letter_event = {
 }
 
 character_event = {
-		id = PA.1000385
+		id = PA.10385
 
         hide_window = yes
 
 	trigger = {
-			    is_patrician = no
+		is_patrician = no
                 independent = yes
-				is_merchant_republic = no
+		is_merchant_republic = no
                 NOT = { has_law = legislature_2 }
-		        has_law = imperial_administration
+		has_law = imperial_administration
                 NOT = { government = imperial_government }
 	}
 
@@ -2855,22 +2855,22 @@ character_event = {
 
 	option = {
 		name = OK
-        set_government_type = imperial_government
+                set_government_type = imperial_government
 	}
 }
 
 character_event = {
-		id = PA.1000386
+		id = PA.10386
 
         hide_window = yes
 
 	trigger = {		                
-	            is_patrician = no
+	        is_patrician = no
                 independent = yes
                 has_law = legislature_2 
-				is_merchant_republic = no
-				has_law = imperial_administration
-				NOT = { government = constitutional_government }
+		is_merchant_republic = no
+		has_law = imperial_administration
+		NOT = { government = constitutional_government }
 	}
 
 	mean_time_to_happen = {
@@ -2879,22 +2879,22 @@ character_event = {
 
 	option = {
 		name = OK
-        set_government_type = constitutional_government
+                set_government_type = constitutional_government
 	}
 }
 
 
 character_event = {
-		id = PA.1000387
+		id = PA.10387
 
         hide_window = yes
 
 	trigger = {
-			    is_patrician = no
+	        is_patrician = no
                 independent = yes
                 has_law = legislature_1
-				is_merchant_republic = no
-		        has_law = imperial_administration
+		is_merchant_republic = no
+	        has_law = imperial_administration
                 government = consitutional_government
 	}
 
@@ -2909,14 +2909,14 @@ character_event = {
 }
 
 character_event = {
-		id = PA.1000388
+		id = PA.10388
 
         hide_window = yes
 
 	trigger = {
                 independent = yes
                 NOT = { religion_group = muslim }
-		        NOT = { has_law = imperial_administration }
+		NOT = { has_law = imperial_administration }
                 government = imperial_government
 	}
 
@@ -2926,21 +2926,21 @@ character_event = {
 
 	option = {
 		name = OK
-        set_government_type = feudal_government
+                set_government_type = feudal_government
 	}
 }
 
 character_event = {
-		id = PA.1000389
+		id = PA.10389
 
         hide_window = yes
 
 	trigger = {
-		        is_patrician = no	
+		is_patrician = no	
                 independent = yes
                 religion_group = muslim
-				is_merchant_republic = no
-		        NOT = { has_law = imperial_administration }
+		is_merchant_republic = no
+		NOT = { has_law = imperial_administration }
                 government = imperial_government
 	}
 
@@ -2950,32 +2950,32 @@ character_event = {
 
 	option = {
 		name = OK
-        set_government_type = muslim_government
+                set_government_type = muslim_government
 	}
 }
 
 character_event = {
-	id = PA.1000390
+	id = PA.10390
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    has_landed_title = e_roman_empire
+	        }  
+	        has_landed_title = e_roman_empire
 		
 		any_vassal = {
-		    has_minor_title = title_prefect
+		        has_minor_title = title_prefect
 		}
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_senator
+				has_minor_title = title_senator
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -2983,7 +2983,7 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					tier = emperor
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_senator } }
 			}
 		}
@@ -2998,7 +2998,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3014,7 +3014,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3030,7 +3030,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3046,7 +3046,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3062,7 +3062,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3078,7 +3078,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3094,7 +3094,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3110,7 +3110,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3126,7 +3126,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3142,7 +3142,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3158,7 +3158,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3174,7 +3174,7 @@ character_event = {
 		
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3191,27 +3191,27 @@ character_event = {
 } 
 
 character_event = {
-	id = PA.1000391
+	id = PA.10391
 
-    hide_window = yes
+        hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
-			has_law = legislature_2
-	    }
-	    has_landed_title = e_western
+                	OR = {
+		    		has_law = legislature_1
+				has_law = legislature_2
+	    	}
+	        has_landed_title = e_western
 		
 		any_vassal = {
-		    has_minor_title = title_prefect
+			has_minor_title = title_prefect
 		}
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_senator
+				has_minor_title = title_senator
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -3219,7 +3219,7 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					tier = emperor
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_senator } }
 			}
 		}
@@ -3233,7 +3233,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3249,7 +3249,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3265,7 +3265,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3281,7 +3281,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3297,7 +3297,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3313,7 +3313,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3329,7 +3329,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3345,7 +3345,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3361,7 +3361,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3377,7 +3377,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3393,7 +3393,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3409,7 +3409,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -3426,27 +3426,27 @@ character_event = {
 } 
 
 character_event = {
-	id = PA.1000392
+	id = PA.10392
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
-			has_law = legislature_2
-	    }
-	    has_landed_title = e_byzantium
+                OR = {
+			has_law = legislature_1
+		        has_law = legislature_2
+	        }
+	        has_landed_title = e_byzantium
 		
 		any_vassal = {
-		    has_minor_title = title_eparch
+			has_minor_title = title_eparch
 		}
 
 		NOT = {
 			any_vassal = {
 					has_minor_title = title_senator2
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -3454,7 +3454,7 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					tier = emperor
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_senator2 } }
 			}
 		}
@@ -3661,26 +3661,26 @@ character_event = {
 } 
 
 character_event = {
-	id = PA.1000394
+	id = PA.10394
 
     hide_window = yes
 		
 	trigger = {
-		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+	 	is_feudal = yes
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = christian
+	        }
+	        religion_group = christian
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_speaker
+				has_minor_title = title_speaker
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -3688,10 +3688,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_speaker } }
 			}
 		}
@@ -3705,7 +3705,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3722,30 +3722,30 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000395
+	id = PA.10395
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = christian
+	        }
+	        religion_group = christian
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 		
 		any_vassal = {
-		    has_minor_title = title_speaker
+			has_minor_title = title_speaker
 		}
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_lord_peer
+				has_minor_title = title_lord_peer
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -3753,10 +3753,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_lord_peer } }
 			}
 		}
@@ -3770,7 +3770,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3786,7 +3786,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3802,7 +3802,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3818,7 +3818,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3834,7 +3834,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3850,7 +3850,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3866,7 +3866,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3882,7 +3882,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3898,7 +3898,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3914,7 +3914,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3930,7 +3930,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3946,7 +3946,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3962,7 +3962,7 @@ character_event = {
 		
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker }
 				NOT = { has_minor_title = title_lord_peer }
 				is_adult = yes
@@ -3979,26 +3979,26 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000396
+	id = PA.10396
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = muslim
+	        }
+	        religion_group = muslim
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_speaker2
+				has_minor_title = title_speaker2
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -4006,10 +4006,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_speaker2 } }
 			}
 		}
@@ -4023,7 +4023,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4040,30 +4040,30 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000397
+	id = PA.10397
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = muslim
+	        }
+	        religion_group = muslim
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 		
 		any_vassal = {
-		    has_minor_title = title_speaker2
+			has_minor_title = title_speaker2
 		}
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_councillor
+				has_minor_title = title_councillor
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -4071,10 +4071,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_councillor } }
 			}
 		}
@@ -4088,7 +4088,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4104,7 +4104,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4120,7 +4120,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4136,7 +4136,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4152,7 +4152,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4168,7 +4168,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4184,7 +4184,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4200,7 +4200,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4216,7 +4216,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4232,7 +4232,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4248,7 +4248,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4264,7 +4264,7 @@ character_event = {
 		
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker2 }
 				NOT = { has_minor_title = title_councillor }
 				is_adult = yes
@@ -4281,26 +4281,26 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000398
+	id = PA.10398
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+			has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = jewish_group
+	    	}
+	        religion_group = jewish_group
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_nasi
+				has_minor_title = title_nasi
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -4308,10 +4308,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_nasi } }
 			}
 		}
@@ -4325,7 +4325,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4342,30 +4342,30 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000399
+	id = PA.10399
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = jewish_group
+	        }
+	        religion_group = jewish_group
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 		
 		any_vassal = {
-		    has_minor_title = title_nasi
+			has_minor_title = title_nasi
 		}
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_mufla
+				has_minor_title = title_mufla
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -4373,10 +4373,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                } 
 				NOT = { any_vassal = { has_minor_title = title_mufla } }
 			}
 		}
@@ -4390,7 +4390,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4406,7 +4406,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4422,7 +4422,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4438,7 +4438,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4454,7 +4454,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4470,7 +4470,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4486,7 +4486,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4502,7 +4502,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4518,7 +4518,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4534,7 +4534,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4550,7 +4550,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4566,7 +4566,7 @@ character_event = {
 		
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_nasi }
 				NOT = { has_minor_title = title_mufla }
 				is_adult = yes
@@ -4583,26 +4583,26 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000400
+	id = PA.10400
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+			has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = zoroastrian_group
+	        }
+	        religion_group = zoroastrian_group
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_speaker3
+				has_minor_title = title_speaker3
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -4610,10 +4610,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_speaker3 } }
 			}
 		}
@@ -4627,7 +4627,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4644,30 +4644,30 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000401
+	id = PA.10401
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = zoroastrian_group
+	        }
+	        religion_group = zoroastrian_group
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 		
 		any_vassal = {
-		    has_minor_title = title_speaker3
+		        has_minor_title = title_speaker3
 		}
 
 		NOT = {
 			any_vassal = {
 					has_minor_title = title_councillor2
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -4675,10 +4675,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_councillor2 } }
 			}
 		}
@@ -4692,7 +4692,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4708,7 +4708,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4724,7 +4724,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4740,7 +4740,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4756,7 +4756,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4772,7 +4772,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4788,7 +4788,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4804,7 +4804,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4820,7 +4820,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4836,7 +4836,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4852,7 +4852,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4868,7 +4868,7 @@ character_event = {
 		
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker3 }
 				NOT = { has_minor_title = title_councillor2 }
 				is_adult = yes
@@ -4885,26 +4885,26 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000402
+	id = PA.10402
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = pagan_group
+	        }
+	        religion_group = pagan_group
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_speaker4
+				has_minor_title = title_speaker4
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -4912,10 +4912,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_speaker4 } }
 			}
 		}
@@ -4929,7 +4929,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -4946,30 +4946,30 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000403
+	id = PA.10403
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    religion_group = pagan_group
+	        }
+	        religion_group = pagan_group
 		NOT = { has_landed_title = e_byzantium }
 		NOT = { has_landed_title = e_roman_empire }
 		NOT = { has_landed_title = e_western }
 		
 		any_vassal = {
-		    has_minor_title = title_speaker4
+			has_minor_title = title_speaker4
 		}
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_high_elder
+				has_minor_title = title_high_elder
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -4977,10 +4977,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_high_elder } }
 			}
 		}
@@ -4994,7 +4994,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5010,7 +5010,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5026,7 +5026,7 @@ character_event = {
 		
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5042,7 +5042,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5058,7 +5058,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5074,7 +5074,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5090,7 +5090,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5106,7 +5106,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5122,7 +5122,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5138,7 +5138,7 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5154,7 +5154,7 @@ character_event = {
 		
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker4 }
 				NOT = { has_minor_title = title_high_elder }
 				is_adult = yes
@@ -5171,22 +5171,22 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000404
+	id = PA.10404
 
     hide_window = yes
 		
 	trigger = {
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
+	        }
 		is_merchant_republic = yes
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_speaker5
+				has_minor_title = title_speaker5
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -5194,10 +5194,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						tier = king
+						tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_speaker5 } }
 			}
 		}
@@ -5211,7 +5211,6 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5228,26 +5227,26 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000405
+	id = PA.10405
 
     hide_window = yes
 		
 	trigger = {
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
+	        }
 		is_merchant_republic = yes
 		
 		any_vassal = {
-		    has_minor_title = title_speaker5
+			has_minor_title = title_speaker5
 		}
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_councillor3
+				has_minor_title = title_councillor3
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -5255,10 +5254,10 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					OR = {
-					    tier = king
-					    tier = emperor
+						 tier = king
+						 tier = emperor
 					}
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_councillor3 } }
 			}
 		}
@@ -5272,7 +5271,6 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5288,7 +5286,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5304,7 +5301,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5320,7 +5316,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5336,7 +5331,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5352,7 +5346,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5368,7 +5361,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5384,7 +5376,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5400,7 +5391,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5416,7 +5406,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5432,7 +5421,6 @@ character_event = {
 
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5448,7 +5436,6 @@ character_event = {
 		
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
 				NOT = { has_minor_title = title_speaker5 }
 				NOT = { has_minor_title = title_councillor3 }
 				is_adult = yes
@@ -5465,23 +5452,23 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000406
+	id = PA.10406
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    has_landed_title = e_roman_empire
+	        }
+	        has_landed_title = e_roman_empire
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_prefect
+				has_minor_title = title_prefect
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -5489,7 +5476,7 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					tier = emperor
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_prefect } }
 			}
 		}
@@ -5503,7 +5490,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -5520,23 +5507,23 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000407
+	id = PA.10407
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    has_landed_title = e_western
+	        }
+	        has_landed_title = e_western
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_prefect
+				has_minor_title = title_prefect
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -5544,7 +5531,7 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					tier = emperor
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_prefect } }
 			}
 		}
@@ -5558,7 +5545,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+				higher_tier_than = BARON
 				NOT = { has_minor_title = title_prefect }
 				NOT = { has_minor_title = title_senator }
 				is_adult = yes
@@ -5575,23 +5562,23 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000408
+	id = PA.10408
 
     hide_window = yes
 		
 	trigger = {
 		is_feudal = yes
-        OR = {
-		    has_law = legislature_1
+                OR = {
+		        has_law = legislature_1
 			has_law = legislature_2
-	    }
-	    has_landed_title = e_byzantium
+	        }
+	        has_landed_title = e_byzantium
 
 		NOT = {
 			any_vassal = {
-					has_minor_title = title_eparch
+				has_minor_title = title_eparch
+                        }
                 }
-        }
 
 		any_vassal = {
 			is_adult = yes
@@ -5599,7 +5586,7 @@ character_event = {
 				is_feudal = yes
 				primary_title = {
 					tier = emperor
-                }
+                                }
 				NOT = { any_vassal = { has_minor_title = title_eparch } }
 			}
 		}
@@ -5613,7 +5600,7 @@ character_event = {
 		name = OK
 		random_vassal = {
 			limit = {
-			    higher_tier_than = BARON
+			        higher_tier_than = BARON
 				NOT = { has_minor_title = title_eparch }
 				NOT = { has_minor_title = title_senator2 }
 				is_adult = yes
@@ -5630,74 +5617,74 @@ character_event = {
 }
 
 character_event = {
-	id = PA.1000409
+	id = PA.10409
 	
 	trigger = {
-	    NOT = { religion_group = pagan_group }
-	    has_character_modifier = divine_father
+		NOT = { religion_group = pagan_group }
+		has_character_modifier = divine_father
 	}
 	
 	option = {
-	    name = OK
-		remove_character_modifier = divine_father 
+		name = OK
+			remove_character_modifier = divine_father 
 	}
 }
 
 character_event = {
-	id = PA.1000410
+	id = PA.10410
 	
 	trigger = {
-	    NOT = { religion_group = pagan_group }
-	    has_character_modifier = divine_mother
+		NOT = { religion_group = pagan_group }
+		has_character_modifier = divine_mother
 	}
 	
 	option = {
-	    name = OK
+	        name = OK
 		remove_character_modifier = divine_mother 
 	}
 }
 
 character_event = {
-	id = PA.1000411
+	id = PA.10411
 	
 	trigger = {
-	    NOT = { religion_group = christian }
-	    has_character_modifier = canonised_father
+		NOT = { religion_group = christian }
+	        has_character_modifier = canonised_father
 	}
 	
 	option = {
-	    name = OK
+	        name = OK
 		remove_character_modifier = canonised_father 
 	}
 }
 
 character_event = {
-	id = PA.1000412
+	id = PA.10412
 	
 	trigger = {
-	    NOT = { religion_group = christian }
-	    has_character_modifier = canonised_mother
+	        NOT = { religion_group = christian }
+	        has_character_modifier = canonised_mother
 	}
 	
 	option = {
-	    name = OK
+	        name = OK
 		remove_character_modifier = canonised_mother
 	}
 }
 
 # Thracian province converts to Romanian
 character_event = {
-	id = PA.1000413
-	desc = EVTDESCPA.1000413
+	id = PA.10413
+	desc = EVTDESCPA.10413
 	picture = GFX_evt_stone_church
 
-    trigger = {
+       trigger = {
 		year = 850
-        NOT = { year = 1000 }
-        any_realm_province = {
-            culture = thracian
-        }
-        NOT = { has_global_flag = thracia }
+                NOT = { year = 1000 }
+                any_realm_province = {
+        		culture = thracian
+        	}
+        	NOT = { has_global_flag = thracia }
 	}
 
 	mean_time_to_happen = {
@@ -5705,7 +5692,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000413
+		name = OPTPA_10413
 		random_realm_province = {
 			limit = {
 				culture_group = thracian
@@ -5717,17 +5704,17 @@ character_event = {
 
 # Dacian province converts to Romanian
 character_event = {
-	id = PA.1000414
-	desc = EVTDESCPA.1000414
+	id = PA.10414
+	desc = EVTDESCPA.10414
 	picture = GFX_evt_stone_church
 
-    trigger = {
+        trigger = {
 		year = 850
-        NOT = { year = 1000 }
-        any_realm_province = {
-            culture = dacian
-        }
-        NOT = { has_global_flag = dacia }
+                NOT = { year = 1000 }
+                any_realm_province = {
+                	culture = dacian
+                }
+                NOT = { has_global_flag = dacia }
 	}
 
 	mean_time_to_happen = {
@@ -5735,7 +5722,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000414
+		name = OPTPA_10414
 		random_realm_province = {
 			limit = {
 				culture_group = dacian
@@ -5747,16 +5734,16 @@ character_event = {
 
 # Rhaetian province converts to Romansh
 character_event = {
-	id = PA.1000415
-	desc = EVTDESCPA.1000415
+	id = PA.10415
+	desc = EVTDESCPA.10415
 	picture = GFX_evt_stone_church
 
     trigger = {
 		year = 850
-        NOT = { year = 1000 }
-        any_realm_province = {
-            culture = rhaetian
-        }
+                NOT = { year = 1000 }
+                any_realm_province = {
+                	culture = rhaetian
+        	}
 	}
 
 	mean_time_to_happen = {
@@ -5764,7 +5751,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPTPA_1000415
+		name = OPTPA_10415
 		random_realm_province = {
 			limit = {
 				culture_group = rhaetian
@@ -5776,25 +5763,25 @@ character_event = {
 
 # Illyrian province converts to Albanian
 character_event = {
-	id = PA.1000416
-	desc = EVTDESCPA.1000416
+	id = PA.10416
+	desc = EVTDESCPA.10416
 	picture = GFX_evt_stone_church
 
         trigger = {
-		    year = 850
-            NOT = { year = 1000 }
-            any_realm_province = {
-                culture = illyrian
-            }
-            NOT = { has_global_flag = illyria
-	    }
+		year = 850
+            	NOT = { year = 1000 }
+                any_realm_province = {
+                	culture = illyrian
+            	}
+                NOT = { has_global_flag = illyria }
+	}
 
 	mean_time_to_happen = {
 		months = 3600
 	}
 
 	option = {
-		name = OPTPA_1000416
+		name = OPTPA_10416
 		random_realm_province = {
 			limit = {
 				culture_group = illyrian
@@ -5805,90 +5792,90 @@ character_event = {
 }
 
 narrative_event = {
-	id = PA.1000417
-	title = EVTNAMEPA.1000417
-	desc = EVTDESCPA.1000417
+	id = PA.10417
+	title = EVTNAMEPA.10417
+	desc = EVTDESCPA.10417
 	picture = GFX_evt_rome_restored_byzantine
 
         trigger = {
-		    has_landed_title = e_western
-			has_global_flag = fall_of_wre
-            NOT = { has_global_flag = wre_revived }
-	    }
+		has_landed_title = e_western
+		has_global_flag = fall_of_wre
+        	NOT = { has_global_flag = wre_revived }
+        }
 
 	mean_time_to_happen = {
 		days = 1
 	}
 
 	option = {
-		name = OPTPA_1000417
+		name = OPTPA_10417
 		set_global_flag = wre_revived
 		prestige = 500
 	}
 }
 
 narrative_event = {
-	id = PA.1000418
-	title = EVTNAMEPA.1000418
-	desc = EVTDESCPA.1000418
+	id = PA.10418
+	title = EVTNAMEPA.10418
+	desc = EVTDESCPA.10418
 	picture = GFX_evt_religious_exultation
 
         trigger = {
-		    has_landed_title = e_carthage
-            NOT = { has_global_flag = carthage_revived }
-	    }
+		has_landed_title = e_carthage
+                NOT = { has_global_flag = carthage_revived }
+	}
 
 	mean_time_to_happen = {
 		days = 1
 	}
 
 	option = {
-		name = OPTPA_1000418
+		name = OPTPA_10418
 		set_global_flag = carthage_revived
 		prestige = 500
 	}
 }
 
 narrative_event = {
-	id = PA.1000419
-	title = EVTNAMEPA.1000419
-	desc = EVTDESCPA.1000419
+	id = PA.10419
+	title = EVTNAMEPA.10419
+	desc = EVTDESCPA.10419
 	picture = GFX_evt_religious_exultation
 
         trigger = {
-		    has_landed_title = e_macedonia
-            NOT = { has_global_flag = macedonia_revived }
-	    }
+		has_landed_title = e_macedonia
+                NOT = { has_global_flag = macedonia_revived }
+	}
 
 	mean_time_to_happen = {
 		days = 1
 	}
 
 	option = {
-		name = OPTPA_1000419
+		name = OPTPA_10419
 		set_global_flag = macedonia_revived
 		prestige = 500
 	}
 }
 
 narrative_event = {
-	id = PA.1000420
-	title = EVTNAMEPA.1000420
-	desc = EVTDESCPA.1000420
+	id = PA.10420
+	title = EVTNAMEPA.10420
+	desc = EVTDESCPA.10420
 	picture = GFX_evt_mongols_pillage_oldgods
 
         trigger = {
-		    has_landed_title = e_hunnicia
-			has_global_flag = fall_of_hunnicia
-            NOT = { has_global_flag = hunnicia_revived }
-	    }
+		has_landed_title = e_hunnicia
+		has_global_flag = fall_of_hunnicia
+                NOT = { has_global_flag = hunnicia_revived }
+	}
 
 	mean_time_to_happen = {
 		days = 1
 	}
 
 	option = {
-		name = OPTPA_1000419
+		name = OPTPA_10419
 		set_global_flag = hunnicia_revived
 		prestige = 500
 	}

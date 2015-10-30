@@ -590,7 +590,7 @@ b_torsas;Torsås;;;;;;;;;x
 b_soderakra;Söderåkra;;;;;;;;;x 
 b_kopingsvik;Köpingsvik;;;;;;;;;x 
 b_monsteras;Mönsterås;;;;;;;;;x 
-b_madesjo;Madesj?;;;;;;;;x 
+b_madesjo;Madesj?;;;;;;;;;x 
 b_alem;Ålem;;;;;;;;;x 
 b_doderhult;Döderhult;;;;;;;;;x 
 b_hulingsryd;Hulingsryd;;;;;;;;;x 
@@ -1749,6 +1749,7 @@ title_ishad_desc;Ishad is the title given to the highest ranking generals, and a
 title_kundur;Kündür;;;;;;;;;x 
 title_kundur_desc;The Kündur is traditionally a high ranking official in the Khan's court, and bestowing it on someone is a sign of approval.;;;;;;;;;x 
 job_spiritual_orthodox;Ecclesiarch;;;;;;;;;x 
+job_spiritual_iconoclast;Ecclesiarch;;;;;;;;;x 
 EVTDESC91240;After a brutal civil war, the decadent dynasty of my former liege has finally been overthrown by the [Root.Liege.GetOnlyDynastyName] clan. In the transitional chaos, I could probably get away with a declaration of independence...;;;;;;;;;x 
 EVTOPTA91240;Stay Loyal;;;;;;;;;x 
 EVTOPTB91240;Freedom!;;;;;;;;;x 

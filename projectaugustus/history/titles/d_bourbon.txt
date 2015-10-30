@@ -1,9 +1,3 @@
-470.1.1={
-	holder = 1438131
-	liege="k_visigoth"
-}
-
-
 1066.1.1={
        de_jure_liege = k_france
 }

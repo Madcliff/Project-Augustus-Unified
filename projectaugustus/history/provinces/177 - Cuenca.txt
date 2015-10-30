@@ -15,7 +15,7 @@ b_siguenza = temple
 #b_tarancon = city
 #b_sisante
 
-culture = iberian
+culture = hispanic
 religion = catholic
 terrain = hills
 

@@ -1,7 +1,5 @@
 # Called Ladoga in-game
-600.1.1 = {
-	holder = 91010193
-}
+
 760.1.1 = {
 	holder = 194132
 }

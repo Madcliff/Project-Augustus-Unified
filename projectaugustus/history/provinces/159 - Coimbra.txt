@@ -15,12 +15,9 @@ b_viseu = temple
 #b_penela = city
 
 # Misc
-culture = suebi
+culture = hispanic
 religion = catholic
 
-700.1.1 = {
-	culture = iberian
-}
 # History
 
 867.1.1 = { 

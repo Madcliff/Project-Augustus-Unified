@@ -209,7 +209,7 @@ decisions = {
 				text = united_churches
 		        }
 		        hidden_tooltip = {
-				narrative_event = { id = PA.100020 }
+				narrative_event = { id = PA.10020 }
 			}
 			set_global_flag = churches_united
                         set_character_flag = reinforcements
@@ -541,7 +541,7 @@ decisions = {
 				d_saint_blaise = {
 					holder_scope = {
 						character_event = {
-							id = PA.100067
+							id = PA.10067
 						}
 					}
 				}
@@ -595,7 +595,7 @@ decisions = {
 				d_saint_blaise = {
 					holder_scope = {
 						character_event = {
-							id = PA.100060
+							id = PA.10060
 						}
 					}
 				}
@@ -664,7 +664,7 @@ decisions = {
 				d_saint_peter = {
 					holder_scope = {
 						character_event = {
-							id = PA.100054
+							id = PA.10054
 						}
 					}
 				}
@@ -718,7 +718,7 @@ decisions = {
 				d_saint_peter = {
 					holder_scope = {
 						character_event = {
-							id = PA.100047
+							id = PA.10047
 						}
 					}
 				}
@@ -779,7 +779,7 @@ decisions = {
 					}
 					religion = imperial
 				}
-			narrative_event = { id = PA.100031 }
+			narrative_event = { id = PA.10031 }
 			set_global_flag = formed_imperial_church
 		        activate_title = { title = k_imperial status = yes }
                         activate_title = { title = d_saint_peter status = no }
@@ -861,7 +861,7 @@ decisions = {
                         set_global_flag = varangian_guard_refounded
 			activate_title = { title = d_varangian_guard status = yes }
 			hidden_tooltip = {
-				narrative_event = { id = PA.100092 }
+				narrative_event = { id = PA.10092 }
 				create_character = {
 					random_traits = yes
 					religion = ROOT
@@ -912,7 +912,7 @@ decisions = {
 				text = papal_support
 			}
 			hidden_tooltip = {
-					character_event = { id = PA.100093 }
+					character_event = { id = PA.10093 }
 				}
 			set_character_flag = reinforcements
 			}
@@ -949,7 +949,7 @@ decisions = {
 				text = papal_support
 			}
 			hidden_tooltip = {
-					character_event = { id = PA.100095 }
+					character_event = { id = PA.10095 }
 				}
 			set_character_flag = reinforcements
 			}
@@ -986,7 +986,7 @@ decisions = {
 				text = papal_support
 			}
 			hidden_tooltip = {
-					character_event = { id = PA.100099 }
+					character_event = { id = PA.10099 }
 			}
 			set_character_flag = reinforcements
 			}
@@ -1245,7 +1245,7 @@ decisions = {
 			set_character_flag = do_not_disturb
 			hidden_tooltip = { character_event = { id = TOG.899 days = 150 } } # Safety catch flag clearing
 				hidden_tooltip = { 
-					character_event = { id = PA.1000124 } 
+					character_event = { id = PA.10124 } 
 				}
 			}
 		revoke_allowed = {
@@ -1321,7 +1321,7 @@ decisions = {
 			set_character_flag = activated_pilgrimage
 			set_character_flag = do_not_disturb
 			hidden_tooltip = {
-				character_event = { id = PA.1000163 }
+				character_event = { id = PA.10163 }
 			}
 		}
 		revoke_allowed = {
@@ -1434,7 +1434,7 @@ decisions = {
 				d_heroes = {
 					holder_scope = {
 						character_event = {
-							id = PA.1000201
+							id = PA.10201
 						}
 					}
 				}
@@ -1488,7 +1488,7 @@ decisions = {
 				d_heroes = {
 					holder_scope = {
 						character_event = {
-							id = PA.1000194
+							id = PA.10194
 						}
 					}
 				}
@@ -1531,7 +1531,7 @@ decisions = {
 		effect = {
                         set_global_flag = formed_hellenic_church
 			hidden_tooltip = {
-					character_event = { id = PA.1000205 }
+					character_event = { id = PA.10205 }
 	                }
 		}
 		ai_will_do = {
@@ -1556,7 +1556,7 @@ decisions = {
 		
 		effect = {
 			hidden_tooltip = {
-                                       character_event = { id = PA.1000216 }
+                                       character_event = { id = PA.10216 }
 		       }
                        remove_character_modifier = hellenic_sacrifice_bull
                        remove_character_modifier = hellenic_sacrifice_lamb
@@ -1600,7 +1600,7 @@ decisions = {
 		effect = {
                         set_global_flag = vassal_epirus
 			hidden_tooltip = {
-                                       k_epirus = { holder_scope = { character_event = { id = PA.1000248 }
+                                       k_epirus = { holder_scope = { character_event = { id = PA.10248 }
                                        }
 	                        }
                         }
@@ -1638,7 +1638,7 @@ decisions = {
 		effect = {
                         set_global_flag = vassal_trebizond
 			hidden_tooltip = {
-                                       e_trebizond = { holder_scope = { character_event = { id = PA.1000249 }
+                                       e_trebizond = { holder_scope = { character_event = { id = PA.10249 }
                                        }
 	                        }
                         }

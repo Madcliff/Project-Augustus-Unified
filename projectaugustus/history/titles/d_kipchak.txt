@@ -1,9 +1,8 @@
 20.1.1 = {
 	historical_nomad = yes
 }
-620.1.1 = {
-	holder = 1000257452 
-	set_tribute_suzerain = { who = e_gokturk percentage = 0.40 }
+337.1.1={
+    de_jure_liege = k_kimak
 }
 750.1.1={
 	law = succ_tanistry
@@ -11,9 +10,6 @@
 }
 762.1.1={
 	holder=188762
-}
-769.1.1={
-        de_jure_liege = k_kimak
 }
 799.1.1={
 	holder=188761

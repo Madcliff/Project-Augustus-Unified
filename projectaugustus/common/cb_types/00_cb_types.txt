@@ -387,7 +387,8 @@ other_claim = {
 				limit = {
 					OR = {
 						tag = k_papal_state
-						tag = d_fraticelli
+						tag = k_fraticelli
+						tag = k_arian
 					}
 				}
 				FROM = {
@@ -404,9 +405,9 @@ other_claim = {
 				controls_religion = yes
 				holder_scope = { 
 					OR = {
-						religion = arian
 						religion = catholic
 						religion = fraticelli
+						religion = arian
 					}
 				}
 			}
@@ -428,9 +429,9 @@ other_claim = {
 					NOT = { 
 						holder_scope = {
 							OR = {
-						        religion = arian
 								religion = catholic 
 								religion = fraticelli 
+			                    religion = arian
 							}
 						}
 					}
@@ -3057,9 +3058,9 @@ crusade = {
 		NOT = { # Not if the Schism has been mended
 			AND = {
 				OR = {
-					religion = arian
 					religion = catholic
 					religion = fraticelli
+					religion = arian
 				}
 				has_global_flag = schism_mended
 			}
@@ -9855,9 +9856,9 @@ depose_antipope = {
 		ROOT = {
 			religion = FROM
 			OR = {
-				religion = arian
 				religion = catholic
 				religion = fraticelli
+				religion = arian
 			}
 			rightful_religious_head_scope = {
 				NOT = { has_claim = k_papal_state }
@@ -9893,9 +9894,9 @@ depose_antipope = {
 		ROOT = {
 			religion = FROM
 			OR = {
-				religion = arian
 				religion = catholic
 				religion = fraticelli
+				religion = arian
 			}
 			rightful_religious_head_scope = {
 				NOT = { has_claim = k_papal_state }
@@ -9961,7 +9962,7 @@ depose_antipope = {
 			rightful_religious_head_scope = {
 				remove_claim = k_papal_state
 				remove_claim = k_fraticelli
-			        remove_claim = k_arian
+			    remove_claim = k_arian
 			}
 		}
 	}
@@ -10027,9 +10028,9 @@ cb_install_antiking = {
 			vassal_of = FROM
 			religion = FROM
 			OR = {
-				religion = arian
 				religion = catholic
 				religion = fraticelli
+			    religion = arian
 			}
 		}
 	}
@@ -10044,9 +10045,9 @@ cb_install_antiking = {
 		ROOT = {
 			religion = FROM
 			OR = {
-				religion = arian
 				religion = catholic
 				religion = fraticelli
+				religion = arian
 			}
 		}
 		
@@ -12099,6 +12100,7 @@ imperial_reconquest4 = {
                         de_jure_liege_or_above = k_portugal
                         de_jure_liege_or_above = k_asturias
                         de_jure_liege_or_above = k_navarra
+                        de_jure_liege_or_above = k_visigoth
                         de_jure_liege_or_above = k_spanish_galicia
 		}
 	}
@@ -13044,7 +13046,6 @@ religious2 = {
 
 	can_use = {
 		ROOT = {
-		        ai = yes
                         piety = 100
 			NOT = { religion_group = pagan_group }
 			NOT = { pacifist = yes }
@@ -13370,9 +13371,9 @@ pagan_holy_war2 = {
 	}
 
         can_use = {
-		ai = yes
-                piety = 100
-                ROOT = {		
+                ROOT = {
+		        ai = yes
+                        piety = 100		
 			OR = {
 				religion = norse_pagan_reformed
 				religion = tengri_pagan_reformed
@@ -13639,13 +13640,13 @@ imperial_dignity = {
 	
 	can_use = {
 		ROOT = {
-            ai = no
+                        ai = no
 			has_landed_title = e_roman_empire
 			independent = yes
 			OR = {
-                religion_group = christian
-                religion_group = pagan_group
-            }
+                		religion_group = christian
+                		religion_group = pagan_group
+            		}
 			NOT = { same_realm = FROM }
 		}
 		FROM = {
@@ -13755,9 +13756,9 @@ tribal_county_conquest = {
 	
 	can_use = {
 		ROOT = {
-			ai = no
-            is_tribal = yes
-            religion_group = christian
+                        ai = no
+            		is_tribal = yes
+            		religion_group = christian
 			NOT = { same_realm = FROM }
 		}
 	}
@@ -13924,12 +13925,13 @@ imperial_annexation = {
 
 	can_use = {
 		ROOT = {
-		    independent = yes
-            has_landed_title = e_western
+                        ai = no
+			independent = yes
+            		has_landed_title = e_western
 			OR = {
-                religion_group = christian
-                religion_group = pagan_group
-            }
+                		religion_group = christian
+               			religion_group = pagan_group
+            		}
 			NOT = { same_realm = FROM }
 			mercenary = no
 			NOR = {
@@ -13971,15 +13973,15 @@ imperial_annexation = {
 				participation_scaled_prestige = 100
 			}
 		}
-	    hidden_tooltip = {
+	        hidden_tooltip = {
 			ROOT = {
 				if = {
 					limit = {
 						has_dlc = "Legacy of Rome"
 						OR = { 
-				            has_landed_title = e_western
-			                has_landed_title = e_byzantium
-				            has_landed_title = e_roman_empire
+				            		has_landed_title = e_western
+			               			has_landed_title = e_byzantium
+				            		has_landed_title = e_roman_empire
 						}
 						OR = {
 							religion_group = christian
@@ -13995,7 +13997,7 @@ imperial_annexation = {
 
 	on_success_title = {
 		e_byzantium = {
-		    grant_title = ROOT
+			grant_title = ROOT
 		}
 	}
 
@@ -14064,12 +14066,13 @@ imperial_annexation2 = {
 
 	can_use = {
 		ROOT = {
-		    independent = yes
-            has_landed_title = e_byzantium
+                        ai = no
+		    	independent = yes
+            		has_landed_title = e_byzantium
 			OR = {
-                religion_group = christian
-                religion_group = pagan_group
-            }
+                		religion_group = christian
+                		religion_group = pagan_group
+            		}
 			NOT = { same_realm = FROM }
 			mercenary = no
 			NOR = {
@@ -14111,15 +14114,15 @@ imperial_annexation2 = {
 				participation_scaled_prestige = 100
 			}
 		}
-	    hidden_tooltip = {
+	        hidden_tooltip = {
 			ROOT = {
 				if = {
 					limit = {
 						has_dlc = "Legacy of Rome"
 						OR = { 
-				            has_landed_title = e_western
-			                has_landed_title = e_byzantium
-				            has_landed_title = e_roman_empire
+				            		has_landed_title = e_western
+			                		has_landed_title = e_byzantium
+				            		has_landed_title = e_roman_empire
 						}
 						OR = {
 							religion_group = christian
@@ -14135,7 +14138,7 @@ imperial_annexation2 = {
 
 	on_success_title = {
 		e_western = {
-		    grant_title = ROOT
+			grant_title = ROOT
 		}
 	}
 
@@ -14204,10 +14207,10 @@ imperial_subjugation5 = {
 
 	can_use = {
 		ROOT = {
-		    independent = yes
-            OR = {
+			independent = yes
+            		OR = {
 				has_landed_title = e_western
-			    has_landed_title = e_byzantium
+			        has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
 			religion = catholic
@@ -14258,7 +14261,7 @@ imperial_subjugation5 = {
 
 	on_success_title = {
 		k_papal_state = {
-		    de_facto_liege = ROOT
+			de_facto_liege = ROOT
 		}
 	}
 
@@ -14327,10 +14330,10 @@ imperial_subjugation6 = {
 
 	can_use = {
 		ROOT = {
-		    independent = yes
-            OR = {
+			independent = yes
+            		OR = {
 				has_landed_title = e_western
-			    has_landed_title = e_byzantium
+			        has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
 			religion = arian
@@ -14381,7 +14384,7 @@ imperial_subjugation6 = {
 
 	on_success_title = {
 		k_arian = {
-		    de_facto_liege = ROOT
+			de_facto_liege = ROOT
 		}
 	}
 
@@ -14450,10 +14453,10 @@ imperial_subjugation7 = {
 
 	can_use = {
 		ROOT = {
-		    independent = yes
-            OR = {
+			independent = yes
+            		OR = {
 				has_landed_title = e_western
-			    has_landed_title = e_byzantium
+			        has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
 			}
 			religion = fraticelli
@@ -14504,7 +14507,7 @@ imperial_subjugation7 = {
 
 	on_success_title = {
 		k_fraticelli = {
-		    de_facto_liege = ROOT
+			de_facto_liege = ROOT
 		}
 	}
 

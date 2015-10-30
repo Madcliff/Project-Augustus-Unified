@@ -1,9 +1,6 @@
 20.1.1 = {
 	historical_nomad = yes
 }
-470.1.1 = {
-	holder = 10258235 
-}
 580.1.1=
 {
 liege="d_sennar"

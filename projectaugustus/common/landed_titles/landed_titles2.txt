@@ -23,12 +23,12 @@ k_imperial = {
 	
 	# Regnal names
 	male_names = {
-        Constantine Aurelius Maximus Marcus Lucius Romanus Alexander Valentinus Anastasius 
-        Celestius Aquilius Cassius Corenelius Decimus Felix Flavius Florianus Horatius Julius
-        Laurentius Marius Maxentius Paulus Urbanus Publius Quintillus Regulus Rufus Vinicius
-        Secundus Septimus Severius Sergius Sextus Silvanus Valentinus Valerius Vibianus Valerius
-        Simplicius Pelagius Hilarius Mauritius Vergilus Ovidius Naevius Gordanius Gallus Fabricius
-    }
+		Constantine Aurelius Maximus Marcus Lucius Romanus Alexander Valentinus Anastasius 
+		Celestius Aquilius Cassius Corenelius Decimus Felix Flavius Florianus Horatius Julius
+		Laurentius Marius Maxentius Paulus Urbanus Publius Quintillus Regulus Rufus Vinicius
+		Secundus Septimus Severius Sergius Sextus Silvanus Valentinus Valerius Vibianus Valerius
+		Simplicius Pelagius Hilarius Mauritius Vergilus Ovidius Naevius Gordanius Gallus Fabricius
+	}
 }
 
 k_arian = {
@@ -79,7 +79,7 @@ k_eutychian = {
 	# Controls a religion
 	controls_religion = eutychian
 
-        culture = assyrian
+	culture = assyrian
 	
 	religion = eutychian
 	
@@ -593,7 +593,7 @@ d_imperial_fleet2 = {
 
 	capital = 496 # Byzantion
 
-        culture = greek
+	culture = greek
 	
 	mercenary = yes
 
@@ -641,7 +641,7 @@ d_syrian_fleet = {
 	
 	culture = levantine_arabic
 
-        religion = sunni
+	religion = sunni
 	
 	mercenary = yes
 
@@ -666,7 +666,7 @@ d_alexandrian_fleet = {
 	
 	culture = egyptian
 
-        religion = sunni
+	religion = sunni
 	
 	mercenary = yes
 
@@ -713,8 +713,8 @@ d_savaran = {
 	capital = 693 # Baghdad
 	
 	culture = persian
-       
-        religion = zoroastrian
+	   
+	religion = zoroastrian
 	
 	mercenary = yes
 
@@ -738,8 +738,8 @@ d_janissaries = {
 	capital = 693 # Baghdad
 	
 	culture = turkish
-       
-        religion = sunni
+	   
+	religion = sunni
 	
 	mercenary = yes
 
@@ -770,7 +770,7 @@ e_germany = {
 			culture_group = central_germanic
 		}
 		tier = king
-        	independent = yes
+		independent = yes
 		has_landed_title = k_germany
 		completely_controls = k_germany
 		completely_controls = k_bavaria
@@ -794,14 +794,14 @@ e_france = {
 			culture = occitan
 		}
 		tier = king
-        	independent = yes
+		independent = yes
 		has_landed_title = k_france
 		completely_controls = k_france
 		completely_controls = k_aquitaine
 		completely_controls = k_lotharingia
 		completely_controls = k_burgundy
 
-        }
+	}
 }
 
 e_britannia = {
@@ -822,10 +822,10 @@ e_britannia = {
 			culture = norman
 			culture = english
 			culture_group = celtic
-	        	culture_group = north_germanic
-        	}
+				culture_group = north_germanic
+			}
 		tier = king
-        	independent = yes
+		independent = yes
 		OR = {
 			has_landed_title = k_scotland
 			has_landed_title = k_england
@@ -847,15 +847,15 @@ e_arabia = {
 	culture = bedouin_arabic
 	
 	allow = {
-       		tier = king
-        	independent = yes
+	   	tier = king
+		independent = yes
 		culture_group = arabic
 		OR = {
-        		has_landed_title = k_arabia
-        		has_landed_title = k_yeman
-        		has_landed_title = k_syria
-        		has_landed_title = k_egypt
-        		has_landed_title = k_oman
+			has_landed_title = k_arabia
+			has_landed_title = k_yeman
+			has_landed_title = k_syria
+			has_landed_title = k_egypt
+			has_landed_title = k_oman
 		}
 		completely_controls = k_arabia
 		completely_controls = k_yemen
@@ -863,7 +863,7 @@ e_arabia = {
 		completely_controls = k_egypt
 		completely_controls = k_oman
 
-        }
+		}
 	
 	short_name = yes
 
@@ -881,30 +881,28 @@ e_spain = {
 	allow = {
 		OR = {
 			culture_group = latin
-			culture_group = east_germanic
 			culture = andalusian_arabic
-                }
+				}
 		tier = king
-        	independent = yes
+		independent = yes
 		OR = {
-        		has_landed_title = k_visigoth
-        		has_landed_title = k_andalusia
-        		has_landed_title = k_castille
-        		has_landed_title = k_asturias
-        		has_landed_title = k_portugal
-        		has_landed_title = k_navarra
-        		has_landed_title = k_toledo
-        		has_landed_title = k_aragon
-                        has_landed_title = k_spanish_galicia
+			has_landed_title = k_andalusia
+			has_landed_title = k_castille
+			has_landed_title = k_asturias
+			has_landed_title = k_portugal
+			has_landed_title = k_navarra
+			has_landed_title = k_toledo
+			has_landed_title = k_aragon
+			has_landed_title = k_spanish_galicia
 		}
 		completely_controls = k_andalusia
 		completely_controls = k_castille
-                completely_controls = k_asturias
+		completely_controls = k_asturias
 		completely_controls = k_portugal
 		completely_controls = k_navarra
 		completely_controls = k_toledo
 		completely_controls = k_aragon
-                completely_controls = k_spanish_galicia
+		completely_controls = k_spanish_galicia
 	}
 }
 
@@ -919,12 +917,12 @@ e_tartaria = {
 	# Creation/Usurp Trigger
 	allow = {
 		tier = king
-        	independent = yes
+		independent = yes
 		culture_group = altaic
 		OR = {
-		        has_landed_title = k_kimak
-        		has_landed_title = k_cuman
-        		has_landed_title = k_taurica
+			has_landed_title = k_kimak
+			has_landed_title = k_cuman
+			has_landed_title = k_taurica
 		}
 		completely_controls = k_kimak
 		completely_controls = k_cuman
@@ -941,18 +939,18 @@ e_russia = {
 	culture = russian
 	
 	allow = {		
-	        OR = {
+		OR = {
 			culture_group = north_germanic
 			culture_group = east_slavic
 			culture_group = finno_ugric
-        	}
-        	tier = king
-        	independent = yes
+		}
+		tier = king
+		independent = yes
 		OR = {
-       			has_landed_title = k_novgorod
-        		has_landed_title = k_muscovy
-        		has_landed_title = k_smolensk
-        		has_landed_title = k_kiev
+	   		has_landed_title = k_novgorod
+			has_landed_title = k_muscovy
+			has_landed_title = k_smolensk
+			has_landed_title = k_kiev
 		}
 		completely_controls = k_novgorod
 		completely_controls = k_muscovy
@@ -983,12 +981,12 @@ e_slavinia = {
 			culture_group = baltic
 		}
 		tier = king
-        	independent = yes
+		independent = yes
 		OR = {
-        		has_landed_title = k_poland
-        		has_landed_title = k_bohemia
-        		has_landed_title = k_pomerania
-        		has_landed_title = k_lithuania
+			has_landed_title = k_poland
+			has_landed_title = k_bohemia
+			has_landed_title = k_pomerania
+			has_landed_title = k_lithuania
 		}
 		completely_controls = k_poland
 		completely_controls = k_bohemia
@@ -1013,11 +1011,11 @@ e_scandinavia = {
 			culture = finnish
 		}
 		tier = king
-        	independent = yes
+		independent = yes
 		OR = {
-        		has_landed_title = k_sweden
-        		has_landed_title = k_norway
-        		has_landed_title = k_denmark
+			has_landed_title = k_sweden
+			has_landed_title = k_norway
+			has_landed_title = k_denmark
 		}
 		completely_controls = k_sweden
 		completely_controls = k_norway
@@ -1033,24 +1031,20 @@ e_italy = {
 	
 	culture = italian
 
-        allow = {
+		allow = {
 		tier = king
-        	independent = yes
-                e_western = {
-                        has_holder = no
-                }
+		independent = yes
+		e_western = {
+			has_holder = no
+		}
+		culture_group = latin
 		OR = {
-                	culture_group = latin
-			culture_group = east_germanic
-                }
-		OR = {
-                         has_landed_title= k_ostrogoth
-                         has_landed_title= k_lombardy
-		         has_landed_title= k_sicily
-                }
+			has_landed_title= k_lombardy
+			has_landed_title= k_sicily
+		}
 		completely_controls = k_lombardy
 		completely_controls = k_sicily
-        }
+	}
 }
 
 e_abyssinia = {
@@ -1062,14 +1056,14 @@ e_abyssinia = {
 	culture = ethiopian
 
 	allow = {
-        	tier = king
-        	independent = yes
+		tier = king
+		independent = yes
 		culture_group = east_african
 		has_landed_title = k_nubia
 		has_landed_title = k_abyssinia
 		completely_controls = k_nubia
 		completely_controls = k_abyssinia
-        }
+	}
 }
 
 e_mali = {
@@ -1082,9 +1076,9 @@ e_mali = {
 	
 	west_african_pagan_reformed = 500
 
-        allow = {
-        	tier = king
-        	independent = yes
+	allow = {
+		tier = king
+		independent = yes
 		culture_group = west_african
 		has_landed_title = k_mali
 		completely_controls = k_mali
@@ -1099,31 +1093,31 @@ e_carpathia = {
 	
 	culture = hungarian
 
-        allow = {
+	allow = {
 		tier = king
-        	independent = yes
+		independent = yes
 		has_landed_title= k_hungary
 		has_landed_title= k_dacia
 		completely_controls = k_hungary
 		completely_controls = k_dacia
-        }
+	}
 }
 
 e_western = {
-        color = { 227 11 19 }
+	color = { 227 11 19 }
 
 	capital = 351 # Ravenna
-        
-        short_name = yes
+		
+	short_name = yes
 
 	has_top_de_jure_capital = yes
 
 	purple_born_heirs = yes
 
-        allow = {
-                culture_group = latin
-                NOT = { has_global_flag = hre_formed }
-        }
+	allow = {
+		culture_group = latin
+		NOT = { has_global_flag = hre_formed }
+	}
 }
 
 e_islam = {
@@ -1131,7 +1125,7 @@ e_islam = {
 
 	short_name = yes
 
-        title = "Prophet"
+	title = "Prophet"
 
 	allow = {
 		always = no
@@ -1177,9 +1171,9 @@ e_khazaria = {
 		
 	allow = {
 		culture = khazar
-        	independent = yes
-        	has_landed_title = d_itil
-        	completely_controls = d_itil
+		independent = yes
+		has_landed_title = d_itil
+		completely_controls = d_itil
 	}
 }
 
@@ -1192,8 +1186,8 @@ e_carthage = {
 		
 	allow = {
 		culture = neo-punic
-        	completely_controls = k_matmada
-        	completely_controls = k_tripolitania
+	   	completely_controls = k_matmada
+		completely_controls = k_tripolitania
 	}
 }
 
@@ -1205,14 +1199,14 @@ e_hunnicia = {
 	culture = hunnic
 		
 	allow = {
-        dynasty = 591
-        independent = yes
+		dynasty = 591
+		independent = yes
 		culture_group = altaic
-        completely_controls = k_taurica
-        completely_controls = k_hungary
+		completely_controls = k_taurica
+		completely_controls = k_hungary
 		completely_controls = k_slovakia
 		completely_controls = k_bulgaria
-        completely_controls = k_dacia
+		completely_controls = k_dacia
 	}
 }
 
@@ -1221,25 +1215,25 @@ e_bulgaria = {
 	capital = 499 # Tyrnovo
 	culture = bulgarian
 
-        bolghar = "Bulgars"
+	bolghar = "Bulgars"
 	
 	allow = {
 		tier = king
 		OR = {
 			culture = bolghar
 			culture = bulgarian
-        	}
-        	independent = yes
-        	OR ={
-        		has_landed_title = k_bulgaria
-        		has_landed_title = k_bulgaria2
-        	}
-        	OR ={
-        		completely_controls = k_bulgaria
-        		completely_controls = k_bulgaria2
-                }
+		}
+		independent = yes
+		OR ={
+			has_landed_title = k_bulgaria
+			has_landed_title = k_bulgaria2
+		}
+		OR ={
+			completely_controls = k_bulgaria
+			completely_controls = k_bulgaria2
+		}
 		completely_controls = d_adrianopolis
-        	completely_controls = c_strymon
+		completely_controls = c_strymon
 	}
 }
 
@@ -1251,17 +1245,16 @@ e_serbia = {
 	allow = {
 		tier = king
 		culture = serbian
-        	independent = yes
-        	OR ={
-        		has_landed_title = k_serbia
-        		has_landed_title = k_serbia2
-        	}
-        	OR ={
-        		completely_controls = k_serbia
-        		completely_controls = k_serbia2
-                }
+		independent = yes
+		OR ={
+			has_landed_title = k_serbia
+			has_landed_title = k_serbia2
+		}
+		OR ={
+			completely_controls = k_serbia
+			completely_controls = k_serbia2
+		}
 		completely_controls = d_dyrrachion
-		completely_controls = c_chalkidike
 	}
 }
 
@@ -1278,19 +1271,19 @@ e_trebizond = {
 	allow = {
 		tier = duke
 		culture = greek
-        	independent = yes
-        	OR = {
-                	has_landed_title = d_trebizond
-                        has_landed_title = k_trebizond
-                }
-             	completely_controls = k_trebizond
+		independent = yes
+		OR = {
+			has_landed_title = d_trebizond
+			has_landed_title = k_trebizond
+		}
+		completely_controls = k_trebizond
 	}
 }
 
 k_neustria = {
 	color={ 15 27 187 }
 		
-        color2={ 255 255 20 }
+		color2={ 255 255 20 }
 	capital = 113 # Vermandois
 	culture = old_frankish
 	
@@ -1304,7 +1297,7 @@ k_neustria = {
 k_austrasia = {
 	color={ 110 110 160 }
 		
-        color2={ 220 220 20 }
+		color2={ 220 220 20 }
 	capital = 128 # Metz
 	culture = old_frankish
 	
@@ -1339,10 +1332,10 @@ k_golden_horde = {
 	
 	allow = {
 		culture = mongol
-                completely_controls = k_kimak
-                completely_controls = k_cuman
-                completely_controls = k_volga_bulgaria
-       		has_landed_title = e_mongol_empire
+		completely_controls = k_kimak
+		completely_controls = k_cuman
+		completely_controls = k_volga_bulgaria
+	   	has_landed_title = e_mongol_empire
 	}
 	
 	culture = mongol
@@ -1357,10 +1350,10 @@ k_il-khanate = {
 	
 	allow = {
 		culture = mongol
-                completely_controls = k_persia
-                completely_controls = k_baluchistan
-                completely_controls = k_afghanistan
-       		has_landed_title = e_mongol_empire
+		completely_controls = k_persia
+		completely_controls = k_baluchistan
+		completely_controls = k_afghanistan
+	   	has_landed_title = e_mongol_empire
 	}
 	
 	culture = mongol
@@ -1373,9 +1366,9 @@ k_chagatai = {
 	capital = 903 # Samarkand
 	
 	allow = {
-                culture = mongol
-                completely_controls = k_khiva
-       		has_landed_title = e_mongol_empire
+		culture = mongol
+		completely_controls = k_khiva
+	   	has_landed_title = e_mongol_empire
 	}
 	
 	culture = mongol
@@ -1383,14 +1376,14 @@ k_chagatai = {
 }
 
 k_kimak = {	
-        color = { 231 201 115 }	
-        color2={ 255 255 255 }	
+	color = { 231 201 115 }	
+	color2={ 255 255 255 }	
 
-        culture = cuman
+	culture = cuman
 
-        capital = 1435 # Kimak	
-        
-        tengri_pagan_reformed = 600
+	capital = 1435 # Kimak	
+		
+	tengri_pagan_reformed = 600
 }
 
 k_ravenna = {
@@ -1398,12 +1391,12 @@ k_ravenna = {
 	capital = 351 # Ravenna
 	culture = roman
 
-        title = "Exarch"
-        title_female = "Exarchessa"
-        title_prefix = "Exarchate of"
+	title = "Exarch"
+	title_female = "Exarchessa"
+	title_prefix = "Exarchate of"
 	
 	allow = {
-        	always = no
+		always = no
 	}
 }
 
@@ -1412,12 +1405,12 @@ k_carthage = {
 	capital = 817 # Tunis
 	culture = roman
 
-        title = "Exarch"
-        title_female = "Exarchessa"
-        title_prefix = "Exarchate of"
+	title = "Exarch"
+	title_female = "Exarchessa"
+	title_prefix = "Exarchate of"
 	
 	allow = {
-        	always = no
+		always = no
 	}
 }
 
@@ -1426,12 +1419,12 @@ k_cordoba = {
 	capital = 181 # Cordoba
 	culture = roman
 
-        title = "Exarch"
-        title_female = "Exarchessa"
-        title_prefix = "Exarchate of"
+	title = "Exarch"
+	title_female = "Exarchessa"
+	title_prefix = "Exarchate of"
 	
 	allow = {
-        	always = no
+		always = no
 	}
 }
 
@@ -1440,12 +1433,12 @@ k_tangiers = {
 	capital = 841 # Tangiers
 	culture = roman
 
-        title = "Exarch"
-        title_female = "Exarchessa"
-        title_prefix = "Exarchate of"
+	title = "Exarch"
+	title_female = "Exarchessa"
+	title_prefix = "Exarchate of"
 	
 	allow = {
-        	always = no
+		always = no
 	}
 }
 
@@ -1460,16 +1453,16 @@ k_croatia2 = {
 	arian = 1000 # Crusade target weight
 	orthodox = 300 # Crusade target weight	
 	catholic = 1000 # Crusade target weight	
-	fraticelli = 1000 # Crusade target weight      
+	fraticelli = 1000 # Crusade target weight	  
 	imperial = 1000 # Crusade target weight
 
-               
-	roman = "Illyria"      
+			   
+	roman = "Illyria"	  
 	greek = "Dalmatia"
 
 	allow = {
-        	completely_controls = k_croatia2
-        	NOT = { is_title_active = k_croatia }
+		completely_controls = k_croatia2
+		NOT = { is_title_active = k_croatia }
 	}
 
 }
@@ -1482,19 +1475,19 @@ k_sicily2 = {
 			
 	culture = italian
 	
-	arian = 500 # Crusade target weight    
+	arian = 500 # Crusade target weight	
 	imperial = 500 # Crusade target weight	
 	catholic = 500 # Crusade target weight	
 	fraticelli = 500 # Crusade target weight	
 	orthodox = 50	
-	muslim = 10     
+	muslim = 10	 
 	hellenic_pagan = 4000 # Crusade target weight
 
 	roman = "Sicilia"
 
 	allow = {
-        	completely_controls = k_sicily2
-        	NOT = { is_title_active = k_sicily }
+		completely_controls = k_sicily2
+		NOT = { is_title_active = k_sicily }
 	}
 }
 
@@ -1511,40 +1504,40 @@ k_serbia2 = {
 	orthodox = 300 # Crusade target weight	
 	catholic = 100 # Crusade target weight	
 	fraticelli = 100 # Crusade target weight   
-	imperial = 300 # Crusade target weight    
+	imperial = 300 # Crusade target weight	
 	hellenic_pagan = 25 # Crusade target weight
 
 	roman = "Dardania"   
 	greek = "Dardania"
 
 	allow = {
-        	completely_controls = k_serbia2
-        	NOT = { is_active_title = k_serbia }
+		completely_controls = k_serbia2
+		NOT = { is_active_title = k_serbia }
 	}
 }
 
 k_bulgaria2 = {	
-        color={ 113 88 101 }	
-        color2={ 255 255 255 }
-        capital = 499 # Tyrnovo
+		color={ 113 88 101 }	
+		color2={ 255 255 255 }
+		capital = 499 # Tyrnovo
 		
-        culture = bulgarian
+		culture = bulgarian
 		
-        arian = 100 # Crusade target weight	
-        orthodox = 300 # Crusade target weight	
-        catholic = 100 # Crusade target weight	
-        fraticelli = 100 # Crusade target weight       
-        imperial = 300 # Crusade target weight	
-        hellenic_pagan = 3000 # Crusade target weight	
-        slavic_pagan_reformed = 50 # Crusade target weight	
-        tengri_pagan_reformed = 50
+		arian = 100 # Crusade target weight	
+		orthodox = 300 # Crusade target weight	
+		catholic = 100 # Crusade target weight	
+		fraticelli = 100 # Crusade target weight	   
+		imperial = 300 # Crusade target weight	
+		hellenic_pagan = 3000 # Crusade target weight	
+		slavic_pagan_reformed = 50 # Crusade target weight	
+		tengri_pagan_reformed = 50
 
-        roman = "Moesia"
-        bolghar = "Bulgars"
+		roman = "Moesia"
+		bolghar = "Bulgars"
 
 	allow = {
-        	completely_controls = k_bulgaria2
-        	NOT = { has_landed_title = k_bulgaria }
+		completely_controls = k_bulgaria2
+		NOT = { has_landed_title = k_bulgaria }
 	}
 }
 
@@ -1562,8 +1555,8 @@ k_trebizond = {
 		ai = no
 		tier = duke
 		culture = greek
-        	independent = yes
-        	has_landed_title = d_trebizond
+		independent = yes
+		has_landed_title = d_trebizond
 	}
 }
 
@@ -1575,7 +1568,7 @@ k_kievan_rus = {
 	
 	allow = {
 		tier = duke
-        	culture = russian
+		culture = russian
 		has_landed_title = d_kiev
 		completely_controls = d_kiev
 	}
@@ -1591,9 +1584,9 @@ k_cilicia = {
 	orthodox = 250 # Crusade target weight
 	catholic = 65 # Crusade target weight
 	fraticelli = 65 # Crusade target weight
-        imperial = 250 # Crusade target weight
+	imperial = 250 # Crusade target weight
 	muslim = 110 # Crusade target weight
-        hellenic_pagan = 65 # Crusade target weight
+	hellenic_pagan = 65 # Crusade target weight
 	zoroastrian_group = 120 # Crusade target weight
 }
 
@@ -1607,31 +1600,31 @@ k_frisia = {
 	catholic = 700 # Crusade target weight
 	norse_pagan_reformed = 200 # Crusade target weight
 
-        roman = belgica
+	roman = belgica
 }
 
 k_slovakia = {
-        color={ 35 35 165 }
+		color={ 35 35 165 }
 	color2={ 255 255 255 }
 		
-        capital = 445 # Pressburg
+	capital = 445 # Pressburg
 
-        culture = bohemian
+	culture = bohemian
 
 	arian = 500 # Crusade target weight
-        imperial = 500 # Crusade target weight
+	imperial = 500 # Crusade target weight
 	catholic = 500 # Crusade target weight
 	fraticelli = 500 # Crusade target weight
 }
 
 k_pannonia = {
-        color={ 190 190 35 }
+		color={ 190 190 35 }
 	color2={ 255 255 255 }
 
 	capital = 450 # Sopron
 
 	arian = 500 # Crusade target weight
-        imperial = 500 # Crusade target weight
+	imperial = 500 # Crusade target weight
 	catholic = 500 # Crusade target weight
 	fraticelli = 500 # Crusade target weight
 }
@@ -1642,22 +1635,22 @@ k_epirus = {
 	capital = 473 # Arta
 	culture = greek
 
-    has_top_de_jure_capital = yes
+	has_top_de_jure_capital = yes
 
 	purple_born_heirs = yes
 	
 	allow = {
 		tier = duke
 		culture = greek
-        independent = yes
-        has_landed_title = d_epirus
-        completely_controls = d_epirus
+		independent = yes
+		has_landed_title = d_epirus
+		completely_controls = d_epirus
 	}
 }
 
 e_macedonia = {
-        color = { 111 129 213 }
-        color2 = { 208 9 9 }
+	color = { 111 129 213 }
+	color2 = { 208 9 9 }
 
 	capital = 490 # Thessalonike
 	culture = greek
@@ -1670,7 +1663,7 @@ e_macedonia = {
 		ai = no
 		tier = king
 		culture = greek
-        independent = yes
+		independent = yes
 		completely_controls = k_thrace
 		completely_controls = k_macedon
 		completely_controls = k_bulgaria
@@ -1678,8 +1671,8 @@ e_macedonia = {
 }
 
 k_macedonia = {
-        color = { 111 129 213 }
-        color2 = { 208 9 9 }
+	color = { 111 129 213 }
+	color2 = { 208 9 9 }
 
 	capital = 490 # Thessalonike
 	culture = greek
@@ -1692,9 +1685,9 @@ k_macedonia = {
 		ai = no
 		tier = duke
 		culture = greek
-        	independent = yes
-        	has_landed_title = d_thessalonika
-        	completely_controls = d_thessalonika
+		independent = yes
+		has_landed_title = d_thessalonika
+		completely_controls = d_thessalonika
 	}
 }
 
@@ -1708,11 +1701,11 @@ e_thessalonika = {
 	purple_born_heirs = yes
 	
 	allow = {
-        	tier = king
+		tier = king
 		culture = greek
-        	independent = yes
-        	has_landed_title = d_thessalonika
-        	completely_controls = d_thessalonika
+		independent = yes
+		has_landed_title = d_thessalonika
+		completely_controls = d_thessalonika
 	}
 }
 
@@ -1722,67 +1715,67 @@ k_thessalonika = {
 	culture = french
 	
 	allow = {
-        	independent = yes
-        	culture_group = latin
-        	has_landed_title = d_thessalonika
-        	completely_controls = d_thessalonika
+		independent = yes
+		culture_group = latin
+		has_landed_title = d_thessalonika
+		completely_controls = d_thessalonika
 	}
 }
 
 k_zenata = {		
-    color={ 162 224 81 }
+	color={ 162 224 81 }
 		
-    capital = 831 # Algier
+	capital = 831 # Algier
 
 	imperial = 10 # Crusade target weight
-    muslim = 100 # Crusade target weight
-    west_african_pagan_reformed = 100      
-    hellenic_pagan = 1000 # Crusade target weight
+	muslim = 100 # Crusade target weight
+	west_african_pagan_reformed = 100	  
+	hellenic_pagan = 1000 # Crusade target weight
 
 	allow = {
-        completely_controls = k_zenata
+		completely_controls = k_zenata
 	}
 }
 
 k_sahaja = {		
-    color={ 56 249 165 }	
+	color={ 56 249 165 }	
 			
-    capital = 841 # Tangiers
+	capital = 841 # Tangiers
 
 	imperial = 10 # Crusade target weight
-    muslim = 100 # Crusade target weight
-    west_african_pagan_reformed = 100   
-    hellenic_pagan = 1000 # Crusade target weight
+	muslim = 100 # Crusade target weight
+	west_african_pagan_reformed = 100   
+	hellenic_pagan = 1000 # Crusade target weight
 
 	allow = {
-        	completely_controls = k_sahaja
+		completely_controls = k_sahaja
 	}
 }
 
 k_masmuda = {		
-    color={ 182 226 181 }		
+	color={ 182 226 181 }		
 
-    capital = 843 # Marrakech
+	capital = 843 # Marrakech
 
 	allow = {
-        completely_controls = k_masmuda
+		completely_controls = k_masmuda
 	}
 }
 
 k_cyrenaica = {		
-    color={ 178 190 181 }		
+	color={ 178 190 181 }		
 
-    capital = 806 # Cyrenaica
+	capital = 806 # Cyrenaica
 		
 	imperial = 10 # Crusade target weight
 	orthodox = 10 # Crusade target weight
 	muslim = 200 # Crusade target weight
 	west_african_pagan_reformed = 50
 	zoroastrian_group = 50 # Crusade target weight
-    hellenic_pagan = 1000 # Crusade target weight
+		hellenic_pagan = 1000 # Crusade target weight
 
 	allow = {
-        completely_controls = k_cyrenaica
+		completely_controls = k_cyrenaica
 	}
 }
 
@@ -1791,27 +1784,27 @@ e_rum = {
 	culture = turkish
 	dynasty_title_names = no # Will not be named "Seljuk", etc.
 
-    title = "Qaisar"
-    title_female = "Qaisara"
+	title = "Qaisar"
+	title_female = "Qaisara"
 
-    allow = {
-        tier = king
-        independent = yes
-        culture = turkish
-        has_landed_title = k_rum
-        completely_controls = k_cyprus
-        completely_controls = k_thrace
-        completely_controls = k_macedon
-        completely_controls = k_cilicia
-        completely_controls = k_anatolia
-        completely_controls = k_bulgaria
-        NOT = { has_landed_title = k_ottomans }
-        NOT = { has_landed_title = e_ottomans }
-        }
-    }
+	allow = {
+		tier = king
+		independent = yes
+		culture = turkish
+		has_landed_title = k_rum
+		completely_controls = k_cyprus
+		completely_controls = k_thrace
+		completely_controls = k_macedon
+		completely_controls = k_cilicia
+		completely_controls = k_anatolia
+		completely_controls = k_bulgaria
+		NOT = { has_landed_title = k_ottomans }
+		NOT = { has_landed_title = e_ottomans }
+	}
+}
 
 k_ostrogoth = {
-    color = { 185 101 207 }
+	color = { 185 101 207 }
 	capital = 351 # Ravenna
 	culture = ostrogothic
 	
@@ -1821,7 +1814,7 @@ k_ostrogoth = {
 }
 
 k_visigoth = {
-    color = { 231 181 12 }
+	color = { 231 181 12 }
 	capital = 197 # Toledo
 	culture = visigothic
 	
@@ -1839,7 +1832,7 @@ e_gallia = {
 	has_top_de_jure_capital = yes
 	
 	allow = {
-        always = no
+		always = no
 	}
 
 	short_name = yes
@@ -1854,19 +1847,19 @@ e_palmyra = {
 	has_top_de_jure_capital = yes
 	
 	allow = {
-        always = no
+		always = no
 	}
 
 	short_name = yes
 }
 
 k_gallia = {
-    color = { 94 194 85 }
+	color = { 94 194 85 }
 	capital = 95 # Amiens
 	culture = gallic
 
 	arian = 5000 # Crusade target weight
-    imperial = 5000 # Crusade target weight
+	imperial = 5000 # Crusade target weight
 	catholic = 5000 # Crusade target weight
 	fraticelli = 5000 # Crusade target weight
 	norse_pagan_reformed = 100 # Crusade target weight
@@ -1881,17 +1874,17 @@ k_austria = {
 	capital = 449 # Österreich
 	culture = german
 
-        title = "Archduke"
-        title_female = "Archducess"
-        title_prefix = "Archduchy of"
+		title = "Archduke"
+		title_female = "Archducess"
+		title_prefix = "Archduchy of"
 	
 	allow = {
-        tier = duke
+		tier = duke
 		culture = german
-        has_landed_title = d_osterreich
-        completely_controls = d_osterreich
-        completely_controls = d_bavaria
-        completely_controls = d_tyrol
+		has_landed_title = d_osterreich
+		completely_controls = d_osterreich
+		completely_controls = d_bavaria
+		completely_controls = d_tyrol
 	}
 }
 
@@ -1902,10 +1895,10 @@ k_achaia = {
 	
 	allow = {
 		tier = duke
-        	independent = yes
+		independent = yes
 		culture_group = latin
-        	has_landed_title = d_achaia
-        	completely_controls = d_achaia
+		has_landed_title = d_achaia
+		completely_controls = d_achaia
 	}
 }
 
@@ -1921,9 +1914,9 @@ k_morea = {
 	allow = {
 		tier = duke
 		culture = greek
-        	independent = yes
-        	has_landed_title = d_achaia
-        	completely_controls = d_achaia
+		independent = yes
+		has_landed_title = d_achaia
+		completely_controls = d_achaia
 	}
 }
 
@@ -1934,19 +1927,17 @@ e_umayyad = {
 	
 	culture = andalusian_arabic
 
-        title = "Caliph"
-        title_female = "Calipha"
+	title = "Caliph"
+	title_female = "Calipha"
 	
 	allow = {
-       		tier = king
-                dynasty = 597
-        	independent = yes
+	   	tier = king
+		dynasty = 597
+		independent = yes
 		culture_group = arabic
-                religion_group = muslim
+		religion_group = muslim
 		completely_controls = k_andalusia
-        }
-
-        controls_religion = sunni
+	}
 	
 	short_name = yes
 }
@@ -1971,7 +1962,7 @@ k_matmada = {
 	muslim = 200 # Crusade target weight
 	west_african_pagan_reformed = 50
 	zoroastrian_group = 50 # Crusade target weight
-        hellenic_pagan = 1000 # Crusade target weight
+	hellenic_pagan = 1000 # Crusade target weight
 }
 
 k_tripolitania = {
@@ -1986,7 +1977,7 @@ k_tripolitania = {
 	muslim = 200 # Crusade target weight
 	west_african_pagan_reformed = 50
 	zoroastrian_group = 50 # Crusade target weight
-        hellenic_pagan = 1000 # Crusade target weight
+	hellenic_pagan = 1000 # Crusade target weight
 }
 
 d_theodoro = {
@@ -1994,14 +1985,14 @@ d_theodoro = {
 	capital = 560 # Theodoro
 	culture = gothic
 
-        title = "Prince"
-        title_female = "Princess"
-        title_prefix = "Principality of"
+	title = "Prince"
+	title_female = "Princess"
+	title_prefix = "Principality of"
 		
 	allow = {
-	    OR = {
-		    culture = gothic
-		    culture = ostrogoth
+		OR = {
+			culture = gothic
+			culture = ostrogoth
 		}
 		has_landed_title = c_cherson
 	}
@@ -2012,12 +2003,12 @@ d_commune = {
 	capital = 333 # Rome
 	culture = italian
 
-    title = "Patrician"
-    title_female = "Patricia"
+	title = "Patrician"
+	title_female = "Patricia"
 		
 	dignity = 200 # Never want the Roman Commune to change primary title
  
-    short_name = yes
+	short_name = yes
 		
 	allow = {
 		tier = count
@@ -2030,18 +2021,18 @@ d_commune = {
 d_belgrade = {
 	color = { 151 125 62 }
 	capital = 505 # Belgrade
-    culture = serbian
+	culture = serbian
 
 	serbian = "Šumadija"
 	croatian = "Belgrad"
 	bulgarian = "Belgrad"
-    greek = "Syrmia"
+	greek = "Syrmia"
 }
 
 d_pressburg = {
 	color = { 218 70 70 }
-    capital = 445 # Pressburg
-    culture = bohemian
+	capital = 445 # Pressburg
+	culture = bohemian
 }
 
 d_balaton = {
@@ -2061,6 +2052,35 @@ d_canarias = {
 	capital = 849 # Canarias
 	culture = maghreb_arabic
 }	
+
+d_saint_maron = {
+	color={ 180 165 70 }
+	
+	graphical_culture = holygfx
+	
+	capital = 767 # Boutron
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = monothelite
+	
+	culture = aramean
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+
+	mercenary_type = holy_sepulchre_composition
+}
 
 k_apostolic = {
 	color={ 51 25 0 }
@@ -2095,55 +2115,55 @@ k_apostolic = {
 }
 
 d_karaite = {
-        color = { 0 80 255 }
+	color = { 0 80 255 }
 	
-        capital = 774 #	Jerusalem
+	capital = 774 #	Jerusalem
 
-        title = "HEAD_KOHEN_GADOL"
-        foa = "POPE_FOA"
+	title = "HEAD_KOHEN_GADOL"
+	foa = "POPE_FOA"
 
-        short_name = yes
+	short_name = yes
 
 	location_ruler_title = yes	
-        # Always exists
+	# Always exists
 	
-        landless = yes	
+	landless = yes	
 	
-        # Controls a religion
-        controls_religion = karaite
+	# Controls a religion
+	controls_religion = karaite
 	
-        religion = karaite
+	religion = karaite
 
-        # Cannot be held as a secondary title
-        primary = yes
+	# Cannot be held as a secondary title
+	primary = yes
 	
-        dynasty_title_names = no # Will not be named "Seljuk", etc.
+	dynasty_title_names = no # Will not be named "Seljuk", etc.
 }
 
 d_samaritan = {
-        color = { 0 80 255 }
+	color = { 0 80 255 }
 	
-        capital = 774 #	Jerusalem
+	capital = 774 #	Jerusalem
 	
-        title = "HEAD_KOHEN_GADOL"
-        foa = "POPE_FOA"
+	title = "HEAD_KOHEN_GADOL"
+	foa = "POPE_FOA"
 	
-        short_name = yes
+	short_name = yes
 
 	location_ruler_title = yes	
 
-        # Always exists
-        landless = yes	
+	# Always exists
+	landless = yes	
 	
-        # Controls a religion
-        controls_religion = samaritan
+	# Controls a religion
+	controls_religion = samaritan
 
-        religion = samaritan
+	religion = samaritan
 	
-        # Cannot be held as a secondary title
-        primary = yes
+	# Cannot be held as a secondary title
+	primary = yes
 	
-        dynasty_title_names = no # Will not be named "Seljuk", etc.
+	dynasty_title_names = no # Will not be named "Seljuk", etc.
 }
 
 d_mazdaki = {
@@ -2229,7 +2249,7 @@ d_hellenic_pagan = {
 	color={ 153 26 26 }
 	
 	title = "Archiereus"
-        title_female = "Archiereia"
+		title_female = "Archiereia"
 	foa = "HEAD_PRIEST_FOA"
 	
 	short_name = yes
@@ -2242,7 +2262,7 @@ d_hellenic_pagan = {
 	religion = hellenic_pagan
 	
 	allow = {
-                tier = emperor
+		tier = emperor
 		religion = hellenic_pagan
 		num_of_holy_sites = 3
 	}

@@ -4,12 +4,12 @@
 title = c_firenze
 
 # Settlements
-max_settlements = 7
+max_settlements = 6
 b_arezzo = castle
 b_firenze = city
 b_prato = temple
-b_fiesole = castle
-b_montevarchi = castle
+#b_fiesole = castle
+#b_montevarchi = castle
 #b_certaldo = castle
 #b_lucignano = castle
 #b_sansepolcro = castle
@@ -19,9 +19,6 @@ culture = old_italian
 religion = catholic
 
 # History
-700.1.1 = {
-	b_firenze = ct_jewish_community_1
-}
 920.1.1 = { culture = italian }
 1115.7.24 = {capital = b_firenze }
 1120.1.1 = { capital = b_arezzo }

@@ -78,6 +78,20 @@
 
 #Duchy of Syria, Jazira, Edessa, Antioch, Aleppo, and Tripoli
 
+#Duchy of Syria (Assyrian)
+1000448305 = {
+	name=Abahu
+	dynasty=random
+	female=no
+	religion=orthodox
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
 	
 #Bostra
 1000448305 = {
@@ -154,6 +168,20 @@
 	}
 }
 
+#Homs
+1000448309 = {
+	name=Chuma
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
 	
 #Hama
 1000448310 = {
@@ -185,6 +213,20 @@
 	}
 }
 	
+#Duchy of Jazira (Aramean)
+1000448312 = {
+	name=Talmai
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
 	
 #Amida
 1000448312 = {
@@ -246,6 +288,20 @@
 	}
 }
 
+#Duchy of Edessa (Aramean)
+1000448316 = {
+	name=Lebbaeus
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
 
 #Edessa
 1000448316 = {
@@ -307,6 +363,20 @@
 	}
 }
 
+#Alexandretta
+1000448319 = {
+	name=Kaiapha
+	dynasty=random
+	female=no
+	religion=nestorian
+	culture=aramean
+	752.12.4 = {
+	birth="752.12.4"
+	}
+	824.6.24 = {
+		death = yes
+	}
+}
 	
 #Antioch
 1000448320 = {

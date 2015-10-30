@@ -142,7 +142,7 @@ decisions = {
 
 			modifier = {
 				factor = 2
-				liege = { trait = alawite }
+				liege = { trait = trait = alawite }
 			}
 			modifier = {
 				factor = 0.005 # Slow it down

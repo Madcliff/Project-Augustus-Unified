@@ -1,28 +1,6 @@
 100.1.1={
 	liege=k_germany
 }
-#Capets - Added as dukes of Franconia as placeholder, subject to change
-598.1.1={
-#	holder = 190401 #Chrodbert I
-	de_jure_liege = k_lotharingia
-#	liege = k_france
-}
-#621.1.1={
-#	holder = 190402 #Lambert I
-#}
-###
-637.1.1={
-	holder = 190388 #Hruodis
-}
-651.1.1={
-	holder = 190389 #Hetan
-}
-677.1.1={
-	holder = 190390 #Gozbert
-}
-697.1.1={
-	holder = 190391 #Hetan
-}
 637.1.1={
 	liege=k_germany
 }

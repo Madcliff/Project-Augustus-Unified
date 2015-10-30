@@ -21,7 +21,8 @@ culture = thracian
 religion = orthodox
 
 # History
-700.1.1 = { culture = serbian }
+
+824.1.1 = { culture = serbian }
 935.1.1= { religion = bogomilist }
 1050.1.1= { religion = orthodox }
 

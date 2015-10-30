@@ -636,7 +636,95 @@
 	}
 }
 
+91010163 = {
+	name="Alvi"
+	dynasty=random
+	religion="finnish_pagan"
+	culture=karelian
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
 
+91010164 = {
+	name="Kipro"
+	dynasty=random
+	religion="finnish_pagan"
+	culture=karelian
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+91010165 = {
+	name="Ohvo"
+	dynasty=random
+	religion="finnish_pagan"
+	culture=karelian
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+91010166 = {
+	name="Paavel"
+	dynasty=random
+	religion="finnish_pagan"
+	culture=karelian
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+91010167 = {
+	name="Mitja"
+	dynasty=random
+	religion="finnish_pagan"
+	culture=karelian
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+91010168 = {
+	name="Sere"
+	dynasty=random
+	religion="finnish_pagan"
+	culture=karelian
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+91010169 = {
+	name="Tami"
+	dynasty=random
+	religion="finnish_pagan"
+	culture=karelian
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
 
 91010170 = {
 	name="Valassi"

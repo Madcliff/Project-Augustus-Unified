@@ -16,7 +16,7 @@ b_masouleh = castle
 #b_rudbar = castle
 
 #Misc
-culture = mazanderani
+culture = kurdish
 religion = mazdaki
 
 # History

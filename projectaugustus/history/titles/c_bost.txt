@@ -1,14 +1,3 @@
-470.1.1 = {
-	holder = 1000151023 
-}
-
-620.1.1={
-	holder = 188700 # Zunbil founder
-	liege = d_kabul
-}
-662.1.1={
-	holder = 188701
-}
 680.1.1={
 	liege=d_zabulistan
 	holder = 188701 # Zunbil founder

@@ -16,7 +16,7 @@ b_vologda = tribal
 #b_staroye = castle
 
 # Misc
-culture = karelian
+culture = finnish
 religion = finnish_pagan
 terrain = forest
 

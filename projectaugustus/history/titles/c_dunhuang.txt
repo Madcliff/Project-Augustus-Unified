@@ -1,8 +1,8 @@
 460.1.1 = {
 	holder=1000256133 
 }
-630.1.1 = {
-	holder = 1000257455
+620.1.1 = {
+	liege = e_protectorate
 }
 #Chinese Placeholder
 766.1.1 = {

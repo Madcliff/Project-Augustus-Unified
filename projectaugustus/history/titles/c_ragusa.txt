@@ -1,12 +1,4 @@
-474.6.1={
-        holder=200000007
-}
-615.1.1 = {
-	holder = 1000257325
-	liege = d_dalmatia
-}
-656.1.1 = {
-	holder = 0
+330.1.1={
 	liege="d_dioclea"
 }
 768.1.1={

@@ -28,7 +28,7 @@
 	diplomacy=8
 	intrigue=6
 	stewardship=6
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	trait="honest"
 	trait="tough_soldier"
@@ -134,7 +134,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=6
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=20495
 	960.1.1={
@@ -152,7 +152,7 @@
 	diplomacy=5
 	intrigue=4
 	stewardship=4
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	935.1.1={
 		birth="935.1.1"
@@ -169,7 +169,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=6
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=20495
 	958.1.2={
@@ -358,7 +358,7 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=4
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=20496
 	978.1.1={
@@ -380,7 +380,7 @@
 	diplomacy=6
 	intrigue=7
 	stewardship=6
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	trait="amateurish_plotter"
 	father=40530
@@ -2244,7 +2244,7 @@
 		birth="830.1.1"
 	}
 	870.1.1 = {
-		religion = chalcendonian
+		religion = orthodox
 	}
 	891.1.1={
 		death="891.1.1"
@@ -2406,7 +2406,7 @@
 		birth="832.1.1"
 	}
 	870.1.1 = {
-		religion = chalcendonian
+		religion = orthodox
 	}
 	880.1.1={
 		death="880.1.1"
@@ -2426,7 +2426,7 @@
 		birth="834.1.1"
 	}
 	870.1.1 = {
-		religion = chalcendonian
+		religion = orthodox
 	}
 	880.1.1={
 		death="880.1.1"
@@ -2447,7 +2447,7 @@
 		birth="825.1.1"
 	}
 	870.1.1 = {
-		religion = chalcendonian
+		religion = orthodox
 	}
 	875.1.1={
 		death="875.1.1"
@@ -2499,7 +2499,7 @@
 		birth="842.1.1"
 	}
 	870.1.1 = {
-		religion = chalcendonian
+		religion = orthodox
 	}
 	892.1.1={
 		death="892.1.1"
@@ -2510,7 +2510,7 @@
 167868 = {
 	name="Cucimir"
 	dynasty=9560
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=167867
 	860.1.1={
@@ -2526,7 +2526,7 @@
 167869 = {
 	name="Prvoslav"
 	dynasty=100502
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=163116
 	850.1.1={
@@ -2540,7 +2540,7 @@
 167870 = {
 	name="Zaharije"
 	dynasty=100502
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=167869
 	870.1.1={
@@ -2557,7 +2557,7 @@
 167871 = {
 	name="Bran"
 	dynasty=100502
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=163116
 	855.1.1={
@@ -2574,7 +2574,7 @@
 167872 = {
 	name="Stefan"
 	dynasty=100502
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=163116
 	855.1.1={
@@ -2589,7 +2589,7 @@
 167873 = {
 	name="Pavel"
 	dynasty=100502
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=167871
 	875.1.1={
@@ -2605,7 +2605,7 @@
 167874 = {
 	name="Klonimir"
 	dynasty=100502
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=167862
 	855.1.1={
@@ -2621,7 +2621,7 @@
 167875 = {
 	name="Caslav"
 	dynasty=100502
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=167874
 	895.1.1={
@@ -2637,7 +2637,7 @@
 167876 = {
 	name="Petar"
 	dynasty=100502
-	religion="chalcendonian"
+	religion="orthodox"
 	culture="serbian"
 	father=167863
 	860.1.1={
@@ -2645,18 +2645,5 @@
 	}
 	917.1.1={
 		death="917.1.1"
-	}
-}
-
-16787007 = {
-	name="Caslav"
-	dynasty=random
-	religion="chalcendonian"
-	culture="serbian"
-	450.1.1={
-		birth="450.1.1"
-	}
-	520.1.1={
-		death="520.1.1"
 	}
 }

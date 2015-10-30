@@ -18,8 +18,12 @@ b_husi = temple # Slavic Pagan Holy site
 
 # Misc
 
-culture = daco_roman
+culture = dacian
 religion = tengri_pagan
 
 # History
-900.1.1 = { religion = orthodox culture = romanian }
+
+900.1.1 = { 
+culture = romanian
+religion = orthodox 
+}

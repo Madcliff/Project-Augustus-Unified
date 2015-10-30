@@ -1,9 +1,3 @@
-400.1.1 = {
-	holder = 1000256119 
-}
-625.1.1={
-	liege = d_dihistan
-}
 710.1.1={
 	liege=d_khiva
 }

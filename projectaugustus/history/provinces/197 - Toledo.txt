@@ -15,16 +15,9 @@ b_talavera = temple
 b_illescas = castle
 
 # Misc
-culture = visigothic
+culture = hispanic
 religion = catholic
 
-700.1.1 = {
-	culture = iberian
-}
-
 # History
-100.1.1 = { 
-	b_madrid = ct_jewish_community_1
-	b_madrid = ct_jewish_community_2
-}
+
 955.1.1 = { culture = castillan }

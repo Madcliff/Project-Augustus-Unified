@@ -187,7 +187,7 @@ decisions = {
 			religion_group = muslim
 			age = 16
 			demesne_size = 1
-            NOT = { tier = emperor }
+                        NOT = { tier = emperor }
 			NOT = { has_character_flag = voluntary_charity }
 			rightful_religious_head_scope = {	
 				NOT = {
@@ -309,13 +309,13 @@ decisions = {
 			NOT = { trait = incapable }
 			NOT = { has_global_flag = rome_restored }
 			e_western = {
-            	has_holder = no
-            }
+            	        	has_holder = no
+                        }
 			has_landed_title = e_byzantium
 			OR = {
-            	religion = hellenic_pagan
-            	religion_group = christian
-            }
+            	        	religion = hellenic_pagan
+            			religion_group = christian
+            		}
 		}
 		allow = {
 			completely_controls = d_latium
@@ -334,7 +334,7 @@ decisions = {
 			completely_controls = d_croatia
 		}
 		effect = {
-            prestige = 500
+                        prestige = 500
 			set_global_flag = rome_restored
 			narrative_event = { id = LoR.20 tooltip = EVTTOOLTIPLoR.20 }
 		}
@@ -479,9 +479,9 @@ decisions = {
 			ai = no
 			has_dlc = "Legacy of Rome"
 			OR = {
-            	has_landed_title = e_western
-            	has_landed_title = e_roman_empire
-            }
+            			has_landed_title = e_western
+            			has_landed_title = e_roman_empire
+           		 }
 			capital_scope = {
 				NOT = { province_id = 333 }
 			}
@@ -522,7 +522,7 @@ decisions = {
 					grant_title = PREV
 				}
 				set_defacto_liege = ROOT
-			        }
+			}
 			custom_tooltip = {
 				text = rome_capital
 				hidden_tooltip = {
@@ -728,13 +728,13 @@ decisions = {
 			war = no
 			completely_controls = c_pest			
 			completely_controls = d_temes
-		    completely_controls = d_transylvania
+		        completely_controls = d_transylvania
 		}
 		effect = {
-            disband_event_forces = hungarian_conquest
+                        disband_event_forces = hungarian_conquest
 			k_hungary = {
 				name = "Hungary"
-                adjective = "Hungarian"
+                                adjective = "Hungarian"
 			}
 			if = {
 				limit = { has_nickname = no }
@@ -745,12 +745,12 @@ decisions = {
 				province = 522 # Pest
 				owner = ROOT
 				troops = {
-                archers = { 1000 1000 }
-                pikemen = { 800 800 }
-				light_cavalry = { 800 800 }
-				light_infantry = { 2000 2000 }
-				heavy_infantry = { 1400 1400 }
-                }
+               				archers = { 1000 1000 }
+                			pikemen = { 800 800 }
+					light_cavalry = { 800 800 }
+					light_infantry = { 2000 2000 }
+					heavy_infantry = { 1400 1400 }
+                		}
 			}
 			custom_tooltip = {
 				text = EVTOPTA62910_CUSTOM
@@ -768,9 +768,9 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			has_dlc = "The Old Gods"
-            NOT = { religion = yazidi }
+            		NOT = { religion = yazidi }
 			NOT = { religion = mandean }
-            NOT = { religion = manichean }
+           		NOT = { religion = manichean }
 			religion_group = zoroastrian_group
 			NOT = { has_global_flag = saoshyant_appears }
 		}
@@ -1105,7 +1105,7 @@ decisions = {
 		effect = {
 			hidden_tooltip = {
 				character_event = { id = SoA.100 }
-				774 = {	province_event = { id = SoA.10199 days = 1460 random = 50 }	}
+				774 = {	province_event = { id = SoA.10199 days = 1460 random = 50 } }
 			}
                         b_jerusalem = { remove_building = tp_temple_of_jupiter }
                         b_jerusalem = { remove_building = tp_holysepulchre }
@@ -1251,7 +1251,7 @@ decisions = {
 					independent = yes
 					primary_title = { higher_tier_than = DUKE }
 				}
-				ai = no            # So that it shows on player's list anyway
+				ai = no # So that it shows on player's list anyway
 			}
 			is_playable = yes
 			OR = {
@@ -1650,6 +1650,10 @@ decisions = {
 				}
 				destroy_landed_title = THIS
 			}
+                        e_byzantium = {
+                                name = "Byzantine Empire"
+                                adjective = "Byzantine"
+                        }
                         k_lombardy = {
                                 de_jure_liege = 0
                         }
@@ -1777,6 +1781,10 @@ decisions = {
 #				limit = { tier = KING }
 #				destroy_landed_title = THIS
 #			}
+                        e_byzantium = {
+                                name = "Byzantine Empire"
+                                adjective = "Byzantine"
+                        }
                         k_lombardy = {
                                 de_jure_liege = 0
                         }
@@ -1959,7 +1967,7 @@ decisions = {
 			is_playable = yes
 			tier = DUKE
 			NOT = { tier = KING }
-			}
+		}
 		allow = {
 			is_adult = yes
 			prisoner = no
@@ -2016,7 +2024,7 @@ decisions = {
 			tier = KING
 			is_nomadic = no
 			NOT = { tier = EMPEROR }
-			}
+		}
 		allow = {
 			is_adult = yes
 			prisoner = no
@@ -2594,7 +2602,6 @@ decisions = {
 		ai_will_do = {
 			factor = 0
 		}
-	}
-	
+	}	
 }
 

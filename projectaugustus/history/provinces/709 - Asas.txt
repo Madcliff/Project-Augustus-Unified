@@ -18,13 +18,10 @@ b_kallinikos = temple
 
 # Misc
 culture = aramean 
-religion = syriac
+religion = orthodox
 
 # History
-700.1.1 = {
-	b_rakka = ct_jewish_community_1
-	b_rakka = ct_jewish_community_2
-}
+
 1016.1.1 = { religion = sunni }
 1016.1.1 = { culture = levantine_arabic }
 

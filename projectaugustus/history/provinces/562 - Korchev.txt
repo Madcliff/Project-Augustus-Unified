@@ -20,7 +20,7 @@ b_cherco = temple
 
 # Misc
 culture = ostrogothic
-religion = chalcendonian
+religion = orthodox
 
 # History
 

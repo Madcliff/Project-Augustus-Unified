@@ -10,7 +10,18 @@
 		death = yes
 	}
 }
-
+1000250181 = {
+	name="Tamimi"
+	dynasty = 1000124533
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	200.1.1 = {
+		birth = yes
+	}
+	263.1.1 = {
+		death = yes
+	}
+}
 1000250182 = {
 	name="Manat"
 	dynasty = 1000124533
@@ -817,7 +828,7 @@
 		death = yes
 	}
 }
-100258146 = {
+1000258146 = {
 	name="Ruqayya"
 	dynasty = 1042116
 	religion = sunni
@@ -1485,7 +1496,18 @@
 		death = yes
 	}
 }
-
+1000258193 = {
+	name="Uqayr"
+	dynasty = 1000124553
+	religion = arabic_pagan
+	culture = bedouin_arabic
+	290.1.1 = {
+		birth = yes
+	}
+	347.1.1 = {
+		death = yes
+	}
+}
 1000258194 = {
 	name="Thawr"
 	dynasty = 1000124553
@@ -2024,41 +2046,4 @@
 }
 
 
-10258233 = {
-	name="Tatadim"
-	dynasty=1042636
-	religion="miaphysite"
-	culture="ethiopian"
-	450.1.1 = {
-		birth = yes
-	}
-	530.1.1 = {
-		death = yes
-	}	
-}
 
-10258234 = {
-	name="Silko"
-	dynasty=101778
-	religion="miaphysite"
-	culture="nubian"
-	450.1.1 = {
-		birth = yes
-	}
-	530.1.1 = {
-		death = yes
-	}
-}
-	
-10258235 = {
-	name="Eionkouda"
-	dynasty=1040009
-	religion="miaphysite"
-	culture="nubian"
-	450.1.1 = {
-		birth = yes
-	}
-	530.1.1 = {
-		death = yes
-	}
-}

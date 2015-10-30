@@ -608,7 +608,19 @@
 	}
 }
 
-
+159117 = {
+	name="Kubrat"
+	dynasty=591
+	religion="tengri_pagan"
+	culture="bolghar"
+    father=200000019
+	600.1.2={
+		birth="600.1.2"
+	}
+	665.1.2={
+		death="665.1.2"
+	}
+}
 
 159118 = {
 	name="Asparukh"

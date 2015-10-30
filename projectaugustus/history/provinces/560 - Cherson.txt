@@ -18,7 +18,7 @@ b_neapol = temple
 
 # Misc
 culture = ostrogothic
-religion = chalcendonian
+religion = orthodox
 
 # History
 790.1.1 = { culture = gothic }

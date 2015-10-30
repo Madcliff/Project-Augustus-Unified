@@ -16,7 +16,7 @@ b_manbij = temple
 
 # Misc
 culture = aramean 
-religion = syriac
+religion = orthodox
 
 # History
 

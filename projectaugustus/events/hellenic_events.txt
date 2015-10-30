@@ -2,9 +2,9 @@ namespace = PA
 
 # First Conversion
 narrative_event = {
-	id = PA.1000103
-	title = EVTNAMEPA.1000103
-	desc = EVTDESCPA.1000103
+	id = PA.10103
+	title = EVTNAMEPA.10103
+	desc = EVTDESCPA.10103
         picture = GFX_evt_throne_room_byzantine
 	
 	trigger = {
@@ -24,7 +24,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTAPA_1000103
+		name = OPTAPA_10103
 		ROOT = { religion = hellenic_pagan }
 		333 =  { religion = hellenic_pagan }
 		any_courtier = {
@@ -44,7 +44,7 @@ narrative_event = {
                	}
 	}
 	option = {
-		name = OPTBPA_1000103
+		name = OPTAPA_10103
                 piety = 100
                 set_global_flag = first_conversion
 		ai_chance = {
@@ -52,7 +52,7 @@ narrative_event = {
 		       }
         }
 	option = {
-		name = OPTCPA_1000103
+		name = OPTBPA_10103
                 piety = 200
                 set_global_flag = first_conversion
 		ai_chance = {
@@ -63,9 +63,9 @@ narrative_event = {
 
 # Second Conversion
 narrative_event = {
-	id = PA.1000104
-	title = EVTNAMEPA.1000104
-	desc = EVTDESCPA.1000104
+	id = PA.10104
+	title = EVTNAMEPA.10104
+	desc = EVTDESCPA.10104
         picture = GFX_evt_throne_room_byzantine
 	
 	trigger = {
@@ -83,7 +83,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTAPA_1000104
+		name = OPTAPA_10104
 		ROOT = { religion = hellenic_pagan }
 		496 =  { religion = hellenic_pagan }
 		any_courtier = {
@@ -103,7 +103,7 @@ narrative_event = {
                	}
 	}
 	option = {
-		name = OPTBPA_1000104
+		name = OPTBPA_10104
                 piety = 100
 		create_character = {
 			random_traits = no
@@ -129,9 +129,9 @@ narrative_event = {
 
 # Heroes of Olympus
 narrative_event = {
-	id = PA.1000180
-	title = EVTNAMEPA.1000180
-	desc = EVTDESCPA.1000180
+	id = PA.10180
+	title = EVTNAMEPA.10180
+	desc = EVTDESCPA.10180
 	picture = GFX_evt_crusaders
 
  	major = yes
@@ -175,14 +175,14 @@ narrative_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000180
+		name = OPTAPA_10180
 		trigger = {
 			religion = hellenic_pagan
 		}
 		
 	}
 	option = {
-		name = OPTBPA_1000180
+		name = OPTBPA_10180
 		   trigger = {
                              NOT = { religion = hellenic_pagan }
                 }
@@ -191,9 +191,9 @@ narrative_event = {
 
 # Third Conversion
 narrative_event = {
-	id = PA.1000187
-	title = EVTNAMEPA.1000187
-	desc = EVTDESCPA.1000187
+	id = PA.10187
+	title = EVTNAMEPA.10187
+	desc = EVTDESCPA.10187
         picture = GFX_evt_library
 	
 	trigger = {
@@ -210,7 +210,7 @@ narrative_event = {
 	}
 
 	option = {
-		name = OPTAPA_1000187
+		name = OPTAPA_10187
 			ROOT = { religion = hellenic_pagan }
 			490 =  { religion = hellenic_pagan }
 			any_courtier = {
@@ -230,7 +230,7 @@ narrative_event = {
                		}
 	}
 	option = {
-		name = OPTBPA_1000187
+		name = OPTBPA_10187
                 piety = 100
                 set_global_flag = third_conversion
 			ai_chance = {
@@ -245,8 +245,8 @@ narrative_event = {
 
 # The son of a ruler volunteers to join the Heroes
 character_event = {
-	id = PA.1000190
-	desc = EVTDESCPA.1000190
+	id = PA.10190
+	desc = EVTDESCPA.10190
 	picture = GFX_evt_rider_adventure
 	border = GFX_event_normal_frame_religion
 	
@@ -358,7 +358,7 @@ character_event = {
 		}
 		liege = {
 			character_event = {
-				id = PA.1000191
+				id = PA.10191
 			}
 		}
 	}
@@ -369,8 +369,8 @@ character_event = {
 
 # Son or brother asks to join the Heroes
 character_event = {
-	id = PA.1000191
-	desc = EVTDESCPA.1000191
+	id = PA.10191
+	desc = EVTDESCPA.10191
 	picture = GFX_evt_rider_adventure
 	border = GFX_event_normal_frame_religion
 	
@@ -386,7 +386,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.1000192
+				id = PA.10192
 				tooltip = EVTTOOLTIPPA_100192
 			}
 		}
@@ -399,7 +399,7 @@ character_event = {
 		
 		FROM = {
 			character_event = {
-				id = PA.1000193
+				id = PA.10193
 				tooltip = EVTTOOLTIP_SOA_1033
 			}
 		}
@@ -408,8 +408,8 @@ character_event = {
 
 # Son or brother joins the Heroes
 character_event = {
-	id = PA.1000192
-	desc = EVTDESCPA.1000192
+	id = PA.10192
+	desc = EVTDESCPA.10192
 	picture = GFX_evt_rider_adventure
 	border = GFX_event_normal_frame_religion
 	
@@ -434,8 +434,8 @@ character_event = {
 
 # Liege refuses request to join the Heroes
 character_event = {
-	id = PA.1000193
-	desc = EVTDESCPA.1000193
+	id = PA.10193
+	desc = EVTDESCPA.10193
 	picture = GFX_evt_rider_adventure
 	border = GFX_event_normal_frame_religion
 	
@@ -453,7 +453,7 @@ character_event = {
 
 # Ping event when donating money to the Heroes
 character_event = {
-	id = PA.1000194
+	id = PA.10194
 	
 	hide_window = yes
 	
@@ -463,7 +463,7 @@ character_event = {
 		wealth = 300
 		FROM = {
 			letter_event = {
-				id = PA.1000195
+				id = PA.10195
 			}
 		}
 		opinion = {
@@ -479,8 +479,8 @@ character_event = {
 
 # Notification event when donating money to the Heroes
 letter_event = {
-	id = PA.1000195
-	desc = EVTDESCPA.1000195
+	id = PA.10195
+	desc = EVTDESCPA.10195
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -492,7 +492,7 @@ letter_event = {
 
 # The Strategos humbly requests the right to build a castle in your demesne
 character_event = {
-	id = PA.1000196
+	id = PA.10196
 	
 	hide_window = yes
 	
@@ -569,7 +569,7 @@ character_event = {
 				has_empty_holding = yes
 			}
 			province_event = {
-				id = PA.1000197
+				id = PA.10197
 			}
 		}
 	}
@@ -580,7 +580,7 @@ character_event = {
 }
 
 province_event = {
-	id = PA.1000197
+	id = PA.10197
 	
 	hide_window = yes
 	
@@ -590,7 +590,7 @@ province_event = {
 		d_heroes = {
 			holder_scope = {
 				character_event = {
-					id = PA.1000198
+					id = PA.10198
 				}
 			}
 		}
@@ -602,7 +602,7 @@ province_event = {
 }
 
 character_event = {
-	id = PA.1000198
+	id = PA.10198
 	
 	hide_window = yes
 	
@@ -611,7 +611,7 @@ character_event = {
 	immediate = {
 		FROMFROM = {
 			character_event = {
-				id = PA.1000199
+				id = PA.10199
 			}
 		}
 	}
@@ -622,8 +622,8 @@ character_event = {
 }
 
 letter_event = {
-	id = PA.1000199
-	desc = EVTDESCPA.1000199
+	id = PA.10199
+	desc = EVTDESCPA.10199
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -640,7 +640,7 @@ letter_event = {
 		
 		hidden_tooltip = {
 			FROMFROM = {
-				province_event = { id = PA.1000200 }
+				province_event = { id = PA.10200 }
 			}
 			remove_character_modifier = expelled_d_heroes
 		}
@@ -661,8 +661,8 @@ letter_event = {
 
 # Castle has been erected
 province_event = {
-	id = PA.1000200
-	desc = EVTDESCPA.1000200
+	id = PA.10200
+	desc = EVTDESCPA.10200
 	picture = GFX_evt_castle_construction
 	border = GFX_event_normal_frame_religion
 	
@@ -685,7 +685,7 @@ province_event = {
 
 # Ping event when expelling the Order
 character_event = {
-	id = PA.1000201
+	id = PA.10201
 	
 	hide_window = yes
 	
@@ -709,7 +709,7 @@ character_event = {
 	
 		FROM = {
 			letter_event = {
-				id = PA.1000202
+				id = PA.10202
 			}
 		}
 		
@@ -726,8 +726,8 @@ character_event = {
 
 # Notification event when expelling the Heroes
 letter_event = {
-	id = PA.1000202
-	desc = EVTDESCPA.1000202
+	id = PA.10202
+	desc = EVTDESCPA.10202
 	border = GFX_event_letter_frame_religion
 	
 	is_triggered_only = yes
@@ -739,21 +739,21 @@ letter_event = {
 
 # Who should get the Hellenic Church?
 character_event = {
-	id = PA.1000205
-	desc = EVTDESCPA.1000205
+	id = PA.10205
+	desc = EVTDESCPA.10205
 	picture = GFX_evt_ritual_scroll
 	
 	is_triggered_only = yes
 
     option = {
-        name = OPTAPA_1000205
+        name = OPTAPA_10205
 	    activate_title = { title = d_hellenic_pagan status = yes }
 			d_hellenic_pagan = {
 				grant_title = ROOT
 	    }
     }
     option = {
-        name = OPTBPA_1000205
+        name = OPTBPA_10205
 		activate_title = { title = d_hellenic_pagan status = yes }
 		hidden_tooltip = {
 			create_character = {
@@ -777,8 +777,8 @@ character_event = {
 
 # Local Temple Event
 character_event = {
-	id = PA.1000206
-	desc = EVTDESCPA.1000206
+	id = PA.10206
+	desc = EVTDESCPA.10206
 	picture = GFX_evt_emissary
 	
 	ai = no
@@ -797,20 +797,20 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000206
+		name = OPTAPA_10206
                 wealth = -50
                 piety = 50
 		}
 	option = {
-	        name = OPTBPA_1000206
+	        name = OPTBPA_10206
 		piety = -50
 	}
 }
 
 # The Odyssey Event
 character_event = {
-	id = PA.1000207
-	desc = EVTDESCPA.1000207
+	id = PA.10207
+	desc = EVTDESCPA.10207
 	picture = GFX_evt_emissary
 	
 	ai = no
@@ -828,20 +828,20 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000207
+		name = OPTAPA_10207
                 wealth = -50
                 prestige = 50
 		}
 	option = {
-	        name = OPTBPA_1000207
+	        name = OPTBPA_10207
 		prestige = -50
 	}
 }
 
 # The Iliad Event
 character_event = {
-	id = PA.1000208
-	desc = EVTDESCPA.1000208
+	id = PA.10208
+	desc = EVTDESCPA.10208
 	picture = GFX_evt_emissary
 	
 	ai = no
@@ -860,20 +860,20 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000208
+		name = OPTAPA_10208
                 wealth = -50
                 prestige = 50
 		}
 	option = {
-	        name = OPTBPA_1000208
+	        name = OPTBPA_10208
 		prestige = -50
 	}
 }
 
 # Augur Gives Good Luck
 character_event = {
-	id = PA.1000209
-	desc = EVTDESCPA.1000209
+	id = PA.10209
+	desc = EVTDESCPA.10209
 	picture = GFX_evt_religious_exultation
 	
 	ai = no
@@ -894,7 +894,7 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000209
+		name = OPTPA_100209
                 add_character_modifier = {
                     name = good_augury
                     duration = 365
@@ -905,8 +905,8 @@ character_event = {
 
 # Augur Gives Bad Luck
 character_event = {
-	id = PA.1000210
-	desc = EVTDESCPA.1000210
+	id = PA.10210
+	desc = EVTDESCPA.10210
 	picture = GFX_evt_ritual_scroll
 
 	ai = no
@@ -927,7 +927,7 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTPA_1000210
+		name = OPTPA_100210
                 add_character_modifier = {
                     name = terrible_augury
                     duration = 365
@@ -938,8 +938,8 @@ character_event = {
 
 # Cult of Antinous
 character_event = {
-	id = PA.1000211
-	desc = EVTDESCPA.1000211
+	id = PA.10211
+	desc = EVTDESCPA.10211
 	picture = GFX_evt_ritual_scroll
 	
 	ai = no
@@ -963,16 +963,16 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000211
+		name = OPTAPA_10211
                 add_trait = cultist
 		}
 
         option = {
-		name = OPTBPA_1000211
+		name = OPTBPA_10211
 	}
 
         option = {
-		name = OPTCPA_1000211
+		name = OPTCPA_10211
                 custom_tooltip = {
 			 text = disable_cult_events
 	        }
@@ -982,8 +982,8 @@ character_event = {
 
 # Cult of Sappho
 character_event = {
-	id = PA.1000212
-	desc = EVTDESCPA.1000212
+	id = PA.10212
+	desc = EVTDESCPA.10212
 	picture = GFX_evt_ritual_scroll
 
 	ai = no
@@ -1007,16 +1007,16 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000212
+		name = OPTAPA_10212
                 add_trait = cultist
 		}
 
         option = {
-		name = OPTBPA_1000212
+		name = OPTBPA_10212
 	}
 
         option = {
-		name = OPTCPA_1000212
+		name = OPTCPA_10212
                 custom_tooltip = {
 			 text = disable_cult_events
 	        }
@@ -1026,8 +1026,8 @@ character_event = {
 
 # Cult of Mithras
 character_event = {
-	id = PA.1000213
-	desc = EVTDESCPA.1000213
+	id = PA.10213
+	desc = EVTDESCPA.10213
 	picture = GFX_evt_ritual_scroll
 
 	ai = no
@@ -1052,16 +1052,16 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000213
+		name = OPTAPA_10213
                 add_trait = cultist
 		}
 
         option = {
-		name = OPTBPA_1000213
+		name = OPTBPA_10213
 	}
 
         option = {
-		name = OPTCPA_1000214
+		name = OPTCPA_10214
                 custom_tooltip = {
 			 text = disable_cult_events
 	        }
@@ -1071,8 +1071,8 @@ character_event = {
 
 # Cult of Bacchus
 character_event = {
-	id = PA.1000214
-	desc = EVTDESCPA.1000214
+	id = PA.10214
+	desc = EVTDESCPA.10214
 	picture = GFX_evt_ritual_scroll
 
 	ai = no
@@ -1096,16 +1096,16 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000214
+		name = OPTAPA_10214
                 add_trait = cultist
 		}
 
         option = {
-		name = OPTBPA_1000214
+		name = OPTBPA_10214
 	}
 
         option = {
-		name = OPTCPA_1000214
+		name = OPTCPA_10214
                 custom_tooltip = {
 			 text = disable_cult_events
 	        }
@@ -1115,8 +1115,8 @@ character_event = {
 
 # Cult of Sol Invictus
 character_event = {
-	id = PA.1000215
-	desc = EVTDESCPA.1000215
+	id = PA.10215
+	desc = EVTDESCPA.10215
 	picture = GFX_evt_ritual_scroll
 
 	ai = no
@@ -1140,16 +1140,16 @@ character_event = {
 	}
 	
 	option = {
-		name = OPTAPA_1000215
+		name = OPTAPA_10215
                 add_trait = cultist
 		}
 
         option = {
-		name = OPTBPA_1000215
+		name = OPTBPA_10215
 	}
 
         option = {
-		name = OPTCPA_1000215
+		name = OPTCPA_10215
                 custom_tooltip = {
 			 text = disable_cult_events
 	        }
@@ -1159,44 +1159,44 @@ character_event = {
 
 # Sacrifice Event
 character_event = {
-	id = PA.1000216
-	desc = EVTDESCPA.1000216
+	id = PA.10216
+	desc = EVTDESCPA.10216
 	picture = GFX_evt_ritual_scroll
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTAPA_1000216
+		name = OPTAPA_10216
                 wealth = -100
                 hidden_tooltip = {
-                    character_event = { id = PA.1000217 }
+                    character_event = { id = PA.10217 }
                 }                  
 	}
 	option = {
-		name = OPTBPA_1000216
+		name = OPTBPA_10216
                 wealth = -50
                 hidden_tooltip = {
-                    character_event = { id = PA.1000218 }
+                    character_event = { id = PA.10218 }
                 } 
 	}
 	option = {
-		name = OPTCPA_1000216
+		name = OPTCPA_10216
                 hidden_tooltip = {
-                    character_event = { id = PA.1000219 }
+                    character_event = { id = PA.10219 }
                 } 
 	}
 }
 
 # Sacrifice Event
 character_event = {
-	id = PA.1000217
-	desc = EVTDESCPA.1000217
+	id = PA.10217
+	desc = EVTDESCPA.10217
 	picture = GFX_evt_religious_exultation
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_1000217
+		name = OPTPA_100217
                 piety = 100
                 add_character_modifier = {
                     name = hellenic_sacrifice_bull
@@ -1208,14 +1208,14 @@ character_event = {
 
 # Sacrifice Event
 character_event = {
-	id = PA.1000218
-	desc = EVTDESCPA.1000218
+	id = PA.10218
+	desc = EVTDESCPA.10218
 	picture = GFX_evt_religious_exultation
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_1000218
+		name = OPTPA_100218
                 piety = 50
                 add_character_modifier = {
                     name = hellenic_sacrifice_lamb
@@ -1227,14 +1227,14 @@ character_event = {
 
 # Sacrifice Event
 character_event = {
-	id = PA.1000219
-	desc = EVTDESCPA.1000219
+	id = PA.10219
+	desc = EVTDESCPA.10219
 	picture = GFX_evt_peasants
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = OPTPA_1000219
+		name = OPTPA_100219
                 piety = -100
                 add_character_modifier = {
                     name = hellenic_sacrifice_nothing

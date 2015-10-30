@@ -1,14 +1,3 @@
-#Sassanid Zunbil
-620.1.1={
-	holder = 188700 # Zunbil founder
-	liege = k_afghanistan
-}
-651.1.1={
-	liege = 0
-}
-662.1.1={
-	holder = 188701
-}
 680.1.1={
 	liege=0
 	holder = 188701 # Zunbil founder

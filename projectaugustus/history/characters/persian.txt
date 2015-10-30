@@ -3990,7 +3990,315 @@
 		death=yes
 	}
 }
+188580 = {
+	name="Afrig"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	280.9.4={
+		birth=yes
+	}
+	350.1.1={
+		death=yes
+	}
+}
 
+188581 = {
+	name="Bagra"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188580
+	312.1.28={
+		birth=yes
+	}
+	380.1.1={
+		death=yes
+	}
+}
+
+188582 = {
+	name="Sahhasak"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188581
+	337.1.1={
+		birth=yes
+	}
+	410.1.1={
+		death=yes
+	}
+}
+
+188583 = {
+	name="Askajamuk"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188582
+	365.1.1={
+		birth=yes
+	}
+	440.1.1={
+		death=yes
+	}
+}
+
+188584 = {
+	name="Azkajwar"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188583
+	400.1.1={
+		birth=yes
+	}
+	470.1.1={
+		death=yes
+	}
+}
+
+188585 = {
+	name="Sahr"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188584
+	430.1.1={
+		birth=yes
+	}
+	500.1.1={
+		death=yes
+	}
+}
+
+188586 = {
+	name="Shaush"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188585
+	460.1.1={
+		birth=yes
+	}
+	530.1.1={
+		death=yes
+	}
+}
+
+188587 = {
+	name="Hamgari"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188586
+	490.1.1={
+		birth=yes
+	}
+	560.1.1={
+		death=yes
+	}
+}
+
+188588 = {
+	name="Buzgar"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188587
+	520.1.1={
+		birth=yes
+	}
+	600.1.1={
+		death=yes
+	}
+}
+
+188589 = {
+	name="Arsamuh"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188588
+	560.1.1={
+		birth=yes
+	}
+	625.1.1={
+		death=yes
+	}
+}
+
+188590 = {
+	name="Sahr"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188589
+	600.1.1={
+		birth=yes
+	}
+	665.1.1={
+		death=yes
+	}
+}
+
+188591 = {
+	name="Sabri"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188590
+	635.1.1={
+		birth=yes
+	}
+	690.1.1={
+		death=yes
+	}
+}
+
+188592 = {
+	name="Azkajwar"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188591
+	665.1.1={
+		birth=yes
+	}
+	712.1.1={
+		death=yes
+	}
+}
+
+188593 = {
+	name="Askajamuk"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188592
+	690.1.1={
+		birth=yes
+	}
+	740.1.1={
+		death=yes
+	}
+}
+
+188594 = {
+	name="Sawashfan"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188593
+	715.1.1={
+		birth=yes
+	}
+	765.1.1={
+		death=yes
+	}
+}
+
+188595 = {
+	name="Torkasbatha"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188594
+	740.1.1={
+		birth=yes
+	}
+	790.1.1={
+		death=yes
+	}
+}
+
+188596 = {
+	name="Abdallah"
+	dynasty=1042112 # Afrighid
+	religion="zoroastrian"
+	culture="persian"
+	father=188595
+	765.1.1={
+		birth=yes
+	}
+	790.1.1={
+		religion=sunni
+	}
+	815.1.1={
+		death=yes
+	}
+}
+
+188597 = {
+	name="Mansur"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="persian"
+	father=188596
+	795.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+188598 = {
+	name="Eraq"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="persian"
+	father=188597
+	825.1.1={
+		birth=yes
+	}
+	890.1.1={
+		death=yes
+	}
+}
+
+188599 = {
+	name="Muhammad"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="persian"
+	father=188598
+	865.1.1={
+		birth=yes
+	}
+	940.1.1={
+		death=yes
+	}
+}
+
+188600 = {
+	name="Abu Sa'id"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="persian"
+	father=188599
+	900.1.1={
+		birth=yes
+	}
+	970.1.1={
+		death=yes
+	}
+}
+
+188601 = {
+	name="Abu Abdallah"
+	dynasty=1042112 # Afrighid
+	religion="sunni"
+	culture="persian"
+	father=188600
+	925.1.1={
+		birth=yes
+	}
+	995.1.1={
+		death=yes
+	}
+}
 188629 = {
 	name="Khuzaymah" 
 	dynasty=1042122 # Banu Tamim
@@ -5113,6 +5421,151 @@
 		death=yes
 	}
 }
+160284 = {
+	name="Kavadh"  # name made up
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160283
+	545.1.1={
+		birth=yes
+	}
+	600.1.1={
+		death=yes
+	}
+}
+160285 = {
+	name="Bav" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160284
+	590.1.1={
+		birth=yes
+	}
+	665.1.1={
+		death=yes
+	}
+}
+
+160288 = {
+	name="Sorkhab" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160285 # debatable
+	635.1.1={
+		birth=yes
+	}
+	717.1.1={
+		death=yes
+	}
+}
+160289 = {
+	name="Mehr Mardan" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160288
+	670.1.1={
+		birth=yes
+	}
+	755.1.1={
+		death=yes
+	}
+}
+160290 = {
+	name="Sorkhab" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160289
+	700.1.1={
+		birth=yes
+	}
+	772.1.1={
+		death=yes
+	}
+}
+160291 = {
+	name="Shervin" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160290
+	735.1.1={
+		birth=yes
+	}
+	817.1.1={
+		death=yes
+	}
+}
+160292 = {
+	name="Shahryar" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160291
+	755.1.1={
+		birth=yes
+	}
+	825.1.1={
+		death=yes
+	}
+}
+160293 = {
+	name="Shapur" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160292
+	790.1.1={
+		birth=yes
+	}
+	839.1.1={
+		death=yes
+	}
+}
+160294 = {
+	name="Karen" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160292
+	795.1.1={
+		birth=yes
+	}
+	867.1.1={
+		death=yes
+	}
+}
+160295 = {
+	name="Shervin" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=45105
+	865.1.1={
+		birth=yes
+	}
+	930.1.1={
+		death=yes
+	}
+}
+160286 = {
+	name="Sorkhab" 
+	dynasty=7331 # Bavandid 
+	religion="zoroastrian"
+	culture="persian"
+	father=160294
+	846.1.1={
+		birth=yes
+	}
+	900.1.1={
+		death=yes
+	}
+}
+
 
 160296 = {
 	name="Karen" 

@@ -15,17 +15,11 @@ b_sanpedrodeperix = castle
 #b_cistierna = castle
 
 # Misc
-culture = visigothic
+culture = hispanic
 religion = catholic
 
-700.1.1 = {
-	culture = iberian
-}
-
 # History
-700.1.1 = {
-	b_villablino = ct_jewish_community_1
-}
+
 867.1.1 = { 
 	b_leon = ca_town_1
 	b_leon = ca_keep_1

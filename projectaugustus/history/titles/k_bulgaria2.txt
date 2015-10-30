@@ -1,14 +1,14 @@
 632.1.1={
-        active = no
-        law = crown_authority_4
-        law = cognatic_succession
-        law = succ_primogeniture
-        law = centralization_2
-        law = imperial_administration
-        law = vassal_wars_2
-        law = feudal_tax_1
-        de_jure_liege = e_byzantium
+    active = no
+    law = crown_authority_4
+    law = cognatic_succession
+    law = succ_primogeniture
+    law = centralization_2
+    law = imperial_administration
+    law = vassal_wars_2
+    law = feudal_tax_1
+    de_jure_liege = e_byzantium
 }
 927.5.2={
-        set_global_flag = bulgarian_patriarchate
+    set_global_flag = bulgarian_patriarchate
 }

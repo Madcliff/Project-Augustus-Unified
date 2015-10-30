@@ -15,7 +15,7 @@ b_takhtesuleiman = temple
 #b_deglane = temple
 
 # Misc
-culture = azeri
+culture = armenian
 religion = apostolic
 
 # History

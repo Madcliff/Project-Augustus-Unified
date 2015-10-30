@@ -14,15 +14,11 @@ b_andujar = castle
 #b_belalcazar = castle
 #b_canetedelastorres = castle
 
-culture = iberian
+culture = hispanic
 religion = sunni
 
 # History
-700.1.1 = { 
-	b_lucena = ct_jewish_community_1
-	b_lucena = ct_jewish_community_2
-	b_lucena = ct_jewish_community_3
-}
+
 929.1.1 = {
 	culture = andalusian_arabic
 }

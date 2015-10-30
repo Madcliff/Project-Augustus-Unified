@@ -3,12 +3,6 @@
 liege="e_byzantium"
 vice_royalty = yes
 }
-620.1.1 = {
-	holder = 1000257324
-}
-663.1.1 = {
-	holder = 0
-}
 752.1.1=
 {
 holder=145812

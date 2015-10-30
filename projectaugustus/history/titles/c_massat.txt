@@ -1,15 +1,3 @@
-20.1.1 = {
-	historical_nomad = yes
-}
-600.1.1 = {
-	holder=1004460059
-	liege=d_mauri
-}
-680.1.1 = {
-	holder=0
-	liege=0
-}
-
 767.1.1={
 	holder = 210038
 }

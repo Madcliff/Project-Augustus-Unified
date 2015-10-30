@@ -1,7 +1,3 @@
-600.1.1 = {
-	holder = 1000256104 
-	liege = e_byzantium
-}
 762.1.1={
 	liege="e_sunni"
 }

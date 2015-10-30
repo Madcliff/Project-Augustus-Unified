@@ -2,13 +2,13 @@
 	historical_nomad = yes
 }
 470.1.1 = {
-	holder = 10257413
+	holder = 1000257413
 }
 500.1.1 = {
 	historical_nomad = no
 }
 630.1.1 = {
-	holder = 10257411 
+	holder = 1000257411 
 	liege = d_severians
 }
 

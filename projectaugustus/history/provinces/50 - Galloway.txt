@@ -17,7 +17,7 @@ b_whithorn = temple
 #b_threave = castle
 
 # Misc
-culture = briton
+culture = britonic
 religion = catholic
 terrain = hills
 

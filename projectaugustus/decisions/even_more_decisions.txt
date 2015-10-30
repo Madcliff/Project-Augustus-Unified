@@ -1,29 +1,29 @@
 decisions = {
 
-# Reform Western Empire
+        # Reform Western Empire
 	reform_western_empire = {
 		is_high_prio = yes
 		potential = {
-		    independent = yes
-            culture_group = latin
-		    NOT = { has_landed_title = e_western }
-            NOT = { has_global_flag = hre_formed }
-        }
+			independent = yes
+           		culture_group = latin
+		        NOT = { has_landed_title = e_western }
+                        NOT = { has_global_flag = hre_formed }
+                }
 		
-        allow = {
-		    completely_controls = k_sicily
+                allow = {
+		        completely_controls = k_sicily
 			completely_controls = k_lombardy
 			completely_controls = k_venice
 			completely_controls = k_croatia
-        }
+                }
 		
 		effect = {
-            hidden_tooltip = {
+                        hidden_tooltip = {
 				e_western = {
 					grant_title = ROOT
 				}
 			}
-        }
+                }
 		ai_will_do = {
 			factor = 0
 		}
@@ -33,26 +33,26 @@ decisions = {
 	reform_macedonian_empire = {
 		is_high_prio = yes
 		potential = {
-		    tier = king
-		    culture = greek
+			tier = king
+		        culture = greek
 			independent = yes
 			has_landed_title = k_macedonia
-		    NOT = { has_landed_title = e_macedonia }
-        }
+		        NOT = { has_landed_title = e_macedonia }
+                 }
 		
-        allow = {
-			completely_controls = k_thrace
-		    completely_controls = k_macedon
-		    completely_controls = k_bulgaria
-        }
+                 allow = {
+		 	completely_controls = k_thrace
+		        completely_controls = k_macedon
+		        completely_controls = k_bulgaria
+                 }
 		
-		effect = {
-            hidden_tooltip = {
+		 effect = {
+                        hidden_tooltip = {
 				e_macedonia = {
 					grant_title = ROOT
 				}
 			}
-        }
+                }
 		ai_will_do = {
 			factor = 0
 		}
@@ -63,22 +63,22 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			independent = yes
-            culture = neo_punic
-		    NOT = { has_landed_title = e_carthage }
-        }
+                        culture = neo_punic
+		        NOT = { has_landed_title = e_carthage }
+                 }
 		
-        allow = {
-		    completely_controls = k_matmada
-            completely_controls = k_tripolitania
-        }
+                 allow = {
+		 	completely_controls = k_matmada
+                        completely_controls = k_tripolitania
+                 }
 		
-		effect = {
-            hidden_tooltip = {
+		 effect = {
+                 	hidden_tooltip = {
 				e_carthage = {
 					grant_title = ROOT
 				}
 			}
-        }
+                }
 		ai_will_do = {
 			factor = 0
 		}
@@ -88,29 +88,29 @@ decisions = {
 	reform_hunnic_empire = {
 		is_high_prio = yes
 		potential = {
-		    dynasty = 591
+		        dynasty = 591
 			independent = yes
-            culture_group = altaic
-		    NOT = { has_landed_title = e_hunnicia }
-        }
+                        culture_group = altaic
+		        NOT = { has_landed_title = e_hunnicia }
+                 }
 		
-        allow = {
-		    completely_controls = k_taurica
-            completely_controls = k_hungary
-		    completely_controls = k_slovakia
-		    completely_controls = k_bulgaria
-            completely_controls = k_dacia
-        }
+                 allow = {
+		 	 completely_controls = k_taurica
+                         completely_controls = k_hungary
+		         completely_controls = k_slovakia
+		         completely_controls = k_bulgaria
+                         completely_controls = k_dacia
+                 }         
 		
 		effect = {
-            hidden_tooltip = {
+                          hidden_tooltip = {
 				e_hunnicia = {
 					grant_title = ROOT
 				}
 			}
-        }
+                }
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	}
+}

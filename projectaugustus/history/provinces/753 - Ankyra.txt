@@ -13,15 +13,14 @@ b_akroynon = temple
 #b_gordoservon = castle
 #b_nakoleia = castle
 #b_gordium = castle
-#b_amorion = castle
 #b_haymana = castle
 
 # Misc
-culture = galatian
+culture = greek
 religion = orthodox
 
 # History
-720.1.1 = { culture = greek } # iconoclast
+720.1.1 = { religion = orthodox } # iconoclast
 #855.1.1 = { religion = orthodox }
 
 # The Seljuks take over Anatolia

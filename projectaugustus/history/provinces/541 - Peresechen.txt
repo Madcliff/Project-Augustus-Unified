@@ -17,13 +17,10 @@ b_iasi = tribal
 #b_tutora = castle
 
 # Misc
-culture = alan
+culture = hungarian
 religion = tengri_pagan
 
 # History
-740.1.1 = {
-	culture = hungarian
-}
 867.1.1 = {
 	culture = russian
         religion = slavic_pagan

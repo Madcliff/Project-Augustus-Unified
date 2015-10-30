@@ -1,32 +1,11 @@
-474.11.17={
-	holder=70515
-	liege="e_byzantium"
-}
-470.1.1 = {
-	liege="e_byzantium"
-}
-600.1.1=
-{
-	liege="d_antioch"
-}
-466.1.1=
-{
-	holder=125713
-}
-
-
-630.1.1={
-	liege = d_antioch
-	holder = 1000257339
-}
 706.1.1 = {
 	liege="d_tripoli"
+        de_jure_liege="d_tripoli"
 	holder=146014
 }
 720.1.1 = {
 	holder=146015
 }
-
 735.1.1 = {
 	holder=146016
 }

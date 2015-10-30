@@ -18,7 +18,7 @@ b_arraml = temple
 
 # Misc
 culture = aramean 
-religion = syriac
+religion = orthodox
 
 # History
 1016.1.1 = { religion = sunni }

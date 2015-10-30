@@ -4,8 +4,8 @@
 364.3.28={
         de_jure_liege = e_western
 }
-470.9.4={
-        holder = 200395
+476.9.4={
+        holder = 200000031
 }
 493.5.15={
         holder = 0

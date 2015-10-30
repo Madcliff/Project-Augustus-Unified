@@ -20,5 +20,5 @@ religion = catholic
 
 # History
 
-840.1.1 = { culture = iberian }
+840.1.1 = { culture = hispanic }
 955.1.1 = { culture = castillan }

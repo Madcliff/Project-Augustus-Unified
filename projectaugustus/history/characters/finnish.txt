@@ -1613,10 +1613,10 @@
 }
 
 91010163 = {
-	name="Alvi"
+	name="Sanna"
 	dynasty=random
 	religion="finnish_pagan"
-	culture=karelian
+	culture=finnish
 	600.1.1 = {
 		birth = yes
 	}
@@ -1693,96 +1693,6 @@
 	dynasty=random
 	religion="finnish_pagan"
 	culture=finnish
-	600.1.1 = {
-		birth = yes
-	}
-	670.1.1 = {
-		death = yes
-	}
-}
-
-9110163 = {
-	name="Alvi"
-	dynasty=random
-	religion="finnish_pagan"
-	culture=karelian
-	600.1.1 = {
-		birth = yes
-	}
-	670.1.1 = {
-		death = yes
-	}
-}
-
-9110164 = {
-	name="Kipro"
-	dynasty=random
-	religion="finnish_pagan"
-	culture=karelian
-	600.1.1 = {
-		birth = yes
-	}
-	670.1.1 = {
-		death = yes
-	}
-}
-
-9110165 = {
-	name="Ohvo"
-	dynasty=random
-	religion="finnish_pagan"
-	culture=karelian
-	600.1.1 = {
-		birth = yes
-	}
-	670.1.1 = {
-		death = yes
-	}
-}
-
-9110166 = {
-	name="Paavel"
-	dynasty=random
-	religion="finnish_pagan"
-	culture=karelian
-	600.1.1 = {
-		birth = yes
-	}
-	670.1.1 = {
-		death = yes
-	}
-}
-9110167 = {
-	name="Mitja"
-	dynasty=random
-	religion="finnish_pagan"
-	culture=karelian
-	600.1.1 = {
-		birth = yes
-	}
-	670.1.1 = {
-		death = yes
-	}
-}
-
-9110168 = {
-	name="Sere"
-	dynasty=random
-	religion="finnish_pagan"
-	culture=karelian
-	600.1.1 = {
-		birth = yes
-	}
-	670.1.1 = {
-		death = yes
-	}
-}
-
-9110169 = {
-	name="Tami"
-	dynasty=random
-	religion="finnish_pagan"
-	culture=karelian
 	600.1.1 = {
 		birth = yes
 	}

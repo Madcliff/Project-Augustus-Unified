@@ -7,148 +7,148 @@
 	culture = assyrian
 }
 1045058 = {
-    name = "Pateran"
-    culture = greek
+	name = "Pateran"
+	culture = greek
 }
 1000155000 = {
-    name = "Dekapolitissa"
-    culture = greek
+	name = "Dekapolitissa"
+	culture = greek
 }
 1000155001 = {
-    name = "Frangipani"
-    culture = italian
+	name = "Frangipani"
+	culture = italian
 }
 1000155002 = {
-    name = "Crescenti"
-    culture = italian
+	name = "Crescenti"
+	culture = italian
 }
 1000155003 = {
-    name = "Normanni"
-    culture = italian
+	name = "Normanni"
+	culture = italian
 }
 1000155004 = {
-    name = "Savelli"
-    culture = italian
+	name = "Savelli"
+	culture = italian
 }
 101424535 = {
-    name="Greutungi"
-    culture = gothic
+	name="Greutungi"
+	culture = gothic
 }
 101424536 = {
-    name="Skiri"
-    culture = gothic
+	name="Skiri"
+	culture = gothic
 }
 101424537 = {
-    name="Amaling"
-    culture = gothic
+	name="Amaling"
+	culture = gothic
 }
 101424538 = {
-    name="Siegfried"
-    culture = gothic
+	name="Siegfried"
+	culture = gothic
 }
 101424539 = {
-    name="Ouim"
-    culture = gothic
+	name="Ouim"
+	culture = gothic
 }
 101424540 = {
-    name="Filimer"
-    culture = gothic
+	name="Filimer"
+	culture = gothic
 }
 101424541 = {
-    name="Tyrfing"
-    culture = gothic
+	name="Tyrfing"
+	culture = gothic
 }
 101424542 = {
-    name="Atanaric"
-    culture = gothic
+	name="Atanaric"
+	culture = gothic
 }
 101424543 = {
-    name="Skoll"
-    culture = gothic
+	name="Skoll"
+	culture = gothic
 }
 101424544 = {
-    name="Teiws"
-    culture = gothic
+	name="Teiws"
+	culture = gothic
 }
 101424545 = {
-    name="Danpar"
-    culture = gothic
+	name="Danpar"
+	culture = gothic
 }
 101424546 = {
-    name="Tanus"
-    culture = gothic
+	name="Tanus"
+	culture = gothic
 }
 10142103 = {
 	name="Gereint"
-	culture = romanobritish 
+	culture = britonic
 }
 10142104 = {
 	name="Lanval"
-	culture = romanobritish 
+	culture = britonic
 }
 10142105 = {
 	name="Licat"
-	culture = romanobritish 
+	culture = britonic
 }
 10142106 = {
 	name="Owain"
-	culture = romanobritish 
+	culture = britonic
 }
 10142107 = {
 	name="Gadric"
-	culture = romanobritish 
+	culture = britonic
 }
 10142108 = {
 	name="Hywel"
-	culture = romanobritish 
+	culture = britonic
 }
 10142109 = {
 	name="Maelgwn"
-	culture = romanobritish 
+	culture = britonic
 }
 10142110 = {
 	name="Menw"
-	culture = romanobritish 
+	culture = britonic
 }
 10142111 = {
 	name="Padern"
-	culture = romanobritish 
+	culture = britonic
 }
 10142112 = {
 	name="Aradig"
-	culture = romanobritish 
+	culture = britonic
 }
 10142113 = {
 	name="Cadfael"
-	culture = romanobritish 
+	culture = britonic
 }
 10142114 = {
 	name="Drystan"
-	culture = romanobritish 
+	culture = britonic
 }
 10142115 = {
 	name="Ligessac"
-	culture = romanobritish 
+	culture = britonic
 }
 10142116 = {
 	name="Cadwallon"
-	culture = romanobritish 
+	culture = britonic
 }
 10142117 = {
 	name="Gwlyddyn"
-	culture = romanobritish 
+	culture = britonic
 }
 10142118 = {
 	name="Cadell"
-	culture = romanobritish 
+	culture = britonic
 }
 10142119 = {
 	name="Iseult"
-	culture = romanobritish 
+	culture = britonic
 }
 10142120 = {
 	name="Glynys"
-	culture = romanobritish 
+	culture = britonic
 }
 10142148 = {
 	name="Haroun" 
@@ -251,12 +251,12 @@
 	culture = hispanic
 }
 101424381 = {
-    name="Elemunding"
-    culture = ostrogothic
+	name="Elemunding"
+	culture = ostrogothic
 }
 101424382 = {
-    name="Thurisinding"
-    culture = ostrogothic
+	name="Thurisinding"
+	culture = ostrogothic
 }
 101424448 = {
 	name="Agricolus"
@@ -643,24 +643,24 @@
 	culture = aramean
 } 
 200000000 = {
-    name = "Anicius"
-    culture = "roman"
+	name = "Anicius"
+	culture = "roman"
 }
 200000001 = {
-    name = "Procopius"
-    culture = "roman"
+	name = "Procopius"
+	culture = "roman"
 }
 200000002 = {
-    name = "Nepos"
-    culture = "roman"
+	name = "Nepos"
+	culture = "roman"
 }
 200000003 = {
-    name = "Tétény"
-    culture = "hungarian"
+	name = "Tétény"
+	culture = "hungarian"
 }
 200000004 = {
-    name = "Tatulus"
-    culture = "roman"
+	name = "Tatulus"
+	culture = "roman"
 }
 1000124254 = {
 	name="Abrach"
@@ -855,48 +855,48 @@
 	culture = hunnic
 }
 2000270 = {
-    name = "Abdeshmun"
-    culture = neo-punic
+	name = "Abdeshmun"
+	culture = neo-punic
 }
 2000271 = {
-    name = "Abdmelqart"
-    culture = neo-punic
+	name = "Abdmelqart"
+	culture = neo-punic
 }
 2000272 = {
-    name = "Abdosir"
-    culture = neo-punic
+	name = "Abdosir"
+	culture = neo-punic
 }
 2000273 = {
-    name = "Ashtzaph"
-    culture = neo-punic
+	name = "Ashtzaph"
+	culture = neo-punic
 }
 2000274 = {
-    name = "Bodashtart"
-    culture = neo-punic
+	name = "Bodashtart"
+	culture = neo-punic
 }
 2000275 = {
-    name = "Bodtanit"
-    culture = neo-punic
+	name = "Bodtanit"
+	culture = neo-punic
 }
 2000276 = {
-    name = "Germelqart"
-    culture = neo-punic
+	name = "Germelqart"
+	culture = neo-punic
 }
 2000277 = {
-    name = "Himilco"
-    culture = neo-punic
+	name = "Himilco"
+	culture = neo-punic
 }
 2000278 = {
-    name = "Milkherem"
-    culture = neo-punic
+	name = "Milkherem"
+	culture = neo-punic
 }
 2000279 = {
-    name = "Philosir"
-    culture = neo-punic
+	name = "Philosir"
+	culture = neo-punic
 }
 2000280 = {
-    name = "Shafat"
-    culture = neo-punic
+	name = "Shafat"
+	culture = neo-punic
 }
 100153022 = {
 	name="Bayomi"
@@ -939,227 +939,227 @@
 	culture = aramean
 }
 100153043 = {
-    name="Bast"
+	name="Bast"
 	culture = thracian
 }
 100153044 = {
-    name="Mucaporis"
+	name="Mucaporis"
 	culture = thracian
 }
 100153045 = {
-    name="Diurpaneus"
+	name="Diurpaneus"
 	culture = thracian
 }
 100153046 = {
-    name="Mucapor"
+	name="Mucapor"
 	culture = thracian
 }
 100153047 = {
-    name="Mucatra"
+	name="Mucatra"
 	culture = thracian
 }
 100153048 = {
-    name="Natoporus"
+	name="Natoporus"
 	culture = thracian
 }
 100153049 = {
-    name="Pieporus"
+	name="Pieporus"
 	culture = thracian
 }
 100153050 = {
-    name="Rascuporis"
+	name="Rascuporis"
 	culture = thracian
 }
 100153051 = {
-    name="Rascupolis"
+	name="Rascupolis"
 	culture = thracian
 }
 100153052 = {
-    name="Scorlyo"
+	name="Scorlyo"
 	culture = thracian
 }
 100153053 = {
-    name="Avizina"
-	culture = daco_roman 
+	name="Avizina"
+	culture = dacian
 }
 100153054 = {
-    name="Bastiza"
-	culture = daco_roman 
+	name="Bastiza"
+	culture = dacian
 }
 100153055 = {
-    name="Blaesus"
-	culture = daco_roman 
+	name="Blaesus"
+	culture = dacian
 }
 100153056 = {
-    name="Burebista"
-	culture = daco_roman 
+	name="Burebista"
+	culture = dacian
 }
 100153057 = {
-    name="Comosicus"
-	culture = daco_roman 
+	name="Comosicus"
+	culture = dacian
 }
 100153058 = {
-    name="Cotiso"
-    culture = daco_roman 
+	name="Cotiso"
+	culture = dacian
 }
 100153059 = {
-    name="Dardanos"
-    culture = daco_roman 
+	name="Dardanos"
+	culture = dacian
 }
 100153060 = {
-    name="Dardiolai"
-	culture = daco_roman 
+	name="Dardiolai"
+	culture = dacian
 }
 100153061 = {
-    name="Decaeneus"
-	culture = daco_roman 
+	name="Decaeneus"
+	culture = dacian
 }
 100153062 = {
-    name="Dekinais"
-	culture = daco_roman 
+	name="Dekinais"
+	culture = dacian
 }
 100153063 = {
-    name="Diourdanos"
-	culture = daco_roman 
+	name="Diourdanos"
+	culture = dacian
 }
 100153064 = {
-    name="Kaigiza"
-	culture = daco_roman 
+	name="Kaigiza"
+	culture = dacian
 }
 100153065 = {
-    name="Komakiza"
-	culture = daco_roman 
+	name="Komakiza"
+	culture = dacian
 }
 100153066 = {
-    name="Petoporus"
-	culture = daco_roman 
+	name="Petoporus"
+	culture = dacian
 }
 100153067 = {
-    name="Rescuturme"
-	culture = daco_roman 
+	name="Rescuturme"
+	culture = dacian
 }
 100153068 = {
-    name="Rigozus"
-    culture = daco_roman 
+	name="Rigozus"
+	culture = dacian
 }
 100153069 = {
-    name="Tarbus"
-    culture = daco_roman 
+	name="Tarbus"
+	culture = dacian
 }
 100153070 = {
-    name="Tiatitis"
-	culture = daco_roman 
+	name="Tiatitis"
+	culture = dacian
 }
 100153071 = {
-    name="Vezina"
-	culture = daco_roman 
+	name="Vezina"
+	culture = dacian
 }
 100153072 = {
-    name="Zinnas"
-	culture = daco_roman 
+	name="Zinnas"
+	culture = dacian
 }
 100153073 = {
-    name="Aden"
-	culture = romash 
+	name="Aden"
+	culture = romansh
 }
 100153074 = {
-    name="Andri"
-	culture = romash 
+	name="Andri"
+	culture = romansh
 }
 100153075 = {
-    name="Andrin"
-	culture = romash 
+	name="Andrin"
+	culture = romansh
 }
 100153076 = {
-    name="Andris"
-	culture = romash 
+	name="Andris"
+	culture = romansh
 }
 100153077 = {
-    name="Baltran"
-	culture = romash 
+	name="Baltran"
+	culture = romansh
 }
 100153078 = {
-    name="Bandet"
-    culture = romash 
+	name="Bandet"
+	culture = romansh
 }
 100153079 = {
-    name="Camil"
-    culture = romash 
+	name="Camil"
+	culture = romansh
 }
 100153080 = {
-    name="Chasprot"
-	culture = romash 
+	name="Chasprot"
+	culture = romansh
 }
 100153081 = {
-    name="Claritta"
-	culture = romash 
+	name="Claritta"
+	culture = romansh
 }
 100153082 = {
-    name="Corsina"
-	culture = romash 
+	name="Corsina"
+	culture = romansh
 }
 100153083 = {
-    name="Dumengia"
-	culture = romash 
+	name="Dumengia"
+	culture = romansh
 }
 100153084 = {
-    name="Dumeni"
-	culture = romash 
+	name="Dumeni"
+	culture = romansh
 }
 100153085 = {
-    name="Flurinda"
-	culture = romash 
+	name="Flurinda"
+	culture = romansh
 }
 100153086 = {
-    name="Fumia"
-	culture = romash 
+	name="Fumia"
+	culture = romansh
 }
 1001530687 = {
-    name="Gionina"
-	culture = romash 
+	name="Gionina"
+	culture = romansh
 }
 100153088 = {
-    name="Jaronas"
-    culture = romash 
+	name="Jaronas"
+	culture = romansh
 }
 100153089 = {
-    name="Maximin"
-    culture = romash 
+	name="Maximin"
+	culture = romansh
 }
 100153090 = {
-    name="Rusina"
-	culture = romash 
+	name="Rusina"
+	culture = romansh
 }
 100153091 = {
-    name="Tschena"
-	culture = romash 
+	name="Tschena"
+	culture = romansh
 }
 100153092 = {
-    name="Verena"
-	culture = romash 
+	name="Verena"
+	culture = romansh
 }
 100153093 = {
-    name="Agolli"
+	name="Agolli"
 	culture = "albanian"
 }
 100153094 = {
-    name="Asllani"
+	name="Asllani"
 	culture = "albanian"
 }
 100153095 = {
-    name="Berisha"
+	name="Berisha"
 	culture = "albanian"
 }
 100153096 = {
-    name="Alborov"
+	name="Alborov"
 	culture = "albanian"
 }
 100153097 = {
-    name="Bogdani"
+	name="Bogdani"
 	culture = "albanian"
 }
 100153098 = {
-    name="Dragusha"
+	name="Dragusha"
 	culture = "albanian"
 }
 100153099 = {
@@ -1167,148 +1167,148 @@
    culture = "albanian"
 }
 100153100 = {
-    name="Kastrati"
+	name="Kastrati"
 	culture = "albanian"
 }
 100153101 = {
-    name="Logoreci"
+	name="Logoreci"
 	culture = "albanian"
 }
 100153102 = {
-    name="Vrioni"
+	name="Vrioni"
 	culture = "albanian"
 }
 100153103 = {
-    name="Zaharia"
+	name="Zaharia"
 	culture = "albanian"
 }
 100153104 = {
-    name="Arsinel"
-	culture = illyro_roman 
+	name="Arsinel"
+	culture = "illyrian"
 }
 100153105 = {
-    name="Caragial"
-	culture = illyro_roman 
+	name="Caragial"
+	culture = "illyrian"
 }
 100153106 = {
-    name="Drenova"
-	culture = illyro_roman 
+	name="Drenova"
+	culture = "illyrian"
 }
 100153107 = {
-    name="Grabovan"
-	culture = illyro_roman 
+	name="Grabovan"
+	culture = "illyrian"
 }
 100153108 = {
-    name="Ionesco"
-	culture = illyro_roman 
+	name="Ionesco"
+	culture = "illyrian"
 }
 100153109 = {
-    name="Manaki"
-	culture = illyro_roman 
+	name="Manaki"
+	culture = "illyrian"
 }
 100153110 = {
-    name="Prevenda"
-	culture = illyro_roman 
+	name="Prevenda"
+	culture = "illyrian"
 }
 100153111 = {
-    name="Diamanti"
-	culture = illyro_roman 
+	name="Diamanti"
+	culture = "illyrian"
 }
 100153112 = {
-    name="Stanescu"
-	culture = illyro_roman 
+	name="Stanescu"
+	culture = "illyrian"
 }
 100153113 = {
-    name="Kavalliotis"
-	culture = illyro_roman 
+	name="Kavalliotis"
+	culture = "illyrian"
 }
 100153114 = {
-    name="Karamata"
-	culture = illyro_roman 
+	name="Karamata"
+	culture = "illyrian"
 }
 100153115 = {
-    name="Saguna"
-	culture = illyro_roman 
+	name="Saguna"
+	culture = "illyrian"
 }
 100153116 = {
-    name="Abahu"
-	culture = mandaeic 
+	name="Abahu"
+	culture = "mandaic"
 }
 100153117 = {
-    name="Avahu"
-	culture = mandaeic 
+	name="Avahu"
+	culture = "mandaic"
 }
 100153118 = {
-    name="Bustan"
-	culture = mandaeic 
+	name="Bustan"
+	culture = "mandaic"
 }
 100153119 = {
-    name="Caiaphas"
-	culture = mandaeic 
+	name="Caiaphas"
+	culture = "mandaic"
 }
 100153120 = {
-    name="Chozai"
-	culture = mandaeic 
+	name="Chozai"
+	culture = "mandaic"
 }
 100153121 = {
-    name="Mahalie"
-	culture = mandaeic 
+	name="Mahalie"
+	culture = "mandaic"
 }
 100153122 = {
-    name="Mehalia"
-	culture = mandaeic 
+	name="Mehalia"
+	culture = "mandaic"
 }
 100153123 = {
-    name="Shamir"
-	culture = mandaeic 
+	name="Shamir"
+	culture = "mandaic"
 }
 100153124 = {
-    name="Tabai"
-	culture = mandaeic 
+	name="Tabai"
+	culture = "mandaic"
 }
 100153125 = {
-    name="Tavares"
-	culture = mandaeic 
+	name="Tavares"
+	culture = "mandaic"
 }
 100153126 = {
-    name="Yanai"
-	culture = mandaeic 
+	name="Yanai"
+	culture = "mandaic"
 }
 100153127 = {
-    name="Zerika"
-	culture = mandaeic 
+	name="Zerika"
+	culture = "mandaic"
 }
 10424464 = {
 	name="Hanafid"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 10424465 = {
 	name="Bakrid"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 10424466 = {
 	name="Tamimid"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 10424467 = {
 	name="Anizzahid"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 10424468 = {
 	name="Udhrahid"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 10424469 = {
 	name="Kilabid"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 10424470 = {
 	name="Hilalid"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 10424471 = {
 	name="Ka'abid"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 10424472 = {
 	name="Agrimi"
@@ -1371,83 +1371,83 @@
 	culture = griko
 }
 10424485 = {
-    name="Lucanios"
+	name="Lucanios"
 	culture = griko
 }
 10424486 = {
-    name="Diklah"
+	name="Diklah"
 	culture = assyrian
 }
 10424487 = {
-    name="Hanina"
+	name="Hanina"
 	culture = assyrian
 }
 10424487 = {
-    name="Hozai"
+	name="Hozai"
 	culture = assyrian
 }
 10424488 = {
-    name="Shammai"
+	name="Shammai"
 	culture = assyrian
 }
 10424489 = {
-    name="Samiyah"
+	name="Samiyah"
 	culture = assyrian
 }
 10424486 = {
-    name="Thomasina"
+	name="Thomasina"
 	culture = assyrian
 }
 10424487 = {
-    name="Tamasine"
+	name="Tamasine"
 	culture = assyrian
 }
 10424487 = {
-    name="Sameah"
+	name="Sameah"
 	culture = assyrian
 }
 10424488 = {
-    name="Maccabee"
+	name="Maccabee"
 	culture = assyrian
 }
 10424489 = {
-    name="Tabetha"
+	name="Tabetha"
 	culture = assyrian
 }
 10424490 = {
-    name="Raziel"
+	name="Raziel"
 	culture = assyrian
 }
 10424491 = {
-    name="Magdala"
+	name="Magdala"
 	culture = assyrian
 }
 10424492 = {
-    name="Rachim"
+	name="Rachim"
 	culture = assyrian
 }
 10424493 = {
-    name="Samal"
+	name="Samal"
 	culture = assyrian
 }
 10424494 = {
-    name="Tadeusz"
+	name="Tadeusz"
 	culture = aramean
 }
 10424495 = {
-    name="Talmai"
+	name="Talmai"
 	culture = aramean
 }
 10424496 = {
-    name="Samia"
+	name="Samia"
 	culture = aramean
 }
 10424497 = {
-    name="Tadeu"
+	name="Tadeu"
 	culture = aramean
 }
 10424498 = {
-    name="Toomas"
+	name="Toomas"
 	culture = aramean
 }
 1027041 = {
@@ -1461,33 +1461,33 @@
 1027044 = {
 	name="Pendragon"
 	culture = british
-    coat_of_arms = {
-        template = 4
-        layer = {
-            texture = 0
-            texture_internal = 0
-            emblem = 19
-            color = 1
-            color = 2
-            color = 3
-        }
-        layer = {
-            texture = 0
-            texture_internal = 0
-            emblem = 19
-            color = 0
-            color = 2
-            color = 13
-        }
-        layer = {
-            texture = 0
-            texture_internal = 0
-            emblem = 19
-            color = 7
-            color = 2
-            color = 4
-        }
-    }
+	coat_of_arms = {
+		template = 4
+		layer = {
+			texture = 0
+			texture_internal = 0
+			emblem = 19
+			color = 1
+			color = 2
+			color = 3
+		}
+		layer = {
+			texture = 0
+			texture_internal = 0
+			emblem = 19
+			color = 0
+			color = 2
+			color = 13
+		}
+		layer = {
+			texture = 0
+			texture_internal = 0
+			emblem = 19
+			color = 7
+			color = 2
+			color = 4
+		}
+	}
 }
 1027046 = {
 	name="Apollinaris"
@@ -1643,39 +1643,39 @@
 }
 96000000 = {
 	name="al-Ghassani"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 97000000 = {
 	name="al-Lakhmi"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 98000000 = {
 	name="al-Lihyani"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 99000000 = {
 	name="al-Kindahi"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 12400000 = {
 	name="Qurayshi"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 12500000 = {
 	name="Khuza'a"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 12600000 = {
 	name="Hawazin"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 12700000 = {
 	name="Judham"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 12800000 = {
 	name="Himyari"
-	culture = tribal_arab 
+	culture = old_arabic
 }
 13200000 = {
 	name="Krimid"
@@ -1683,7 +1683,7 @@
 }
 13500000 = {
 	name="Infaustus"
-	culture = romanobritish 
+	culture = british
 }
 15600000 = {
 	name="Geganius"
@@ -1966,146 +1966,398 @@
 	culture = coptic
 }
 27200000 = {
-    name="Aetava"
-	culture = sarmatian 
+		name="Aetava"
+	culture = scythian
 }
 27300000 = {
-    name="Gaotema"
-	culture = sarmatian 
+		name="Gaotema"
+	culture = scythian
 }
 27400000 = {
-    name="Daungha"
-	culture = sarmatian 
+		name="Daungha"
+	culture = scythian
 }
 27500000 = {
-    name="Hitaspa"
-	culture = sarmatian 
+		name="Hitaspa"
+	culture = scythian
 }
 27600000 = {
-    name="Spengha"
-	culture = sarmatian 
+		name="Spengha"
+	culture = scythian
 }
 27700000 = {
-    name="Parshinta"
-	culture = sarmatian 
+		name="Parshinta"
+	culture = scythian
 }
 27800000 = {
-    name="Parshanta"
-	culture = sarmatian 
+		name="Parshanta"
+	culture = scythian
 }
 27900000 = {
-    name="Vahauka"
-	culture = sarmatian 
+		name="Vahauka"
+	culture = scythian
 }
 28000000 = {
-    name="Bendva"
-	culture = sarmatian 
+	name="Bendva"
+	culture = scythian
 }
 28100000 = {
-    name="Imanish"
-	culture = sarmatian 
+	name="Imanish"
+	culture = scythian
 }
 28200000 = {
-    name="Yuxtaspa"
-	culture = sarmatian 
+	name="Yuxtaspa"
+	culture = scythian
 }
 28300000 = {
-    name="Xvanvant"
-	culture = sarmatian 
+	name="Xvanvant"
+	culture = scythian
 }
 28400000 = {
-     name="Tumaspa"
-	 culture = sarmatian 
+	 name="Tumaspa"
+	 culture = scythian
 }
 28500000 = {
-    name="Hermericus"
+	name="Hermericus"
 	culture = suevic
 }
 28600000 = {
-    name="Heremigarius"
+	name="Heremigarius"
 	culture = suevic
 }
 28700000 = {
-    name="Rechila"
+	name="Rechila"
 	culture = suevic
 }
 28800000 = {
-    name="Rechiarius"
+	name="Rechiarius"
 	culture = suevic
 }
 28900000 = {
-    name="Agriulfum"
+	name="Agriulfum"
 	culture = suevic
 }
 29000000 = {
-    name="Maldras"
+	name="Maldras"
 	culture = suevic
 }
 29100000 = {
-    name="Massila"
+	name="Massila"
 	culture = suevic
 }
 29200000 = {
-    name="Framta"
+	name="Framta"
 	culture = suevic
 }
 29300000 = {
-    name="Frumarius"
+	name="Frumarius"
 	culture = suevic
 }
 29400000 = {
-    name="Rechimundus"
+	name="Rechimundus"
 	culture = suevic
 }
 29500000 = {
-    name="Remismundus"
+	name="Remismundus"
 	culture = suevic
 }
 29600000 = {
-    name="Veremundus"
+	name="Veremundus"
 	culture = suevic
 }
 29700000 = {
-     name="Chararici"
+	 name="Chararici"
 	 culture = suevic
 }
 29800000 = {
-    name="Ariamirus"
+	name="Ariamirus"
 	culture = suevic
 }
 29900000 = {
-    name="Ildericus"
+	name="Ildericus"
 	culture = suevic
 }
 30000000 = {
-    name="Theudomirus"
+	name="Theudomirus"
 	culture = suevic
 }
 30100000 = {
-    name="Nitigisius"
+	name="Nitigisius"
 	culture = suevic
 }
 30200000 = {
-    name="Uittimer"
+	name="Uittimer"
 	culture = suevic
 }
 30300000 = {
-    name="Eboricus"
+	name="Eboricus"
 	culture = suevic
 }
 30400000 = {
-     name="Siseguntia"
+	 name="Siseguntia"
 	 culture = suevic
 }
 30500000 = {
-     name="Remisiwera"
+	 name="Remisiwera"
 	 culture = suevic
 }
 30600000 = {
-     name="Thuresmuda"
+	 name="Thuresmuda"
 	 culture = suevic
 }
 30700000 = {
-     name="Suinthiliuba"
+	 name="Suinthiliuba"
 	 culture = suevic
+}
+30800000 = {
+	 name="Airyava"
+	 culture = bactrian
+}
+30900000 = {
+	 name="Arenavak"
+	 culture = bactrian
+}
+31000000 = {
+	 name="Ashavanghav"
+	 culture = bactrian
+}
+31100000 = {
+	 name="Berezavant"
+	 culture = bactrian
+}
+31200000 = {
+	 name="Bivandangha"
+	 culture = bactrian
+}
+31300000 = {
+	 name="Frasrutara"
+	 culture = bactrian
+}
+31400000 = {
+	 name="Gandrewa"
+	 culture = bactrian
+}
+31500000 = {
+	 name="Vanghvam"
+	 culture = bactrian
+}
+31500000 = {
+	 name="Huchithra"
+	 culture = bactrian
+}
+31600000 = {
+	 name="Mahrkusha"
+	 culture = bactrian
+}
+31700000 = {
+	 name="Nabunaiti"
+	 culture = bactrian
+}
+31800000 = {
+	 name="Paeshatah"
+	 culture = bactrian
+}
+31900000 = {
+	 name="Ushtazanta"
+	 culture = bactrian
+}
+32000000 = {
+	 name="Vagerezan"
+	 culture = bactrian
+}
+32100000 = {
+	 name="Zbaurvant"
+	 culture = bactrian
+}
+32200000 = {
+	 name="Zrayangha"
+	 culture = bactrian
+}
+32300000 = {
+	 name="Aniketos"
+	 culture = indo-greek
+}
+32400000 = {
+		name="Arkudios"
+	culture = indo-greek
+}
+32500000 = {
+	 name="Askimitzi"
+	 culture = indo-greek
+}
+32600000 = {
+	 name="Barsakios"
+	 culture = indo-greek
+}
+32700000 = {
+	 name="Chrimatas"
+	 culture = indo-greek
+}
+32800000 = {
+	 name="Drongaris"
+	 culture = indo-greek
+}
+32900000 = {
+	 name="Katasteros"
+	 culture = indo-greek
+}
+33000000 = {
+	 name="Kremastos"
+	 culture = indo-greek
+}
+33100000 = {
+	 name="Nikandros"
+	 culture = indo-greek
+}
+33200000 = {
+	 name="Pankallos"
+	 culture = indo-greek
+}
+33300000 = {
+	 name="Saluphas"
+	 culture = indo-greek
+}
+33400000 = {
+	 name="Scupellites"
+	 culture = indo-greek
+}
+33500000 = {
+	 name="Trapezaki"
+	 culture = indo-greek
+}
+33600000 = {
+		name="Varopodos"
+	culture = indo-greek
+}
+33700000 = {
+		name="Leandros"
+	culture = indo-greek
+}
+33800000 = {
+		name="Kalabros"
+	culture = indo-greek
+}
+1000124461 = {
+	name="Calliopas"
+	culture = hellene
+}
+1000124462 = {
+	name="Platos"
+	culture = hellene
+}
+1000124463 = {
+	name="Kallinikos"
+	culture = hellene
+}
+1000124464 = {
+	name="Ioannes"
+	culture = hellene
+}
+1000124465 = {
+	name="Flavius"
+	culture = roman
+}
+1000124466 = {
+	name="Protakles"
+	culture = hellene
+}
+1000124467 = {
+	name="Kompsinokles"
+	culture = hellene
+}
+1000124468 = {
+	name="Faustos"
+	culture = hellene
+}
+1000124469 = {
+	name="Kastorios"
+	culture = hellene
+}
+1000124470 = {
+	name="Constantinos"
+	culture = hellene
+}
+1000124471 = {
+	name="Umbriatikos"
+	culture = hellene
+}
+1000124473 = {
+	name="Zabardos"
+	culture = hellene
+}
+1000124474 = {
+	name="Balearikos"
+	culture = hellene
+}
+1000124479 = {
+	name="Thraikios"
+	culture = hellene
+}
+1000124480 = {
+	name="Flavios"
+	culture = hellene
+}
+1000124481 = {
+	name="Athegouros"
+	culture = hellene
+}
+1000124482 = {
+	name="Skythikos"
+	culture = hellene
+}
+1000124483 = {
+	name="Hegias"
+	culture = hellene
+}
+1000124484 = {
+	name="Comeas"
+	culture = hellene
+}
+1000124485 = {
+	name="Arkadikos"
+	culture = hellene
+}
+1000124486 = {
+	name="Kallios"
+	culture = hellene
+}
+1000124487 = {
+	name="Hagesius"
+	culture = hellene
+}
+1000124488 = {
+	name="Lycomedes"
+	culture = hellene
+}
+1000124512 = {
+	name="Bonos"
+	culture = hellene
+}
+1000124513 = {
+	name="Chartoularios"
+	culture = hellene
+}
+1000124514 = {
+	name="Phrygios"
+	culture = hellene
+}
+1000124515 = {
+	name="Maskoris"
+	culture = hellene
+}
+1000124516 = {
+	name="Arsakides"
+	culture = armenian
+}
+1000124517 = {
+	name="Hierokles"
+	culture = hellene
+}
+1000124519 = {
+	name="Stratonikeos"
+	culture = hellene
+}
+1000124520 = {
+	name="Ioannikes"
+	culture = hellene
 }

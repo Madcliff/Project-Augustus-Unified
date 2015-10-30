@@ -15,12 +15,8 @@ b_ciudadrodrigo = temple
 #b_lumbrales = castle
 
 # Misc
-culture = visigothic
+culture = hispanic
 religion = catholic
-
-700.1.1 = {
-	culture = iberian
-}
 
 # History
 

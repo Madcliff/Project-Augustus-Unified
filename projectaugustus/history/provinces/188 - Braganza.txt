@@ -15,12 +15,8 @@ b_chaves = temple
 #b_azinhoso = castle
 
 # Misc
-culture = suebi
+culture = hispanic
 religion = catholic
-
-700.1.1 = {
-	culture = iberian
-}
 
 # History
 

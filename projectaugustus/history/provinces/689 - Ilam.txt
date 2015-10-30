@@ -16,7 +16,7 @@ b_abdanan = castle
 #b_towhid = castle
 
 #Misc
-culture = lur
+culture = persian
 religion = zurvanite
 
 # History

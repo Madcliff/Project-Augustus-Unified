@@ -1,6 +1,6 @@
 # Introduce Eunuch?
 character_event = {
-	id = GYP.8000
+	id = 1108000
 	desc = EVTDESCLoR.800
 	picture = GFX_evt_emissary_byzantine
 	
@@ -29,12 +29,12 @@ character_event = {
 			text = introduce_eunuch
 			hidden_tooltip = {
 				random_list = {
-					16 = { character_event = { id = GYP.8001 } }
-					16 = { character_event = { id = GYP.8002 } }
-					16 = { character_event = { id = GYP.8003 } }
-					16 = { character_event = { id = GYP.8004 } }
-					16 = { character_event = { id = GYP.8005 } }
-					16 = { character_event = { id = GYP.8006 } }
+					16 = { character_event = { id = 1108001 } }
+					16 = { character_event = { id = 1108002 } }
+					16 = { character_event = { id = 1108003 } }
+					16 = { character_event = { id = 1108004 } }
+					16 = { character_event = { id = 1108005 } }
+					16 = { character_event = { id = 1108006 } }
 				}
 			}
 		}
@@ -47,7 +47,7 @@ character_event = {
 
 # Martial Eunuch
 character_event = {
-	id = GYP.8001
+	id = 1108001
 	desc = EVTDESCTGS.42
 	picture = GFX_evt_emissary_byzantine
 	
@@ -80,7 +80,7 @@ character_event = {
 
 # Diplomacy Eunuch 
 character_event = {
-	id = GYP.8002
+	id = 1108002
 	desc = EVTDESCTGS.43
 	picture = GFX_evt_emissary_byzantine
 	
@@ -113,7 +113,7 @@ character_event = {
 
 # Steward Eunuch
 character_event = {
-	id = GYP.8003
+	id = 1108003
 	desc = EVTDESCTGS.42
 	picture = GFX_evt_emissary_byzantine
 	
@@ -146,7 +146,7 @@ character_event = {
 
 # Spymaster Eunuch
 character_event = {
-	id = GYP.8004
+	id = 1108004
 	desc = EVTDESCTGS.42
 	picture = GFX_evt_emissary_byzantine
 	
@@ -179,7 +179,7 @@ character_event = {
 
 # Learning Eunuch
 character_event = {
-	id = GYP.8005
+	id = 1108005
 	desc = EVTDESCTGS.43
 	picture = GFX_evt_emissary_byzantine
 	
@@ -211,7 +211,7 @@ character_event = {
 }
 
 character_event = {
-	id = GYP.8006
+	id = 1108006
 	desc = EVTDESCTGS.43
 	picture = GFX_evt_emissary
 	

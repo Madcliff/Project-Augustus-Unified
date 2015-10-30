@@ -1082,7 +1082,7 @@ decisions = {
 
 		effect = {
                          prestige = 100
-                	 character_event = { ID = PA.1000286 days = 1 }
+                	 character_event = { ID = PA.10286 days = 1 }
                          set_global_flag = bulgarian_patriarchate
                 }
 
@@ -1112,7 +1112,7 @@ decisions = {
 
 		effect = {
                          prestige = 100
-                	 character_event = { ID = PA.1000293 days = 1 }
+                	 character_event = { ID = PA.10293 days = 1 }
                          set_global_flag = serbian_patriarchate
                 }
 
@@ -1149,7 +1149,7 @@ decisions = {
 
 		effect = {
                          prestige = 100
-                	 character_event = { ID = PA.1000284 days = 1 }
+                	 character_event = { ID = PA.10284 days = 1 }
                          set_global_flag = bulgarian_patriarchate
                 }
 
@@ -1186,7 +1186,7 @@ decisions = {
 
 		effect = {
                          prestige = 100
-                	 character_event = { ID = PA.1000285 days = 1 }
+                	 character_event = { ID = PA.10285 days = 1 }
                          set_global_flag = serbian_patriarchate
                 }
 
@@ -2592,7 +2592,7 @@ decisions = {
 				d_imperial_order = {
 					holder_scope = {
 						character_event = {
-							id = PA.1000347
+							id = PA.10347
 						}
 					}
 				}
@@ -2646,7 +2646,7 @@ decisions = {
 				d_imperial_order = {
 					holder_scope = {
 						character_event = {
-							id = PA.1000340
+							id = PA.10340
 						}
 					}
 				}
@@ -2715,7 +2715,7 @@ decisions = {
 				d_sacred_band = {
 					holder_scope = {
 						character_event = {
-							id = PA.1000362
+							id = PA.10362
 						}
 					}
 				}
@@ -2769,7 +2769,7 @@ decisions = {
 				d_sacred_band = {
 					holder_scope = {
 						character_event = {
-							id = PA.1000355
+							id = PA.10355
 						}
 					}
 				}
@@ -3409,46 +3409,46 @@ decisions = {
 	form_chagatai = {
 		is_high_prio = yes
 		potential = {
-            culture = mongol
+                        culture = mongol
 			has_landed_title = e_mongol_empire
-            NOT = { has_landed_title = k_chagatai }
-            NOT = { any_vassal = { has_landed_title = k_chagatai } }        
-        }
-        allow = {
-            completely_controls = k_khiva
-        }
+                        NOT = { has_landed_title = k_chagatai }
+                        NOT = { any_vassal = { has_landed_title = k_chagatai } }        
+                 }
+                 allow = {
+                        completely_controls = k_khiva
+                 }
 		effect = {
-           activate_title = { title = k_chagatai status = yes }
-            k_chagatai = {
-                grant_title = ROOT
-			     copy_title_laws = e_mongol_empire
-            }
+                        activate_title = { title = k_chagatai status = yes }
+                        k_chagatai = {
+                        	grant_title = ROOT
+		           	copy_title_laws = e_mongol_empire
+                        }
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
 
-    # Declare Independence
+        # Declare Independence
 	form_chagatai2 = {
 		is_high_prio = yes
 		potential = {
-            tier = king
-            culture = mongol
-            independent = yes
+                        tier = king
+                        culture = mongol
+                        independent = yes
 			has_landed_title = k_chagatai
-            NOT = { has_landed_title = e_chagatai }
-        }
-        allow = {
-            completely_controls = k_khiva
-        }
+                        NOT = { has_landed_title = e_chagatai }
+                }
+                allow = {
+            		completely_controls = k_khiva
+                }
 		effect = {
-            prestige = 500
-            activate_title = { title = e_chagatai status = yes }
-            e_chagatai = {
-                grant_title = ROOT
-			    copy_title_laws = k_chagatai
-            }
+            		 prestige = 500
+                         activate_title = { title = e_chagatai status = yes }
+                         e_chagatai = {
+                	 	grant_title = ROOT
+			        copy_title_laws = k_chagatai
+                         }
 		}
 		ai_will_do = {
 			factor = 0

@@ -1,17 +1,3 @@
-466.1.1={
-	liege="k_suevic"
-}
-469.1.2={
-	holder=1438135
-}
-
-630.1.1 = {
-	holder = 1000256211
-	liege = d_porto
-}
-685.1.1 = {
-	holder = 0
-}
 758.1.1={
 	holder=200032 # Suleyman Suleymanid
 	liege=e_umayyad

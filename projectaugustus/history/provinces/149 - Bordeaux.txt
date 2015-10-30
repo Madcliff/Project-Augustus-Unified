@@ -20,9 +20,6 @@ religion = catholic
 culture = basque
 
 # History
-700.1.1 = {
-	b_blaye = ct_jewish_community_1
-}
 930.1.1 = {
 	b_castillon = castle	
 }

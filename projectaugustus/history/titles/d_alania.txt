@@ -1,13 +1,3 @@
-20.1.1 = {
-	historical_nomad = yes
-}
-470.1.1 = {
-	holder = 10257412 
-}
-600.1.1 = { 
-	holder=1000257450 
-	set_tribute_suzerain = { who = e_gokturk percentage = 0.40 }
-}
 654.1.1={
 	liege = e_khazaria
 	holder=74004

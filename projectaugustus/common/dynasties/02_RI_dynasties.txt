@@ -774,26 +774,4 @@
 	culture = himyarite
 }
 
-1000124581 = {
-	name = Bashkir
-	culture = turkish
-}
-1000124582 = {
-	name="Srednogorski"
-	culture = barsil
-}
-1000124583 = {
-	name = Ezgil
-	culture = esegel 
-}
-
-1000124584 = {
-	name = Kashu
-	culture = esegel 
-}
-
-1000124585 = {
-	name = Barskhan
-	culture = esegel 
-}
 

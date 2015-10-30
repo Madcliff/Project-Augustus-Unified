@@ -14,7 +14,7 @@ narrative_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		activate_title = { title = d_guardians_of_light  }
+		activate_title = { title = d_guardians_of_light = yes }
 		create_character = {
 			random_traits = no
 			dynasty = random

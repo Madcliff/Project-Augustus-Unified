@@ -20,7 +20,7 @@ religion = catholic
 
 # History
 
-840.1.1 = { culture = iberian }
+840.1.1 = { culture = hispanic }
 
 931.1.1={
 	culture = portuguese

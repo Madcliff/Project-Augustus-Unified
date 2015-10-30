@@ -1,15 +1,3 @@
-467.1.1={
-	holder=1438134 
-	liege=k_suevic
-}
-
-630.1.1 = {
-	holder = 1000256901
-	liege = d_cordoba
-}
-660.1.1 = {
-	holder = 0
-}
 769.1.1={
 	holder=73680 # Hisham I Umayyad
 	liege=d_sevilla

@@ -1,16 +1,8 @@
-474.11.17={
-	holder=70515
-	liege="e_byzantium"
-}
 330.1.1={
 	liege="e_byzantium"
 	vice_royalty = yes
 	set_global_flag = pat_antioch
 }
-630.1.1={
-	holder = 1000257339
-}
-
 637.1.1={
 	liege="e_sunni"
 	vice_royalty = no
@@ -22,7 +14,7 @@
 758.1.1={
         liege = 0
 	holder=146049
-	set_tribute_suzerain = { who = e_sunni percentage = 0.40 }
+	set_tribute_suzerain = { who = e_sunni percentage = 0.10 }
 }
 791.1.1={
 	holder=146050

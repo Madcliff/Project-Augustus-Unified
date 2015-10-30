@@ -1,16 +1,6 @@
-474.11.17={
-	holder=70515
-	liege="e_byzantium"
-}
-630.1.1={
+337.1.1={
 	liege="d_aegean_islands"
-}
-604.1.1 = {
-	holder = 1000257323
-	liege="d_aegean_islands"
-}
-650.1.1 = {
-	holder = 0
+	de_jure_liege="d_aegean_islands"
 }
 755.1.1={
 	holder=145820
@@ -57,19 +47,19 @@
 }
 1204.5.16={
 	liege="e_latin_empire"	        
-        holder=205523
+    holder=205523
 }
 1205.6.1={
-        holder=205525
+    holder=205525
 }
 1216.6.11={
-        holder=205725
+    holder=205725
 }
 1219.1.1={
-        holder=205526
+    holder=205526
 }
 1221.3.25={
-        holder=91062
+    holder=91062
 }
 1225.1.1={
 	liege="d_samos"

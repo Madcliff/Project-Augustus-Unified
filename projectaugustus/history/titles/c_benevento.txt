@@ -1,18 +1,5 @@
-100.1.1 = {
-	liege = e_western
-}
-
-475.1.1 = {
-	holder=1000256105 
-}
-476.1.1=
-{
-liege=k_italy
-holder=1438108
-}
 571.1.1={
-	liege=k_lombardy #Experimenting with independent Southern Italy
-	holder = 190127 #Zotto
+	liege=d_benevento
 }
 571.1.1={
 	holder = 190127 #Zotto
@@ -95,7 +82,7 @@ holder=73321
 1053.1.1=
 {
 holder=73472
-liege=d_apulia
+liege=d_calabria
 }
 1069.1.1=
 {
